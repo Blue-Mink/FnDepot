@@ -2,7 +2,7 @@
 
 KSpeeder 是一款 Docker 镜像加速管理工具，支持多源镜像缓存、加速规则管理、流量统计与自动清理，帮助提升容器镜像拉取速度。
 
-本目录提供适配飞牛 fnOS 应用中心的 KSpeeder FPK 打包版本，基于 [kspeeder/docker_kspeeder](https://github.com/kspeeder/docker_kspeeder) 与 iStoreEnhance v0.7.17 构建。
+本目录提供适配飞牛 fnOS 应用中心的 KSpeeder FPK 打包版本，基于 [kspeeder/docker_kspeeder](https://github.com/kspeeder/docker_kspeeder) 与 iStoreEnhance v0.8.0 构建。
 
 ## 功能特点
 
@@ -18,7 +18,7 @@ KSpeeder 是一款 Docker 镜像加速管理工具，支持多源镜像缓存、
 | :--- | :--- |
 | 应用名称 | KSpeeder |
 | fnOS 包名 | `kspeeder` |
-| 当前版本 | `0.7.17` |
+| 当前版本 | `0.8.0` |
 | 平台 | fnOS x86_64 |
 | 默认管理端口 | `5003` |
 | 默认镜像代理端口 | `5443` |
@@ -27,7 +27,7 @@ KSpeeder 是一款 Docker 镜像加速管理工具，支持多源镜像缓存、
 
 ## 安装方式
 
-1. 下载 Release 中的 `kspeeder-0.7.17-fnos-amd64.fpk`
+1. 下载 Release 中的 `kspeeder-0.8.0-fnos-amd64.fpk`
 2. 在 fnOS 应用中心选择“手动安装”
 3. 按向导设置端口（默认管理端口 `5003`、代理端口 `5443`）
 4. 安装完成后点击“打开”进入 KSpeeder Web UI
@@ -45,6 +45,14 @@ KSpeeder 是一款 Docker 镜像加速管理工具，支持多源镜像缓存、
 ```
 
 如果在应用设置中修改了镜像代理端口，请同步修改 Docker daemon 的 registry mirror 地址。
+
+## v0.8.0 更新内容
+
+- 同步 iStoreEnhance / KSpeeder 引擎至 v0.8.0（build 8664）
+- 新增 `kspeeder download` 命令与智能下载网关加速（含 Python/pip、Homebrew 加速）
+- 修复 docker manifest 镜像回源重试与 ghcr bottles 域名问题
+- 图标按 fnOS 系统官方 squircle 圆角曲线重制
+- 沿用端口配置闭环：管理端口、代理端口、`ui/config`、AppCenter 入口与实际监听端口保持同步
 
 ## v0.7.17 更新内容
 
