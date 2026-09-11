@@ -115,7 +115,7 @@
   },
   "new-api": {
     "display_name": "New API",
-    "version": "1.0.0-rc.27",
+    "version": "1.0.0-rc.37",
     "platform": "x86",
     "desc": "新一代大模型网关与 AI 资产管理系统，聚合多模型供应商，提供 OpenAI 兼容接口、智能路由、权限管理、用量统计与成本核算。",
     "labels": "工具,AI",
@@ -128,11 +128,11 @@
     "distributor": "Blue-Mink",
     "distributor_url": "https://github.com/Blue-Mink",
     "install_type": "用户空间",
-    "size": "36.94",
+    "size": "38.47",
     "isdocker": "false",
     "service_port": "33000",
-    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/new-api-v1.0.0-rc.27-fnos-amd64-root/new-api-1.0.0-rc.27-fnos-amd64-root.fpk",
-    "changelog": "基于 QuantumNous/new-api 官方 v1.0.0-rc.27 Linux amd64 二进制构建\nroot 权限测试验证版\n默认端口 33000，应用中心 iframe 入口\n补齐 icon_64.png / icon_256.png 图标兼容文件"
+    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/new-api-v1.0.0-rc.37/new-api-1.0.0-rc.37-fnos-amd64-root.fpk",
+    "changelog": "基于 QuantumNous/new-api 官方 v1.0.0-rc.37 Linux 二进制构建\n定价表达式编辑器（旧定价将弃用）、任务插件流式输出与市场增强、渠道创建编辑统一、通行密钥多域名\nroot 权限测试验证版（amd64 已在 fnOS x86_64 实机验证）\n新增 arm64 架构包（未实机验证）\n默认端口 33000，应用中心 iframe 入口"
   },
   "dockflare": {
     "display_name": "DockFlare",
