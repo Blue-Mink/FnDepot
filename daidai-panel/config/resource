@@ -1,7 +1,0 @@
-{
-    "data-share": {
-        "shares": [
-            { "name": "daidai-panel-data", "permission": { "rw": ["daidai-panel"] } }
-        ]
-    }
-}
