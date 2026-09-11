@@ -94,8 +94,8 @@
   },
   "daidai-panel": {
     "display_name": "呆呆面板",
-    "version": "2.3.9",
-    "platform": "all",
+    "version": "3.2.6",
+    "platform": "x86",
     "desc": "基于青龙面板的轻量级定时脚本管理面板。支持 Python、Node.js、Shell、TypeScript、Go 等多语言脚本，内置 18 种消息推送渠道、订阅管理、环境变量、依赖管理、Open API 等功能。一些脚本 https://www.xiaoxin03.top/",
     "labels": "工具",
     "icon_url": "./daidai-panel/ICON.PNG",
@@ -107,11 +107,11 @@
     "distributor": "Blue-Mink",
     "distributor_url": "https://github.com/Blue-Mink",
     "install_type": "用户空间",
-    "size": "13.2",
+    "size": "19.3",
     "isdocker": "false",
     "service_port": "35700",
-    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v2.3.9/daidai-panel-v2.3.9.fpk",
-    "changelog": "更新应用图标为小恐龙图标\n优化图标显示效果"
+    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v3.2.6/daidai-panel-v3.2.6.fpk",
+    "changelog": "升级上游 v3.2.6(2026-09-08)：定时规则支持工作日时段表达式、订阅自动开关独立设置、依赖管理新增系统命令行等；随包提供 ddp 命令行工具；修复端口设置闭环(设置页回显真实端口、打开入口随端口同步)；图标改用官方圆角曲线；平台修正为 x86_64"
   },
   "new-api": {
     "display_name": "New API",
