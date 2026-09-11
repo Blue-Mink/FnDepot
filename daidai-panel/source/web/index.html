@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- 换文件名要同步 server/main.go 的 engine.StaticFile：漏改不是 404，是 200 + index.html。 -->
+    <link rel="icon" type="image/webp" href="/favicon-512.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet" />
+    <link rel="stylesheet" href="/assets/optimization.css" />
+    <!-- 字体自托管（原为 fonts.loli.net）。缘由与约束见 public/fonts/fonts.css 顶部注释。 -->
+    <link rel="stylesheet" href="/fonts/fonts.css" />
+    <title>呆呆面板</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

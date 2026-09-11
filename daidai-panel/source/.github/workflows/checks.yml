@@ -1,0 +1,274 @@
+name: Checks
+
+# 可复用工作流：常规 CI（ci.yml）与发布门禁（release.yml）共用同一份检查逻辑，
+# 避免两边各写一份后随时间漂移——门禁一旦和 CI 不一致，门禁就失去意义。
+on:
+  workflow_call:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
+
+jobs:
+  checks:
+    name: go vet / go test / 前端构建
+    # 必须是 Linux：Docker 镜像与各发行包都是 Linux，这里才是实际部署平台。
+    # 此前后端测试从未在 Linux 上跑过，导致一个只在 Linux 复现的路径解析 bug 长期未被发现。
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      # Go 版本以 server/go.mod 为准（go 1.25.0），与 Dockerfile 的 golang:1.25-alpine 一致。
+      # 用 go-version-file 而非硬编码，保证升级 go.mod 时 CI 自动跟随。
+      - name: Set up Go
+        uses: actions/setup-go@v6
+        with:
+          go-version-file: server/go.mod
+          cache: true
+          cache-dependency-path: server/go.sum
+
+      # Node 版本与 Dockerfile 的 node:20.19.0-bookworm-slim 对齐，
+      # 让 CI 的前端构建环境与发布镜像里的构建环境保持一致。
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '20.19.0'
+          cache: 'npm'
+          cache-dependency-path: web/package-lock.json
+
+      - name: Go vet
+        working-directory: server
+        run: go vet ./...
+
+      # 部分测试依赖 bash 与 git（缺失时会 t.Skip），ubuntu-latest runner 自带，无需额外安装。
+      - name: Go test
+        working-directory: server
+        run: go test ./...
+
+      # 仓库里的 shell（docker/entrypoint.sh + Magisk/*.sh）加起来上千行，
+      # 而它们一行都不进 go test —— 少一个 fi、多一个引号，go test 与 CI 照样全绿，
+      # 用户刷进去之后开机脚本从错误点开始整段不执行。
+      # 这一步还会把 `ruri ... -c '<脚本>'` 这类【以字符串传进容器执行】的内联脚本
+      # 单独抽出来检查：它们对整文件的 bash -n 是透明的，写错只会被 2>/dev/null 吞掉。
+      - name: Shell 语法门禁（bash -n / dash -n / 内联脚本）
+        run: bash scripts/check-shell-syntax.sh
+
+      # docker/entrypoint.sh 此前【零测试零 CI 覆盖】：改坏了 go test 照样全绿，
+      # 而它坏掉的表现是「容器起不来」或「面板能开但装依赖必报 EACCES」——
+      # 两种都只有真实用户会遇到。server/service/docker_entrypoint_assets_test.go
+      # 里那些静态字符串断言只能防住关键行被删掉，防不住 shell 逻辑写错。
+      #
+      # 这一步把 entrypoint.sh 原样跑起来（只桩掉 nginx / find / su-exec / gosu /
+      # daidai-server），验证八种 PUID/PGID 组合下的最终 uid、gid、HOME 指向、
+      # 「HOME 到底能不能写」，以及只读数据目录下有没有给出友好诊断。
+      # 需要 root：要建用户、chown、用 setpriv 降权。
+      #
+      # 脚本自己会 unshare --mount 并给 /tmp 挂私有 tmpfs —— entrypoint 有一句
+      # chown -R ... /tmp（容器里无害），不隔离会把 runner 的 /tmp 属主改掉。
+      #
+      # 【怎么让它失败一次】用 ENTRYPOINT_SRC 指向一个被改坏的 entrypoint 即可：
+      #   ENTRYPOINT_SRC=<文件> sudo -E bash docker/test-entrypoint-puid.sh
+      # 已实测的三个变异都会变红，且都是被对应那条断言抓到的：
+      #   - 把 su-exec/gosu 的 user:group 退回只传用户名 -> 「gid 取自 PGID」变红
+      #   - 去掉 mkdir 家目录的 || true                  -> 「友好诊断」两条变红
+      #   - 去掉 env 钉 HOME                             -> 「npm cache 可写」变红
+      # 换回 v3.0.6 那版 entrypoint 则会红掉绝大多数断言。
+      - name: entrypoint PUID/PGID 降权回归（真跑一遍 shell 逻辑）
+        run: sudo bash docker/test-entrypoint-puid.sh
+
+      - name: 安装前端依赖
+        working-directory: web
+        run: npm ci
+
+      # npm run build 内含 vue-tsc -b，因此这一步同时覆盖前端类型检查。
+      - name: 前端构建（含 vue-tsc 类型检查）
+        working-directory: web
+        run: npm run build
+
+      # 硬约束：发布版产物必须 0 字节 demo 代码。
+      #
+      # web/src/demo/** 是在线演示 Demo 的浏览器内 mock 层，只允许进入 build:demo 的产物。
+      # 它靠「import.meta.env.VITE_DEMO 编译期常量 + 动态 import()」被 rollup 整段剔除，
+      # 而这种消除很容易被一次「顺手改成静态 import」悄悄破坏——构建照样绿，
+      # 但真实用户会拿到一套 mock，最坏情况是真实面板里某个请求被 mock 顶替。
+      # 所以这里把它做成 CI 门禁，而不是靠人工 grep。
+      #
+      # ⚠️ 判据必须是 web/src/demo/index.ts 里那个【字符串字面量】哨兵，不能用函数名/模块路径：
+      #    应用构建开着 esbuild minifyIdentifiers，rollup 对 es 格式又默认 minifyInternalExports，
+      #    `installDemo` 这种导出名在产物里会被压成单字母；模块路径（如 demo/fixtures）
+      #    则压根不会出现在产物里。拿它们做判据，两种构建都是 0 命中——门禁恒绿、等于没有。
+      - name: 断言发布版产物不含 Demo mock 代码
+        working-directory: web
+        run: |
+          set -euo pipefail
+          test -d dist/assets
+          if grep -rl '__DAIDAI_DEMO_MOCK__' dist/assets; then
+            echo "::error::发布版产物里混进了 Demo mock 代码，请检查 web/src/demo 的引用方式是否仍是动态 import + VITE_DEMO 守卫"
+            exit 1
+          fi
+          echo "OK：发布版产物不含 Demo mock 代码"
+
+      # R5 三项跨界修改的产物级门禁。它们的共同点是【改坏了不会有任何报错】：
+      #
+      #   - robots：发布版真正生效的是 web/index.html 里那行静态默认值
+      #     （vite.config.ts 的 robotsMetaPlugin 在非 Demo 构建下直接 return，
+      #     刻意让安全值是静态的）。也就是说把那行改成 index, follow 照样构建通过，
+      #     自建面板从此被搜索引擎收录，没有任何一步会红。
+      #   - 自托管字体：font-display: swap 决定了拉不到字体只会【静默】退回系统字体。
+      #     这正是本次去掉 fonts.loli.net 想消灭的那种失效方式，不能又靠肉眼验收守它。
+      #   - 外部字体域：一旦有人把 <link> 改回第三方 CDN，内网 / NAS / 离线部署
+      #     又会回到静默降级。这里只认带 scheme 的形式，避免误伤 index.html 里
+      #     那句「（原为 fonts.loli.net）」的中文注释。
+      - name: 断言发布版产物的 robots 与自托管字体
+        working-directory: web
+        run: |
+          set -euo pipefail
+          test -f dist/index.html
+          if ! grep -qE '<meta[^>]+name="robots"[^>]+content="noindex' dist/index.html; then
+            echo "::error::发布版 index.html 的 robots meta 不是 noindex。web/index.html 里那行静态默认值才是发布版生效的那份，不要改动它"
+            exit 1
+          fi
+          test -f dist/fonts/fonts.css
+          if ! ls dist/fonts/*.woff2 >/dev/null 2>&1; then
+            echo "::error::发布版产物里没有 woff2。字体二进制是进版本库的构建输入，缺失时先跑 node web/scripts/fetch-fonts.mjs 再提交"
+            exit 1
+          fi
+          if grep -qE 'https?://fonts\.(loli\.net|googleapis\.com|gstatic\.com)' dist/index.html; then
+            echo "::error::发布版 index.html 又引用了第三方字体 CDN，内网 / 离线部署会静默退回系统字体"
+            exit 1
+          fi
+          echo "OK：发布版 robots 保持 noindex，字体自托管且无外部字体域"
+
+      # 全站中文文案的唯一开关，是 web/src/main.ts 里那行
+      # provideGlobalConfig({ locale: zhCn }, app, true)。
+      #
+      # 【为什么必须由机器守】删掉它不会有任何报错：vue-tsc 过、vite build 过、
+      # 页面照常渲染，只是确认框回到 Cancel/OK、表格空态回到 No Data、分页器回到 20/page。
+      # 又一个「改坏了全绿」的静默回归，和上面 robots / 自托管字体是同一类失效方式。
+      #
+      # 【为什么判据是 `共 {total} 条`】它是 el-pagination 的 total 模板，
+      # 带 Element Plus 自己的 {} 插值语法（es/hooks/use-locale/index.mjs 的
+      # translate() 用 /\{(\w+)\}/g 做替换），业务模板只会写 {{ total }}，撞不上。
+      # web/src 下唯一的字面命中在 main.ts 的注释里，esbuild 会剥离注释，不污染产物。
+      #   - ❌ 不能用「暂无数据」：web/src 下有 6 处手写（IPWhitelistCard.vue /
+      #     LoginLogsCard.vue / SessionManagementCard.vue 各 2 处的 empty-text 与
+      #     el-empty description）。locale 被剔掉照样命中 ⇒ 恒绿的空转门禁。
+      #   - ❌ 不能用任何英文串：英文包 en.mjs 被 es/hooks/use-locale/index.mjs:1
+      #     【静态 import】，配没配中文都躺在产物里，同样恒真。
+      #
+      # 【怎么让它失败一次】把 main.ts 里 provideGlobalConfig 那行注释掉再构建：
+      # zhCn 这个 import 就没人使用，而 element-plus 的 sideEffects 不含 es/locale/**，
+      # rollup 会把整份中文包剔掉，产物里再也搜不到这个串 ⇒ 本步骤变红。
+      #
+      # 【为什么不配反向断言】这与 robots 那一对不同。robots 需要配对，是因为 noindex
+      # 同时也是 index.html 里的静态默认值，改写插件失效时两种构建都是 noindex、断言恒真；
+      # 而这条是「必须命中」的正向断言，判据一旦消失就直接变红，本身就自带证伪能力。
+      # 不要照着 robots 的样子给它补一条反向断言，那是画蛇添足。
+      #
+      # grep 用 -F 固定串匹配：判据里的 { } 在 BRE 下有特殊含义，别改回 -r/-E。
+      - name: 断言发布版产物含 Element Plus 中文 locale
+        working-directory: web
+        run: |
+          set -euo pipefail
+          test -d dist/assets
+          if ! grep -rlF '共 {total} 条' dist/assets; then
+            echo "::error::发布版产物里找不到 Element Plus 中文 locale。main.ts 的 provideGlobalConfig({ locale: zhCn }, app, true) 可能被删或被 tree-shake，全站会静默回落英文（Cancel/OK、No Data、20/page）"
+            exit 1
+          fi
+          echo "OK：发布版产物包含 Element Plus 中文 locale"
+
+      # Monaco 是【第二个可切换编辑器引擎】，默认引擎与移动端引擎仍然是 CodeMirror 6。
+      # 它整块约 1 MiB，唯一的导入边界是 web/src/utils/monacoEngine.ts，
+      # 其余地方一律 `await import('@/utils/monacoEngine')` —— 没切过去的用户
+      # 一个字节都不该下载。这条约束没有任何运行期表现，只能由产物门禁来守。
+      #
+      # 【为什么必须成对】
+      #   - 正向那条保证 monaco chunk 真的在产物里。少了它，下面的反向 grep 在
+      #     「Monaco 压根没被打包」时也是 0 命中 ⇒ 恒真的空转门禁，和 Demo 哨兵
+      #     那一对是同一个道理。
+      #   - 反向那条保证它没被塞进首屏。最常见的成因是有人删掉了 vite.config.ts 里
+      #     把 vite/preload-helper 钉到 app-core 的那条 manualChunks 规则：删掉之后
+      #     Rollup 会把 preload helper 折进 monaco chunk，入口随之变成【静态】
+      #     import monaco，index.html 里冒出 monaco 的 modulepreload 与 stylesheet。
+      #     这种劣化【构建成功、页面照常能用】，只是所有人白下 ~1 MiB，
+      #     肉眼验收绝对发现不了，只有这条断言抓得住。
+      #
+      # 位置必须排在下面的 build:demo 之前：那一步会先清空 dist 再重建。
+      - name: 断言 Monaco 已打包且未进首屏（懒加载没被破坏）
+        working-directory: web
+        run: |
+          set -euo pipefail
+          test -f dist/index.html
+          ls dist/assets/monaco-*.js >/dev/null 2>&1 || {
+            echo "::error::找不到 monaco chunk：Monaco 没被打进产物。要么 monacoEngine.ts 的动态 import 断了，要么 vite.config.ts 里那条 'node_modules/monaco-editor' -> monaco 的分块规则没了；此时下面那条反向断言也已经失去意义"
+            exit 1
+          }
+          if grep -qE '<link[^>]+(modulepreload|stylesheet)[^>]+/assets/monaco-' dist/index.html; then
+            echo "::error::Monaco 被打进首屏：懒加载失效，没切引擎的用户也要白下约 1 MiB。先检查 vite.config.ts 里把 vite/preload-helper 钉到 app-core 的那条 manualChunks 规则是否被删"
+            exit 1
+          fi
+          echo "OK：Monaco 单独成块，且未出现在首屏的 modulepreload / stylesheet 里"
+
+      # Demo 站点的实际部署在 .github/workflows/deploy-demo.yml
+      # （发版时由 release.yml 调用，另外也可手动 workflow_dispatch 触发），
+      # 但构建放在这里跑：前端改动把 mock 层或子路径构建搞坏时，PR 阶段就能变红，
+      # 而不是等到发版当场才发现。
+      # 注意 build:demo 会先清空 dist 再重建，所以必须排在上面的发布版断言之后。
+      - name: Demo 站点构建（只构建，不部署）
+        working-directory: web
+        run: npm run build:demo
+
+      # 反向断言：哨兵必须真的出现在 Demo 产物里。
+      #
+      # 没有这一条的话，上面那条「发布版不含 Demo 代码」是无法证伪的——
+      # 哪天哨兵被改名、被 tree-shake 掉，或者 grep 写错了目录，
+      # 两条构建都会 0 命中，门禁静默失效而且没人会发现。
+      # 这一步存在的唯一意义，就是保证上面那条断言确实有牙。
+      - name: 断言 Demo 产物含 mock 哨兵（证明上面的门禁没有失效）
+        working-directory: web
+        run: |
+          set -euo pipefail
+          test -d dist/assets
+          if ! grep -rl '__DAIDAI_DEMO_MOCK__' dist/assets; then
+            echo "::error::Demo 产物里找不到 mock 哨兵。要么 mock 层没被打进去（演示站会真打网络），要么哨兵被改名/被 tree-shake 掉，此时发布版那条门禁也已失效"
+            exit 1
+          fi
+          echo "OK：Demo 产物包含 mock 哨兵"
+
+      # 与发布版那条 noindex 成对的反向断言，理由和哨兵那一对完全一样：
+      # 哪天 robotsMetaPlugin 被摘掉或改写失配，两条构建的产物都会是 noindex，
+      # 上面那条断言照样通过 —— 门禁静默失效，而「Demo 能被搜索引擎收录」
+      # 正是那段改写代码存在的唯一理由。
+      - name: 断言 Demo 产物 robots 已反转（证明上面的 noindex 门禁没有失效）
+        working-directory: web
+        run: |
+          set -euo pipefail
+          if ! grep -qE '<meta[^>]+name="robots"[^>]+content="index, follow"' dist/index.html; then
+            echo "::error::Demo 产物的 robots meta 没被改写成 index, follow。此时发布版那条 noindex 断言也已经失去意义"
+            exit 1
+          fi
+          echo "OK：Demo 产物 robots 为 index, follow"
+
+      # 子路径部署 × 自托管字体的组合验证。
+      # index.html 里写的是 /fonts/fonts.css，要靠 Vite 按 --base 重写成
+      # /daidai-panel/fonts/fonts.css。漏了重写就会打到 github.io 站点根上 404，
+      # 而 font-display: swap 让这件事【静默】发生：页面不白屏、Console 不报错，
+      # 只是字形不对 —— 一轮人工验收基本发现不了，所以必须由机器守。
+      - name: 断言 Demo 产物的字体引用带 base 前缀
+        working-directory: web
+        run: |
+          set -euo pipefail
+          if ! grep -q '/daidai-panel/fonts/fonts.css' dist/index.html; then
+            echo "::error::Demo 产物 index.html 里的字体样式表没带 /daidai-panel/ 前缀，线上会 404 并静默退回系统字体"
+            exit 1
+          fi
+          test -f dist/fonts/fonts.css
+          echo "OK：Demo 产物字体引用带 base 前缀"
+
+      # GitHub Pages 没有 nginx `try_files` 的等价物，深链刷新全靠这份 404.html 兜底。
+      # 它由 scripts/copy-spa-fallback.mjs 从构建产物复制而来，缺了就等于深链必 404。
+      - name: 断言 Demo 产物带 SPA fallback
+        working-directory: web
+        run: |
+          set -euo pipefail
+          test -f dist/404.html
+          echo "OK：Demo 产物包含 404.html"

@@ -1,0 +1,16 @@
+name: CI
+
+# 常规 CI：main 分支推送与所有 PR 都要跑一遍完整检查。
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  # 直接复用 checks.yml，保证与发布门禁跑的是完全相同的检查。
+  checks:
+    uses: ./.github/workflows/checks.yml
