@@ -152,26 +152,6 @@ TREK 是一款自托管旅行规划工具，基于 [liketrek/TREK](https://githu
 
 ---
 
-### 🧠 New API
-
-新一代大模型网关与AI资产管理系统——聚合40+模型供应商，统一OpenAI兼容接口，支持智能路由、权限管理、用量统计与成本核算。
-
-<div align="center">
-
-[![New API](https://img.shields.io/badge/New--API-v1.0.0--rc.22-blue?style=flat-square)](https://github.com/Blue-Mink/FnDepot)
-[![Platform](https://img.shields.io/badge/Platform-x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
-
-</div>
-
-| 项目 | 信息 |
-| :--- | :--- |
-| 👨‍💻 **原作者** | [QuantumNous](https://github.com/QuantumNous) |
-| 📁 **原项目** | [new-api](https://github.com/QuantumNous/new-api) |
-| 📥 **安装方式** | 下载 [new-api-v1.0.0-rc.22.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/v1.0.0-rc.22/new-api-v1.0.0-rc.22.fpk) 在 fnOS 应用中心手动安装，安装时可选端口（默认33000） |
-| 🏷️ **版本** | v1.0.0-rc.22（同步原作者最新版） |
-
----
-
 ### 🧠 New API (new-api)
 
 新一代大模型网关与 AI 资产管理系统，聚合多模型供应商，提供 OpenAI 兼容接口、智能路由、权限管理、用量统计与成本核算。
