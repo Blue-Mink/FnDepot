@@ -158,8 +158,8 @@ TREK 是一款自托管旅行规划工具，基于 [liketrek/TREK](https://githu
 
 <div align="center">
 
-[![new-api](https://img.shields.io/badge/new--api-v1.0.0--rc.27-blue?style=flat-square)](https://github.com/Blue-Mink/FnDepot)
-[![Platform](https://img.shields.io/badge/Platform-x86__64-lightgrey?style=flat-square)](#)
+[![new-api](https://img.shields.io/badge/new--api-v1.0.0--rc.37-blue?style=flat-square)](https://github.com/Blue-Mink/FnDepot)
+[![Platform](https://img.shields.io/badge/Platform-x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
 
 </div>
 
@@ -168,7 +168,7 @@ TREK 是一款自托管旅行规划工具，基于 [liketrek/TREK](https://githu
 | 👨‍💻 **原作者** | [QuantumNous](https://github.com/QuantumNous) |
 | 📁 **原项目** | [new-api](https://github.com/QuantumNous/new-api) |
 | 📥 **安装方式** | 在飞牛 FnDepot 添加本源，或下载 Release 中的 `.fpk` 手动安装 |
-| 🏷️ **版本** | v1.0.0-rc.27 |
+| 🏷️ **版本** | v1.0.0-rc.37 |
 | 🌐 **默认端口** | 33000 |
 ---
 
