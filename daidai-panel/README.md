@@ -59,6 +59,13 @@
 
 ---
 
+## 📁 源码
+
+- `daidai-panel/source/` — 上游 [linzixuanzz/daidai-panel](https://github.com/linzixuanzz/daidai-panel) **v3.2.6 源码快照**（MIT，与发布二进制同源）
+- Release 资产 `daidai-panel-source-v3.2.6.zip` — 本 FPK 的打包工程（manifest / 生命周期脚本 / 向导 / 图标）
+
+---
+
 ## 🛠️ 技术栈
 
 | 组件 | 版本/说明 |
