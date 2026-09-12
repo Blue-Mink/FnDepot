@@ -3,19 +3,35 @@
 ![GitHub release](https://img.shields.io/github/v/release/Blue-Mink/fnos-vm-dongguaha?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-fnOS%20x86_64-blue?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
-![HA](https://img.shields.io/badge/Home%20Assistant-18.0-red?style=flat-square)
+![HA](https://img.shields.io/badge/Home%20Assistant-18.2-red?style=flat-square)
 
 > 在 x86 fnOS 系统中创建冬瓜HAOS虚拟机。
+> 内置「IP 寻踪」固定入口：应用中心/桌面图标一键打开 Home Assistant，无需关心虚拟机 IP 变化。
+
+---
+
+## ✨ 特性
+
+- 🎛️ **向导选配置**：安装时自选 CPU / 内存 / 磁盘 / HAOS 版本（下拉选择），参数直通虚拟机真实配置
+- 🔍 **IP 寻踪**：应用中心图标的「打开」按钮固定指向 `http://NAS_IP:36123/`，自动追踪虚拟机当前 IP；发现链六级：MAC→ARP → **VNC 横幅直读**（OCR 虚拟机控制台横幅上的 IP，亚秒级）→ mDNS(homeassistant.local) → virsh domifaddr → 局域网扫描 → **:8124 端口探测补齐**，DHCP 地址变化无感跟随
+- 🖥️ **桌面双入口**：安装后飞牛桌面出现两个图标——**冬瓜HAOS**（→ 冬瓜管理后台 `:8124`，经反代优化）与 **Home Assistant**（`/ha` → Home Assistant `:8123`），均自动跟随虚拟机 IP 变化
+- 🚫 **去横幅**：管理后台经本机 `36124` 反向代理，自动改写前端的「浏览器版本过低」UA 检测（QQ 浏览器等低版本号 UA 不再误弹横幅）
+- 🖥️ 虚拟机未在运行时，寻踪页会给出启动指引并自动重试
+- 🧩 冬瓜HAOS 版本可选：18.2 / 18.1 / 18.0 / 17.3.1（镜像均来自冬瓜官方 CDN）
 
 ---
 
 ## 📦 安装
 
-1. 下载 [com.dongguaha.vm-18.0-fnos-amd64.fpk](https://github.com/Blue-Mink/fnos-vm-dongguaha/releases/download/v18.0/com.dongguaha.vm-18.0-fnos-amd64.fpk)
-2. 在飞牛 NAS 应用中心选择「从文件安装」
-3. 安装完成后，在「虚拟机」应用中启动 / 停止虚拟机
-4. VNC 中查看虚拟机 IP，通过 `http://虚拟机IP:8123` 访问 Home Assistant Web UI
-5. 通过 `http://虚拟机IP:8124` 访问冬瓜HAOS伴侣
+1. 下载 [com.dongguaha.vm-18.2-fnos-amd64.fpk](https://github.com/Blue-Mink/fnos-vm-dongguaha/releases/download/v18.2/com.dongguaha.vm-18.2-fnos-amd64.fpk)
+2. 在飞牛 NAS 应用中心选择「从文件安装」，按向导选择 CPU / 内存 / 磁盘 / HAOS 版本
+3. 安装完成后，在「虚拟机」应用中启动虚拟机（或在寻踪页的提示下操作）
+4. **打开 Web 界面（三选一）**：
+   - 应用中心冬瓜HAOS图标 → 「打开」按钮
+   - 桌面图标：**冬瓜HAOS**（管理后台）/ **Home Assistant**（HA 界面）
+   - 浏览器直接访问 `http://NAS_IP:36123/`
+   默认经 `36124` 反代进入**冬瓜管理后台**（已去除浏览器版本横幅）；`http://NAS_IP:36123/ha` 直达 **Home Assistant `:8123`**
+5. 首次启动较慢（见下方注意事项），虚拟机就绪后会自动跟随其 IP 变化
 
 ---
 
@@ -23,7 +39,7 @@
 
 | 平台 | 下载 | 说明 |
 |------|------|------|
-| Android (APK) | [下载 APK](https://github.com/Blue-Mink/fnos-vm-dongguaha/releases/download/v18.0/Home-Assistant.apk) | 本地安装包 |
+| Android (APK) | [下载 APK](https://github.com/Blue-Mink/fnos-vm-dongguaha/releases/download/v18.2/Home-Assistant.apk) | 本地安装包 |
 | Android (Google Play) | [Google Play](https://play.google.com/store/apps/details?id=io.homeassistant.companion.android) | 官方商店 |
 | iOS | [App Store](https://apps.apple.com/cn/app/home-assistant/id1099568401) | 官方商店 |
 
@@ -46,17 +62,21 @@
 | 组件 | 版本/说明 |
 |------|----------|
 | 虚拟化 | KVM 硬件加速 |
-| 操作系统 | Home Assistant OS 18.0 |
+| 操作系统 | Home Assistant OS（冬瓜优化版）18.2 / 18.1 / 18.0 / 17.3.1 |
+| IP 寻踪 | Python3 标准库 HTTP 转发器（`app/bin/haos-web-redirect.py`，入口 36123 + 后台反代 36124，systemd 单元 `dongguaha-web` 托管） |
+| 管理后台反代 | 同进程 36124 端口，透传 VM:8124 并改写前端 UA 检测（无 WebSocket，无损代理） |
 | 打包规范 | 飞牛 fnOS FPK 应用规范 |
 
 ---
 
 ## ⚠️ 注意事项
 
-- 安装后需手动在「虚拟机」应用中启动虚拟机
-- 首次启动 Home Assistant 需要完成初始化设置
+- **首次启动很慢是正常现象**：冬瓜HAOS 的 Supervisor 首启需要从 `r.hassbus.com` 拉取全套运行镜像，视网络可能需要 **15~40 分钟**；期间 `:8123` 无响应、IP 寻踪页会显示"寻找中"。重启虚拟机会快很多（镜像已落盘）
+- 若 `:8123` 长时间无响应而 `:8124` 已通：多为冬瓜镜像 landingpage 容器退出（冬瓜镜像内部行为），重启虚拟机通常可恢复
+- 安装向导里的 CPU/内存/磁盘会真实写入虚拟机配置（`virsh dumpxml` 与虚拟机应用内可见）；HAOS 版本在安装后不可变更，换版本需卸载重装（保留数据可复用已下载镜像，跳过下载）
+- `36123`（寻踪入口/跳转）与 `36124`（管理后台反代去横幅）同由 `dongguaha-web.service` 监听，只用于发现、跳转与页面改写，不提供业务数据；直连 `VM_IP:8124` 仍可用但没有去横幅效果
 - 请勿直接修改虚拟机配置文件，应通过应用中心管理
-- 如遇网络问题，请检查 NAS 与虚拟机的网络配置
+- 如遇网络问题，请检查 NAS 与虚拟机的网络配置（虚拟机使用 OVS 网桥直通局域网）
 
 ---
 
@@ -88,7 +108,7 @@ cd fnos-vm-dongguaha
 apt update && apt install -y fnpack
 
 # 或使用 Docker
-docker run --rm -v $(pwd):/work -w /work alpine:latest sh -c "apk add --no-cache fnpack && fnpack build -d . -o dist/com.dongguaha.vm-18.0-fnos-amd64.fpk"
+docker run --rm -v $(pwd):/work -w /work alpine:latest sh -c "apk add --no-cache fnpack && fnpack build -d ."
 ```
 
 3. **修改 manifest 版本号（可选）**
@@ -96,27 +116,28 @@ docker run --rm -v $(pwd):/work -w /work alpine:latest sh -c "apk add --no-cache
 如需要发布新版本，编辑 `manifest` 文件中的 `version` 字段：
 
 ```ini
-version = 18.0
+version = 18.2
 ```
 
 4. **执行打包**
 
 ```bash
-# 确保目录结构完整
-ls -la cmd/ config/ wizard/ i18n/ ICON.PNG ICON_256.PNG manifest app.tgz
+# 目录结构（app/ 为载荷源，fnpack 自动打包成 app.tgz，无需手工维护）
+ls -la app/bin app/ui cmd/ config/ wizard/ i18n/ ICON.PNG ICON_256.PNG manifest
 
-# 执行打包
-fnpack build -d . -o dist/com.dongguaha.vm-18.0-fnos-amd64.fpk
+# 执行打包（fnpack 会在当前目录生成 com.dongguaha.vm.fpk）
+fnpack build -d .
+mv com.dongguaha.vm.fpk dist/com.dongguaha.vm-18.2-fnos-amd64.fpk
 ```
 
 5. **验证构建产物**
 
 ```bash
 # 检查文件大小（正常约 32KB）
-ls -lh dist/com.dongguaha.vm-18.0-fnos-amd64.fpk
+ls -lh dist/com.dongguaha.vm-18.2-fnos-amd64.fpk
 
 # 查看包内结构
-tar -tzf dist/com.dongguaha.vm-18.0-fnos-amd64.fpk | head -20
+tar -tzf dist/com.dongguaha.vm-18.2-fnos-amd64.fpk | head -20
 ```
 
 ### 常见问题
@@ -134,7 +155,7 @@ tar -tzf dist/com.dongguaha.vm-18.0-fnos-amd64.fpk | head -20
 
 ```
 dist/
-└── com.dongguaha.vm-18.0-fnos-amd64.fpk  # 可直接安装的 FPK 包
+└── com.dongguaha.vm-18.2-fnos-amd64.fpk  # 可直接安装的 FPK 包
 ```
 
 可直接在飞牛 NAS 应用中心「从文件安装」测试。
