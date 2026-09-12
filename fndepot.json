@@ -90,7 +90,7 @@
     "install_type": "系统空间",
     "size": "0.07",
     "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v18.2/com.dongguaha.vm-18.2-fnos-amd64.fpk",
-    "changelog": "18.2: IP寻踪升级六级发现链（MAC→ARP → VNC横幅OCR直读 → mDNS → domifaddr → 局域网扫描 → 端口探测），虚拟机换IP秒级跟随；新增桌面双图标入口 冬瓜HAOS / Home Assistant；新增36124管理后台反代，自动去除低版本浏览器误报横幅；安装向导支持HAOS版本下拉（18.2/18.1/18.0/17.3.1）、内存GB档位（2~16GB）与CPU/磁盘直通；manifest规范化（platform=x86、service_port/checkport/os_min_version）",
+    "changelog": "18.2: IP寻踪升级六级发现链（MAC→ARP → VNC横幅OCR直读 → mDNS → domifaddr → 局域网扫描 → 端口探测），虚拟机换IP秒级跟随；新增桌面双图标入口 冬瓜HAOS / Home Assistant；新增36124管理后台反代，自动去除低版本浏览器误报横幅；安装向导支持HAOS版本下拉（18.2/18.1/18.0/17.3.1）、内存MB手输并按本机物理内存自动校验上限与CPU/磁盘直通；manifest规范化（platform=x86、service_port/checkport/os_min_version）",
     "icon_url": "./dongguaha/ICON.PNG",
     "readme_url": "./dongguaha/README.md",
     "homepage": "https://github.com/Blue-Mink/fnos-vm-dongguaha",
