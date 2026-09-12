@@ -77,9 +77,9 @@
   },
   "dongguaha": {
     "display_name": "冬瓜HAOS",
-    "version": "18.0",
-    "platform": "all",
-    "desc": "在x86 fnos系统中创建同架构的 冬瓜HAOS 虚拟机，享受KVM硬件加速性能。安装后请在「虚拟机」应用中启动/停止虚拟机，VNC中查看虚拟机IP，通过http://虚拟机IP：8123访问 Home Assistant Web UI。通过 http://虚拟机IP:8124访问 冬瓜HAOS伴侣。",
+    "version": "18.2",
+    "platform": "x86",
+    "desc": "在x86 fnOS系统中创建冬瓜HAOS虚拟机，KVM硬件加速原生性能，Home Assistant 开箱即用。内置「IP寻踪」固定入口与桌面双图标：冬瓜HAOS（管理后台:8124）与 Home Assistant（Web UI:8123）一键直达，自动跟随虚拟机DHCP地址变化，无需记忆任何IP；管理后台经反代优化，不再弹「浏览器版本过低」横幅。安装后在「虚拟机」应用中启动虚拟机即可。注意：虚拟机首次启动时 Home Assistant 需从上游拉取运行镜像，Web 页面可能需 15~40 分钟才就绪（后续每次开机约 2~10 分钟），期间点击入口会显示启动进度页，属正常现象。",
     "labels": "工具",
     "author": "Blue-Mink",
     "author_url": "https://github.com/Blue-Mink",
@@ -88,9 +88,13 @@
     "bug_report_url": "https://github.com/Blue-Mink/fnos-vm-dongguaha/issues",
     "isdocker": "false",
     "install_type": "系统空间",
-    "size": "0.03",
-    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v18.0/com.dongguaha.vm-18.0-fnos-amd64.fpk",
-    "changelog": "首发版本"
+    "size": "0.07",
+    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v18.2/com.dongguaha.vm-18.2-fnos-amd64.fpk",
+    "changelog": "18.2: IP寻踪升级六级发现链（MAC→ARP → VNC横幅OCR直读 → mDNS → domifaddr → 局域网扫描 → 端口探测），虚拟机换IP秒级跟随；新增桌面双图标入口 冬瓜HAOS / Home Assistant；新增36124管理后台反代，自动去除低版本浏览器误报横幅；安装向导支持版本下拉（18.2/18.1/18.0/17.3.1）与CPU/内存/磁盘直通；manifest规范化（platform=x86、service_port/checkport/os_min_version）",
+    "icon_url": "./dongguaha/ICON.PNG",
+    "readme_url": "./dongguaha/README.md",
+    "homepage": "https://github.com/Blue-Mink/fnos-vm-dongguaha",
+    "service_port": "36123"
   },
   "daidai-panel": {
     "display_name": "呆呆面板",
