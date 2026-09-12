@@ -10,7 +10,13 @@
       class="sticky top-0 z-20 border-b bg-background/95 backdrop-blur sm:hidden"
     >
       <div class="mx-auto flex h-14 max-w-[96rem] items-center gap-2 px-4">
-        <Button variant="ghost" size="icon" @click="isMobileNavOpen = true">
+        <Button
+          variant="ghost"
+          size="icon"
+          class="relative"
+          @click="isMobileNavOpen = true"
+        >
+          <NavAlertDot :label="navAlerts" class="absolute right-1 top-1" />
           <Menu class="h-5 w-5" />
           <span class="sr-only">{{ t("admin.nav.openNavigation") }}</span>
         </Button>
@@ -31,7 +37,9 @@
             {{ t("admin.nav.navigationMenu") }}
           </div>
           <LayoutScrollArea
-            hint-on-mount class="flex-1" content-class="space-y-2 p-3"
+            hint-on-mount
+            class="flex-1"
+            content-class="space-y-2 p-3"
             :class="{ 'sidebar-menu-editing': isSidebarMenuOrderMode }"
           >
             <Button
@@ -43,6 +51,7 @@
             >
               <component :is="item.icon" class="h-4 w-4" />
               <span>{{ item.name }}</span>
+              <NavAlertDot :label="item.alert" class="ml-auto" />
             </Button>
           </LayoutScrollArea>
           <div class="border-t p-3">
@@ -87,27 +96,19 @@
                 </template>
               </ConfirmDangerPopover>
             </div>
-            <p class="mb-2 text-center text-xs font-medium text-primary/70">
+            <p class="text-center text-xs font-medium text-primary/70">
               <a
-                :href="APP_GITHUB_URL"
+                :href="OFFICIAL_WEBSITE_URL"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="inline-flex max-w-full items-center gap-1.5 rounded-full px-2.5 py-1 leading-none transition-colors hover:text-foreground hover:bg-background/70"
-                :title="t('admin.nav.openGithub')"
+                :title="t('admin.nav.officialWebsite')"
+                :aria-label="t('admin.nav.officialWebsite')"
               >
-                <Github class="h-3.5 w-3.5" />
+                <Globe2 class="h-3.5 w-3.5" />
                 <span>{{ currentVersionLabel }}</span>
               </a>
             </p>
-            <div class="flex justify-center pb-10">
-              <Button
-                variant="secondary"
-                class="w-auto min-w-28 justify-center px-5"
-                @click="navigateTo('/about')"
-              >
-                {{ aboutEntryLabel }}
-              </Button>
-            </div>
           </div>
         </div>
       </SheetContent>
@@ -120,7 +121,10 @@
         class="hidden shrink-0 sm:sticky sm:top-6 sm:block sm:h-[calc(100dvh-3rem)] sm:w-36 md:w-[9.25rem] xl:w-[9.5rem]"
       >
         <div class="flex h-full min-h-0 flex-col gap-3">
-          <LayoutScrollArea reserve-rail-gutter class="min-h-0 flex-1" content-class="flex min-h-full flex-col items-stretch gap-1.5"
+          <LayoutScrollArea
+            reserve-rail-gutter
+            class="min-h-0 flex-1"
+            content-class="flex min-h-full flex-col items-stretch gap-1.5"
             :class="{ 'sidebar-menu-editing': isSidebarMenuOrderMode }"
           >
             <Button
@@ -137,6 +141,7 @@
             >
               <component :is="item.icon" class="h-4 w-4 shrink-0" />
               <span class="min-w-0 truncate">{{ item.name }}</span>
+              <NavAlertDot :label="item.alert" class="ml-auto" />
             </Button>
           </LayoutScrollArea>
           <div>
@@ -178,29 +183,19 @@
                 </template>
               </ConfirmDangerPopover>
             </div>
-            <p
-              class="mb-2 min-w-0 text-center text-xs font-medium text-primary/70"
-            >
+            <p class="min-w-0 text-center text-xs font-medium text-primary/70">
               <a
-                :href="APP_GITHUB_URL"
+                :href="OFFICIAL_WEBSITE_URL"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="inline-flex max-w-full items-center gap-1.5 rounded-full px-2.5 py-1 leading-none transition-colors hover:text-foreground hover:bg-background/70"
-                :title="t('admin.nav.openGithub')"
+                :title="t('admin.nav.officialWebsite')"
+                :aria-label="t('admin.nav.officialWebsite')"
               >
-                <Github class="h-3.5 w-3.5" />
+                <Globe2 class="h-3.5 w-3.5" />
                 <span>{{ currentVersionLabel }}</span>
               </a>
             </p>
-            <div class="flex justify-center">
-              <Button
-                variant="secondary"
-                class="h-8 w-auto min-w-24 justify-center px-3"
-                @click="navigateTo('/about')"
-              >
-                {{ aboutEntryLabel }}
-              </Button>
-            </div>
           </div>
         </div>
       </aside>
@@ -228,7 +223,10 @@
             <span>{{ t("common.pageSwitching") }}</span>
           </div>
         </div>
-        <RouteContentBoundary v-if="!configStore.isLoading && !configStore.isError" :reset-key="route.fullPath" />
+        <RouteContentBoundary
+          v-if="!configStore.isLoading && !configStore.isError"
+          :reset-key="route.fullPath"
+        />
         <div
           v-else-if="configStore.isLoading"
           class="flex h-full min-h-[400px] items-center justify-center"
@@ -253,6 +251,7 @@
 </template>
 
 <script setup lang="ts">
+import NavAlertDot from "./layout/NavigationAlertDot.vue";
 import { computed, onMounted, onUnmounted, ref, watch } from "vue";
 import RouteContentBoundary from "./layout/RouteContentBoundary.vue";
 import { useI18n } from "vue-i18n";
@@ -272,8 +271,8 @@ import {
   normalizeLocale,
 } from "@fn-knock/i18n/core";
 import { setFnKnockLocale } from "@fn-knock/i18n/vue/admin";
-const APP_GITHUB_URL = "https://github.com/kci-lnk/fn-knock-turborepo";
-import { Github, Languages, LogOut, Menu } from "lucide-vue-next";
+import { OFFICIAL_WEBSITE_URL } from "../lib/update-presentation";
+import { Globe2, Languages, LogOut, Menu } from "lucide-vue-next";
 import LayoutLoadStatus from "./layout/LayoutLoadStatus.vue";
 import LayoutScrollArea from "./layout/LayoutScrollArea.vue";
 import LayoutStatusBanners from "./layout/LayoutStatusBanners.vue";
@@ -297,16 +296,17 @@ const dockerAdminAuthStore = useDockerAdminAuthStore();
 const systemClockStore = useSystemClockStore();
 const updateStore = useUpdateStore();
 const {
-  aboutEntryLabel,
   currentNavLabel,
   currentVersionLabel,
   isNavActive,
   navItems,
+  navigationAlerts: navAlerts,
 } = useLayoutNavigation();
 const isMobileNavOpen = ref(false);
 const isLocaleDialogOpen = ref(false);
 const isSavingLocale = ref(false);
-const { openDialog: openLocaleDialog } = useDialogFocusRestore(isLocaleDialogOpen);
+const { openDialog: openLocaleDialog } =
+  useDialogFocusRestore(isLocaleDialogOpen);
 const i18n = useI18n();
 const { t, locale } = i18n;
 const selectedLocale = ref<LocaleCode>(

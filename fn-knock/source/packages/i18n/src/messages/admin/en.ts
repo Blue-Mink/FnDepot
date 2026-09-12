@@ -78,6 +78,8 @@ export const enAdmin = {
     nextRestart: "{count} consecutive failures; next retry:",
   },
   nav: {
+    updateAlert: "System update available",
+    criticalEventAlert: "Critical events present",
     sslCert: "SSL",
     dashboard: "Dashboard",
     ddns: "DDNS",
@@ -99,7 +101,7 @@ export const enAdmin = {
     openNavigation: "Open navigation",
     navigationMenu: "Navigation",
     skipToContent: "Skip to main content",
-    openGithub: "Open GitHub project",
+    officialWebsite: "Official website",
   },
   panelSync: {
     title: "Sync to navigation panel",
@@ -1538,6 +1540,7 @@ export const enAdmin = {
     panel: "Panel",
     challenge: "Challenge",
     maintenance: "Maintenance",
+    update: "Update",
   },
   runModeSettings: {
     title: "Run mode settings",
@@ -1759,6 +1762,20 @@ export const enAdmin = {
       "After login, services are accessed by path.",
   },
   wafSettings: {
+    violationRate: {
+      title: "Automatically block repeat violations",
+      description: "Automatically blacklist IPs that repeatedly trigger security blocks. Removal is manual.",
+      off: "Off",
+      strict: "Strict",
+      normal: "Normal",
+      relaxed: "Relaxed",
+      custom: "Previous settings",
+      offHint: "Repeated violations will not automatically blacklist an IP.",
+      strictHint: "Blacklist on a second violation within 120 seconds.",
+      normalHint: "Allow occasional violations; suitable for everyday use.",
+      relaxedHint: "Allow more violations to reduce accidental blacklisting.",
+      customHint: "Previous settings are retained. Choose a level to replace them.",
+    },
     levels: {
       daily: "Daily protection",
       dailyDescription: "Recommended",
@@ -2616,6 +2633,21 @@ export const enAdmin = {
       "The target is disabled, but the current kernel value is still {value}. This is the pre-enable state or another system setting.",
   },
   gatewayLogging: {
+    dailyCapacity: "Daily capacity limit",
+    totalCapacity: "Total capacity limit",
+    capacityDescription:
+      "The oldest logs are deleted when capacity or retention limits are reached. Lowering a limit immediately removes existing records; deleted records cannot be restored.",
+    invalidCapacity:
+      "Enter integers from 1 to 1048576. Total capacity must be at least the daily capacity.",
+    capacityUsage:
+      "Storage used: today {today} MiB, total {total} MiB (updated on load or save).",
+    retainedOnly:
+      "Queries and statistics cover retained logs only. Whole segments are removed, so retained data may be below the limit.",
+    capacityWarning: "Request log capacity or storage issue",
+    capacityDropped:
+      "{count} entries were not written due to capacity or storage issues.",
+    cursorExpired:
+      "These logs have been rotated out. Refresh the list and try again.",
     directoryLabel: "Storage directory",
     browseDirectory: "Browse folders",
     restoreDefaultDirectory: "Restore default location",
@@ -2654,7 +2686,7 @@ export const enAdmin = {
       "Current async write queue: {queue}; dropped request logs: {dropped}.",
     dropWarningTitle: "Request logs are being dropped",
     dropWarningDescription:
-      "The async write queue has been congested, and {count} request logs were not written to disk.",
+      "{count} request log entries were dropped while the write queue was full or the logging configuration was being updated.",
     daysUnit: "days",
     reset: "Reset",
     saveSettings: "Save settings",
@@ -6542,6 +6574,7 @@ export const enAdmin = {
         manual: "Manual",
         requestLog: "Request log",
         activeIp: "Active IP",
+        wafRateLimit: "WAF violation frequency",
         wafLog: "WAF log",
       },
     },
@@ -6653,6 +6686,7 @@ export const enAdmin = {
       FN_EVENT_RUNTIME_RESTARTED: "Component restarted",
       FN_EVENT_RUNTIME_HEALTH_FAILED: "Component health failed",
       FN_EVENT_RUNTIME_RECOVERED: "Component recovered",
+      FN_EVENT_RUNTIME_STOP_FAILED: "Component stop failed",
       FN_EVENT_RUNTIME_ABNORMAL_EXIT: "Component exited abnormally",
       FN_EVENT_PANEL_SYNC_FAILED: "Failed to sync to navigation panel",
       FN_EVENT_PANEL_SYNC_RECOVERED: "Navigation panel sync recovered",
@@ -6886,6 +6920,10 @@ export const enAdmin = {
         reclaimSuccess: "Go memory reclaimed",
         reclaimSuccessDescription: "After reclaim: Go Heap {heap}, RSS {rss}",
         reclaimFailed: "Failed to reclaim Go memory",
+      },
+      lifecycle: {
+        stopping: "Stopping",
+        stopped: "Stopped",
       },
       status: {
         healthy: "Healthy",

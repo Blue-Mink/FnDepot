@@ -525,6 +525,8 @@ export const zhCNServer = {
     },
   },
   gatewayLogs: {
+    cursorExpired: "日志已被滚动清理，请刷新列表后重试。",
+    invalidCapacity: "请输入 1–1048576 的整数，总容量不能小于每日容量。",
     configRollbackFailed:
       "面板配置保存失败，且无法恢复网关原配置；保存位置可能与实际生效位置不同，请刷新检查。",
     configLoadFailed: "读取请求日志配置失败",
@@ -2305,6 +2307,7 @@ export const zhCNServer = {
         runtimeRestarted: "组件已重启",
         runtimeHealthFailed: "组件健康检查失败",
         runtimeRecovered: "组件已恢复",
+        runtimeStopFailed: "组件停止失败",
         runtimeAbnormalExit: "组件异常退出",
         panelSyncFailed: "同步到导航面板失败",
         panelSyncRecovered: "同步到导航面板已恢复",

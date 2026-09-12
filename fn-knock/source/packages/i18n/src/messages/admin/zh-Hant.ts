@@ -72,6 +72,8 @@ export const zhHantAdmin = {
   },
   nav: {
     ...zhCNAdmin.nav,
+    updateAlert: "有可用的系統更新",
+    criticalEventAlert: "存在嚴重事件",
     sslCert: "SSL證書",
     dashboard: "控制台",
     ddns: "動態域名",
@@ -92,7 +94,7 @@ export const zhHantAdmin = {
     openNavigation: "打開導航選單",
     navigationMenu: "導航選單",
     skipToContent: "跳到主要內容",
-    openGithub: "打開 GitHub 專案頁",
+    officialWebsite: "官方網站",
   },
   panelSync: {
     ...zhCNAdmin.panelSync,
@@ -1347,6 +1349,7 @@ export const zhHantAdmin = {
     panel: "面板",
     challenge: "Challenge",
     maintenance: "維護",
+    update: "更新",
   },
   runModeSettings: {
     title: "運行模式設定",
@@ -1555,6 +1558,20 @@ export const zhHantAdmin = {
     promptReverseItemPathServices: "登入後通過路徑來訪問子服務",
   },
   wafSettings: {
+    violationRate: {
+      title: "違規自動封禁",
+      description: "同一 IP 多次觸發安全攔截時自動封禁，需手動解除。",
+      off: "關閉",
+      strict: "嚴格",
+      normal: "普通",
+      relaxed: "寬鬆",
+      custom: "原有設定",
+      offHint: "不因重複違規自動封禁。",
+      strictHint: "120 秒內再次違規即封禁。",
+      normalHint: "允許偶發違規，適合日常使用。",
+      relaxedHint: "容忍更多違規，減少誤封。",
+      customHint: "保留之前的設定，選擇檔位即可更換。",
+    },
     levels: {
       daily: "日常防護",
       dailyDescription: "推薦",
@@ -2363,6 +2380,18 @@ export const zhHantAdmin = {
       "配置目標已關閉，但目前核心值仍為 {value}，這是啟用前狀態或系統其它配置。",
   },
   gatewayLogging: {
+    dailyCapacity: "每日容量上限",
+    totalCapacity: "總容量上限",
+    capacityDescription:
+      "超過容量或保留天數時，自動刪除最舊日誌並繼續記錄。調低上限會立即清理已有記錄，清理後無法復原。",
+    invalidCapacity: "請輸入 1–1048576 的整數，總容量不能小於每日容量。",
+    capacityUsage:
+      "目前用量：今日 {today} MiB，總計 {total} MiB（載入或儲存時更新）。",
+    retainedOnly:
+      "查詢和統計僅涵蓋仍保留的日誌。按分片清理，實際保留量可能低於上限。",
+    capacityWarning: "請求日誌容量或儲存異常",
+    capacityDropped: "累計有 {count} 筆日誌因容量或儲存異常未寫入。",
+    cursorExpired: "日誌已被輪替清理，請重新整理清單後再試。",
     directoryLabel: "儲存目錄",
     browseDirectory: "選擇資料夾",
     restoreDefaultDirectory: "恢復預設位置",
@@ -2398,7 +2427,7 @@ export const zhHantAdmin = {
     runtimeDescription: "目前非同步寫入佇列：{queue}，累計丟棄 {dropped} 條。",
     dropWarningTitle: "請求日誌正在丟棄",
     dropWarningDescription:
-      "非同步寫入佇列已發生壅塞，已有 {count} 條請求日誌未寫入磁碟。",
+      "非同步寫入佇列壅塞或日誌設定更新期間，已有 {count} 筆請求日誌未寫入磁碟。",
     daysUnit: "天",
     reset: "重置",
     saveSettings: "保存設定",
@@ -5981,6 +6010,7 @@ export const zhHantAdmin = {
         manual: "手動",
         requestLog: "請求日誌",
         activeIp: "活躍 IP",
+        wafRateLimit: "WAF 違規頻次",
         wafLog: "WAF 日誌",
       },
     },
@@ -6091,6 +6121,7 @@ export const zhHantAdmin = {
       FN_EVENT_RUNTIME_RESTARTED: "元件已重新啟動",
       FN_EVENT_RUNTIME_HEALTH_FAILED: "元件健康檢查失敗",
       FN_EVENT_RUNTIME_RECOVERED: "元件已恢復",
+      FN_EVENT_RUNTIME_STOP_FAILED: "元件停止失敗",
       FN_EVENT_RUNTIME_ABNORMAL_EXIT: "元件異常結束",
       FN_EVENT_PANEL_SYNC_FAILED: "同步到導航面板失敗",
       FN_EVENT_PANEL_SYNC_RECOVERED: "同步到導航面板已恢復",
@@ -6307,6 +6338,10 @@ export const zhHantAdmin = {
         reclaimSuccess: "Go 記憶體回收已完成",
         reclaimSuccessDescription: "回收後 Go Heap {heap}，RSS {rss}",
         reclaimFailed: "Go 記憶體回收失敗",
+      },
+      lifecycle: {
+        stopping: "正在停止",
+        stopped: "已停止",
       },
       status: {
         healthy: "健康",

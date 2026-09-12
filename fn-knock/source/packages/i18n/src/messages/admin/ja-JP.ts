@@ -76,6 +76,8 @@ export const jaJPAdmin = {
     nextRestart: "{count} 回連続失敗。次の再試行：",
   },
   nav: {
+    updateAlert: "システム更新があります",
+    criticalEventAlert: "重大なイベントがあります",
     sslCert: "SSL",
     dashboard: "ダッシュボード",
     ddns: "DDNS",
@@ -97,7 +99,7 @@ export const jaJPAdmin = {
     openNavigation: "ナビゲーションを開く",
     navigationMenu: "ナビゲーション",
     skipToContent: "メインコンテンツへ移動",
-    openGithub: "GitHub プロジェクトを開く",
+    officialWebsite: "公式サイト",
   },
   panelSync: {
     ...zhCNAdmin.panelSync,
@@ -1537,6 +1539,7 @@ export const jaJPAdmin = {
     panel: "パネル",
     challenge: "チャレンジ",
     maintenance: "メンテナンス",
+    update: "更新",
   },
   runModeSettings: {
     title: "動作モード設定",
@@ -1760,6 +1763,20 @@ export const jaJPAdmin = {
       "ログイン後、パスから各サービスへアクセスします。",
   },
   wafSettings: {
+    violationRate: {
+      title: "繰り返す違反を自動ブロック",
+      description: "同じ IP が繰り返しセキュリティ制限に抵触すると自動ブロックします。解除は手動です。",
+      off: "オフ",
+      strict: "厳格",
+      normal: "標準",
+      relaxed: "緩やか",
+      custom: "以前の設定",
+      offHint: "繰り返す違反による自動ブロックを無効にします。",
+      strictHint: "120 秒以内に再び違反するとブロックします。",
+      normalHint: "偶発的な違反を許容する、日常向けの設定です。",
+      relaxedHint: "より多くの違反を許容し、誤ブロックを減らします。",
+      customHint: "以前の設定を維持しています。レベルを選ぶと変更されます。",
+    },
     levels: {
       daily: "標準保護",
       dailyDescription: "推奨",
@@ -2615,6 +2632,21 @@ export const jaJPAdmin = {
       "設定上は無効ですが、現在のカーネル値は {value} のままです。有効化前からの値か、別のシステム設定による可能性があります。",
   },
   gatewayLogging: {
+    dailyCapacity: "1日あたりの容量上限",
+    totalCapacity: "合計容量上限",
+    capacityDescription:
+      "容量または保存期間の上限に達すると、古いログから削除します。上限を下げると既存の記録が直ちに削除され、元に戻せません。",
+    invalidCapacity:
+      "1〜1048576の整数を入力してください。合計容量は1日の容量以上にしてください。",
+    capacityUsage:
+      "使用量：本日 {today} MiB、合計 {total} MiB（読み込み時または保存時に更新）。",
+    retainedOnly:
+      "検索と統計の対象は保持中のログのみです。ファイル単位で削除するため、保持量が上限を下回る場合があります。",
+    capacityWarning: "リクエストログの容量またはストレージの問題",
+    capacityDropped:
+      "容量またはストレージの問題により {count} 件のログが書き込まれませんでした。",
+    cursorExpired:
+      "ログはローテーションで削除されました。一覧を更新してください。",
     directoryLabel: "保存ディレクトリ",
     browseDirectory: "フォルダーを選択",
     restoreDefaultDirectory: "既定の場所に戻す",
@@ -2652,7 +2684,7 @@ export const jaJPAdmin = {
       "現在の非同期書き込みキュー: {queue}、破棄されたリクエストログ: {dropped} 件",
     dropWarningTitle: "リクエストログが破棄されています",
     dropWarningDescription:
-      "非同期書き込みキューが混雑し、{count} 件のリクエストログがディスクに書き込まれませんでした。",
+      "書き込みキューの混雑またはログ設定の更新により、{count} 件のリクエストログが書き込まれませんでした。",
     daysUnit: "日",
     reset: "リセット",
     saveSettings: "設定を保存",
@@ -6535,6 +6567,7 @@ export const jaJPAdmin = {
         manual: "手動",
         requestLog: "リクエストログ",
         activeIp: "アクティブ IP",
+        wafRateLimit: "WAF 違反頻度",
         wafLog: "WAF ログ",
       },
     },
@@ -6645,6 +6678,7 @@ export const jaJPAdmin = {
       FN_EVENT_RUNTIME_RESTARTED: "コンポーネント再起動",
       FN_EVENT_RUNTIME_HEALTH_FAILED: "ヘルスチェック失敗",
       FN_EVENT_RUNTIME_RECOVERED: "コンポーネント復旧",
+      FN_EVENT_RUNTIME_STOP_FAILED: "コンポーネント停止失敗",
       FN_EVENT_RUNTIME_ABNORMAL_EXIT: "コンポーネント異常終了",
       FN_EVENT_PANEL_SYNC_FAILED: "ナビゲーションパネルへの同期失敗",
       FN_EVENT_PANEL_SYNC_RECOVERED: "ナビゲーションパネルへの同期復旧",
@@ -6874,6 +6908,10 @@ export const jaJPAdmin = {
         reclaimSuccess: "Go メモリを回収しました",
         reclaimSuccessDescription: "回収後: Go Heap {heap}、RSS {rss}",
         reclaimFailed: "Go メモリを回収できませんでした",
+      },
+      lifecycle: {
+        stopping: "停止中",
+        stopped: "停止済み",
       },
       status: {
         healthy: "正常",

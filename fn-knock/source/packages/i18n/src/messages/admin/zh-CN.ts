@@ -69,6 +69,8 @@ export const zhCNAdmin = {
     nextRestart: "连续失败 {count} 次，下次重试：",
   },
   nav: {
+    updateAlert: "有可用的系统更新",
+    criticalEventAlert: "存在严重事件",
     sslCert: "SSL证书",
     dashboard: "控制台",
     ddns: "动态域名",
@@ -90,7 +92,7 @@ export const zhCNAdmin = {
     openNavigation: "打开导航菜单",
     navigationMenu: "导航菜单",
     skipToContent: "跳到主要内容",
-    openGithub: "打开 GitHub 项目页",
+    officialWebsite: "官方网站",
   },
   panelSync: {
     title: "同步到导航面板",
@@ -1404,6 +1406,7 @@ export const zhCNAdmin = {
     panel: "面板",
     challenge: "Challenge",
     maintenance: "维护",
+    update: "更新",
   },
   runModeSettings: {
     title: "运行模式设置",
@@ -1612,6 +1615,20 @@ export const zhCNAdmin = {
     promptReverseItemPathServices: "登录后通过路径来访问子服务",
   },
   wafSettings: {
+    violationRate: {
+      title: "违规自动封禁",
+      description: "同一 IP 多次触发安全拦截时自动封禁，需手动解封。",
+      off: "关闭",
+      strict: "严格",
+      normal: "普通",
+      relaxed: "宽松",
+      custom: "原有设置",
+      offHint: "不因重复违规自动封禁。",
+      strictHint: "120 秒内再次违规即封禁。",
+      normalHint: "允许偶发违规，适合日常使用。",
+      relaxedHint: "容忍更多违规，减少误封。",
+      customHint: "保留之前的设置，选择档位即可更换。",
+    },
     levels: {
       daily: "日常防护",
       dailyDescription: "推荐",
@@ -2419,6 +2436,18 @@ export const zhCNAdmin = {
       "配置目标已关闭，但当前内核值仍为 {value}，这是启用前状态或系统其它配置。",
   },
   gatewayLogging: {
+    dailyCapacity: "每日容量上限",
+    totalCapacity: "总容量上限",
+    capacityDescription:
+      "超过容量或保留天数时，自动删除最旧日志并继续记录。调低上限会立即清理已有记录，清理后无法恢复。",
+    invalidCapacity: "请输入 1–1048576 的整数，总容量不能小于每日容量。",
+    capacityUsage:
+      "当前占用：今日 {today} MiB，总计 {total} MiB（加载或保存时更新）。",
+    retainedOnly:
+      "查询和统计仅覆盖仍保留的日志。按分片清理，实际保留量可能低于上限。",
+    capacityWarning: "请求日志容量或存储异常",
+    capacityDropped: "累计有 {count} 条日志因容量或存储异常未写入。",
+    cursorExpired: "日志已被滚动清理，请刷新列表后重试。",
     directoryLabel: "保存目录",
     browseDirectory: "选择文件夹",
     restoreDefaultDirectory: "恢复默认位置",
@@ -2455,7 +2484,7 @@ export const zhCNAdmin = {
     runtimeDescription: "当前异步写入队列：{queue}，累计丢弃 {dropped} 条。",
     dropWarningTitle: "请求日志正在丢弃",
     dropWarningDescription:
-      "异步写入队列已发生拥塞，已有 {count} 条请求日志未写入磁盘。",
+      "异步写入队列拥塞或日志配置更新期间，已有 {count} 条请求日志未写入磁盘。",
     daysUnit: "天",
     reset: "重置",
     saveSettings: "保存设置",
@@ -6065,6 +6094,7 @@ export const zhCNAdmin = {
         manual: "手动",
         requestLog: "请求日志",
         activeIp: "活跃 IP",
+        wafRateLimit: "WAF 违规频次",
         wafLog: "WAF 日志",
       },
     },
@@ -6174,6 +6204,7 @@ export const zhCNAdmin = {
       FN_EVENT_RUNTIME_RESTARTED: "组件已重启",
       FN_EVENT_RUNTIME_HEALTH_FAILED: "组件健康检查失败",
       FN_EVENT_RUNTIME_RECOVERED: "组件已恢复",
+      FN_EVENT_RUNTIME_STOP_FAILED: "组件停止失败",
       FN_EVENT_RUNTIME_ABNORMAL_EXIT: "组件异常退出",
       FN_EVENT_PANEL_SYNC_FAILED: "同步到导航面板失败",
       FN_EVENT_PANEL_SYNC_RECOVERED: "同步到导航面板已恢复",
@@ -6394,6 +6425,10 @@ export const zhCNAdmin = {
         reclaimSuccess: "Go 内存回收已完成",
         reclaimSuccessDescription: "回收后 Go Heap {heap}，RSS {rss}",
         reclaimFailed: "Go 内存回收失败",
+      },
+      lifecycle: {
+        stopping: "正在停止",
+        stopped: "已停止",
       },
       status: {
         healthy: "健康",

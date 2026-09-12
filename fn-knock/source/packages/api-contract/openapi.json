@@ -12044,6 +12044,14 @@
       },
       "GatewayLoggingConfigData": {
         "properties": {
+          "capacity_dropped_entries": {
+            "format": "int64",
+            "minimum": 0,
+            "type": "integer"
+          },
+          "cleanup_error": {
+            "type": "string"
+          },
           "custom_logs_dir": {
             "type": "string"
           },
@@ -12061,7 +12069,15 @@
           "logs_dir": {
             "type": "string"
           },
+          "max_daily_size_mb": {
+            "format": "int64",
+            "type": "integer"
+          },
           "max_days": {
+            "format": "int64",
+            "type": "integer"
+          },
+          "max_total_size_mb": {
             "format": "int64",
             "type": "integer"
           },
@@ -12075,18 +12091,34 @@
           },
           "record_localhost": {
             "type": "boolean"
+          },
+          "today_size_bytes": {
+            "format": "int64",
+            "minimum": 0,
+            "type": "integer"
+          },
+          "total_size_bytes": {
+            "format": "int64",
+            "minimum": 0,
+            "type": "integer"
           }
         },
         "required": [
           "enabled",
           "record_localhost",
           "max_days",
+          "max_daily_size_mb",
+          "max_total_size_mb",
           "logs_dir",
           "custom_logs_dir",
           "default_logs_dir",
           "dropped_entries",
           "queue_size",
-          "queue_depth"
+          "queue_depth",
+          "today_size_bytes",
+          "total_size_bytes",
+          "capacity_dropped_entries",
+          "cleanup_error"
         ],
         "type": "object"
       },
@@ -12101,9 +12133,23 @@
           "enabled": {
             "type": "boolean"
           },
+          "max_daily_size_mb": {
+            "format": "int64",
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
           "max_days": {
             "format": "int64",
             "type": "integer"
+          },
+          "max_total_size_mb": {
+            "format": "int64",
+            "type": [
+              "integer",
+              "null"
+            ]
           },
           "record_localhost": {
             "type": [
@@ -12957,7 +13003,8 @@
               "manual",
               "request_log",
               "active_ip",
-              "waf_log"
+              "waf_log",
+              "waf_rate_limit"
             ],
             "type": [
               "string",
@@ -13039,7 +13086,8 @@
               "manual",
               "request_log",
               "active_ip",
-              "waf_log"
+              "waf_log",
+              "waf_rate_limit"
             ],
             "type": "string"
           },
@@ -15700,6 +15748,7 @@
               "FN_EVENT_RUNTIME_RESTARTED",
               "FN_EVENT_RUNTIME_HEALTH_FAILED",
               "FN_EVENT_RUNTIME_RECOVERED",
+              "FN_EVENT_RUNTIME_STOP_FAILED",
               "FN_EVENT_RUNTIME_ABNORMAL_EXIT",
               "FN_EVENT_PANEL_SYNC_FAILED",
               "FN_EVENT_PANEL_SYNC_RECOVERED",
@@ -15846,6 +15895,7 @@
               "FN_EVENT_RUNTIME_RESTARTED",
               "FN_EVENT_RUNTIME_HEALTH_FAILED",
               "FN_EVENT_RUNTIME_RECOVERED",
+              "FN_EVENT_RUNTIME_STOP_FAILED",
               "FN_EVENT_RUNTIME_ABNORMAL_EXIT",
               "FN_EVENT_PANEL_SYNC_FAILED",
               "FN_EVENT_PANEL_SYNC_RECOVERED",
@@ -16026,6 +16076,7 @@
               "FN_EVENT_RUNTIME_RESTARTED",
               "FN_EVENT_RUNTIME_HEALTH_FAILED",
               "FN_EVENT_RUNTIME_RECOVERED",
+              "FN_EVENT_RUNTIME_STOP_FAILED",
               "FN_EVENT_RUNTIME_ABNORMAL_EXIT",
               "FN_EVENT_PANEL_SYNC_FAILED",
               "FN_EVENT_PANEL_SYNC_RECOVERED",
@@ -18216,6 +18267,48 @@
               "null"
             ]
           },
+          "lifecycle": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "properties": {
+                  "deadline_at": {
+                    "type": "string"
+                  },
+                  "gateway_instance": {
+                    "type": "string"
+                  },
+                  "management_instance": {
+                    "type": "string"
+                  },
+                  "operation_id": {
+                    "type": "string"
+                  },
+                  "phase": {
+                    "type": "string"
+                  },
+                  "reason": {
+                    "type": "string"
+                  },
+                  "requested_at": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "phase",
+                  "operation_id",
+                  "reason",
+                  "requested_at",
+                  "deadline_at",
+                  "management_instance",
+                  "gateway_instance"
+                ],
+                "type": "object"
+              }
+            ]
+          },
           "managed_memory_bytes": {
             "format": "int64",
             "minimum": 0,
@@ -18560,6 +18653,48 @@
               "null"
             ]
           },
+          "lifecycle": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "properties": {
+                  "deadline_at": {
+                    "type": "string"
+                  },
+                  "gateway_instance": {
+                    "type": "string"
+                  },
+                  "management_instance": {
+                    "type": "string"
+                  },
+                  "operation_id": {
+                    "type": "string"
+                  },
+                  "phase": {
+                    "type": "string"
+                  },
+                  "reason": {
+                    "type": "string"
+                  },
+                  "requested_at": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "phase",
+                  "operation_id",
+                  "reason",
+                  "requested_at",
+                  "deadline_at",
+                  "management_instance",
+                  "gateway_instance"
+                ],
+                "type": "object"
+              }
+            ]
+          },
           "logs": {
             "$ref": "#/components/schemas/RuntimeLogStatusData"
           },
@@ -18789,6 +18924,7 @@
               "FN_EVENT_RUNTIME_RESTARTED",
               "FN_EVENT_RUNTIME_HEALTH_FAILED",
               "FN_EVENT_RUNTIME_RECOVERED",
+              "FN_EVENT_RUNTIME_STOP_FAILED",
               "FN_EVENT_RUNTIME_ABNORMAL_EXIT"
             ],
             "type": "string"
@@ -23145,6 +23281,7 @@
               "FN_EVENT_RUNTIME_RESTARTED",
               "FN_EVENT_RUNTIME_HEALTH_FAILED",
               "FN_EVENT_RUNTIME_RECOVERED",
+              "FN_EVENT_RUNTIME_STOP_FAILED",
               "FN_EVENT_RUNTIME_ABNORMAL_EXIT",
               "FN_EVENT_PANEL_SYNC_FAILED",
               "FN_EVENT_PANEL_SYNC_RECOVERED",
@@ -23300,6 +23437,7 @@
               "FN_EVENT_RUNTIME_RESTARTED",
               "FN_EVENT_RUNTIME_HEALTH_FAILED",
               "FN_EVENT_RUNTIME_RECOVERED",
+              "FN_EVENT_RUNTIME_STOP_FAILED",
               "FN_EVENT_RUNTIME_ABNORMAL_EXIT",
               "FN_EVENT_PANEL_SYNC_FAILED",
               "FN_EVENT_PANEL_SYNC_RECOVERED",
@@ -24496,6 +24634,21 @@
               "string",
               "null"
             ]
+          },
+          "violation_rate_limit_capacity": {
+            "format": "int64",
+            "maximum": 10000,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "violation_rate_limit_enabled": {
+            "type": "boolean"
+          },
+          "violation_rate_limit_refill_seconds": {
+            "format": "int64",
+            "maximum": 86400,
+            "minimum": 1,
+            "type": "integer"
           }
         },
         "required": [
@@ -24503,6 +24656,9 @@
           "system_rules_auto_update_enabled",
           "common_location_exempt_enabled",
           "private_ip_exempt_enabled",
+          "violation_rate_limit_enabled",
+          "violation_rate_limit_capacity",
+          "violation_rate_limit_refill_seconds",
           "block_behavior",
           "mode",
           "active_bundle_id",
@@ -24574,6 +24730,30 @@
           "system_rules_auto_update_enabled": {
             "type": [
               "boolean",
+              "null"
+            ]
+          },
+          "violation_rate_limit_capacity": {
+            "format": "int64",
+            "maximum": 10000,
+            "minimum": 1,
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "violation_rate_limit_enabled": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "violation_rate_limit_refill_seconds": {
+            "format": "int64",
+            "maximum": 86400,
+            "minimum": 1,
+            "type": [
+              "integer",
               "null"
             ]
           }
@@ -26978,7 +27158,7 @@
   "info": {
     "description": "server-admin 7998 端口提供的完整管理端接口契约。路径、请求与响应均由 utoipa schema 和领域 operation 清单生成。",
     "title": "fn-knock server-admin API",
-    "version": "2.4.11"
+    "version": "2.4.12"
   },
   "openapi": "3.1.0",
   "paths": {
@@ -39196,6 +39376,7 @@
                 "FN_EVENT_RUNTIME_RESTARTED",
                 "FN_EVENT_RUNTIME_HEALTH_FAILED",
                 "FN_EVENT_RUNTIME_RECOVERED",
+                "FN_EVENT_RUNTIME_STOP_FAILED",
                 "FN_EVENT_RUNTIME_ABNORMAL_EXIT",
                 "FN_EVENT_PANEL_SYNC_FAILED",
                 "FN_EVENT_PANEL_SYNC_RECOVERED",
