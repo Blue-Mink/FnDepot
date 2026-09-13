@@ -1,9 +1,9 @@
 {
   "global-radio": {
     "display_name": "全球电台",
-    "version": "1.2.2",
-    "platform": "all",
-    "desc": "基于 Vue 3 + Vite 的在线电台应用，支持全球电台搜索、播放、收藏、历史记录、主题切换与多国语言。支持在应用设置中自定义访问端口。",
+    "version": "1.2.3",
+    "platform": "x86",
+    "desc": "基于 Vue 3 + Vite 的在线电台应用，支持全球电台搜索、播放、收藏、历史记录、主题切换与多国语言。支持在应用设置中自定义访问端口（保存即生效，桌面图标与打开入口自动跟随）。",
     "labels": "娱乐",
     "author": "molixia",
     "author_url": "https://github.com/moli-xia",
@@ -12,9 +12,12 @@
     "bug_report_url": "https://github.com/moli-xia/global-radio/issues",
     "isdocker": "true",
     "install_type": "用户空间",
-    "size": "0.02",
-    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v1.2.2/global-radio.fpk",
-    "changelog": "默认访问端口改为 32678\n应用设置修改端口后同步更新桌面快捷方式端口\n修复 fpk 打包格式问题"
+    "size": "0.03",
+    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/global-radio-v1.2.3/global-radio-1.2.3-fnos-amd64.fpk",
+    "changelog": "1.2.3: 端口设置闭环修复——应用设置保存端口后容器重建、.env/桌面入口配置/AppCenter数据库全链路同步，桌面图标与打开按钮自动跟随新端口；设置页回显真实端口(不再固定默认值)；端口持久化到应用配置目录，升级/重装不丢失且环境变量缺失不再导致启动失败；应用中心启停按钮真实作用到容器(去除docker-project假停)；平台标注修正为x86_64",
+    "icon_url": "./global-radio/ICON.PNG",
+    "readme_url": "./global-radio/README.md",
+    "homepage": "https://github.com/moli-xia/global-radio"
   },
   "kms-activator": {
     "display_name": "KMS Activator",
