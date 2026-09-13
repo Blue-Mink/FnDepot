@@ -43,11 +43,11 @@
 
 ### 📻 全球电台 (global-radio)
 
-基于 Vue 3 + Vite 的在线电台应用，支持全球电台搜索、播放、收藏、历史记录、主题切换与多国语言。
+基于 Vue 3 + Vite 的在线电台应用，支持全球电台搜索、播放、收藏、历史记录、主题切换与多国语言。内置电台目录/封面图 NAS 缓存加速，支持端口直连与飞牛统一网关双入口。
 
 <div align="center">
 
-[![global-radio](https://img.shields.io/badge/global--radio-v1.2.3-purple?style=flat-square)](https://github.com/Blue-Mink/FnDepot)
+[![global-radio](https://img.shields.io/badge/global--radio-v1.3.0-purple?style=flat-square)](https://github.com/Blue-Mink/FnDepot)
 [![Platform](https://img.shields.io/badge/Platform-fnOS%20x86__64-lightgrey?style=flat-square)](#)
 
 </div>
@@ -57,7 +57,7 @@
 | 👨‍💻 **原作者** | [moli-xia](https://github.com/moli-xia) |
 | 📁 **原项目** | [global-radio](https://github.com/moli-xia/global-radio) |
 | 📥 **安装方式** | 在飞牛 FnDepot 直接添加本源，客户端中搜索「全球电台」即可安装 |
-| 🏷️ **版本** | v1.2.3（端口设置闭环修复：保存后容器/桌面图标/打开入口/设置回显全一致） |
+| 🏷️ **版本** | v1.3.0（统一网关入口 + 目录/封面 NAS 缓存加速 + 高清图标；端口直连与网关双入口） |
 
 ---
 
