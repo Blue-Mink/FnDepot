@@ -1,0 +1,74 @@
+#!/bin/bash
+# iStoreOS FPK - 安装回调（秒回模式）
+# 平台对安装回调有约190秒的看门狗超时，而本应用的镜像下载+网络预置需要 3~8 分钟，
+# 因此这里只校验参数、写状态、拉起后台 worker 后立即返回，重活全部异步进行。
+# 进度: /tmp/istoreos-install.state   日志: /tmp/istoreos-install.log
+set -e
+
+echo "[$(date)] iStoreOS install_callback（秒回模式）收到安装请求"
+
+# ---- 参数快速校验（让用户在向导阶段就能拿到明确错误）----
+ISTO_MEM="${wizard_isto_mem:-1024}"
+case "${ISTO_MEM}" in ''|*[!0-9]*) ISTO_MEM=0 ;; esac
+MEM_TOTAL_MB=$(awk '/MemTotal/{print int($2/1024); exit}' /proc/meminfo)
+MEM_MAX_MB=$((MEM_TOTAL_MB - 1536)); [ "${MEM_MAX_MB}" -gt 65536 ] && MEM_MAX_MB=65536
+if [ "${ISTO_MEM}" -lt 512 ] || [ "${ISTO_MEM}" -gt "${MEM_MAX_MB}" ]; then
+    echo "错误: 内存大小 ${ISTO_MEM}MB 超出允许范围。本机物理内存 ${MEM_TOTAL_MB}MB，需为飞牛系统保留至少 1536MB，请输入 512~${MEM_MAX_MB} 之间的整数（MB）"
+    exit 1
+fi
+
+# ---- 环境变量快照（后台 worker 继承不到回调环境，显式落盘传递）----
+ENVF="/tmp/istoreos-install.env"
+: > "${ENVF}"
+for v in wizard_isto_version wizard_isto_cpu wizard_isto_mem wizard_isto_autostart \
+         TRIM_TEMP_LOGFILE TRIM_DATA_SHARE_PATHS TRIM_PKGVAR TRIM_PKGDIR TRIM_APPDEST; do
+    val="${!v}"
+    [ -n "${val}" ] && printf '%s=%q\n' "$v" "${val}" >> "${ENVF}"
+done
+
+# ---- 防重复拉起 ----
+LOCK_FILE="/tmp/istoreos-install.lock"
+if [ -f "${LOCK_FILE}" ] && kill -0 "$(cat "${LOCK_FILE}" 2>/dev/null)" 2>/dev/null; then
+    echo ">>> 安装任务已在运行中（pid $(cat "${LOCK_FILE}")），跳过重复拉起"
+    exit 0
+fi
+
+STATE_FILE="/tmp/istoreos-install.state"
+echo "queued" > "${STATE_FILE}"
+
+# ---- 脱离会话拉起后台 worker（payload 部署可能稍晚于回调，launcher 内轮询等待）----
+# 关键：必须用 systemd-run 瞬时单元把 worker 移出平台会话进程树。
+# 实测 nohup/setsid 的孙进程会在安装任务收尾时被平台清扫击杀（1.0.2 首轮 24.10.8 复现：
+# worker 在 extracting 中途无声消失，无 OOM、无 ERR trap 触发）。
+cat > /tmp/istoreos-install-launch.sh <<'LAUNCH'
+#!/bin/bash
+    W=""
+    for i in $(seq 1 36); do
+        for d in /var/apps/com.istoreos.vm/target/bin /var/apps/com.istoreos.vm/bin /vol1/@appcenter/com.istoreos.vm/bin; do
+            [ -f "${d}/istoreos-install-worker.sh" ] && { W="${d}/istoreos-install-worker.sh"; break 2; }
+        done
+        sleep 5
+    done
+    if [ -z "${W}" ]; then
+        echo "failed: 未找到后台安装脚本(worker)，请重装" > /tmp/istoreos-install.state
+        exit 1
+    fi
+    exec /bin/bash "${W}" /tmp/istoreos-install.env
+LAUNCH
+chmod +x /tmp/istoreos-install-launch.sh
+if command -v systemd-run >/dev/null 2>&1; then
+    # 残留的瞬时单元（含 remain-after-exit 的 inactive/failed 态）会占用单元名导致撞名失败
+    systemctl stop isto-install.service 2>/dev/null || true
+    systemctl reset-failed isto-install.service 2>/dev/null || true
+    systemd-run --unit=isto-install --remain-after-exit /bin/bash /tmp/istoreos-install-launch.sh \
+        >/tmp/istoreos-install.out 2>&1 \
+        || echo "failed: 无法拉起后台安装(systemd-run)" > "${STATE_FILE}"
+else
+    nohup setsid /bin/bash /tmp/istoreos-install-launch.sh >/tmp/istoreos-install.out 2>&1 &
+    echo $! > "${LOCK_FILE}"
+fi
+
+echo "✅ 安装任务已提交，正在后台进行（下载官方镜像 + 网络预置 + 创建虚拟机，约 3~8 分钟）"
+echo "   进度: cat /tmp/istoreos-install.state   日志: tail -f /tmp/istoreos-install.log"
+echo "   完成后在应用中心点「打开」或桌面 iStoreOS 图标即可直达（首次需先启动虚拟机）"
+exit 0
