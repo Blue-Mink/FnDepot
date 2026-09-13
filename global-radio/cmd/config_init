@@ -1,3 +1,0 @@
-#!/bin/bash
-### This script is called before the user changes environment variables.
-exit 0
