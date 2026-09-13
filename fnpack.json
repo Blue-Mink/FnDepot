@@ -179,5 +179,26 @@
     "service_port": "5003",
     "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v0.8.0/kspeeder-0.8.0-fnos-amd64.fpk",
     "changelog": "同步 iStoreEnhance / KSpeeder 引擎至 v0.8.0（build 8664）\n新增 kspeeder download 命令与智能下载网关加速（含 Python/pip、Homebrew 加速）\n修复 docker manifest 镜像回源重试与 ghcr bottles 域名问题\n图标按 fnOS 系统官方 squircle 圆角曲线重制\n沿用端口配置闭环：管理端口、代理端口、ui/config、AppCenter 入口与实际监听端口保持同步"
+  },
+  "istoreos": {
+    "display_name": "iStoreOS",
+    "version": "1.0.5",
+    "platform": "x86",
+    "desc": "在x86 fnOS系统中以虚拟机运行iStoreOS（基于OpenWrt），KVM硬件加速原生性能，软路由/NAS体验开箱即用。向导可选25.12.5/24.10.8/22.03.7三个官方版本，下载即SHA256强校验。安装自动完成网络预置：虚拟机以DHCP客户端融入你现有的局域网，适配任意路由器网段，不与主路由抢DHCP。内置「IP寻踪」固定入口(36125)与桌面图标，一键直达iStoreOS管理界面并自动跟随虚拟机IP变化。安装提交后立即完成，镜像下载与预置（约3~8分钟）在后台自动进行，进度可查、失败可续跑。完成后在「虚拟机」应用中启动虚拟机即可。",
+    "labels": "工具",
+    "author": "Blue-Mink",
+    "author_url": "https://github.com/Blue-Mink",
+    "distributor": "Blue-Mink",
+    "distributor_url": "https://github.com/Blue-Mink",
+    "bug_report_url": "https://github.com/Blue-Mink/fnos-vm-istoreos/issues",
+    "isdocker": "false",
+    "install_type": "系统空间",
+    "size": "0.6",
+    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/istoreos-v1.0.5/com.istoreos.vm-1.0.5-fnos-amd64.fpk",
+    "changelog": "1.0.5: 三版本向导(25.12.5/24.10.8/22.03.7)平台路径全量实测通过; 秒回异步安装+后台进度状态机+断点续跑; 离线网络预置(LAN改DHCP客户端+关闭自带DHCP/RA, 适配任意主路由网段); 内置IP寻踪六级发现链固定入口36125与桌面图标自动跟随VM地址; 修复官方24.10.8/22.03.7镜像gz尾部杂散字节致gunzip非零退出被误判失败(实测rc=2, 现容忍任意非零并以内容非空为准); 图标采用飞牛官方squircle圆角曲线",
+    "icon_url": "./istoreos/ICON.PNG",
+    "readme_url": "./istoreos/README.md",
+    "homepage": "https://github.com/Blue-Mink/fnos-vm-istoreos",
+    "service_port": "36125"
   }
 }
