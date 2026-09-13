@@ -1,0 +1,52 @@
+#!/bin/bash
+# global-radio 主生命周期脚本：主动管理 docker compose 与入口同步
+SELF_DIR="$(cd "$(dirname "$0")" && pwd)"
+LIB=""
+for d in "$SELF_DIR/../target/bin" "$SELF_DIR/../bin" \
+         /var/apps/global-radio/target/bin /vol1/@appcenter/global-radio/bin; do
+    [ -f "$d/gradio-lib.sh" ] && { LIB="$d/gradio-lib.sh"; break; }
+done
+[ -f "$LIB" ] || { echo "找不到 gradio-lib.sh"; exit 1; }
+# shellcheck source=/dev/null
+. "$LIB"
+gradio_norm_appdir || { echo "未找到 payload（docker/docker-compose.yaml）"; exit 1; }
+
+case "$1" in
+start)
+    PORT="${wizard_access_port:-}"
+    gradio_valid_port "$PORT" || PORT="$(gradio_read_port)"
+    gradio_write_port "$PORT"
+    gradio_fix_ui_config "$PORT"
+    gradio_clean_container
+    if ! gradio_up "$PORT"; then
+        echo "容器启动失败（端口 $PORT 可能被占用，或镜像拉取失败）"
+        exit 1
+    fi
+    gradio_sync_db "$PORT"
+    echo "global-radio 已启动，端口 ${PORT}"
+    exit 0
+    ;;
+stop)
+    gradio_compose down >/dev/null 2>&1
+    docker stop "$GRADIO_CONTAINER" >/dev/null 2>&1
+    echo "global-radio 已停止"
+    exit 0
+    ;;
+status)
+    if gradio_is_running; then
+        echo "running"
+        exit 0
+    else
+        echo "stopped"
+        exit 3
+    fi
+    ;;
+restart)
+    "$0" stop
+    sleep 1
+    exec "$0" start
+    ;;
+*)
+    exit 1
+    ;;
+esac
