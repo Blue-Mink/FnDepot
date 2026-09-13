@@ -1,0 +1,6 @@
+dist/
+*.fpk
+*.sha256
+*_TODO.md
+build-records/
+__pycache__/
