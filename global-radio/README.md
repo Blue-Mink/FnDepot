@@ -54,9 +54,16 @@
 - 修改端口无需重装；桌面图标、「打开」按钮、容器映射、设置页回显自动保持一致
 - **统一网关入口**：`http://NAS_IP:5666/app/global-radio/`（应用启动后自动注册，随端口变更自动跟随），与端口直连功能、加速完全等价
 
-## 源码
+## 源码与客户端
 
-FPK 构建工程见 [`source/`](source/) 子目录（fnpack 布局，`fnpack build -d source目录` 可复现构建）。
+- [`upstream/`](upstream/) — 上游 [moli-xia/global-radio](https://github.com/moli-xia/global-radio) **源码快照**（main 分支 `ef0e82cf8`，2026-01-26，134 文件；上游仓库未附 LICENSE 文件，版权归 [moli-xia](https://github.com/moli-xia) 所有，此处仅为镜像备份）
+- [`source/`](source/) — 本 FPK 打包工程（fnpack 布局，`fnpack build -d source目录` 可复现构建）
+- **各平台客户端**（搬运自上游 `clients` release，SHA256 与上游 digest 逐一核验一致）：
+  | 平台 | 文件 | SHA256 |
+  |---|---|---|
+  | Android | [GlobleRadio-v0.0.1.apk](https://github.com/Blue-Mink/FnDepot/releases/download/global-radio-v1.3.0/GlobleRadio-v0.0.1.apk) | `f4c588bc1de64c6e6e5c43e030001bd58a37b8a05de32f12086a64e4c1d7e5c3` |
+  | iOS | [GlobleRadio-0.0.1.ipa](https://github.com/Blue-Mink/FnDepot/releases/download/global-radio-v1.3.0/GlobleRadio-0.0.1.ipa) | `83ee337e6913a237ad89237cf4b698fcbb6bac335e6de0689af6b0e9e9da5210` |
+  | Windows | [GlobleRadio_0.0.1_x64-setup.exe](https://github.com/Blue-Mink/FnDepot/releases/download/global-radio-v1.3.0/GlobleRadio_0.0.1_x64-setup.exe) | `1f5bf5c8cf9756030eda38f9fa30c48c87a4a3d9d9b0d013699e8a2fd80e7896` |
 
 ## 演示与上游
 
