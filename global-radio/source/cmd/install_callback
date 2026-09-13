@@ -35,5 +35,20 @@ gradio_log "安装端口: $PORT"
 TRIM_APPNAME="$GRADIO_NAME" TRIM_PKGDIR="$GRADIO_APP_DIR" "$SELF_DIR/main" start \
     || gradio_fail_fast "容器启动失败，请检查端口 ${PORT} 是否被占用"
 
-gradio_log "安装完成。访问入口: http://<NAS_IP>:${PORT}/"
+gradio_log "安装完成。访问入口: http://<NAS_IP>:${PORT}/ 统一网关: ${GRADIO_GW_PREFIX}/"
+
+# 网关注册自愈（TREK 定式）：AppCenter 在应用启动瞬间快照 trim_sac.public.entry，
+# 若快照早于上面的 DB 写入（竞态），entry.gateway_socket 为空 → /app/ 路由不挂载。
+# 60s 后复查，仍为空则借 stop/start 强制重拍一次快照。
+(
+    sleep 60
+    GW="$(psql -h /var/run/postgresql -d trim_sac -U postgres -tAc \
+          "SELECT gateway_socket FROM public.entry WHERE app_name='${GRADIO_NAME}' ORDER BY id DESC LIMIT 1" 2>/dev/null || true)"
+    if [ -z "$GW" ]; then
+        sleep 5
+        appcenter-cli stop "${GRADIO_NAME}" >/dev/null 2>&1 || true
+        sleep 8
+        appcenter-cli start "${GRADIO_NAME}" >/dev/null 2>&1 || true
+    fi
+) >/dev/null 2>&1 &
 exit 0
