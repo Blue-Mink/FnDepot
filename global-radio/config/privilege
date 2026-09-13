@@ -1,8 +1,0 @@
-{
-    "defaults":
-    {
-        "run-as": "package"
-    },
-    "username": "docker-global-radio",
-    "groupname": "docker-global-radio"
-}
