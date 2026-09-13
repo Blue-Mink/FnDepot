@@ -1,0 +1,41 @@
+#!/bin/bash
+# iStoreOS FPK - 卸载后回调
+# 停止并删除虚拟机，根据用户选择处理数据
+
+echo ">>> 卸载 iStoreOS 虚拟机..."
+
+# 清理 IP 寻踪服务与延迟回写守护
+systemctl disable --now istoreos-web >/dev/null 2>&1 || true
+pkill -f istoreos-db-sync.sh 2>/dev/null || true
+pkill -f istoreos-install-worker.sh 2>/dev/null || true
+rm -f /etc/systemd/system/istoreos-web.service /tmp/istoreos-install.state \
+      /tmp/istoreos-install.env /tmp/istoreos-install.lock /tmp/istoreos-install.out
+systemctl daemon-reload >/dev/null 2>&1 || true
+echo ">>> IP 寻踪服务已移除"
+
+# 停止并删除 libvirt 域
+virsh -c qemu:///system destroy istoreos 2>/dev/null || true
+virsh -c qemu:///system undefine istoreos --nvram 2>/dev/null || true
+
+# 根据用户选择处理数据
+if [ "${wizard_data_action:-}" == "delete" ]; then
+    echo ">>> 删除数据..."
+    rm -rf "${TRIM_PKGVAR}" 2>/dev/null || true
+    if [ -n "${TRIM_DATA_SHARE_PATHS}" ]; then
+        while IFS=':' read -ra PATHS; do
+            for p in "${PATHS[@]}"; do
+                [ -n "${p}" ] && rm -rf "${p}/istoreos.qcow2" "${p}/istoreos.img" "${p}/istoreos.img.gz" "${p}/istoreos.xml" "${p}/istoreos_VARS.fd" 2>/dev/null || true
+            done
+        done <<<"${TRIM_DATA_SHARE_PATHS}"
+    fi
+    rm -f /vol1/vm/pool/istoreos.qcow2 2>/dev/null || true
+    virsh -c qemu:///system pool-refresh vol1 2>/dev/null || true
+    echo "所有数据已删除。"
+else
+    echo "数据已保留。如需完全删除，请手动清理:"
+    echo "  rm -f ${TRIM_DATA_SHARE_PATHS}/istoreos.qcow2 /vol1/vm/pool/istoreos.qcow2"
+    echo "  rm -f ${TRIM_DATA_SHARE_PATHS}/istoreos.xml ${TRIM_DATA_SHARE_PATHS}/istoreos_VARS.fd"
+fi
+
+echo "卸载完成。"
+exit 0
