@@ -1,0 +1,18 @@
+#!/bin/bash
+# 卸载回调：停止并清理容器与 compose 项目（用户数据目录保留）
+CONTAINER_NAME="global-radio"
+for d in /var/apps/global-radio/target/docker /vol1/@appcenter/global-radio/docker; do
+    if [ -f "$d/docker-compose.yaml" ]; then
+        ( cd "$d" && docker compose down >/dev/null 2>&1 ) || true
+        break
+    fi
+done
+if docker ps -a --format '{{.Names}}' 2>/dev/null | grep -q "^${CONTAINER_NAME}$"; then
+    docker stop "$CONTAINER_NAME" >/dev/null 2>&1 || true
+    docker rm "$CONTAINER_NAME" >/dev/null 2>&1 || true
+fi
+# 清理本应用镜像（浮动 tag，下次安装重新拉取）
+if docker images --format '{{.Repository}}:{{.Tag}}' 2>/dev/null | grep -q "^superneed/global-radio:latest$"; then
+    docker rmi superneed/global-radio:latest >/dev/null 2>&1 || true
+fi
+exit 0
