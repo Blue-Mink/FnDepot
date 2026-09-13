@@ -1,0 +1,41 @@
+#!/bin/bash
+# iStoreOS FPK - 安装前检查
+set -e
+
+TRIM_TEMP_LOGFILE="${TRIM_TEMP_LOGFILE:-/tmp/istoreos-install.log}"
+
+echo ">>> 安装前检查..." >>"${TRIM_TEMP_LOGFILE}"
+
+# 检查 trim.vm 是否已安装
+if ! virsh -c qemu:///system version &>/dev/null; then
+    echo "错误: libvirtd 未运行，请先安装并启动「虚拟机」(trim.vm) 应用。"
+    exit 1
+fi
+
+# 检查 QEMU/KVM 可用
+if [ ! -c /dev/kvm ]; then
+    echo "错误: /dev/kvm 不存在，CPU 不支持硬件虚拟化或 KVM 模块未加载。"
+    echo "请确认 BIOS 已开启 VMX/SVM 虚拟化支持。"
+    exit 1
+fi
+
+# 检查 OVS
+if ! command -v ovs-vsctl &>/dev/null; then
+    echo "错误: ovs-vsctl 未找到，请先安装 openvswitch-switch。"
+    exit 1
+fi
+
+# 检查转换/预置工具链
+for tool in qemu-img qemu-system-x86_64 python3; do
+    if ! command -v "${tool}" &>/dev/null; then
+        echo "错误: 缺少 ${tool}，无法准备 iStoreOS 镜像。"
+        exit 1
+    fi
+done
+if [ ! -f /usr/share/OVMF/OVMF_CODE.fd ] || [ ! -f /usr/share/OVMF/OVMF_VARS.fd ]; then
+    echo "错误: 缺少 OVMF UEFI 固件（/usr/share/OVMF/）。"
+    exit 1
+fi
+
+echo "安装前检查通过 ✅"
+exit 0
