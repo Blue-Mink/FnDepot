@@ -1,0 +1,51 @@
+#!/bin/bash
+# 配置保存回调：端口变更闭环
+#   port.conf(持久) → .env → ui/config → 重建容器 → AppCenter DB(立即+延迟)
+SELF_DIR="$(cd "$(dirname "$0")" && pwd)"
+fail() {
+    if [ -n "${TRIM_TEMP_LOGFILE:-}" ]; then
+        echo "配置变更失败：$1" >>"$TRIM_TEMP_LOGFILE" 2>/dev/null
+    fi
+    echo "ERROR: $1" >&2
+    exit 1
+}
+
+LIB=""
+for d in "$SELF_DIR/../target/bin" "$SELF_DIR/../bin" \
+         /var/apps/global-radio/target/bin /vol1/@appcenter/global-radio/bin; do
+    [ -f "$d/gradio-lib.sh" ] && { LIB="$d/gradio-lib.sh"; break; }
+done
+[ -f "$LIB" ] || fail "未找到运行库 gradio-lib.sh"
+# shellcheck source=/dev/null
+. "$LIB"
+gradio_norm_appdir || fail "未找到应用 payload 目录"
+
+PORT="${wizard_access_port:-}"
+OLD_PORT="$(gradio_read_port)"
+gradio_valid_port "$PORT" || PORT="$OLD_PORT"
+
+if [ "$PORT" = "$OLD_PORT" ] && gradio_is_running; then
+    # 端口未变且服务在跑：仅补一次入口同步
+    gradio_write_port "$PORT"
+    gradio_fix_ui_config "$PORT"
+    gradio_sync_db "$PORT"
+    echo "端口保持 ${PORT}，入口已同步。"
+    exit 0
+fi
+
+gradio_log "端口变更: ${OLD_PORT} -> ${PORT}"
+gradio_write_port "$PORT"
+gradio_fix_ui_config "$PORT"
+gradio_clean_container
+gradio_up "$PORT" || fail "容器以端口 ${PORT} 启动失败（端口可能被占用）"
+gradio_sync_db "$PORT"
+
+# 简单自证：等容器就绪后确认可访问
+ok=0
+for i in 1 2 3 4 5 6; do
+    sleep 2
+    if gradio_is_running; then ok=1; break; fi
+done
+[ "$ok" = "1" ] || fail "容器未能进入运行状态"
+gradio_log "端口配置已生效：http://<NAS_IP>:${PORT}/"
+exit 0
