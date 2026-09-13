@@ -1,0 +1,25 @@
+#!/bin/bash
+# 升级回调：payload 覆盖后重建 .env / port.conf / ui/config 并恢复服务。
+# 端口默认沿用升级前持久化的值（port.conf），除非向导显式给了新值。
+SELF_DIR="$(cd "$(dirname "$0")" && pwd)"
+LIB=""
+for d in "$SELF_DIR/../target/bin" "$SELF_DIR/../bin" \
+         /var/apps/global-radio/target/bin /vol1/@appcenter/global-radio/bin; do
+    [ -f "$d/gradio-lib.sh" ] && { LIB="$d/gradio-lib.sh"; break; }
+done
+[ -f "$LIB" ] || { echo "ERROR: 未找到运行库"; exit 1; }
+# shellcheck source=/dev/null
+. "$LIB"
+for i in 1 2 3 4 5 6 7 8 9 10; do
+    gradio_norm_appdir && break
+    sleep 2
+done
+gradio_norm_appdir || { echo "ERROR: 未找到应用 payload 目录"; exit 1; }
+
+PORT="${wizard_access_port:-}"
+gradio_valid_port "$PORT" || PORT="$(gradio_read_port)"
+gradio_write_port "$PORT"
+gradio_fix_ui_config "$PORT"
+TRIM_APPNAME="$GRADIO_NAME" TRIM_PKGDIR="$GRADIO_APP_DIR" "$SELF_DIR/main" start || exit 1
+echo "升级完成，端口 ${PORT}"
+exit 0
