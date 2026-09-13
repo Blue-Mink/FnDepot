@@ -47,8 +47,8 @@
 
 <div align="center">
 
-[![global-radio](https://img.shields.io/badge/global--radio-v1.2.2-purple?style=flat-square)](https://github.com/Blue-Mink/FnDepot)
-[![Platform](https://img.shields.io/badge/Platform-x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
+[![global-radio](https://img.shields.io/badge/global--radio-v1.2.3-purple?style=flat-square)](https://github.com/Blue-Mink/FnDepot)
+[![Platform](https://img.shields.io/badge/Platform-fnOS%20x86__64-lightgrey?style=flat-square)](#)
 
 </div>
 
@@ -57,7 +57,7 @@
 | 👨‍💻 **原作者** | [moli-xia](https://github.com/moli-xia) |
 | 📁 **原项目** | [global-radio](https://github.com/moli-xia/global-radio) |
 | 📥 **安装方式** | 在飞牛 FnDepot 直接添加本源，客户端中搜索「全球电台」即可安装 |
-| 🏷️ **版本** | v1.2.2 |
+| 🏷️ **版本** | v1.2.3（端口设置闭环修复：保存后容器/桌面图标/打开入口/设置回显全一致） |
 
 ---
 
