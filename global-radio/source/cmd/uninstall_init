@@ -1,0 +1,3 @@
+#!/bin/bash
+# 卸载前准备（容器清理由 uninstall_callback 完成）
+exit 0
