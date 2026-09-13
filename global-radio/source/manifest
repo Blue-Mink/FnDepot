@@ -1,11 +1,13 @@
 appname               = global-radio
-version               = 1.2.3
+version               = 1.3.0
 display_name          = 全球电台
-desc                  = 基于 Vue 3 + Vite 的在线电台应用，支持全球电台搜索、播放、收藏、历史记录、主题切换与多国语言。支持在应用设置中自定义访问端口（保存即生效，桌面图标与打开入口自动跟随）。
+desc                  = 基于 Vue 3 + Vite 的在线电台应用，支持全球电台搜索、播放、收藏、历史记录、主题切换与多国语言。端口直连与飞牛统一网关（/app/global-radio/）双入口。
 source                = thirdparty
 platform              = x86
 maintainer            = moli-xia
-distributor           = cloud-orchestrator
+maintainer_url        = https://github.com/moli-xia/global-radio
+distributor           = Blue-Mink
+distributor_url       = https://github.com/Blue-Mink/FnDepot
 desktop_uidir         = ui
 desktop_applaunchname = global-radio.Application
 service_port          = 32678
