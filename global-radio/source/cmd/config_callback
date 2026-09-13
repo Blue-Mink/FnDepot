@@ -29,6 +29,7 @@ if [ "$PORT" = "$OLD_PORT" ] && gradio_is_running; then
     gradio_write_port "$PORT"
     gradio_fix_ui_config "$PORT"
     gradio_sync_db "$PORT"
+    gradio_gw_start "$PORT"
     echo "端口保持 ${PORT}，入口已同步。"
     exit 0
 fi
@@ -39,6 +40,7 @@ gradio_fix_ui_config "$PORT"
 gradio_clean_container
 gradio_up "$PORT" || fail "容器以端口 ${PORT} 启动失败（端口可能被占用）"
 gradio_sync_db "$PORT"
+gradio_gw_start "$PORT"
 
 # 简单自证：等容器就绪后确认可访问
 ok=0
