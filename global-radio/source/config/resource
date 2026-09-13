@@ -1,0 +1,28 @@
+{
+    "data-share":
+    {
+        "shares":
+        [
+            {
+                "name": "global-radio",
+                "permission":
+                {
+                    "rw":
+                    [
+                        "docker-global-radio"
+                    ]
+                }
+            },
+            {
+                "name": "global-radio/data",
+                "permission":
+                {
+                    "rw":
+                    [
+                        "docker-global-radio"
+                    ]
+                }
+            }
+        ]
+    }
+}
