@@ -22,11 +22,15 @@ start)
         echo "容器启动失败（端口 $PORT 可能被占用，或镜像拉取失败）"
         exit 1
     fi
+    gradio_patch_sw
+    gradio_patch_accel
     gradio_sync_db "$PORT"
+    gradio_gw_start "$PORT"
     echo "global-radio 已启动，端口 ${PORT}"
     exit 0
     ;;
 stop)
+    gradio_gw_stop
     gradio_compose down >/dev/null 2>&1
     docker stop "$GRADIO_CONTAINER" >/dev/null 2>&1
     echo "global-radio 已停止"
