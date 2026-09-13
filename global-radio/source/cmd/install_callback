@@ -1,0 +1,39 @@
+#!/bin/bash
+# 安装回调：校验向导端口 → 持久化 → 拉起容器 → 同步入口/DB
+SELF_DIR="$(cd "$(dirname "$0")" && pwd)"
+gradio_fail_fast() {
+    if [ -n "${TRIM_TEMP_LOGFILE:-}" ]; then
+        echo "安装失败：$1" >>"$TRIM_TEMP_LOGFILE" 2>/dev/null
+    fi
+    echo "ERROR: $1" >&2
+    exit 1
+}
+
+LIB=""
+for d in "$SELF_DIR/../target/bin" "$SELF_DIR/../bin" \
+         /var/apps/global-radio/target/bin /vol1/@appcenter/global-radio/bin; do
+    [ -f "$d/gradio-lib.sh" ] && { LIB="$d/gradio-lib.sh"; break; }
+done
+[ -f "$LIB" ] || gradio_fail_fast "未找到运行库 gradio-lib.sh（payload 未部署？）"
+# shellcheck source=/dev/null
+. "$LIB"
+
+# payload 部署与回调存在轻微时序差，最多等 30s
+for i in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15; do
+    gradio_norm_appdir && break
+    sleep 2
+done
+gradio_norm_appdir || gradio_fail_fast "未找到应用 payload 目录"
+
+PORT="${wizard_access_port:-$GRADIO_DEFAULT_PORT}"
+gradio_valid_port "$PORT" || gradio_fail_fast "无效的端口号：$PORT"
+
+gradio_write_port "$PORT"
+gradio_fix_ui_config "$PORT"
+gradio_log "安装端口: $PORT"
+
+TRIM_APPNAME="$GRADIO_NAME" TRIM_PKGDIR="$GRADIO_APP_DIR" "$SELF_DIR/main" start \
+    || gradio_fail_fast "容器启动失败，请检查端口 ${PORT} 是否被占用"
+
+gradio_log "安装完成。访问入口: http://<NAS_IP>:${PORT}/"
+exit 0
