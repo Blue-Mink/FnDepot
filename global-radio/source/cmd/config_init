@@ -1,0 +1,14 @@
+#!/bin/bash
+# 配置页打开前：回显当前真实端口（不依赖 wizard 静态 initValue）
+SELF_DIR="$(cd "$(dirname "$0")" && pwd)"
+LIB=""
+for d in "$SELF_DIR/../target/bin" "$SELF_DIR/../bin" \
+         /var/apps/global-radio/target/bin /vol1/@appcenter/global-radio/bin; do
+    [ -f "$d/gradio-lib.sh" ] && { LIB="$d/gradio-lib.sh"; break; }
+done
+[ -f "$LIB" ] || exit 0
+# shellcheck source=/dev/null
+. "$LIB"
+gradio_norm_appdir || exit 0
+echo "wizard_access_port=$(gradio_read_port)"
+exit 0
