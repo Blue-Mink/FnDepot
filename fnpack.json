@@ -1,9 +1,9 @@
 {
   "global-radio": {
     "display_name": "全球电台",
-    "version": "1.2.3",
+    "version": "1.3.0",
     "platform": "x86",
-    "desc": "基于 Vue 3 + Vite 的在线电台应用，支持全球电台搜索、播放、收藏、历史记录、主题切换与多国语言。支持在应用设置中自定义访问端口（保存即生效，桌面图标与打开入口自动跟随）。",
+    "desc": "基于 Vue 3 + Vite 的在线电台应用，支持全球电台搜索、播放、收藏、历史记录、主题切换与多国语言。端口直连与飞牛统一网关（/app/global-radio/）双入口。",
     "labels": "娱乐",
     "author": "molixia",
     "author_url": "https://github.com/moli-xia",
@@ -12,9 +12,9 @@
     "bug_report_url": "https://github.com/moli-xia/global-radio/issues",
     "isdocker": "true",
     "install_type": "用户空间",
-    "size": "0.03",
-    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/global-radio-v1.2.3/global-radio-1.2.3-fnos-amd64.fpk",
-    "changelog": "1.2.3: 端口设置闭环修复——应用设置保存端口后容器重建、.env/桌面入口配置/AppCenter数据库全链路同步，桌面图标与打开按钮自动跟随新端口；设置页回显真实端口(不再固定默认值)；端口持久化到应用配置目录，升级/重装不丢失且环境变量缺失不再导致启动失败；应用中心启停按钮真实作用到容器(去除docker-project假停)；平台标注修正为x86_64",
+    "size": "0.09",
+    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/global-radio-v1.3.0/global-radio-1.3.0-fnos-amd64.fpk",
+    "changelog": "1.3.0: 接入飞牛统一网关——安装后可经 http://NAS_IP:5666/app/global-radio/ 访问(与端口直连双入口并存,登录飞牛即用,网关与直连功能/加速完全等价,应用端口变更网关自动跟随)；1.2.9: 缓存加速强制收编源头 no-cache 响应头,封面二访约0.5ms；1.2.8: 控制台端口编辑与桌面入口/数据库四处同步；1.2.7: 新增电台目录与封面图 NAS 代理缓存加速(http 入口全端生效)+内网 SSRF 拦截；1.2.5: 应用图标 1024 超采样高清重制(官方 squircle 圆角)；1.2.4: 修复点击桌面图标跳转飞牛登录页(入口模板括号错位)",
     "icon_url": "./global-radio/ICON.PNG",
     "readme_url": "./global-radio/README.md",
     "homepage": "https://github.com/moli-xia/global-radio"
