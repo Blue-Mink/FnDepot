@@ -1,0 +1,85 @@
+[
+  {
+    "stepTitle": "基本配置",
+    "items": [
+      {
+        "type": "text",
+        "field": "wizard_isto_cpu",
+        "label": "CPU 核心数",
+        "initValue": "2",
+        "rules": [
+          {
+            "required": true,
+            "message": "请输入 CPU 核心数"
+          },
+          {
+            "pattern": "^([1-9]|1[0-6])$",
+            "message": "CPU 核心数必须在 1 到 16 之间"
+          }
+        ],
+        "helpText": "分配给虚拟机的 CPU 核心数（1-16）"
+      },
+      {
+        "type": "text",
+        "field": "wizard_isto_mem",
+        "label": "内存大小（MB）",
+        "initValue": "1024",
+        "rules": [
+          {
+            "required": true,
+            "message": "请输入内存大小"
+          },
+          {
+            "pattern": "^[1-9][0-9]{2,5}$",
+            "message": "请输入 512~65536 之间的整数 MB"
+          }
+        ],
+        "helpText": "分配给虚拟机的内存（MB），iStoreOS 轻量，512 即可流畅运行，建议 1024。上限随设备实际内存自动校验：不超过「设备物理内存 − 1536MB」且最高 65536MB（为飞牛系统预留），超范围安装会失败并提示本机允许的具体上限"
+      },
+      {
+        "type": "radio",
+        "field": "wizard_isto_version",
+        "label": "iStoreOS 版本",
+        "initValue": "25.12.5",
+        "options": [
+          {
+            "label": "25.12.5（最新，推荐）",
+            "value": "25.12.5"
+          },
+          {
+            "label": "24.10.8（稳定）",
+            "value": "24.10.8"
+          },
+          {
+            "label": "22.03.7（旧线，兼容兜底）",
+            "value": "22.03.7"
+          }
+        ],
+        "rules": [
+          {
+            "required": true,
+            "message": "请选择 iStoreOS 版本"
+          }
+        ],
+        "helpText": "版本对应 koolcenter 官方不可变镜像文件（内置SHA256校验）；切换版本需卸载重装。UEFI(EFI) 构建，匹配飞牛虚拟机固件类型"
+      },
+      {
+        "type": "radio",
+        "field": "wizard_isto_autostart",
+        "label": "是否开机自启",
+        "initValue": "false",
+        "options": [
+          {
+            "label": "是",
+            "value": "true"
+          },
+          {
+            "label": "否",
+            "value": "false"
+          }
+        ],
+        "helpText": "是否跟随 fnOS 系统启动自动运行 iStoreOS 虚拟机"
+      }
+    ]
+  }
+]
