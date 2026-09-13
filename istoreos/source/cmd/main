@@ -1,0 +1,49 @@
+#!/bin/bash
+# iStoreOS 应用生命周期入口
+# - start/stop/status 管理「IP 寻踪」转发器（应用中心「打开」按钮的落点）
+# - 虚拟机本身的开机自启由安装向导配置（libvirt autostart），启停也可在「虚拟机」应用操作
+UNIT="istoreos-web"
+
+case $1 in
+    start)
+        systemctl start "$UNIT" 2>/dev/null && echo "IP 寻踪已启动 (入口 36125)"
+        # 重试：后台安装未完成/失败且虚拟机尚未定义时，按原参数重新拉起 worker
+        ST="/tmp/istoreos-install.state"
+        LOCK="/tmp/istoreos-install.lock"
+        if ! virsh -c qemu:///system dominfo istoreos >/dev/null 2>&1 \
+           && [ -f /tmp/istoreos-install.env ] && ! grep -q '^ready' "$ST" 2>/dev/null \
+           && { [ ! -f "$ST" ] || grep -q '^failed' "$ST" 2>/dev/null \
+                || [ $(( $(date +%s) - $(stat -c %Y "$ST" 2>/dev/null || echo 0) )) -ge 900 ]; }; then
+            W=""
+            for d in /var/apps/com.istoreos.vm/target/bin /var/apps/com.istoreos.vm/bin \
+                     /vol1/@appcenter/com.istoreos.vm/bin; do
+                [ -f "${d}/istoreos-install-worker.sh" ] && W="${d}/istoreos-install-worker.sh" && break
+            done
+            if [ -n "${W}" ] && ! { [ -f "${LOCK}" ] && kill -0 "$(cat "${LOCK}" 2>/dev/null)" 2>/dev/null; }; then
+                rm -f "${LOCK}"
+                if command -v systemd-run >/dev/null 2>&1; then
+                    systemctl stop isto-install.service 2>/dev/null || true
+                    systemctl reset-failed isto-install.service 2>/dev/null || true
+                    systemd-run --unit=isto-install --remain-after-exit \
+                        /bin/bash "${W}" /tmp/istoreos-install.env >/dev/null 2>&1 || true
+                else
+                    setsid nohup /bin/bash "${W}" /tmp/istoreos-install.env >/tmp/istoreos-install.out 2>&1 &
+                    echo $! > "${LOCK}"
+                fi
+                echo "后台安装已重新拉起（进度: cat ${ST}）"
+            fi
+        fi
+        exit 0
+        ;;
+    stop)
+        systemctl stop "$UNIT" 2>/dev/null
+        echo "IP 寻踪已停止（不影响虚拟机运行）"
+        exit 0
+        ;;
+    status)
+        # 永远报健康：寻踪器是辅助服务，安装后 unit 创建前有空窗，
+        # 若此处返回非0会被应用中心判定 APP_CRASH 并触发自动清理（2026-09-13 实测教训）
+        exit 0
+        ;;
+    *) exit 1 ;;
+esac
