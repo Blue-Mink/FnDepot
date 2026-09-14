@@ -216,11 +216,11 @@ Docker 镜像加速管理工具，支持多源镜像缓存、加速规则管理�
 
 ### 🛜 iStoreOS (istoreos)
 
-在 x86 fnOS 上以虚拟机运行 [iStoreOS](https://www.istoreos.com/)（基于 OpenWrt）：向导三选一官方版本（25.12.5/24.10.8/22.03.7），下载即 SHA256 强校验；自动网络预置融入现有局域网（DHCP 客户端、不与主路由抢 DHCP）；内置「IP 寻踪」固定入口（36125）与桌面图标自动跟随虚拟机 IP 变化；安装秒回、后台进度可查、失败可续跑。
+在 x86 fnOS 上以虚拟机运行 [iStoreOS](https://www.istoreos.com/)（基于 OpenWrt）：向导三选一官方版本（25.12.5/24.10.8/22.03.7），下载即 SHA256 强校验；自动网络预置融入现有局域网（DHCP 客户端、不与主路由抢 DHCP）；内置「IP 寻踪」固定入口（36125）与桌面图标自动跟随虚拟机 IP 变化；安装秒回、后台进度可查、失败可续跑；与应用中心停用/启用真正联动，无 IP 时还能经虚拟机串口自救。
 
 <div align="center">
 
-[![iStoreOS](https://img.shields.io/badge/istoreos--fnos-v1.0.5-green?style=flat-square)](https://github.com/Blue-Mink/fnos-vm-istoreos/releases/tag/v1.0.5)
+[![iStoreOS](https://img.shields.io/badge/istoreos--fnos-v1.1.10-green?style=flat-square)](https://github.com/Blue-Mink/fnos-vm-istoreos/releases/tag/v1.1.10)
 [![Platform](https://img.shields.io/badge/Platform-fnOS%20x86__64-lightgrey?style=flat-square)](#)
 
 </div>
@@ -229,8 +229,8 @@ Docker 镜像加速管理工具，支持多源镜像缓存、加速规则管理�
 | :--- | :--- |
 | 👨‍💻 **打包维护** | [Blue-Mink](https://github.com/Blue-Mink) |
 | 📁 **原项目** | [fnos-vm-istoreos](https://github.com/Blue-Mink/fnos-vm-istoreos) · [iStoreOS 上游](https://www.istoreos.com/) |
-| 📥 **安装方式** | 下载 [com.istoreos.vm-1.0.5-fnos-amd64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/istoreos-v1.0.5/com.istoreos.vm-1.0.5-fnos-amd64.fpk) ([sha256](https://github.com/Blue-Mink/FnDepot/releases/download/istoreos-v1.0.5/com.istoreos.vm-1.0.5-fnos-amd64.fpk.sha256)) 在 fnOS 应用中心手动安装 |
-| 🏷️ **版本** | v1.0.5（可选 iStoreOS 25.12.5 / 24.10.8 / 22.03.7） |
+| 📥 **安装方式** | 下载 [com.istoreos.vm-1.1.10-fnos-amd64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/istoreos-v1.1.10/com.istoreos.vm-1.1.10-fnos-amd64.fpk) ([sha256](https://github.com/Blue-Mink/FnDepot/releases/download/istoreos-v1.1.10/com.istoreos.vm-1.1.10-fnos-amd64.fpk.sha256)) 在 fnOS 应用中心手动安装 |
+| 🏷️ **版本** | v1.1.10（可选 iStoreOS 25.12.5 / 24.10.8 / 22.03.7） |
 | 🌐 **入口端口** | 36125（IP 寻踪入口，自动跳转虚拟机管理后台） |
 | 📖 **详细说明** | [istoreos/README.md](istoreos/README.md) |
 

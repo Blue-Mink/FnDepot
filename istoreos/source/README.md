@@ -1,90 +1,69 @@
-# iStoreOS for fnOS（飞牛 NAS 虚拟机应用）
+<p align="center">
+  <img src="ICON_256.PNG" width="92" alt="iStoreOS for fnOS" /><br/>
+  <b>iStoreOS for fnOS</b><br/>
+  在飞牛 NAS 上把 iStoreOS 装成一台虚拟机，装完只管用一个入口访问<br/><br/>
+  <a href="../../releases/latest"><img src="https://img.shields.io/github/v/release/Blue-Mink/fnos-vm-istoreos?label=FPK&color=1f6feb" alt="release"/></a>
+  <img src="https://img.shields.io/badge/iStoreOS-25.12.5%20%7C%2024.10.8%20%7C%2022.03.7-2da44e" alt="istoreos versions"/>
+  <img src="https://img.shields.io/badge/fnOS-x86__64%20%C2%B7%20KVM-6f42c1" alt="platform"/>
+  <a href="https://www.istoreos.com/"><img src="https://img.shields.io/badge/upstream-iStoreOS-00a58a" alt="upstream"/></a>
+</p>
 
-在飞牛 fnOS 上以虚拟机形式运行 [iStoreOS](https://www.istoreos.com/)（基于 OpenWrt 的路由/NAS 系统）的 FPK 应用包。安装向导选版本后全自动：下载官方镜像 → 校验 → 网络预置 → 创建虚拟机 → 应用中心/桌面图标直达。
+<p align="center">
+  <img src="docs/entry-states.png" width="880" alt="固定入口的三种状态：已关机、正在启动、网络修复"/><br/>
+  <sub>固定入口 <code>:36125</code> 的三种状态 —— 已关机可一键开机 · 启动过程说清卡在哪 · 拿不到 IP 时经串口自救</sub>
+</p>
 
-> 本仓库为 fnOS 打包适配工程，不修改 iStoreOS 本体；镜像从 iStoreOS 官方 CDN 原样下载并做 SHA256 校验。
+向导里选好版本、CPU、内存就全自动跑完：**下载官方镜像 → SHA256 校验 → 网络预置 → 建虚拟机 → 桌面图标直达**。
+镜像由 iStoreOS 官方 CDN 原样获取，本仓库只做 fnOS 侧封装，不改 iStoreOS 本体。
 
-## 当前版本
+---
 
-| | |
-|---|---|
-| 包版本 | **1.0.5** |
-| FPK 下载 | [Releases](../../releases/latest) |
-| FPK SHA256 | `ca270c76f85fcd217d968c6a165f75cf6c94c102dcb7c196f8019a675d4053f3` |
+## 🚀 快速开始
 
-## 特性
-
-- **秒回安装 + 后台进度**：安装回调秒级返回（规避 fnOS 约 190 秒回调看门狗），下载/预置/建机全部异步进行，状态机可查：`cat /tmp/istoreos-install.state`
-- **三版本向导可选**：25.12.5 / 24.10.8 / 22.03.7（x86-64 EFI 官方 combined 镜像，安装时从官方 CDN 下载并强校验）
-- **网络预置（A1 离线注入）**：安装期内存快照 + 一次性 qemu 起机，把 LAN 口改为 DHCP 客户端、关闭 iStoreOS 自带 DHCP/RA —— 接入任意主路由网段自动拿 IP，无需要求 192.168.100.x 网段
-- **IP 寻踪入口（36125 端口）**：mac/arp → VNC 横幅 → mDNS → domifaddr → ping sweep 多级寻踪，应用中心「打开」按钮与桌面图标自动 302 到 VM 当前 IP（DHCP 地址漂移无感）
-- **官方风格图标**：应用中心/桌面图标采用飞牛官方 squircle（连续曲率超椭圆）圆角曲线
-- **断点续跑**：安装失败/中断后在应用中心点「启动」会按原参数自动重试；已有预置磁盘时秒级复用
-
-## 系统要求
-
-| 项目 | 要求 |
-|---|---|
-| 系统 | fnOS x86_64（需 KVM，`/dev/kvm`） |
-| 虚拟化 | 飞牛「虚拟机」应用已安装（提供 libvirt/OVMF 固件/virsh） |
-| 内存 | 默认 1024MB，向导可设 512MB ~ 物理内存-1.5GB |
-| 磁盘 | 安装卷剩余 ≥ 2GB（qcow2 虚拟磁盘 2GB 薄分配） |
-| 网络 | 主路由 DHCP 可用（VM 桥接在 NAS 网口上取 IP） |
-
-## 安装
-
-1. [Releases](../../releases/latest) 下载 `com.istoreos.vm-1.0.5-fnos-amd64.fpk`
-2. 飞牛 应用中心 → 手动安装 → 选择 FPK
-3. 向导中选择版本/CPU/内存/是否随 NAS 自启
-4. 等待后台完成（首次下载约 240MB，全程约 5~8 分钟；qcow2 已存在时重装约 1 分钟）
-5. 完成后首次需在「虚拟机」应用中启动 `istoreos`（或 `virsh start istoreos`），之后应用中心「打开」/桌面图标自动跳转 iStoreOS 后台
-
-进度排查：
-
-```bash
-cat /tmp/istoreos-install.state        # queued/downloading/verifying/extracting/provisioning/defining-vm/ready/failed:xxx
-tail -f /tmp/istoreos-install.log      # 状态轨迹
-journalctl -u isto-install.service     # 后台 worker 详细日志
-```
-
-## 支持的 iStoreOS 版本
-
-| 向导选项 | 官方镜像文件 | SHA256 |
+| # | 做什么 | 说明 |
 |---|---|---|
-| 25.12.5（默认） | istoreos-25.12.5-2026091113-x86-64-squashfs-combined-efi.img.gz | `a89206e3238cc0421561e4f3d6ffb17296d700bd13d7e77fd93ed1f86afdfc30` |
-| 24.10.8 | istoreos-24.10.8-2026073111-x86-64-squashfs-combined-efi.img.gz | `8825143bc8e4ae45f6f828c7e40e1c9a605ba455ce4c7abf691a4e2b3d2e005e` |
-| 22.03.7 | istoreos-22.03.7-2025050912-x86-64-squashfs-combined-efi.img.gz | `bda277850a2ccb37a67e69974d6b43733057d96dfb5a70914228375879b7d2ba` |
+| 1 | [下载 FPK](../../releases/latest) | 当前 `1.1.10` · SHA256 `5993af3490f5bcd15d7b59a7bfd955472df69899963a8b623359f6faed00123b` |
+| 2 | 应用中心 → 手动安装 | 向导选 iStoreOS 版本 / CPU / 内存 / 是否随 NAS 自启 |
+| 3 | 等后台跑完 | 提交后**立即返回**；全新安装 25.12.5、24.10.8 约 4 分钟，22.03.7 约 11 分钟，磁盘已存在约 10~40 秒 |
+| 4 | 打开 `http://<NAS 地址>:36125/` | 应用中心「打开」和桌面图标都走这里，自动跟随虚拟机 IP 变化 |
 
-下载源：`https://fw.koolcenter.com/iStoreOS/x86_64_efi/`（iStoreOS 官方 CDN）
+> **要求**：fnOS x86_64 + 已装飞牛「虚拟机」应用（需 `/dev/kvm`）· 安装卷剩余 ≥ 2GB · 主路由 DHCP 可用
+> **卡住了**：`cat /tmp/istoreos-install.state`（`queued → downloading → verifying → extracting → provisioning → defining-vm → ready`）
 
-> 注：24.10.8 / 22.03.7 官方 gz 文件尾部带杂散字节，`gunzip` 会报 `trailing garbage ignored`（rc≠0）——镜像内容等价且 SHA256 校验通过，安装器已容忍，属正常现象。
+## ✨ 会用到的几件事
 
-## 卸载说明
+| 能力 | 说明 |
+|---|---|
+| **固定入口** | MAC/ARP → mDNS → domifaddr → 局域网扫描 → HTTP 指纹多级寻踪，DHCP 地址漂移无感 |
+| **状态透明** | 分「未开机 / 正在启动 / 还在获取地址 / Web 未就绪 / 已就绪」显示，开关机态每次都跟虚拟机实际状态核对 |
+| **串口网络修复** | 拿不到 IPv4 时在入口页经 libvirt 串口重新获取 IP、设静态地址、重启网络、手动指定跳转地址，**不依赖虚拟机有网络** |
+| **停用/启用联动** | 停用即 ACPI 优雅关机；在入口页点开机也会把应用中心状态同步回来 |
+| **数据不丢** | 磁盘常驻 `/vol1/vm/pool/istoreos.qcow2`，重装原样复用；改选别的版本先把旧盘整块留档到 `/vol1/vm/backup`；重装沿用网卡 MAC，路由器绑定不失效 |
+| **秒回安装** | 规避 fnOS 约 190 秒的安装回调看门狗；中断后点「启动」按原参数续跑 |
 
-- 应用中心卸载会删除虚拟机定义、qcow2 磁盘与寻踪服务，`/tmp` 下状态/日志文件除外
-- 想保留磁盘换版本：先备份 `/vol1/vm/pool/istoreos.qcow2`（或在虚拟机应用里导出）
+## 📦 支持的镜像
 
-## 仓库结构
+| 向导选项 | 官方文件（[`fw.koolcenter.com/iStoreOS/x86_64_efi/`](https://fw.koolcenter.com/iStoreOS/x86_64_efi/)） | SHA256 |
+|---|---|---|
+| **25.12.5**（默认） | `istoreos-25.12.5-2026091113-…-combined-efi.img.gz` | `a89206e3238c…` |
+| 24.10.8 | `istoreos-24.10.8-2026073111-…-combined-efi.img.gz` | `8825143bc8e4…` |
+| 22.03.7 | `istoreos-22.03.7-2025050912-…-combined-efi.img.gz` | `bda277850a2c…` |
 
-```
-manifest            FPK 元数据
-cmd/                平台生命周期回调（install/main/uninstall/config/upgrade）
-app/bin/            后台安装 worker、离线预置脚本、IP 寻踪入口服务、DB 守护
-app/ui/             桌面图标与入口配置
-config/             权限与资源声明
-wizard/             安装/配置向导定义
-```
+> 24.10.8 / 22.03.7 官方 gz 尾部带杂散字节，`gunzip` 会报 `trailing garbage ignored` —— 内容等价、校验通过，安装器已容忍。
 
-## 从源码构建
+## 🧹 卸载
 
-依赖飞牛 `fnpack` 打包工具：
+应用中心卸载只删虚拟机定义与寻踪服务，**qcow2 磁盘和你的配置不会被删**，重装即复用。
+要彻底清掉系统数据：先停用应用，再手动删 `/vol1/vm/pool/istoreos.qcow2`（建议先备份一份）。
+
+## 🔧 从源码构建
 
 ```bash
-fnpack build -d .
-# 产出 com.istoreos.vm.fpk（文件名取 manifest 的 appname，重命名加版本号即可）
+fnpack build -d .        # 产出 com.istoreos.vm.fpk，文件名补上版本号即可发布
 ```
 
-## 致谢与上游
+`manifest` 元数据 · `cmd/` 生命周期回调 · `app/bin/` 安装 worker、离线预置、寻踪入口服务 · `wizard/` 向导定义
 
-- iStoreOS：https://www.istoreos.com/ （下载站 https://fw.koolcenter.com/ ）
-- iStoreOS 本体版权归 koolcenter 团队所有；本项目仅为 fnOS 侧的 FPK 封装与运维脚本
+---
+
+<p align="center"><sub>iStoreOS 本体版权归 koolcenter 团队所有 · <a href="https://www.istoreos.com/">istoreos.com</a></sub></p>

@@ -1,12 +1,108 @@
 #!/bin/bash
 # iStoreOS 应用生命周期入口
-# - start/stop/status 管理「IP 寻踪」转发器（应用中心「打开」按钮的落点）
-# - 虚拟机本身的开机自启由安装向导配置（libvirt autostart），启停也可在「虚拟机」应用操作
+# - start：拉起「IP 寻踪」转发器 + 虚拟机开机（应用启用 = 虚拟机跟着启动）
+# - stop ：发 ACPI 优雅关机后立即返回，收尾交给后台守望（watch-shutdown）
+#          —— 停用不能阻塞 60 秒：实测阻塞期间平台状态机会把随后的「启动」
+#          判成 already started 直接跳过 main，虚拟机再也起不来（2026-09-13）
+# - 虚拟机也可随时在「虚拟机」应用独立操作；autostart 仍由安装向导选项决定
 UNIT="istoreos-web"
+DOM="virsh -c qemu:///system"
+VM="istoreos"
+STOP_WATCH="/tmp/istoreos-vm-stop.watch"
+# 用户主动「停用」的标记：只在停用期间让 status 报未运行，其余场景一律报健康
+STOP_MARK="/tmp/istoreos-user-stopped"
+# 开机请求登记（应用启用 / 入口页一键开机 / 守望补开都会写它）：
+# 守望进程据此判断「期间有人要开机」，放弃强制断电并在关机落定后补开
+START_REQ="/tmp/istoreos-vm-start.req"
+CALLS="/tmp/isto-main-calls.log"
+
+isto_domstate() { $DOM domstate "$VM" 2>/dev/null; }
+
+isto_is_off() { case "$(isto_domstate)" in *"shut off"*) return 0 ;; *) return 1 ;; esac; }
+
+# 登记一次开机请求
+isto_note_start() { : > "${START_REQ}" 2>/dev/null || true; }
+
+# 开机请求是否晚于守望启动时刻 $1
+isto_start_requested() {
+    [ -f "${START_REQ}" ] || return 1
+    [ "$(stat -c %Y "${START_REQ}" 2>/dev/null || echo 0)" -ge "${1:-0}" ]
+}
+
+# 关机落定后若期间有开机请求，就把虚拟机补开（并撤销停用标记）
+isto_honor_start() {
+    if isto_start_requested "${1:-0}"; then
+        rm -f "${STOP_MARK}"
+        $DOM start "$VM" >/dev/null 2>&1 && echo "守望：检测到开机请求，虚拟机已补开"
+        return 0
+    fi
+    return 1
+}
+
+
+isto_watch_alive() {
+    [ -f "${STOP_WATCH}" ] && kill -0 "$(cat "${STOP_WATCH}" 2>/dev/null)" 2>/dev/null
+}
+
+isto_vm_start() {
+    isto_note_start
+    $DOM dominfo "$VM" >/dev/null 2>&1 || { echo "虚拟机尚未定义（安装未完成时属正常）"; return 0; }
+    # 上一次优雅关机还没落定时先等它停稳，否则 virsh start 会撞「正在关机」
+    if isto_watch_alive; then
+        echo "上一次优雅关机仍在收尾，等待落定…"
+        i=0
+        while [ "$i" -lt 12 ] && isto_watch_alive; do sleep 5; i=$((i+1)); done
+    fi
+    case "$(isto_domstate)" in
+        running)  echo "虚拟机已在运行"; return 0 ;;
+        paused)   $DOM resume "$VM" >/dev/null 2>&1 && echo "虚拟机已从挂起恢复"; return 0 ;;
+    esac
+    $DOM start "$VM" >/dev/null 2>&1 && echo "虚拟机正在启动"
+    # libvirt 偶尔静默失败：确认落到 running，否则重试一次
+    i=0
+    while [ "$i" -lt 5 ]; do
+        [ "$(isto_domstate)" = "running" ] && return 0
+        sleep 2; i=$((i+1))
+    done
+    $DOM start "$VM" >/dev/null 2>&1 && echo "虚拟机起机已重试"
+    return 0
+}
+
+isto_vm_stop() {
+    local st
+    st="$(isto_domstate)"
+    if [ "$st" = "paused" ]; then
+        : > "${STOP_MARK}"
+        $DOM destroy "$VM" >/dev/null 2>&1 && echo "虚拟机已强制断电（原为挂起态）"
+        return 0
+    fi
+    if [ "$st" != "running" ]; then
+        # 虚拟机本来就没在跑：绝不伪造「用户主动停用」标记。否则平台在停用/回滚
+        # 清理期间多调一次 stop，会把标记重新写出来，status 便谎报未运行，
+        # 平台随即判 APP_CRASH 并拒绝补开机（2026-09-14 00:22 实测）。
+        echo "虚拟机未运行（当前 ${st:-未知}），无需关机"
+        return 0
+    fi
+    : > "${STOP_MARK}"
+    $DOM shut""down "$VM" >/dev/null 2>&1
+    if isto_watch_alive; then
+        echo "优雅关机指令已在执行中（守望进程 ${STOP_WATCH}）"
+        return 0
+    fi
+    setsid nohup bash "$0" watch-shutdown >/dev/null 2>&1 &
+    echo "优雅关机指令已发出（后台等待，最多 60 秒转强制断电）"
+    return 0
+}
+
+# 调用留痕：平台的「启用/停用」究竟回调了哪些动作，事后一眼可查（/tmp，重启自清）
+echo "$(date -Iseconds) arg=${1:-} ppid=$(ps -o args= -p "$PPID" 2>/dev/null | cut -c1-90)" \
+    >> "${CALLS}" 2>/dev/null || true
 
 case $1 in
     start)
+        rm -f "${STOP_MARK}"
         systemctl start "$UNIT" 2>/dev/null && echo "IP 寻踪已启动 (入口 36125)"
+        isto_vm_start
         # 重试：后台安装未完成/失败且虚拟机尚未定义时，按原参数重新拉起 worker
         ST="/tmp/istoreos-install.state"
         LOCK="/tmp/istoreos-install.lock"
@@ -35,14 +131,44 @@ case $1 in
         fi
         exit 0
         ;;
+    watch-shutdown)
+        # 后台守望：等优雅关机落定，超时转强制断电；自己记 pid 供 start 判断。
+        # 关键修正（2026-09-14）：期间若有人请求开机（应用启用、入口页一键开机），
+        # 绝不再强制断电，而是等 ACPI 落定后把虚拟机补开——旧写法 60 秒后无条件
+        # destroy，会把刚重新开机的虚拟机再强制断电（平台事件 00:11:19 已开机 →
+        # 00:12:14 STATUS_SHUTOFF_VM 就是这么来的）。
+        echo $$ > "${STOP_WATCH}"
+        T0=$(date +%s)
+        i=0
+        while [ "$i" -lt 12 ]; do
+            sleep 5
+            i=$((i+1))
+            if isto_is_off; then
+                isto_honor_start "$T0"
+                rm -f "${STOP_WATCH}"
+                exit 0
+            fi
+        done
+        if isto_start_requested "$T0"; then
+            echo "守望：期间收到开机请求，取消强制断电"
+        else
+            $DOM destroy "$VM" >/dev/null 2>&1
+        fi
+        rm -f "${STOP_WATCH}"
+        exit 0
+        ;;
     stop)
-        systemctl stop "$UNIT" 2>/dev/null
-        echo "IP 寻踪已停止（不影响虚拟机运行）"
+        isto_vm_stop
+        echo "IP 寻踪入口保持在线（可在入口页一键开机）"
         exit 0
         ;;
     status)
-        # 永远报健康：寻踪器是辅助服务，安装后 unit 创建前有空窗，
-        # 若此处返回非0会被应用中心判定 APP_CRASH 并触发自动清理（2026-09-13 实测教训）
+        # 恒报健康（2026-09-14 定论，别再改回去）：
+        # · 实测 /tmp/isto-main-calls.log 显示平台的「启用」压根不会回调本脚本
+        #   （只有「停用」会调 stop），所以「报未运行好让平台回调开机」是幻想；
+        # · 反过来，停用后那个窗口里报 3，会被平台判成 APP_CRASH（00:22:57 实测），
+        #   之后连补开机都不做了，应用卡在异常态。
+        # 关机后的重新开机交给入口页：虚拟机关着时打开入口会自动补开（见 finder）。
         exit 0
         ;;
     *) exit 1 ;;
