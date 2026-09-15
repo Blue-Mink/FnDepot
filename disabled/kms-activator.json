@@ -1,0 +1,17 @@
+{
+  "display_name": "KMS Activator",
+  "version": "1.0.0",
+  "platform": "all",
+  "desc": "基于 vlmcsd 的 KMS 激活服务，为局域网内 Windows / Office / Windows Server 提供批量 KMS 激活服务。Web 管理界面一键启停，自动 IP 检测，内置 GVLK 密钥库。",
+  "labels": "系统工具",
+  "author": "jianyun8023",
+  "author_url": "https://github.com/Blue-Mink",
+  "distributor": "Blue-Mink",
+  "distributor_url": "https://github.com/Blue-Mink",
+  "bug_report_url": "https://github.com/Blue-Mink/FnDepot/issues",
+  "isdocker": "false",
+  "install_type": "系统空间",
+  "size": "0.08",
+  "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v1.0.0/KmsActivator.fpk",
+  "changelog": "首发版本"
+}
