@@ -43,3 +43,19 @@
 ## 源码与构建
 
 工程源码（fnpack 布局，含 `app/bin/haos-install-worker.sh` 等）见原项目 [fnos-vm-dongguaha](https://github.com/Blue-Mink/fnos-vm-dongguaha)，构建：`fnpack build -d .`；完整版本变更见其 [Releases](https://github.com/Blue-Mink/fnos-vm-dongguaha/releases)。
+
+---
+
+## 📄 许可证
+
+本项目遵循 [MIT License](LICENSE) 许可证。
+
+---
+
+## 🙏 致谢
+
+- [Home Assistant](https://www.home-assistant.io/) — 开源智能家居平台
+- [冬瓜HAOS 的由来](https://bbs.hassbian.com/thread-24065-1-1.html) — 镜像与优化作者
+- [冬瓜HAOS 镜像包](https://bbs.hassbian.com/thread-23791-1-1.html) — 镜像包下载
+- [RROrg/fn-apps](https://github.com/RROrg/fn-apps/tree/main/fn-vfnOS) — 项目参考
+- [飞牛 fnOS](https://www.fnnas.com/)
