@@ -12,19 +12,20 @@
     "bug_report_url": "https://github.com/moli-xia/global-radio/issues",
     "isdocker": "true",
     "install_type": "用户空间",
-    "size": "0.09",
+    "size": "0.10",
     "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/global-radio-v1.3.0/global-radio-1.3.0-fnos-amd64.fpk",
     "changelog": "1.3.0: 接入飞牛统一网关——安装后可经 http://NAS_IP:5666/app/global-radio/ 访问(与端口直连双入口并存,登录飞牛即用,网关与直连功能/加速完全等价,应用端口变更网关自动跟随)；1.2.9: 缓存加速强制收编源头 no-cache 响应头,封面二访约0.5ms；1.2.8: 控制台端口编辑与桌面入口/数据库四处同步；1.2.7: 新增电台目录与封面图 NAS 代理缓存加速(http 入口全端生效)+内网 SSRF 拦截；1.2.5: 应用图标 1024 超采样高清重制(官方 squircle 圆角)；1.2.4: 修复点击桌面图标跳转飞牛登录页(入口模板括号错位)",
     "icon_url": "./global-radio/ICON.PNG",
     "readme_url": "./global-radio/README.md",
-    "homepage": "https://github.com/moli-xia/global-radio"
+    "homepage": "https://github.com/moli-xia/global-radio",
+    "service_port": "32678"
   },
   "kms-activator": {
     "display_name": "KMS Activator",
     "version": "1.1.10",
     "platform": "x86",
     "desc": "基于 vlmcsd 的 KMS 激活服务，为局域网内 Windows / Windows Server / Office 提供批量 KMS 激活。默认监听标准端口 1688，客户端 slmgr /skms <NAS IP> 即可、无需带端口；以 root 启动仅用于绑定 1688，绑定后立即降权至应用用户运行，不做任何端口转发。Web 页面一键启停并与应用中心状态保持一致，内置 GVLK 密钥库与 Windows / Server / Office 分步激活指引，支持浅色·深色·跟随系统三种主题。仅支持 x86_64。",
-    "labels": "系统工具",
+    "labels": "工具",
     "author": "Blue-Mink",
     "author_url": "https://github.com/Blue-Mink",
     "distributor": "Blue-Mink",
@@ -32,7 +33,7 @@
     "bug_report_url": "https://github.com/Blue-Mink/FnDepot/issues",
     "isdocker": "false",
     "install_type": "系统空间",
-    "size": "0.09",
+    "size": "0.13",
     "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/kms-activator-v1.1.10/KmsActivator-1.1.10-fnos-amd64.fpk",
     "changelog": "1.1.10：入口页新增主题切换（自动跟随系统 / 浅色 / 深色），点右上角按钮循环切换，选择记在浏览器本地，深色下命令块与提示条配色一并适配。1.1.9：开发者与发布者统一署名为 Blue-Mink。1.1.8：图标沿用上游原版样式并重绘高清化，64/128/256/512 各按目标尺寸重采样。1.1.7：新增「激活 Windows Server」板块，命令区改深色代码块。1.1.6：修状态轮询时「运行中」闪回「检测中…」的抖动。1.1.5：状态面板只留运行状态与地址。1.1.0~1.1.4：以 root 绑定标准端口 1688 后立即降权、网页启停与应用中心状态一致、界面改简约版式。相比 1.0.0：不再依赖 1688→11688 端口转发（该转发在非 root 下必然失败，导致默认命令一直连不上）。",
     "icon_url": "./kms-activator/ICON.PNG",
@@ -59,7 +60,7 @@
     "isdocker": "false",
     "service_port": "7999",
     "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v2.4.14/fn-knock-2.4.14-fnos-amd64.fpk",
-    "changelog": "同步上游 kci-lnk/fn-knock v2.4.14（官方 fnOS FPK 原包，含 2.4.13 变更）：映射管理支持批量编辑标题/域名/目标地址；网页终端新增便携资源状态栏；控制台新增在线用户 IP 详情分页并优化流量卡片；完善 fnOS 证书同步（受管证书创建/更新/安全删除、冲突检测与异常恢复）；Cloudflare Tunnel 新增专用回源入口以识别真实访客 IP，cloudflared 更新至 2026.9.1；修复 Android 网页终端软键盘输入、认证页子路径资源预加载与高级认证策略异常时的主机恢复\nfpk 与源码快照见本 Release 附件\n已支持应用内更新，建议开启自动更新检查"
+    "changelog": "同步上游 kci-lnk/fn-knock v2.4.14（官方 fnOS FPK 原包，含 2.4.13 变更）：映射管理支持批量编辑标题/域名/目标地址；网页终端新增便携资源状态栏；控制台新增在线用户 IP 详情分页并优化流量卡片；完善 fnOS 证书同步（受管证书创建/更新/安全删除、冲突检测与异常恢复）；Cloudflare Tunnel 新增专用回源入口以识别真实访客 IP，cloudflared 更新至 2026.9.1；修复 Android 网页终端软键盘输入、认证页子路径资源预加载与高级认证策略异常时的主机恢复；fpk 与源码快照见本 Release 附件；已支持应用内更新，建议开启自动更新检查"
   },
   "trek": {
     "display_name": "TREK",
@@ -76,11 +77,11 @@
     "distributor": "Blue-Mink",
     "distributor_url": "https://github.com/Blue-Mink",
     "install_type": "用户空间",
-    "size": "0.05",
+    "size": "0.04",
     "isdocker": "true",
     "service_port": "32679",
     "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/trek-v4.1.1/com.trek.app-4.1.1-fnos-amd64.fpk",
-    "changelog": "同步上游 v4.1.1\n重构 Docker Web FPK 生命周期脚本\n修复安装后 Docker 未启动但 AppCenter 显示 running 的问题\n修复应用中心停止/启动无法传递到 Docker 的问题\n支持应用设置中修改端口并同步 Docker、UI 与 AppCenter 数据库\n移除废弃 arch 字段并保留 platform=x86\n移除 docker-project resource，改由 cmd/main 管理 Docker Compose\n备用机验证 HTTP 登录、端口 32679↔32680、停止/启动和卸载重装通过"
+    "changelog": "同步上游 v4.1.1；重构 Docker Web FPK 生命周期脚本；修复安装后 Docker 未启动但 AppCenter 显示 running 的问题；修复应用中心停止/启动无法传递到 Docker 的问题；支持应用设置中修改端口并同步 Docker、UI 与 AppCenter 数据库；移除废弃 arch 字段并保留 platform=x86；移除 docker-project resource，改由 cmd/main 管理 Docker Compose；备用机验证 HTTP 登录、端口 32679↔32680、停止/启动和卸载重装通过"
   },
   "dongguaha": {
     "display_name": "冬瓜HAOS",
@@ -118,7 +119,7 @@
     "distributor": "Blue-Mink",
     "distributor_url": "https://github.com/Blue-Mink",
     "install_type": "用户空间",
-    "size": "19.3",
+    "size": "19.31",
     "isdocker": "false",
     "service_port": "35700",
     "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v3.2.6/daidai-panel-v3.2.6.fpk",
@@ -129,7 +130,7 @@
     "version": "1.0.0-rc.37",
     "platform": "x86",
     "desc": "新一代大模型网关与 AI 资产管理系统，聚合多模型供应商，提供 OpenAI 兼容接口、智能路由、权限管理、用量统计与成本核算。",
-    "labels": "工具,AI",
+    "labels": "工具，AI",
     "icon_url": "./new-api/ICON.PNG",
     "readme_url": "./new-api/README.md",
     "homepage": "https://github.com/QuantumNous/new-api",
@@ -139,11 +140,11 @@
     "distributor": "Blue-Mink",
     "distributor_url": "https://github.com/Blue-Mink",
     "install_type": "用户空间",
-    "size": "38.47",
+    "size": "40.34",
     "isdocker": "false",
     "service_port": "33000",
     "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/new-api-v1.0.0-rc.37/new-api-1.0.0-rc.37-fnos-amd64-root.fpk",
-    "changelog": "基于 QuantumNous/new-api 官方 v1.0.0-rc.37 Linux 二进制构建\n定价表达式编辑器（旧定价将弃用）、任务插件流式输出与市场增强、渠道创建编辑统一、通行密钥多域名\nroot 权限测试验证版（amd64 已在 fnOS x86_64 实机验证）\n新增 arm64 架构包（未实机验证）\n默认端口 33000，应用中心 iframe 入口"
+    "changelog": "基于 QuantumNous/new-api 官方 v1.0.0-rc.37 Linux 二进制构建；定价表达式编辑器（旧定价将弃用）、任务插件流式输出与市场增强、渠道创建编辑统一、通行密钥多域名；root 权限测试验证版（amd64 已在 fnOS x86_64 实机验证）；新增 arm64 架构包（未实机验证）；默认端口 33000，应用中心 iframe 入口"
   },
   "dockflare": {
     "display_name": "DockFlare",
@@ -160,11 +161,11 @@
     "distributor": "Blue-Mink",
     "distributor_url": "https://github.com/Blue-Mink",
     "install_type": "用户空间",
-    "size": "0.15",
+    "size": "0.16",
     "isdocker": "true",
     "service_port": "32671",
     "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v3.1.3/dockflare-v3.1.3-fnos-all.fpk",
-    "changelog": "首发 fnOS 版本\nv3.1.3（与原项目版本一致）\n基于 alplat/dockflare:stable 镜像 + redis + docker-socket-proxy\n安装时支持自定义端口（向导配置，默认 32671）\n官方图标\n数据卷持久化"
+    "changelog": "首发 fnOS 版本；v3.1.3（与原项目版本一致）；基于 alplat/dockflare:stable 镜像 + redis + docker-socket-proxy；安装时支持自定义端口（向导配置，默认 32671）；官方图标；数据卷持久化"
   },
   "kspeeder": {
     "display_name": "KSpeeder",
@@ -181,11 +182,11 @@
     "distributor": "Blue-Mink",
     "distributor_url": "https://github.com/Blue-Mink",
     "install_type": "用户空间",
-    "size": "6.2",
+    "size": "6.53",
     "isdocker": "false",
     "service_port": "5003",
     "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v0.8.0/kspeeder-0.8.0-fnos-amd64.fpk",
-    "changelog": "同步 iStoreEnhance / KSpeeder 引擎至 v0.8.0（build 8664）\n新增 kspeeder download 命令与智能下载网关加速（含 Python/pip、Homebrew 加速）\n修复 docker manifest 镜像回源重试与 ghcr bottles 域名问题\n图标按 fnOS 系统官方 squircle 圆角曲线重制\n沿用端口配置闭环：管理端口、代理端口、ui/config、AppCenter 入口与实际监听端口保持同步"
+    "changelog": "同步 iStoreEnhance / KSpeeder 引擎至 v0.8.0（build 8664）；新增 kspeeder download 命令与智能下载网关加速（含 Python/pip、Homebrew 加速）；修复 docker manifest 镜像回源重试与 ghcr bottles 域名问题；图标按 fnOS 系统官方 squircle 圆角曲线重制；沿用端口配置闭环：管理端口、代理端口、ui/config、AppCenter 入口与实际监听端口保持同步"
   },
   "istoreos": {
     "display_name": "iStoreOS",
