@@ -2698,6 +2698,26 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/admin/dashboard/online-ips": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /**
+         * 查看仪表盘在线用户 IP
+         * @description 读取管理端仪表盘的实时统计、流量和活跃 IP 数据。。`GET /api/admin/dashboard/online-ips` 用于读取当前状态、配置或导出内容，不会主动修改服务配置。 该操作不要求 JSON 请求体。 成功响应通常使用标准管理端 JSON 信封，具体 `data` 结构请查看响应 schema。
+         */
+        get: operations["get_api_admin_dashboard_online_ips"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/admin/dashboard/realtime": {
         parameters: {
             query?: never;
@@ -6114,6 +6134,26 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/admin/terminal/attachments/{id}/disks": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /**
+         * 查看Web 终端磁盘使用情况
+         * @description 管理 Web 终端运行时能力和交互会话。。`GET /api/admin/terminal/attachments/{id}/disks` 用于读取当前状态、配置或导出内容，不会主动修改服务配置。 该操作不要求 JSON 请求体。 成功响应通常使用标准管理端 JSON 信封，具体 `data` 结构请查看响应 schema。
+         */
+        get: operations["attachment_disks"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/admin/terminal/attachments/{id}/events": {
         parameters: {
             query?: never;
@@ -6148,6 +6188,26 @@ export interface paths {
          * @description 管理 Web 终端运行时能力和交互会话。。`POST /api/admin/terminal/attachments/{id}/input` 用于提交操作或创建、更新服务状态；执行结果以响应中的数据和消息为准。 请求体字段、必填项和可选值请以 Swagger 展开的 schema 为准。 成功响应通常使用标准管理端 JSON 信封，具体 `data` 结构请查看响应 schema。
          */
         post: operations["send_input"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/admin/terminal/attachments/{id}/metrics": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /**
+         * 查看Web 终端资源状态
+         * @description 管理 Web 终端运行时能力和交互会话。。`GET /api/admin/terminal/attachments/{id}/metrics` 用于读取当前状态、配置或导出内容，不会主动修改服务配置。 该操作不要求 JSON 请求体。 成功响应通常使用标准管理端 JSON 信封，具体 `data` 结构请查看响应 schema。
+         */
+        get: operations["attachment_metrics"];
+        put?: never;
+        post?: never;
         delete?: never;
         options?: never;
         head?: never;
@@ -8753,6 +8813,8 @@ export interface components {
             /** @enum {string} */
             mode: "manual" | "managed";
             optimizationEnabled: boolean;
+            /** @description Dedicated loopback origin that trusts Cloudflare visitor IP headers. */
+            originServiceUrl: string;
             /** @enum {string} */
             protocol: "auto" | "http2" | "quic";
             rootDomain: string | null;
@@ -8997,6 +9059,25 @@ export interface components {
             total_in: number;
             /** Format: double */
             total_out: number;
+        };
+        DashboardOnlineIpData: {
+            /** Format: int64 */
+            identity_count: number;
+            ip: string;
+            /** Format: date-time */
+            last_seen_at: string;
+        };
+        DashboardOnlineIpsData: {
+            items: components["schemas"]["DashboardOnlineIpData"][];
+            /** Format: int64 */
+            online_count: number;
+            /**
+             * Format: int64
+             * @description Unix timestamp in milliseconds
+             */
+            timestamp: number;
+            /** Format: int64 */
+            window_seconds: number;
         };
         DashboardRealtimeData: {
             /** Format: int64 */
@@ -9788,33 +9869,49 @@ export interface components {
             reason: string | null;
         };
         FnosCertificateSyncBodyData: {
+            /** @description Explicit actions from the current preview. An empty array performs no actions. */
+            action_ids?: string[] | null;
+            /** @description Required with action_ids. Stale snapshots return HTTP 409. */
+            snapshot_version?: string | null;
+            /** @description Legacy update-only selection. Cannot be combined with action_ids. */
             target_ids?: string[];
         };
         FnosCertificateSyncConfigData: {
             auto_sync_enabled: boolean;
         };
         FnosCertificateSyncCountsData: {
+            adopt: number;
+            create: number;
+            delete: number;
             syncable: number;
             total: number;
             up_to_date: number;
+            update: number;
         };
         FnosCertificateSyncDetailsData: {
             availability: components["schemas"]["FnosCertificateSyncAvailabilityData"];
             certificates: components["schemas"]["FnosCertificateSyncItemData"][];
             config: components["schemas"]["FnosCertificateSyncConfigData"];
             runtime: components["schemas"]["FnosCertificateSyncRuntimeData"];
+            snapshot_version: string;
             summary: components["schemas"]["FnosCertificateSyncCountsData"];
         };
         FnosCertificateSyncItemData: {
+            /** @enum {string} */
+            action: "none" | "create" | "update" | "adopt" | "delete";
+            action_id: string;
             domain: string;
             fingerprint: string | null;
             local: null | components["schemas"]["FnosCertificateSyncLocalData"];
+            managed: boolean;
             reason: string | null;
+            references: string[];
             renewal: boolean;
             san: string[];
             source: string;
+            source_ids: string[];
             /** @enum {string} */
-            status: "unmatched" | "up_to_date" | "syncable" | "source_invalid" | "target_invalid" | "protected" | "sync_failed";
+            status: "unmatched" | "up_to_date" | "syncable" | "source_invalid" | "target_invalid" | "protected" | "sync_failed" | "pending_create" | "pending_adopt" | "pending_delete" | "delete_blocked" | "conflict";
             target_id: string;
             /** Format: int64 */
             valid_from: number | null;
@@ -9843,10 +9940,14 @@ export interface components {
             running: boolean;
         };
         FnosCertificateSyncSummaryData: {
+            adopted: number;
+            created: number;
+            deleted: number;
             failed: number;
             rolled_back: boolean;
             skipped: number;
             synced: number;
+            updated: number;
         };
         FnosCertificateSyncUpdateData: {
             auto_sync_enabled: boolean;
@@ -11070,6 +11171,14 @@ export interface components {
         };
         /** @enum {string} */
         MemoryDetailsStatus: "available" | "partial" | "unsupported" | "unavailable";
+        /** @enum {string} */
+        MetricReason: "warming_up" | "unsupported_platform" | "missing_command" | "permission_denied" | "invalid_output" | "counter_reset" | "estimated" | "exec_rejected" | "timeout" | "output_limit" | "collection_failed" | "session_inactive";
+        /** @enum {string} */
+        MetricStatus: "available" | "estimated" | "unavailable";
+        /** @enum {string} */
+        MetricsPlatform: "linux" | "macos" | "unknown";
+        /** @enum {string} */
+        MetricsStatus: "available" | "partial" | "unavailable";
         NotificationDeliveryClearBodyData: {
             provider_id?: string | null;
             rule_id?: string | null;
@@ -13199,6 +13308,32 @@ export interface components {
             sessionId: string;
             transport: components["schemas"]["TerminalTransport"];
         };
+        TerminalCapacityMetric: {
+            /** Format: double */
+            percent?: number | null;
+            reason?: null | components["schemas"]["MetricReason"];
+            status: components["schemas"]["MetricStatus"];
+            /** Format: int64 */
+            totalBytes?: number | null;
+            /** Format: int64 */
+            usedBytes?: number | null;
+        };
+        /** @description One mounted filesystem. Shared APFS/bind mounts must never be summed. */
+        TerminalDiskUsage: {
+            /** Format: int64 */
+            availableBytes?: number | null;
+            capacity: components["schemas"]["TerminalCapacityMetric"];
+            filesystem: string;
+            mountPoint: string;
+        };
+        TerminalDisks: {
+            disks: components["schemas"]["TerminalDiskUsage"][];
+            reason?: null | components["schemas"]["MetricReason"];
+            /** Format: int64 */
+            sampleAgeMs: number;
+            sampledAt: string;
+            status: components["schemas"]["MetricsStatus"];
+        };
         /** @enum {string} */
         TerminalErrorCode: "feature_disabled" | "resource_busy" | "invalid_request" | "target_not_found" | "session_not_found" | "host_key_required" | "host_key_mismatch" | "authentication_failed" | "pty_rejected" | "session_limit_reached" | "session_lost" | "attachment_expired" | "controller_conflict" | "target_revision_conflict" | "local_terminal_unsupported" | "local_terminal_disabled" | "local_terminal_risk_acknowledgement_required" | "local_terminal_revision_conflict" | "local_shell_unavailable" | "local_pty_start_failed" | "connect_timeout" | "conflict" | "upstream_unavailable" | "internal_error";
         TerminalErrorEnvelope: {
@@ -13225,6 +13360,28 @@ export interface components {
         };
         /** @enum {string} */
         TerminalEventType: "output" | "status" | "control";
+        TerminalMetrics: {
+            cpu: components["schemas"]["TerminalNumericMetric"];
+            /** @description Capacity of the filesystem mounted at /, not all physical disks. */
+            disk: components["schemas"]["TerminalCapacityMetric"];
+            memory: components["schemas"]["TerminalCapacityMetric"];
+            platform: components["schemas"]["MetricsPlatform"];
+            /**
+             * Format: int64
+             * @description Elapsed time since collection, independent of server/browser wall clocks.
+             */
+            sampleAgeMs: number;
+            sampledAt: string;
+            status: components["schemas"]["MetricsStatus"];
+            uptime: components["schemas"]["TerminalNumericMetric"];
+        };
+        /** @description Numeric metrics use percent (CPU) or seconds (uptime), never formatted text. */
+        TerminalNumericMetric: {
+            reason?: null | components["schemas"]["MetricReason"];
+            status: components["schemas"]["MetricStatus"];
+            /** Format: double */
+            value?: number | null;
+        };
         TerminalSession: {
             backend: components["schemas"]["SessionBackend"];
             /** Format: int32 */
@@ -18398,6 +18555,24 @@ export interface operations {
                     };
                 };
             };
+            /** @description 请求参数或当前资源状态不符合接口要求；请检查必填字段和前置条件。 */
+            400: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ApiErrorEnvelope"];
+                };
+            };
+            /** @description 当前资源状态与操作冲突；请刷新状态后重试。 */
+            409: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ApiErrorEnvelope"];
+                };
+            };
             /** @description 接口处理失败时返回标准错误信封；请结合 HTTP 状态、错误消息和服务日志排查。 */
             default: {
                 headers: {
@@ -20438,6 +20613,42 @@ export interface operations {
                 content: {
                     "application/json": {
                         data: components["schemas"]["DashboardActiveIpsData"];
+                        message?: string | null;
+                        /** @constant */
+                        success: true;
+                    } & {
+                        [key: string]: unknown;
+                    };
+                };
+            };
+            /** @description 接口处理失败时返回标准错误信封；请结合 HTTP 状态、错误消息和服务日志排查。 */
+            default: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ApiErrorEnvelope"];
+                };
+            };
+        };
+    };
+    get_api_admin_dashboard_online_ips: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description 「查看仪表盘在线用户 IP」成功，返回标准管理端 JSON 信封；具体 data 结构请查看响应 schema。 */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": {
+                        data: components["schemas"]["DashboardOnlineIpsData"];
                         message?: string | null;
                         /** @constant */
                         success: true;
@@ -29034,6 +29245,44 @@ export interface operations {
             };
         };
     };
+    attachment_disks: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description 「查看Web 终端磁盘使用情况」成功，返回标准管理端 JSON 信封；具体 data 结构请查看响应 schema。 */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": {
+                        data: components["schemas"]["TerminalDisks"];
+                        message?: string | null;
+                        /** @constant */
+                        success: true;
+                    } & {
+                        [key: string]: unknown;
+                    };
+                };
+            };
+            /** @description 接口处理失败时返回标准错误信封；请结合 HTTP 状态、错误消息和服务日志排查。 */
+            default: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["TerminalErrorEnvelope"];
+                };
+            };
+        };
+    };
     attachment_events: {
         parameters: {
             query?: {
@@ -29097,6 +29346,44 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["ApiSuccessEnvelope"];
+                };
+            };
+            /** @description 接口处理失败时返回标准错误信封；请结合 HTTP 状态、错误消息和服务日志排查。 */
+            default: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["TerminalErrorEnvelope"];
+                };
+            };
+        };
+    };
+    attachment_metrics: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description 「查看Web 终端资源状态」成功，返回标准管理端 JSON 信封；具体 data 结构请查看响应 schema。 */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": {
+                        data: components["schemas"]["TerminalMetrics"];
+                        message?: string | null;
+                        /** @constant */
+                        success: true;
+                    } & {
+                        [key: string]: unknown;
+                    };
                 };
             };
             /** @description 接口处理失败时返回标准错误信封；请结合 HTTP 状态、错误消息和服务日志排查。 */

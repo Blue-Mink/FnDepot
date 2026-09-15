@@ -4,6 +4,9 @@ import { apiClient } from "./client";
 type TerminalSchemas = ApiContractComponents["schemas"];
 type TerminalWireEvent = TerminalSchemas["TerminalEvent"];
 
+export type TerminalDisks = TerminalSchemas["TerminalDisks"];
+export type TerminalMetrics = TerminalSchemas["TerminalMetrics"];
+
 export type TerminalAuthMethod = TerminalSchemas["AuthMethod"];
 export type TerminalSessionPhase = TerminalSchemas["SessionPhase"];
 export type TerminalAttachmentRole = TerminalSchemas["AttachmentRole"];
@@ -252,6 +255,28 @@ export const TerminalAPI = {
     const response = await apiClient.post(
       `${sessionPath(sessionId)}/attachments`,
       payload,
+      { signal },
+    );
+    return response.data.data;
+  },
+
+  async getAttachmentMetrics(
+    attachmentId: string,
+    signal?: AbortSignal,
+  ): Promise<TerminalMetrics> {
+    const response = await apiClient.get(
+      `${attachmentPath(attachmentId)}/metrics`,
+      { signal },
+    );
+    return response.data.data;
+  },
+
+  async getAttachmentDisks(
+    attachmentId: string,
+    signal?: AbortSignal,
+  ): Promise<TerminalDisks> {
+    const response = await apiClient.get(
+      `${attachmentPath(attachmentId)}/disks`,
       { signal },
     );
     return response.data.data;

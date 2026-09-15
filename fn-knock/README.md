@@ -23,23 +23,25 @@
 
 ## 版本信息
 
-- **当前版本**: 2.4.12（同步上游 2026-09-12 发布）
+- **当前版本**: 2.4.14（同步上游 2026-09-14 发布）
 - **架构支持**: amd64, arm64
 - **包来源**: 上游官方 fnOS FPK 原包（SHA256 与官方 SHA256SUMS 一致）
-- **更新说明**:
-  - WAF 支持重复违规请求自动拉黑（系统设置→WAF→违规自动封禁）
-  - 系统更新入口移至系统设置；请求日志支持容量上限与滚动保留
-  - 修复启动宽限期无上限、计划内停止 FPK 触发健康检查误报
-  - 已支持应用内更新（建议使用此功能获得最新版本）
+- **更新说明**（含 2.4.13）:
+  - 映射管理支持批量编辑标题、域名与目标地址，批量操作工具栏布局与溢出菜单优化
+  - 网页终端新增便携资源状态栏，悬停或触摸可查看磁盘使用详情
+  - 控制台新增在线用户 IP 详情分页，流量卡片显示与交互优化
+  - 完善 fnOS 证书同步：支持受管证书的创建、更新与安全删除，新增冲突检测与异常恢复
+  - Cloudflare Tunnel 新增专用回源入口，可正确识别真实访客 IP；cloudflared 更新至 2026.9.1
+  - 修复 Android 网页终端软键盘无法输入、认证页子路径资源预加载、高级认证策略异常时的主机恢复逻辑
 
 ## 安装与更新
 
 在飞牛 FnDepot 客户端中搜索「敲门knock」即可安装。
 
 本仓库 Release 提供与上游一致的官方包与源码快照：
-- [`fn-knock-2.4.12-fnos-amd64.fpk`](https://github.com/Blue-Mink/FnDepot/releases/download/v2.4.12/fn-knock-2.4.12-fnos-amd64.fpk)
-- [`fn-knock-2.4.12-fnos-arm64.fpk`](https://github.com/Blue-Mink/FnDepot/releases/download/v2.4.12/fn-knock-2.4.12-fnos-arm64.fpk)
-- [`fn-knock-source-v2.4.12.zip`](https://github.com/Blue-Mink/FnDepot/releases/download/v2.4.12/fn-knock-source-v2.4.12.zip)（上游 v2.4.12 源码快照）
+- [`fn-knock-2.4.14-fnos-amd64.fpk`](https://github.com/Blue-Mink/FnDepot/releases/download/v2.4.14/fn-knock-2.4.14-fnos-amd64.fpk)
+- [`fn-knock-2.4.14-fnos-arm64.fpk`](https://github.com/Blue-Mink/FnDepot/releases/download/v2.4.14/fn-knock-2.4.14-fnos-arm64.fpk)
+- [`fn-knock-source-v2.4.14.zip`](https://github.com/Blue-Mink/FnDepot/releases/download/v2.4.14/fn-knock-source-v2.4.14.zip)（上游 v2.4.14 源码快照）
 
 > 注意：从 v2.0.10 起，fn-knock 已内置应用内更新机制，建议在应用内开启自动更新检查。
 
@@ -51,7 +53,7 @@
 ## 校验
 
 ```text
-5f1f2b8a05d7d5c87bd39627bdfe8badd403cdc7711a0ae7ef54dd0b54df4120  fn-knock-2.4.12-fnos-amd64.fpk
-175f2291c8060e53ad445fea045253dc4a14ddf095ea04eccff5045edea93ad1  fn-knock-2.4.12-fnos-arm64.fpk
-9fcb61b7696f6873fb7b57dc491117e708118cf1eca71219020ae777b8bda500  fn-knock-source-v2.4.12.zip
+a70dad75f97fef58c1989fae7d30d39505c7cfa4596e7734aa47f8e8a663c72d  fn-knock-2.4.14-fnos-amd64.fpk
+9d577fa28d7cf9c65ffbc48b5a4b2a2bdd0aeec335e98bb8630c45d63cae3a8a  fn-knock-2.4.14-fnos-arm64.fpk
+f7e3fd307f80bf60c55037a05bce65b5d0fbeb7ebf3a91d28bc38bec249a97b8  fn-knock-source-v2.4.14.zip
 ```

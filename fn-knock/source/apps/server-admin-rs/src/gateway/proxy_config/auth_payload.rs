@@ -98,7 +98,7 @@ fn build_host_rules_payload_with_groups(mappings: &[Value], groups: &[Value]) ->
                     "suppress_toolbar": object.get("suppress_toolbar").cloned().unwrap_or(Value::Bool(false)),
                     "preserve_host": object.get("preserve_host").cloned().unwrap_or(Value::Bool(true)),
                     "is_default": object.get("is_default").cloned().unwrap_or(Value::Bool(false)),
-                    "disabled": object.get("disabled").cloned().unwrap_or(Value::Bool(false)),
+                    "disabled": object.get("disabled").and_then(Value::as_bool).unwrap_or(false),
                     "availability": object.get("availability").cloned().unwrap_or(Value::Null),
                     "visibility": object.get("visibility").map(|visibility| json!({
                         "mode": visibility.get("mode").and_then(Value::as_str).unwrap_or("inherit"),

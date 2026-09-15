@@ -1144,6 +1144,8 @@ struct BackupImportResultData {
     DashboardHostTrafficData,
     DashboardRealtimeData,
     DashboardStreamTrafficData,
+    DashboardOnlineIpData,
+    DashboardOnlineIpsData,
     DashboardActiveIpData,
     DashboardActiveIpsData,
     DashboardStreamActiveIpsData,
@@ -3767,7 +3769,18 @@ pub(super) fn components() -> Map<String, Value> {
             "target_invalid",
             "protected",
             "sync_failed",
+            "pending_create",
+            "pending_adopt",
+            "pending_delete",
+            "delete_blocked",
+            "conflict",
         ],
+    );
+    set_property_enum(
+        &mut schemas,
+        "FnosCertificateSyncItemData",
+        "action",
+        &["none", "create", "update", "adopt", "delete"],
     );
     set_array_item_metadata(
         &mut schemas,
@@ -4257,6 +4270,7 @@ pub(super) fn components() -> Map<String, Value> {
     );
     for (schema, property) in [
         ("DashboardActiveIpData", "last_seen_at"),
+        ("DashboardOnlineIpData", "last_seen_at"),
         ("UpdateConfirmData", "completedAt"),
     ] {
         set_property_metadata(&mut schemas, schema, property, "format", json!("date-time"));
@@ -4264,6 +4278,7 @@ pub(super) fn components() -> Map<String, Value> {
     for (schema, property) in [
         ("DashboardRealtimeData", "timestamp"),
         ("DashboardActiveIpsData", "timestamp"),
+        ("DashboardOnlineIpsData", "timestamp"),
         ("DashboardStreamActiveIpsData", "timestamp"),
         ("UpdateCheckData", "lastCheckedAt"),
     ] {

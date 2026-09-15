@@ -28,7 +28,7 @@
 
 <div align="center">
 
-[![fn-knock](https://img.shields.io/badge/fn--knock-v2.4.12-orange?style=flat-square)](https://github.com/Blue-Mink/FnDepot) [![Platform](https://img.shields.io/badge/Platform-x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
+[![fn-knock](https://img.shields.io/badge/fn--knock-v2.4.14-orange?style=flat-square)](https://github.com/Blue-Mink/FnDepot) [![Platform](https://img.shields.io/badge/Platform-x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
 
 </div>
 
@@ -40,7 +40,7 @@
 | 📁 **原项目** | [fn-knock-turborepo](https://github.com/kci-lnk/fn-knock-turborepo) |
 | 🌐 **官网** | https://fnknock.cn |
 | 📥 **安装方式** | 在飞牛 FnDepot 直接添加本源，客户端中搜索「敲门knock」即可安装 |
-| 🏷️ **版本** | v2.4.12（同步原作者最新官方 FPK，含源码快照） |
+| 🏷️ **版本** | v2.4.14（同步原作者最新官方 FPK，含源码快照） |
 
 ---
 

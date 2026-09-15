@@ -76,6 +76,8 @@ function validateContract(openapiPath) {
       "CreateAttachmentInput",
     ],
     ["get /api/admin/terminal/attachments/{id}/events", null],
+    ["get /api/admin/terminal/attachments/{id}/metrics", null],
+    ["get /api/admin/terminal/attachments/{id}/disks", null],
     ["post /api/admin/terminal/attachments/{id}/input", "InputRequest"],
     ["post /api/admin/terminal/attachments/{id}/resize", "ResizeRequest"],
     [
@@ -351,6 +353,7 @@ function validateContract(openapiPath) {
     ["get /api/admin/dashboard/stats", null],
     ["get /api/admin/dashboard/realtime", null],
     ["get /api/admin/dashboard/active-ips", null],
+    ["get /api/admin/dashboard/online-ips", null],
     ["get /api/admin/dashboard/stream-active-ips", null],
     ["get /api/admin/update/status", null],
     ["post /api/admin/update/check", null],

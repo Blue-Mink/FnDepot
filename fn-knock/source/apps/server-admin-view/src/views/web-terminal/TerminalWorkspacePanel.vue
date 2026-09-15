@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { computed } from "vue";
 import {
   Eye,
   Laptop,
@@ -19,11 +20,21 @@ import TerminalConnectionErrorAlert from "./TerminalConnectionErrorAlert.vue";
 import TerminalContextMenu from "./TerminalContextMenu.vue";
 import TerminalMobileToolbar from "./TerminalMobileToolbar.vue";
 import TerminalSessionToolbar from "./TerminalSessionToolbar.vue";
+import TerminalResourceStatusBar from "./TerminalResourceStatusBar.vue";
 import TerminalWindowChrome from "./TerminalWindowChrome.vue";
 import type { WebTerminalPageController } from "./useWebTerminalPage";
 
 const props = defineProps<{ controller: WebTerminalPageController }>();
 const {
+  metrics,
+  metricsLoading,
+  metricsFailed,
+  metricsStale,
+  disks,
+  disksLoading,
+  disksFailed,
+  disksStale,
+  diskDetailsOpen,
   activeAttachment,
   armedModifier,
   armedModifierLabel,
@@ -86,6 +97,18 @@ const {
   toggleTerminalFullscreen,
   toolbarDisabled,
 } = props.controller;
+const selectedTargetName = computed(() =>
+  selectedTarget.value?.kind === "local"
+    ? t("admin.webTerminal.localTarget")
+    : selectedTarget.value?.name,
+);
+const selectedTargetEndpoint = computed(() => {
+  const target = selectedTarget.value;
+  if (!target) return "";
+  return target.kind === "local"
+    ? target.executionIdentity
+    : `${target.username}@${target.host}:${target.port}`;
+});
 </script>
 
 <template>
@@ -124,7 +147,7 @@ const {
       v-else-if="!selectedTarget"
       class="grid min-h-[360px] place-items-center rounded-2xl border border-dashed border-border/80 bg-muted/10 p-6 text-center"
     >
-      <div class="max-w-sm">
+      <div class="min-w-0 w-full max-w-sm">
         <Server class="mx-auto h-8 w-8 text-muted-foreground" />
         <h2 class="mt-3 text-base font-semibold">
           {{ t("admin.webTerminal.noTargets", "No SSH targets") }}
@@ -151,13 +174,19 @@ const {
       "
       class="grid min-h-[360px] place-items-center rounded-2xl border border-dashed border-amber-500/30 bg-amber-500/5 p-6 text-center"
     >
-      <div class="max-w-md">
+      <div class="min-w-0 w-full max-w-md">
         <span
           class="mx-auto inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-amber-500/10 text-amber-700 dark:text-amber-300"
         >
           <LockKeyhole v-if="!selectedTarget.enabled" class="h-6 w-6" />
           <ShieldAlert v-else class="h-6 w-6" />
         </span>
+        <p class="mt-3 text-base font-semibold [overflow-wrap:anywhere]">
+          {{ selectedTargetName }}
+        </p>
+        <p class="mt-1 text-sm text-muted-foreground [overflow-wrap:anywhere]">
+          {{ selectedTargetEndpoint }}
+        </p>
         <h2 class="mt-3 text-base font-semibold">
           {{
             selectedTarget.enabled
@@ -185,24 +214,17 @@ const {
       v-else-if="!selectedSession"
       class="grid min-h-[360px] place-items-center rounded-2xl border border-dashed border-border/80 bg-muted/10 p-6 text-center"
     >
-      <div class="max-w-sm">
+      <div class="min-w-0 w-full max-w-sm">
         <Laptop
           v-if="selectedTarget.kind === 'local'"
           class="mx-auto h-8 w-8 text-muted-foreground"
         />
         <Server v-else class="mx-auto h-8 w-8 text-muted-foreground" />
-        <h2 class="mt-3 text-base font-semibold">
-          {{ t("admin.webTerminal.noSessions", "No sessions on this target") }}
+        <h2 class="mt-3 text-base font-semibold [overflow-wrap:anywhere]">
+          {{ selectedTargetName }}
         </h2>
-        <p class="mt-1 text-sm leading-6 text-muted-foreground">
-          {{
-            selectedTarget.kind === "local"
-              ? t("admin.webTerminal.localNoSessionsDescription")
-              : t(
-                  "admin.webTerminal.noSessionsDescription",
-                  "Create an independent SSH shell. It stays alive while the terminal service is running.",
-                )
-          }}
+        <p class="mt-1 text-sm text-muted-foreground [overflow-wrap:anywhere]">
+          {{ selectedTargetEndpoint }}
         </p>
         <Button class="mt-4" :disabled="isCreating" @click="createSession">
           <LoaderCircle v-if="isCreating" class="mr-1.5 h-4 w-4 animate-spin" />
@@ -290,6 +312,19 @@ const {
             @select-all="selectAllTerminalText"
           />
         </div>
+        <TerminalResourceStatusBar
+          v-model:disk-details-open="diskDetailsOpen"
+          :disks="disks"
+          :disks-loading="disksLoading"
+          :disks-failed="disksFailed"
+          :disks-stale="disksStale"
+          :metrics="metrics"
+          :loading="metricsLoading"
+          :failed="metricsFailed"
+          :stale="metricsStale"
+          :connection-state="connectionState"
+          :connection-label="statusTone"
+        />
       </div>
 
       <div

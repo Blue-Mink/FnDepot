@@ -2252,6 +2252,24 @@ pub(crate) fn build_openapi_document() -> Value {
     insert_typed_enveloped_operation(
         &mut paths,
         &typed_terminal_runtime,
+        "/api/admin/terminal/attachments/{id}/metrics",
+        "get",
+        "TerminalMetrics",
+        None,
+        None,
+    );
+    insert_typed_enveloped_operation(
+        &mut paths,
+        &typed_terminal_runtime,
+        "/api/admin/terminal/attachments/{id}/disks",
+        "get",
+        "TerminalDisks",
+        None,
+        None,
+    );
+    insert_typed_enveloped_operation(
+        &mut paths,
+        &typed_terminal_runtime,
         "/api/admin/terminal/attachments/{id}/events",
         "get",
         "EventsResult",
@@ -2335,6 +2353,8 @@ pub(crate) fn build_openapi_document() -> Value {
         ("delete", "/api/admin/terminal/sessions/{id}"),
         ("post", "/api/admin/terminal/sessions/{id}/attachments"),
         ("get", "/api/admin/terminal/attachments/{id}/events"),
+        ("get", "/api/admin/terminal/attachments/{id}/metrics"),
+        ("get", "/api/admin/terminal/attachments/{id}/disks"),
         ("post", "/api/admin/terminal/attachments/{id}/input"),
         ("post", "/api/admin/terminal/attachments/{id}/resize"),
         ("post", "/api/admin/terminal/attachments/{id}/control"),
@@ -2425,6 +2445,15 @@ pub(crate) fn build_openapi_document() -> Value {
         "/api/admin/dashboard/realtime",
         "get",
         "DashboardRealtimeData",
+        None,
+        None,
+    );
+    insert_typed_enveloped_operation(
+        &mut paths,
+        &typed_dashboard,
+        "/api/admin/dashboard/online-ips",
+        "get",
+        "DashboardOnlineIpsData",
         None,
         None,
     );
@@ -3066,6 +3095,23 @@ pub(crate) fn build_openapi_document() -> Value {
         None,
         Some("FnosCertificateSyncBodyData"),
     );
+    if let Some(responses) = paths
+        .get_mut("/api/admin/config/fnos_certificate_sync/sync")
+        .and_then(|path| path.get_mut("post"))
+        .and_then(|operation| operation.get_mut("responses"))
+        .and_then(Value::as_object_mut)
+        && let Some(error) = responses.get("default").cloned()
+    {
+        for (status, description) in [
+            ("400", "Invalid action selection"),
+            ("409", "Stale certificate synchronization preview"),
+        ] {
+            let mut response = error.clone();
+            response["description"] = json!(description);
+            responses.insert(status.to_string(), response);
+        }
+    }
+
     insert_typed_enveloped_operation(
         &mut paths,
         &typed_fnos_port_icon_hijack,
@@ -5059,7 +5105,7 @@ mod tests {
                 }
             }
         }
-        assert_eq!(operations, 461);
+        assert_eq!(operations, 464);
         assert_eq!(documented_tags, operation_tags);
         assert!(documented_tags.iter().all(|tag| {
             tags.iter().any(|item| {
@@ -5176,6 +5222,7 @@ mod tests {
             ("/api/admin/dashboard/stats", "get"),
             ("/api/admin/dashboard/realtime", "get"),
             ("/api/admin/dashboard/active-ips", "get"),
+            ("/api/admin/dashboard/online-ips", "get"),
             ("/api/admin/dashboard/stream-active-ips", "get"),
             ("/api/admin/update/status", "get"),
             ("/api/admin/update/check", "post"),
@@ -5804,7 +5851,7 @@ mod tests {
             .filter_map(Value::as_object)
             .flat_map(|path| path.values())
             .collect::<Vec<_>>();
-        assert_eq!(operations.len(), 461);
+        assert_eq!(operations.len(), 464);
         assert!(
             operations
                 .iter()
@@ -6604,6 +6651,7 @@ mod tests {
                 &["key", "active_conns", "active_ip_count"][..],
             ),
             ("DashboardActiveIpsData", &["timestamp"][..]),
+            ("DashboardOnlineIpsData", &["timestamp", "online_count"][..]),
             ("DashboardStreamActiveIpsData", &["timestamp"][..]),
         ] {
             let required = document
