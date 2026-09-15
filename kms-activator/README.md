@@ -1,6 +1,6 @@
 # KMS Activator
 
-局域网 KMS 激活服务，基于 [vlmcsd](https://github.com/SystemInflux/vlmcsd)（上游仓库已下架），为局域网内的 Windows / Windows Server / Office 提供批量激活。
+局域网 KMS 激活服务，基于 vlmcsd（原上游 `SystemInflux/vlmcsd` 已下架，现可参考仍在维护的 [kkkgo/vlmcsd](https://github.com/kkkgo/vlmcsd) 分支），为局域网内的 Windows / Windows Server / Office 提供批量激活。
 
 默认监听 **标准端口 1688**，客户端 `slmgr /skms <NAS IP>` 就能连上，不需要写端口。
 
@@ -58,13 +58,13 @@ fnpack build -d source
 
 ## 📄 许可证
 
-打包脚本与界面代码遵循 FnDepot 的 [MIT License](../LICENSE)。vlmcsd 程序本体、各版本 GVLK 密钥的版权与商标归各自权利人所有。
+本应用的打包脚本与界面代码以 MIT 许可发布。vlmcsd 程序本体、各版本 GVLK 密钥的版权与商标归各自权利人所有。
 
 ---
 
 ## 🙏 致谢
 
-- [SystemInflux/vlmcsd](https://github.com/SystemInflux/vlmcsd) —— KMS 服务端本体（作者 Steve Jenkins，上游仓库现已下架）
+- vlmcsd —— KMS 服务端本体（作者 Steve Jenkins，原 `SystemInflux/vlmcsd` 已从 GitHub 下架）
 - [kkkgo/vlmcsd](https://github.com/kkkgo/vlmcsd) —— 仍在维护的 vlmcsd 分支，可自行编译参考
 - [FnDepot 应用源构建规范](https://github.com/EWEDLCM/FnDepot)
 - [飞牛 fnOS](https://www.fnnas.com/)

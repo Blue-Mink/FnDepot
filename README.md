@@ -69,7 +69,7 @@
 
 ### 🔑 KMS Activator
 
-基于 [vlmcsd](https://github.com/SystemInflux/vlmcsd) 的局域网 KMS 激活服务，为 Windows / Windows Server / Office 提供批量激活。默认监听**标准端口 1688**，客户端 `slmgr /skms <NAS IP>` 即可、无需带端口；以 root 启动仅用于绑定 1688，绑定后立即降权至应用用户运行，全程不创建任何端口转发规则。
+基于 vlmcsd 的局域网 KMS 激活服务，为 Windows / Windows Server / Office 提供批量激活。默认监听**标准端口 1688**，客户端 `slmgr /skms <NAS IP>` 即可、无需带端口；以 root 启动仅用于绑定 1688，绑定后立即降权至应用用户运行，全程不创建任何端口转发规则。
 
 <br/>
 
@@ -90,7 +90,7 @@
 | 项目 | 信息 |
 | :--- | :--- |
 | 👨‍💻 **打包维护** | [Blue-Mink](https://github.com/Blue-Mink) |
-| 📁 **原项目** | [SystemInflux/vlmcsd](https://github.com/SystemInflux/vlmcsd)（上游已下架，可参考分支 [kkkgo/vlmcsd](https://github.com/kkkgo/vlmcsd)） |
+| 📁 **原项目** | vlmcsd（原上游 `SystemInflux/vlmcsd` 已从 GitHub 下架，可参考仍在维护的分支 [kkkgo/vlmcsd](https://github.com/kkkgo/vlmcsd)） |
 | 📥 **安装方式** | 下载 [KmsActivator-1.1.10-fnos-amd64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/kms-activator-v1.1.10/KmsActivator-1.1.10-fnos-amd64.fpk) ([sha256](https://github.com/Blue-Mink/FnDepot/releases/download/kms-activator-v1.1.10/KmsActivator-1.1.10-fnos-amd64.fpk.sha256)) 在 fnOS 应用中心手动安装 |
 | 🧮 **SHA256** | `df16210db4c01e68fc8d3becb85def14db482e2f81c1b0ac4a75254682ea6da0` |
 | 🏷️ **版本** | v1.1.10（v1.0.x 已废弃：1688→11688 转发在非 root 下必然失败，页面显示「运行中」而客户端始终连不上） |
