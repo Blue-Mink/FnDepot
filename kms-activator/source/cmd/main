@@ -1,0 +1,97 @@
+#!/bin/bash
+# KMS Activator - vlmcsd 生命周期管理
+# 注意：本应用以 run-as=package（非 root）运行，因此不使用特权端口 1688，
+#      也不尝试需要 root 的 iptables REDIRECT；端口由 ${TRIM_PKGVAR}/port 单点控制。
+
+LOG_FILE="${TRIM_PKGVAR}/info.log"
+PID_FILE="${TRIM_PKGVAR}/vlmcsd.pid"
+PORT_FILE="${TRIM_PKGVAR}/port"
+VLMCSD="${TRIM_APPDEST}/vlmcsd"
+DEFAULT_PORT=1688
+RUNAS_USER="KmsActivator"
+LOG_MAX_BYTES=1048576
+
+log_msg() { echo "$(date '+%Y-%m-%d %H:%M:%S') - $1" >> "${LOG_FILE}"; }
+
+rotate_log() {
+    [ -f "${LOG_FILE}" ] || return 0
+    sz=$(stat -c '%s' "${LOG_FILE}" 2>/dev/null || echo 0)
+    if [ "${sz}" -gt "${LOG_MAX_BYTES}" ]; then
+        tail -n 2000 "${LOG_FILE}" > "${LOG_FILE}.tmp" 2>/dev/null && mv "${LOG_FILE}.tmp" "${LOG_FILE}"
+        log_msg "日志已轮转（原大小 ${sz}B，保留最后 2000 行）"
+    fi
+}
+
+get_port() {
+    p=$(head -n 1 "${PORT_FILE}" 2>/dev/null | tr -cd '0-9')
+    case "${p}" in ""|0*) p=${DEFAULT_PORT} ;; esac
+    echo "${p}"
+}
+
+check_pid() {
+    local pid=$1
+    [ -n "$pid" ] && kill -0 "$pid" 2>/dev/null
+}
+
+do_status() {
+    if [ -f "${PID_FILE}" ]; then
+        pid=$(head -n 1 "${PID_FILE}" | tr -d '[:space:]')
+        if check_pid "$pid"; then return 0; fi
+        rm -f "${PID_FILE}"
+    fi
+    return 3
+}
+
+do_start() {
+    rotate_log
+    do_status && { log_msg "vlmcsd 已在运行"; return 0; }
+    [ ! -x "${VLMCSD}" ] && { echo "vlmcsd 二进制文件不存在或不可执行" > "${TRIM_TEMP_LOGFILE}"; return 1; }
+
+    port=$(get_port)
+    # 以 root 启动时：只为绑定 1688 这类特权端口，绑定后立刻 -u 降权到包用户
+    if [ "$(id -u)" = "0" ] && id "${RUNAS_USER}" >/dev/null 2>&1; then
+        drop="-u ${RUNAS_USER}"; runas="root 绑定后降权至 ${RUNAS_USER}"
+    else
+        drop=""; runas="$(whoami 2>/dev/null || id -un)"
+    fi
+    log_msg "启动 vlmcsd（${runas}，端口 ${port}）"
+    # shellcheck disable=SC2086
+    "${VLMCSD}" -p "${PID_FILE}" -L "0.0.0.0:${port}" ${drop} -e >> "${LOG_FILE}" 2>&1
+    rc=$?
+    sleep 1
+
+    if do_status; then
+        log_msg "vlmcsd 启动成功 (PID=$(head -n 1 "${PID_FILE}"), 端口 ${port})"
+        if [ "${port}" != "1688" ]; then
+            log_msg "提示：客户端需使用 <NAS_IP>:${port}"
+        fi
+        return 0
+    fi
+
+    log_msg "vlmcsd 启动失败，退出码 ${rc}"
+    echo "vlmcsd 启动失败（退出码 ${rc}），请查看日志：${LOG_FILE}" > "${TRIM_TEMP_LOGFILE}"
+    return 1
+}
+
+do_stop() {
+    log_msg "停止 vlmcsd..."
+    if [ -f "${PID_FILE}" ]; then
+        pid=$(head -n 1 "${PID_FILE}" | tr -d '[:space:]')
+        if check_pid "$pid"; then
+            kill -TERM "$pid" 2>/dev/null
+            count=0
+            while check_pid "$pid" && [ $count -lt 10 ]; do sleep 1; count=$((count+1)); done
+            check_pid "$pid" && { kill -KILL "$pid" 2>/dev/null; sleep 1; }
+            log_msg "vlmcsd 已停止"
+        fi
+        rm -f "${PID_FILE}"
+    fi
+    return 0
+}
+
+case $1 in
+start) do_start ;;
+stop)  do_stop ;;
+status) do_status && exit 0 || exit 3 ;;
+*) exit 1 ;;
+esac

@@ -69,29 +69,33 @@
 
 ### 🔑 KMS Activator
 
-基于 vlmcsd 的 KMS 激活服务，为局域网内 Windows / Office / Windows Server 提供批量 KMS 激活服务。
+基于 [vlmcsd](https://github.com/SystemInflux/vlmcsd) 的局域网 KMS 激活服务，为 Windows / Windows Server / Office 提供批量激活。默认监听**标准端口 1688**，客户端 `slmgr /skms <NAS IP>` 即可、无需带端口；以 root 启动仅用于绑定 1688，绑定后立即降权至应用用户运行，全程不创建任何端口转发规则。
 
 <br/>
 
 <div align="center">
 
-[![KMS](https://img.shields.io/badge/KMS--Activator-v1.0.0-red?style=flat-square)](https://github.com/Blue-Mink/FnDepot) [![Platform](https://img.shields.io/badge/Platform-x86__64-lightgrey?style=flat-square)](#)
+[![KMS](https://img.shields.io/badge/KMS--Activator-v1.1.10-red?style=flat-square)](https://github.com/Blue-Mink/FnDepot/releases/tag/kms-activator-v1.1.10) [![Platform](https://img.shields.io/badge/Platform-x86__64-lightgrey?style=flat-square)](#) [![Port](https://img.shields.io/badge/Port-1688-blue?style=flat-square)](#)
 
 </div>
 
 <br/>
 
 **✨ 功能特点**
-- 🌐 Web 管理界面一键启停
-- 🔍 自动 IP 检测
-- 🔑 内置 GVLK 密钥库
-- 💻 支持 Windows 10/11 / Office 2013-2016 / Windows Server 2016-2025
+- 🌐 Web 页面一键启停，并与应用中心「停用 / 启用」状态互相同步
+- 🔑 内置 GVLK 密钥库，Windows / Server / Office 三段分步指引，点一下即复制
+- 💻 支持 Windows 10/11、Windows Server 2016-2025、Office 2013-2021（VOL 批量许可镜像）
+- 🌗 浅色 / 深色 / 跟随系统三种主题，选择记在浏览器本地
 
 | 项目 | 信息 |
 | :--- | :--- |
-| 📥 **安装方式** | 下载 [KmsActivator.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/v1.0.0/KmsActivator.fpk) 在 fnOS 应用中心手动安装 |
+| 👨‍💻 **打包维护** | [Blue-Mink](https://github.com/Blue-Mink) |
+| 📁 **原项目** | [SystemInflux/vlmcsd](https://github.com/SystemInflux/vlmcsd)（上游已下架，可参考分支 [kkkgo/vlmcsd](https://github.com/kkkgo/vlmcsd)） |
+| 📥 **安装方式** | 下载 [KmsActivator-1.1.10-fnos-amd64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/kms-activator-v1.1.10/KmsActivator-1.1.10-fnos-amd64.fpk) ([sha256](https://github.com/Blue-Mink/FnDepot/releases/download/kms-activator-v1.1.10/KmsActivator-1.1.10-fnos-amd64.fpk.sha256)) 在 fnOS 应用中心手动安装 |
+| 🧮 **SHA256** | `df16210db4c01e68fc8d3becb85def14db482e2f81c1b0ac4a75254682ea6da0` |
+| 🏷️ **版本** | v1.1.10（v1.0.x 已废弃：1688→11688 转发在非 root 下必然失败，页面显示「运行中」而客户端始终连不上） |
+| 🌐 **服务端口** | 1688（KMS 标准端口，仅 x86_64） |
 | 📖 **详细说明** | [kms-activator/README.md](kms-activator/README.md) |
-| 🏷️ **版本** | v1.0.0 |
 
 ---
 

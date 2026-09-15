@@ -19,7 +19,27 @@
     "readme_url": "./global-radio/README.md",
     "homepage": "https://github.com/moli-xia/global-radio"
   },
-
+  "kms-activator": {
+    "display_name": "KMS Activator",
+    "version": "1.1.10",
+    "platform": "x86",
+    "desc": "基于 vlmcsd 的 KMS 激活服务，为局域网内 Windows / Windows Server / Office 提供批量 KMS 激活。默认监听标准端口 1688，客户端 slmgr /skms <NAS IP> 即可、无需带端口；以 root 启动仅用于绑定 1688，绑定后立即降权至应用用户运行，不做任何端口转发。Web 页面一键启停并与应用中心状态保持一致，内置 GVLK 密钥库与 Windows / Server / Office 分步激活指引，支持浅色·深色·跟随系统三种主题。仅支持 x86_64。",
+    "labels": "系统工具",
+    "author": "Blue-Mink",
+    "author_url": "https://github.com/Blue-Mink",
+    "distributor": "Blue-Mink",
+    "distributor_url": "https://github.com/Blue-Mink",
+    "bug_report_url": "https://github.com/Blue-Mink/FnDepot/issues",
+    "isdocker": "false",
+    "install_type": "系统空间",
+    "size": "0.09",
+    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/kms-activator-v1.1.10/KmsActivator-1.1.10-fnos-amd64.fpk",
+    "changelog": "1.1.10：入口页新增主题切换（自动跟随系统 / 浅色 / 深色），点右上角按钮循环切换，选择记在浏览器本地，深色下命令块与提示条配色一并适配。1.1.9：开发者与发布者统一署名为 Blue-Mink。1.1.8：图标沿用上游原版样式并重绘高清化，64/128/256/512 各按目标尺寸重采样。1.1.7：新增「激活 Windows Server」板块，命令区改深色代码块。1.1.6：修状态轮询时「运行中」闪回「检测中…」的抖动。1.1.5：状态面板只留运行状态与地址。1.1.0~1.1.4：以 root 绑定标准端口 1688 后立即降权、网页启停与应用中心状态一致、界面改简约版式。相比 1.0.0：不再依赖 1688→11688 端口转发（该转发在非 root 下必然失败，导致默认命令一直连不上）。",
+    "icon_url": "./kms-activator/ICON.PNG",
+    "readme_url": "./kms-activator/README.md",
+    "homepage": "https://github.com/Blue-Mink/FnDepot",
+    "service_port": "1688"
+  },
   "fn-knock": {
     "display_name": "敲门knock",
     "version": "2.4.12",

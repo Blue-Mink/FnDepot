@@ -1,0 +1,11 @@
+#!/bin/bash
+# 升级后：1.0.x 无法绑定特权端口，默认写过 11688；
+# 1.1.0 起以 root 绑定后立即降权，可用标准 1688，
+# 因此仅在「没有配置」或「仍是旧默认 11688」时迁到 1688，用户自设的端口不动。
+PORT_FILE="${TRIM_PKGVAR}/port"
+cur=$(head -n 1 "${PORT_FILE}" 2>/dev/null | tr -cd '0-9')
+case "${cur}" in
+    "")     echo "1688" > "${PORT_FILE}" ;;
+    11688)  echo "1688" > "${PORT_FILE}" ;;
+esac
+exit 0

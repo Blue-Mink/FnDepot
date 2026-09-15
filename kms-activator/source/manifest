@@ -1,0 +1,17 @@
+appname               = KmsActivator
+version               = 1.1.9
+display_name          = KMS Activator
+desc                  = KMS 激活服务，为局域网内 Windows / Office 提供批量激活服务。<br>基于 vlmcsd，默认监听标准端口 1688，客户端 slmgr /skms <NAS_IP> 即可，无需带端口。<br>以 root 启动仅为绑定 1688，绑定后立即降权至应用用户运行；仅支持 x86_64。
+platform              = x86
+source                = thirdparty
+maintainer            = Blue-Mink
+maintainer_url        = https://github.com/Blue-Mink/FnDepot/
+distributor           = Blue-Mink
+distributor_url       = https://github.com/Blue-Mink/FnDepot/
+os_min_version        = 0.9.0
+desktop_uidir         = ui
+desktop_applaunchname = KmsActivator.main
+ctl_stop              = true
+checkport             = false
+changelog             = 1.1.9：开发者与发布者统一署名为 Blue-Mink，并加上 FnDepot 项目链接。1.1.8：应用图标回到上游原版样式（深蓝底板 + 绿色缎带 KMS + 对勾圆章），并按矢量重绘做高清化：64/128/256/512 槽位各自按目标尺寸重采样、小尺寸单独加锐，高分屏与大图标不再发糊。1.1.7：新增「激活 Windows Server」板块（Server GVLK 示例步骤 + VOL 批量许可与 0xC004F074 排查提示），命令区改深色代码块、复制按钮固定宽度不再跳位。1.1.6：修状态每 8 秒轮询时「运行中」闪回「检测中…」的抖动（后台轮询不再改写文案与状态灯，偶发失败也不再瞬时打成「无法连接」），并给状态文案留固定宽度。1.1.5：状态面板去掉「端口」「进程」两行，只留运行状态与地址——默认已是标准端口 1688，客户端命令不再需要端口。1.1.4：图标蒙版改由官方 224 剖面插值重建（消除边缘量化台阶），母版 2048 绘制并补 512/128 资源，高分屏与大图标不再发虚。1.1.1：换用按 KMS 功能重制的图标（KMS 主机 + 锁孔 + 局域网客户端节点）。1.1.0：以 root 启动绑定标准端口 1688 后立即降权，客户端零配置；网页启停与应用中心状态一致；界面改简约版式。
+checksum              = 43c6a098d52b8296548cb750f55a179c
