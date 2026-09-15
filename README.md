@@ -112,11 +112,11 @@ TREK 是一款自托管旅行规划工具，基于 [liketrek/TREK](https://githu
 
 ### 🏠 冬瓜HAOS (dongguaha)
 
-在 x86 fnOS 系统中创建冬瓜HAOS虚拟机，KVM 硬件加速原生性能。内置「IP 寻踪」与桌面双图标（冬瓜HAOS 管理后台 / Home Assistant Web UI），固定入口一键直达、自动跟随虚拟机 IP 变化；管理后台自带去横幅反代。首启 Web 页面需 15~40 分钟就绪属正常。
+在 x86 fnOS 系统中创建冬瓜HAOS虚拟机，KVM 硬件加速原生性能。内置「IP 寻踪」与桌面双图标（冬瓜HAOS 管理后台 / Home Assistant Web UI），固定入口一键直达、自动跟随虚拟机 IP 变化；管理后台自带去横幅反代，面板里的 HA 登录页 / TTYD 按钮也会自动指向虚拟机真实地址。安装秒回、后台推进并可断点续跑，入口页可一键开机、拿不到 IP 时能经串口自救。首启 Web 页面需 15~40 分钟就绪属正常。
 
 <div align="center">
 
-[![冬瓜HAOS](https://img.shields.io/badge/冬瓜HAOS-v18.2-green?style=flat-square)](https://github.com/Blue-Mink/fnos-vm-dongguaha)
+[![冬瓜HAOS](https://img.shields.io/badge/冬瓜HAOS-v18.2.7-green?style=flat-square)](https://github.com/Blue-Mink/fnos-vm-dongguaha/releases/tag/v18.2.7)
 [![Platform](https://img.shields.io/badge/Platform-fnOS%20x86__64-lightgrey?style=flat-square)](#)
 
 </div>
@@ -125,8 +125,10 @@ TREK 是一款自托管旅行规划工具，基于 [liketrek/TREK](https://githu
 | :--- | :--- |
 | 👨‍💻 **原作者** | [Blue-Mink](https://github.com/Blue-Mink) |
 | 📁 **原项目** | [fnos-vm-dongguaha](https://github.com/Blue-Mink/fnos-vm-dongguaha) |
-| 📥 **安装方式** | 下载 [com.dongguaha.vm-18.2-fnos-amd64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/v18.2/com.dongguaha.vm-18.2-fnos-amd64.fpk) ([sha256](https://github.com/Blue-Mink/FnDepot/releases/download/v18.2/com.dongguaha.vm-18.2-fnos-amd64.fpk.sha256)) 在 fnOS 应用中心手动安装 |
-| 🏷️ **版本** | v18.2 |
+| 📥 **安装方式** | 下载 [com.dongguaha.vm-18.2.7-fnos-amd64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/v18.2.7/com.dongguaha.vm-18.2.7-fnos-amd64.fpk) ([sha256](https://github.com/Blue-Mink/FnDepot/releases/download/v18.2.7/com.dongguaha.vm-18.2.7-fnos-amd64.fpk.sha256)) 在 fnOS 应用中心手动安装 |
+| 🏷️ **版本** | v18.2.7 |
+| 📦 **可选系统版本** | 冬瓜HAOS 18.2 / 18.1 / 18.0 / 17.3.1（官方 CDN，换版本自动留档旧磁盘） |
+| 🌐 **入口端口** | 36123（寻踪跳转）· 36124（管理后台反代） |
 | 📱 **手机端** | [Android APK](https://github.com/Blue-Mink/fnos-vm-dongguaha/releases/download/v18.2/Home-Assistant.apk) · [Google Play](https://play.google.com/store/apps/details?id=io.homeassistant.companion.android) · [iOS](https://apps.apple.com/cn/app/home-assistant/id1099568401) |
 
 ---
