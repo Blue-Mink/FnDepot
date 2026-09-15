@@ -58,7 +58,7 @@ fnpack build -d source
 
 ## 📄 许可证
 
-本应用的打包脚本与界面代码以 MIT 许可发布。vlmcsd 程序本体、各版本 GVLK 密钥的版权与商标归各自权利人所有。
+本应用的打包脚本与界面代码遵循仓库根的 [MIT License](../LICENSE)。vlmcsd 程序本体、各版本 GVLK 密钥的版权与商标归各自权利人所有。
 
 ---
 
