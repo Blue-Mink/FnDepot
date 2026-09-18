@@ -211,9 +211,9 @@
     },
     "fnos-apps-store": {
         "display_name": "New Store",
-        "version": "1.19.5",
+        "version": "1.19.6",
         "platform": "all",
-        "desc": "飞牛fnOS第三方应用中心：App Store式界面浏览、安装、更新、卸载第三方应用，FPK/Docker双通道，走应用中心官方流程；内置GitHub 12源+Docker 8源智能镜像监测（5分钟自动探测、按健康度排序、连续3败自动切换）与KSpeeder本地镜像源；SSE实时安装进度；多应用源管理（FnDepot V1/V2、GitHub Release）；更新检测日期四级回退；同名应用SHA256内容级去重。PC侧栏+移动端dock双端布局，可嵌入飞牛App，亮暗主题。",
+        "desc": "飞牛fnOS第三方应用中心：App Store式界面浏览、安装、更新、卸载第三方应用，FPK/Docker双通道，走应用中心官方流程；内置GitHub 12源+Docker 8源智能镜像监测（5分钟自动探测、按健康度排序、连续3败自动切换）与KSpeeder本地镜像源；SSE实时安装进度；多应用源管理（FnDepot V1/V2、GitHub Release）；更新检测日期四级回退；同名应用SHA256内容级去重；自更新跨源取最高版本+版本门槛防降级。PC侧栏+移动端dock双端布局，可嵌入飞牛App，亮暗主题。",
         "labels": "工具",
         "author": "Blue-Mink",
         "author_url": "https://github.com/Blue-Mink",
@@ -223,8 +223,8 @@
         "isdocker": "false",
         "install_type": "系统空间",
         "size": "0.01",
-        "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.19.5/new-store_1.19.5_x86.fpk",
-        "changelog": "1.19.5: 命名统一 New Store（应用中心标题/描述、manifest desc 重写、FPK 产物改名 new-store_*）。1.19.4: 服务端口 8011 → 38011。1.19.3: 发布方同步仓库改名 Blue-Mink/New-Store。1.19.2: PC 适配。1.19.0-1.19.1: 智能镜像监测（GitHub 12 源 + Docker 8 源）、KSpeeder 本地源、更新检测修复、同名 SHA256 去重。",
+        "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.19.6/new-store_1.19.6_x86.fpk",
+        "changelog": "1.19.6: 修复自更新降级隐患（内置目录收录商店旧版 1.9.5 被精确命中→GetBest 跨源取最高版本+自更新版本门槛）。1.19.5: 命名统一 New Store（应用中心标题/描述、manifest desc 重写、FPK 产物改名 new-store_*）。1.19.4: 服务端口 8011 → 38011。1.19.2-1.19.1: PC 适配、智能镜像监测（GitHub 12 源 + Docker 8 源）、KSpeeder 本地源。",
         "icon_url": "./new-store/ICON.PNG",
         "readme_url": "./new-store/README.md",
         "preview_urls": [
@@ -235,19 +235,19 @@
         "homepage": "https://github.com/Blue-Mink/New-Store",
         "service_port": "38011",
         "releases": {
-            "1.19.5": {
-                "updated_at": "2026-09-18 13:08",
-                "changelog": "命名统一 New Store（应用中心标题/描述、manifest desc 重写、FPK 产物改名 new-store_*；包内 appname 不变，已装可正常升级）",
+            "1.19.6": {
+                "updated_at": "2026-09-18 13:50",
+                "changelog": "修复自更新降级隐患：Registry.GetBest 跨源取同名最高版本（内置目录收录的商店旧版 1.9.5 不再被自更新命中）+ runSelfUpdate 版本门槛（可用版本必须严格高于已装版本，杜绝降级）",
                 "packages": {
                     "x86": {
-                        "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.19.5/new-store_1.19.5_x86.fpk",
-                        "sha256": "bdc4954ebb2462be003752197e1834c42113445334dd0b2578d52949c63d75a4",
-                        "size": 7928751
+                        "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.19.6/new-store_1.19.6_x86.fpk",
+                        "sha256": "949997c7aa830b599a76dcc79ab9f19b1263b9183cb72dce354bebdee63f4592",
+                        "size": 7931343
                     },
                     "arm": {
-                        "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.19.5/new-store_1.19.5_arm.fpk",
-                        "sha256": "df567659061513b73a0e9298e45041d91143dcc5c912e1080cee368330e65db9",
-                        "size": 7259602
+                        "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.19.6/new-store_1.19.6_arm.fpk",
+                        "sha256": "f87cbcdb32978a419a82cbda293101ea6784f6963222ed0a34fe1bf03d7a595c",
+                        "size": 7263303
                     }
                 }
             }

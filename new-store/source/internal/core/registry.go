@@ -282,6 +282,40 @@ func (r *Registry) Get(appname string) (AppInfo, bool) {
 	return fallback, hasFallback
 }
 
+// GetBest 返回同名（AppName 精确匹配）条目中版本最高的一个。
+// 自更新专用：内置目录可能收录商店自己的旧版本（conversun/fnos-apps 的
+// apps.json 里有 fnos-apps-store 1.9.5），Get 的精确键命中会优先拿到内置
+// 旧条目，直接用于自更新会把商店降级。这里跨所有源取版本最高者；
+// 版本平局时优先外部源（内置目录只维护到上游停止发布的版本）。
+func (r *Registry) GetBest(appname string) (AppInfo, bool) {
+	var best AppInfo
+	hasBest := false
+	for _, app := range r.apps {
+		if app.AppName != appname {
+			continue
+		}
+		if !hasBest {
+			best, hasBest = app, true
+			continue
+		}
+		// cmp>0: app 比 best 新 → 取 app；平局: 外部源优先于内置目录。
+		cmp := CompareFpkVersions(bestVersionStr(app), bestVersionStr(best))
+		if cmp > 0 || (cmp == 0 && best.Source == "fnos-apps" &&
+			app.Source != "" && app.Source != "fnos-apps") {
+			best = app
+		}
+	}
+	return best, hasBest
+}
+
+// bestVersionStr 返回条目的可比版本号（FpkVersion 优先，回退 LatestVersion）。
+func bestVersionStr(app AppInfo) string {
+	if app.FpkVersion != "" {
+		return app.FpkVersion
+	}
+	return app.LatestVersion
+}
+
 func hasRevisionUpdate(releaseTag, installedVersion string) bool {
 	prefix, ok := releaseTagPrefix(releaseTag)
 	if !ok {

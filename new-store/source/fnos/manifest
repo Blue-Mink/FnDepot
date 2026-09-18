@@ -1,5 +1,5 @@
 appname         = fnos-apps-store
-version = 1.19.5
+version = 1.19.6
 display_name    = New Store
 platform        = x86
 maintainer      = Blue-Mink

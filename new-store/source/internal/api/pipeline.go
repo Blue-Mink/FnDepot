@@ -936,6 +936,20 @@ func (p *installPipeline) runStandard(ctx context.Context, stream *sseStream, op
 }
 
 func (p *installPipeline) runSelfUpdate(ctx context.Context, stream *sseStream, app core.AppInfo) {
+	// 版本门槛（最后防线）：可用版本必须严格高于已装版本。
+	// 内置目录可能收录商店自己的旧版本（conversun/fnos-apps apps.json 里有
+	// fnos-apps-store 1.9.5），若上游条目选取出错，这里拒绝反向「升级」，
+	// 避免把商店降级到无法自恢复的旧版。
+	avail := app.FpkVersion
+	if avail == "" {
+		avail = app.LatestVersion
+	}
+	if app.InstalledVersion != "" && avail != "" &&
+		core.CompareFpkVersions(avail, app.InstalledVersion) <= 0 {
+		_ = stream.sendError(fmt.Sprintf("商店已是最新版本（%s），不存在高于它的新版本，已拒绝降级到 %s", app.InstalledVersion, avail))
+		return
+	}
+
 	// Self-update is the riskiest path: the child is detached and this process
 	// is killed partway through, so a failure cannot even be reported.
 	if err := p.requireSafeUpgrade(); err != nil {

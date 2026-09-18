@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[![New Store](https://img.shields.io/badge/New--Store-v1.19.5-green?style=flat-square)](https://github.com/Blue-Mink/New-Store/releases/tag/v1.19.5)
+[![New Store](https://img.shields.io/badge/New--Store-v1.19.6-green?style=flat-square)](https://github.com/Blue-Mink/New-Store/releases/tag/v1.19.6)
 [![Platform](https://img.shields.io/badge/Platform-fnOS%20x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
 
 </div>
@@ -13,8 +13,8 @@
 | :--- | :--- |
 | 👨‍💻 **打包维护** | [Blue-Mink](https://github.com/Blue-Mink) |
 | 📁 **原项目** | [New-Store](https://github.com/Blue-Mink/New-Store)（基础版本 [conversun/fnos-store](https://github.com/conversun/fnos-store)） |
-| 📥 **安装方式** | 下载 [new-store_1.19.5_x86.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.19.5/new-store_1.19.5_x86.fpk)（[sha256](https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.19.5/new-store_1.19.5_x86.fpk.sha256)）或 [arm 版](https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.19.5/new-store_1.19.5_arm.fpk)（[sha256](https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.19.5/new-store_1.19.5_arm.fpk.sha256)）在 fnOS 应用中心手动安装；装好后在本应用「设置」里添加本源即可自助更新 |
-| 🏷️ **版本** | v1.19.5（端口 38011；1.19.4 起由 8011 迁移） |
+| 📥 **安装方式** | 下载 [new-store_1.19.6_x86.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.19.6/new-store_1.19.6_x86.fpk)（[sha256](https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.19.6/new-store_1.19.6_x86.fpk.sha256)）或 [arm 版](https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.19.6/new-store_1.19.6_arm.fpk)（[sha256](https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.19.6/new-store_1.19.6_arm.fpk.sha256)）在 fnOS 应用中心手动安装；装好后在本应用「设置」里添加本源即可自助更新 |
+| 🏷️ **版本** | v1.19.6（端口 38011） |
 | 🌐 **入口端口** | 38011（应用中心「打开」与桌面图标直达） |
 | 🔧 **依赖** | 无（纯 Go 单二进制 + 内嵌前端，不需要 Docker / 虚拟机） |
 
@@ -45,4 +45,4 @@
 
 ## 源码
 
-完整源码见 [source/](source/)（与 [New-Store](https://github.com/Blue-Mink/New-Store) 仓库 v1.19.5 tag 一致），`bash build.sh` 可复现双平台 FPK。
+完整源码见 [source/](source/)（与 [New-Store](https://github.com/Blue-Mink/New-Store) 仓库 v1.19.6 tag 一致），`bash build.sh` 可复现双平台 FPK。

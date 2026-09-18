@@ -20,6 +20,11 @@ func (s *Server) handleUpdate(w http.ResponseWriter, r *http.Request) {
 	}
 
 	if s.storeApp != "" && appname == s.storeApp {
+		// 自更新跨源取版本最高条目，避免命中内置目录收录的商店旧版本
+		// （conversun/fnos-apps apps.json 里的 fnos-apps-store 1.9.5）。
+		if best, bok := s.getRegistryBest(s.storeApp); bok {
+			app = best
+		}
 		s.runSelfUpdate(w, r, app)
 		return
 	}

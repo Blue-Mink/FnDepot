@@ -207,6 +207,16 @@ func (s *Server) getRegistryApp(name string) (core.AppInfo, bool) {
 	return s.registry.Get(name)
 }
 
+// getRegistryBest 跨源取同名条目中版本最高者（自更新路径专用，见 Registry.GetBest）。
+func (s *Server) getRegistryBest(name string) (core.AppInfo, bool) {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	if s.registry == nil {
+		return core.AppInfo{}, false
+	}
+	return s.registry.GetBest(name)
+}
+
 func (s *Server) getRuntimeStatus(name string) string {
 	s.mu.RLock()
 	defer s.mu.RUnlock()
