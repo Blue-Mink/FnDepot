@@ -130,7 +130,7 @@ flowchart LR
 
 ```bash
 bash build.sh
-# 产出 fnos-apps-store_<version>_x86.fpk / _arm.fpk
+# 产出 new-store_<version>_x86.fpk / _arm.fpk（包内 manifest appname 仍为 fnos-apps-store，保升级路径）
 ```
 
 开发环境：`go run ./cmd/server/`（:38011）+ `cd frontend && npm run dev`（Vite :5173 代理 API）。

@@ -76,7 +76,7 @@ for PLATFORM in x86 arm; do
 
     APPNAME=$(grep "^appname" "$STAGING/manifest" | awk -F'=' '{print $2}' | tr -d ' ')
     VERSION=$(grep "^version" "$STAGING/manifest" | awk -F'=' '{print $2}' | tr -d ' ')
-    FPK_NAME="${APPNAME}_${VERSION}_${PLATFORM}.fpk"
+    FPK_NAME="new-store_${VERSION}_${PLATFORM}.fpk"
     mv "${APPNAME}.fpk" "$FPK_NAME" 2>/dev/null || true
 done
 

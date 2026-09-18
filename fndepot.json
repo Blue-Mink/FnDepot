@@ -211,9 +211,9 @@
     },
     "fnos-apps-store": {
         "display_name": "New Store",
-        "version": "1.19.4",
+        "version": "1.19.5",
         "platform": "all",
-        "desc": "飞牛fnOS第三方应用中心：App Store式界面浏览/安装/更新455+第三方应用（FPK与Docker双通道），内置GitHub 12源+Docker 8源智能镜像监测（5分钟自动探测、按健康度排序、连续3败自动切换）、KSpeeder本地镜像源；一键安装走应用中心官方流程，SSE实时进度；源管理支持FnDepot V1/V2与GitHub Release；更新检测版本比较+日期四级回退；同名应用SHA256内容级去重；PC侧栏+移动端dock双端布局，可嵌入飞牛App，支持亮暗主题。",
+        "desc": "飞牛fnOS第三方应用中心：App Store式界面浏览、安装、更新、卸载第三方应用，FPK/Docker双通道，走应用中心官方流程；内置GitHub 12源+Docker 8源智能镜像监测（5分钟自动探测、按健康度排序、连续3败自动切换）与KSpeeder本地镜像源；SSE实时安装进度；多应用源管理（FnDepot V1/V2、GitHub Release）；更新检测日期四级回退；同名应用SHA256内容级去重。PC侧栏+移动端dock双端布局，可嵌入飞牛App，亮暗主题。",
         "labels": "工具",
         "author": "Blue-Mink",
         "author_url": "https://github.com/Blue-Mink",
@@ -223,31 +223,31 @@
         "isdocker": "false",
         "install_type": "系统空间",
         "size": "0.01",
-        "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/fnos-apps-store-v1.19.4/fnos-apps-store_1.19.4_x86.fpk",
-        "changelog": "1.19.4: 服务端口 8011 → 38011（桌面入口与防火墙规则随包更新）。1.19.3: 发布方同步仓库改名 Blue-Mink/New-Store。1.19.2: PC 适配（侧栏塌缩修复、发现页优化）。1.19.0-1.19.1: 智能镜像监测（GitHub 12 源 + Docker 8 源）、KSpeeder 本地源、更新检测修复、同名 SHA256 去重。",
-        "icon_url": "./fnos-apps-store/ICON.PNG",
-        "readme_url": "./fnos-apps-store/README.md",
+        "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.19.5/new-store_1.19.5_x86.fpk",
+        "changelog": "1.19.5: 命名统一 New Store（应用中心标题/描述、manifest desc 重写、FPK 产物改名 new-store_*）。1.19.4: 服务端口 8011 → 38011。1.19.3: 发布方同步仓库改名 Blue-Mink/New-Store。1.19.2: PC 适配。1.19.0-1.19.1: 智能镜像监测（GitHub 12 源 + Docker 8 源）、KSpeeder 本地源、更新检测修复、同名 SHA256 去重。",
+        "icon_url": "./new-store/ICON.PNG",
+        "readme_url": "./new-store/README.md",
         "preview_urls": [
-            "./fnos-apps-store/Preview/01-discover.png",
-            "./fnos-apps-store/Preview/02-all.png",
-            "./fnos-apps-store/Preview/03-installed.png"
+            "./new-store/Preview/01-discover.png",
+            "./new-store/Preview/02-all.png",
+            "./new-store/Preview/03-installed.png"
         ],
         "homepage": "https://github.com/Blue-Mink/New-Store",
         "service_port": "38011",
         "releases": {
-            "1.19.4": {
-                "updated_at": "2026-09-18 11:47",
-                "changelog": "服务端口 8011 → 38011（manifest/桌面入口/防火墙转发/二进制默认值四处同步）",
+            "1.19.5": {
+                "updated_at": "2026-09-18 13:08",
+                "changelog": "命名统一 New Store（应用中心标题/描述、manifest desc 重写、FPK 产物改名 new-store_*；包内 appname 不变，已装可正常升级）",
                 "packages": {
                     "x86": {
-                        "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/fnos-apps-store-v1.19.4/fnos-apps-store_1.19.4_x86.fpk",
-                        "sha256": "dc77f23984c631e328970e373bee84550430b1dda8dd51d4f37c6caf90b4ac48",
-                        "size": 7928476
+                        "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.19.5/new-store_1.19.5_x86.fpk",
+                        "sha256": "bdc4954ebb2462be003752197e1834c42113445334dd0b2578d52949c63d75a4",
+                        "size": 7928751
                     },
                     "arm": {
-                        "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/fnos-apps-store-v1.19.4/fnos-apps-store_1.19.4_arm.fpk",
-                        "sha256": "d0adf156a65c7e2ee614ce3e9e32336d9327b8e63ffb2d49dfcaa65307c65660",
-                        "size": 7259383
+                        "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.19.5/new-store_1.19.5_arm.fpk",
+                        "sha256": "df567659061513b73a0e9298e45041d91143dcc5c912e1080cee368330e65db9",
+                        "size": 7259602
                     }
                 }
             }

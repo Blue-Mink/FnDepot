@@ -266,7 +266,7 @@ Docker 镜像加速管理工具，支持多源镜像缓存、加速规则管理�
 
 ---
 
-### 🏬 New Store (fnos-apps-store)
+### 🏬 New Store
 
 飞牛 fnOS 的第三方应用中心本体：App Store 式界面浏览/安装/更新 455+ 第三方应用（FPK 与 Docker 双通道），内置 GitHub / Docker 智能镜像监测（12+8 源自动探测、按健康度排序、3 连败自动切换）与 KSpeeder 本地镜像源；一键安装走应用中心官方流程、SSE 实时进度；PC 侧栏 + 移动端 dock 双端布局，可嵌入飞牛 App。
 
@@ -274,7 +274,7 @@ Docker 镜像加速管理工具，支持多源镜像缓存、加速规则管理�
 
 <div align="center">
 
-[![New Store](https://img.shields.io/badge/New--Store-v1.19.4-green?style=flat-square)](https://github.com/Blue-Mink/New-Store/releases/tag/v1.19.4) [![Platform](https://img.shields.io/badge/Platform-fnOS%20x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
+[![New Store](https://img.shields.io/badge/New--Store-v1.19.5-green?style=flat-square)](https://github.com/Blue-Mink/New-Store/releases/tag/v1.19.5) [![Platform](https://img.shields.io/badge/Platform-fnOS%20x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
 
 </div>
 
@@ -284,10 +284,10 @@ Docker 镜像加速管理工具，支持多源镜像缓存、加速规则管理�
 | :--- | :--- |
 | 👨‍💻 **打包维护** | [Blue-Mink](https://github.com/Blue-Mink) |
 | 📁 **原项目** | [New-Store](https://github.com/Blue-Mink/New-Store)（基础版本 [conversun/fnos-store](https://github.com/conversun/fnos-store)） |
-| 📥 **安装方式** | 首次：下载 [fnos-apps-store_1.19.4_x86.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/fnos-apps-store-v1.19.4/fnos-apps-store_1.19.4_x86.fpk)（[arm 版](https://github.com/Blue-Mink/FnDepot/releases/download/fnos-apps-store-v1.19.4/fnos-apps-store_1.19.4_arm.fpk)）在应用中心手动安装；装好后在 New Store「设置」里添加本源即可在应用内自助更新 |
-| 🏷️ **版本** | v1.19.4（端口 38011，1.19.4 起由 8011 迁移） |
+| 📥 **安装方式** | 首次：下载 [new-store_1.19.5_x86.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.19.5/new-store_1.19.5_x86.fpk)（[arm 版](https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.19.5/new-store_1.19.5_arm.fpk)）在应用中心手动安装；装好后在 New Store「设置」里添加本源即可在应用内自助更新 |
+| 🏷️ **版本** | v1.19.5（端口 38011；命名统一 New Store） |
 | 🌐 **入口端口** | 38011（应用中心「打开」与桌面图标直达） |
-| 📖 **详细说明** | [fnos-apps-store/README.md](fnos-apps-store/README.md) |
+| 📖 **详细说明** | [new-store/README.md](new-store/README.md) |
 
 ---
 

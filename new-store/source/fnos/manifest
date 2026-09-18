@@ -1,5 +1,5 @@
 appname         = fnos-apps-store
-version = 1.19.4
+version = 1.19.5
 display_name    = New Store
 platform        = x86
 maintainer      = Blue-Mink
@@ -10,7 +10,7 @@ desktop_uidir   = ui
 desktop_applaunchname = fnos-apps-store.Application
 service_port    = 38011
 beta            = no
-desc            = fnOS第三方应用中心，支持一键安装、更新和卸载来自conversun/fnos-apps的所有应用。
+desc            = 飞牛fnOS第三方应用中心：App Store式界面浏览、安装、更新、卸载第三方应用，FPK/Docker双通道，走应用中心官方流程；内置GitHub/Docker智能镜像监测，下载自动选最快可用源；多应用源管理、一键检查更新。PC与移动端双端布局，可嵌入飞牛App。
 source          = thirdparty
 checksum        = 
 micro_app       = true
