@@ -1,0 +1,15 @@
+{
+    ".url": {
+        "fnos-apps-store.Application": 
+        {
+            "title": "New Store",
+            "desc": "New Store",
+            "icon": "images/{0}.png",
+            "type": "iframe",
+            "port": "38011",
+            "protocol": "http",
+            "url": "/",
+            "allUsers": true
+        }
+    }
+}

@@ -1,0 +1,78 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    # Bind PAT to job-level env so the conditional `if` on the dispatch step can
+    # see whether it is configured (step-level env is evaluated AFTER `if`).
+    env:
+      FNOS_APPS_DISPATCH_TOKEN: ${{ secrets.FNOS_APPS_DISPATCH_TOKEN }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: 'go.mod'
+
+      - name: Build Frontend
+        run: |
+          cd frontend
+          npm ci
+          npm run build
+
+      - name: Build Linux amd64
+        run: GOOS=linux GOARCH=amd64 go build -o store-server-linux-amd64 ./cmd/server/
+
+      - name: Build Linux arm64
+        run: GOOS=linux GOARCH=arm64 go build -o store-server-linux-arm64 ./cmd/server/
+
+      - name: Create Release
+        run: |
+          TAG="${{ github.ref_name }}"
+          if gh release view "$TAG" &>/dev/null; then
+            echo "Release $TAG exists, uploading assets..."
+            gh release upload "$TAG" \
+              store-server-linux-amd64 \
+              store-server-linux-arm64 \
+              --clobber
+          else
+            gh release create "$TAG" \
+              --title "fnos-store $TAG" \
+              --generate-notes \
+              store-server-linux-amd64 \
+              store-server-linux-arm64
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Trigger fnos-apps rebuild (auto-publish .fpk)
+        # Skip cleanly when the cross-repo PAT isn't configured (forks, first deploy).
+        # When configured, this drops the propagation lag from ~24h (daily cron)
+        # to ~5min (immediate dispatch -> build -> apps.json refresh).
+        if: env.FNOS_APPS_DISPATCH_TOKEN != ''
+        run: |
+          TAG="${{ github.ref_name }}"
+          VERSION="${TAG#v}"
+          echo "Dispatching fnos-apps build for fnos-apps-store version $VERSION"
+          gh workflow run build-apps.yml \
+            --repo conversun/fnos-apps \
+            --ref main \
+            --field app=fnos-apps-store \
+            --field version="$VERSION"
+        env:
+          GH_TOKEN: ${{ env.FNOS_APPS_DISPATCH_TOKEN }}

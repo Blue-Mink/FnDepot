@@ -1,0 +1,16 @@
+appname         = fnos-apps-store
+version = 1.19.4
+display_name    = New Store
+platform        = x86
+maintainer      = Blue-Mink
+maintainer_url  = https://github.com/Blue-Mink
+distributor     = Blue-Mink
+distributor_url = https://github.com/Blue-Mink/New-Store
+desktop_uidir   = ui
+desktop_applaunchname = fnos-apps-store.Application
+service_port    = 38011
+beta            = no
+desc            = fnOS第三方应用中心，支持一键安装、更新和卸载来自conversun/fnos-apps的所有应用。
+source          = thirdparty
+checksum        = 
+micro_app       = true

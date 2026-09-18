@@ -1,0 +1,158 @@
+//go:build !linux
+
+package platform
+
+import (
+	"context"
+	"fmt"
+	"os/exec"
+	"path/filepath"
+	"strconv"
+	"strings"
+)
+
+type MockAppCenter struct {
+	ScriptPath string
+}
+
+func NewAppCenter(projectRoot string) AppCenter {
+	return NewMockAppCenter(projectRoot)
+}
+
+func NewMockAppCenter(projectRoot string) *MockAppCenter {
+	return &MockAppCenter{
+		ScriptPath: filepath.Join(projectRoot, "dev", "mock-appcenter-cli.sh"),
+	}
+}
+
+func (m *MockAppCenter) run(args ...string) (string, error) {
+	cmd := exec.Command("bash", append([]string{m.ScriptPath}, args...)...)
+	out, err := cmd.CombinedOutput()
+	if err != nil {
+		return "", fmt.Errorf("mock-appcenter-cli %s: %w: %s", strings.Join(args, " "), err, string(out))
+	}
+	return strings.TrimSpace(string(out)), nil
+}
+
+func (m *MockAppCenter) List() ([]InstalledApp, error) {
+	out, err := m.run("list")
+	if err != nil {
+		return nil, err
+	}
+
+	var apps []InstalledApp
+	for _, line := range strings.Split(out, "\n") {
+		fields := strings.Fields(line)
+		if len(fields) < 3 {
+			continue
+		}
+		if fields[0] == "APPNAME" {
+			continue
+		}
+		app := InstalledApp{
+			AppName: fields[0],
+			Version: fields[1],
+			Status:  fields[2],
+		}
+		if app.Status != "nostart" {
+			// Permissive defaults, same as the Linux CLI fallback.
+			app.Control = AppControl{IsOpen: true, IsStartStop: true, IsUninstall: true}
+		}
+		apps = append(apps, app)
+	}
+	return apps, nil
+}
+
+func (m *MockAppCenter) Check(appname string) (bool, error) {
+	out, err := m.run("check", appname)
+	if err != nil {
+		return false, err
+	}
+	return out == "Installed", nil
+}
+
+func (m *MockAppCenter) Status(appname string) (string, error) {
+	return m.run("status", appname)
+}
+
+func (m *MockAppCenter) InstallFpk(fpkPath string, volume int) error {
+	_, err := m.run("install-fpk", fpkPath, "-v", strconv.Itoa(volume))
+	return err
+}
+
+func (m *MockAppCenter) InstallLocal(dir string, volume int, detach bool) error {
+	_, err := m.run("install-local", "--dir", dir, "-v", strconv.Itoa(volume))
+	return err
+}
+
+func (m *MockAppCenter) Uninstall(_ context.Context, appname string) error {
+	_, err := m.run("uninstall", appname)
+	return err
+}
+
+func (m *MockAppCenter) Start(appname string) error {
+	_, err := m.run("start", appname)
+	return err
+}
+
+func (m *MockAppCenter) Stop(appname string) error {
+	_, err := m.run("stop", appname)
+	return err
+}
+
+// The mock has no daemon task channel; the confirmed variants reuse the CLI
+// mock, whose synchronous completion stands in for the task poll.
+func (m *MockAppCenter) StartConfirmed(_ context.Context, appname string) error {
+	return m.Start(appname)
+}
+
+func (m *MockAppCenter) StopConfirmed(_ context.Context, appname string) error {
+	return m.Stop(appname)
+}
+
+func (m *MockAppCenter) DefaultVolume() (int, error) {
+	out, err := m.run("default-volume")
+	if err != nil {
+		return 0, err
+	}
+	return strconv.Atoi(out)
+}
+
+func (m *MockAppCenter) SetDefaultVolume(volume int) error {
+	_, err := m.run("default-volume", strconv.Itoa(volume))
+	return err
+}
+
+func (m *MockAppCenter) ListVolumes() ([]VolumeInfo, error) {
+	return []VolumeInfo{
+		{Index: 1, Path: "/vol1", TotalBytes: 1000204886016, FreeBytes: 536870912000},
+		{Index: 2, Path: "/vol2", TotalBytes: 2000398934016, FreeBytes: 1503238553600},
+	}, nil
+}
+
+// UpgradeFpk in the mock just reuses the install path; the destructive
+// behavior it guards against only exists on real fnOS.
+func (m *MockAppCenter) UpgradeFpk(_ context.Context, fpkPath string, _ []WizardParam) error {
+	return m.InstallFpk(fpkPath, 1)
+}
+
+// FetchWizard reports no wizard in the dev mock: the form definitions live in
+// real fpk packages, which macOS development does not have.
+func (m *MockAppCenter) FetchWizard(_ context.Context, _ string) (*AppWizard, error) {
+	return &AppWizard{HasWizard: false}, nil
+}
+
+func (m *MockAppCenter) InstallFpkWithWizard(_ context.Context, fpkPath string, volume int, _ []WizardParam) error {
+	return m.InstallFpk(fpkPath, volume)
+}
+
+func (m *MockAppCenter) AppInstallVolume(string) (int, bool, error) {
+	return 1, true, nil
+}
+
+// DaemonInstallAvailable is always true in the dev mock: there is no daemon on
+// macOS, and the mock's install path is not destructive, so there is nothing
+// for the fallback to protect against.
+func (m *MockAppCenter) DaemonInstallAvailable() bool {
+	return true
+}

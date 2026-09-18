@@ -1,0 +1,308 @@
+package source
+
+import (
+	"context"
+	"encoding/json"
+	"errors"
+	"fmt"
+	"io"
+	"net/http"
+	"os"
+	"path/filepath"
+	"slices"
+	"time"
+
+	"fnos-store/internal/config"
+	"fnos-store/internal/platform"
+)
+
+const (
+	defaultAppsJSONURL = "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps.json"
+	githubReleaseBase  = "https://github.com/conversun/fnos-apps/releases/download"
+)
+
+type FNOSAppsSource struct {
+	httpClient *http.Client
+	appsURL    string
+	cachePath  string
+	localPath  string
+	platform   string
+	name       string
+	configMgr  *config.Manager
+}
+
+type appsJSONPayload struct {
+	Apps []appsJSONEntry `json:"apps"`
+}
+
+type appsJSONEntry struct {
+	AppName         string   `json:"appname"`
+	DisplayName     string   `json:"display_name"`
+	Description     string   `json:"description"`
+	HomepageURL     string   `json:"homepage_url"`
+	UpdatedAt       string   `json:"updated_at"`
+	Version         string   `json:"version"`
+	FpkVersion      string   `json:"fpk_version"`
+	ReleaseTag      string   `json:"release_tag"`
+	FilePrefix      string   `json:"file_prefix"`
+	ServicePort     int      `json:"service_port"`
+	IconURL         string   `json:"icon_url"`
+	DownloadCount   int      `json:"download_count"`
+	AppType         string   `json:"app_type"`
+	Category        string   `json:"category"`
+	Platforms       []string `json:"platforms"`
+	PostInstallNote string   `json:"post_install_note,omitempty"`
+}
+
+func NewFNOSAppsSource(cachePath, localPath string, cfgMgr *config.Manager) *FNOSAppsSource {
+	return &FNOSAppsSource{
+		httpClient: &http.Client{Timeout: 20 * time.Second},
+		appsURL:    defaultAppsJSONURL,
+		cachePath:  cachePath,
+		localPath:  localPath,
+		platform:   platform.DetectPlatform(),
+		name:       "fnos-apps",
+		configMgr:  cfgMgr,
+	}
+}
+
+func (s *FNOSAppsSource) Name() string {
+	if s.name == "" {
+		return "fnos-apps"
+	}
+	return s.name
+}
+
+func (s *FNOSAppsSource) mirrorPrefix() string {
+	if s.configMgr == nil {
+		return config.GitHubMirrorPrefix(config.DefaultMirror, config.Config{})
+	}
+	cfg := s.configMgr.Get()
+	return config.GitHubMirrorPrefix(cfg.Mirror, cfg)
+}
+
+type FetchProgress struct {
+	Mirror string
+	URL    string
+	Status string
+	Error  string
+}
+
+type ProgressFunc func(FetchProgress)
+
+func (s *FNOSAppsSource) FetchApps(ctx context.Context) ([]RemoteApp, error) {
+	return s.FetchAppsWithProgress(ctx, nil)
+}
+
+func (s *FNOSAppsSource) FetchAppsWithProgress(ctx context.Context, onProgress ProgressFunc) ([]RemoteApp, error) {
+	apps, raw, err := s.fetchRemoteWithProgress(ctx, onProgress)
+	if err == nil {
+		_ = s.writeCache(raw)
+		return apps, nil
+	}
+
+	cached, cacheErr := s.readCache()
+	if cacheErr == nil {
+		return cached, nil
+	}
+
+	if local, localErr := s.readLocal(); localErr == nil {
+		return local, nil
+	}
+
+	return nil, fmt.Errorf("fetch apps from remote failed: %w", err)
+}
+
+func (s *FNOSAppsSource) fetchRemoteWithProgress(ctx context.Context, onProgress ProgressFunc) ([]RemoteApp, []byte, error) {
+	var cfg config.Config
+	if s.configMgr != nil {
+		cfg = s.configMgr.Get()
+	} else {
+		cfg = config.Config{Mirror: config.DefaultMirror}
+	}
+	prefixes := config.GitHubFallbackPrefixes(cfg.Mirror, cfg)
+
+	var lastErr error
+	for _, prefix := range prefixes {
+		label := mirrorLabelForPrefix(prefix)
+		u := s.appsURL
+		if prefix != "" {
+			u = prefix + s.appsURL
+		}
+
+		if onProgress != nil {
+			onProgress(FetchProgress{Mirror: label, URL: prefix, Status: "trying"})
+		}
+
+		apps, raw, err := s.fetchURL(ctx, u)
+		if err == nil {
+			if onProgress != nil {
+				onProgress(FetchProgress{Mirror: label, URL: prefix, Status: "success"})
+			}
+			return apps, raw, nil
+		}
+
+		if onProgress != nil {
+			onProgress(FetchProgress{Mirror: label, URL: prefix, Status: "failed", Error: err.Error()})
+		}
+		lastErr = err
+	}
+	return nil, nil, lastErr
+}
+
+func mirrorLabelForPrefix(prefix string) string {
+	if prefix == "" {
+		return "直连 GitHub"
+	}
+	for _, m := range config.GitHubMirrorOptions() {
+		if m.URL == prefix {
+			return m.Label
+		}
+	}
+	return prefix
+}
+
+func (s *FNOSAppsSource) fetchURL(ctx context.Context, url string) ([]RemoteApp, []byte, error) {
+	req, err := http.NewRequestWithContext(ctx, http.MethodGet, url, nil)
+	if err != nil {
+		return nil, nil, fmt.Errorf("build apps.json request: %w", err)
+	}
+
+	resp, err := s.httpClient.Do(req)
+	if err != nil {
+		return nil, nil, err
+	}
+	defer resp.Body.Close()
+
+	if resp.StatusCode != http.StatusOK {
+		return nil, nil, fmt.Errorf("apps.json http status: %s", resp.Status)
+	}
+
+	raw, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, nil, fmt.Errorf("read apps.json response: %w", err)
+	}
+
+	apps, err := s.decodeApps(raw)
+	if err != nil {
+		return nil, nil, err
+	}
+
+	return apps, raw, nil
+}
+
+func (s *FNOSAppsSource) decodeApps(raw []byte) ([]RemoteApp, error) {
+	var payload appsJSONPayload
+	if err := json.Unmarshal(raw, &payload); err != nil {
+		return nil, fmt.Errorf("decode apps.json: %w", err)
+	}
+
+	prefix := s.mirrorPrefix()
+	apps := make([]RemoteApp, 0, len(payload.Apps))
+	for _, item := range payload.Apps {
+		if !s.supportsPlatform(item.Platforms) {
+			continue
+		}
+
+		directURL := fmt.Sprintf(
+			"%s/%s/%s_%s_%s.fpk",
+			githubReleaseBase,
+			item.ReleaseTag,
+			item.FilePrefix,
+			item.FpkVersion,
+			s.platform,
+		)
+
+		app := RemoteApp{
+			AppName:         item.AppName,
+			DisplayName:     item.DisplayName,
+			Version:         item.Version,
+			Description:     item.Description,
+			HomepageURL:     item.HomepageURL,
+			UpdatedAt:       item.UpdatedAt,
+			ReleaseTag:      item.ReleaseTag,
+			FilePrefix:      item.FilePrefix,
+			FpkVersion:      item.FpkVersion,
+			ServicePort:     item.ServicePort,
+			Platforms:       item.Platforms,
+			FpkURL:          directURL,
+			IconURL:         item.IconURL,
+			DownloadCount:   item.DownloadCount,
+			AppType:         item.AppType,
+			Category:        item.Category,
+			Source:          s.Name(),
+			PostInstallNote: item.PostInstallNote,
+		}
+
+		if prefix != "" {
+			if item.IconURL != "" {
+				app.IconURL = prefix + item.IconURL
+			}
+		}
+
+		apps = append(apps, app)
+	}
+
+	return apps, nil
+}
+
+func (s *FNOSAppsSource) supportsPlatform(platforms []string) bool {
+	if len(platforms) == 0 {
+		return true
+	}
+	return slices.Contains(platforms, s.platform)
+}
+
+func (s *FNOSAppsSource) writeCache(raw []byte) error {
+	if s.cachePath == "" {
+		return nil
+	}
+
+	cacheDir := filepath.Dir(s.cachePath)
+	if err := os.MkdirAll(cacheDir, 0o755); err != nil {
+		return fmt.Errorf("create cache dir %q: %w", cacheDir, err)
+	}
+
+	if err := os.WriteFile(s.cachePath, raw, 0o644); err != nil {
+		return fmt.Errorf("write apps cache %q: %w", s.cachePath, err)
+	}
+
+	return nil
+}
+
+func (s *FNOSAppsSource) readCache() ([]RemoteApp, error) {
+	if s.cachePath == "" {
+		return nil, errors.New("cache path is empty")
+	}
+
+	raw, err := os.ReadFile(s.cachePath)
+	if err != nil {
+		return nil, fmt.Errorf("read apps cache %q: %w", s.cachePath, err)
+	}
+
+	apps, err := s.decodeApps(raw)
+	if err != nil {
+		return nil, fmt.Errorf("decode cached apps: %w", err)
+	}
+
+	return apps, nil
+}
+
+func (s *FNOSAppsSource) readLocal() ([]RemoteApp, error) {
+	if s.localPath == "" {
+		return nil, errors.New("local path is empty")
+	}
+
+	raw, err := os.ReadFile(s.localPath)
+	if err != nil {
+		return nil, fmt.Errorf("read local apps %q: %w", s.localPath, err)
+	}
+
+	apps, err := s.decodeApps(raw)
+	if err != nil {
+		return nil, fmt.Errorf("decode local apps %q: %w", s.localPath, err)
+	}
+
+	_ = s.writeCache(raw)
+	return apps, nil
+}

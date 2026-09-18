@@ -1,0 +1,78 @@
+package platform
+
+import "encoding/json"
+
+// UpgradeCapability reports whether in-store updates can run safely on this
+// fnOS build.
+//
+// Background: fnOS offers no data-preserving upgrade command. Measured on the
+// CLI's own help output, the full command set is install / uninstall / start /
+// stop / check / status / list / install-fpk / install-local / manual-install /
+// default-volume — nothing that updates an installed app in place.
+//
+//   - `install-fpk` REFUSES an already-installed app ("[Info]Application [x] is
+//     installed.") and changes nothing. Verified safe but useless for updating.
+//   - `install-local` implements an upgrade as uninstall-then-reinstall.
+//
+// On fnOS 1.2.0203 that reinstall reliably fails with error 10237
+// (fork/exec .../cmd/install_init: permission denied — the daemon chowns its
+// staging dir to the app user and strips the directory's execute bit), so the
+// app is uninstalled and never comes back. Reproduced twice on a live box:
+// gopeed went from running to gone, program directory AND @appdata deleted.
+// That is the data loss behind conversun/fnos-apps#189.
+//
+// The store cannot work around it: source-directory permissions make no
+// difference and fnOS's own download directory triggers it too. So updates are
+// refused on affected builds rather than attempted and lost.
+type UpgradeCapability struct {
+	Allowed         bool
+	PlatformVersion string
+	Reason          string
+}
+
+// upgradeUnsafeVersions are fnOS builds measured to destroy an app on update.
+//
+// A deny-list rather than an allow-list is a deliberate trade-off: an
+// allow-list would block updates on every build we have not personally
+// tested, including ones where updates work today. We only refuse where the
+// destruction is confirmed, and the post-update verification
+// (verifyPayloadLanded) still catches silent failure elsewhere.
+var upgradeUnsafeVersions = map[string]string{
+	"1.2.0203": "该 fnOS 版本的应用更新通道存在已确认的数据删除风险（错误 10237）：" +
+		"系统会先卸载旧版再安装新版，而安装步骤必定失败，导致应用与其数据一并丢失。",
+}
+
+// WizardParam is one answer to an app's install wizard.
+//
+// The daemon requires exactly {"key":..,"value":..}; paramKey/paramValue and
+// name/value are both rejected with code 10030, and an empty list fails with
+// 19000 naming the missing field. Measured against sakurafrp, which declares
+// two required password fields.
+type WizardParam struct {
+	Key   string `json:"key"`
+	Value string `json:"value"`
+}
+
+// AppWizard describes an app's install-time form, as the app itself declares
+// it in fnos/wizard/install. This is exactly what the native App Center
+// renders, so surfacing it lets the store offer the same install-time
+// customization instead of silently accepting defaults.
+//
+// Measured against sakurafrp, which declares two required password fields:
+//
+//	{"type":"password","field":"wizard_natfrp_token",
+//	 "rules":[{"required":true,"message":"请填写访问密钥"}]}
+type AppWizard struct {
+	AppName string `json:"appname"`
+	Version string `json:"version"`
+	// HasWizard is false for the majority of apps, which install with no
+	// questions asked.
+	HasWizard bool `json:"has_wizard"`
+	// Content is the app's raw form definition, passed through untouched so
+	// the UI can render whatever field types fnOS supports without this layer
+	// having to model them.
+	Content json.RawMessage `json:"content,omitempty"`
+	// InstallVolumeID is the volume the daemon picked; 0 for a fresh install
+	// where the caller chooses.
+	InstallVolumeID int `json:"install_volume_id,omitempty"`
+}
