@@ -1,0 +1,8343 @@
+[
+ {
+  "source": "official",
+  "sourceID": "2",
+  "appName": "trim.media",
+  "name": "影视",
+  "tags": [
+   "Audio & Video Entertainment"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-trim.media-0.9.8-x86.png",
+  "download": 6522884,
+  "versionID": 2510,
+  "version": "0.9.8",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "official",
+  "sourceID": "1",
+  "appName": "trim.photos",
+  "name": "相册",
+  "tags": [
+   "Lifestyle",
+   "Photography & Video"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-trim.photos-0.9.13-x86.png",
+  "download": 5965371,
+  "versionID": 2487,
+  "version": "0.9.13",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "official",
+  "sourceID": "177",
+  "appName": "trim.seek",
+  "name": "素材库 Seek",
+  "tags": [
+   "Photography & Video",
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-trim.seek-1.0.6-x86-1788255958656.png",
+  "download": 58736,
+  "versionID": 2385,
+  "version": "1.0.6",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "official",
+  "sourceID": "333",
+  "appName": "trim.music",
+  "name": "音乐",
+  "tags": [
+   "Audio & Video Entertainment"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-trim.music-1.0.1-x86.png",
+  "download": 199080,
+  "versionID": 2417,
+  "version": "1.0.1",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "official",
+  "sourceID": "226",
+  "appName": "trim.openclaw",
+  "name": "飞牛 OpenClaw",
+  "tags": [
+   "AI",
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-trim.openclaw-0.1.5-x86.png",
+  "download": 547494,
+  "versionID": 1581,
+  "version": "0.1.5",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "248",
+  "appName": "com.tencent.tgpa.turborxnas",
+  "name": "腾讯手游加速器",
+  "tags": [
+   "Download",
+   "Games"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-com.tencent.tgpa.turborxnas-1.1.2-190-x86.png",
+  "download": 15329,
+  "versionID": 1659,
+  "version": "1.1.2-190",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "official",
+  "sourceID": "71",
+  "appName": "trim.snapshots",
+  "name": "文件快照",
+  "tags": [
+   "Backup Sync",
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-trim.snapshots-0.1.71-x86-1785124432335.png",
+  "download": 569912,
+  "versionID": 1965,
+  "version": "0.1.71",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "official",
+  "sourceID": "60",
+  "appName": "trim.vm",
+  "name": "虚拟机",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-trim.vm-0.9.3-3-x86-1782713879642.png",
+  "download": 918468,
+  "versionID": 1745,
+  "version": "0.9.3-3",
+  "beta": false,
+  "docker": false,
+  "status": "running",
+  "control": {
+   "isOpen": true,
+   "isStartStop": true,
+   "isUninstall": true,
+   "upgrade": false
+  },
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "appServiceInfo": {
+   "serviceName": "trim.vm",
+   "type": "iframe",
+   "urls": {
+    "protocol": "",
+    "host": "",
+    "port": "",
+    "path": "/vm?ver=0.9.0"
+   },
+   "title": "虚拟机",
+   "desc": "虚拟机",
+   "icon": "/app-center-static/serviceicon/trim.vm/ui/images/icon_{0}.png",
+   "openType": "iframe",
+   "content": "trim.vm",
+   "fullUrl": "",
+   "microApp": true,
+   "nativeApp": false
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "64",
+  "appName": "owjdxb",
+  "name": "节点小宝远程助手",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-owjdxb-4.3.5-x86.png",
+  "download": 287691,
+  "versionID": 2038,
+  "version": "4.3.5",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "8",
+  "appName": "qBittorrent",
+  "name": "qBittorrent",
+  "tags": [
+   "Download"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-qBittorrent-4.6.11.png",
+  "download": 593759,
+  "versionID": 143,
+  "version": "4.6.11",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "9",
+  "appName": "transmission",
+  "name": "Transmission",
+  "tags": [
+   "Download"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-transmission-4.0.5-33.png",
+  "download": 176608,
+  "versionID": 22,
+  "version": "4.0.5-33",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "43",
+  "appName": "Phddns",
+  "name": "花生壳",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-Phddns-1.0.0-1734523064960.png",
+  "download": 93593,
+  "versionID": 196,
+  "version": "1.0.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "88",
+  "appName": "linkease",
+  "name": "易有云",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-linkease-1.0.5-1755515340436.png",
+  "download": 13063,
+  "versionID": 404,
+  "version": "1.0.5",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "307",
+  "appName": "fygo-browser",
+  "name": "Chrome 浏览器",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fygo-browser-1.0.4-x86.png",
+  "download": 115367,
+  "versionID": 2424,
+  "version": "1.0.4",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "5",
+  "appName": "EmbyServer4-9",
+  "name": "Emby",
+  "tags": [
+   "Audio & Video Entertainment"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-EmbyServer4-9-4.9.42.png",
+  "download": 258816,
+  "versionID": 247,
+  "version": "4.9.42",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "6",
+  "appName": "Jellyfin",
+  "name": "Jellyfin媒体服务器",
+  "tags": [
+   "Audio & Video Entertainment"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-Jellyfin-10.8.14.png",
+  "download": 298407,
+  "versionID": 115,
+  "version": "10.8.14",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "151",
+  "appName": "WxBackup",
+  "name": "微备份",
+  "tags": [
+   "Backup Sync",
+   "Lifestyle",
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-WxBackup-1.2.9-x86.png",
+  "download": 322304,
+  "versionID": 2508,
+  "version": "1.2.9",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "35",
+  "appName": "Lucky",
+  "name": "Lucky",
+  "tags": [
+   "Development Tools",
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-Lucky-3.0.2-x86.png",
+  "download": 307984,
+  "versionID": 2518,
+  "version": "3.0.2",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "34",
+  "appName": "syncthing",
+  "name": "Syncthing",
+  "tags": [
+   "Backup Sync"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-syncthing-1.23.10.png",
+  "download": 119553,
+  "versionID": 154,
+  "version": "1.23.10",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "18",
+  "appName": "docker-wizserver",
+  "name": "为知笔记",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-docker-wizserver-1.2.1.png",
+  "download": 110497,
+  "versionID": 48,
+  "version": "1.2.1",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "11",
+  "appName": "docker-jellyseerr",
+  "name": "jellyseerr",
+  "tags": [
+   "Audio & Video Entertainment"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-docker-jellyseerr-1.1.7.png",
+  "download": 48349,
+  "versionID": 34,
+  "version": "1.1.7",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "10",
+  "appName": "docker-iyuuplus",
+  "name": "IYUUPlus",
+  "tags": [
+   "Download"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-docker-iyuuplus-1.1.6.png",
+  "download": 47997,
+  "versionID": 133,
+  "version": "1.1.6",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "38",
+  "appName": "docker-home-assistantan",
+  "name": "Home-Assistant",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-docker-home-assistantan-1.0.0-1766374101631.png",
+  "download": 276849,
+  "versionID": 163,
+  "version": "1.0.0",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "37",
+  "appName": "1Panel",
+  "name": "1Panel",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-1Panel-1.0.12.png",
+  "download": 337732,
+  "versionID": 162,
+  "version": "1.0.12",
+  "beta": false,
+  "docker": false,
+  "status": "running",
+  "control": {
+   "isOpen": true,
+   "isStartStop": true,
+   "isUninstall": true,
+   "upgrade": false
+  },
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "appServiceInfo": {
+   "serviceName": "1Panel.Application",
+   "type": "url",
+   "urls": {
+    "protocol": "http",
+    "host": "",
+    "port": "18090",
+    "path": "/"
+   },
+   "title": "1Panel",
+   "desc": "1Panel Web UI",
+   "icon": "/app-center-static/serviceicon/1Panel/ui/images/icon-{0}.png",
+   "openType": "url",
+   "content": "1Panel.Application",
+   "fullUrl": "",
+   "microApp": false,
+   "nativeApp": false
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "398",
+  "appName": "papersplit",
+  "name": "A3试卷拆分A4",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-papersplit-1.0.1-all.png",
+  "download": 1784,
+  "versionID": 2305,
+  "version": "1.0.1",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "163",
+  "appName": "AdGuardHome",
+  "name": "AdGuardHome",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-AdGuardHome-0.107.79-15-x86.png",
+  "download": 86774,
+  "versionID": 2255,
+  "version": "0.107.79-15",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "29",
+  "appName": "docker-affine",
+  "name": "AFFiNE",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-docker-affine-1.2.3.png",
+  "download": 27965,
+  "versionID": 134,
+  "version": "1.2.3",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "242",
+  "appName": "leelaa.playlist",
+  "name": "AI 歌单",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-leelaa.playlist-1.1.1-x86.png",
+  "download": 9797,
+  "versionID": 2517,
+  "version": "1.1.1",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "209",
+  "appName": "fn-aic8800",
+  "name": "aic8800",
+  "tags": null,
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fn-aic8800-1.0.4-x86.png",
+  "download": 2288,
+  "versionID": 1119,
+  "version": "1.0.4",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "231",
+  "appName": "juneix.airplay2",
+  "name": "AirPlay 2 - 隔空播放",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-juneix.airplay2-6.0.0-all.png",
+  "download": 15270,
+  "versionID": 1300,
+  "version": "6.0.0",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "23",
+  "appName": "alist3",
+  "name": "AList网盘",
+  "tags": [
+   "Backup Sync"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-alist3-3.49.3.png",
+  "download": 264852,
+  "versionID": 144,
+  "version": "3.49.3",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "16",
+  "appName": "docker-xiaoya",
+  "name": "Alist小雅",
+  "tags": [
+   "Audio & Video Entertainment"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-docker-xiaoya-1.2.7.png",
+  "download": 524960,
+  "versionID": 46,
+  "version": "1.2.7",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "164",
+  "appName": "allinssl",
+  "name": "ALLinSSL",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-allinssl-1.1.2-x86.png",
+  "download": 9560,
+  "versionID": 951,
+  "version": "1.1.2",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "372",
+  "appName": "FastFlowLM",
+  "name": "AMD FastFlowLM",
+  "tags": [
+   "AI"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-FastFlowLM-1.0.3-x86.png",
+  "download": 724,
+  "versionID": 2384,
+  "version": "1.0.3",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "222",
+  "appName": "amd.rocm-7.2",
+  "name": "AMD ROCm 7.2",
+  "tags": [
+   "AI",
+   "Drive"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-amd.rocm-7.2-1.0.0-x86-1789092931769.png",
+  "download": 40072,
+  "versionID": 985,
+  "version": "1.0.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "207",
+  "appName": "AMD-Container-Toolkit",
+  "name": "AMD-Container-Toolkit",
+  "tags": [
+   "Drive"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-AMD-Container-Toolkit-1.2.0-x86.png",
+  "download": 15468,
+  "versionID": 823,
+  "version": "1.2.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "317",
+  "appName": "AngeMedia",
+  "name": "AngeMedia",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-AngeMedia-0.2.13-all.png",
+  "download": 1328,
+  "versionID": 2555,
+  "version": "0.2.13",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "293",
+  "appName": "AngeVoice",
+  "name": "AngeVoice",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-AngeVoice-2.6.616-all.png",
+  "download": 2522,
+  "versionID": 1778,
+  "version": "2.6.616",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "415",
+  "appName": "arcadia",
+  "name": "Arcadia",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-arcadia-1.0.1-all.png",
+  "download": 470,
+  "versionID": 2366,
+  "version": "1.0.1",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "236",
+  "appName": "astrbot",
+  "name": "AstrBot",
+  "tags": [
+   "AI",
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-astrbot-4.28.0-all.png",
+  "download": 16375,
+  "versionID": 2494,
+  "version": "4.28.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "147",
+  "appName": "com.bitxeno.atvloadly",
+  "name": "ATVLoadly",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-com.bitxeno.atvloadly-1.0.0.png",
+  "download": 3363,
+  "versionID": 531,
+  "version": "1.0.0",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "55",
+  "appName": "docker-AutoBangumi",
+  "name": "AutoBangumi",
+  "tags": [
+   "Audio & Video Entertainment",
+   "Lifestyle",
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-docker-AutoBangumi-3.1.7.png",
+  "download": 63382,
+  "versionID": 191,
+  "version": "3.1.7",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "146",
+  "appName": "Bark",
+  "name": "Bark Server",
+  "tags": [
+   "Development Tools",
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-Bark-1.0.0.png",
+  "download": 5442,
+  "versionID": 530,
+  "version": "1.0.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "422",
+  "appName": "bestnav",
+  "name": "BestNav Pro 导航",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-bestnav-1.0.4-all-1788952689744.png",
+  "download": 1832,
+  "versionID": 2400,
+  "version": "1.0.4",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "162",
+  "appName": "bili-sync",
+  "name": "Bili Sync",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-bili-sync-2.11.0-x86.png",
+  "download": 13288,
+  "versionID": 1228,
+  "version": "2.11.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "93",
+  "appName": "binder_linux_driver",
+  "name": "binder_linux",
+  "tags": [
+   "Drive"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-binder_linux_driver-1.0.4-all.png",
+  "download": 30360,
+  "versionID": 1222,
+  "version": "1.0.4",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "210",
+  "appName": "fn-broadcom-sta",
+  "name": "Broadcom-STA",
+  "tags": null,
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fn-broadcom-sta-1.0.4-x86.png",
+  "download": 2421,
+  "versionID": 1120,
+  "version": "1.0.4",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "294",
+  "appName": "fnnas.btrfs.restore",
+  "name": "Btrfs 数据恢复",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fnnas.btrfs.restore-0.1.1-x86.png",
+  "download": 1277,
+  "versionID": 1607,
+  "version": "0.1.1",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "180",
+  "appName": "bunjs",
+  "name": "Bun",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-bunjs-1.3.9-x86.png",
+  "download": 198494,
+  "versionID": 1025,
+  "version": "1.3.9",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "145",
+  "appName": "BurnCloud",
+  "name": "BurnCloud Chat",
+  "tags": [
+   "Lifestyle",
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-BurnCloud-0.0.1-1765364797426.png",
+  "download": 4530,
+  "versionID": 525,
+  "version": "0.0.1",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "203",
+  "appName": "App.Native.Certimate",
+  "name": "Certimate",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-App.Native.Certimate-0.4.32-x86.png",
+  "download": 2574,
+  "versionID": 2433,
+  "version": "0.4.32",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "408",
+  "appName": "cf-dns-select",
+  "name": "CF DNS 优选",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-cf-dns-select-0.3.4-all.png",
+  "download": 1982,
+  "versionID": 2352,
+  "version": "0.3.4",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "419",
+  "appName": "cftun-ui",
+  "name": "CFTun-UI",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-cftun-ui-1.0.0-all.png",
+  "download": 332,
+  "versionID": 2397,
+  "version": "1.0.0",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "215",
+  "appName": "com.dustinky.tunnel",
+  "name": "Cloudflare Tunnel",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-com.dustinky.tunnel-1.0.8-all.png",
+  "download": 52863,
+  "versionID": 1863,
+  "version": "1.0.8",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "428",
+  "appName": "Cloudflare-QT",
+  "name": "Cloudflare快捷隧道",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-Cloudflare-QT-0.2.1-all.png",
+  "download": 1108,
+  "versionID": 2457,
+  "version": "0.2.1",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "193",
+  "appName": "fn-codeserver",
+  "name": "code-server",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fn-codeserver-1.0.5-x86.png",
+  "download": 7300,
+  "versionID": 747,
+  "version": "1.0.5",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "357",
+  "appName": "coder-docker",
+  "name": "Coder",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-coder-docker-1.0.1-x86-1786809669147.png",
+  "download": 1702,
+  "versionID": 2156,
+  "version": "1.0.1",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "445",
+  "appName": "cryptbox",
+  "name": "CryPtBox密匣",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-cryptbox-0.2.1-all.png",
+  "download": 225,
+  "versionID": 2527,
+  "version": "0.2.1",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "24",
+  "appName": "DDNS-GO",
+  "name": "DDNS-GO",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-DDNS-GO-6.17.7-x86.png",
+  "download": 173078,
+  "versionID": 2460,
+  "version": "6.17.7",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "404",
+  "appName": "deen-music-downloader",
+  "name": "Deen音乐下载器",
+  "tags": [
+   "Audio & Video Entertainment"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-deen-music-downloader-0.5.1-x86.png",
+  "download": 7766,
+  "versionID": 2524,
+  "version": "0.5.1",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "383",
+  "appName": "fn-deepseek-harness",
+  "name": "DeepSeek Harness",
+  "tags": [
+   "AI"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fn-deepseek-harness-5.3.0-x86.png",
+  "download": 35476,
+  "versionID": 2448,
+  "version": "5.3.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "411",
+  "appName": "DeepTutor",
+  "name": "DeepTutor·个人AI学习助手",
+  "tags": [
+   "AI"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-DeepTutor-1.0.0-all.png",
+  "download": 2682,
+  "versionID": 2355,
+  "version": "1.0.0",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "291",
+  "appName": "devpi",
+  "name": "devpi",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-devpi-0.4.19-all.png",
+  "download": 394,
+  "versionID": 1682,
+  "version": "0.4.19",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "217",
+  "appName": "DNS-Health",
+  "name": "DNS-Healt",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-DNS-Health-0.5.0-x86.png",
+  "download": 6134,
+  "versionID": 1094,
+  "version": "0.5.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "32",
+  "appName": "Docker-Copilot",
+  "name": "Docker Copilot",
+  "tags": [
+   "Development Tools",
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-Docker-Copilot-1.0.9.png",
+  "download": 142112,
+  "versionID": 152,
+  "version": "1.0.9",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "172",
+  "appName": "dpanel",
+  "name": "DPanel",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-dpanel-v1.10.5-x86.png",
+  "download": 11142,
+  "versionID": 1681,
+  "version": "v1.10.5",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "110",
+  "appName": "drawnix",
+  "name": "Drawnix",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-drawnix-0.3.0.png",
+  "download": 12043,
+  "versionID": 437,
+  "version": "0.3.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "108",
+  "appName": "dufs",
+  "name": "Dufs",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-dufs-0.45.0.png",
+  "download": 7576,
+  "versionID": 434,
+  "version": "0.45.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "251",
+  "appName": "easydown",
+  "name": "easydown下载器",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-easydown-1.3.66-x86.png",
+  "download": 21940,
+  "versionID": 2395,
+  "version": "1.3.66",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "69",
+  "appName": "easynvr",
+  "name": "EasyNVR",
+  "tags": [
+   "Photography & Video"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-easynvr-7.7.417-x86.png",
+  "download": 243900,
+  "versionID": 2500,
+  "version": "7.7.417",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "414",
+  "appName": "easyprinter",
+  "name": "EasyPrinter易打印",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-easyprinter-1.8.1-x86.png",
+  "download": 5777,
+  "versionID": 2519,
+  "version": "1.8.1",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "87",
+  "appName": "EasyTier",
+  "name": "EasyTier",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-EasyTier-1.0.9.png",
+  "download": 37985,
+  "versionID": 378,
+  "version": "1.0.9",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "140",
+  "appName": "EasyTier-Web",
+  "name": "EasyTier-Web",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-EasyTier-Web-2.6.4-v2-x86.png",
+  "download": 25155,
+  "versionID": 2040,
+  "version": "2.6.4-v2",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "240",
+  "appName": "juneix.embyx",
+  "name": "EmbyX·短视频播放器",
+  "tags": [
+   "Audio & Video Entertainment"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-juneix.embyx-1.0.0-x86.png",
+  "download": 8577,
+  "versionID": 1173,
+  "version": "1.0.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "105",
+  "appName": "erlang",
+  "name": "Erlang",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-erlang-27.3.4-2.png",
+  "download": 2216,
+  "versionID": 427,
+  "version": "27.3.4-2",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "115",
+  "appName": "excalidraw",
+  "name": "Excalidraw",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-excalidraw-1.0.0.png",
+  "download": 5576,
+  "versionID": 442,
+  "version": "1.0.0",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "328",
+  "appName": "fastnotesync",
+  "name": "Fast Note Sync",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fastnotesync-3.5.1-x86.png",
+  "download": 1995,
+  "versionID": 1860,
+  "version": "3.5.1",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "138",
+  "appName": "FileCodeBox",
+  "name": "FileCodeBox",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-FileCodeBox-2.2.0.png",
+  "download": 4418,
+  "versionID": 503,
+  "version": "2.2.0",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "319",
+  "appName": "fnchat",
+  "name": "FnChat",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fnchat-v1.0.6-x86.png",
+  "download": 12784,
+  "versionID": 2175,
+  "version": "v1.0.6",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "143",
+  "appName": "frigate",
+  "name": "Frigate",
+  "tags": [
+   "Lifestyle",
+   "Photography & Video"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-frigate-0.17.0-all.png",
+  "download": 31626,
+  "versionID": 905,
+  "version": "0.17.0",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "58",
+  "appName": "frpc",
+  "name": "Frpc客户端",
+  "tags": [
+   "Development Tools",
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-frpc-0.71.0-x86.png",
+  "download": 129931,
+  "versionID": 2539,
+  "version": "0.71.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "57",
+  "appName": "frps",
+  "name": "Frps服务端",
+  "tags": [
+   "Development Tools",
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-frps-0.60.7-1732163517109.png",
+  "download": 34034,
+  "versionID": 193,
+  "version": "0.60.7",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "49",
+  "appName": "git",
+  "name": "Git",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-git-2.43.0.png",
+  "download": 33924,
+  "versionID": 183,
+  "version": "2.43.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "48",
+  "appName": "Gitea",
+  "name": "Gitea",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-Gitea-1.27.3-x86.png",
+  "download": 33275,
+  "versionID": 2475,
+  "version": "1.27.3",
+  "beta": false,
+  "docker": false,
+  "status": "running",
+  "control": {
+   "isOpen": true,
+   "isStartStop": true,
+   "isUninstall": true,
+   "upgrade": false
+  },
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "lastUpgradeInfo": {
+   "version": "1.27.3",
+   "versionID": 2475,
+   "publishAt": 1789644205000,
+   "changeLog": ""
+  },
+  "appServiceInfo": {
+   "serviceName": "Gitea.Application",
+   "type": "url",
+   "urls": {
+    "protocol": "http",
+    "host": "",
+    "port": "${port}",
+    "path": "/"
+   },
+   "title": "Gitea",
+   "desc": "",
+   "icon": "/app-center-static/serviceicon/Gitea/ui/images/icon_{0}.png",
+   "openType": "url",
+   "content": "Gitea.Application",
+   "fullUrl": "",
+   "microApp": false,
+   "nativeApp": false
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "141",
+  "appName": "leelaa.glbload",
+  "name": "GLB查看器",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-leelaa.glbload-0.3.1-x86-1766406010296.png",
+  "download": 1458,
+  "versionID": 556,
+  "version": "0.3.1",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "301",
+  "appName": "gocron",
+  "name": "Gocron 定时任务",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-gocron-1.8.0-x86.png",
+  "download": 4124,
+  "versionID": 1899,
+  "version": "1.8.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "277",
+  "appName": "go-1.24",
+  "name": "Golang 1.24",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-go-1.24-1.24.13-x86.png",
+  "download": 353,
+  "versionID": 1496,
+  "version": "1.24.13",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "281",
+  "appName": "go-1.26",
+  "name": "Golang 1.26",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-go-1.26-1.26.4-x86.png",
+  "download": 591,
+  "versionID": 1630,
+  "version": "1.26.4",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "174",
+  "appName": "goodgym",
+  "name": "Good-GYM AI健身助手",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-goodgym-2.0.1-x86-1769430015799.png",
+  "download": 441,
+  "versionID": 664,
+  "version": "2.0.1",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "33",
+  "appName": "gotty",
+  "name": "gotty",
+  "tags": [
+   "Development Tools",
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-gotty-1.0.3.png",
+  "download": 29324,
+  "versionID": 153,
+  "version": "1.0.3",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "206",
+  "appName": "grafana.alloy",
+  "name": "grafana.alloy",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-grafana.alloy-1.17.1-1-x86-1783502008336.png",
+  "download": 504,
+  "versionID": 1826,
+  "version": "1.17.1-1",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "205",
+  "appName": "grafana.loki",
+  "name": "grafana.loki",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-grafana.loki-3.7.3-1-x86-1783501521844.png",
+  "download": 360,
+  "versionID": 1823,
+  "version": "3.7.3-1",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "297",
+  "appName": "gridmerge",
+  "name": "Grid Merge",
+  "tags": [
+   "Games"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-gridmerge-1.0.1-x86.png",
+  "download": 5290,
+  "versionID": 1704,
+  "version": "1.0.1",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "89",
+  "appName": "docker-gsmanager",
+  "name": "GSManager",
+  "tags": [
+   "Games",
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-docker-gsmanager-1.0.5.png",
+  "download": 33968,
+  "versionID": 388,
+  "version": "1.0.5",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "50",
+  "appName": "docker-halo",
+  "name": "Halo",
+  "tags": [
+   "Development Tools",
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-docker-halo-2.20.5.png",
+  "download": 37123,
+  "versionID": 184,
+  "version": "2.20.5",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "117",
+  "appName": "handbrake",
+  "name": "HandBrake",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-handbrake-1.0.0.png",
+  "download": 10886,
+  "versionID": 444,
+  "version": "1.0.0",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "407",
+  "appName": "hanyemonitor",
+  "name": "hanye Printer Monitor",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-hanyemonitor-5.0.5-x86-1789315264394.png",
+  "download": 535,
+  "versionID": 2537,
+  "version": "5.0.5",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "45",
+  "appName": "docker-heimdall",
+  "name": "Heimdall",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-docker-heimdall-2.6.4.png",
+  "download": 14851,
+  "versionID": 177,
+  "version": "2.6.4",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "244",
+  "appName": "trim.hermes",
+  "name": "Hermes",
+  "tags": [
+   "AI",
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-trim.hermes-0.20.2-2-x86.png",
+  "download": 47916,
+  "versionID": 2327,
+  "version": "0.20.2-2",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "424",
+  "appName": "App.HiDAV.CloudDrive",
+  "name": "Hi-DAV 私有云盘",
+  "tags": [
+   "Backup Sync"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-App.HiDAV.CloudDrive-0.48.8-x86.png",
+  "download": 534,
+  "versionID": 2402,
+  "version": "0.48.8",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "47",
+  "appName": "docker-idphotos",
+  "name": "HivisionIDPhoto",
+  "tags": [
+   "Lifestyle",
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-docker-idphotos-1.2.8.png",
+  "download": 44182,
+  "versionID": 179,
+  "version": "1.2.8",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "211",
+  "appName": "Home-Assistant",
+  "name": "Home Assistant",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-Home-Assistant-2026.9.2-all.png",
+  "download": 61744,
+  "versionID": 2544,
+  "version": "2026.9.2",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "188",
+  "appName": "homebox",
+  "name": "homebox",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-homebox-0.1.1-all.png",
+  "download": 20985,
+  "versionID": 721,
+  "version": "0.1.1",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "42",
+  "appName": "docker-homepage",
+  "name": "Homepage",
+  "tags": [
+   "Development Tools",
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-docker-homepage-0.9.12.png",
+  "download": 26196,
+  "versionID": 180,
+  "version": "0.9.12",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "410",
+  "appName": "hotify-server",
+  "name": "Hotify Server",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-hotify-server-1.2.2-all.png",
+  "download": 563,
+  "versionID": 2354,
+  "version": "1.2.2",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "433",
+  "appName": "httpsgate",
+  "name": "HTTPS 统一访问网关",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-httpsgate-1.3.11-all.png",
+  "download": 255,
+  "versionID": 2467,
+  "version": "1.3.11",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "68",
+  "appName": "i915-sriov-dkms_driver",
+  "name": "i915-sriov-dkms",
+  "tags": [
+   "Drive"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-i915-sriov-dkms_driver-1.0.20-x86.png",
+  "download": 156215,
+  "versionID": 2296,
+  "version": "1.0.20",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "183",
+  "appName": "iCloudPhotosDownloader",
+  "name": "iCloud-Photos",
+  "tags": [
+   "Backup Sync"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-iCloudPhotosDownloader-2.1.0-55-x86.png",
+  "download": 20897,
+  "versionID": 1403,
+  "version": "2.1.0-55",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "268",
+  "appName": "imageadmin",
+  "name": "ImagesGallery",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-imageadmin-1.0.1-all.png",
+  "download": 1253,
+  "versionID": 1406,
+  "version": "1.0.1",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "283",
+  "appName": "com.dustinky.ipatool",
+  "name": "IPATool",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-com.dustinky.ipatool-1.0.2-x86.png",
+  "download": 4916,
+  "versionID": 1983,
+  "version": "1.0.2",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "official",
+  "sourceID": "106",
+  "appName": "trim.iscsi",
+  "name": "iSCSI",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-trim.iscsi-1.1.2-x86.png",
+  "download": 288504,
+  "versionID": 1921,
+  "version": "1.1.2",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "197",
+  "appName": "com.dustinky.it-tools",
+  "name": "IT Tools",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-com.dustinky.it-tools-1.0.2-all.png",
+  "download": 26346,
+  "versionID": 874,
+  "version": "1.0.2",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "122",
+  "appName": "ite-it87_driver",
+  "name": "ite-it87",
+  "tags": [
+   "Drive"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-ite-it87_driver-1.0.11-x86.png",
+  "download": 28373,
+  "versionID": 2297,
+  "version": "1.0.11",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "27",
+  "appName": "jackett",
+  "name": "Jackett",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-jackett-0.21.655.png",
+  "download": 33204,
+  "versionID": 83,
+  "version": "0.21.655",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "103",
+  "appName": "java-11-openjdk",
+  "name": "Java 11 OpenJDK",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-java-11-openjdk-11.0.12.png",
+  "download": 1514,
+  "versionID": 426,
+  "version": "11.0.12",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "101",
+  "appName": "java-17-openjdk",
+  "name": "Java 17 OpenJDK",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-java-17-openjdk-17.0.2.png",
+  "download": 5238,
+  "versionID": 424,
+  "version": "17.0.2",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "102",
+  "appName": "java-21-openjdk",
+  "name": "Java 21 OpenJDK",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-java-21-openjdk-21.0.2.png",
+  "download": 30796,
+  "versionID": 425,
+  "version": "21.0.2",
+  "beta": false,
+  "docker": false,
+  "status": "nostart",
+  "control": {
+   "isOpen": false,
+   "isStartStop": false,
+   "isUninstall": true,
+   "upgrade": false
+  },
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "178",
+  "appName": "fn-kodi",
+  "name": "kodi",
+  "tags": [
+   "Audio & Video Entertainment"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fn-kodi-1.0.6-all.png",
+  "download": 46551,
+  "versionID": 847,
+  "version": "1.0.6",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "54",
+  "appName": "docker-komga",
+  "name": "KOMGA",
+  "tags": [
+   "Audio & Video Entertainment",
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-docker-komga-1.1.6.png",
+  "download": 71936,
+  "versionID": 190,
+  "version": "1.1.6",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "394",
+  "appName": "la-biz",
+  "name": "la 生意通",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-la-biz-1.7.31-x86.png",
+  "download": 1041,
+  "versionID": 2437,
+  "version": "1.7.31",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "430",
+  "appName": "la-erp-lite",
+  "name": "LA-ERP Lite",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-la-erp-lite-1.3.41-x86.png",
+  "download": 560,
+  "versionID": 2464,
+  "version": "1.3.41",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "128",
+  "appName": "linker",
+  "name": "Linker",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-linker-1.9.9-x86.png",
+  "download": 5468,
+  "versionID": 687,
+  "version": "1.9.9",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "12",
+  "appName": "docker-lobechat",
+  "name": "LobeChat",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-docker-lobechat-1.54.2-1754465431378.png",
+  "download": 56811,
+  "versionID": 395,
+  "version": "1.54.2",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "350",
+  "appName": "couple-relay-web",
+  "name": "Lover AIChat",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-couple-relay-web-1.5.1-x86.png",
+  "download": 2474,
+  "versionID": 2235,
+  "version": "1.5.1",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "318",
+  "appName": "lpsi",
+  "name": "Lpsi",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-lpsi-1.2.40-all.png",
+  "download": 9643,
+  "versionID": 2258,
+  "version": "1.2.40",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "359",
+  "appName": "lyranest",
+  "name": "LyraNest",
+  "tags": [
+   "Audio & Video Entertainment"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-lyranest-0.2.7-x86.png",
+  "download": 2840,
+  "versionID": 2558,
+  "version": "0.2.7",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "423",
+  "appName": "lyranest-xiaoai-bridge",
+  "name": "LyraNest XiaoAI Bridge",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-lyranest-xiaoai-bridge-1.0.8-all.png",
+  "download": 1130,
+  "versionID": 2551,
+  "version": "1.0.8",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "121",
+  "appName": "Markdown",
+  "name": "Markdown",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-Markdown-1.1.8.png",
+  "download": 17007,
+  "versionID": 464,
+  "version": "1.1.8",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "387",
+  "appName": "md-editor-fn",
+  "name": "Markdown 编辑器",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-md-editor-fn-0.1.30-all.png",
+  "download": 2437,
+  "versionID": 2375,
+  "version": "0.1.30",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "237",
+  "appName": "App.Native.MdEditor2",
+  "name": "Markdown 编辑器",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-App.Native.MdEditor2-1.31.2-x86.png",
+  "download": 12614,
+  "versionID": 1977,
+  "version": "1.31.2",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "192",
+  "appName": "mcpcat",
+  "name": "mcpcat",
+  "tags": [
+   "Development Tools",
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-mcpcat-1.0.1-x86.png",
+  "download": 1649,
+  "versionID": 2378,
+  "version": "1.0.1",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "139",
+  "appName": "mcsmanager",
+  "name": "MCSManager 面板",
+  "tags": [
+   "Games"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-mcsmanager-1.1.0-x86.png",
+  "download": 18360,
+  "versionID": 1981,
+  "version": "1.1.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "134",
+  "appName": "mefrp",
+  "name": "ME Frp 内网穿透",
+  "tags": [
+   "Development Tools",
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-mefrp-2.6.9-x86.png",
+  "download": 13968,
+  "versionID": 2264,
+  "version": "2.6.9",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "320",
+  "appName": "mediaplayer",
+  "name": "MediaPlayer",
+  "tags": [
+   "Audio & Video Entertainment"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-mediaplayer-1.1.25-all.png",
+  "download": 8859,
+  "versionID": 2171,
+  "version": "1.1.25",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "272",
+  "appName": "fn-memos",
+  "name": "Memos",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fn-memos-4.3.1-x86.png",
+  "download": 3637,
+  "versionID": 1540,
+  "version": "4.3.1",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "116",
+  "appName": "metube",
+  "name": "MeTube",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-metube-1.0.0-1762431657103.png",
+  "download": 33238,
+  "versionID": 443,
+  "version": "1.0.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "352",
+  "appName": "miair-next",
+  "name": "MiAir Next",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-miair-next-1.0.0-all.png",
+  "download": 1806,
+  "versionID": 2057,
+  "version": "1.0.0",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "446",
+  "appName": "micast",
+  "name": "MiCast",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-micast-0.2.2-x86.png",
+  "download": 540,
+  "versionID": 2528,
+  "version": "0.2.2",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "99",
+  "appName": "minio",
+  "name": "MinIO",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-minio-2025.04.22-221226-1758196009688.png",
+  "download": 6907,
+  "versionID": 422,
+  "version": "2025.04.22-221226",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "112",
+  "appName": "miniPaint",
+  "name": "miniPaint",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-miniPaint-4.14.2.png",
+  "download": 16942,
+  "versionID": 439,
+  "version": "4.14.2",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "434",
+  "appName": "mmh",
+  "name": "MMH",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-mmh-0.1.58-x86.png",
+  "download": 1015,
+  "versionID": 2562,
+  "version": "0.1.58",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "254",
+  "appName": "moonlight-web",
+  "name": "Moonlight-Web",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-moonlight-web-v2.8.0-x86.png",
+  "download": 5867,
+  "versionID": 1268,
+  "version": "v2.8.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "340",
+  "appName": "motrix",
+  "name": "Motrix",
+  "tags": [
+   "Download"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-motrix-1.9.4-x86.png",
+  "download": 19463,
+  "versionID": 2403,
+  "version": "1.9.4",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "community",
+  "sourceID": "169",
+  "appName": "com.movicloud.fnnas",
+  "name": "MoviCloud",
+  "tags": [
+   "Audio & Video Entertainment"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-com.movicloud.fnnas-1.0.6-x86.png",
+  "download": 30806,
+  "versionID": 1079,
+  "version": "1.0.6",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "216",
+  "appName": "MSLX",
+  "name": "MSLX",
+  "tags": [
+   "Games"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-MSLX-1.6.3-1-x86.png",
+  "download": 19080,
+  "versionID": 2547,
+  "version": "1.6.3-1",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "426",
+  "appName": "musebox",
+  "name": "MuseBox",
+  "tags": [
+   "Audio & Video Entertainment"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-musebox-1.0.4-x86.png",
+  "download": 583,
+  "versionID": 2525,
+  "version": "1.0.4",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "425",
+  "appName": "musicfree",
+  "name": "Music Free",
+  "tags": [
+   "Audio & Video Entertainment"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-musicfree-1.2.4-x86.png",
+  "download": 2693,
+  "versionID": 2414,
+  "version": "1.2.4",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "380",
+  "appName": "naturetunnel",
+  "name": "NatureTunnel内网穿透",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-naturetunnel-0.3.0-x86.png",
+  "download": 1833,
+  "versionID": 2365,
+  "version": "0.3.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "40",
+  "appName": "navidrome",
+  "name": "Navidrome",
+  "tags": [
+   "Audio & Video Entertainment"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-navidrome-0.61.2-x86-1776924436193.png",
+  "download": 363562,
+  "versionID": 1225,
+  "version": "0.61.2",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "250",
+  "appName": "NexPlay",
+  "name": "NexPlay",
+  "tags": [
+   "Photography & Video"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-NexPlay-1.0.0-x86-1777000590529.png",
+  "download": 6850,
+  "versionID": 1262,
+  "version": "1.0.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "95",
+  "appName": "nodejs_v14",
+  "name": "Node.js v14",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-nodejs_v14-14.21.3-1.png",
+  "download": 1378,
+  "versionID": 418,
+  "version": "14.21.3-1",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "94",
+  "appName": "nodejs_v16",
+  "name": "Node.js v16",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-nodejs_v16-16.20.2-1.png",
+  "download": 1111,
+  "versionID": 417,
+  "version": "16.20.2-1",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "96",
+  "appName": "nodejs_v18",
+  "name": "Node.js v18",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-nodejs_v18-18.20.8-1.png",
+  "download": 1691,
+  "versionID": 419,
+  "version": "18.20.8-1",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "97",
+  "appName": "nodejs_v20",
+  "name": "Node.js v20",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-nodejs_v20-20.19.4-1.png",
+  "download": 5018,
+  "versionID": 420,
+  "version": "20.19.4-1",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "98",
+  "appName": "nodejs_v22",
+  "name": "Node.js v22",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-nodejs_v22-22.18.0-1.png",
+  "download": 329340,
+  "versionID": 421,
+  "version": "22.18.0-1",
+  "beta": false,
+  "docker": false,
+  "status": "nostart",
+  "control": {
+   "isOpen": false,
+   "isStartStop": false,
+   "isUninstall": true,
+   "upgrade": false
+  },
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "208",
+  "appName": "nodejs_v24",
+  "name": "Node.js v24",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-nodejs_v24-24.15.0-1-x86.png",
+  "download": 169690,
+  "versionID": 1420,
+  "version": "24.15.0-1",
+  "beta": false,
+  "docker": false,
+  "status": "nostart",
+  "control": {
+   "isOpen": false,
+   "isStartStop": false,
+   "isUninstall": true,
+   "upgrade": false
+  },
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "130",
+  "appName": "npc",
+  "name": "NPC客户端",
+  "tags": [
+   "Development Tools",
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-npc-0.26.32-x86.png",
+  "download": 7017,
+  "versionID": 1323,
+  "version": "0.26.32",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "131",
+  "appName": "nps",
+  "name": "NPS服务端",
+  "tags": [
+   "Development Tools",
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-nps-0.26.28.png",
+  "download": 4886,
+  "versionID": 526,
+  "version": "0.26.28",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "198",
+  "appName": "nvidia-container-toolkit",
+  "name": "NVIDIA Container Toolkit",
+  "tags": [
+   "Drive"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-nvidia-container-toolkit-1.18.2-x86.png",
+  "download": 43566,
+  "versionID": 763,
+  "version": "1.18.2",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "227",
+  "appName": "Nvidia-Driver-580",
+  "name": "NVIDIA CUDA Runtime",
+  "tags": [
+   "Development Tools",
+   "Drive"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-Nvidia-Driver-580-1.0.38-x86.png",
+  "download": 39771,
+  "versionID": 2621,
+  "version": "1.0.38",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "official",
+  "sourceID": "78",
+  "appName": "trim.docs",
+  "name": "Office文档",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-trim.docs-0.8.12-x86-1785920249721.png",
+  "download": 871485,
+  "versionID": 2083,
+  "version": "0.8.12",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "337",
+  "appName": "oknote",
+  "name": "OK笔记",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-oknote-3.2.0-x86.png",
+  "download": 4234,
+  "versionID": 2260,
+  "version": "3.2.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "63",
+  "appName": "ai_installer",
+  "name": "Ollama",
+  "tags": [
+   "AI"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-ai_installer-1.2.0-x86-1781506543611.png",
+  "download": 218903,
+  "versionID": 1165,
+  "version": "1.2.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "113",
+  "appName": "omni-tools",
+  "name": "OmniTools",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-omni-tools-0.6.0-x86.png",
+  "download": 30178,
+  "versionID": 629,
+  "version": "0.6.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "173",
+  "appName": "one-kvm",
+  "name": "One-KVM",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-one-kvm-0.1.2-all.png",
+  "download": 11610,
+  "versionID": 1075,
+  "version": "0.1.2",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "278",
+  "appName": "onvif-nvr",
+  "name": "ONVIF NVR",
+  "tags": [
+   "Photography & Video"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-onvif-nvr-2.9.55-x86.png",
+  "download": 15094,
+  "versionID": 2439,
+  "version": "2.9.55",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "195",
+  "appName": "fn-open-vm-tools",
+  "name": "open-vm-tools",
+  "tags": [
+   "Drive"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fn-open-vm-tools-1.0.8-all.png",
+  "download": 15115,
+  "versionID": 850,
+  "version": "1.0.8",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "129",
+  "appName": "OpenList",
+  "name": "OpenList",
+  "tags": [
+   "Backup Sync"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-OpenList-4.2.6-x86.png",
+  "download": 164841,
+  "versionID": 2458,
+  "version": "4.2.6",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "187",
+  "appName": "openspeedtest",
+  "name": "OpenSpeedTest",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-openspeedtest-2.0.6-all.png",
+  "download": 14572,
+  "versionID": 720,
+  "version": "2.0.6",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "355",
+  "appName": "OpenVINO-OVMS",
+  "name": "OpenVINO OVMS",
+  "tags": [
+   "AI"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-OpenVINO-OVMS-2026.3.0-x86-1786330299893.png",
+  "download": 2485,
+  "versionID": 2101,
+  "version": "2026.3.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "403",
+  "appName": "orbien",
+  "name": "Orbien客户端",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-orbien-3.1.1-x86-1787652361139.png",
+  "download": 584,
+  "versionID": 2319,
+  "version": "3.1.1",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "292",
+  "appName": "p2pee",
+  "name": "P2Pee文件共享",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-p2pee-1.0.0-x86.png",
+  "download": 3284,
+  "versionID": 1588,
+  "version": "1.0.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "111",
+  "appName": "paint-board",
+  "name": "Paint board",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-paint-board-2.0.0-x86.png",
+  "download": 6112,
+  "versionID": 1402,
+  "version": "2.0.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "148",
+  "appName": "fpk-panindex",
+  "name": "PanIndex",
+  "tags": [
+   "Backup Sync"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fpk-panindex-3.1.5.png",
+  "download": 6365,
+  "versionID": 532,
+  "version": "3.1.5",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "149",
+  "appName": "PassNAT",
+  "name": "PassNAT 帕斯内网穿透",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-PassNAT-1.0.5-x86.png",
+  "download": 19023,
+  "versionID": 2485,
+  "version": "1.0.5",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "431",
+  "appName": "pcm",
+  "name": "PCM 企业管理平台",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-pcm-1.01.12-x86.png",
+  "download": 559,
+  "versionID": 2465,
+  "version": "1.01.12",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "150",
+  "appName": "leelaa.pdfload",
+  "name": "PDF阅读器",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-leelaa.pdfload-0.5.2-x86.png",
+  "download": 86791,
+  "versionID": 2006,
+  "version": "0.5.2",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "184",
+  "appName": "peerbanhelper",
+  "name": "PeerBanHelper",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-peerbanhelper-9.3.10-all.png",
+  "download": 1996,
+  "versionID": 1114,
+  "version": "9.3.10",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "239",
+  "appName": "picoclaw",
+  "name": "PicoClaw",
+  "tags": [
+   "AI",
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-picoclaw-0.2.5-all.png",
+  "download": 14557,
+  "versionID": 1166,
+  "version": "0.2.5",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "76",
+  "appName": "prometheus.node_exporter",
+  "name": "prometheus.node_exporter",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-prometheus.node_exporter-1.11.1-14-x86-1781752904117.png",
+  "download": 1921,
+  "versionID": 1652,
+  "version": "1.11.1-14",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "82",
+  "appName": "prometheus.prometheus",
+  "name": "prometheus.prometheus",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-prometheus.prometheus-3.13.0-1-x86-1783502321783.png",
+  "download": 1440,
+  "versionID": 1822,
+  "version": "3.13.0-1",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "20",
+  "appName": "python310",
+  "name": "Python 3.10",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-python310-3.10.14-11.png",
+  "download": 12111,
+  "versionID": 53,
+  "version": "3.10.14-11",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "21",
+  "appName": "python311",
+  "name": "Python 3.11",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-python311-3.11.5-18.png",
+  "download": 11046,
+  "versionID": 54,
+  "version": "3.11.5-18",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "22",
+  "appName": "python312",
+  "name": "Python 3.12",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-python312-3.12.4-11-x86-1775033668054.png",
+  "download": 109674,
+  "versionID": 55,
+  "version": "3.12.4-11",
+  "beta": false,
+  "docker": false,
+  "status": "nostart",
+  "control": {
+   "isOpen": false,
+   "isStartStop": false,
+   "isUninstall": true,
+   "upgrade": false
+  },
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "7",
+  "appName": "python38",
+  "name": "Python 3.8",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-python38-3.8.16-18.png",
+  "download": 6494,
+  "versionID": 21,
+  "version": "3.8.16-18",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "19",
+  "appName": "python39",
+  "name": "Python 3.9",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-python39-3.9.19-11.png",
+  "download": 14206,
+  "versionID": 52,
+  "version": "3.9.19-11",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "339",
+  "appName": "qbittorrent.nox",
+  "name": "qbittorrent.nox",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-qbittorrent.nox-5.2.3-0005-x86.png",
+  "download": 2445,
+  "versionID": 2073,
+  "version": "5.2.3-0005",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "196",
+  "appName": "fn-qemu-ga",
+  "name": "qemu-ga",
+  "tags": [
+   "Drive"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fn-qemu-ga-1.0.8-all.png",
+  "download": 7317,
+  "versionID": 851,
+  "version": "1.0.8",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "213",
+  "appName": "qmediasync",
+  "name": "QMediaSync",
+  "tags": [
+   "Audio & Video Entertainment"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-qmediasync-0.14.16-x86.png",
+  "download": 10611,
+  "versionID": 1074,
+  "version": "0.14.16",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "44",
+  "appName": "docker-reference",
+  "name": "Quick Reference",
+  "tags": [
+   "Development Tools",
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-docker-reference-1.45.2.png",
+  "download": 11884,
+  "versionID": 176,
+  "version": "1.45.2",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "243",
+  "appName": "com.dustinky.qwenpaw",
+  "name": "QwenPaw",
+  "tags": [
+   "AI",
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-com.dustinky.qwenpaw-2.0.1-all.png",
+  "download": 27681,
+  "versionID": 1991,
+  "version": "2.0.1",
+  "beta": false,
+  "docker": false,
+  "status": "running",
+  "control": {
+   "isOpen": true,
+   "isStartStop": true,
+   "isUninstall": true,
+   "upgrade": false
+  },
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "appServiceInfo": {
+   "serviceName": "com.dustinky.qwenpaw",
+   "type": "iframe",
+   "urls": {
+    "protocol": "http",
+    "host": "",
+    "port": "19091",
+    "path": "/"
+   },
+   "title": "QwenPaw",
+   "desc": "",
+   "icon": "/app-center-static/serviceicon/com.dustinky.qwenpaw/ui/images/icon_{0}.png",
+   "openType": "iframe",
+   "content": "com.dustinky.qwenpaw",
+   "fullUrl": "",
+   "microApp": false,
+   "nativeApp": false
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "221",
+  "appName": "qwrt",
+  "name": "QWRT",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-qwrt-21.02.7-x86.png",
+  "download": 159721,
+  "versionID": 983,
+  "version": "21.02.7",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "370",
+  "appName": "r1toolbox",
+  "name": "R1 Toolbox",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-r1toolbox-4.8.27-x86-1788179459081.png",
+  "download": 466,
+  "versionID": 2370,
+  "version": "4.8.27",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "104",
+  "appName": "rabbitmq",
+  "name": "RabbitMQ",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-rabbitmq-4.1.3.png",
+  "download": 3511,
+  "versionID": 428,
+  "version": "4.1.3",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "25",
+  "appName": "radarr",
+  "name": "Radarr",
+  "tags": [
+   "Audio & Video Entertainment"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-radarr-5.1.4.png",
+  "download": 48020,
+  "versionID": 81,
+  "version": "5.1.4",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "100",
+  "appName": "redis",
+  "name": "redis",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-redis-8.2.1-1758196093432.png",
+  "download": 7740,
+  "versionID": 423,
+  "version": "8.2.1",
+  "beta": false,
+  "docker": false,
+  "status": "running",
+  "control": {
+   "isOpen": false,
+   "isStartStop": true,
+   "isUninstall": true,
+   "upgrade": false
+  },
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "300",
+  "appName": "resilio-sync",
+  "name": "Resilio Sync",
+  "tags": [
+   "Backup Sync"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-resilio-sync-2.8.1-x86.png",
+  "download": 2844,
+  "versionID": 1673,
+  "version": "2.8.1",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "366",
+  "appName": "rewardhub",
+  "name": "Reward Hub",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-rewardhub-0.7.0-x86.png",
+  "download": 1609,
+  "versionID": 2209,
+  "version": "0.7.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "185",
+  "appName": "rtp2httpd",
+  "name": "rtp2httpd",
+  "tags": [
+   "Audio & Video Entertainment"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-rtp2httpd-3.16.0-all.png",
+  "download": 22198,
+  "versionID": 2287,
+  "version": "3.16.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "270",
+  "appName": "rustdesk-server",
+  "name": "RustDesk Server",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-rustdesk-server-2.9.2-11-x86.png",
+  "download": 9696,
+  "versionID": 1787,
+  "version": "2.9.2-11",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "369",
+  "appName": "sag",
+  "name": "SAG知识库",
+  "tags": [
+   "AI",
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-sag-1.5.9-fnos-x86.png",
+  "download": 7892,
+  "versionID": 2293,
+  "version": "1.5.9-fnos",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "443",
+  "appName": "savextube",
+  "name": "SaveXTube",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-savextube-1.0.0-x86.png",
+  "download": 753,
+  "versionID": 2504,
+  "version": "1.0.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "365",
+  "appName": "scrcpyNas",
+  "name": "ScrcpyNas",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-scrcpyNas-1.2.0-x86.png",
+  "download": 2221,
+  "versionID": 2549,
+  "version": "1.2.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "309",
+  "appName": "te-searxng",
+  "name": "SearXNG 聚合搜索AI+",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-te-searxng-1.0.2-x86.png",
+  "download": 4274,
+  "versionID": 1751,
+  "version": "1.0.2",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "175",
+  "appName": "smartstrm",
+  "name": "SmartStrm",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-smartstrm-0.4.19-x86.png",
+  "download": 26411,
+  "versionID": 2052,
+  "version": "0.4.19",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "26",
+  "appName": "sonarr",
+  "name": "Sonarr",
+  "tags": [
+   "Audio & Video Entertainment"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-sonarr-4.0.749.png",
+  "download": 29867,
+  "versionID": 82,
+  "version": "4.0.749",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "338",
+  "appName": "Songloft",
+  "name": "Songloft·私人音乐服务器",
+  "tags": [
+   "Audio & Video Entertainment"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-Songloft-1.0.2-all.png",
+  "download": 10070,
+  "versionID": 2106,
+  "version": "1.0.2",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "234",
+  "appName": "techfunway-sqlite-manage",
+  "name": "SQLite管理工具",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-techfunway-sqlite-manage-1.4.0-x86.png",
+  "download": 10549,
+  "versionID": 1767,
+  "version": "1.4.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "395",
+  "appName": "StirlingPDF",
+  "name": "Stirling PDF·开源PDF处理工具",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-StirlingPDF-1.0.0-all.png",
+  "download": 3813,
+  "versionID": 2294,
+  "version": "1.0.0",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "406",
+  "appName": "stundeck-fpk",
+  "name": "StunDeck",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-stundeck-fpk-0.1.1-all.png",
+  "download": 120,
+  "versionID": 2349,
+  "version": "0.1.1",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "53",
+  "appName": "Sun-Panel",
+  "name": "Sun-Panel",
+  "tags": [
+   "Lifestyle",
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-Sun-Panel-1.8.1-x86.png",
+  "download": 67487,
+  "versionID": 680,
+  "version": "1.8.1",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "261",
+  "appName": "xiaohu-supervisor",
+  "name": "Supervisor进程守护",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-xiaohu-supervisor-1.0.0-all.png",
+  "download": 2959,
+  "versionID": 1332,
+  "version": "1.0.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "186",
+  "appName": "t3mt",
+  "name": "T3MT",
+  "tags": [
+   "Audio & Video Entertainment"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-t3mt-4.0.0-all.png",
+  "download": 21752,
+  "versionID": 822,
+  "version": "4.0.0",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "249",
+  "appName": "t3fap-next",
+  "name": "T3影视自动化",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-t3fap-next-0.6.5-all.png",
+  "download": 25937,
+  "versionID": 1261,
+  "version": "0.6.5",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "132",
+  "appName": "tailscale",
+  "name": "Tailscale",
+  "tags": [
+   "Development Tools",
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-tailscale-1.102.3-x86.png",
+  "download": 110273,
+  "versionID": 2380,
+  "version": "1.102.3",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "375",
+  "appName": "Talebook",
+  "name": "Talebook·个人图书服务器",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-Talebook-1.0.0-all-1787833293096.png",
+  "download": 3298,
+  "versionID": 2173,
+  "version": "1.0.0",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "153",
+  "appName": "TaoSync",
+  "name": "TaoSync",
+  "tags": [
+   "Backup Sync"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-TaoSync-0.4.0-10-x86.png",
+  "download": 9132,
+  "versionID": 1945,
+  "version": "0.4.0-10",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "401",
+  "appName": "shop",
+  "name": "TechShop 商城",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-shop-1.0.019-all.png",
+  "download": 1049,
+  "versionID": 2314,
+  "version": "1.0.019",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "341",
+  "appName": "tt-music",
+  "name": "TT-Music(听听音乐)",
+  "tags": [
+   "Audio & Video Entertainment"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-tt-music-1.1.0-all.png",
+  "download": 18105,
+  "versionID": 1979,
+  "version": "1.1.0",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "271",
+  "appName": "TuneGram",
+  "name": "TuneGram",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-TuneGram-0.1.0-x86.png",
+  "download": 1702,
+  "versionID": 1426,
+  "version": "0.1.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "343",
+  "appName": "typecho",
+  "name": "Typecho",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-typecho-1.3.0-all.png",
+  "download": 1162,
+  "versionID": 1990,
+  "version": "1.3.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "344",
+  "appName": "fn-ups-manager",
+  "name": "UPS 电源管理",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fn-ups-manager-0.5.0-x86.png",
+  "download": 7773,
+  "versionID": 2292,
+  "version": "0.5.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "109",
+  "appName": "UpSnap",
+  "name": "UpSnap 网络唤醒",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-UpSnap-5.4.4-x86.png",
+  "download": 9530,
+  "versionID": 2203,
+  "version": "5.4.4",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "107",
+  "appName": "docker-uptime-kuma",
+  "name": "Uptime Kuma",
+  "tags": [
+   "Development Tools",
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-docker-uptime-kuma-1.23.16.png",
+  "download": 5695,
+  "versionID": 433,
+  "version": "1.23.16",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "52",
+  "appName": "Vaultwarden",
+  "name": "Vaultwarden",
+  "tags": [
+   "Lifestyle",
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-Vaultwarden-1.32.4-1732163526480.png",
+  "download": 30140,
+  "versionID": 188,
+  "version": "1.32.4",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "201",
+  "appName": "fn-videostream",
+  "name": "VideoStream流媒体管理平台",
+  "tags": [
+   "Audio & Video Entertainment"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fn-videostream-1.0.22-x86.png",
+  "download": 7720,
+  "versionID": 1128,
+  "version": "1.0.22",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "36",
+  "appName": "vocechat-server",
+  "name": "VoceChat",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-vocechat-server-0.4.2.png",
+  "download": 36654,
+  "versionID": 394,
+  "version": "0.4.2",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "114",
+  "appName": "vs-code",
+  "name": "VS Code",
+  "tags": [
+   "Development Tools",
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-vs-code-1.0.0.png",
+  "download": 33305,
+  "versionID": 441,
+  "version": "1.0.0",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "156",
+  "appName": "watchcow",
+  "name": "WatchCow",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-watchcow-0.3.3-x86.png",
+  "download": 14979,
+  "versionID": 661,
+  "version": "0.3.3",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "230",
+  "appName": "wol",
+  "name": "WOL 网络唤醒",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-wol-1.2.7-x86.png",
+  "download": 18473,
+  "versionID": 1064,
+  "version": "1.2.7",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "189",
+  "appName": "Xiaomi-Miloco",
+  "name": "Xiaomi Miloco",
+  "tags": [
+   "Photography & Video",
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-Xiaomi-Miloco-0.1.2-5-x86.png",
+  "download": 47992,
+  "versionID": 1492,
+  "version": "0.1.2-5",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "190",
+  "appName": "xiaomi-miloco-plus",
+  "name": "Xiaomi Miloco Plus",
+  "tags": [
+   "Photography & Video",
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-xiaomi-miloco-plus-1.0.1-x86.png",
+  "download": 51360,
+  "versionID": 1551,
+  "version": "1.0.1",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "238",
+  "appName": "xiaomusic",
+  "name": "XiaoMusic",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-xiaomusic-1.0.0-x86.png",
+  "download": 20456,
+  "versionID": 1164,
+  "version": "1.0.0",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "142",
+  "appName": "zeronews",
+  "name": "ZeroNews 内网穿透",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-zeronews-4.0.8-x86.png",
+  "download": 16301,
+  "versionID": 2583,
+  "version": "4.0.8",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "259",
+  "appName": "zerotier",
+  "name": "ZeroTier",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-zerotier-1.16.2-x86.png",
+  "download": 11363,
+  "versionID": 2178,
+  "version": "1.16.2",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "282",
+  "appName": "fpk-zflie",
+  "name": "ZFile",
+  "tags": [
+   "Backup Sync"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fpk-zflie-4.5.0-all.png",
+  "download": 1412,
+  "versionID": 1523,
+  "version": "4.5.0",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "official",
+  "sourceID": "204",
+  "appName": "trim.security",
+  "name": "安全中心",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-trim.security-0.0.8-x86.png",
+  "download": 272087,
+  "versionID": 1580,
+  "version": "0.0.8",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "official",
+  "sourceID": "70",
+  "appName": "baidu.netdisk",
+  "name": "百度网盘",
+  "tags": [
+   "Backup Sync",
+   "Download"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-baidu.netdisk-0.3.1-x86.png",
+  "download": 1083710,
+  "versionID": 2145,
+  "version": "0.3.1",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "59",
+  "appName": "docker-baota",
+  "name": "宝塔",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-docker-baota-9.0.0-1743476368835.png",
+  "download": 105291,
+  "versionID": 204,
+  "version": "9.0.0",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "219",
+  "appName": "pgyvpn",
+  "name": "贝锐蒲公英",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-pgyvpn-1.0.2-x86.png",
+  "download": 10323,
+  "versionID": 1880,
+  "version": "1.0.2",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "303",
+  "appName": "techfunway-memo",
+  "name": "备忘录",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-techfunway-memo-1.0.0-x86.png",
+  "download": 3630,
+  "versionID": 1714,
+  "version": "1.0.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "67",
+  "appName": "docker-beyondnetwork",
+  "name": "比扬云",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-docker-beyondnetwork-1.0.3.png",
+  "download": 28114,
+  "versionID": 250,
+  "version": "1.0.3",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "126",
+  "appName": "note",
+  "name": "便签",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-note-1.2.1-x86.png",
+  "download": 56896,
+  "versionID": 2429,
+  "version": "1.2.1",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "252",
+  "appName": "notepad",
+  "name": "便签记事本",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-notepad-1.0.4-all.png",
+  "download": 6618,
+  "versionID": 1352,
+  "version": "1.0.4",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "241",
+  "appName": "techfunway-lottery",
+  "name": "彩彩助手",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-techfunway-lottery-1.4.0-x86.png",
+  "download": 9813,
+  "versionID": 2516,
+  "version": "1.4.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "382",
+  "appName": "cyber-zen",
+  "name": "禅",
+  "tags": [
+   "Games"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-cyber-zen-1.0.0-all.png",
+  "download": 2193,
+  "versionID": 2190,
+  "version": "1.0.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "123",
+  "appName": "code.editor",
+  "name": "代码编辑器",
+  "tags": [
+   "Development Tools",
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-code.editor-1.5.8-x86.png",
+  "download": 50344,
+  "versionID": 1281,
+  "version": "1.5.8",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "267",
+  "appName": "daoliyu.music",
+  "name": "道理鱼音乐",
+  "tags": [
+   "Audio & Video Entertainment",
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-daoliyu.music-1.0.3-0006-x86.png",
+  "download": 39364,
+  "versionID": 2498,
+  "version": "1.0.3-0006",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "144",
+  "appName": "nas-reader-fnos",
+  "name": "读万卷",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-nas-reader-fnos-1.0.7-x86.png",
+  "download": 31642,
+  "versionID": 1770,
+  "version": "1.0.7",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "314",
+  "appName": "fnpiano",
+  "name": "对飞牛弹琴",
+  "tags": [
+   "Audio & Video Entertainment",
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fnpiano-0.2.4-all.png",
+  "download": 4189,
+  "versionID": 1891,
+  "version": "0.2.4",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "440",
+  "appName": "react-tetris-fnos",
+  "name": "俄罗斯方块",
+  "tags": [
+   "Games"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-react-tetris-fnos-1.0.3-x86.png",
+  "download": 956,
+  "versionID": 2492,
+  "version": "1.0.3",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "348",
+  "appName": "ermao-books",
+  "name": "二毛图书",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-ermao-books-0.4.7-all.png",
+  "download": 2940,
+  "versionID": 2059,
+  "version": "0.4.7",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "396",
+  "appName": "fn-88jizhang",
+  "name": "发发记账独立部署版",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fn-88jizhang-1.0.14-x86.png",
+  "download": 1775,
+  "versionID": 2407,
+  "version": "1.0.14",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "253",
+  "appName": "fn-reverseproxy",
+  "name": "反向代理服务器",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fn-reverseproxy-1.0.11-all.png",
+  "download": 11185,
+  "versionID": 2373,
+  "version": "1.0.11",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "199",
+  "appName": "App.Native.flyNarwhalServer",
+  "name": "飞鲸影视",
+  "tags": [
+   "Audio & Video Entertainment"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-App.Native.flyNarwhalServer-1.0.4-x86.png",
+  "download": 26958,
+  "versionID": 778,
+  "version": "1.0.4",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "384",
+  "appName": "feilv-reader",
+  "name": "飞驴阅读",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-feilv-reader-1.0.39-x86.png",
+  "download": 2476,
+  "versionID": 2505,
+  "version": "1.0.39",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "official",
+  "sourceID": "220",
+  "appName": "trim.ai-runtime-amd-migraphx",
+  "name": "飞牛AI引擎(AMD MIGraphX)",
+  "tags": [
+   "AI",
+   "Drive"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-trim.ai-runtime-amd-migraphx-1.0.0-x86-1773660733875.png",
+  "download": 36758,
+  "versionID": 981,
+  "version": "1.0.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "official",
+  "sourceID": "81",
+  "appName": "trim.sync_server",
+  "name": "飞牛同步",
+  "tags": [
+   "Backup Sync"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-trim.sync_server-0.20.12-x86.png",
+  "download": 1075651,
+  "versionID": 1761,
+  "version": "0.20.12",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "326",
+  "appName": "fndesk_jigsaw",
+  "name": "飞牛桌面拼图",
+  "tags": [
+   "Games"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fndesk_jigsaw-0.5.3-all.png",
+  "download": 2932,
+  "versionID": 1901,
+  "version": "0.5.3",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "62",
+  "appName": "feishunet",
+  "name": "飞鼠组网",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-feishunet-26.04.02-all.png",
+  "download": 27373,
+  "versionID": 1144,
+  "version": "26.04.02",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "286",
+  "appName": "flymail",
+  "name": "飞邮",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-flymail-1.0.8-x86.png",
+  "download": 18519,
+  "versionID": 2406,
+  "version": "1.0.8",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "266",
+  "appName": "fuji-autosave",
+  "name": "富士同步",
+  "tags": [
+   "Photography & Video"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fuji-autosave-1.0.2-x86.png",
+  "download": 2036,
+  "versionID": 1614,
+  "version": "1.0.2",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "346",
+  "appName": "paddle-formula-ocr",
+  "name": "公式 OCR 工作台",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-paddle-formula-ocr-0.3.130-x86.png",
+  "download": 920,
+  "versionID": 2019,
+  "version": "0.3.130",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "13",
+  "appName": "docker-palworld",
+  "name": "幻兽帕鲁",
+  "tags": [
+   "Games"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-docker-palworld-1.3.3-1744355640490.png",
+  "download": 32063,
+  "versionID": 79,
+  "version": "1.3.3",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "315",
+  "appName": "minimal-music",
+  "name": "极简音乐",
+  "tags": [
+   "Audio & Video Entertainment"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-minimal-music-0.1.8-all.png",
+  "download": 8571,
+  "versionID": 1790,
+  "version": "0.1.8",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "436",
+  "appName": "fnnas.jisiyu",
+  "name": "极私语",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fnnas.jisiyu-1.0.1-x86-1789399567192.png",
+  "download": 236,
+  "versionID": 2481,
+  "version": "1.0.1",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "269",
+  "appName": "techfunway-notepad",
+  "name": "记事本",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-techfunway-notepad-1.3.0-x86.png",
+  "download": 9076,
+  "versionID": 2291,
+  "version": "1.3.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "377",
+  "appName": "fnos-app-health-records",
+  "name": "健康档案",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fnos-app-health-records-0.2.7-all.png",
+  "download": 5172,
+  "versionID": 2545,
+  "version": "0.2.7",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "413",
+  "appName": "minesweeper",
+  "name": "经典扫雷",
+  "tags": [
+   "Games"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-minesweeper-1.0.7-all.png",
+  "download": 914,
+  "versionID": 2361,
+  "version": "1.0.7",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "263",
+  "appName": "oldmemories",
+  "name": "旧影重逢",
+  "tags": [
+   "Photography & Video"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-oldmemories-0.2.3-x86.png",
+  "download": 12019,
+  "versionID": 1817,
+  "version": "0.2.3",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "390",
+  "appName": "clientlink",
+  "name": "客户易通",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-clientlink-1.2.0-all.png",
+  "download": 1001,
+  "versionID": 2472,
+  "version": "1.2.0",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "154",
+  "appName": "quark-auto-save",
+  "name": "夸克网盘自动转存",
+  "tags": [
+   "Download"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-quark-auto-save-1.0.0-x86.png",
+  "download": 141404,
+  "versionID": 567,
+  "version": "1.0.0",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "385",
+  "appName": "miyin",
+  "name": "觅音",
+  "tags": [
+   "Audio & Video Entertainment"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-miyin-0.5.0-all.png",
+  "download": 14768,
+  "versionID": 2404,
+  "version": "0.5.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "223",
+  "appName": "magicpush",
+  "name": "魔法推送",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-magicpush-1.14.0-all.png",
+  "download": 16836,
+  "versionID": 2033,
+  "version": "1.14.0",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "298",
+  "appName": "magicmail",
+  "name": "魔法邮箱",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-magicmail-1.3.0-x86.png",
+  "download": 3395,
+  "versionID": 2427,
+  "version": "1.3.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "441",
+  "appName": "moyue",
+  "name": "墨阅书屋",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-moyue-1.0.0-x86.png",
+  "download": 713,
+  "versionID": 2502,
+  "version": "1.0.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "363",
+  "appName": "fnos-aircraft",
+  "name": "牛子战机",
+  "tags": [
+   "Games"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fnos-aircraft-2.0.0-all.png",
+  "download": 4789,
+  "versionID": 2115,
+  "version": "2.0.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "374",
+  "appName": "nowen-note",
+  "name": "弄文笔记",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-nowen-note-1.4.16-x86.png",
+  "download": 1528,
+  "versionID": 2288,
+  "version": "1.4.16",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "136",
+  "appName": "qilindrop",
+  "name": "麒麟传送",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-qilindrop-1.0.2-all.png",
+  "download": 9537,
+  "versionID": 1996,
+  "version": "1.0.2",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "349",
+  "appName": "fn_qycs",
+  "name": "千盈传送",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fn_qycs-2.1.1-all.png",
+  "download": 1924,
+  "versionID": 2116,
+  "version": "2.1.1",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "325",
+  "appName": "fn_qyzb",
+  "name": "千盈助播",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fn_qyzb-1.0.11-all.png",
+  "download": 482,
+  "versionID": 2368,
+  "version": "1.0.11",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "90",
+  "appName": "docker-qianniuyibang",
+  "name": "牵牛易帮",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-docker-qianniuyibang-1.0.3.png",
+  "download": 11386,
+  "versionID": 389,
+  "version": "1.0.3",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "265",
+  "appName": "fn-knock-docker",
+  "name": "敲门knock Docker",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fn-knock-docker-1.6.5-x86.png",
+  "download": 3249,
+  "versionID": 1355,
+  "version": "1.6.5",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "351",
+  "appName": "fn-knock-lite",
+  "name": "敲门knock Lite",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fn-knock-lite-2.4.9-x86.png",
+  "download": 740,
+  "versionID": 2444,
+  "version": "2.4.9",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "275",
+  "appName": "lite.music",
+  "name": "轻点歌",
+  "tags": [
+   "Audio & Video Entertainment",
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-lite.music-1.0.1-x86.png",
+  "download": 4034,
+  "versionID": 1511,
+  "version": "1.0.1",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "158",
+  "appName": "lite.parser",
+  "name": "轻解析",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-lite.parser-1.1.0-x86-1787881324222.png",
+  "download": 37459,
+  "versionID": 2214,
+  "version": "1.1.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "159",
+  "appName": "lite.class",
+  "name": "轻课堂",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-lite.class-1.1.6-x86.png",
+  "download": 28198,
+  "versionID": 2521,
+  "version": "1.1.6",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "170",
+  "appName": "lite.video",
+  "name": "轻视频",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-lite.video-1.1.5-x86.png",
+  "download": 24956,
+  "versionID": 1971,
+  "version": "1.1.5",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "228",
+  "appName": "lite.gallery",
+  "name": "轻相册",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-lite.gallery-1.0.9-x86-1789399598035.png",
+  "download": 13237,
+  "versionID": 2546,
+  "version": "1.0.9",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "256",
+  "appName": "lite.game",
+  "name": "轻游戏",
+  "tags": [
+   "Games"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-lite.game-1.0.8-x86-1788952721934.png",
+  "download": 23122,
+  "versionID": 2446,
+  "version": "1.0.8",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "152",
+  "appName": "lite.reader",
+  "name": "轻阅读",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-lite.reader-1.2.1-x86.png",
+  "download": 64858,
+  "versionID": 1775,
+  "version": "1.2.1",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "167",
+  "appName": "lite.noise",
+  "name": "轻噪音",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-lite.noise-1.0.5-x86.png",
+  "download": 12182,
+  "versionID": 830,
+  "version": "1.0.5",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "329",
+  "appName": "minibill",
+  "name": "轻账单",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-minibill-1.0.11-x86.png",
+  "download": 7606,
+  "versionID": 2473,
+  "version": "1.0.11",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "299",
+  "appName": "pickup.codes",
+  "name": "取件码展示",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-pickup.codes-1.2.2-all.png",
+  "download": 5520,
+  "versionID": 1874,
+  "version": "1.2.2",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "166",
+  "appName": "fn-scheduler",
+  "name": "任务计划",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fn-scheduler-1.2.3-all.png",
+  "download": 55724,
+  "versionID": 1184,
+  "version": "1.2.3",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "418",
+  "appName": "daymark",
+  "name": "日迹",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-daymark-0.3.0-x86.png",
+  "download": 598,
+  "versionID": 2396,
+  "version": "0.3.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "232",
+  "appName": "FnMessageBot",
+  "name": "日志推送",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-FnMessageBot-2.2.0-x86.png",
+  "download": 19269,
+  "versionID": 1253,
+  "version": "2.2.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "432",
+  "appName": "feiniu-sanguo",
+  "name": "三国烽火",
+  "tags": [
+   "Games"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-feiniu-sanguo-0.1.0-all.png",
+  "download": 2166,
+  "versionID": 2466,
+  "version": "0.1.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "438",
+  "appName": "space-pinball",
+  "name": "三维弹球",
+  "tags": [
+   "Games"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-space-pinball-2.0.3-all.png",
+  "download": 1111,
+  "versionID": 2484,
+  "version": "2.0.3",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "72",
+  "appName": "shenzhuohl",
+  "name": "神卓NAS公网助手",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-shenzhuohl-1.0.6.png",
+  "download": 18661,
+  "versionID": 337,
+  "version": "1.0.6",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "391",
+  "appName": "audiodock",
+  "name": "声仓",
+  "tags": [
+   "Audio & Video Entertainment"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-audiodock-1.1.13-x86.png",
+  "download": 1243,
+  "versionID": 2268,
+  "version": "1.1.13",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "450",
+  "appName": "photomark",
+  "name": "时光印记",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-photomark-1.0.2-all.png",
+  "download": 227,
+  "versionID": 2554,
+  "version": "1.0.2",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "310",
+  "appName": "dev.xuanran.timetrace",
+  "name": "时迹",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-dev.xuanran.timetrace-1.2.3-all.png",
+  "download": 2442,
+  "versionID": 1924,
+  "version": "1.2.3",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "289",
+  "appName": "remindflow",
+  "name": "时效管家",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-remindflow-1.1.8-all.png",
+  "download": 5073,
+  "versionID": 2304,
+  "version": "1.1.8",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "367",
+  "appName": "fnos-app-schulte",
+  "name": "舒尔特训练",
+  "tags": [
+   "Games"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fnos-app-schulte-1.0.6-all.png",
+  "download": 3597,
+  "versionID": 2376,
+  "version": "1.0.6",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "358",
+  "appName": "fnos.sudoku",
+  "name": "数独",
+  "tags": [
+   "Games"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fnos.sudoku-1.0.7-x86-1786106011013.png",
+  "download": 3621,
+  "versionID": 2108,
+  "version": "1.0.7",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "449",
+  "appName": "sinong",
+  "name": "司农记账",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-sinong-0.0.2-all.png",
+  "download": 313,
+  "versionID": 2542,
+  "version": "0.0.2",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "30",
+  "appName": "docker-siyuan",
+  "name": "思源笔记",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-docker-siyuan-1.2.12.png",
+  "download": 102433,
+  "versionID": 135,
+  "version": "1.2.12",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "353",
+  "appName": "techfunway-reminders",
+  "name": "提醒事项",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-techfunway-reminders-0.2.0-x86.png",
+  "download": 1739,
+  "versionID": 2240,
+  "version": "0.2.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "260",
+  "appName": "fnnas.notes",
+  "name": "贴贴密笺",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fnnas.notes-1.0.4-x86.png",
+  "download": 16881,
+  "versionID": 1730,
+  "version": "1.0.4",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "364",
+  "appName": "te-tieniu-memos",
+  "name": "铁牛备忘录",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-te-tieniu-memos-1.0.7-x86.png",
+  "download": 2114,
+  "versionID": 2124,
+  "version": "1.0.7",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "327",
+  "appName": "te-losslesscut-nas",
+  "name": "铁牛无损视频",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-te-losslesscut-nas-1.0.6-x86.png",
+  "download": 3278,
+  "versionID": 2154,
+  "version": "1.0.6",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "373",
+  "appName": "whereisfnos",
+  "name": "铁牛在哪里",
+  "tags": [
+   "Games"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-whereisfnos-1.0.0-x86.png",
+  "download": 1511,
+  "versionID": 2169,
+  "version": "1.0.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "290",
+  "appName": "mkv-subtitle-translator-fnos",
+  "name": "铁牛字幕翻译",
+  "tags": [
+   "Audio & Video Entertainment"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-mkv-subtitle-translator-fnos-1.1.4-x86.png",
+  "download": 7633,
+  "versionID": 2420,
+  "version": "1.1.4",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "191",
+  "appName": "yanded.music",
+  "name": "听南风",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-yanded.music-1.0.1-x86.png",
+  "download": 3832,
+  "versionID": 1000,
+  "version": "1.0.1",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "235",
+  "appName": "ting-reader",
+  "name": "听悦",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-ting-reader-1.6.1-x86.png",
+  "download": 11299,
+  "versionID": 2456,
+  "version": "1.6.1",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "264",
+  "appName": "iconstation",
+  "name": "图标空间站",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-iconstation-0.4.1-all.png",
+  "download": 10027,
+  "versionID": 2552,
+  "version": "0.4.1",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "420",
+  "appName": "pichub",
+  "name": "图库",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-pichub-1.1.0-x86.png",
+  "download": 1006,
+  "versionID": 2398,
+  "version": "1.1.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "247",
+  "appName": "xiaohu-mcpProxy",
+  "name": "万能MCP服务",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-xiaohu-mcpProxy-1.0.0-all.png",
+  "download": 3514,
+  "versionID": 1246,
+  "version": "1.0.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "135",
+  "appName": "all.editor",
+  "name": "万能编辑器",
+  "tags": [
+   "Development Tools",
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-all.editor-2.1.5-x86.png",
+  "download": 92953,
+  "versionID": 1220,
+  "version": "2.1.5",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "335",
+  "appName": "cloudlink-finder",
+  "name": "网盘搜索神器",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-cloudlink-finder-1.0.10-all.png",
+  "download": 67576,
+  "versionID": 2218,
+  "version": "1.0.10",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "127",
+  "appName": "techfunway.bookmarks",
+  "name": "网址收藏夹",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-techfunway.bookmarks-3.3.0-x86.png",
+  "download": 69124,
+  "versionID": 2441,
+  "version": "3.3.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "39",
+  "appName": "verysync",
+  "name": "微力同步",
+  "tags": [
+   "Backup Sync"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-verysync-2.17.0.png",
+  "download": 101943,
+  "versionID": 164,
+  "version": "2.17.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "official",
+  "sourceID": "75",
+  "appName": "trim.text-editor",
+  "name": "文本编辑器",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-trim.text-editor-0.3.9-all-1784628856084.png",
+  "download": 797545,
+  "versionID": 1941,
+  "version": "0.3.9",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "324",
+  "appName": "file.dedupe",
+  "name": "文件查重",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-file.dedupe-1.0.1-x86.png",
+  "download": 3894,
+  "versionID": 2191,
+  "version": "1.0.1",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "342",
+  "appName": "file-tools",
+  "name": "文件工具箱",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-file-tools-0.1.52-all.png",
+  "download": 7520,
+  "versionID": 2239,
+  "version": "0.1.52",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "312",
+  "appName": "HashFile",
+  "name": "文件哈希计算",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-HashFile-2.0.0-x86.png",
+  "download": 2556,
+  "versionID": 2201,
+  "version": "2.0.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "276",
+  "appName": "file-collector",
+  "name": "文件收集器",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-file-collector-2.3.44-all.png",
+  "download": 7578,
+  "versionID": 2381,
+  "version": "2.3.44",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "409",
+  "appName": "llm-proofread",
+  "name": "文语校对",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-llm-proofread-1.2.1-all.png",
+  "download": 374,
+  "versionID": 2353,
+  "version": "1.2.1",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "417",
+  "appName": "fn-seekbox",
+  "name": "小白搜盘",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fn-seekbox-1.0.3-x86.png",
+  "download": 9388,
+  "versionID": 2383,
+  "version": "1.0.3",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "402",
+  "appName": "pandasurvey",
+  "name": "熊猫问卷",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-pandasurvey-0.2.1-x86.png",
+  "download": 1392,
+  "versionID": 2430,
+  "version": "0.2.1",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "386",
+  "appName": "panda-xiangqi",
+  "name": "熊猫象棋",
+  "tags": [
+   "Games"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-panda-xiangqi-1.3.1-x86.png",
+  "download": 9040,
+  "versionID": 2559,
+  "version": "1.3.1",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "171",
+  "appName": "xunlei",
+  "name": "迅雷",
+  "tags": [
+   "Download"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-xunlei-1.0.3-x86-1772160650297.png",
+  "download": 300643,
+  "versionID": 897,
+  "version": "1.0.3",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "308",
+  "appName": "EasyTier-EUI.User",
+  "name": "易组网(用户版)",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-EasyTier-EUI.User-2.4.020604-x86.png",
+  "download": 6002,
+  "versionID": 2425,
+  "version": "2.4.020604",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "378",
+  "appName": "knas-music-organizer",
+  "name": "音乐整理",
+  "tags": [
+   "Audio & Video Entertainment"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-knas-music-organizer-0.3.0-x86.png",
+  "download": 2621,
+  "versionID": 2301,
+  "version": "0.3.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "212",
+  "appName": "leelaa.reader",
+  "name": "有声书",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-leelaa.reader-1.12.2-x86.png",
+  "download": 11007,
+  "versionID": 2343,
+  "version": "1.12.2",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "368",
+  "appName": "Audiobookshelf",
+  "name": "有声书·Audiobookshelf",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-Audiobookshelf-1.0.0-all.png",
+  "download": 1231,
+  "versionID": 2149,
+  "version": "1.0.0",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "official",
+  "sourceID": "388",
+  "appName": "trim.preview",
+  "name": "预览",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-trim.preview-0.1.16-x86.png",
+  "download": 32171,
+  "versionID": 2410,
+  "version": "0.1.16",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "279",
+  "appName": "fn-reader",
+  "name": "阅读",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fn-reader-4.0.6-x86.png",
+  "download": 8344,
+  "versionID": 1500,
+  "version": "4.0.6",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "321",
+  "appName": "mediavault",
+  "name": "阅听",
+  "tags": [
+   "Audio & Video Entertainment"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-mediavault-1.0.6-x86.png",
+  "download": 3489,
+  "versionID": 1811,
+  "version": "1.0.6",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "332",
+  "appName": "cloud-bijia",
+  "name": "云比价",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-cloud-bijia-1.0.2-x86.png",
+  "download": 3562,
+  "versionID": 1968,
+  "version": "1.0.2",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "400",
+  "appName": "cloud-members",
+  "name": "云会员",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-cloud-members-1.2.0-x86.png",
+  "download": 506,
+  "versionID": 2493,
+  "version": "1.2.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "347",
+  "appName": "cloud-collection",
+  "name": "云收集",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-cloud-collection-1.2.0-x86.png",
+  "download": 1275,
+  "versionID": 2192,
+  "version": "1.2.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "371",
+  "appName": "wechat-on-cloud",
+  "name": "云微",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-wechat-on-cloud-1.4.9-all-1789108793033.png",
+  "download": 2036,
+  "versionID": 2158,
+  "version": "1.4.9",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "334",
+  "appName": "cloud-idphoto",
+  "name": "云证照",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-cloud-idphoto-1.1.0-x86.png",
+  "download": 10461,
+  "versionID": 1989,
+  "version": "1.1.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "316",
+  "appName": "cloud-resources",
+  "name": "云资源",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-cloud-resources-1.2.0-x86.png",
+  "download": 5364,
+  "versionID": 2307,
+  "version": "1.2.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "429",
+  "appName": "pregnancyjournal",
+  "name": "孕程记",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-pregnancyjournal-0.0.27-all.png",
+  "download": 526,
+  "versionID": 2462,
+  "version": "0.0.27",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "160",
+  "appName": "fnpackup",
+  "name": "在线fpk",
+  "tags": [
+   "Development Tools"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fnpackup-1.1.5-x86.png",
+  "download": 14426,
+  "versionID": 1867,
+  "version": "1.1.5",
+  "beta": false,
+  "docker": true,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "412",
+  "appName": "techfunway-bill",
+  "name": "账单",
+  "tags": [
+   "Lifestyle"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-techfunway-bill-0.1.4-x86.png",
+  "download": 3687,
+  "versionID": 2553,
+  "version": "0.1.4",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "225",
+  "appName": "hand.nas",
+  "name": "指尖NAS",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-hand.nas-2.0.2-x86.png",
+  "download": 16756,
+  "versionID": 2470,
+  "version": "2.0.2",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "161",
+  "appName": "fnnas.zdinnav",
+  "name": "智淀导航",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fnnas.zdinnav-1.1.2-x86.png",
+  "download": 4332,
+  "versionID": 696,
+  "version": "1.1.2",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "155",
+  "appName": "zhijiayingpan",
+  "name": "智家硬盘",
+  "tags": [
+   "Backup Sync"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-zhijiayingpan-1.0.2-x86.png",
+  "download": 4722,
+  "versionID": 569,
+  "version": "1.0.2",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "381",
+  "appName": "fnos-app-shutdown",
+  "name": "智能关机",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-fnos-app-shutdown-1.0.6-all.png",
+  "download": 9425,
+  "versionID": 2443,
+  "version": "1.0.6",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "362",
+  "appName": "dupclean",
+  "name": "重复文件清理",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-dupclean-0.6.77-all.png",
+  "download": 11199,
+  "versionID": 2309,
+  "version": "0.6.77",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ },
+ {
+  "source": "thirdparty",
+  "sourceID": "447",
+  "appName": "com.fnos.dashboard",
+  "name": "状态监视",
+  "tags": [
+   "Practical Efficiency"
+  ],
+  "icon": "https://appcenter-static.fnnas.com/appcenter/res/icon-com.fnos.dashboard-0.1.0-all.png",
+  "download": 2007,
+  "versionID": 2529,
+  "version": "0.1.0",
+  "beta": false,
+  "docker": false,
+  "status": "noinstall",
+  "riskControl": {
+   "riskLevel": "none"
+  },
+  "features": {},
+  "installDepApps": null,
+  "manualInstall": false,
+  "dependencyAppNames": null
+ }
+]

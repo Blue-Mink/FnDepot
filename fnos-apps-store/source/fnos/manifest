@@ -1,0 +1,18 @@
+appname         = fnos-apps-store
+version = 1.20.16
+display_name    = New Store
+platform        = x86
+maintainer      = conversun
+maintainer_url  = https://github.com/conversun/fnos-store
+distributor     = Blue-Mink
+distributor_url = https://github.com/Blue-Mink/New-Store
+desktop_uidir   = ui
+desktop_applaunchname = fnos-apps-store.Application
+service_port    = 38011
+ctl_stop        = true
+checkport       = true
+beta            = no
+desc            = <p>飞牛 fnOS 第三方应用中心：App Store 式界面浏览、安装、更新、卸载第三方应用，FPK/Docker 双通道，全程走应用中心官方流程。</p><p>内置 GitHub/Docker 智能镜像监测（自动探测、按健康度选最快源），多应用源管理、同名应用去重、一键检查更新；PC 侧栏与移动端 dock 双端布局，可嵌入飞牛 App，亮暗主题。</p><p>更多问题可加入 QQ 群 <a href="https://qun.qq.com/universal-share/share?ac=1&amp;authKey=PB%2F27kxXqJWedEkhsqVOApYB16iYwW0pt0V52Dff2N%2Fq4L9K0qYYXiZLsaC5xSun&amp;busi_data=eyJncm91cENvZGUiOiIxMDgxNjA5Mjc0IiwidG9rZW4iOiJUelhkMC9LRE9DdTlmK2xlTElvOW1ES1IwVGx3YVNDbFBrK3RRa3NrUW81THdWWEFTZnVBWmU5cWs3cDFRWHlSIiwidWluIjoiMjUxNTAzMzEzNiJ9&amp;data=GHWSUgvRKu3jXbyMzWURLNWlKjGn0Cz6wfZ97AUqq8qDDJSogxFNx1ubm-YfNOLOtD42sRXQO1MHWJ0rzMBiyg&amp;svctype=4&amp;tempid=h5_group_info" target="_blank">1081609274</a> 进行交流。</p>
+source          = thirdparty
+checksum        = 
+micro_app       = true

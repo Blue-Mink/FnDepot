@@ -1,0 +1,23 @@
+#!/bin/bash
+
+LOG_FILE="${TRIM_PKGVAR}/${TRIM_APPNAME}.log"
+PID_FILE="${TRIM_PKGVAR}/${TRIM_APPNAME}.pid"
+
+APP_DIR="${TRIM_APPDEST}"
+APP_DATA_DIR="${TRIM_PKGVAR}"
+
+SERVICE_COMMAND="$APP_DIR/store-server"
+
+# Web 端口：单一事实源 ${TRIM_PKGETC}/ports.conf（安装/设置向导写入），默认 38011。
+# 注意：SERVICE_COMMAND 展开后不再解析赋值前缀，必须 export 传给子进程。
+service_prestart()
+{
+    local p
+    p="$(read_web_port 2>/dev/null)"
+    case "${p}" in
+        ''|*[!0-9]*) p=38011 ;;
+    esac
+    export LISTEN_ADDR=":${p}"
+}
+SVC_BACKGROUND=y
+SVC_WRITE_PID=y

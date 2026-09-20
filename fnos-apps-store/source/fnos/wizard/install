@@ -1,0 +1,24 @@
+[
+  {
+    "stepTitle": "端口设置",
+    "items": [
+      {
+        "type": "text",
+        "field": "wizard_access_port",
+        "label": "Web 端口",
+        "initValue": "38011",
+        "rules": [
+          {
+            "required": true,
+            "message": "请填写端口"
+          },
+          {
+            "pattern": "^[0-9]+$",
+            "message": "端口必须为数字（1024-65535）"
+          }
+        ],
+        "helpText": "设置 Web 访问端口（默认 38011）。安装完成后可在应用中心「应用设置」中再次修改端口。"
+      }
+    ]
+  }
+]

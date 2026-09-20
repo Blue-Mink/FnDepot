@@ -274,7 +274,7 @@ Docker 镜像加速管理工具，支持多源镜像缓存、加速规则管理�
 
 <div align="center">
 
-[![New Store](https://img.shields.io/badge/New--Store-v1.19.6-green?style=flat-square)](https://github.com/Blue-Mink/New-Store/releases/tag/v1.19.6) [![Platform](https://img.shields.io/badge/Platform-fnOS%20x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
+[![New Store](https://img.shields.io/badge/New--Store-v1.20.16-green?style=flat-square)](https://github.com/Blue-Mink/New-Store/releases/tag/v1.20.16) [![Platform](https://img.shields.io/badge/Platform-fnOS%20x86__64%20%C2%B7%20ARM64%20%E6%B5%8B%E8%AF%95%E4%B8%AD-lightgrey?style=flat-square)](#)
 
 </div>
 
@@ -284,10 +284,10 @@ Docker 镜像加速管理工具，支持多源镜像缓存、加速规则管理�
 | :--- | :--- |
 | 👨‍💻 **打包维护** | [Blue-Mink](https://github.com/Blue-Mink) |
 | 📁 **原项目** | [New-Store](https://github.com/Blue-Mink/New-Store)（基础版本 [conversun/fnos-store](https://github.com/conversun/fnos-store)） |
-| 📥 **安装方式** | 首次：下载 [new-store_1.19.6_x86.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.19.6/new-store_1.19.6_x86.fpk)（[arm 版](https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.19.6/new-store_1.19.6_arm.fpk)）在应用中心手动安装；装好后在 New Store「设置」里添加本源即可在应用内自助更新 |
-| 🏷️ **版本** | v1.19.6（端口 38011） |
+| 📥 **安装方式** | 首次：下载 [new-store_1.20.16_x86.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.20.16/new-store_1.20.16_x86.fpk)（[sha256](https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.20.16/new-store_1.20.16_x86.fpk.sha256)）在应用中心手动安装（arm64 版测试中）；装好后在 New Store「设置」里添加本源即可在应用内自助更新 |
+| 🏷️ **版本** | v1.20.16（端口 38011，x86 已发布 / arm64 测试中） |
 | 🌐 **入口端口** | 38011（应用中心「打开」与桌面图标直达） |
-| 📖 **详细说明** | [new-store/README.md](new-store/README.md) |
+| 📖 **详细说明** | [fnos-apps-store/README.md](fnos-apps-store/README.md) |
 
 ---
 
