@@ -247,5 +247,26 @@
         }
       }
     }
+  },
+  "fndepot": {
+    "display_name": "FnDepot",
+    "version": "0.5.1",
+    "platform": "all",
+    "desc": "飞牛 fnOS 第三方应用商店 FnDepot 的官方客户端（作者 EWEDL）：应用浏览、下载、安装与管理，支持官方源与 FnDepot V1/V2 外部源、GitHub 加速代理、安装向导与依赖处理。本包为从已安装设备提取的官方原版二进制，未重打包、字节未改；包内同时内置 amd64 与 arm64 服务端，入口走飞牛统一网关 /app/fndepot（不占 TCP 端口）。",
+    "labels": "工具",
+    "author": "EWEDL",
+    "author_url": "https://github.com/EWEDLCM/FnDepot",
+    "distributor": "Blue-Mink",
+    "distributor_url": "https://github.com/Blue-Mink/FnDepot",
+    "bug_report_url": "https://github.com/EWEDLCM/FnDepot/issues",
+    "isdocker": "false",
+    "install_type": "用户空间",
+    "size": "10.31",
+    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/fndepot-v0.5.1/fndepot-0.5.1-fnos-all.fpk",
+    "changelog": "0.5.1: 首次收录本仓库，包体为设备提取的官方原版（未重打包）。作者公开 GitHub Release 目前最新为 v0.4.6，本包为设备上更新的 0.5.1；manifest 平台标记 all，app.tgz 内同时带 fndepot-amd64 与 fndepot-arm64 两个服务端，装机按架构自选。应用以 unix socket 运行、经飞牛统一网关 /app/fndepot 访问，因此 service_port 为空；卸载向导可选保留或清空应用数据（数据库与已下载 FPK 在应用数据目录）。",
+    "icon_url": "./fndepot/ICON.PNG",
+    "readme_url": "./fndepot/README.md",
+    "homepage": "https://github.com/EWEDLCM/FnDepot",
+    "service_port": ""
   }
 }
