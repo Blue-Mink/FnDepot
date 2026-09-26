@@ -7,6 +7,9 @@ store-server-linux-*
 server
 .omo/
 
+# 本地打包暂存副本（完整源码拷贝，非仓库内容），不入仓库
+fnos-apps-store/
+
 # 本地开发工具（测试机部署/壳仿真），不入仓库
 deploy_11427.sh
 redeploy.sh

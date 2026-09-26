@@ -26,9 +26,9 @@ func TestMaybeAutoSwitch_SwitchesDegradedMirror(t *testing.T) {
 	s := newMonitorServer(t, "gh-ddlc")
 	// gh-ddlc 连续失败 3 次；gh-proxy-hk 健康
 	for i := 0; i < mirrorSwitchFails; i++ {
-		s.mirrorMon.Record("gh-ddlc", "GH DDLC", false, 10)
+		s.mirrorMon.Record("gh-ddlc", "GH DDLC", false, 10, 0)
 	}
-	s.mirrorMon.Record("gh-proxy-hk", "GH-Proxy HK", true, 400)
+	s.mirrorMon.Record("gh-proxy-hk", "GH-Proxy HK", true, 400, 0)
 
 	s.maybeAutoSwitch()
 
@@ -45,9 +45,9 @@ func TestMaybeAutoSwitch_SwitchesDegradedMirror(t *testing.T) {
 func TestMaybeAutoSwitch_NoSwitchBelowThreshold(t *testing.T) {
 	s := newMonitorServer(t, "gh-ddlc")
 	for i := 0; i < mirrorSwitchFails-1; i++ {
-		s.mirrorMon.Record("gh-ddlc", "GH DDLC", false, 10)
+		s.mirrorMon.Record("gh-ddlc", "GH DDLC", false, 10, 0)
 	}
-	s.mirrorMon.Record("gh-proxy-hk", "GH-Proxy HK", true, 400)
+	s.mirrorMon.Record("gh-proxy-hk", "GH-Proxy HK", true, 400, 0)
 
 	s.maybeAutoSwitch()
 
@@ -62,9 +62,9 @@ func TestMaybeAutoSwitch_NoSwitchBelowThreshold(t *testing.T) {
 func TestMaybeAutoSwitch_NoOpForAutoMode(t *testing.T) {
 	s := newMonitorServer(t, "auto")
 	for i := 0; i < mirrorSwitchFails + 1; i++ {
-		s.mirrorMon.Record("gh-ddlc", "GH DDLC", false, 10)
+		s.mirrorMon.Record("gh-ddlc", "GH DDLC", false, 10, 0)
 	}
-	s.mirrorMon.Record("gh-proxy-hk", "GH-Proxy HK", true, 400)
+	s.mirrorMon.Record("gh-proxy-hk", "GH-Proxy HK", true, 400, 0)
 
 	s.maybeAutoSwitch()
 
@@ -77,10 +77,10 @@ func TestMaybeAutoSwitch_NoOpForAutoMode(t *testing.T) {
 func TestMaybeAutoSwitch_NoOpWhenNoStableMirror(t *testing.T) {
 	s := newMonitorServer(t, "gh-ddlc")
 	for i := 0; i < mirrorSwitchFails; i++ {
-		s.mirrorMon.Record("gh-ddlc", "GH DDLC", false, 10)
+		s.mirrorMon.Record("gh-ddlc", "GH DDLC", false, 10, 0)
 	}
 	// 没有健康的可切换目标
-	s.mirrorMon.Record("gh-proxy", "GH-Proxy", false, 10)
+	s.mirrorMon.Record("gh-proxy", "GH-Proxy", false, 10, 0)
 
 	s.maybeAutoSwitch()
 
@@ -105,9 +105,9 @@ func newDockerMonitorServer(t *testing.T, initialDockerMirror string) *Server {
 func TestMaybeAutoSwitchDocker_SwitchesDegradedMirror(t *testing.T) {
 	s := newDockerMonitorServer(t, "docker-1ms")
 	for i := 0; i < mirrorSwitchFails; i++ {
-		s.dockerMirrorMon.Record("docker-1ms", "1ms.run", false, 10)
+		s.dockerMirrorMon.Record("docker-1ms", "1ms.run", false, 10, 0)
 	}
-	s.dockerMirrorMon.Record("daocloud", "DaoCloud", true, 400)
+	s.dockerMirrorMon.Record("daocloud", "DaoCloud", true, 400, 0)
 
 	s.maybeAutoSwitchDocker()
 
@@ -124,9 +124,9 @@ func TestMaybeAutoSwitchDocker_SwitchesDegradedMirror(t *testing.T) {
 func TestMaybeAutoSwitchDocker_NoSwitchBelowThreshold(t *testing.T) {
 	s := newDockerMonitorServer(t, "docker-1ms")
 	for i := 0; i < mirrorSwitchFails-1; i++ {
-		s.dockerMirrorMon.Record("docker-1ms", "1ms.run", false, 10)
+		s.dockerMirrorMon.Record("docker-1ms", "1ms.run", false, 10, 0)
 	}
-	s.dockerMirrorMon.Record("daocloud", "DaoCloud", true, 400)
+	s.dockerMirrorMon.Record("daocloud", "DaoCloud", true, 400, 0)
 
 	s.maybeAutoSwitchDocker()
 
@@ -143,9 +143,9 @@ func TestMaybeAutoSwitchDocker_NoOpForAutoAndDirectModes(t *testing.T) {
 		t.Run(mode, func(t *testing.T) {
 			s := newDockerMonitorServer(t, mode)
 			for i := 0; i < mirrorSwitchFails+1; i++ {
-				s.dockerMirrorMon.Record("docker-1ms", "1ms.run", false, 10)
+				s.dockerMirrorMon.Record("docker-1ms", "1ms.run", false, 10, 0)
 			}
-			s.dockerMirrorMon.Record("daocloud", "DaoCloud", true, 400)
+			s.dockerMirrorMon.Record("daocloud", "DaoCloud", true, 400, 0)
 
 			s.maybeAutoSwitchDocker()
 

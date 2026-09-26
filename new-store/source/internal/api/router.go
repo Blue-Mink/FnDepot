@@ -11,10 +11,14 @@ import (
 	"fnos-store/internal/scheduler"
 	"fnos-store/internal/source"
 	"io/fs"
+	"log"
 	"net/http"
+	"os"
 	"path"
+	"path/filepath"
 	"strings"
 	"sync"
+	"sync/atomic"
 	"time"
 )
 
@@ -25,22 +29,27 @@ type Server struct {
 	recommendedSource *source.RecommendedSource
 	registry          *core.Registry
 	queue             *OperationQueue
-	pipeline          *installPipeline
+	// tasks 是后台操作任务管理器：安装/更新/下载解耦到服务端后台 goroutine，
+	// 客户端断开（退出应用）后继续跑，进度可轮询/持久化。见 task.go。
+	tasks    *TaskManager
+	pipeline *installPipeline
 	configMgr         *config.Manager
 	cacheStore        *cache.Store
 	scheduler         *scheduler.Scheduler
 	appsDir           string
+	// assets 是图标/预览/readme 资源的两级缓存（内存+磁盘），见 asset.go。
+	assets *appAssetStore
 	// appCenterDir 是应用中心的程序目录（/vol1/@appcenter），用于读取
 	// 「fnOS应用中心」来源应用的本地图标（ui/images/icon-*.png）。可空。
-	appCenterDir      string
-	platform          string
-	storeApp          string
-	staticFS          fs.FS
-	lastCheck         time.Time
-	statusByApp       map[string]string
-	controlByApp      map[string]platform.AppControl
-	webByApp          map[string]platform.WebService
-	recommendedApps   []source.RecommendedApp
+	appCenterDir    string
+	platform        string
+	storeApp        string
+	staticFS        fs.FS
+	lastCheck       time.Time
+	statusByApp     map[string]string
+	controlByApp    map[string]platform.AppControl
+	webByApp        map[string]platform.WebService
+	recommendedApps []source.RecommendedApp
 	// customSources 是用户添加的 FnDepot 外部应用源；sourceStatus 记录
 	// 每个源最近一次抓取的应用数与错误（按源 ID 索引）。
 	customSources []*source.FNDepotSource
@@ -56,11 +65,14 @@ type Server struct {
 	mirrorMon *mirror.Monitor
 	// dockerMirrorMon 是 Docker 镜像加速健康监测器（同构，独立计数）。
 	dockerMirrorMon *mirror.Monitor
-	ctx       context.Context
-	cancel    context.CancelFunc
+	ctx             context.Context
+	cancel          context.CancelFunc
 
 	mu               sync.RWMutex
 	refreshDebouncer *refreshDebouncer
+
+	// autoUpdateMu 防止自动更新周期重叠（TryLock 抢占，已在跑则跳过本轮）。
+	autoUpdateMu sync.Mutex
 
 	// installedNamesCache 已安装应用小缓存（appname 小写 → 版本），供
 	// 「FPK 下载列表显示已安装」等高频查询；60s TTL，安装操作后 force 刷新。
@@ -69,7 +81,26 @@ type Server struct {
 	// officialDetailFetched 记录哪些官方应用已经拉过 app/detail（无论字段
 	// 是否为空），避免面板某字段真为空时每次刷新都重复拉。受 mu 保护。
 	officialDetailFetched map[string]bool
+
+	// appsRespCache 是 /api/apps 的预构建响应缓存（后台缓存）：目录定稿
+	// （refreshRegistry 末尾）时把全量列表 JSON 一次性序列化好，之后每个
+	// 请求直接回传缓存字节（O(1)），不再逐请求重复序列化 781 个应用。
+	// catalogGen（原子）是目录代次：目录/影响列表的配置每次变化 +1，
+	// 缓存 gen 落后即视为失效、按需重建。
+	appsRespCache appsRespCache
+	catalogGen    uint64 // 仅 atomic 访问
 }
+
+// appsRespCache 缓存 /api/apps 的序列化响应。
+type appsRespCache struct {
+	mu   sync.Mutex
+	data []byte
+	etag string
+	gen  uint64
+}
+
+// bumpCatalogGen 目录代次 +1（目录或影响列表载荷的配置变化时调用）。
+func (s *Server) bumpCatalogGen() { atomic.AddUint64(&s.catalogGen, 1) }
 
 type installedNamesCache struct {
 	mu    sync.Mutex
@@ -160,6 +191,8 @@ type Config struct {
 	Platform          string
 	StoreApp          string
 	StaticFS          fs.FS
+	// DataDir 应用数据目录（@appdata）：资产磁盘缓存落在 <DataDir>/cache/assets/。
+	DataDir string
 }
 
 func NewServer(cfg Config) *Server {
@@ -179,20 +212,45 @@ func NewServer(cfg Config) *Server {
 			configMgr:  cfg.ConfigMgr,
 			cacheStore: cfg.CacheStore,
 		},
-		configMgr:        cfg.ConfigMgr,
-		cacheStore:       cfg.CacheStore,
-		scheduler:        cfg.Scheduler,
-		appsDir:          cfg.AppsDir,
-		appCenterDir:     cfg.AppCenterDir,
-		platform:         cfg.Platform,
-		storeApp:         cfg.StoreApp,
-		staticFS:         cfg.StaticFS,
-		statusByApp:            make(map[string]string),
-		controlByApp:           make(map[string]platform.AppControl),
-		webByApp:               make(map[string]platform.WebService),
-		officialDetailFetched:  make(map[string]bool),
-		refreshDebouncer: &refreshDebouncer{},
-		sourceStatus:     make(map[string]sourceStatusInfo),
+		configMgr:             cfg.ConfigMgr,
+		cacheStore:            cfg.CacheStore,
+		scheduler:             cfg.Scheduler,
+		appsDir:               cfg.AppsDir,
+		appCenterDir:          cfg.AppCenterDir,
+		platform:              cfg.Platform,
+		storeApp:              cfg.StoreApp,
+		staticFS:              cfg.StaticFS,
+		statusByApp:           make(map[string]string),
+		controlByApp:          make(map[string]platform.AppControl),
+		webByApp:              make(map[string]platform.WebService),
+		officialDetailFetched: make(map[string]bool),
+		refreshDebouncer:      &refreshDebouncer{},
+		sourceStatus:          make(map[string]sourceStatusInfo),
+	}
+	// 资产两级缓存：DATA_DIR 可用时磁盘层落 <DataDir>/cache/assets/。
+	// 目录若被平台以其他属主预建（服务进程无权写入）则跳过磁盘层并告警，
+	// 功能不受影响（仅失去重启后的图标缓存）。
+	assetDir := ""
+	if cfg.DataDir != "" {
+		d := filepath.Join(cfg.DataDir, "cache", "assets")
+		if err := os.MkdirAll(d, 0o755); err == nil {
+			probe := filepath.Join(d, ".wprobe")
+			if werr := os.WriteFile(probe, []byte("ok"), 0o644); werr == nil {
+				_ = os.Remove(probe)
+				assetDir = d
+			} else {
+				log.Printf("assets: 磁盘缓存目录不可写（%v），降级为纯内存缓存", werr)
+			}
+		} else {
+			log.Printf("assets: 磁盘缓存目录创建失败（%v），降级为纯内存缓存", err)
+		}
+	}
+	s.assets = newAppAssetStore(assetDir)
+	// 后台任务持久化：DATA_DIR 可用时落 <DataDir>/tasks.json（进度跨重启保留）。
+	if cfg.DataDir != "" {
+		s.tasks = NewTaskManager(filepath.Join(cfg.DataDir, "tasks.json"))
+	} else {
+		s.tasks = NewTaskManager("")
 	}
 	s.routes()
 	s.rebuildPanelClient()
@@ -203,6 +261,8 @@ func NewServer(cfg Config) *Server {
 	// SSE/轮询自然补齐。scheduler 的即时首查由 lastCheck 防重。
 	go s.refreshRecommended(context.Background())
 	go s.refreshRegistry(context.Background())
+	// 外部源图标后台预热（FNDepot 式：页面打开前图标已落本地缓存）
+	go s.startIconWarmLoop()
 	return s
 }
 
@@ -211,6 +271,7 @@ func (s *Server) routes() {
 	// 内网端口（默认 8011 仅 LAN 可达），无需鉴权但仅限本机/局域网。
 	s.mountPprof()
 	s.Mux.HandleFunc("GET /api/apps", s.handleListApps)
+	s.Mux.HandleFunc("GET /api/apps/{appname}", s.handleGetApp)
 	s.Mux.HandleFunc("GET /api/recommended", s.handleListRecommended)
 	s.Mux.HandleFunc("POST /api/apps/{appname}/install", s.handleInstall)
 	s.Mux.HandleFunc("POST /api/apps/{appname}/update", s.handleUpdate)
@@ -219,6 +280,12 @@ func (s *Server) routes() {
 	s.Mux.HandleFunc("POST /api/apps/{appname}/stop", func(w http.ResponseWriter, r *http.Request) { s.handleStartStop(w, r, "stop") })
 	s.Mux.HandleFunc("GET /api/apps/{appname}/download", s.handleDownloadFpk)
 	s.Mux.HandleFunc("POST /api/apps/{appname}/download-task", s.handleDownloadTask)
+	s.Mux.HandleFunc("POST /api/apps/{appname}/task/pause", s.handlePauseDownload)
+	s.Mux.HandleFunc("POST /api/apps/{appname}/task/resume", s.handleResumeDownload)
+	// 后台任务状态：客户端（退出应用后重开）轮询它看安装/更新进度。
+	s.Mux.HandleFunc("GET /api/apps/{appname}/task", s.handleGetTask)
+	// 全部进行中后台任务：UI 全局进度指示轮询它（退出应用重开也能看到）。
+	s.Mux.HandleFunc("GET /api/tasks", s.handleListTasks)
 	s.Mux.HandleFunc("GET /api/fpk-downloads", s.handleListFpkDownloads)
 	s.Mux.HandleFunc("DELETE /api/fpk-downloads/{name}", s.handleDeleteFpkDownload)
 	s.Mux.HandleFunc("POST /api/fpk-downloads/{name}/install", s.handleInstallFpkDownload)

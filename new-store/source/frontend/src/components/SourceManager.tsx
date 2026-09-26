@@ -21,7 +21,11 @@ const SourceManager: React.FC<SourceManagerProps> = ({ onCatalogChanged }) => {
   const [syncingId, setSyncingId] = useState<string | null>(null);
   // 源列表折叠（本地持久化）
   const [collapsed, setCollapsed] = useState<boolean>(() => {
-    try { return localStorage.getItem('new-store.sources.collapsed') === '1'; } catch { return false; }
+    try {
+      // 默认折叠（无持久化记录时）；用户手动展开/折叠后按保存值
+      const v = localStorage.getItem('new-store.sources.collapsed');
+      return v === null ? true : v === '1';
+    } catch { return true; }
   });
   const [togglingId, setTogglingId] = useState<string | null>(null);
   // 内置源列表自动同步（列表地址固定用内置/配置值，界面不再暴露输入框）
@@ -94,6 +98,12 @@ const SourceManager: React.FC<SourceManagerProps> = ({ onCatalogChanged }) => {
       // 全量回传：FPK 下载目录 / 自动监测不能被本组件的保存抹掉
       download_dir: cur.download_dir,
       source_auto_care_disabled: !(care ?? autoCare),
+      // 官方应用中心（panel）账号必须全量回传：后端 handlePutSettings 全量重建
+      // Config，漏传 = panel 配置被抹零 → 官方应用中心源停抓、355 应用消失。
+      // 密码不回传（后端空值时保留原值）。
+      panel_enabled: !!cur.panel_enabled,
+      panel_username: cur.panel_username,
+      panel_base_url: cur.panel_base_url,
     });
   }, [listAuto, autoCare]);
 

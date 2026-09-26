@@ -2,6 +2,9 @@ package api
 
 import (
 	"context"
+	"crypto/sha256"
+	"encoding/hex"
+	"encoding/json"
 	"fmt"
 	"io"
 	"net/http"
@@ -9,6 +12,7 @@ import (
 	"os"
 	"path"
 	"path/filepath"
+	"sort"
 	"strconv"
 	"strings"
 	"sync"
@@ -23,7 +27,12 @@ import (
 // 按配置的 GitHub 镜像链抓取后回传。只代理应用自身声明的 URL，不接受
 // 任意地址（避免 SSRF）。
 
-const assetTTL = 10 * time.Minute
+const (
+	assetMemTTL  = 10 * time.Minute   // 内存层
+	assetDiskTTL = 7 * 24 * time.Hour // 磁盘层（图标/预览/readme 随版本走，不常变）
+	assetMaxMem  = 512
+	assetMaxDisk = 2000
+)
 
 type assetCacheEntry struct {
 	body        []byte
@@ -36,8 +45,6 @@ type assetCache struct {
 	entries map[string]assetCacheEntry
 	max     int
 }
-
-var appAssetCache = newAssetCache(128)
 
 // iconProbeCache 记录「该应用探测过所有候选图标路径都没有图标」的结论，
 // 30 分钟内不再重复探测，避免每次打开详情页都打一轮请求。
@@ -88,9 +95,139 @@ func (c *assetCache) put(key string, e assetCacheEntry) {
 	c.mu.Lock()
 	defer c.mu.Unlock()
 	if len(c.entries) >= c.max {
-		c.entries = make(map[string]assetCacheEntry) // 简单全量淘汰
+		c.entries = make(map[string]assetCacheEntry) // 简单全量淘汰（内存层，miss 走磁盘）
 	}
 	c.entries[key] = e
+}
+
+// diskAssetRef 记录磁盘缓存资源的文件名与类型。
+type diskAssetRef struct {
+	File string `json:"f"`
+	CT   string `json:"ct"`
+	TS   int64  `json:"ts"` // Unix 秒
+}
+
+// appAssetStore 两级资源缓存：内存（10 分钟）+ 磁盘（7 天，落
+// DATA_DIR/cache/assets/，进程重启后保留）。
+//
+// 背景：600+ 外部源应用图标/预览都经 GitHub 镜像链抓取，单次约 0.4s。
+// 此前纯内存小容量+全量淘汰，(a) 进程重启后整面图标墙冷瀑布，
+// (b) 滚动超过容量后反复重抓——都表现为"列表加载不丝滑"。
+type appAssetStore struct {
+	mem *assetCache
+	dir string // "" = 磁盘层禁用（单元测试）
+
+	mu      sync.Mutex
+	idx     map[string]diskAssetRef
+	idxPath string
+}
+
+func newAppAssetStore(dir string) *appAssetStore {
+	st := &appAssetStore{mem: newAssetCache(assetMaxMem), dir: dir, idx: make(map[string]diskAssetRef)}
+	if dir == "" {
+		return st
+	}
+	st.idxPath = filepath.Join(dir, "index.json")
+	raw, err := os.ReadFile(st.idxPath)
+	if err == nil {
+		var idx map[string]diskAssetRef
+		if json.Unmarshal(raw, &idx) == nil {
+			st.idx = idx
+		}
+	}
+	return st
+}
+
+func (st *appAssetStore) saveIndex() {
+	if st.idxPath == "" {
+		return
+	}
+	raw, err := json.Marshal(st.idx)
+	if err != nil {
+		return
+	}
+	tmp := st.idxPath + ".tmp"
+	_ = os.WriteFile(tmp, raw, 0o644)
+	_ = os.Rename(tmp, st.idxPath)
+}
+
+func assetExtForCT(ct string) string {
+	switch {
+	case strings.Contains(ct, "png"):
+		return ".png"
+	case strings.Contains(ct, "jpeg") || strings.Contains(ct, "jpg"):
+		return ".jpg"
+	case strings.Contains(ct, "webp"):
+		return ".webp"
+	case strings.Contains(ct, "gif"):
+		return ".gif"
+	case strings.Contains(ct, "markdown"):
+		return ".md"
+	default:
+		return ".bin"
+	}
+}
+
+// get：内存 → 磁盘。
+func (st *appAssetStore) get(key string) (assetCacheEntry, bool) {
+	if e, ok := st.mem.get(key); ok {
+		return e, true
+	}
+	if st.dir == "" {
+		return assetCacheEntry{}, false
+	}
+	st.mu.Lock()
+	defer st.mu.Unlock()
+	ref, ok := st.idx[key]
+	if !ok {
+		return assetCacheEntry{}, false
+	}
+	if time.Since(time.Unix(ref.TS, 0)) > assetDiskTTL {
+		delete(st.idx, key)
+		_ = os.Remove(filepath.Join(st.dir, ref.File))
+		st.saveIndex()
+		return assetCacheEntry{}, false
+	}
+	body, err := os.ReadFile(filepath.Join(st.dir, ref.File))
+	if err != nil || len(body) == 0 {
+		delete(st.idx, key)
+		_ = os.Remove(filepath.Join(st.dir, ref.File))
+		st.saveIndex()
+		return assetCacheEntry{}, false
+	}
+	e := assetCacheEntry{body: body, contentType: ref.CT, expiresAt: time.Now().Add(assetMemTTL)}
+	st.mem.put(key, e)
+	return e, true
+}
+
+// put：内存 + 磁盘。
+func (st *appAssetStore) put(key string, e assetCacheEntry) {
+	st.mem.put(key, e)
+	if st.dir == "" {
+		return
+	}
+	st.mu.Lock()
+	defer st.mu.Unlock()
+	h := sha256.Sum256([]byte(key))
+	name := hex.EncodeToString(h[:])[:24] + assetExtForCT(e.contentType)
+	tmp := filepath.Join(st.dir, name+".tmp")
+	if err := os.WriteFile(tmp, e.body, 0o644); err != nil {
+		return
+	}
+	_ = os.Rename(tmp, filepath.Join(st.dir, name))
+	st.idx[key] = diskAssetRef{File: name, CT: e.contentType, TS: time.Now().Unix()}
+	if len(st.idx) > assetMaxDisk {
+		keys := make([]string, 0, len(st.idx))
+		for k := range st.idx {
+			keys = append(keys, k)
+		}
+		sort.Slice(keys, func(i, j int) bool { return st.idx[keys[i]].TS < st.idx[keys[j]].TS })
+		for _, k := range keys[:len(keys)/4] {
+			_ = os.Remove(filepath.Join(st.dir, st.idx[k].File))
+			delete(st.idx, k)
+		}
+	}
+	st.saveIndex()
 }
 
 func assetContentTypeFor(name string) string {
@@ -157,7 +294,7 @@ func (s *Server) handleAppAsset(w http.ResponseWriter, r *http.Request) {
 	}
 
 	cacheKey := appName + "/" + kind + "/" + target
-	if e, ok := appAssetCache.get(cacheKey); ok {
+	if e, ok := s.assets.get(cacheKey); ok {
 		w.Header().Set("Content-Type", e.contentType)
 		w.Header().Set("Cache-Control", "private, max-age=600")
 		_, _ = w.Write(e.body)
@@ -169,8 +306,8 @@ func (s *Server) handleAppAsset(w http.ResponseWriter, r *http.Request) {
 		writeAPIError(w, http.StatusBadGateway, "资源获取失败: "+err.Error())
 		return
 	}
-	appAssetCache.put(cacheKey, assetCacheEntry{
-		body: body, contentType: contentType, expiresAt: time.Now().Add(assetTTL),
+	s.assets.put(cacheKey, assetCacheEntry{
+		body: body, contentType: contentType, expiresAt: time.Now().Add(assetMemTTL),
 	})
 	w.Header().Set("Content-Type", contentType)
 	w.Header().Set("Cache-Control", "private, max-age=600")
@@ -293,7 +430,7 @@ func (s *Server) resolveAppIcon(ctx context.Context, app core.AppInfo) ([]byte, 
 	if app.IconURL != "" {
 		target := normalizeGitHubURL(strings.TrimSpace(app.IconURL))
 		key := cacheKey + target
-		if e, ok := appAssetCache.get(key); ok {
+		if e, ok := s.assets.get(key); ok {
 			return e.body, e.contentType, nil
 		}
 		body, ct, err := s.fetchAsset(ctx, target)
@@ -301,7 +438,7 @@ func (s *Server) resolveAppIcon(ctx context.Context, app core.AppInfo) ([]byte, 
 			// 声明的图标拉不到时继续尝试按仓库布局探测。
 			return s.probeIconCandidates(ctx, app, cacheKey)
 		}
-		appAssetCache.put(key, assetCacheEntry{body: body, contentType: ct, expiresAt: time.Now().Add(assetTTL)})
+		s.assets.put(key, assetCacheEntry{body: body, contentType: ct, expiresAt: time.Now().Add(assetMemTTL)})
 		return body, ct, nil
 	}
 	return s.probeIconCandidates(ctx, app, cacheKey)
@@ -320,7 +457,7 @@ func (s *Server) probeIconCandidates(ctx context.Context, app core.AppInfo, cach
 	var lastErr error
 	for _, cand := range candidates {
 		key := cacheKey + cand
-		if e, ok := appAssetCache.get(key); ok {
+		if e, ok := s.assets.get(key); ok {
 			return e.body, e.contentType, nil
 		}
 		body, ct, err := s.fetchAsset(pctx, cand)
@@ -328,7 +465,7 @@ func (s *Server) probeIconCandidates(ctx context.Context, app core.AppInfo, cach
 			lastErr = err
 			continue
 		}
-		appAssetCache.put(key, assetCacheEntry{body: body, contentType: ct, expiresAt: time.Now().Add(1 * time.Hour)})
+		s.assets.put(key, assetCacheEntry{body: body, contentType: ct, expiresAt: time.Now().Add(1 * time.Hour)})
 		return body, ct, nil
 	}
 	iconProbeCache.mark(app.AppKey())

@@ -1,10 +1,14 @@
 package api
 
 import (
+	"bytes"
+	"compress/gzip"
 	"encoding/json"
 	"fmt"
 	"net/http"
 	"strconv"
+	"strings"
+	"sync/atomic"
 	"time"
 
 	"fnos-store/internal/config"
@@ -13,126 +17,210 @@ import (
 )
 
 func (s *Server) handleListApps(w http.ResponseWriter, r *http.Request) {
+	// 后台缓存：目录代次未变时直接回传预序列化的响应（O(1)），
+	// 不再逐请求重复构建 + 序列化 781 个应用。
+	gen := atomic.LoadUint64(&s.catalogGen)
+	s.appsRespCache.mu.Lock()
+	if s.appsRespCache.gen == gen && len(s.appsRespCache.data) > 0 {
+		data, etag := s.appsRespCache.data, s.appsRespCache.etag
+		s.appsRespCache.mu.Unlock()
+		writeAppsList(w, r, data, etag)
+		return
+	}
+	s.appsRespCache.mu.Unlock()
+
 	apps := s.listRegistryApps()
-	cfg := s.configMgr.Get()
 	respApps := make([]appResponse, 0, len(apps))
 	for _, app := range apps {
 		if s.storeApp != "" && app.AppName == s.storeApp {
 			continue
 		}
-		status := ""
-		if app.Installed {
-			status = s.getRuntimeStatus(app.AppName)
-			if status == "" {
-				status = "stopped"
-			}
-		}
-
-		releaseURL := ""
-		if app.ReleaseTag != "" {
-			releaseURL = fmt.Sprintf("https://github.com/conversun/fnos-apps/releases/tag/%s", app.ReleaseTag)
-		} else if app.DownloadURL != "" {
-			// 外部 FnDepot 源应用：无 GitHub ReleaseTag，release_url 指向实际下载地址
-			releaseURL = app.DownloadURL
-		}
-
-		hasUpdate := app.Status == core.AppStatusUpdateAvailable
-		updateIgnored := false
-		if hasUpdate && cfg.IsAppIgnored(app.AppName) {
-			hasUpdate = false
-			updateIgnored = true
-		}
-
-		availableVersion := ""
-		if (hasUpdate || updateIgnored) && app.FpkVersion != "" {
-			availableVersion = app.FpkVersion
-		}
-
-		// daemon 能力位（未知时保持 nil，前端按宽松默认处理，兼容 CLI 回退场景）
-		var startStop, uninstallable *bool
-		var webProtocol, webURL, webPath, webServiceName string
-		var webPort int
-		var webOnWebUI bool
-		if app.Installed {
-			if ctrl, known := s.getRuntimeControl(app.AppName); known {
-				sv, uv := ctrl.IsStartStop, ctrl.IsUninstall
-				startStop, uninstallable = &sv, &uv
-			}
-			// 打开按钮的目标（与 fnOS 应用中心 appServiceInfo 同源）
-			if web, ok := s.getRuntimeWeb(app.AppName); ok {
-				webProtocol = web.Protocol
-				webPath = web.Path
-				webServiceName = web.ServiceName
-				if p, err := strconv.Atoi(web.Port); err == nil {
-					webPort = p
-				}
-				if web.Host != "" {
-					webURL = fmt.Sprintf("%s://%s:%s%s", web.Protocol, web.Host, web.Port, web.Path)
-				}
-				if web.HasWebUIPath() {
-					webOnWebUI = true
-				}
-			}
-		}
-
-		respApps = append(respApps, appResponse{
-			Key:                 app.AppKey(),
-			AppName:             app.AppName,
-			DisplayName:         app.DisplayName,
-			Description:         app.Description,
-			Installed:           app.Installed,
-			InstalledVersion:    app.InstalledVersion,
-			LatestVersion:       app.LatestVersion,
-			InstalledFpkVersion: app.InstalledFpkVersion,
-			AvailableVersion:    availableVersion,
-			HasUpdate:           hasUpdate,
-			UpdateIgnored:       updateIgnored,
-			Platform:            app.Platform,
-			ReleaseURL:          releaseURL,
-			ReleaseNotes:        "",
-			Status:              status,
-			StartStop:           startStop,
-			Uninstallable:       uninstallable,
-			WebProtocol:         webProtocol,
-			WebURL:              webURL,
-			WebPort:             webPort,
-			WebPath:             webPath,
-			WebOnWebUI:          webOnWebUI,
-			WebServiceName:      webServiceName,
-			ServicePort:         app.ServicePort,
-			Homepage:            app.HomepageURL,
-			IconURL:             app.IconURL,
-			UpdatedAt:           app.UpdatedAt,
-			DownloadCount:       app.DownloadCount,
-			LocalInstalls:       cfg.LocalInstalls[app.AppName],
-			AppType:             app.AppType,
-			Category:            app.Category,
-			PostInstallNote:     app.PostInstallNote,
-			Source:              app.Source,
-			Maintainer:          app.Maintainer,
-			MaintainerURL:       app.MaintainerURL,
-			Distributor:         app.Distributor,
-			DistributorURL:      app.DistributorURL,
-			Changelog:           app.Changelog,
-			SizeBytes:           app.SizeBytes,
-			SHA256:              app.SHA256,
-			PreviewCount:        len(app.PreviewURLs),
-			HasReadme:           app.ReadmeURL != "",
-		})
+		a := s.buildAppResponse(app)
+		slimAppResponseForList(&a)
+		respApps = append(respApps, a)
 	}
 
-	// 同名应用（内置目录与多个外部源重复收录）折叠为一张卡：
-	// 后端操作全部按裸 appname 走，注册表 Get() 的解析顺序是内置目录优先；
-	// 重复卡片会让「已安装」计数虚高（同一应用被多个源各标记一次 installed）。
 	respApps = dedupeAppsByAppName(respApps)
 
 	upgradeCap := s.ac.UpgradeCapability()
-	writeJSON(w, http.StatusOK, appsListResponse{
+	body, err := json.Marshal(appsListResponse{
 		UpgradeAllowed:       upgradeCap.Allowed,
 		UpgradeBlockedReason: upgradeCap.Reason,
 		Apps:                 respApps,
 		LastCheck:            formatTimestamp(s.getLastCheck()),
 	})
+	if err != nil {
+		writeAPIError(w, http.StatusInternalServerError, err.Error())
+		return
+	}
+	etag := fmt.Sprintf(`W/"%d-%d"`, gen, len(body))
+	s.appsRespCache.mu.Lock()
+	// 仅当代次未变时写入（并发重建幂等，后写者内容等价）。
+	if atomic.LoadUint64(&s.catalogGen) == gen {
+		s.appsRespCache.data = body
+		s.appsRespCache.etag = etag
+		s.appsRespCache.gen = gen
+	}
+	s.appsRespCache.mu.Unlock()
+	writeAppsList(w, r, body, etag)
+}
+
+// writeAppsList 回传列表响应：客户端接受 gzip 时压缩（680KB→~150KB），
+// 带 ETag 供浏览器协商缓存。
+func writeAppsList(w http.ResponseWriter, r *http.Request, body []byte, etag string) {
+	w.Header().Set("Content-Type", "application/json; charset=utf-8")
+	w.Header().Set("ETag", etag)
+	w.Header().Set("Cache-Control", "no-store")
+	if strings.Contains(r.Header.Get("Accept-Encoding"), "gzip") {
+		var buf bytes.Buffer
+		zw, _ := gzip.NewWriterLevel(&buf, gzip.BestSpeed)
+		if _, err := zw.Write(body); err == nil {
+			_ = zw.Close()
+			w.Header().Set("Content-Encoding", "gzip")
+			w.Header().Set("Vary", "Accept-Encoding")
+			w.WriteHeader(http.StatusOK)
+			_, _ = w.Write(buf.Bytes())
+			return
+		}
+	}
+	w.WriteHeader(http.StatusOK)
+	_, _ = w.Write(body)
+}
+
+// handleGetApp 返回单个应用的完整详情：列表载荷为瘦身省略了
+// changelog/homepage/release_url/sha256 与外部源 icon_url 等仅详情
+// 用到的字段，详情弹窗打开后拉取本接口补齐。
+// GET /api/apps/{appname}（appname 可为 "appname@源名" 形式）。
+func (s *Server) handleGetApp(w http.ResponseWriter, r *http.Request) {
+	appName := r.PathValue("appname")
+	if appName == "" {
+		writeAPIError(w, http.StatusBadRequest, "missing app name")
+		return
+	}
+	app, ok := s.getRegistryApp(appName)
+	if !ok {
+		writeAPIError(w, http.StatusNotFound, "app not found")
+		return
+	}
+	writeJSON(w, http.StatusOK, s.buildAppResponse(app))
+}
+
+// buildAppResponse 组装单个应用的完整响应（详情接口与列表共用）。
+func (s *Server) buildAppResponse(app core.AppInfo) appResponse {
+	cfg := s.configMgr.Get()
+	status := ""
+	if app.Installed {
+		status = s.getRuntimeStatus(app.AppName)
+		if status == "" {
+			status = "stopped"
+		}
+	}
+
+	releaseURL := ""
+	if app.ReleaseTag != "" {
+		releaseURL = fmt.Sprintf("https://github.com/conversun/fnos-apps/releases/tag/%s", app.ReleaseTag)
+	} else if app.DownloadURL != "" {
+		// 外部 FnDepot 源应用：无 GitHub ReleaseTag，release_url 指向实际下载地址
+		releaseURL = app.DownloadURL
+	}
+
+	hasUpdate := app.Status == core.AppStatusUpdateAvailable
+	updateIgnored := false
+	if hasUpdate && cfg.IsAppIgnored(app.AppName) {
+		hasUpdate = false
+		updateIgnored = true
+	}
+
+	availableVersion := ""
+	if (hasUpdate || updateIgnored) && app.FpkVersion != "" {
+		availableVersion = app.FpkVersion
+	}
+
+	// daemon 能力位（未知时保持 nil，前端按宽松默认处理，兼容 CLI 回退场景）
+	var startStop, uninstallable *bool
+	var webProtocol, webURL, webPath, webServiceName string
+	var webPort int
+	var webOnWebUI bool
+	if app.Installed {
+		if ctrl, known := s.getRuntimeControl(app.AppName); known {
+			sv, uv := ctrl.IsStartStop, ctrl.IsUninstall
+			startStop, uninstallable = &sv, &uv
+		}
+		// 打开按钮的目标（与 fnOS 应用中心 appServiceInfo 同源）
+		if web, ok := s.getRuntimeWeb(app.AppName); ok {
+			webProtocol = web.Protocol
+			webPath = web.Path
+			webServiceName = web.ServiceName
+			if p, err := strconv.Atoi(web.Port); err == nil {
+				webPort = p
+			}
+			if web.Host != "" {
+				webURL = fmt.Sprintf("%s://%s:%s%s", web.Protocol, web.Host, web.Port, web.Path)
+			}
+			if web.HasWebUIPath() {
+				webOnWebUI = true
+			}
+		}
+	}
+
+	return appResponse{
+		Key:                 app.AppKey(),
+		AppName:             app.AppName,
+		DisplayName:         app.DisplayName,
+		Description:         app.Description,
+		Installed:           app.Installed,
+		InstalledVersion:    app.InstalledVersion,
+		LatestVersion:       app.LatestVersion,
+		InstalledFpkVersion: app.InstalledFpkVersion,
+		AvailableVersion:    availableVersion,
+		HasUpdate:           hasUpdate,
+		UpdateIgnored:       updateIgnored,
+		Platform:            app.Platform,
+		ReleaseURL:          releaseURL,
+		ReleaseNotes:        "",
+		Status:              status,
+		StartStop:           startStop,
+		Uninstallable:       uninstallable,
+		WebProtocol:         webProtocol,
+		WebURL:              webURL,
+		WebPort:             webPort,
+		WebPath:             webPath,
+		WebOnWebUI:          webOnWebUI,
+		WebServiceName:      webServiceName,
+		ServicePort:         app.ServicePort,
+		Homepage:            app.HomepageURL,
+		IconURL:             app.IconURL,
+		UpdatedAt:           app.UpdatedAt,
+		DownloadCount:       app.DownloadCount,
+		LocalInstalls:       cfg.LocalInstalls[app.AppName],
+		AppType:             app.AppType,
+		Category:            app.Category,
+		PostInstallNote:     app.PostInstallNote,
+		Source:              app.Source,
+		Maintainer:          app.Maintainer,
+		MaintainerURL:       app.MaintainerURL,
+		Distributor:         app.Distributor,
+		DistributorURL:      app.DistributorURL,
+		Changelog:           app.Changelog,
+		SizeBytes:           app.SizeBytes,
+		SHA256:              app.SHA256,
+		PreviewCount:        len(app.PreviewURLs),
+		HasReadme:           app.ReadmeURL != "",
+	}
+}
+
+// slimAppResponseForList 剥离仅详情弹窗用到的字段，列表载荷瘦身约 40%：
+// release_url/homepage/changelog/sha256 只在详情弹窗展示（打开后由
+// GET /api/apps/{key} 补齐）；外部源应用图标走 /asset?type=icon 代理，
+// 列表无需携带 icon_url（内置目录 fnos-apps 用 icon_url 直链渲染，保留）。
+func slimAppResponseForList(a *appResponse) {
+	a.ReleaseURL = ""
+	a.Homepage = ""
+	a.Changelog = ""
+	a.SHA256 = ""
+	if a.Source != "" && a.Source != "fnos-apps" {
+		a.IconURL = ""
+	}
 }
 
 // sourceRank 给出同名应用折叠时的来源优先级，与 core.SourceRank（Registry.Get
@@ -180,6 +268,7 @@ func (s *Server) handleIgnoreUpdate(w http.ResponseWriter, r *http.Request) {
 		writeAPIError(w, http.StatusInternalServerError, err.Error())
 		return
 	}
+	s.bumpCatalogGen() // 忽略更新影响列表 has_update/update_ignored
 
 	writeJSON(w, http.StatusOK, map[string]bool{"ok": true})
 }
@@ -204,6 +293,7 @@ func (s *Server) handleUnignoreUpdate(w http.ResponseWriter, r *http.Request) {
 		writeAPIError(w, http.StatusInternalServerError, err.Error())
 		return
 	}
+	s.bumpCatalogGen() // 取消忽略影响列表 has_update/update_ignored
 
 	writeJSON(w, http.StatusOK, map[string]bool{"ok": true})
 }

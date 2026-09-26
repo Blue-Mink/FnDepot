@@ -12,16 +12,38 @@ import (
 	"fnos-store/internal/source"
 )
 
-// handleDownloadTask —— 「下载 fpk」按钮（POST SSE）。
+// 「下载 fpk」：后台任务 + 可暂停/继续。
 //
-// 流程：
-//  1. 按镜像链把 FPK 下到商店本地缓存（复用安装下载器，带进度）
-//  2. 官方应用中心已配置时：把文件登记进面板官方下载系统
-//     （与面板应用中心安装本地包同一通道，文件进入面板下载缓存）
-//  3. done 事件（message 说明是否已交给面板通道）
+// 设计（参考官方应用中心 fndepot 的下载方式）：
+//   - 下载解耦到服务端后台 goroutine（detached context）——客户端退出应用后继续跑。
+//   - 进度写入 Task（持久化）：SSE 实时视图 / GET /task 轮询 / 磁盘 三通道可读。
+//   - 可暂停（task/pause）：取消在途请求、.part 保留、任务转 paused（非终态）。
+//   - 可继续（再点下载 fpk）：从 .part Range 续传，任务转 running。
+//   - 队列按 app 串行：下载与安装/更新互斥，暂停时释放槽位（可安装）。
 //
-// 面板「下载中心」（appcgi.downloadcenter.*）是封闭通道，不接受第三方
-// 进程（见 panel.FileDownloadTask 注释），此路径是官方可用的途径。
+// 官方应用中心已配置时，下载完成后把文件登记进面板官方下载系统
+// （与面板应用中心安装本地包同一通道，文件进入面板下载缓存）。
+// 面板「下载中心」（appcgi.downloadcenter.*）是封闭通道，不接受第三方进程。
+
+// buildDownloadURLs 按镜像链构造 FPK 下载 URL 列表（GitHub 源走加速链）。
+func buildDownloadURLs(app core.AppInfo, cfg config.Config) []string {
+	urls := make([]string, 0, 4)
+	if isGitHubDownloadURL(app.DownloadURL) {
+		for _, prefix := range config.GitHubFallbackPrefixes(cfg.Mirror, cfg) {
+			if prefix != "" {
+				urls = append(urls, prefix+app.DownloadURL)
+			} else {
+				urls = append(urls, app.DownloadURL)
+			}
+		}
+	} else {
+		urls = append(urls, app.DownloadURL)
+	}
+	return urls
+}
+
+// handleDownloadTask —— 「下载 fpk」按钮（POST，SSE 可选实时视图）。
+// 若该应用已有暂停的下载，则本次点击 = 继续（Range 续传）。
 func (s *Server) handleDownloadTask(w http.ResponseWriter, r *http.Request) {
 	appName := r.PathValue("appname")
 	app, ok := s.getRegistryApp(appName)
@@ -38,36 +60,125 @@ func (s *Server) handleDownloadTask(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	stream, err := newSSEStream(w, r, "")
+	// 槽位检查：已有进行中的操作（下载/安装/更新）
+	existing := s.tasks.Get(appName)
+	resuming := false
+	if existing != nil && !existing.IsFinished() {
+		if existing.Op == "download" && existing.status() == TaskRunning {
+			writeAPIError(w, http.StatusConflict, "下载已在进行中")
+			return
+		}
+		if existing.Op != "download" {
+			writeAPIError(w, http.StatusConflict, "该应用有进行中的操作："+string(existing.Op))
+			return
+		}
+		// 暂停的下载 → 本次点击 = 继续
+		resuming = true
+	}
+
+	if !s.queue.TryStart("download", appName) {
+		writeAPIError(w, http.StatusConflict, "another operation is already running")
+		return
+	}
+
+	stream, err := newSSEStream(w, r, appName)
+	var liveSink pipelineSink
+	if err == nil {
+		liveSink = stream
+	}
+
+	task := s.tasks.GetOrCreate(appName, "download")
+	if resuming && task.status() == TaskPaused {
+		task.markRunning()
+	}
+
+	go s.runDownloadTask(task, appName, liveSink)
+
 	if err != nil {
-		writeAPIError(w, http.StatusInternalServerError, "streaming not supported")
+		writeAPIError(w, http.StatusInternalServerError, err.Error())
+		return
+	}
+	// 把任务进度转发给客户端，直到任务结束或客户端断开（断开后后台继续）。
+	s.streamTaskToClient(stream, task, r)
+}
+
+// handlePauseDownload —— 「暂停」按钮（POST /api/apps/{appname}/task/pause）。
+// 取消在途下载、.part 保留、任务转 paused，并释放队列槽位（可安装/更新）。
+func (s *Server) handlePauseDownload(w http.ResponseWriter, r *http.Request) {
+	appName := r.PathValue("appname")
+	task := s.tasks.Get(appName)
+	if task == nil || task.Op != "download" || task.status() != TaskRunning {
+		writeAPIError(w, http.StatusNotFound, "没有可暂停的下载")
+		return
+	}
+	if !task.pause() {
+		writeAPIError(w, http.StatusConflict, "暂停失败")
+		return
+	}
+	// 释放队列槽位：暂停后允许对该应用安装/更新。
+	s.queue.FinishApp(appName)
+	s.tasks.Persist()
+	writeJSON(w, http.StatusOK, map[string]any{"status": "paused"})
+}
+
+// handleResumeDownload —— 「继续」按钮（POST /api/apps/{appname}/task/resume）。
+// 从 .part Range 续传，立即返回（非 SSE）；进度走后台任务，可轮询。
+func (s *Server) handleResumeDownload(w http.ResponseWriter, r *http.Request) {
+	appName := r.PathValue("appname")
+	task := s.tasks.Get(appName)
+	if task == nil || task.Op != "download" || task.status() != TaskPaused {
+		writeAPIError(w, http.StatusNotFound, "没有可继续的暂停下载")
+		return
+	}
+	if !s.queue.TryStart("download", appName) {
+		writeAPIError(w, http.StatusConflict, "another operation is already running")
+		return
+	}
+	task.markRunning()
+	go s.runDownloadTask(task, appName, nil)
+	writeJSON(w, http.StatusOK, map[string]any{"status": "running"})
+}
+
+// runDownloadTask 在后台 goroutine 里跑 FPK 下载（detached context，可暂停）。
+// 进度同时写入 task（持久化）与 liveSink（SSE 实时，可空）。
+func (s *Server) runDownloadTask(task *Task, appname string, liveSink pipelineSink) {
+	app, ok := s.getRegistryApp(appname)
+	if !ok {
+		task.fail("应用不存在: " + appname)
+		s.queue.FinishApp(appname)
+		s.tasks.Persist()
+		return
+	}
+	if app.DownloadURL == "" {
+		task.fail("无可直链的 FPK")
+		s.queue.FinishApp(appname)
+		s.tasks.Persist()
 		return
 	}
 
 	cfg := s.configMgr.Get()
-	downloadURLs := make([]string, 0, 4)
-	if isGitHubDownloadURL(app.DownloadURL) {
-		for _, prefix := range config.GitHubFallbackPrefixes(cfg.Mirror, cfg) {
-			if prefix != "" {
-				downloadURLs = append(downloadURLs, prefix+app.DownloadURL)
-			} else {
-				downloadURLs = append(downloadURLs, app.DownloadURL)
-			}
-		}
-	} else {
-		downloadURLs = append(downloadURLs, app.DownloadURL)
-	}
+	downloadURLs := buildDownloadURLs(app, cfg)
 	fileName := path.Base(app.DownloadURL)
 
-	ctx, cancel := context.WithTimeout(r.Context(), 20*time.Minute)
-	defer cancel()
+	ctx, cancel := context.WithCancel(context.Background())
+	task.setCancel(cancel)
+	defer func() {
+		cancel()
+		task.clearCancel()
+	}()
 
-	_ = stream.sendProgress(progressPayload{Step: "downloading", Message: "正在下载 FPK..."})
+	ts := &taskSink{task: task}
+	var sink pipelineSink = ts
+	if liveSink != nil {
+		sink = &teeSink{sinks: []pipelineSink{ts, liveSink}}
+	}
+	_ = sink.sendProgress(progressPayload{Step: "downloading", Message: "正在下载 FPK...", AppName: appname})
+
 	var lastSend time.Time
 	localPath, err := s.pipeline.downloads.Download(ctx, core.DownloadRequest{
 		URLs:     downloadURLs,
 		FileName: fileName,
-		AppName:  app.AppName,
+		AppName:  appname,
 	}, func(downloaded, total int64) {
 		if total <= 0 || downloaded >= total {
 			return
@@ -77,26 +188,32 @@ func (s *Server) handleDownloadTask(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 		lastSend = now
-		_ = stream.sendProgress(progressPayload{
-			Step:       "downloading",
-			Message:    "正在下载 FPK...",
-			Downloaded: downloaded,
-			Total:      total,
+		_ = sink.sendProgress(progressPayload{
+			Step: "downloading", Message: "正在下载 FPK...", AppName: appname,
+			Downloaded: downloaded, Total: total,
 		})
 	})
+
 	if err != nil {
-		_ = stream.sendError("FPK 下载失败: " + err.Error())
+		if task.status() == TaskPaused || ctx.Err() == context.Canceled {
+			// 暂停：.part 保留（可继续），释放队列槽位。
+			s.queue.FinishApp(appname)
+			s.tasks.Persist()
+			return
+		}
+		_ = sink.sendError("FPK 下载失败: " + err.Error())
+		s.queue.FinishApp(appname)
+		s.tasks.Persist()
 		return
 	}
 
+	// 下载完成：登记面板官方下载系统（可选，失败不阻断）。
 	panelTaskID := ""
 	if s.panelClient != nil && s.panelClient.Configured() {
-		if id, perr := s.panelClient.FileDownloadTask(ctx, localPath); perr == nil {
+		if id, perr := s.panelClient.FileDownloadTask(context.Background(), localPath); perr == nil {
 			panelTaskID = id
 		}
-		// 登记失败不阻断：本地缓存仍然可用（安装时会直接复用）
 	}
-
 	var size int64
 	if info, statErr := os.Stat(localPath); statErr == nil {
 		size = info.Size()
@@ -105,10 +222,11 @@ func (s *Server) handleDownloadTask(w http.ResponseWriter, r *http.Request) {
 	if panelTaskID != "" {
 		msg = "FPK 已交给面板官方下载通道（" + panelTaskID + "）"
 	}
-	_ = stream.sendProgress(progressPayload{
-		Step:       "done",
-		Message:    msg,
-		Downloaded: size,
-		Total:      size,
+	_ = sink.sendProgress(progressPayload{
+		Step: "done", Message: msg, AppName: appname, Progress: 100,
+		Downloaded: size, Total: size,
 	})
+	task.markDone()
+	s.queue.FinishApp(appname)
+	s.tasks.Persist()
 }

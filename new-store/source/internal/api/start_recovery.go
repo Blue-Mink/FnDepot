@@ -61,7 +61,7 @@ func (p *installPipeline) appStatus(appname string) (string, error) {
 // on its service port. Only if neither signal fires within the window is the
 // original start error surfaced, byte-for-byte as before this recovery
 // existed.
-func (p *installPipeline) startAndConfirm(ctx context.Context, stream *sseStream, app core.AppInfo) bool {
+func (p *installPipeline) startAndConfirm(ctx context.Context, stream pipelineSink, app core.AppInfo) bool {
 	err := runWithVirtualProgress(ctx, stream, "starting", "正在启动...", func() error {
 		return p.startApp(app.AppName)
 	})

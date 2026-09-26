@@ -69,7 +69,7 @@ func isGitHubDownloadURL(rawURL string) bool {
 		strings.Contains(rawURL, "raw.githubusercontent.com/")
 }
 
-func (p *installPipeline) downloadFpk(ctx context.Context, stream *sseStream, app core.AppInfo) (string, error) {
+func (p *installPipeline) downloadFpk(ctx context.Context, stream pipelineSink, app core.AppInfo) (string, error) {
 	if p.downloads == nil {
 		return "", errors.New("下载器未配置")
 	}
@@ -579,7 +579,7 @@ func verifyTotal() time.Duration {
 	return t
 }
 
-func runWithVirtualProgress(ctx context.Context, stream *sseStream, step, message string, fn func() error) error {
+func runWithVirtualProgress(ctx context.Context, stream pipelineSink, step, message string, fn func() error) error {
 	done := make(chan error, 1)
 	go func() {
 		done <- fn()
@@ -621,7 +621,7 @@ func runWithVirtualProgress(ctx context.Context, stream *sseStream, step, messag
 	}
 }
 
-func (p *installPipeline) dockerPull(ctx context.Context, stream *sseStream, fpkDir string, app core.AppInfo) error {
+func (p *installPipeline) dockerPull(ctx context.Context, stream pipelineSink, fpkDir string, app core.AppInfo) error {
 	// docker-compose.yaml is inside app.tgz, not at fpk top level
 	appTgz := filepath.Join(fpkDir, "app.tgz")
 	appDir := filepath.Join(fpkDir, "app-contents")
@@ -676,7 +676,7 @@ func (p *installPipeline) dockerPull(ctx context.Context, stream *sseStream, fpk
 	return nil
 }
 
-func (p *installPipeline) pullSingleImage(ctx context.Context, stream *sseStream, image, message string) (string, error) {
+func (p *installPipeline) pullSingleImage(ctx context.Context, stream pipelineSink, image, message string) (string, error) {
 	cmd := exec.CommandContext(ctx, "docker", "pull", image)
 	stdout, err := cmd.StdoutPipe()
 	if err != nil {
@@ -800,7 +800,7 @@ func chooseInstallRoute(opName string, daemonAvailable bool) installRoute {
 	return routeInstallLocal
 }
 
-func (p *installPipeline) runStandard(ctx context.Context, stream *sseStream, opName string, app core.AppInfo, params []platform.WizardParam, refreshFn func(context.Context) error) {
+func (p *installPipeline) runStandard(ctx context.Context, stream pipelineSink, opName string, app core.AppInfo, params []platform.WizardParam, refreshFn func(context.Context) error) {
 	// Guard first: refuse before downloading, so an affected system never
 	// reaches the uninstall-then-failed-reinstall path.
 	if opName == "update" {
@@ -939,7 +939,7 @@ func (p *installPipeline) runStandard(ctx context.Context, stream *sseStream, op
 // 与 runStandard 的差异：无下载步骤（文件已在本地，安装后保留在缓存中不删除）、
 // 无向导（按应用默认参数安装）。其余通道与商店安装完全一致：
 // daemon install 优先、install-local 兜底、卷解析/预检/校验/启动确认同款。
-func (p *installPipeline) runLocalFpkInstall(ctx context.Context, stream *sseStream, fpkPath string, app core.AppInfo, refreshFn func(context.Context) error) {
+func (p *installPipeline) runLocalFpkInstall(ctx context.Context, stream pipelineSink, fpkPath string, app core.AppInfo, refreshFn func(context.Context) error) {
 	// 端口占用预检（与 runStandard 一致）：避免半安装僵尸态。
 	if err := p.precheckServicePort(app, nil); err != nil {
 		_ = stream.sendError(err.Error())
@@ -1017,7 +1017,7 @@ func (p *installPipeline) runLocalFpkInstall(ctx context.Context, stream *sseStr
 	_ = stream.sendProgress(progressPayload{Step: "done", NewVersion: expectedVersion, Message: "安装完成"})
 }
 
-func (p *installPipeline) runSelfUpdate(ctx context.Context, stream *sseStream, app core.AppInfo) {
+func (p *installPipeline) runSelfUpdate(ctx context.Context, stream pipelineSink, app core.AppInfo) {
 	// 版本门槛（最后防线）：可用版本必须严格高于已装版本。
 	// 内置目录可能收录商店自己的旧版本（conversun/fnos-apps apps.json 里有
 	// fnos-apps-store 1.9.5），若上游条目选取出错，这里拒绝反向「升级」，

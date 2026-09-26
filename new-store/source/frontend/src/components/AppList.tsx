@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import type { AppInfo, AppOperation } from '../api/client';
 import AppCard from './AppCard';
 import { PackageSearch, CheckCircle2, RefreshCw, Search } from 'lucide-react';
 import { Skeleton } from '@/components/ui/skeleton';
+
+// 渐进渲染批量：首批只渲染这么多卡，滚动接近底部再追加。
+// 700+ 卡片一次全渲染（含数百个图标 <img> 同时加载/解码）在 WebView 里
+// 首帧与滚动都会明显掉帧；分批后首屏只承担一小块 DOM 与图片。
+const PAGE_SIZE = 48;
 
 interface AppListProps {
   apps: AppInfo[];
@@ -40,6 +45,34 @@ const getEmptyMessage = (filterType?: string) => {
 };
 
 const AppList: React.FC<AppListProps> = ({ apps, loading, onInstall, onUpdate, onUninstall, onDetail, onCancelOp, filterType, appOperations, searchQuery, upgradeAllowed, onSourceFilter, onAuthorFilter, onDistributorFilter, onControl, controlling, onOpenApp, activeTerms }) => {
+  // 渐进渲染：apps 集合变化（搜索/筛选/刷新后首尾不同）时回到首批；
+  // 内容相同的重复拉取（安装/启停后刷新）不重置，避免用户滚动位置被弹回。
+  const [visible, setVisible] = useState(PAGE_SIZE);
+  const sig = apps.length === 0 ? 'empty' : `${apps.length}:${apps[0].key}:${apps[apps.length - 1].key}`;
+  const prevSigRef = useRef('');
+  useEffect(() => {
+    if (prevSigRef.current !== sig) {
+      prevSigRef.current = sig;
+      setVisible(PAGE_SIZE);
+    }
+  }, [sig]);
+  const shown = apps.slice(0, visible);
+  const sentinelRef = useRef<HTMLDivElement | null>(null);
+  useEffect(() => {
+    const el = sentinelRef.current;
+    if (!el || visible >= apps.length) return;
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((e) => e.isIntersecting)) {
+          setVisible((v) => Math.min(v + PAGE_SIZE, apps.length));
+        }
+      },
+      { rootMargin: '800px 0px' },
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, [apps.length, visible]);
+
   if (loading) {
     return (
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
@@ -77,26 +110,32 @@ const AppList: React.FC<AppListProps> = ({ apps, loading, onInstall, onUpdate, o
 
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-      {apps.map((app) => (
-        <AppCard
+      {shown.map((app) => (
+        // content-visibility:auto：视口外的卡跳过排版/绘制，滚动更顺
+        <div
           key={app.key || app.appname}
-          app={app}
-          operation={appOperations?.get(app.appname)}
-          onInstall={onInstall}
-          onUpdate={onUpdate}
-          onUninstall={onUninstall}
-          onDetail={onDetail}
-          onCancelOp={onCancelOp}
-          upgradeAllowed={upgradeAllowed}
-          onSourceFilter={onSourceFilter}
-          onAuthorFilter={onAuthorFilter}
-          onDistributorFilter={onDistributorFilter}
-          activeTerms={activeTerms}
-          onControl={onControl}
-          controlling={controlling}
-          onOpenApp={onOpenApp}
-        />
+          style={{ contentVisibility: 'auto', containIntrinsicSize: 'auto 300px' }}
+        >
+          <AppCard
+            app={app}
+            operation={appOperations?.get(app.appname)}
+            onInstall={onInstall}
+            onUpdate={onUpdate}
+            onUninstall={onUninstall}
+            onDetail={onDetail}
+            onCancelOp={onCancelOp}
+            upgradeAllowed={upgradeAllowed}
+            onSourceFilter={onSourceFilter}
+            onAuthorFilter={onAuthorFilter}
+            onDistributorFilter={onDistributorFilter}
+            activeTerms={activeTerms}
+            onControl={onControl}
+            controlling={controlling}
+            onOpenApp={onOpenApp}
+          />
+        </div>
       ))}
+      {visible < apps.length && <div ref={sentinelRef} className="col-span-full h-px" />}
     </div>
   );
 };

@@ -211,9 +211,9 @@
   },
   "fnos-apps-store": {
     "display_name": "New Store",
-    "version": "1.20.16",
+    "version": "1.21.1",
     "platform": "x86",
-    "desc": "飞牛fnOS第三方应用中心：App Store式界面浏览、安装、更新、卸载第三方应用，FPK/Docker双通道，走应用中心官方流程；内置GitHub 12源+Docker 8源智能镜像监测（5分钟自动探测、按健康度排序、连续3败自动切换）与KSpeeder本地镜像源；SSE实时安装进度；多应用源管理（FnDepot V1/V2、GitHub Release）；更新检测日期四级回退；同名应用SHA256内容级去重；自更新跨源取最高版本+版本门槛防降级。PC侧栏+移动端dock双端布局，可嵌入飞牛App，亮暗主题。",
+    "desc": "飞牛fnOS第三方应用中心：App Store式界面浏览、安装、更新、卸载第三方应用，FPK/Docker双通道，走应用中心官方流程；内置GitHub 12源+Docker 8源智能镜像监测（5分钟自动探测、按健康度排序、连续3败自动切换）与KSpeeder本地镜像源；SSE实时安装进度、FPK 后台下载任务可暂停/继续（断点续传）；多应用源管理（FnDepot V1/V2、GitHub Release）；更新检测日期四级回退；同名应用SHA256内容级去重；自更新跨源取最高版本+版本门槛防降级。PC侧栏+移动端dock双端布局，可嵌入飞牛App，亮暗主题。",
     "labels": "工具",
     "author": "Blue-Mink",
     "author_url": "https://github.com/Blue-Mink",
@@ -222,9 +222,9 @@
     "bug_report_url": "https://github.com/Blue-Mink/New-Store/issues",
     "isdocker": "false",
     "install_type": "系统空间",
-    "size": "6.90",
-    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.20.16/new-store_1.20.16_x86.fpk",
-    "changelog": "1.20.16: 图标更换 CS-3D A70「柔光」卡片堆叠方案（折叠间距 0.070，2048 母版 + 四档槽位，SHA256 与设计文档逐条比对）；1.20.15: 列表三元素统一蓝框徽章（源/开发者/发布者）、详情页源图标统一小地球、搜索栏后常显应用数、自动监测折叠钮统一；1.20.15c: 端口/服务登记 DB 同步修复（真实库 appcenter）、向导 tips 移到输入框下方；1.20.11: 官方源显示名/行列表源→开发者→发布者一行可点筛选/FPK 下载目录独立卡；1.20.10: 源/开发者/发布者徽章 + FPK 已安装判定（清单 appname + 三源并集）、官方 355 徽章；1.20.8: 设置页六项改造（160px 左栏/FPK 下载目录+已下载列表/悬浮保存 dock/应用源自动监测独立栏/URL 点击复制）；1.20.7: FPK 下载修复（后端下载 + 应用中心官方 file 通道）、源折叠/每源开关/自动监测 UI；1.20.6: 设置页简化（账号预填/说明文案/高级折叠区）。当前仅发布 x86 版，arm64 测试中。",
+    "size": "7.31",
+    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.21.1/new-store_1.21.1_x86.fpk",
+    "changelog": "1.21.1: 「下载 fpk」改为服务端后台任务（关掉应用或详情页也不中断，进度可轮询、重开可见）；设置页下载列表新增后台下载区，下载中可「暂停」、已暂停可「继续」（.part Range 断点续传），详情页下载按钮三态联动；通知栏移到顶部居中、4 秒自动收起；新增 /api/apps/{appname}/task/pause 与 /task/resume；修复任务系统自死锁（持锁再取非重入锁）与重启后通知栏永久刷旧任务；go test -race 全绿。；1.20.16: 图标更换 CS-3D A70「柔光」卡片堆叠方案（折叠间距 0.070，2048 母版 + 四档槽位，SHA256 与设计文档逐条比对）；1.20.15: 列表三元素统一蓝框徽章（源/开发者/发布者）、详情页源图标统一小地球、搜索栏后常显应用数、自动监测折叠钮统一；1.20.15c: 端口/服务登记 DB 同步修复（真实库 appcenter）、向导 tips 移到输入框下方；1.20.11: 官方源显示名/行列表源→开发者→发布者一行可点筛选/FPK 下载目录独立卡；1.20.10: 源/开发者/发布者徽章 + FPK 已安装判定（清单 appname + 三源并集）、官方 355 徽章；1.20.8: 设置页六项改造（160px 左栏/FPK 下载目录+已下载列表/悬浮保存 dock/应用源自动监测独立栏/URL 点击复制）；1.20.7: FPK 下载修复（后端下载 + 应用中心官方 file 通道）、源折叠/每源开关/自动监测 UI；1.20.6: 设置页简化（账号预填/说明文案/高级折叠区）。当前仅发布 x86 版，arm64 测试中。",
     "icon_url": "./new-store/ICON.PNG",
     "readme_url": "./new-store/README.md",
     "preview_urls": [
@@ -235,14 +235,14 @@
     "homepage": "https://github.com/Blue-Mink/New-Store",
     "service_port": "38011",
     "releases": {
-      "1.20.16": {
-        "updated_at": "2026-09-20 11:10",
-        "changelog": "图标更换 CS-3D A70「柔光」卡片堆叠（G=0.070）：应用中心/桌面入口/README 四槽位替换，2048 母版 + 设计文档归档 docs/icon/；无功能变更（二进制/前端与 1.20.15 一致）。arm64 版测试中，本版仅 x86。",
+      "1.21.1": {
+        "updated_at": "2026-09-21 03:33",
+        "changelog": "1.21.1: 「下载 fpk」改为服务端后台任务（关掉应用或详情页也不中断，进度可轮询、重开可见）；设置页下载列表新增后台下载区，下载中可「暂停」、已暂停可「继续」（.part Range 断点续传），详情页下载按钮三态联动；通知栏移到顶部居中、4 秒自动收起；新增 /api/apps/{appname}/task/pause 与 /task/resume；修复任务系统自死锁（持锁再取非重入锁）与重启后通知栏永久刷旧任务；go test -race 全绿。",
         "packages": {
           "x86": {
-            "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.20.16/new-store_1.20.16_x86.fpk",
-            "sha256": "ed551b49a21b474d7136c66eec2ee1f18f362e0e020bf1af7470f801aea650cb",
-            "size": 7233071
+            "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.21.1/new-store_1.21.1_x86.fpk",
+            "sha256": "4c8fd287be455fe926f38be7ad18dc4940c6328d9bdd0aa312a9ace7d4ecce5f",
+            "size": 7309412
           }
         }
       }

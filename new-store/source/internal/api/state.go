@@ -153,6 +153,9 @@ func (s *Server) refreshRegistry(ctx context.Context) error {
 	_ = s.refreshRecommended(ctx)
 
 	s.refreshRuntimeStatus()
+	// 目录定稿（含运行时状态对账/本地应用并入）→ 代次 +1，
+	// /api/apps 响应缓存据此失效并按需重建。
+	s.bumpCatalogGen()
 	return fetchErr
 }
 

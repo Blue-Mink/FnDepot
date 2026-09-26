@@ -39,6 +39,8 @@ type settingsResponse struct {
 	// FPK 下载目录 + 应用源自动监测
 	DownloadDir            string `json:"download_dir"`
 	SourceAutoCareDisabled bool   `json:"source_auto_care_disabled"`
+	// 自动更新应用（周期检查发现更新时后台自动安装，无需打开应用）
+	AutoUpdate bool `json:"auto_update"`
 	// 官方应用中心直连（面板账号）；密码不回传，仅表示是否已设置
 	PanelEnabled   bool   `json:"panel_enabled"`
 	PanelUsername  string `json:"panel_username,omitempty"`
@@ -59,6 +61,8 @@ type settingsRequest struct {
 	// FPK 下载目录（空 = 保持默认）+ 应用源自动监测开关
 	DownloadDir            string `json:"download_dir"`
 	SourceAutoCareDisabled bool   `json:"source_auto_care_disabled"`
+	// 自动更新应用开关
+	AutoUpdate bool `json:"auto_update"`
 	// 官方应用中心直连（密码空 = 保持原值；显式清空用 PanelClearPassword）
 	PanelEnabled         bool   `json:"panel_enabled"`
 	PanelUsername        string `json:"panel_username"`
@@ -115,6 +119,7 @@ func (s *Server) handleGetSettings(w http.ResponseWriter, _ *http.Request) {
 		SourceListDisabled:  cfg.SourceListDisabled,
 		DownloadDir:         s.pipeline.downloads.DownloadDir(),
 		SourceAutoCareDisabled: cfg.SourceAutoCareDisabled,
+		AutoUpdate:          cfg.AutoUpdate,
 		PanelEnabled:        cfg.PanelEnabled,
 		PanelUsername:       cfg.PanelUsername,
 		PanelBaseURL:        cfg.PanelBaseURL,
@@ -167,6 +172,7 @@ func (s *Server) handlePutSettings(w http.ResponseWriter, r *http.Request) {
 		SourceListDisabled: req.SourceListDisabled,
 		DownloadDir:        strings.TrimSpace(req.DownloadDir),
 		SourceAutoCareDisabled: req.SourceAutoCareDisabled,
+		AutoUpdate:       req.AutoUpdate,
 		PanelEnabled:       req.PanelEnabled,
 		PanelUsername:      strings.TrimSpace(req.PanelUsername),
 		PanelPassword:      panelPassword,
@@ -210,6 +216,7 @@ func (s *Server) handlePutSettings(w http.ResponseWriter, r *http.Request) {
 		SourceListDisabled:  cfg.SourceListDisabled,
 		DownloadDir:         s.pipeline.downloads.DownloadDir(),
 		SourceAutoCareDisabled: cfg.SourceAutoCareDisabled,
+		AutoUpdate:          cfg.AutoUpdate,
 		PanelEnabled:        cfg.PanelEnabled,
 		PanelUsername:       cfg.PanelUsername,
 		PanelBaseURL:        cfg.PanelBaseURL,

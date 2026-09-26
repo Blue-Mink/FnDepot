@@ -173,7 +173,7 @@ func dockerPrefixMultiRegistry(prefix string) bool {
 // denials advance with an SSE notice, fatal local errors abort immediately.
 // It returns the ref that pulled successfully so the caller can tag it back
 // onto the compose ref, or ONE aggregated error naming every source tried.
-func (p *installPipeline) pullImageWithFallback(ctx context.Context, stream *sseStream, candidates []string, message string) (string, error) {
+func (p *installPipeline) pullImageWithFallback(ctx context.Context, stream pipelineSink, candidates []string, message string) (string, error) {
 	attempts := make([]string, 0, len(candidates))
 	for i, ref := range candidates {
 		if i > 0 {

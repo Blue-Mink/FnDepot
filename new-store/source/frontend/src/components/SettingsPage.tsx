@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
-import { fetchSettings, updateSettings, fetchStoreUpdate, checkMirrors, fetchMirrorHealth, fetchDockerMirrorHealth, testPanelLogin, fetchFpkDownloads, deleteFpkDownload, installFpkDownload, type MirrorOption, type MirrorCheckResult, type VolumeOption, type MirrorHealth, type FpkDownloadFile } from '../api/client';
+import { fetchSettings, updateSettings, fetchStoreUpdate, checkMirrors, fetchMirrorHealth, fetchDockerMirrorHealth, testPanelLogin, fetchFpkDownloads, deleteFpkDownload, installFpkDownload, fetchTasks, pauseDownload, resumeDownload, type MirrorOption, type MirrorCheckResult, type VolumeOption, type MirrorHealth, type FpkDownloadFile, type BackgroundTask } from '../api/client';
 import type { StoreUpdateInfo } from '../api/client';
 import {
   Dialog,
@@ -18,7 +18,8 @@ import { Input } from "@/components/ui/input"
 import { Separator } from "@/components/ui/separator"
 import { Badge } from "@/components/ui/badge"
 import { Switch } from "@/components/ui/switch"
-import { ArrowLeft, ChevronDown, Database, FolderDown, Loader2, RefreshCw, SlidersHorizontal, Trash2, Zap } from 'lucide-react'
+import { Progress } from "@/components/ui/progress"
+import { ArrowLeft, ChevronDown, Database, Download, FolderDown, Loader2, Pause, Play, RefreshCw, SlidersHorizontal, Trash2, Zap } from 'lucide-react'
 import { toast } from 'sonner'
 import { cn } from "@/lib/utils"
 import SourceManager from './SourceManager'
@@ -77,8 +78,10 @@ const MirrorHealthPanel: React.FC<{
 }> = ({ title, health, options, customConfigured, labelOf, refreshing, onRefresh }) => {
   const [collapsed, setCollapsed] = React.useState<boolean>(() => {
     try {
-      return localStorage.getItem(`health-panel-collapsed:${title}`) === 'true';
-    } catch { return false; }
+      // 默认折叠（无持久化记录时）；用户手动展开/折叠后按保存值
+      const v = localStorage.getItem(`health-panel-collapsed:${title}`);
+      return v === null ? true : v === 'true';
+    } catch { return true; }
   });
   const toggleCollapsed = () => {
     setCollapsed(prev => {
@@ -218,6 +221,8 @@ const SettingsPage: React.FC<SettingsPageProps> = ({
   const [customDockerMirror, setCustomDockerMirror] = useState<string>('');
   const [installVolume, setInstallVolume] = useState<number>(0);
   const [volumeOptions, setVolumeOptions] = useState<VolumeOption[]>([]);
+  // 自动更新应用（周期检查发现更新时后台自动安装，无需打开应用）
+  const [autoUpdate, setAutoUpdate] = useState<boolean>(false);
   // FPK 下载目录 + 已下载列表（设置页展示，可同步刷新）
   const [downloadDir, setDownloadDir] = useState<string>('');
   const [fpkFiles, setFpkFiles] = useState<FpkDownloadFile[]>([]);
@@ -226,7 +231,11 @@ const SettingsPage: React.FC<SettingsPageProps> = ({
   const [fpkRemoving, setFpkRemoving] = useState<string | null>(null);
   // 已下载列表折叠（本地持久化）
   const [fpkListCollapsed, setFpkListCollapsed] = useState<boolean>(() => {
-    try { return localStorage.getItem('fpk-list-collapsed') === '1'; } catch { return false; }
+    try {
+      // 默认折叠（无持久化记录时）；用户手动展开/折叠后按保存值
+      const v = localStorage.getItem('fpk-list-collapsed');
+      return v === null ? true : v === '1';
+    } catch { return true; }
   });
   const toggleFpkList = () => {
     setFpkListCollapsed((v) => {
@@ -326,6 +335,45 @@ const SettingsPage: React.FC<SettingsPageProps> = ({
         setFpkInstalling(null);
         setFpkInstallMsg('');
       });
+  };
+
+  // 后台下载列表（进行中的「下载 fpk」任务：可暂停/继续，参考官方下载中心）
+  const [dlTasks, setDlTasks] = useState<BackgroundTask[]>([]);
+  const [dlBusyApp, setDlBusyApp] = useState<string | null>(null);
+  const loadDlTasks = useCallback(async () => {
+    try {
+      const list = await fetchTasks();
+      // 只取「下载」类且未终态的任务（running/paused/queued）
+      setDlTasks(list.filter((t) => t.op === 'download' && t.status !== 'done' && t.status !== 'failed'));
+    } catch { /* 后端短暂不可用：保留上次值 */ }
+  }, []);
+  useEffect(() => {
+    loadDlTasks();
+    // window.setInterval：组件内 state setter 名为 setInterval，会遮蔽全局函数
+    const timer = window.setInterval(loadDlTasks, 3000);
+    return () => window.clearInterval(timer);
+  }, [loadDlTasks]);
+  const handleDlPause = async (appname: string) => {
+    if (dlBusyApp) return;
+    setDlBusyApp(appname);
+    try {
+      await pauseDownload(appname);
+      toast.success(`已暂停 ${appname} 下载`);
+      loadDlTasks();
+    } catch (e) {
+      toast.error(e instanceof Error ? e.message : '暂停失败');
+    } finally { setDlBusyApp(null); }
+  };
+  const handleDlResume = async (appname: string) => {
+    if (dlBusyApp) return;
+    setDlBusyApp(appname);
+    try {
+      await resumeDownload(appname);
+      toast.success(`继续下载 ${appname}`);
+      loadDlTasks();
+    } catch (e) {
+      toast.error(e instanceof Error ? e.message : '继续失败');
+    } finally { setDlBusyApp(null); }
   };
 
   // 加速源健康监测（智能监测 + 自动切换提示）
@@ -455,6 +503,7 @@ const SettingsPage: React.FC<SettingsPageProps> = ({
         setCustomDockerMirror(settings.custom_docker_mirror || '');
         setInstallVolume(settings.install_volume || 0);
         setVolumeOptions(settings.volume_options || []);
+        setAutoUpdate(!!settings.auto_update);
         setDownloadDir(settings.download_dir || '');
         setPanelEnabled(!!settings.panel_enabled);
         setPanelUsername(settings.panel_username || 'fnos');
@@ -555,6 +604,7 @@ const SettingsPage: React.FC<SettingsPageProps> = ({
         custom_github_mirror: customGithubMirror || undefined,
         custom_docker_mirror: customDockerMirror || undefined,
         install_volume: installVolume,
+        auto_update: autoUpdate,
         download_dir: downloadDir,
         panel_enabled: panelEnabled,
         panel_username: panelUsername,
@@ -697,6 +747,23 @@ const SettingsPage: React.FC<SettingsPageProps> = ({
 
                 </div>
 
+                {/* 自动更新应用（安装位置下方小卡片：周期检查时后台自动检测+安装，
+                    无需打开应用；排除已忽略应用与商店自身） */}
+                <div className="bg-card rounded-[18px] border border-border/20 shadow-appstore px-4 py-3.5">
+                  <div className="flex items-center justify-between gap-3">
+                    <div className="space-y-0.5">
+                      <label className="text-sm font-medium leading-none flex items-center gap-1.5">
+                        <Zap className="h-3.5 w-3.5 text-muted-foreground" />
+                        自动更新应用
+                      </label>
+                      <p className="text-xs text-muted-foreground">
+                        周期检查时自动在后台检测并安装更新，无需打开应用
+                      </p>
+                    </div>
+                    <Switch checked={autoUpdate} onCheckedChange={setAutoUpdate} />
+                  </div>
+                </div>
+
                 {/* FPK 下载目录 + 已下载列表（独立卡片，不与常规设置混在一起） */}
                 <div className="bg-card rounded-[18px] border border-border/20 shadow-appstore px-4 py-4">
                   <div className="space-y-2">
@@ -746,6 +813,53 @@ const SettingsPage: React.FC<SettingsPageProps> = ({
                     <p className="text-xs text-muted-foreground">
                       安装/更新与「下载 fpk」的 FPK 都缓存在此目录，已下载列表可在这里查看与管理
                     </p>
+                    {/* 后台下载（进行中/已暂停）：下载可暂停/继续（按钮与安装同款，下载中显示「暂停」） */}
+                    {dlTasks.length > 0 && (
+                      <div className="rounded-lg border border-blue-500/30 bg-blue-500/5 divide-y divide-border/40">
+                        {dlTasks.map((t) => {
+                          const paused = t.status === 'paused';
+                          const pct = t.total && t.total > 0 && t.downloaded != null
+                            ? Math.min(100, Math.round((t.downloaded / t.total) * 100))
+                            : 0;
+                          return (
+                            <div key={t.appname} className="px-3 py-2">
+                              <div className="flex items-center gap-2">
+                                <div className="min-w-0 flex-1">
+                                  <div className="flex items-center gap-1.5">
+                                    {paused ? (
+                                      <Pause className="h-3 w-3 text-amber-500 shrink-0" />
+                                    ) : (
+                                      <Download className="h-3 w-3 text-blue-500 animate-pulse shrink-0" />
+                                    )}
+                                    <span className="truncate text-xs font-medium" title={t.appname}>
+                                      {t.appname}
+                                    </span>
+                                  </div>
+                                  <div className="text-[11px] text-muted-foreground">
+                                    {paused ? '已暂停 · 可从断点继续' : `正在下载 ${pct}%`}
+                                  </div>
+                                </div>
+                                <Button
+                                  variant="ghost"
+                                  size="sm"
+                                  className="h-6 shrink-0 px-2 text-xs text-primary hover:bg-primary/10"
+                                  onClick={() => (paused ? handleDlResume(t.appname) : handleDlPause(t.appname))}
+                                  disabled={dlBusyApp !== null}
+                                  title={paused ? '继续下载（断点续传）' : '暂停下载'}
+                                >
+                                  {paused ? (
+                                    <><Play className="mr-0.5 h-3 w-3" />继续</>
+                                  ) : (
+                                    <><Pause className="mr-0.5 h-3 w-3" />暂停</>
+                                  )}
+                                </Button>
+                              </div>
+                              {!paused && <Progress value={pct} className="mt-1.5 h-1.5 w-full" />}
+                            </div>
+                          );
+                        })}
+                      </div>
+                    )}
                     {fpkFiles.length > 0 && (fpkListCollapsed ? (
                       <button
                         type="button"

@@ -1,27 +1,33 @@
-import React, { useState, useEffect, useCallback, useRef, useMemo } from 'react';
+import React, { useState, useEffect, useCallback, useRef, useMemo, Suspense } from 'react';
 import { useDebouncedValue, useKeyboardDock } from './lib/hooks';
-import { LayoutGrid, CheckCircle2, RefreshCw, Settings, MessageCircle, ChevronsLeft, ChevronsRight, Search, X, Film, ArrowDownToLine, BookOpen, Wrench, Globe, Loader2, CircleX, CircleCheck, WifiOff, ExternalLink, Package, Compass, Brain, Clapperboard, Network, ChevronsUpDown, Check, ChevronDown } from 'lucide-react';
+import { LayoutGrid, CheckCircle2, RefreshCw, Settings, MessageCircle, ChevronsLeft, ChevronsRight, Search, X, Film, ArrowDownToLine, BookOpen, Wrench, Globe, Loader2, CircleX, CircleCheck, WifiOff, ExternalLink, Compass, Brain, Clapperboard, Network, ChevronsUpDown, Check, ChevronDown } from 'lucide-react';
 import { Button } from './components/ui/button';
 import { Input } from './components/ui/input';
 import { Badge } from './components/ui/badge';
 import AppList from './components/AppList';
-import AppDetailDialog from './components/AppDetailDialog';
+import AppIcon from './components/AppIcon';
 import ProgressOverlay from './components/ProgressOverlay';
-import SettingsPage from './components/SettingsPage';
-import WizardDialog from './components/WizardDialog';
+import BackgroundTasksIndicator from './components/BackgroundTasksIndicator';
 import RecommendedAppCard from './components/RecommendedAppCard';
 import FeaturedShowcase from './components/FeaturedShowcase';
+// 重型对话框懒加载：首屏 bundle 只保留列表/导航核心，设置页(1089行)/详情
+// (975行，含 SourceManager)/向导/面板安装/失败报告按需下载（LAN 内瞬时），
+// 首屏 JS 解析编译时间减半（对齐参照实现的轻量首屏）。
+const AppDetailDialog = React.lazy(() => import('./components/AppDetailDialog'));
+const SettingsPage = React.lazy(() => import('./components/SettingsPage'));
+const WizardDialog = React.lazy(() => import('./components/WizardDialog'));
 import ThemeToggle from './components/ThemeToggle';
 import MobileDock from './components/MobileDock';
 import AppRowList from './components/AppRowList';
 import { fetchApps, triggerCheck, installApp, updateApp, uninstallApp, fetchStatus, fetchStoreUpdate, triggerStoreUpdate, reloadApps, ignoreUpdate, unignoreUpdate, fetchRecommended, fetchWizard, controlApp, appWebUrl, fetchPanelDetail, sourceLabel, effectiveMaintainer } from './api/client';
-import PanelInstallDialog from './components/PanelInstallDialog';
 import { connectFnOSBridge, openAppInShell } from './lib/fnos-bridge';
 import { alphaInitial } from './lib/pinyin';
 import type { AppInfo, AppOperation, SSECallback, RecommendedApp, AppWizard, WizardParam, PanelDetailResponse, PanelInstallParams } from './api/client';
 import { toast } from "sonner"
 import { Toaster } from "@/components/ui/sonner"
-import { ReportFailureDialog } from './components/ReportFailureDialog';
+// 重型对话框懒加载（见上方说明）：按需分包，首屏只加载列表/导航核心。
+const PanelInstallDialog = React.lazy(() => import('./components/PanelInstallDialog'));
+const ReportFailureDialog = React.lazy(() => import('./components/ReportFailureDialog').then(m => ({ default: m.ReportFailureDialog })));
 import {
   Dialog,
   DialogContent,
@@ -1445,15 +1451,21 @@ const App: React.FC = () => {
           total={selfUpdateState.total}
         />
       )}
-      
-      <SettingsPage
-        open={settingsVisible}
-        onOpenChange={setSettingsVisible}
-        onStoreUpdate={handleStoreUpdate}
-        onCatalogChanged={() => setTimeout(() => loadApps(), 2500)}
-      />
+
+      {/* 后台任务进度（退出应用后继续跑的安装/更新，轮询展示） */}
+      <BackgroundTasksIndicator />
+
+      <Suspense fallback={null}>
+        <SettingsPage
+          open={settingsVisible}
+          onOpenChange={setSettingsVisible}
+          onStoreUpdate={handleStoreUpdate}
+          onCatalogChanged={() => setTimeout(() => loadApps(), 2500)}
+        />
+      </Suspense>
 
       {wizardApp && (
+        <Suspense fallback={null}>
         <WizardDialog
           appDisplayName={wizardApp.display_name}
           wizard={wizardDef}
@@ -1474,9 +1486,11 @@ const App: React.FC = () => {
             void runInstall(app, params, panelParams ?? undefined);
           }}
         />
+        </Suspense>
       )}
 
       {panelApp && panelDetail && (
+        <Suspense fallback={null}>
         <PanelInstallDialog
           detail={panelDetail}
           loading={panelLoading}
@@ -1517,8 +1531,9 @@ const App: React.FC = () => {
               });
           }}
         />
+        </Suspense>
       )}
-      
+
       <AlertDialog open={!!pendingUninstallApp} onOpenChange={(open) => !open && setPendingUninstallApp(null)}>
         <AlertDialogContent>
           <AlertDialogHeader>
@@ -1536,41 +1551,37 @@ const App: React.FC = () => {
         </AlertDialogContent>
       </AlertDialog>
 
-      <AppDetailDialog
-        app={detailApp}
-        open={!!detailApp}
-        onOpenChange={(open) => !open && setDetailApp(null)}
-        onInstall={handleInstall}
-        onUpdate={handleUpdate}
-        onIgnoreUpdate={handleIgnoreUpdate}
-        onUnignoreUpdate={handleUnignoreUpdate}
-        onUninstall={handleUninstall}
-        operation={detailApp ? appOperations.get(detailApp.appname) : undefined}
-        onSourceFilter={applyTextFilter}
-        onAuthorFilter={applyTextFilter}
-        onDistributorFilter={applyTextFilter}
-        activeTerms={activeSearchTerms}
-        onOpenApp={handleOpenApp}
-        onControl={handleControl}
-        controlling={controlling}
-      />
+      <Suspense fallback={null}>
+        <AppDetailDialog
+          app={detailApp}
+          open={!!detailApp}
+          onOpenChange={(open) => !open && setDetailApp(null)}
+          onInstall={handleInstall}
+          onUpdate={handleUpdate}
+          onIgnoreUpdate={handleIgnoreUpdate}
+          onUnignoreUpdate={handleUnignoreUpdate}
+          onUninstall={handleUninstall}
+          operation={detailApp ? appOperations.get(detailApp.appname) : undefined}
+          onSourceFilter={applyTextFilter}
+          onAuthorFilter={applyTextFilter}
+          onDistributorFilter={applyTextFilter}
+          activeTerms={activeSearchTerms}
+          onOpenApp={handleOpenApp}
+          onControl={handleControl}
+          controlling={controlling}
+        />
+      </Suspense>
 
       {successInfo && (
         <Dialog open={!!successInfo} onOpenChange={(open) => !open && setSuccessInfo(null)}>
           <DialogContent className="sm:max-w-sm rounded-[18px] border-border/20 shadow-appstore bg-card">
             <DialogHeader>
               <div className="flex items-center gap-3">
-                {successInfo.app.icon_url ? (
-                  <img
-                    src={successInfo.app.icon_url}
-                    alt={successInfo.app.display_name}
-                    className="w-12 h-12 rounded-xl object-cover bg-background dark:bg-muted/60 dark:ring-1 dark:ring-border/50 shrink-0"
-                  />
-                ) : (
-                  <div className="w-12 h-12 bg-muted/60 rounded-xl flex items-center justify-center text-muted-foreground shrink-0">
-                    <Package className="h-6 w-6 opacity-40" />
-                  </div>
-                )}
+                <AppIcon
+                  app={successInfo.app}
+                  className="w-12 h-12 rounded-xl shrink-0"
+                  iconClassName="h-6 w-6"
+                />
                 <div className="flex-1 min-w-0">
                   <DialogTitle className="text-base">{successInfo.app.display_name}</DialogTitle>
                   <div className="flex items-center gap-1.5 mt-1">
@@ -1616,13 +1627,15 @@ const App: React.FC = () => {
         </Dialog>
       )}
 
-      <ReportFailureDialog
-        open={!!reportTarget}
-        onClose={() => setReportTarget(null)}
-        app={reportTarget?.app || ''}
-        step={reportTarget?.step || ''}
-        errorMessage={reportTarget?.error || ''}
-      />
+      <Suspense fallback={null}>
+        <ReportFailureDialog
+          open={!!reportTarget}
+          onClose={() => setReportTarget(null)}
+          app={reportTarget?.app || ''}
+          step={reportTarget?.step || ''}
+          errorMessage={reportTarget?.error || ''}
+        />
+      </Suspense>
       <Toaster />
     </div>
   );

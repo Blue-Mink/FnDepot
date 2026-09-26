@@ -3,6 +3,7 @@ import type { AppInfo } from '../api/client';
 import { availableVersionLabel, appDownloadLabel, descriptionPlainText } from '../api/client';
 import { cn } from '../lib/utils';
 import { ChevronRight, Flame, Clock } from 'lucide-react';
+import AppIcon from './AppIcon';
 
 interface FeaturedShowcaseProps {
   apps: AppInfo[];
@@ -26,13 +27,8 @@ const HeroBanner: React.FC<{ app: AppInfo; className?: string; onDetail: (a: App
     )}
   >
     <div className="flex items-start gap-4">
-      {app.icon_url ? (
-        <img src={app.icon_url} alt="" className="h-16 w-16 squircle object-cover shadow-lg" />
-      ) : (
-        <div className="h-16 w-16 squircle bg-white/25 flex items-center justify-center">
-          <span className="text-xl font-bold">{(app.display_name || '?').charAt(0)}</span>
-        </div>
-      )}
+      {/* 统一走 AppIcon（外部源经本地代理+磁盘缓存，直连 raw 在国内不可靠） */}
+      <AppIcon app={app} className="h-16 w-16 shadow-lg" iconClassName="h-8 w-8" />
       <div className="min-w-0 pt-1">
         <p className="text-[11px] font-medium uppercase tracking-widest text-white/70">推荐</p>
         <h3 className="mt-1 text-xl font-bold leading-tight truncate">{app.display_name}</h3>
@@ -50,17 +46,11 @@ const RowCard: React.FC<{ app: AppInfo; onDetail: (a: AppInfo) => void }> = ({ a
     onClick={() => onDetail(app)}
     className="group w-[104px] shrink-0 text-left focus-visible:outline-none"
   >
-    {app.icon_url ? (
-      <img
-        src={app.icon_url}
-        alt=""
-        className="h-[72px] w-[72px] squircle object-cover shadow-[0_2px_8px_rgb(0_0_0/0.10)] transition-transform duration-200 group-hover:scale-105 group-focus-visible:ring-2 group-focus-visible:ring-primary"
-      />
-    ) : (
-      <div className="h-[72px] w-[72px] squircle bg-muted/70 flex items-center justify-center text-2xl font-bold text-muted-foreground">
-        {(app.display_name || '?').charAt(0)}
-      </div>
-    )}
+    <AppIcon
+      app={app}
+      className="h-[72px] w-[72px] shadow-[0_2px_8px_rgb(0_0_0/0.10)]"
+      iconClassName="h-9 w-9"
+    />
     <p className="mt-2 text-[13px] font-medium leading-tight truncate">{app.display_name}</p>
     <p className="mt-0.5 text-[11px] text-muted-foreground truncate">
       {appDownloadLabel(app) ?? `v${availableVersionLabel(app)}`}
@@ -75,13 +65,11 @@ const RowCard: React.FC<{ app: AppInfo; onDetail: (a: AppInfo) => void }> = ({ a
  * 且容器不带 overflow-hidden，避免与 e2e 的 cardFor() 选择器冲突。
  */
 const FeaturedShowcase: React.FC<FeaturedShowcaseProps> = ({ apps, onDetail }) => {
-  // 编辑推荐：从整个目录随机挑 3 款（优先带图标的，保证横幅视觉质量；
-  // 图标不足 3 个时退回全量池）。同一份目录内结果保持稳定（useMemo 只
-  // 依赖 apps），刷新页面后重新洗牌。
+  // 编辑推荐：从整个目录随机挑 3 款。图标统一由 AppIcon 渲染（外部源
+  // 经本地代理+磁盘缓存，缺失时占位兜底），不再按 icon_url 过滤候选。
+  // 同一份目录内结果保持稳定（useMemo 只依赖 apps），刷新后重新洗牌。
   const featured = useMemo(() => {
-    const withIcon = apps.filter(a => a.icon_url);
-    const pool = withIcon.length >= 3 ? withIcon : apps;
-    const arr = [...pool];
+    const arr = [...apps];
     const out: AppInfo[] = [];
     while (out.length < 3 && arr.length > 0) {
       const j = Math.floor(Math.random() * arr.length);
@@ -102,7 +90,8 @@ const FeaturedShowcase: React.FC<FeaturedShowcaseProps> = ({ apps, onDetail }) =
 
   return (
     <div className="space-y-8">
-      {/* 横幅区：首张占两列；3 张时第三张独占整行（桌面端避免单独一格留两空格） */}
+      {/* 横幅区：首张占两列；3 张时第三张占右两列（col-start-2 错位），
+          与首行 [2+1] 镜像成 [1空+2] 的锯齿布局，避免整行拉伸留大片空白 */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {featured.map((app, i) => (
           <HeroBanner
@@ -112,7 +101,7 @@ const FeaturedShowcase: React.FC<FeaturedShowcaseProps> = ({ apps, onDetail }) =
             className={cn(
               GRADIENTS[i % GRADIENTS.length],
               i === 0 && 'md:col-span-2',
-              featured.length === 3 && i === 2 && 'md:col-span-3'
+              featured.length === 3 && i === 2 && 'md:col-span-2 md:col-start-2'
             )}
           />
         ))}

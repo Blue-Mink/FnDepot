@@ -23,9 +23,14 @@ type Stat struct {
 	Key         string    `json:"key"`
 	Label       string    `json:"label"`
 	LatencyMs   int       `json:"latency_ms"`
-	Status      string    `json:"status"` // "ok" | "fail" | "" (未探测)
-	LastCheck   time.Time `json:"last_check"`
-	ConsecFails int       `json:"consec_fails"`
+	// ThroughputBps 是探测时实测的下载吞吐（字节/秒）。
+	// 只测建连延迟会误选「低延迟但低带宽」的源（实测 gh-proxy.org 延迟
+	// 563ms 却被选为 auto 首选，下载却只有 31KB/s，比 cdn.gh-proxy.org
+	// 的 6.5MB/s 慢 ~200 倍）。排序改为吞吐优先、延迟次之。0 = 未测得。
+	ThroughputBps int       `json:"throughput_bps"`
+	Status        string    `json:"status"` // "ok" | "fail" | "" (未探测)
+	LastCheck     time.Time `json:"last_check"`
+	ConsecFails   int       `json:"consec_fails"`
 }
 
 // SwitchInfo 记录最近一次「自动切换到稳定源」。
@@ -47,9 +52,10 @@ func New() *Monitor {
 	return &Monitor{stats: make(map[string]*Stat)}
 }
 
-// Record 写入一次测量结果。ok=true 重置连续失败计数并记录延迟；
+// Record 写入一次测量结果。ok=true 重置连续失败计数并记录延迟+吞吐；
 // ok=false（超时/错误/HTTP>=400）累加连续失败计数。
-func (m *Monitor) Record(key, label string, ok bool, latencyMs int) {
+// throughputBps 传 0 表示未测得吞吐（如 Docker registry ping 只测存活/延迟）。
+func (m *Monitor) Record(key, label string, ok bool, latencyMs, throughputBps int) {
 	m.mu.Lock()
 	defer m.mu.Unlock()
 	st := m.stats[key]
@@ -65,11 +71,13 @@ func (m *Monitor) Record(key, label string, ok bool, latencyMs int) {
 	if ok {
 		st.Status = "ok"
 		st.LatencyMs = latencyMs
+		st.ThroughputBps = throughputBps
 		st.ConsecFails = 0
 	} else {
 		if latencyMs > 0 {
 			st.LatencyMs = latencyMs
 		}
+		st.ThroughputBps = 0
 		st.Status = "fail"
 		st.ConsecFails++
 	}
@@ -143,6 +151,7 @@ func (m *Monitor) Rank(keys []string) []string {
 		tier  int // 0=ok 1=未探测 2=fail
 		fails int
 		lat   int
+		tp    int // 吞吐 B/s（0 = 未测得，按最低处理）
 		idx   int
 	}
 	items := make([]item, 0, len(keys))
@@ -156,6 +165,7 @@ func (m *Monitor) Rank(keys []string) []string {
 			}
 			it.fails = st.ConsecFails
 			it.lat = st.LatencyMs
+			it.tp = st.ThroughputBps
 		}
 		items = append(items, it)
 	}
@@ -166,6 +176,11 @@ func (m *Monitor) Rank(keys []string) []string {
 		if items[a].fails != items[b].fails {
 			return items[a].fails < items[b].fails
 		}
+		// 吞吐优先（高者靠前；0=未测得按最低）。Docker 全 0 → 退化为延迟序。
+		if items[a].tp != items[b].tp {
+			return items[a].tp > items[b].tp
+		}
+		// 同吞吐（含都未测得）→ 延迟低者靠前。
 		if items[a].lat != items[b].lat {
 			return items[a].lat < items[b].lat
 		}
@@ -178,18 +193,22 @@ func (m *Monitor) Rank(keys []string) []string {
 	return out
 }
 
-// BestStable 返回当前探测成功且延迟最低的镜像 key。
+// BestStable 返回当前探测成功且吞吐最高（同吞吐取延迟最低）的镜像 key。
+// 与 Rank 的排序一致：Rank()[0] 即 BestStable。
 func (m *Monitor) BestStable() (string, bool) {
 	m.mu.RLock()
 	defer m.mu.RUnlock()
-	bestKey, bestLat := "", 0
+	bestKey := ""
+	bestTP, bestLat := 0, 0
 	found := false
 	for _, st := range m.stats {
 		if st.Status != "ok" {
 			continue
 		}
-		if !found || st.LatencyMs < bestLat {
-			bestKey, bestLat, found = st.Key, st.LatencyMs, true
+		if !found ||
+			st.ThroughputBps > bestTP ||
+			(st.ThroughputBps == bestTP && st.LatencyMs < bestLat) {
+			bestKey, bestTP, bestLat, found = st.Key, st.ThroughputBps, st.LatencyMs, true
 		}
 	}
 	return bestKey, found

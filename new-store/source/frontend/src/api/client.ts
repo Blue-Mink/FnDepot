@@ -179,6 +179,18 @@ export const fetchApps = async (): Promise<AppsResponse> => {
   return response.json();
 };
 
+/**
+ * 单应用完整详情。列表载荷为瘦身省略了 changelog/homepage/release_url/
+ * sha256 与外部源 icon_url，详情弹窗打开后调本接口补齐（LAN 内几 KB，瞬时）。
+ */
+export const fetchAppDetail = async (key: string): Promise<AppInfo> => {
+  const response = await fetch(apiUrl(`/api/apps/${encodeURIComponent(key)}`));
+  if (!response.ok) {
+    throw new Error(`Failed to fetch app detail: ${response.statusText}`);
+  }
+  return response.json();
+};
+
 export const fetchRecommended = async (): Promise<RecommendedAppsResponse> => {
   const response = await fetch(apiUrl('/api/recommended'));
   if (!response.ok) {
@@ -460,6 +472,8 @@ export interface Settings {
   // FPK 下载目录 + 应用源自动监测（缺省 = 目录默认 / 监测开启）
   download_dir?: string;
   source_auto_care_disabled?: boolean;
+  // 自动更新应用（周期检查发现更新时后台自动安装，无需打开应用）
+  auto_update?: boolean;
   // 官方应用中心直连（面板账号）
   panel_enabled?: boolean;
   panel_username?: string;
@@ -775,7 +789,49 @@ export const fetchSettings = async (): Promise<Settings> => {
   return response.json();
 };
 
-export const updateSettings = async (settings: { check_interval_hours: number; mirror: string; docker_mirror: string; custom_github_mirror?: string; custom_docker_mirror?: string; install_volume: number; source_list_url?: string; source_list_disabled?: boolean; download_dir?: string; source_auto_care_disabled?: boolean; panel_enabled?: boolean; panel_username?: string; panel_password?: string; panel_base_url?: string; panel_clear_password?: boolean }): Promise<void> => {
+// 后台任务（安装/更新/下载在客户端断开后继续跑；轮询它看进度）
+export interface BackgroundTask {
+  appname: string;
+  op: string; // "install" | "update" | "download"
+  status: string; // "queued" | "running" | "paused" | "done" | "failed"
+  step?: string;
+  progress?: number;
+  message?: string;
+  new_version?: string;
+  downloaded?: number;
+  total?: number;
+  speed?: number;
+}
+
+export const fetchTasks = async (): Promise<BackgroundTask[]> => {
+  const response = await fetch(apiUrl('/api/tasks'));
+  if (!response.ok) {
+    throw new Error(`Failed to fetch tasks: ${response.statusText}`);
+  }
+  return response.json();
+};
+
+/** 暂停进行中的 FPK 下载（.part 保留，可继续；释放该应用的队列槽位）。 */
+export const pauseDownload = async (appname: string): Promise<void> => {
+  const response = await fetch(apiUrl(`/api/apps/${encodeURIComponent(appname)}/task/pause`), {
+    method: 'POST',
+  });
+  if (!response.ok) {
+    throw new Error(await extractError(response, `暂停下载失败: ${response.statusText}`));
+  }
+};
+
+/** 继续暂停的 FPK 下载（Range 续传；立即返回，进度走后台任务）。 */
+export const resumeDownload = async (appname: string): Promise<void> => {
+  const response = await fetch(apiUrl(`/api/apps/${encodeURIComponent(appname)}/task/resume`), {
+    method: 'POST',
+  });
+  if (!response.ok) {
+    throw new Error(await extractError(response, `继续下载失败: ${response.statusText}`));
+  }
+};
+
+export const updateSettings = async (settings: { check_interval_hours: number; mirror: string; docker_mirror: string; custom_github_mirror?: string; custom_docker_mirror?: string; install_volume: number; source_list_url?: string; source_list_disabled?: boolean; download_dir?: string; source_auto_care_disabled?: boolean; auto_update?: boolean; panel_enabled?: boolean; panel_username?: string; panel_password?: string; panel_base_url?: string; panel_clear_password?: boolean }): Promise<void> => {
   const response = await fetch(apiUrl('/api/settings'), {
     method: 'PUT',
     headers: {

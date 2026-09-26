@@ -20,17 +20,18 @@ const (
 	mirrorSwitchFails   = 3               // 选定源连续失败 N 次 → 自动切换到最稳定源
 )
 
-// defaultProbeFile 探测用公共 raw 文件（小、稳定、绝大多数镜像可达）。
-const defaultProbeFile = "https://raw.githubusercontent.com/710850609/FnDepot/main/repo_list.txt"
-
-// conversunProbeFile：conversun hub 只代理 conversun 自家仓库，用公共文件
-// 探测会 404 被误判为失败 —— 必须用 conversun 仓库自己的文件。
-const conversunProbeFile = "https://raw.githubusercontent.com/conversun/fnos-apps/HEAD/apps.json"
+// defaultProbeFile 探测用公共 raw 文件。
+//
+// 选 conversun/fnos-apps 的 apps.json（~121KB）而非旧的 repo_list.txt（3.6KB）：
+//   - 足够大 → 传输耗时占主导，配合「吞吐=字节/(总耗时−TTFB)」能实测出真实带宽
+//     （3.6KB 文件的传输是亚毫秒级，被 ~150ms 建连时间完全淹没，测不出吞吐）。
+//   - 所有镜像可达：通用镜像代理任意 raw.githubusercontent.com URL；conversun
+//     hub 只代理 conversun 自家仓库，而 fnos-apps 正是 conversun 的仓库。
+//   - 稳定：是应用目录的核心清单文件，只要仓库存在就在。
+const defaultProbeFile = "https://raw.githubusercontent.com/conversun/fnos-apps/HEAD/apps.json"
 
 func probeURLFor(m config.GitHubMirror) string {
-	if m.Key == "conversun" {
-		return m.URL + conversunProbeFile
-	}
+	// 统一探测文件（见 defaultProbeFile 说明）：通用镜像与 conversun hub 均可达。
 	return m.URL + defaultProbeFile
 }
 
@@ -194,7 +195,7 @@ func (s *Server) probeDockerMirrors() {
 	}
 	go func() { wg.Wait(); close(ch) }()
 	for r := range ch {
-		s.dockerMirrorMon.Record(r.key, r.label, r.ok, r.latency)
+		s.dockerMirrorMon.Record(r.key, r.label, r.ok, r.latency, 0) // Docker 只测存活/延迟
 	}
 	s.dockerMirrorMon.SetLastProbe(time.Now())
 	s.maybeAutoSwitchDocker()
@@ -304,6 +305,7 @@ func (s *Server) probeMirrors() {
 		key, label string
 		ok         bool
 		latency    int
+		tp         int // 实测吞吐 B/s（排序主指标）
 	}
 	mirrors := config.GitHubMirrorOptions()
 	if cfg := s.configMgr.Get(); cfg.CustomGitHubMirror != "" {
@@ -321,13 +323,13 @@ func (s *Server) probeMirrors() {
 		wg.Add(1)
 		go func(m config.GitHubMirror) {
 			defer wg.Done()
-			lat, status := checkURL(context.Background(), probeURLFor(m))
-			ch <- result{key: m.Key, label: m.Label, ok: status == "ok", latency: lat}
+			lat, tp, status := checkURLThroughput(context.Background(), probeURLFor(m))
+			ch <- result{key: m.Key, label: m.Label, ok: status == "ok", latency: lat, tp: tp}
 		}(m)
 	}
 	go func() { wg.Wait(); close(ch) }()
 	for r := range ch {
-		s.mirrorMon.Record(r.key, r.label, r.ok, r.latency)
+		s.mirrorMon.Record(r.key, r.label, r.ok, r.latency, r.tp)
 	}
 	s.mirrorMon.SetLastProbe(time.Now())
 	s.maybeAutoSwitch()

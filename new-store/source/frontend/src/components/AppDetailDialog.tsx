@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
 import type { AppInfo, AppOperation, PanelDetailResponse } from '../api/client';
-import { availableVersionLabel, installedVersionLabel, assetUrl, appWebUrl, fetchPanelDetail, downloadFpk, sourceLabel, effectiveMaintainer, descriptionPlainText } from '../api/client';
+import { availableVersionLabel, installedVersionLabel, assetUrl, appWebUrl, fetchPanelDetail, fetchAppDetail, downloadFpk, fetchTasks, pauseDownload, resumeDownload, sourceLabel, effectiveMaintainer, descriptionPlainText } from '../api/client';
 import { toast } from 'sonner';
 import { cn } from '@/lib/utils';
 import {
@@ -30,6 +30,7 @@ import {
   Bell,
   Loader2,
   Play,
+  Pause,
   Square,
   Trash2,
   User,
@@ -149,7 +150,21 @@ const sanitizeDescHtml = (html: string): string => {
   }
 };
 
-const AppDetailDialog: React.FC<AppDetailDialogProps> = ({ app, open, onOpenChange, onInstall, onUpdate, onIgnoreUpdate, onUnignoreUpdate, onUninstall, operation, onSourceFilter, onAuthorFilter, onDistributorFilter, activeTerms, onOpenApp, onControl, controlling }) => {
+const AppDetailDialog: React.FC<AppDetailDialogProps> = ({ app: propApp, open, onOpenChange, onInstall, onUpdate, onIgnoreUpdate, onUnignoreUpdate, onUninstall, operation, onSourceFilter, onAuthorFilter, onDistributorFilter, activeTerms, onOpenApp, onControl, controlling }) => {
+  // 列表载荷瘦身：changelog/homepage/release_url/sha256 与外部源 icon_url
+  // 不在列表里，打开详情后由 /api/apps/{key} 补齐（LAN 内几 KB 瞬时）。
+  // 接口未回前先以列表条目兜底渲染，回包后无缝升级为完整字段。
+  const [fullApp, setFullApp] = useState<AppInfo | null>(null);
+  useEffect(() => {
+    setFullApp(null);
+    if (!propApp?.key || !open) return;
+    let alive = true;
+    fetchAppDetail(propApp.key)
+      .then(d => { if (alive) setFullApp(d); })
+      .catch(() => { /* 兜底：继续用列表条目 */ });
+    return () => { alive = false; };
+  }, [propApp?.key, open]);
+  const app = fullApp ?? propApp;
   const [readme, setReadme] = useState<string | null>(null);
   const [readmeError, setReadmeError] = useState(false);
   // 官方应用（fnos-official）：列表条目不带描述/截图/发布者，打开详情时
@@ -160,12 +175,15 @@ const AppDetailDialog: React.FC<AppDetailDialogProps> = ({ app, open, onOpenChan
   const [lightboxLoading, setLightboxLoading] = useState(false);
   const [lightboxError, setLightboxError] = useState(false);
   const [lightboxRetry, setLightboxRetry] = useState(0);
-  // 「下载 fpk」：SSE 进度（后端下载 FPK 到本地缓存并登记面板官方下载通道）。
-  // 进度显示在按钮内（此版 sonner 无 toast.update）。
+  // 「下载 fpk」：后台任务 + SSE 实时视图。下载解耦到服务端后台，关闭详情页后
+  // 继续跑；可暂停/继续（.part 断点续传）。进度显示在按钮内。
   const [dlBusy, setDlBusy] = useState(false);
   const [dlPct, setDlPct] = useState<number | null>(null);
+  const [dlPaused, setDlPaused] = useState(false);
+  const sseActiveRef = useRef(false);
   const handleDownloadFpk = () => {
-    if (dlBusy || !app) return;
+    if (dlBusy || dlPaused || !app) return;
+    sseActiveRef.current = true;
     setDlBusy(true);
     setDlPct(null);
     let doneMsg = '';
@@ -177,8 +195,63 @@ const AppDetailDialog: React.FC<AppDetailDialogProps> = ({ app, open, onOpenChan
     }).promise
       .then(() => toast.success(doneMsg || 'FPK 下载完成'))
       .catch((e: unknown) => toast.error(e instanceof Error ? e.message : 'FPK 下载失败'))
-      .finally(() => { setDlBusy(false); setDlPct(null); });
+      .finally(() => { sseActiveRef.current = false; setDlBusy(false); setDlPct(null); });
   };
+  const handleDlPause = async () => {
+    if (!app) return;
+    try {
+      await pauseDownload(app.appname);
+      toast.success(`已暂停 ${app.appname} 下载`);
+      sseActiveRef.current = false;
+      setDlBusy(false);
+      setDlPaused(true);
+    } catch (e) {
+      toast.error(e instanceof Error ? e.message : '暂停失败');
+    }
+  };
+  const handleDlResume = async () => {
+    if (!app) return;
+    try {
+      await resumeDownload(app.appname);
+      toast.success(`继续下载 ${app.appname}`);
+      setDlPaused(false);
+      setDlBusy(true);
+      setDlPct(null);
+    } catch (e) {
+      toast.error(e instanceof Error ? e.message : '继续失败');
+    }
+  };
+  // 打开详情页时恢复后台下载任务状态（从别处/上次启动的下载），并跟踪暂停/进行
+  useEffect(() => {
+    if (!app) return;
+    const appname = app.appname;
+    let cancelled = false;
+    const poll = async () => {
+      try {
+        const list = await fetchTasks();
+        if (cancelled) return;
+        const t = list.find((x) => x.appname === appname && x.op === 'download');
+        if (t && (t.status === 'running' || t.status === 'queued')) {
+          setDlPaused(false);
+          setDlBusy(true);
+          if (t.total && t.total > 0 && typeof t.downloaded === 'number') {
+            setDlPct(Math.min(99, Math.round((t.downloaded / t.total) * 100)));
+          }
+        } else if (t && t.status === 'paused') {
+          setDlBusy(false);
+          setDlPaused(true);
+        } else if (!sseActiveRef.current) {
+          // 无进行中/暂停任务，且本页面未在流式下载 → 复位
+          setDlBusy(false);
+          setDlPaused(false);
+          setDlPct(null);
+        }
+      } catch { /* 忽略轮询错误 */ }
+    };
+    poll();
+    const timer = window.setInterval(poll, 3000);
+    return () => { cancelled = true; window.clearInterval(timer); };
+  }, [app]);
   // 灯箱换图动画方向：open=首次打开(缩放进入) / next / prev(左右滑入，消除生硬跳切)
   const [lightboxAnim, setLightboxAnim] = useState<'open' | 'next' | 'prev'>('open');
   // 预览轮播：当前可见图索引（按滚动位置更新，驱动圆点/计数/箭头）
@@ -419,11 +492,11 @@ const AppDetailDialog: React.FC<AppDetailDialogProps> = ({ app, open, onOpenChan
               {primaryPill}
               {!isOfficial && (
                 <Button
-                  onClick={handleDownloadFpk}
-                  disabled={dlBusy}
+                  onClick={() => (dlPaused ? handleDlResume() : dlBusy ? handleDlPause() : handleDownloadFpk())}
                   size="sm"
                   variant="ghost"
                   className="relative h-9 min-w-[96px] overflow-hidden px-3 text-[13px] font-medium text-muted-foreground hover:text-foreground rounded-full"
+                  title={dlBusy ? '暂停下载' : dlPaused ? '继续下载（断点续传）' : '下载 FPK 到本地缓存'}
                 >
                   {dlBusy && dlPct != null && (
                     <span
@@ -432,10 +505,13 @@ const AppDetailDialog: React.FC<AppDetailDialogProps> = ({ app, open, onOpenChan
                     />
                   )}
                   <span className="relative inline-flex items-center">
-                    {dlBusy
-                      ? <Loader2 className="mr-1 h-3.5 w-3.5 animate-spin" />
-                      : <Download className="mr-1 h-3.5 w-3.5" />}
-                    {dlBusy ? (dlPct != null ? `下载中 ${dlPct}%` : '下载中…') : '下载 fpk'}
+                    {dlBusy ? (
+                      <><Pause className="mr-1 h-3.5 w-3.5" />暂停</>
+                    ) : dlPaused ? (
+                      <><Play className="mr-1 h-3.5 w-3.5" />继续</>
+                    ) : (
+                      <><Download className="mr-1 h-3.5 w-3.5" />下载 fpk</>
+                    )}
                   </span>
                 </Button>
               )}

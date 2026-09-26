@@ -108,13 +108,17 @@ type fndepotAppEntry struct {
 	// V1 平铺单版本字段（旧格式源：无 schema_version、无 releases，
 	// 每个应用一个 version + download_url；分类用 labels 字符串，
 	// isdocker 为 "true"/"false" 字符串）。
-	Changelog   string `json:"changelog"`
-	Version     string `json:"version"`
-	Author      string `json:"author"`
-	AuthorURL   string `json:"author_url"`
-	DownloadURL string `json:"download_url"`
-	Labels      string `json:"labels"`
-	IsDockerV1  string `json:"isdocker"`
+	Changelog   fndepotFlexChangelog `json:"changelog"`
+	Version     string               `json:"version"`
+	Author      string               `json:"author"`
+	AuthorURL   string               `json:"author_url"`
+	DownloadURL string               `json:"download_url"`
+	Labels      fndepotFlexLabels    `json:"labels"`
+	IsDockerV1  fndepotFlexBool      `json:"isdocker"`
+
+	// arch_diff：旧格式变体源的按架构包映射（条目无顶层 download_url，
+	// 包地址按 x86/arm/all 分列在 arch_diff 里，如 DinDing1/FnDepot 的 MediaHub）。
+	ArchDiff map[string]fndepotPkg `json:"arch_diff"`
 }
 
 // parseV1Labels 把 V1 的 labels 字符串（"工具，娱乐" / "tools, ai"）拆成分类数组。
@@ -150,10 +154,100 @@ func (p *fndepotServicePort) UnmarshalJSON(b []byte) error {
 	return nil
 }
 
+// fndepotFlexBool 兼容布尔与字符串两种写法（社区源 isdocker 字段）。
+type fndepotFlexBool bool
+
+func (f *fndepotFlexBool) UnmarshalJSON(b []byte) error {
+	b = bytes.TrimSpace(b)
+	if len(b) == 0 || string(b) == "null" {
+		*f = false
+		return nil
+	}
+	if b[0] == '"' {
+		var s string
+		if err := json.Unmarshal(b, &s); err != nil {
+			return err
+		}
+		*f = fndepotFlexBool(strings.EqualFold(strings.TrimSpace(s), "true"))
+		return nil
+	}
+	*f = fndepotFlexBool(string(b) == "true")
+	return nil
+}
+
+// fndepotFlexLabels 兼容中文字符串与字符串数组两种写法（社区源 labels 字段）。
+type fndepotFlexLabels []string
+
+func (f *fndepotFlexLabels) UnmarshalJSON(b []byte) error {
+	b = bytes.TrimSpace(b)
+	if len(b) == 0 || string(b) == "null" {
+		*f = nil
+		return nil
+	}
+	if b[0] == '[' {
+		var arr []string
+		if err := json.Unmarshal(b, &arr); err != nil {
+			return err
+		}
+		*f = arr
+		return nil
+	}
+	var s string
+	if err := json.Unmarshal(b, &s); err != nil {
+		return err
+	}
+	*f = parseV1Labels(s)
+	return nil
+}
+
+// fndepotFlexChangelog 兼容字符串与 {版本: 文本} 对象两种写法
+// （社区源 changelog 字段，如 moxyis/FnDepot 用对象）。
+type fndepotFlexChangelog string
+
+func (f *fndepotFlexChangelog) UnmarshalJSON(b []byte) error {
+	b = bytes.TrimSpace(b)
+	if len(b) == 0 || string(b) == "null" {
+		*f = ""
+		return nil
+	}
+	if b[0] == '"' {
+		var s string
+		if err := json.Unmarshal(b, &s); err != nil {
+			return err
+		}
+		*f = fndepotFlexChangelog(s)
+		return nil
+	}
+	if b[0] == '{' {
+		var m map[string]string
+		if err := json.Unmarshal(b, &m); err != nil {
+			return err
+		}
+		keys := make([]string, 0, len(m))
+		for k := range m {
+			keys = append(keys, k)
+		}
+		sortByVersionDesc(keys)
+		for _, k := range keys {
+			if strings.TrimSpace(m[k]) != "" {
+				*f = fndepotFlexChangelog(m[k])
+				return nil
+			}
+		}
+		*f = ""
+		return nil
+	}
+	*f = ""
+	return nil
+}
+
 var (
 	githubRepoRE = regexp.MustCompile(`^https?://(?:www\.)?github\.com/([^/]+)/([^/?#]+)/?$`)
 	htmlTagRE    = regexp.MustCompile(`<[^>]+>`)
-	appnameRE    = regexp.MustCompile(`^[A-Za-z0-9][A-Za-z0-9._-]*$`)
+	// appnameRE：应用标识符安全门槛——拒绝含空格/斜杠的键（会破坏
+	// @appdata/@appcenter 路径与应用中心登记，如 "One Server"）；放行中文等
+	// Unicode 键（社区源真实存在，如 KKKK987/FnDepot 的 "小松鼠"）。
+	appnameRE = regexp.MustCompile(`^[^\s/]+$`)
 )
 
 func fndepotCurrentArch() string {
@@ -368,6 +462,23 @@ func (s *FNDepotSource) parse(body []byte, jsonURL string) error {
 	if len(appsMap) == 0 {
 		return fmt.Errorf("无法识别的源格式（需 FnDepot V1/V2 结构）")
 	}
+	// 防误判：至少一个条目带可安装包信息（download_url / releases / arch_diff），
+	// 或是 GitHub 仓库源里的 version 条目（仓库内 FPK 约定候选）——坏键宽容化后
+	// 仍要挡住把任意 JSON 字典当源加进来的情况。
+	hasPkg := false
+	for _, e := range appsMap {
+		if strings.TrimSpace(e.DownloadURL) != "" || len(e.Releases) > 0 || len(e.ArchDiff) > 0 {
+			hasPkg = true
+			break
+		}
+		if s.owner != "" && strings.TrimSpace(e.Version) != "" {
+			hasPkg = true
+			break
+		}
+	}
+	if !hasPkg {
+		return fmt.Errorf("无法识别的源格式（未找到可安装应用条目）")
+	}
 	_ = jsonURL
 	// V2 元信息
 	var v2 fndepotV2
@@ -412,6 +523,7 @@ func (s *FNDepotSource) FetchApps(ctx context.Context) ([]RemoteApp, error) {
 	candidates := s.fetchCandidates(s.jsonURL, s.fallbacks)
 	var lastErr error
 	var body []byte
+	var fetchedFrom string // 实际命中 200 的候选 URL（镜像前缀原样保留）
 	for _, candidate := range candidates {
 		cctx, cancel := context.WithTimeout(ctx, fetchCandidateTimeout)
 		req, err := http.NewRequestWithContext(cctx, "GET", candidate, nil)
@@ -442,16 +554,26 @@ func (s *FNDepotSource) FetchApps(ctx context.Context) ([]RemoteApp, error) {
 			continue
 		}
 		body = rb
+		fetchedFrom = candidate
 		break
 	}
 	if body == nil {
 		return nil, fmt.Errorf("源不可达: %w", lastErr)
 	}
 
+	// 仓库内 FPK 约定基址：去掉镜像前缀与 fnpack.json 后缀，得到裸
+	// raw.githubusercontent.com/.../<owner>/<repo>/<branch> 路径。仅
+	// GitHub raw 源可用（FNDepot 社区约定 <base>/<appname>/<appname>.fpk，
+	// 如 moxyis/FnDepot 的 fpk-* 系列）；安装期下载照常走镜像链。
+	conventionBase := ""
+	if i := strings.Index(fetchedFrom, "https://raw.githubusercontent.com"); i >= 0 {
+		conventionBase = strings.TrimSuffix(fetchedFrom[i:], "/fnpack.json")
+	}
+
 	appsMap, _ := decodeFndepotApps(body)
 	apps := make([]RemoteApp, 0, len(appsMap))
 	for appName, entry := range appsMap {
-		if ra, ok := translateFndepotApp(appName, entry, s.jsonURL, s.Name()); ok {
+		if ra, ok := translateFndepotApp(appName, entry, s.jsonURL, s.Name(), conventionBase); ok {
 			apps = append(apps, ra)
 		}
 	}
@@ -473,7 +595,10 @@ func decodeFndepotApps(body []byte) (map[string]fndepotAppEntry, bool) {
 	if err := json.Unmarshal(body, &v1); err == nil {
 		for k := range v1 {
 			if !appnameRE.MatchString(k) {
-				return map[string]fndepotAppEntry{}, false
+				// 坏键（含空格等）：只跳过该条目，不拒绝整份源——社区源里
+				// 合法条目与 "One Server" 这类坏键常并存（DinDing1/FnDepot
+				// 实测）。全坏的文件会在此清空 → 返回空 → 仍按无效源拒绝。
+				delete(v1, k)
 			}
 		}
 		return v1, false
@@ -513,8 +638,10 @@ type fndepotSelectedPkg struct {
 
 // translateFndepotApp 把单个 FnDepot 应用翻译成 RemoteApp。
 // 选择规则：当前架构包优先 → all 包；版本号取最高。
-// 同时支持 V2（releases 多版本）与 V1 平铺单版本（version + download_url）。
-func translateFndepotApp(appName string, entry fndepotAppEntry, baseURL, sourceName string) (RemoteApp, bool) {
+// 同时支持 V2（releases 多版本）、V1 平铺单版本（version + download_url）、
+// V1 arch_diff（按架构分列的 download_url）与仓库内 FPK 约定
+//（条目无任何下载字段时，GitHub 源按 <base>/<appname>/<appname>.fpk 构造）。
+func translateFndepotApp(appName string, entry fndepotAppEntry, baseURL, sourceName, conventionBase string) (RemoteApp, bool) {
 	if !appnameRE.MatchString(appName) {
 		return RemoteApp{}, false
 	}
@@ -562,6 +689,23 @@ func translateFndepotApp(appName string, entry fndepotAppEntry, baseURL, sourceN
 		if ver := strings.TrimSpace(entry.Version); ver != "" && strings.TrimSpace(entry.DownloadURL) != "" {
 			sel = fndepotSelectedPkg{version: ver, download: entry.DownloadURL}
 			ok = true
+		} else if ver := strings.TrimSpace(entry.Version); ver != "" && len(entry.ArchDiff) > 0 {
+			// arch_diff：旧格式变体源把 download_url 按 x86/arm/all 分列
+			// （如 DinDing1/FnDepot 的 MediaHub），选当前架构包。
+			pkg, found := entry.ArchDiff[current]
+			if !found {
+				pkg, found = entry.ArchDiff["all"]
+			}
+			if found && strings.TrimSpace(pkg.DownloadURL) != "" {
+				sel = fndepotSelectedPkg{version: ver, download: pkg.DownloadURL, sha256: pkg.SHA256, size: pkg.Size}
+				ok = true
+			}
+		} else if conventionBase != "" && strings.TrimSpace(entry.Version) != "" {
+			// 条目无任何下载字段：按 FNDepot 社区约定从仓库内取 FPK
+			// raw.../<owner>/<repo>/<branch>/<appname>/<appname>.fpk
+			// （moxyis/FnDepot 的 fpk-* 系列实测此布局）；下载侧走镜像链。
+			sel = fndepotSelectedPkg{version: strings.TrimSpace(entry.Version), download: conventionBase + "/" + appName + "/" + appName + ".fpk"}
+			ok = true
 		}
 		// 否则：无 releases 也无平铺包（如拆分模式 details_url）→ 暂不支持
 	}
@@ -583,14 +727,14 @@ func translateFndepotApp(appName string, entry fndepotAppEntry, baseURL, sourceN
 		}
 	}
 
-	// 分类：V2 categories 数组优先；V1 用 labels 字符串拆分。
+	// 分类：V2 categories 数组优先；V1 用 labels（字符串或数组，flex 已归一）。
 	cats := entry.Categories
-	if len(cats) == 0 && strings.TrimSpace(entry.Labels) != "" {
-		cats = parseV1Labels(entry.Labels)
+	if len(cats) == 0 && len(entry.Labels) > 0 {
+		cats = entry.Labels
 	}
 
-	// Docker：V2 is_docker 布尔；V1 isdocker 字符串 "true"/"false"。
-	isDocker := entry.IsDocker || strings.EqualFold(strings.TrimSpace(entry.IsDockerV1), "true")
+	// Docker：V2 is_docker 布尔；V1 isdocker（布尔或字符串，flex 已归一）。
+	isDocker := entry.IsDocker || bool(entry.IsDockerV1)
 
 	previewURLs := make([]string, 0, len(entry.PreviewURLs))
 	for _, p := range entry.PreviewURLs {
@@ -623,7 +767,7 @@ func translateFndepotApp(appName string, entry fndepotAppEntry, baseURL, sourceN
 		MaintainerURL:  strings.TrimSpace(firstNonEmpty(entry.MaintainerURL, entry.AuthorURL)),
 		Distributor:    strings.TrimSpace(entry.Distributor),
 		DistributorURL: strings.TrimSpace(entry.DistributorURL),
-		Changelog:      firstNonEmpty(sel.changelog, entry.Changelog),
+		Changelog:      firstNonEmpty(sel.changelog, string(entry.Changelog)),
 		SizeBytes:      sel.size,
 		SHA256:         strings.TrimSpace(sel.sha256),
 	}, true

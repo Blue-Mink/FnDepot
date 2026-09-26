@@ -11,6 +11,7 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
+	"strconv"
 	"strings"
 	"sync"
 	"syscall"
@@ -92,7 +93,10 @@ func (d *Downloader) CleanupStaleTmpFiles() error {
 		if entry.IsDir() {
 			continue
 		}
-		if !strings.HasSuffix(entry.Name(), ".fpk.tmp") {
+		// 兼容两种临时产物：旧的 .fpk.tmp（唯一临时文件）与断点续传的
+		// .part（确定性部分文件）。都按 mtime 判定（活跃下载 mtime 新鲜）。
+		name := entry.Name()
+		if !strings.HasSuffix(name, ".fpk.tmp") && !strings.HasSuffix(name, ".part") {
 			continue
 		}
 		info, err := entry.Info()
@@ -102,7 +106,7 @@ func (d *Downloader) CleanupStaleTmpFiles() error {
 		if time.Since(info.ModTime()) < staleTmpAge {
 			continue
 		}
-		_ = os.Remove(filepath.Join(d.dir(), entry.Name()))
+		_ = os.Remove(filepath.Join(d.dir(), name))
 	}
 	return nil
 }
@@ -141,30 +145,18 @@ func (d *Downloader) Download(ctx context.Context, req DownloadRequest, progress
 	}
 
 	var lastErr error
+	// 断点续传：确定性 .part 文件，跨镜像/重试复用。链上各 URL 是同一文件
+	// 的镜像（内容一致），故续传安全。单写者由上层队列保证（同一应用同时
+	// 只有一个安装/更新操作），不会被第二方删除（conversun/fnos-apps#245）。
+	partPath := finalPath + ".part"
 	for _, url := range urls {
-		// A unique temp file per attempt: the deterministic finalPath+".tmp"
-		// let any second actor (OS /tmp reaper, stale cleanup, retry) delete
-		// the in-flight file under os.Rename (conversun/fnos-apps#245). The
-		// ".fpk.tmp" suffix is kept so CleanupStaleTmpFiles still matches.
-		tmp, err := os.CreateTemp(d.dir(), prefixedName+".*.fpk.tmp")
-		if err != nil {
-			return "", fmt.Errorf("create temp file: %w", err)
-		}
-		tmpPath := tmp.Name()
-		if err := tmp.Close(); err != nil {
-			_ = os.Remove(tmpPath)
-			return "", fmt.Errorf("close temp file: %w", err)
-		}
-
-		if err := d.downloadFromURL(ctx, url, tmpPath, progress); err != nil {
+		if err := d.downloadFromURL(ctx, url, partPath, progress); err != nil {
 			lastErr = err
-			_ = os.Remove(tmpPath)
-			continue
+			continue // 不删 .part：下一个镜像 / 重试可从断点继续
 		}
 
-		if err := os.Rename(tmpPath, finalPath); err != nil {
-			_ = os.Remove(tmpPath)
-			return "", fmt.Errorf("rename %q to %q: %w", tmpPath, finalPath, err)
+		if err := os.Rename(partPath, finalPath); err != nil {
+			return "", fmt.Errorf("rename %q to %q: %w", partPath, finalPath, err)
 		}
 		return finalPath, nil
 	}
@@ -175,10 +167,29 @@ func (d *Downloader) Download(ctx context.Context, req DownloadRequest, progress
 	return "", lastErr
 }
 
-func (d *Downloader) downloadFromURL(ctx context.Context, url, dstPath string, progress func(downloaded, total int64)) error {
+// downloadFromURL 下载 url 到 partPath，支持断点续传（HTTP Range）。
+//
+// 断点续传语义：
+//   - partPath 已有 startBytes 字节 → 发 Range: bytes=startBytes-。
+//   - 206（Partial Content）→ 从 startBytes 偏移继续写（WriteAt）。
+//   - 200（服务端不支持 Range / 文件已变）→ 截断从头下载。
+//   - 416（Range 不满足，.part 已完整或失效）→ 截断从头下载。
+//
+// 每次写入后刷新 mtime，使 CleanupStaleTmpFiles 的按 mtime 判定不会误删
+// 进行中的 .part（活跃下载 mtime 始终新鲜）。
+func (d *Downloader) downloadFromURL(ctx context.Context, url, partPath string, progress func(downloaded, total int64)) error {
+	// 断点：若 .part 已存在，从断点继续。
+	var startBytes int64
+	if st, err := os.Stat(partPath); err == nil && st.Size() > 0 {
+		startBytes = st.Size()
+	}
+
 	req, err := http.NewRequestWithContext(ctx, http.MethodGet, url, nil)
 	if err != nil {
 		return err
+	}
+	if startBytes > 0 {
+		req.Header.Set("Range", fmt.Sprintf("bytes=%d-", startBytes))
 	}
 
 	resp, err := d.httpClient.Do(req)
@@ -187,26 +198,52 @@ func (d *Downloader) downloadFromURL(ctx context.Context, url, dstPath string, p
 	}
 	defer resp.Body.Close()
 
-	if resp.StatusCode != http.StatusOK {
+	var total int64
+	writeFlags := os.O_CREATE | os.O_WRONLY
+	switch resp.StatusCode {
+	case http.StatusPartialContent: // 206 续传：追加到 .part 末尾
+		writeFlags |= os.O_APPEND
+		// Content-Range: bytes start-end/total
+		if cr := resp.Header.Get("Content-Range"); cr != "" {
+			if parts := strings.Split(cr, "/"); len(parts) == 2 {
+				if t, perr := strconv.ParseInt(parts[1], 10, 64); perr == nil && t > 0 {
+					total = t
+				}
+			}
+		}
+		if total == 0 && resp.ContentLength > 0 {
+			total = startBytes + resp.ContentLength
+		}
+	case http.StatusOK: // 200 不支持续传或文件已变 → 从头
+		startBytes = 0
+		writeFlags |= os.O_TRUNC
+		total = resp.ContentLength
+	case http.StatusRequestedRangeNotSatisfiable: // 416 → 从头
+		startBytes = 0
+		writeFlags |= os.O_TRUNC
+		total = resp.ContentLength
+	default:
 		return fmt.Errorf("download %q: %s", url, resp.Status)
 	}
 
-	f, err := os.OpenFile(dstPath, os.O_CREATE|os.O_WRONLY|os.O_TRUNC, 0o644)
+	f, err := os.OpenFile(partPath, writeFlags, 0o644)
 	if err != nil {
 		return err
 	}
 	defer f.Close()
 
-	total := resp.ContentLength
 	buf := make([]byte, 128*1024)
-	var downloaded int64
+	downloaded := startBytes
 	for {
 		n, readErr := resp.Body.Read(buf)
 		if n > 0 {
-			if _, err := f.Write(buf[:n]); err != nil {
-				return err
+			// O_APPEND：续传追加到末尾 / 新鲜写从头，避免 WriteAt 部分写风险。
+			if _, werr := f.Write(buf[:n]); werr != nil {
+				return werr
 			}
 			downloaded += int64(n)
+			// 刷新 mtime：防止 stale 清理误删进行中的 .part。
+			_ = os.Chtimes(partPath, time.Now(), time.Now())
 			if progress != nil {
 				progress(downloaded, total)
 			}
@@ -223,7 +260,7 @@ func (d *Downloader) downloadFromURL(ctx context.Context, url, dstPath string, p
 		return err
 	}
 
-	if err := validateFpk(dstPath); err != nil {
+	if err := validateFpk(partPath); err != nil {
 		return err
 	}
 	return nil

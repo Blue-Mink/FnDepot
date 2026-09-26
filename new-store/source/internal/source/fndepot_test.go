@@ -148,7 +148,7 @@ func TestTranslateFndepotApp_VersionAndArch(t *testing.T) {
 	entry := m["demo.app"]
 
 	// 当前机器为 x86：应取 1.10.3（最高版，x86 包，绝对 URL 保持原样）
-	ra, ok := translateFndepotApp("demo.app", entry, "https://cdn.example.com/source.json", "测试源")
+	ra, ok := translateFndepotApp("demo.app", entry, "https://cdn.example.com/source.json", "测试源", "")
 	if !ok {
 		t.Fatal("demo.app 应可翻译")
 	}
@@ -185,7 +185,7 @@ func TestTranslateFndepotApp_RelativeURL(t *testing.T) {
 		"1.0.0": entry.Releases["1.0.0"],
 	}
 	delete(entry.Releases, "1.10.3")
-	ra, ok := translateFndepotApp("demo.app", entry, "https://cdn.example.com/v2/fnpack.json", "S")
+	ra, ok := translateFndepotApp("demo.app", entry, "https://cdn.example.com/v2/fnpack.json", "S", "")
 	if !ok {
 		t.Fatal("应可翻译")
 	}
@@ -201,7 +201,7 @@ func TestTranslateFndepotApp_RelativeURL(t *testing.T) {
 
 	// 只剩 all 包时回退 all
 	entry.Releases = map[string]fndepotRelease{"1.0.0": entry.Releases["1.0.0"]}
-	ra, ok = translateFndepotApp("demo.app", entry, "https://cdn.example.com/v2/fnpack.json", "S")
+	ra, ok = translateFndepotApp("demo.app", entry, "https://cdn.example.com/v2/fnpack.json", "S", "")
 	if !ok {
 		t.Fatal("all 包应回退选中")
 	}
@@ -212,14 +212,112 @@ func TestTranslateFndepotApp_RelativeURL(t *testing.T) {
 
 func TestTranslateFndepotApp_Skips(t *testing.T) {
 	m := decodeBody(t, v2Sample)
-	if _, ok := translateFndepotApp("empty.app", m["empty.app"], "https://x.com/s.json", "S"); ok {
+	if _, ok := translateFndepotApp("empty.app", m["empty.app"], "https://x.com/s.json", "S", ""); ok {
 		t.Error("无 releases 的拆分模式应用应被跳过")
 	}
-	if _, ok := translateFndepotApp("bad name!", fndepotAppEntry{}, "https://x.com/s.json", "S"); ok {
+	if _, ok := translateFndepotApp("bad name!", fndepotAppEntry{}, "https://x.com/s.json", "S", ""); ok {
 		t.Error("非法 appname 应被跳过")
 	}
-	if _, ok := translateFndepotApp("x86only.app", m["x86only.app"], "https://x.com/s.json", "S"); fndepotCurrentArch() == "arm" && !ok {
+	if _, ok := translateFndepotApp("x86only.app", m["x86only.app"], "https://x.com/s.json", "S", ""); fndepotCurrentArch() == "arm" && !ok {
 		t.Error("arm 机器上 x86-only 应用应被跳过")
+	}
+}
+
+// archDiffSample：旧格式变体源（DinDing1/FnDepot 同款）——条目无顶层
+// download_url，包地址按架构分列在 arch_diff；并含一个坏键 "One Server"
+// （带空格，违反 appname 规范，应被跳过而非拒绝整份源）。
+const archDiffSample = `{
+  "MediaHub": {
+    "display_name": "MediaHub",
+    "platform": "all",
+    "version": "1.1.0",
+    "desc": "影音工具",
+    "arch_diff": {
+      "x86": {"download_url": "https://cdn.example.com/mediahub-x86.fpk"},
+      "arm": {"download_url": "https://cdn.example.com/mediahub-arm.fpk"}
+    }
+  },
+  "fnnas.notes": {
+    "display_name": "Notes",
+    "version": "0.9.0",
+    "download_url": "https://cdn.example.com/notes.fpk"
+  },
+  "One Server": {
+    "display_name": "OneServer",
+    "version": "1.0.9",
+    "arch_diff": {"x86": {"download_url": "https://cdn.example.com/oneserver.fpk"}}
+  }
+}`
+
+func TestDecodeFndepotApps_BadKeySkipped(t *testing.T) {
+	m := decodeBody(t, archDiffSample)
+	if len(m) != 2 {
+		t.Fatalf("坏键 'One Server' 应被跳过、合法条目保留，实际 %d 项", len(m))
+	}
+	if _, has := m["One Server"]; has {
+		t.Error("坏键不应保留")
+	}
+	if m["MediaHub"].DisplayName != "MediaHub" || m["fnnas.notes"].DisplayName != "Notes" {
+		t.Errorf("合法条目解析异常: %v", m)
+	}
+	// 全坏键的文件仍应拒绝
+	m2, _ := decodeFndepotApps([]byte(`{"Bad Key": {"display_name": "x"}}`))
+	if len(m2) != 0 {
+		t.Errorf("全坏键文件应解析为空，实际 %d 项", len(m2))
+	}
+}
+
+func TestTranslateFndepotApp_ArchDiff(t *testing.T) {
+	m := decodeBody(t, archDiffSample)
+	ra, ok := translateFndepotApp("MediaHub", m["MediaHub"], "https://cdn.example.com/fnpack.json", "D", "")
+	if !ok {
+		t.Fatal("arch_diff 条目应可翻译")
+	}
+	want := "https://cdn.example.com/mediahub-" + fndepotCurrentArch() + ".fpk"
+	if fndepotCurrentArch() == "arm" {
+		want = "https://cdn.example.com/mediahub-arm.fpk"
+	}
+	if ra.FpkURL != want {
+		t.Errorf("应按当前架构选包: %s (want %s)", ra.FpkURL, want)
+	}
+	if ra.Version != "1.1.0" {
+		t.Errorf("Version = %s", ra.Version)
+	}
+}
+
+func TestTranslateFndepotApp_InRepoConvention(t *testing.T) {
+	m := decodeBody(t, `{"fpk-napcatqq": {"display_name": "NapCatQQ", "version": "4.18.28"}}`)
+	base := "https://raw.githubusercontent.com/moxyis/FnDepot/HEAD/fnpack.json"
+	ra, ok := translateFndepotApp("fpk-napcatqq", m["fpk-napcatqq"], base, "moxyis",
+		"https://raw.githubusercontent.com/moxyis/FnDepot/HEAD")
+	if !ok {
+		t.Fatal("仓库内 FPK 约定条目应可翻译")
+	}
+	want := "https://raw.githubusercontent.com/moxyis/FnDepot/HEAD/fpk-napcatqq/fpk-napcatqq.fpk"
+	if ra.FpkURL != want {
+		t.Errorf("FpkURL = %s (want %s)", ra.FpkURL, want)
+	}
+	// 非 GitHub 源（conventionBase 为空）：无下载字段 → 跳过
+	if _, ok := translateFndepotApp("fpk-napcatqq", m["fpk-napcatqq"], "https://my.cdn.com/fnpack.json", "S", ""); ok {
+		t.Error("非 raw.githubusercontent 源不应走仓库内约定")
+	}
+}
+
+func TestParse_RequiresInstallableEntry(t *testing.T) {
+	// 有结构但无任何包信息的字典：坏键宽容化后仍应拒绝（防把任意 JSON 当源）
+	s := &FNDepotSource{owner: ""}
+	if err := s.parse([]byte(`{"name": {"a": 1}, "version": {"b": 2}}`), "https://x.com/fnpack.json"); err == nil {
+		t.Error("无包信息的字典应被 parse 拒绝")
+	}
+	// GitHub 仓库源里带 version 的条目（仓库内 FPK 约定候选）应放行
+	s2 := &FNDepotSource{owner: "moxyis"}
+	if err := s2.parse([]byte(`{"fpk-napcatqq": {"display_name": "NapCatQQ", "version": "4.18.28"}}`), "https://raw.githubusercontent.com/moxyis/FnDepot/HEAD/fnpack.json"); err != nil {
+		t.Errorf("GitHub 源的 version 条目应放行: %v", err)
+	}
+	// arch_diff 条目应放行
+	s3 := &FNDepotSource{owner: "DinDing1"}
+	if err := s3.parse([]byte(archDiffSample), "https://raw.githubusercontent.com/DinDing1/FnDepot/HEAD/fnpack.json"); err != nil {
+		t.Errorf("arch_diff 源应放行: %v", err)
 	}
 }
 
@@ -444,8 +542,8 @@ func TestDecodeFndepotApps_V1Flat(t *testing.T) {
 	if e.Version != "1.3.0" || e.DownloadURL == "" {
 		t.Errorf("V1 平铺字段未解析: version=%q download=%q", e.Version, e.DownloadURL)
 	}
-	if e.Labels != "娱乐" || e.IsDockerV1 != "true" {
-		t.Errorf("labels/isdocker 未解析: %q / %q", e.Labels, e.IsDockerV1)
+	if len(e.Labels) != 1 || e.Labels[0] != "娱乐" || !e.IsDockerV1 {
+		t.Errorf("labels/isdocker 未解析: %v / %v", e.Labels, bool(e.IsDockerV1))
 	}
 	if e.ServicePort != "32678" {
 		t.Errorf("service_port(数字) 应可入 string 字段: %q", e.ServicePort)
@@ -460,7 +558,7 @@ func TestTranslateFndepotApp_V1Flat(t *testing.T) {
 	base := "https://raw.githubusercontent.com/B/R/HEAD/fnpack.json"
 
 	// x86 机器：global-radio（x86 声明）应通过
-	ra, ok := translateFndepotApp("global-radio", m["global-radio"], base, "B")
+	ra, ok := translateFndepotApp("global-radio", m["global-radio"], base, "B", "")
 	if !ok {
 		t.Fatal("V1 平铺 x86 应用应可翻译（这是 Blue-Mink 不同步的 bug 场景）")
 	}
@@ -490,7 +588,7 @@ func TestTranslateFndepotApp_V1Flat(t *testing.T) {
 	}
 
 	// platform=all 的 V1 应用也应通过
-	ra2, ok2 := translateFndepotApp("fn-knock", m["fn-knock"], base, "B")
+	ra2, ok2 := translateFndepotApp("fn-knock", m["fn-knock"], base, "B", "")
 	if !ok2 {
 		t.Fatal("V1 平铺 all 应用应可翻译")
 	}
@@ -499,7 +597,7 @@ func TestTranslateFndepotApp_V1Flat(t *testing.T) {
 	}
 
 	// platform=arm 的 V1 应用在 x86 机器上应被跳过
-	if _, ok3 := translateFndepotApp("arm-only.app", m["arm-only.app"], base, "B"); ok3 {
+	if _, ok3 := translateFndepotApp("arm-only.app", m["arm-only.app"], base, "B", ""); ok3 {
 		t.Error("arm-only 应用在 x86 上应被平台过滤跳过")
 	}
 }
