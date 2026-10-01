@@ -227,7 +227,7 @@ def arp_line_state_ok(flags_field):
 
     没解析成功的残留项（Flags 0x0）也留在表里，MAC 还写着虚拟机的——
     虚拟机换了地址或根本没开机时，照单全收就会拿着一个死地址告诉用户
-    「已找到 192.168.3.x」，一等就是几十分钟。
+    「已找到 192.168.1.x」，一等就是几十分钟。
     """
     try:
         return bool(int(flags_field, 16) & 0x2)
@@ -582,7 +582,7 @@ def _resolve_locked():
             #   有人应答 → 系统起来了、Web 服务还没就绪 → web-warming（等就是了）
             #   没人应答 → ARP/租约里的残留地址 → no-ip（得让用户去手动处理）
             # 以前一律报 web-warming，于是路由器不发地址时入口能挂着
-            # 「已找到 192.168.3.72，Web 服务还在起来」挂一整天，把排障带偏。
+            # 「已找到 192.168.1.50，Web 服务还在起来」挂一整天，把排障带偏。
             # 注意：地址作废时 source 也得一起作废，否则 /api/status 会出现
             # {"ip": null, "source": "mac+arp"} 这种自相矛盾的排障线索。
             probing, ip, source = ip, None, None
@@ -785,7 +785,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
                  '<button class="alt sm" type="submit">恢复自动获取</button></form></div>')
         p.append('<details><summary>路由器不发地址时：指定静态 IP</summary>'
                  '<form method="post" action="/net/static">'
-                 '<input name="ip" placeholder="IP 192.168.3.72" inputmode="decimal">'
+                 '<input name="ip" placeholder="IP 192.168.1.50" inputmode="decimal">'
                  '<select name="prefix"><option value="24">/24</option>'
                  '<option value="16">/16</option><option value="8">/8</option></select>'
                  '<input name="gw" placeholder="网关（可留空）">'
