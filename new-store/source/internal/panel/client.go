@@ -7,7 +7,7 @@
 // flow with a plain username/password (both are panel accounts of the local
 // NAS, so the panel is reached over localhost).
 //
-// Verified against fnOS 1.2.05xx (2026-09-19, test box 192.168.1.2):
+// Verified against fnOS 1.2.05xx (2026-09-19, test box):
 //
 //   - WS  GET /websocket?type=main
 //     frame: {"user","password","deviceName","deviceType","stay":true,

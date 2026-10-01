@@ -1,7 +1,7 @@
 # CS-3D A70 「柔光」 设计文档
 
 > 商店图标定稿方案：Card Stack 立体方案 A（柔光）× 折叠间距 0.070
-> 定稿日期 2026-09-20 · 已装机 192.168.1.2 store-icons 1.3.0（入口 `store-icons.cs3da70`）
+> 定稿日期 2026-09-20 · \u5df2\u88c5\u673a store-icons 1.3.0（入口 `store-icons.cs3da70`）
 
 ## 1. 语义
 
