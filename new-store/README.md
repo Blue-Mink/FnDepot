@@ -62,4 +62,4 @@
 
 ## 源码
 
-完整源码见 [source/](source/)（与 [New-Store](https://github.com/Blue-Mink/New-Store) 仓库 tag `v1.21.1` 逐字节一致，git tree `9e173b54d44e665c0fcdffcd057e8040cefaf5c7`），`bash build.sh` 可复现 FPK。
+完整源码见 [source/](source/)（与 [New-Store](https://github.com/Blue-Mink/New-Store) 仓库提交 `09093c8` 逐字节一致，git tree `2042e953e73da4594b42e37d7b318abcde3cc7c1`），`bash build.sh` 可复现 FPK。
