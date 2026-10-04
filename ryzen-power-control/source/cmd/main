@@ -1,0 +1,82 @@
+#!/bin/bash
+set -u
+
+APPNAME="ryzen-power-control"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+APPDEST="${TRIM_APPDEST:-$(cd "$SCRIPT_DIR/.." && pwd)}"
+PKGVAR="${TRIM_PKGVAR:-${APPDEST}/var}"
+LOG_FILE="${PKGVAR}/info.log"
+PID_FILE="${PKGVAR}/app.pid"
+SOCKET="${APPDEST}/app.sock"
+DAEMON="${APPDEST}/server/powerd.py"
+PYTHON="$(command -v python3 || echo /usr/bin/python3)"
+
+mkdir -p "$PKGVAR"
+
+running_pid() {
+    [ -r "$PID_FILE" ] || return 1
+    local pid
+    pid="$(head -n 1 "$PID_FILE" | tr -d '[:space:]')"
+    if [ -n "$pid" ] && kill -0 "$pid" 2>/dev/null; then
+        printf '%s' "$pid"
+        return 0
+    fi
+    rm -f "$PID_FILE"
+    return 1
+}
+
+start_process() {
+    if running_pid >/dev/null; then
+        return 0
+    fi
+    [ -r "$DAEMON" ] || { echo "$APPNAME: daemon missing: $DAEMON" >&2; return 1; }
+    [ -x "$PYTHON" ] || { echo "$APPNAME: python3 is required" >&2; return 1; }
+    rm -f "$SOCKET"
+    : > "$LOG_FILE"
+    nohup "$PYTHON" "$DAEMON" \
+        --ryzenadj "${APPDEST}/ryzenadj" \
+        --state-dir "$PKGVAR" \
+        --socket "$SOCKET" \
+        --ui "${APPDEST}/ui" \
+        --gateway-prefix "/app/${APPNAME}" \
+        >> "$LOG_FILE" 2>&1 &
+    local pid=$!
+    printf '%s' "$pid" > "$PID_FILE"
+    local count=0
+    while [ "$count" -lt 180 ]; do
+        if ! kill -0 "$pid" 2>/dev/null; then
+            rm -f "$PID_FILE"
+            return 1
+        fi
+        [ -S "$SOCKET" ] && return 0
+        sleep 1
+        count=$((count + 1))
+    done
+    echo "$APPNAME: gateway socket did not start" >&2
+    return 1
+}
+
+stop_process() {
+    local pid
+    if ! pid="$(running_pid)"; then
+        rm -f "$SOCKET"
+        return 0
+    fi
+    kill -TERM "$pid" 2>/dev/null || true
+    local count=0
+    while kill -0 "$pid" 2>/dev/null && [ "$count" -lt 15 ]; do
+        sleep 1
+        count=$((count + 1))
+    done
+    if kill -0 "$pid" 2>/dev/null; then
+        kill -KILL "$pid" 2>/dev/null || true
+    fi
+    rm -f "$PID_FILE" "$SOCKET"
+}
+
+case "${1:-}" in
+    start) start_process ;;
+    stop) stop_process ;;
+    status) running_pid >/dev/null && exit 0 || exit 3 ;;
+    *) exit 1 ;;
+esac

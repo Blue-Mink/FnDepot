@@ -366,6 +366,31 @@ Docker 镜像加速管理工具，支持多源镜像缓存、加速规则管理�
 
 ---
 
+### ⚡ Ryzen 功耗控制 (ryzen-power-control)
+
+AMD Ryzen APU 功耗监控与功耗限制控制：读取功耗墙（STAPM / PPT Fast / PPT Slow）、实时功耗与温度，设置或恢复功耗限制（写入后回读校验），支持 30 / 60 / 120 秒全核负载测试（温度到阈值自动停止），ryzen_smu 驱动自动编译修复。本仓库收录上游官方 Release 原包（未重打包、字节未改）与完整源码快照。
+
+<br/>
+
+<div align="center">
+
+[![Ryzen 功耗控制](https://img.shields.io/badge/Ryzen--Power--Control-v1.0.7-brightgreen?style=flat-square)](https://github.com/Blue-Mink/FnDepot/releases/tag/ryzen-power-control-v1.0.7) [![Platform](https://img.shields.io/badge/Platform-x86__64-lightgrey?style=flat-square)](#)
+
+</div>
+
+<br/>
+
+| 项目 | 信息 |
+| :--- | :--- |
+| 👨‍💻 **原作者** | [LANMIN-X](https://github.com/LANMIN-X) |
+| 📁 **原项目** | [RyzenAdj-for-fnOS](https://github.com/LANMIN-X/RyzenAdj-for-fnOS) |
+| 📥 **安装方式** | 在飞牛 FnDepot 直接添加本源，客户端中搜索「Ryzen 功耗控制」即可安装 |
+| 🏷️ **版本** | v1.0.7（上游官方 FPK + 源码快照，要求 fnOS ≥ 1.1.3100） |
+| 🌐 **运行方式** | 桌面应用（root，`/dev/mem` + ryzen_smu），不占端口 |
+| 📖 **详细说明** | [ryzen-power-control/README.md](ryzen-power-control/README.md) |
+
+---
+
 ## 📄 许可证
 
 本项目遵循 [MIT License](LICENSE) 许可证。

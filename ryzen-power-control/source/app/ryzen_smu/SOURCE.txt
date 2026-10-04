@@ -1,0 +1,4 @@
+https://github.com/amkillam/ryzen_smu
+commit: d2983668300dd2a598e5a7dc40e71ce0678cc270
+version: 0.1.7
+license: GPL-2.0

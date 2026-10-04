@@ -1,0 +1,13 @@
+appname               = ryzen-power-control
+version               = 1.0.7
+display_name          = Ryzen 功耗控制
+desc                  = <p>Ryzen 功耗控制可读取处理器功耗墙、实时功耗和温度，设置或恢复功耗限制，并运行全核负载测试。</p><h3>支持的 CPU 类型</h3><p>• Ryzen 2000 APU / Mobile<br>• Ryzen 3000 APU / Mobile、Athlon 3000 Mobile<br>• Ryzen 4000 APU / Mobile<br>• Ryzen 5000 APU / Mobile<br>• Ryzen 6000 Mobile、Ryzen 7035 系列<br>• Ryzen 7020 / 7040 / 7045 系列<br>• Ryzen 8040 系列<br>• Ryzen AI 300 / AI Max 300 系列<br>• Ryzen 9000HX 系列<br>• Ryzen Z1 / Z2 及 Steam Deck 等部分定制 APU</p><p>支持范围以 RyzenAdj 实际识别到的处理器系列为准。</p>
+platform              = x86
+source                = thirdparty
+maintainer            = LANMIN
+distributor            = LANMIN
+desktop_uidir         = ui
+desktop_applaunchname = ryzen-power-control.Application
+ctl_stop              = true
+checkport             = false
+os_min_version        = 1.1.3100

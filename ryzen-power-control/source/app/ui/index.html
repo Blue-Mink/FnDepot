@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Ryzen 功耗控制</title>
+  <script src="/app/ryzen-power-control/theme.js"></script>
+  <link rel="stylesheet" href="/app/ryzen-power-control/style.css">
+  <link rel="stylesheet" href="/app/ryzen-power-control/semi-modal.css">
+</head>
+<body>
+  <main id="app-shell" class="app-shell">
+    <header class="app-header">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true"><img src="/app/ryzen-power-control/images/icon_64.png" alt=""></div>
+        <div>
+          <div class="brand-name">Ryzen 功耗控制</div>
+          <div id="machine" class="brand-subtitle">读取处理器状态中…</div>
+        </div>
+      </div>
+      <div class="header-meta">
+        <label class="takeover-control" for="power-enabled">
+          <span>功耗接管</span>
+          <input id="power-enabled" type="checkbox" role="switch" aria-label="功耗接管">
+          <span class="switch-track" aria-hidden="true"></span>
+        </label>
+        <span class="sync-note">每 2 秒更新</span>
+      </div>
+    </header>
+
+    <div id="notice" class="alert app-notice" role="status" aria-live="polite">正在读取设备状态…</div>
+
+    <section class="overview-grid" aria-label="处理器监控概览">
+      <article class="card monitor-card">
+        <div class="monitor-head">
+          <div>
+            <h2>实时功耗</h2>
+          </div>
+          <div class="temperature-pill">
+            <span class="temperature-copy">CPU 温度<strong><span id="temperature">—</span><small>°C</small></strong></span>
+          </div>
+        </div>
+
+        <div class="monitor-body">
+          <div class="main-reading">
+            <div class="main-reading-copy">
+              <div class="reading-label">功耗上限 <span id="hero-limit">—</span> W</div>
+              <div class="power-reading"><div class="power-value"><strong id="power-fast">—</strong><span>W</span></div>
+                <div id="power-meter" class="power-meter-slot" role="progressbar" aria-label="PPT 瞬时功耗使用率" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+                  <svg class="power-meter-ring" viewBox="0 0 68 68" aria-hidden="true">
+                    <circle class="power-meter-track" cx="34" cy="34" r="30" pathLength="100"></circle>
+                    <circle id="power-meter-progress" class="power-meter-progress" cx="34" cy="34" r="30" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"></circle>
+                  </svg>
+                  <span id="power-percent">0%</span>
+                </div>
+              </div>
+              <div class="reading-comparison">
+                <span>CPU 最高频率</span>
+                <strong><span id="cpu-frequency">—</span><small>GHz</small></strong>
+              </div>
+            </div>
+          </div>
+          <div class="secondary-readings" aria-label="其他实时功耗">
+            <div class="secondary-reading">
+              <span class="metric-dot dot-cyan" aria-hidden="true"></span>
+              <span class="secondary-label">STAPM 当前功耗</span>
+              <strong><span id="power-stapm">—</span><small>W</small></strong>
+            </div>
+            <div class="secondary-reading">
+              <span class="metric-dot dot-violet" aria-hidden="true"></span>
+              <span class="secondary-label">PPT 慢速功耗</span>
+              <strong><span id="power-slow">—</span><small>W</small></strong>
+            </div>
+            <div class="secondary-reading">
+              <span class="metric-dot dot-cyan" aria-hidden="true"></span>
+              <span class="secondary-label">Socket Power</span>
+              <strong><span id="power-socket">—</span><small>W</small></strong>
+            </div>
+            <div class="secondary-reading">
+              <span class="metric-dot dot-violet" aria-hidden="true"></span>
+              <span class="secondary-label">APU Power</span>
+              <strong><span id="power-apu">—</span><small>W</small></strong>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card limits-card">
+        <div class="card-heading">
+          <div>
+            <h2>功耗墙</h2>
+          </div>
+          <div class="temperature-pill">
+            <span class="temperature-copy">应用调整范围<strong id="limit-range">读取中…</strong></span>
+          </div>
+        </div>
+        <div class="limit-list">
+          <div class="limit-row">
+            <div class="limit-label-line"><span class="limit-marker marker-blue"></span><span>STAPM 持续限制</span><strong><span id="limit-stapm">—</span><small>W</small></strong><span id="limit-stapm-unavailable" class="limit-unavailable" hidden>不可调</span></div>
+            <div class="limit-track" role="progressbar" aria-label="STAPM 功耗上限" aria-valuemin="2"><span id="bar-stapm"></span></div>
+          </div>
+          <div class="limit-row">
+            <div class="limit-label-line"><span class="limit-marker marker-cyan"></span><span>PPT 瞬时限制</span><strong><span id="limit-fast">—</span><small>W</small></strong><span id="limit-fast-unavailable" class="limit-unavailable" hidden>不可调</span></div>
+            <div class="limit-track" role="progressbar" aria-label="PPT 瞬时功耗上限" aria-valuemin="2"><span id="bar-fast"></span></div>
+          </div>
+          <div class="limit-row">
+            <div class="limit-label-line"><span class="limit-marker marker-violet"></span><span>PPT 慢速限制</span><strong><span id="limit-slow">—</span><small>W</small></strong><span id="limit-slow-unavailable" class="limit-unavailable" hidden>不可调</span></div>
+            <div class="limit-track" role="progressbar" aria-label="PPT 慢速功耗上限" aria-valuemin="2"><span id="bar-slow"></span></div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="actions-grid" aria-label="功耗与负载操作">
+      <article class="card action-card">
+        <div class="card-heading action-heading">
+          <div class="adjust-heading-copy">
+            <div class="adjust-heading-line">
+              <h2>调整功耗限制</h2>
+              <label class="separate-toggle"><input id="separate-limits" type="checkbox"><span>单独调整</span></label>
+            </div>
+            <p id="adjust-description" class="card-description">同时应用到 STAPM、PPT 瞬时和 PPT 慢速。</p>
+          </div>
+        </div>
+        <form id="set-form" class="set-form">
+          <div id="shared-limit-controls">
+            <label for="watts">功耗上限</label>
+            <input id="watts-slider" class="watt-slider" type="range" min="2" max="200" step="1" value="45" aria-label="功耗上限滑块" disabled>
+            <div class="set-controls">
+              <div class="watt-input">
+                <input id="watts" name="watts" class="input" type="number" min="2" max="200" step="1" value="45" required disabled>
+                <span>W</span>
+              </div>
+              <button class="btn restore-bios-button" type="button">恢复设置</button>
+              <button class="btn btn-primary apply-button" type="submit" disabled>确认应用</button>
+            </div>
+          </div>
+          <div id="separate-limit-controls" class="separate-limit-controls" hidden>
+            <div class="separate-limit-row">
+              <div class="separate-limit-head"><label for="limit-stapm-slider">STAPM</label><output id="limit-stapm-value" class="separate-reading">28.0 W</output></div>
+              <input id="limit-stapm-slider" class="watt-slider separate-slider" type="range" min="2" max="200" step="1" aria-label="STAPM 功耗上限" disabled>
+            </div>
+            <div class="separate-limit-row">
+              <div class="separate-limit-head"><label for="limit-fast-slider">PPT 瞬时</label><output id="limit-fast-value" class="separate-reading">28.0 W</output></div>
+              <input id="limit-fast-slider" class="watt-slider separate-slider" type="range" min="2" max="200" step="1" aria-label="PPT 瞬时功耗上限" disabled>
+            </div>
+            <div class="separate-limit-row">
+              <div class="separate-limit-head"><label for="limit-slow-slider">PPT 慢速</label><output id="limit-slow-value" class="separate-reading">28.0 W</output></div>
+              <input id="limit-slow-slider" class="watt-slider separate-slider" type="range" min="2" max="200" step="1" aria-label="PPT 慢速功耗上限" disabled>
+            </div>
+            <div class="separate-apply-row set-controls">
+              <button class="btn restore-bios-button" type="button">恢复设置</button>
+              <button class="btn btn-primary apply-button separate-apply" type="submit" disabled>确认应用</button>
+            </div>
+          </div>
+        </form>
+        <div class="restore-row">
+          <div class="restore-copy">
+            <span class="restore-label">已记录的恢复基准</span>
+            <strong id="baseline">读取中…</strong>
+          </div>
+          <span id="control-status" class="control-status">未接管</span>
+        </div>
+      </article>
+
+      <article class="card action-card test-card">
+        <div class="card-heading action-heading">
+          <div>
+            <h2>全核负载测试</h2>
+            <p class="card-description">观察满载时的功耗墙、实时功耗和温度。</p>
+          </div>
+          <div class="action-icon test-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M3 12h4l2.2-6 4.1 12 2.3-6H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+        <div class="test-controls">
+          <label for="duration-slider">测试时长</label>
+          <input id="duration-slider" class="watt-slider" type="range" min="5" max="120" step="1" value="30" aria-label="测试时长滑块">
+          <div class="set-controls">
+            <div class="watt-input">
+              <input id="duration" class="input" type="number" min="5" max="120" step="1" value="30" aria-label="测试时长" required>
+              <span>秒</span>
+            </div>
+            <div class="watt-input">
+              <input id="test-temperature" class="input" type="number" min="40" max="95" step="1" value="85" aria-label="自动停止温度" required>
+              <span>°C</span>
+            </div>
+            <button id="toggle-test" class="btn btn-primary apply-button test-toggle" type="button" data-running="false">开始测试</button>
+          </div>
+        </div>
+        <div class="restore-row test-footer-row">
+          <div class="restore-copy">
+            <span class="restore-label">测试状态</span>
+            <div class="test-status-line">
+              <span class="test-status-dot" aria-hidden="true"></span>
+              <strong id="test-result" aria-live="polite">尚未运行</strong>
+            </div>
+          </div>
+          <span id="test-hint" class="control-status test-hint"></span>
+        </div>
+      </article>
+    </section>
+
+    <footer class="page-footer">
+      <span>功耗数据由 AMD SMU 提供，读数会随负载实时变化。</span>
+      <span class="footer-meta">
+        <button id="view-logs" class="btn feedback-button" type="button">查看日志</button>
+        <a class="btn feedback-button" href="https://github.com/LANMIN-X/RyzenAdj-for-fnOS/issues" target="_blank" rel="noopener noreferrer">反馈问题</a>
+        <span><a id="app-version" class="app-version-link"></a><span id="update-indicator" class="version-update-dot" title="发现新版本" aria-label="发现新版本" hidden></span></span>
+      </span>
+    </footer>
+  </main>
+  <dialog id="cpu-gate" class="cpu-gate" aria-labelledby="cpu-gate-title" tabindex="-1">
+    <div class="semi-portal" style="z-index: 1000;">
+      <div class="semi-modal-confirm">
+      <div class="semi-modal-mask"></div>
+      <div role="none" class="semi-modal-wrap semi-modal-wrap-center">
+        <div class="semi-modal semi-modal-centered semi-modal-small">
+          <div role="dialog" aria-modal="true" aria-labelledby="cpu-gate-title" aria-describedby="cpu-gate-body" class="semi-modal-content">
+            <div class="semi-modal-header">
+              <h2 class="semi-typography semi-modal-title semi-typography-primary semi-typography-normal semi-typography-h5" id="cpu-gate-title"><span class="semi-modal-confirm-title-text">正在检查处理器</span></h2>
+              <button id="cpu-gate-close" aria-label="close" class="semi-button semi-button-tertiary semi-button-size-small semi-button-borderless semi-modal-close semi-button-with-icon semi-button-with-icon-only" type="button">
+                <span class="semi-button-content"><span role="img" aria-label="close" class="semi-icon semi-icon-default semi-icon-close"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" focusable="false" aria-hidden="true"><path d="M17.66 19.78a1.5 1.5 0 0 0 2.12-2.12L14.12 12l5.66-5.66a1.5 1.5 0 0 0-2.12-2.12L12 9.88 6.34 4.22a1.5 1.5 0 1 0-2.12 2.12L9.88 12l-5.66 5.66a1.5 1.5 0 0 0 2.12 2.12L12 14.12l5.66 5.66Z" fill="currentColor"></path></svg></span></span>
+              </button>
+            </div>
+            <div class="semi-modal-body" id="cpu-gate-body">
+              <div class="semi-modal-confirm-content">
+                <p id="cpu-gate-message" class="cpu-gate-message">正在读取 CPU 支持信息…</p>
+                <p id="cpu-gate-series" class="cpu-gate-series" hidden></p>
+                <p id="cpu-gate-power" class="cpu-gate-power" hidden></p>
+                <div id="cpu-gate-support" class="cpu-gate-support" hidden>
+                  <strong>支持范围：</strong>
+                  <ul>
+                    <li>Ryzen 2000 系列 APU / Mobile</li>
+                    <li>Ryzen 3000 系列 APU / Mobile、Athlon 3000 Mobile</li>
+                    <li>Ryzen 4000 系列 APU / Mobile</li>
+                    <li>Ryzen 5000 系列 APU / Mobile</li>
+                    <li>Ryzen 6000 系列 Mobile</li>
+                    <li>Ryzen 7020 / 7035 / 7040 / 7045 系列</li>
+                    <li>Ryzen 8040 系列</li>
+                    <li>Ryzen AI 300 / AI Max 300 系列</li>
+                    <li>Ryzen 9000HX 系列</li>
+                    <li>Ryzen Z1 / Z2 系列及 Steam Deck 等部分定制 APU</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="semi-modal-footer">
+              <div id="cpu-gate-actions" class="cpu-gate-actions" hidden>
+                <button id="cpu-gate-enter" class="semi-button semi-button-primary" type="button"><span class="semi-button-content">进入应用</span></button>
+              </div>
+              <div id="cpu-gate-unsupported-actions" class="cpu-gate-actions" hidden>
+                <button id="cpu-gate-cancel" aria-label="cancel" class="semi-button semi-button-tertiary semi-button-outline" type="button"><span class="semi-button-content">取消</span></button>
+                <a class="semi-button semi-button-primary" href="https://github.com/LANMIN-X/RyzenAdj-for-fnOS/issues" target="_blank" rel="noopener noreferrer"><span class="semi-button-content">反馈问题</span></a>
+              </div>
+              <div id="cpu-gate-retry-row" class="cpu-gate-actions" hidden>
+                <button id="cpu-gate-retry" class="semi-button semi-button-primary" type="button"><span class="semi-button-content">重新检测</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </dialog>
+  <dialog id="low-power-dialog" class="cpu-gate" aria-labelledby="low-power-title" tabindex="-1">
+    <div class="semi-portal" style="z-index: 1000;">
+      <div class="semi-modal-confirm">
+      <div class="semi-modal-mask"></div>
+      <div role="none" class="semi-modal-wrap semi-modal-wrap-center">
+        <div class="semi-modal semi-modal-centered semi-modal-small">
+          <div role="dialog" aria-modal="true" aria-labelledby="low-power-title" aria-describedby="low-power-body" class="semi-modal-content">
+            <div class="semi-modal-header">
+              <h2 class="semi-typography semi-modal-title semi-typography-primary semi-typography-normal semi-typography-h5" id="low-power-title"><span class="semi-modal-confirm-title-text">确认应用低功耗限制？</span></h2>
+              <button id="low-power-close" aria-label="close" class="semi-button semi-button-tertiary semi-button-size-small semi-button-borderless semi-modal-close semi-button-with-icon semi-button-with-icon-only" type="button">
+                <span class="semi-button-content"><span role="img" aria-label="close" class="semi-icon semi-icon-default semi-icon-close"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" focusable="false" aria-hidden="true"><path d="M17.66 19.78a1.5 1.5 0 0 0 2.12-2.12L14.12 12l5.66-5.66a1.5 1.5 0 0 0-2.12-2.12L12 9.88 6.34 4.22a1.5 1.5 0 1 0-2.12 2.12L9.88 12l-5.66 5.66a1.5 1.5 0 0 0 2.12 2.12L12 14.12l5.66 5.66Z" fill="currentColor"></path></svg></span></span>
+              </button>
+            </div>
+            <div class="semi-modal-body" id="low-power-body">
+              <div class="semi-modal-confirm-content">当前设置低于 5W，可能导致 CPU 大幅降频、系统响应变慢，影响文件传输和后台任务。实际功耗也可能超过设置值。是否继续应用？</div>
+            </div>
+            <div class="semi-modal-footer">
+              <div class="cpu-gate-actions">
+                <button id="low-power-cancel" class="semi-button semi-button-tertiary semi-button-outline" type="button" autofocus><span class="semi-button-content">取消</span></button>
+                <button id="low-power-apply" class="semi-button semi-button-primary" type="button" disabled><span class="semi-button-content">同意应用(5s)</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </dialog>
+  <dialog id="logs-dialog" class="logs-dialog" aria-labelledby="logs-title">
+    <div class="semi-portal" style="z-index: 1000;">
+      <div class="semi-modal-confirm">
+        <div class="semi-modal-mask"></div>
+        <div role="none" class="semi-modal-wrap semi-modal-wrap-center">
+          <div class="semi-modal semi-modal-centered semi-modal-wide">
+            <div role="dialog" aria-modal="true" aria-labelledby="logs-title" class="semi-modal-content">
+              <div class="semi-modal-header">
+                <h2 class="semi-typography semi-modal-title semi-typography-h5" id="logs-title">运行日志</h2>
+                <button id="close-logs" aria-label="关闭" class="semi-button semi-button-tertiary semi-button-size-small semi-button-borderless semi-button-with-icon-only" type="button">
+                  <span class="semi-button-content"><span class="semi-icon semi-icon-default">×</span></span>
+                </button>
+              </div>
+              <div class="semi-modal-body logs-body">
+                <p class="logs-note">应用日志每 24 小时自动清理，也可手动清理；系统内核日志仅供查看。分享前请检查其中的设备信息。</p>
+                <section class="log-section">
+                  <h3>本次运行日志</h3>
+                  <pre id="ryzenadj-log" class="log-output"></pre>
+                </section>
+              </div>
+              <div class="semi-modal-footer logs-footer">
+                <div class="logs-footer-actions">
+                  <button id="download-logs" class="semi-button semi-button-tertiary semi-button-outline" type="button" disabled><span class="semi-button-content">下载日志</span></button>
+                  <button id="clear-logs" class="semi-button semi-button-tertiary semi-button-outline" type="button"><span class="semi-button-content">清理日志</span></button>
+                  <button id="close-logs-footer" class="semi-button semi-button-primary" type="button"><span class="semi-button-content">关闭</span></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </dialog>
+  <script src="/app/ryzen-power-control/app.js" defer></script>
+</body>
+</html>

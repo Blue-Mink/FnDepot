@@ -1,0 +1,17 @@
+{
+  ".url": {
+    "ryzen-power-control.Application": {
+      "title": "Ryzen 功耗控制",
+      "icon": "images/icon_{0}.png",
+      "type": "iframe",
+      "protocol": "",
+      "gatewayPrefix": "/app/ryzen-power-control",
+      "gatewaySocket": "app.sock",
+      "url": "/app/ryzen-power-control",
+      "allUsers": false,
+      "control": {
+        "accessPerm": "editable"
+      }
+    }
+  }
+}

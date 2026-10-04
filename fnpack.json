@@ -756,6 +756,106 @@
         "https://raw.githubusercontent.com/Blue-Mink/moo/main/docs/readme-pc-detail.png",
         "https://raw.githubusercontent.com/Blue-Mink/moo/main/docs/readme-mobile-1.png"
       ]
+    },
+    "ryzen-power-control": {
+      "display_name": "Ryzen 功耗控制",
+      "desc": "AMD Ryzen APU 功耗监控与功耗限制控制：读取功耗墙（STAPM / PPT Fast / PPT Slow）、实时功耗与温度，设置或恢复功耗限制（写入回读校验），30/60/120 秒全核负载测试（温度到阈值自动停止），ryzen_smu 驱动自动编译修复，界面跟随系统亮暗主题。",
+      "platform": [
+        "x86"
+      ],
+      "categories": [
+        "系统工具"
+      ],
+      "icon_url": "https://raw.githubusercontent.com/Blue-Mink/FnDepot/main/ryzen-power-control/ICON.PNG",
+      "readme_url": "https://raw.githubusercontent.com/Blue-Mink/FnDepot/main/ryzen-power-control/README.md",
+      "bug_report_url": "https://github.com/LANMIN-X/RyzenAdj-for-fnOS/issues",
+      "maintainer": "LANMIN-X",
+      "maintainer_url": "https://github.com/LANMIN-X",
+      "distributor": "Blue-Mink",
+      "distributor_url": "https://github.com/Blue-Mink",
+      "run_as": "root",
+      "install_type": "root",
+      "is_docker": false,
+      "service_port": "",
+      "releases": {
+        "1.0.7": {
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/ryzen-power-control-v1.0.7/ryzen-power-control-1.0.7.fpk",
+              "sha256": "b7638f503333fd6c068cd8bb1b24cd9ce1020f0aee2b85c4d20eb4664fb45281",
+              "size": 235345
+            }
+          },
+          "changelog": "新增：显示CPU核心当前最高运行频率\r\n修改：调整页面UI布局",
+          "updated_at": "2026-10-02T02:52:06Z"
+        },
+        "1.0.6": {
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/LANMIN-X/RyzenAdj-for-fnOS/releases/download/v1.0.6/ryzen-power-control-1.0.6.fpk",
+              "sha256": "d3eb96a8c27b065c09c80e1d05f09c9c320423a4125ae2566eb676807fbf8bc9",
+              "size": 236652
+            }
+          },
+          "changelog": "- 修改：最低可设置功耗由 **10W 降至 2W**（功耗太低可能硬件不接受）\r\n- 修改：全核负载测试停止温度自定义",
+          "updated_at": "2026-10-01T11:16:28Z"
+        },
+        "1.0.5": {
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/LANMIN-X/RyzenAdj-for-fnOS/releases/download/v1.0.5/ryzen-power-control-1.0.5.fpk",
+              "sha256": "d7c581e957e00536865078ba7fcdb730f22f0d79dd2a3ee245b821a179d374e4",
+              "size": 235417
+            }
+          },
+          "changelog": "- 新增：`ryzen_smu.ko` 模块，并优先加载 `ryzen_smu.ko` 模块，失败则退回 `/dev/mem`。\r\n- 修改：完善错误日志，记录实际读取路径、驱动修复过程及失败原因。\r\n- 修改：完善日志逻辑，每 24 小时自动清理应用日志。",
+          "updated_at": "2026-10-01T08:49:58Z"
+        },
+        "1.0.4": {
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/LANMIN-X/RyzenAdj-for-fnOS/releases/download/v1.0.4/ryzen-power-control-1.0.4.fpk",
+              "sha256": "1db62b3969db8a33ffc00841a135a48a5c65e5524df3ff4d66475712642222e5",
+              "size": 177564
+            }
+          },
+          "changelog": "更完整的日志判断 `/dev/mem` 回退路径读取异常。",
+          "updated_at": "2026-10-01T03:25:54Z"
+        },
+        "1.0.3": {
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/LANMIN-X/RyzenAdj-for-fnOS/releases/download/v1.0.3/ryzen-power-control-1.0.3.fpk",
+              "sha256": "8ff71325b2242316381bb53903062363515806f3a659e72b970aea6aadb5c797",
+              "size": 175149
+            }
+          },
+          "changelog": "新增日志下载和新版本提醒。",
+          "updated_at": "2026-09-30T01:56:52Z"
+        },
+        "1.0.2": {
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/LANMIN-X/RyzenAdj-for-fnOS/releases/download/v1.0.2/ryzen-power-control-1.0.2.fpk",
+              "sha256": "6ff6e73148eeaad2c9cb2666868f6ba135cba676382bb29cbe954fe2ff12f564",
+              "size": 167064
+            }
+          },
+          "changelog": "## 更新内容\n\n- CPU 支持弹窗改为贴近 fnOS 原生 Semi 弹窗样式，显示系统遮罩和应用背景。\n- 未支持处理器弹窗提供“取消”（强制进入）和“反馈问题”操作。\n- 修正功耗限制编辑值的回退逻辑。\n- 应用版本更新至 1.0.2。\n\n安装包：`ryzen-power-control-1.0.2.fpk`",
+          "updated_at": "2026-09-27T14:52:43Z"
+        },
+        "1.0.0": {
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/LANMIN-X/RyzenAdj-for-fnOS/releases/download/v1.0.0/ryzen-power-control-1.0.0.fpk",
+              "sha256": "6eec3e5e02a0dff18b3f4e3c1308a3ce27cc59eceb0a4c2a5784434935361a6e",
+              "size": 165153
+            }
+          },
+          "changelog": "飞牛 fnOS 安装包。应用版本 1.0.0。",
+          "updated_at": "2026-09-27T13:35:47Z"
+        }
+      }
     }
   }
 }
