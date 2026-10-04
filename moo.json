@@ -758,6 +758,76 @@
    },
    "first_release_at": "2026-10-04T06:15:16Z",
    "download_count": 81
+  },
+  "moo": {
+   "display_name": "Moo 应用商店",
+   "version": "0.6.271",
+   "app_type": "native",
+   "platform": "x86",
+   "size": 7.78,
+   "sha256": "bdbd28f58ff2295ec09ee78ba5afc4922fe273fb571c28382475b3a387c517b1",
+   "download_url": "https://github.com/Blue-Mink/moo/releases/download/v0.6.271/moo_0.6.271_x86.fpk",
+   "desc": "飞牛 NAS 上的第三方应用中心：1800+ 应用浏览 / 安装 / 更新 / 下载；三源同步（官方应用中心 / FnDepot / fnos-apps）、14 领域智能归类；30+ 事件 × 7 渠道通知推送；GitHub 加速与应用内自更新。",
+   "changelog": "源去重/命名/相对路径 bug 修复组：同仓库双协议链接判同地址、同名源自动消歧、Gitea raw 直链名=仓库名、moo.json 源相对资源 404 根治、拉取失败透传真实错误。",
+   "icon_url": "https://raw.githubusercontent.com/Blue-Mink/FnDepot/main/moo/ICON.PNG",
+   "readme_url": "https://raw.githubusercontent.com/Blue-Mink/FnDepot/main/moo/README.md",
+   "homepage": "https://github.com/Blue-Mink/moo",
+   "bug_report_url": "https://github.com/Blue-Mink/moo/issues",
+   "author": "Blue-Mink",
+   "author_url": "https://github.com/Blue-Mink",
+   "distributor": "Blue-Mink",
+   "distributor_url": "https://github.com/Blue-Mink",
+   "install_type": "系统空间",
+   "service_port": "38100",
+   "categories": [
+    "系统工具"
+   ],
+   "license": "MIT",
+   "preview_urls": [
+    "https://raw.githubusercontent.com/Blue-Mink/moo/main/docs/readme-pc-home.png",
+    "https://raw.githubusercontent.com/Blue-Mink/moo/main/docs/readme-pc-detail.png",
+    "https://raw.githubusercontent.com/Blue-Mink/moo/main/docs/readme-mobile-1.png"
+   ],
+   "releases": {
+    "0.6.271": {
+     "changelog": "源去重/命名/相对路径 bug 修复组：同仓库双协议链接判同地址、同名源自动消歧、Gitea raw 直链名=仓库名、moo.json 源相对资源 404 根治、拉取失败透传真实错误。",
+     "packages": {
+      "x86": {
+       "download_url": "https://github.com/Blue-Mink/moo/releases/download/v0.6.271/moo_0.6.271_x86.fpk",
+       "size": 8153652,
+       "size_mb": 7.78,
+       "sha256": "bdbd28f58ff2295ec09ee78ba5afc4922fe273fb571c28382475b3a387c517b1"
+      }
+     },
+     "updated_at": "2026-10-05T01:08:46+08:00"
+    },
+    "0.6.270": {
+     "changelog": "OAuth 面板地址自动识别：网关入口（FN Connect/knock 子域/ESA 免端口）跟随浏览器 origin，局域网 IP 保持 5666/5667；成功地址本地记忆 + 内嵌授权页加载超时兜底。",
+     "packages": {
+      "x86": {
+       "download_url": "https://github.com/Blue-Mink/moo/releases/download/v0.6.270/moo_0.6.270_x86.fpk",
+       "size": 8149925,
+       "size_mb": 7.77,
+       "sha256": "90714555a5463a6e0538a95d05e60ef06af97600c8cc10cb0e0919b68e6e6801"
+      }
+     },
+     "updated_at": "2026-10-04T20:53:40+08:00"
+    },
+    "0.6.269": {
+     "changelog": "M4 余项全落地：协议 4 字段（desc_html/license/min_fnos/wizard）+ 目录语言跟随 + 应用诊断端点 + Docker 优选源应用。",
+     "packages": {
+      "x86": {
+       "download_url": "https://github.com/Blue-Mink/moo/releases/download/v0.6.269/moo_0.6.269_x86.fpk",
+       "size": 8149372,
+       "size_mb": 7.77,
+       "sha256": "b3609c0a4e62572e98479d4a57a91fb3f3b4d0a56377a15b9fcfbac31372906a"
+      }
+     },
+     "updated_at": "2026-10-04T12:39:55+08:00"
+    }
+   },
+   "first_release_at": "2026-09-26T08:39:41+08:00",
+   "download_count": 0
   }
  }
 }

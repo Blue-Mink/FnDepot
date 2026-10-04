@@ -289,5 +289,26 @@
     "service_port": "37717",
     "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/dog-dev-v1.2.6/dog-dev-1.2.6-fnos-amd64.fpk",
     "changelog": "品牌与署名更新：控制台标题去掉「加速器」后缀；关于页改为 Dog-dev 介绍（原作者 MisiteQ，发布者 Blue-Mink）；应用中心发布者（distributor）改为 Blue-Mink"
+  },
+  "moo": {
+    "display_name": "Moo 应用商店",
+    "version": "0.6.271",
+    "platform": "x86",
+    "desc": "飞牛 NAS 上的第三方应用中心：1800+ 应用浏览 / 安装 / 更新 / 下载；三源同步（官方应用中心 / FnDepot / fnos-apps）、14 领域智能归类；30+ 事件 × 7 渠道通知推送；GitHub 加速与应用内自更新。",
+    "labels": "系统工具",
+    "author": "Blue-Mink",
+    "author_url": "https://github.com/Blue-Mink",
+    "distributor": "Blue-Mink",
+    "distributor_url": "https://github.com/Blue-Mink",
+    "bug_report_url": "https://github.com/Blue-Mink/moo/issues",
+    "isdocker": "false",
+    "install_type": "系统空间",
+    "size": "7.78",
+    "download_url": "https://github.com/Blue-Mink/moo/releases/download/v0.6.271/moo_0.6.271_x86.fpk",
+    "changelog": "源去重/命名/相对路径 bug 修复组：同仓库双协议链接判同地址、同名源自动消歧、Gitea raw 直链名=仓库名、moo.json 源相对资源 404 根治、拉取失败透传真实错误。",
+    "icon_url": "./moo/ICON.PNG",
+    "readme_url": "./moo/README.md",
+    "homepage": "https://github.com/Blue-Mink/moo",
+    "service_port": "38100"
   }
 }
