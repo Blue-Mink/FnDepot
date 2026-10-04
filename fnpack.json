@@ -268,5 +268,26 @@
     "readme_url": "./fndepot/README.md",
     "homepage": "https://github.com/EWEDLCM/FnDepot",
     "service_port": ""
+  },
+  "dog-dev": {
+    "display_name": "Dog-dev",
+    "version": "1.2.6",
+    "platform": "all",
+    "desc": "飞牛 fnOS 的 GitHub / Docker 加速应用（基于 GitHub++ 深度定制）：智能测速自动选择最优加速通道，Docker 拉取加速依赖 kspeeder 应用（自动探测其安装与运行状态，端口跟随其自身配置），支持镜像反代、DNS 优选 hosts、HTTPS 网页加速与 Docker 镜像拉取加速，内置 iOS 风格 Web 控制台，默认不影响正常联网。",
+    "labels": "工具，网络",
+    "icon_url": "./dog-dev/ICON.PNG",
+    "readme_url": "./dog-dev/README.md",
+    "homepage": "https://github.com/Blue-Mink/dog-dev",
+    "bug_report_url": "https://github.com/Blue-Mink/dog-dev/issues",
+    "author": "MisiteQ",
+    "author_url": "https://github.com/MisiteQ",
+    "distributor": "Blue-Mink",
+    "distributor_url": "https://github.com/Blue-Mink",
+    "install_type": "系统空间",
+    "size": "4.39",
+    "isdocker": "false",
+    "service_port": "37717",
+    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/dog-dev-v1.2.6/dog-dev-1.2.6-fnos-amd64.fpk",
+    "changelog": "品牌与署名更新：控制台标题去掉「加速器」后缀；关于页改为 Dog-dev 介绍（原作者 MisiteQ，发布者 Blue-Mink）；应用中心发布者（distributor）改为 Blue-Mink"
   }
 }

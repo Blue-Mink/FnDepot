@@ -216,6 +216,31 @@ TREK 是一款自托管旅行规划工具，基于 [liketrek/TREK](https://githu
 
 ---
 
+### 🐶 Dog-dev
+
+飞牛 fnOS 的 GitHub / Docker 加速应用（基于 GitHub++ 深度定制）：智能测速自动选择最优加速通道，Docker 拉取加速依赖 kspeeder 应用（自动探测其安装与运行状态，端口跟随其自身配置），支持镜像反代、DNS 优选 hosts 加速、HTTPS 网页加速与 Docker 镜像拉取加速，内置 iOS 风格 Web 控制台，默认不影响正常联网。
+
+<br/>
+
+<div align="center">
+
+[![Dog-dev](https://img.shields.io/badge/Dog--dev-v1.2.6-blue?style=flat-square)](https://github.com/Blue-Mink/FnDepot) [![Platform](https://img.shields.io/badge/Platform-x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
+
+</div>
+
+<br/>
+
+| 项目 | 信息 |
+| :--- | :--- |
+| 👨‍💻 **原作者** | [MisiteQ](https://github.com/MisiteQ) |
+| 📁 **原项目** | [github-plus-plus](https://github.com/MisiteQ/github-plus-plus) |
+| 📥 **安装方式** | 下载 [dog-dev-1.2.6-fnos-amd64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/dog-dev-v1.2.6/dog-dev-1.2.6-fnos-amd64.fpk)（x86）或 [dog-dev-1.2.6-fnos-arm64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/dog-dev-v1.2.6/dog-dev-1.2.6-fnos-arm64.fpk)（arm64）在 fnOS 应用中心手动安装 |
+| 🏷️ **版本** | v1.2.6 |
+| 🌐 **默认端口** | 代理 37710 / 控制台 37717 |
+| 📖 **详细说明** | [dog-dev/README.md](dog-dev/README.md) |
+
+---
+
 ### 🚀 KSpeeder
 
 Docker 镜像加速管理工具，支持多源镜像缓存、加速规则管理、流量统计与自动清理，帮助提升容器镜像拉取速度。基于 kspeeder/docker_kspeeder 项目打包，适配飞牛 fnOS 应用中心。
