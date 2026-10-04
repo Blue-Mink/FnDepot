@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dog-dev</title>
+<link rel="icon" type="image/png" href="/favicon.png">
+<script>
+/* 主题：auto / light / dark。首帧前落定 data-theme，避免闪烁。 */
+try {
+  var t = localStorage.getItem('theme') || 'auto';
+  if (!['auto', 'light', 'dark'].includes(t)) t = 'auto';
+  document.documentElement.setAttribute('data-theme', t);
+} catch (e) { document.documentElement.setAttribute('data-theme', 'auto'); }
+</script>
+</head>
+<body>
+<div id="app"></div>
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>

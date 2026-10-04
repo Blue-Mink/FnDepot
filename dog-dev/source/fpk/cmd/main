@@ -1,0 +1,249 @@
+#!/bin/bash
+
+# Dog-dev 加速器 主控脚本：处理 start / stop / status。
+#
+# 启动方式说明：
+#   使用 setsid 让看门狗与服务进程脱离控制终端、进程组与 cgroup，进入新会话。
+#   这样关闭桌面窗口 / 登出飞牛账号时，启动 shell 所在会话或 cgroup 被销毁，
+#   也不会牵连加速服务退出。
+#   看门狗在子进程异常退出（rc != 0）时 3 秒后自动拉起；rc = 0 视为主动停止，不再重启。
+#   真实服务进程的 PID 由 Go 程序自身在启动后写入 ${PID_FILE}（通过 GHPH_PID_FILE 传入），
+#   避免依赖 $!（在 setsid 下 $! 指向 setsid 而非真实服务进程）。
+
+LOG_FILE="${TRIM_PKGVAR}/info.log"
+PID_FILE="${TRIM_PKGVAR}/app.pid"
+BIN="${TRIM_APPDEST}/ghpp"
+
+log_msg() {
+    echo "$(date '+%Y-%m-%d %H:%M:%S') - $1" >> "${LOG_FILE}"
+}
+
+# binary_arch 读出 ELF 头里的机器类型（e_machine，小端两字节），
+# 用来在启动前发现"装错架构包"的问题：x86_64=3e00，aarch64=b700。
+# 设备架构对不上时二进制根本无法执行，错误只有一行 exec format error，
+# 用户完全看不出原因，所以这里提前检查并给出明确提示。
+binary_arch() {
+    od -An -tx1 -j18 -N2 "${1}" 2>/dev/null | tr -d ' \n'
+}
+
+device_arch() {
+    case "$(uname -m)" in
+        x86_64)  echo "3e00" ;;
+        aarch64) echo "b700" ;;
+        armv7l|armv8l) echo "2800" ;;
+        *) echo "unknown" ;;
+    esac
+}
+
+arch_name() {
+    case "$1" in
+        3e00) echo "x86_64" ;;
+        b700) echo "aarch64(ARM64)" ;;
+        2800) echo "armv7(32位)" ;;
+        *) echo "未知(${1})" ;;
+    esac
+}
+
+check_arch() {
+    local bin_arch dev_arch
+    bin_arch=$(binary_arch "${BIN}")
+    dev_arch=$(device_arch)
+    if [ "${bin_arch}" != "${dev_arch}" ]; then
+        log_msg "错误：二进制架构 $(arch_name "${bin_arch}") 与设备架构 $(arch_name "${dev_arch}") 不匹配"
+        echo "Dog-dev 安装包架构（$(arch_name "${bin_arch}")）与 NAS 设备架构（$(arch_name "${dev_arch}")）不一致，请下载并安装与设备匹配的 fpk 包。" > "${TRIM_TEMP_LOGFILE}" 2>/dev/null
+        return 1
+    fi
+    return 0
+}
+
+# watchdog_enabled 读取 ${TRIM_PKGVAR}/watchdog_enabled 标记文件，
+# 内容为 "1" 表示启用自动重启，"0" 或文件缺失视为关闭。
+# 该文件由 Go 进程启动时与 API 切换 auto_restart 时同步写入，
+# 看门狗直接 cat 即可，无需依赖 YAML 解析。
+watchdog_enabled() {
+    local flag_file="${TRIM_PKGVAR}/watchdog_enabled"
+    if [ ! -f "${flag_file}" ]; then
+        # 文件缺失视为启用（默认 true，与 config 默认值一致）。
+        echo 1
+        return 0
+    fi
+    local val
+    val=$(head -n 1 "${flag_file}" 2>/dev/null | tr -d '[:space:]')
+    if [ -z "${val}" ]; then
+        echo 1
+        return 0
+    fi
+    echo "${val}"
+}
+
+# run_with_watchdog 已拆到独立脚本 ${TRIM_APPDEST}/watchdog.sh，由 main 直接调用。
+# 这样可以避免用 declare -f 把函数传给 setsid bash -c 子 shell（在某些 bash 版本下
+# 不稳定，会导致子 shell 立即退出，Go 进程根本起不来）。
+
+start_process() {
+    if status; then
+        return 0
+    fi
+
+    if [ ! -x "${BIN}" ] && [ ! -f "${BIN}" ]; then
+        log_msg "错误：未找到可执行文件 ${BIN}"
+        echo "未找到应用主程序 ${BIN}，请重新安装。" > "${TRIM_TEMP_LOGFILE}" 2>/dev/null
+        return 1
+    fi
+
+    # 架构不匹配时二进制无法执行，提前拦截并给出可读的错误。
+    if ! check_arch; then
+        return 1
+    fi
+
+    [ -x "${BIN}" ] || chmod +x "${BIN}" 2>/dev/null
+
+    # 看门狗脚本与二进制同目录（fpk/app/watchdog.sh 打包后落在 TRIM_APPDEST 下）。
+    WATCHDOG="${TRIM_APPDEST}/watchdog.sh"
+    if [ ! -f "${WATCHDOG}" ]; then
+        log_msg "错误：未找到看门狗脚本 ${WATCHDOG}"
+        echo "未找到看门狗脚本 ${WATCHDOG}，请重新安装。" > "${TRIM_TEMP_LOGFILE}" 2>/dev/null
+        return 1
+    fi
+    chmod +x "${WATCHDOG}" 2>/dev/null
+
+    # 清理上次 stop 流程可能残留的 stop_signal，避免新启动的看门狗误判为"主动停止"。
+    rm -f "${TRIM_PKGVAR}/stop_signal" 2>/dev/null
+
+    log_msg "Starting Dog-dev ..."
+
+    # 数据目录使用 TRIM_PKGVAR，升级与重装后配置依然保留。
+    #
+    # setsid 让看门狗进程脱离控制终端、进程组与 cgroup，进入新会话，
+    # 即便启动 shell 所在会话/cgroup 被销毁（关闭桌面窗口/登出飞牛账号），
+    # 加速服务也不会被牵连终止。
+    #
+    # 看门狗脚本自身实现 rc=0 不拉起、rc!=0 按 stop_signal/watchdog_enabled 判断的逻辑，
+    # main 只需等待 Go 进程把自身 PID 写入 PID_FILE 即可确认启动成功。
+    # 用 env 显式传环境变量，避免子 shell 拿不到 BIN/TRIM_PKGVAR 等非 export 变量。
+    setsid env BIN="${BIN}" TRIM_PKGVAR="${TRIM_PKGVAR}" LOG_FILE="${LOG_FILE}" \
+        GHPH_PID_FILE="${PID_FILE}" bash "${WATCHDOG}" >> "${LOG_FILE}" 2>&1 < /dev/null &
+
+    # 等待 Go 进程把自身 PID 写入 ${PID_FILE} 且进程存活，才算启动成功。
+    # 服务启动要测速与写 hosts，需要几秒；只有确认进程还活着才算启动成功，
+    # 否则把日志里的线索回报给应用中心。
+    local i=0
+    while [ $i -lt 15 ]; do
+        if [ -f "${PID_FILE}" ]; then
+            local pid
+            pid=$(head -n 1 "${PID_FILE}" | tr -d '[:space:]')
+            if [ -n "${pid}" ] && check_process "${pid}"; then
+                return 0
+            fi
+        fi
+        # PID 文件还没出现，检查看门狗是否还活着；看门狗都挂了说明二进制起不来。
+        if ! pgrep -f "${BIN} -data" >/dev/null 2>&1 && [ ! -f "${PID_FILE}" ]; then
+            log_msg "启动失败：进程已退出"
+            {
+                echo "Dog-dev 启动失败，最近日志："
+                tail -n 20 "${LOG_FILE}" 2>/dev/null
+            } > "${TRIM_TEMP_LOGFILE}" 2>/dev/null
+            rm -f "${PID_FILE}"
+            return 1
+        fi
+        sleep 1
+        i=$((i + 1))
+    done
+
+    # 超时仍未就绪，按启动失败处理。
+    log_msg "启动超时：15 秒内服务未就绪"
+    {
+        echo "Dog-dev 启动超时，最近日志："
+        tail -n 20 "${LOG_FILE}" 2>/dev/null
+    } > "${TRIM_TEMP_LOGFILE}" 2>/dev/null
+    return 1
+}
+
+stop_process() {
+    log_msg "Stopping Dog-dev ..."
+
+    # stop_signal 让看门狗识别"主动停止"：即便 Go 进程被 KILL 强杀（rc!=0），
+    # 看门狗也会因为 stop_signal 存在而不拉起新进程。stop 结束后清理该文件，
+    # 不影响后续崩溃自动重启逻辑。
+    touch "${TRIM_PKGVAR}/stop_signal" 2>/dev/null
+
+    if [ -r "${PID_FILE}" ]; then
+        pid=$(head -n 1 "${PID_FILE}" | tr -d '[:space:]')
+
+        if ! check_process "${pid}"; then
+            rm -f "${PID_FILE}"
+            rm -f "${TRIM_PKGVAR}/stop_signal" 2>/dev/null
+            return 0
+        fi
+
+        # 先发 TERM 让服务优雅退出：停止监听并清理 hosts 托管区。
+        # Go 进程收到 SIGTERM 后会执行 application.Stop 并以 rc=0 退出，
+        # 看门狗识别为"主动退出"不再拉起，stop 才能真正停服。
+        log_msg "send TERM signal to PID:${pid}..."
+        kill -TERM ${pid} >> "${LOG_FILE}" 2>&1
+
+        local count=0
+        while check_process "${pid}" && [ $count -lt 15 ]; do
+            sleep 1
+            count=$((count + 1))
+            log_msg "waiting process terminal... (${count}s/15s)"
+        done
+
+        if check_process "${pid}"; then
+            log_msg "send KILL signal to PID:${pid}..."
+            kill -KILL "${pid}"
+            sleep 1
+            # 被强杀时服务没机会自己清理 hosts，这里兜底清理一次。
+            "${BIN}" -clear-hosts -data "${TRIM_PKGVAR}" >> "${LOG_FILE}" 2>&1
+        fi
+        rm -f "${PID_FILE}"
+    fi
+
+    # 看门狗在子进程退出后会按 should_restart 判断是否拉起；stop_signal 存在时不会拉起。
+    # 这里再等 4 秒（覆盖看门狗 sleep 3 的窗口），确保看门狗自己也退出，
+    # 避免下一行 rm stop_signal 后看门狗还在跑导致误拉起。
+    sleep 4
+    rm -f "${TRIM_PKGVAR}/stop_signal" 2>/dev/null
+    return 0
+}
+
+check_process() {
+    local pid=$1
+    if kill -0 "${pid}" 2>/dev/null; then
+        return 0
+    else
+        return 1
+    fi
+}
+
+status() {
+    if [ -f "${PID_FILE}" ]; then
+        pid=$(head -n 1 "${PID_FILE}" | tr -d '[:space:]')
+        if check_process "${pid}"; then
+            return 0
+        else
+            rm -f "${PID_FILE}"
+        fi
+    fi
+
+    return 1
+}
+
+case $1 in
+start)
+    start_process
+    ;;
+stop)
+    stop_process
+    ;;
+status)
+    if status; then
+        exit 0
+    else
+        exit 3
+    fi
+    ;;
+*)
+    exit 1
+    ;;
+esac

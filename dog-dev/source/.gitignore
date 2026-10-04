@@ -1,0 +1,64 @@
+# 打包产物与本地构建输出
+dist/
+.build/
+ghpp.exe
+
+# 由 scripts/icon.go 生成的根目录图标（fpk/ 内的模板图标不忽略）
+/ICON.PNG
+/ICON_256.PNG
+
+# 本地工具与杂项
+.workbuddy/
+*.log
+
+# 本机 TRAE 工作区配置（技能等，含本机绝对路径）
+.trae/
+web/ui/node_modules/
+DOGDEV-CMP_TODO.md
+DOGDEV_TODO.md
+DOGDEV-PATHFETCH_TODO.md
+third_party/iStoreEnhance.bak-*
+DOGDEV-KS-082_TODO.md
+DOGDEV-FAILOVER_TODO.md
+DOGDEV-SRCMON_TODO.md
+probe_device.sh
+probe2.sh
+probe3.sh
+*_TODO.md
+DOGDEV_COMPARE_TODO.md
+
+# 本机调试/装机脚本与截图（不入库）
+DOGDEV-FULLTEST-REPORT-*.md
+DOGDEV-P02-PLAN.md
+Dog-dev-vs-*.md
+accept*.py
+install_dogdev*.sh
+matrix*.sh
+smoke*.sh
+shot*.py
+shot[0-9]*/
+create_gitea_repo.py
+
+# 会话调试脚本与截图（不进包）
+ui-shots/
+screenshots/
+shot*/
+ui_*.py
+logo_size_decision.py
+*.out
+
+# 会话调试脚本（不入库，可能含内网地址/口令）
+TODO_MIGRATION.md
+capture_host.py
+cmp_step*.sh
+debug_tabs.py
+dog12v3.sh
+fix_*.sh
+fnpack.exe
+github++.png
+patch_readme.py
+pull_e2e.sh
+regress_*.sh
+reinstall_*.sh
+verify_400.sh
+xget_e2e.sh

@@ -1,0 +1,13 @@
+{
+    ".url": {
+        "dog-dev.Application": {
+            "title": "Dog-dev",
+            "icon": "images/icon-{0}.png",
+            "type": "iframe",
+            "protocol": "http",
+            "port": "37717",
+            "url": "/",
+            "allUsers": false
+        }
+    }
+}
