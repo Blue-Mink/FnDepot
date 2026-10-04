@@ -169,7 +169,7 @@
   },
   "kspeeder": {
     "display_name": "KSpeeder",
-    "version": "0.8.0",
+    "version": "0.8.2",
     "platform": "x86",
     "desc": "Docker 镜像加速管理工具，支持多源镜像缓存、加速规则管理、流量统计与自动清理。基于 kspeeder/docker_kspeeder 项目打包，适配飞牛 fnOS 应用中心，支持在安装和应用设置中修改管理端口与镜像代理端口。",
     "labels": "工具，网络",
@@ -182,11 +182,11 @@
     "distributor": "Blue-Mink",
     "distributor_url": "https://github.com/Blue-Mink",
     "install_type": "用户空间",
-    "size": "6.53",
+    "size": "6.54",
     "isdocker": "false",
     "service_port": "5003",
-    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v0.8.0/kspeeder-0.8.0-fnos-amd64.fpk",
-    "changelog": "同步 iStoreEnhance / KSpeeder 引擎至 v0.8.0（build 8664）；新增 kspeeder download 命令与智能下载网关加速（含 Python/pip、Homebrew 加速）；修复 docker manifest 镜像回源重试与 ghcr bottles 域名问题；图标按 fnOS 系统官方 squircle 圆角曲线重制；沿用端口配置闭环：管理端口、代理端口、ui/config、AppCenter 入口与实际监听端口保持同步"
+    "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v0.8.2/kspeeder-0.8.2-fnos-amd64.fpk",
+    "changelog": "同步引擎至 iStoreEnhance 0.8.2：blob 下载按 100MB 分段、多候选节点并行竞速，某节点传输中断（RST/520）时剩余分段自动换其他节点继续，修复内置节点偶发传输中断导致整层拉取失败的问题；端口、配置与数据目录均不变"
   },
   "istoreos": {
     "display_name": "iStoreOS",
