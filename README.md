@@ -410,7 +410,7 @@ AMD Ryzen APU 功耗监控与功耗限制控制：读取功耗墙（STAPM / PPT 
 | 👨‍💻 **开发者** | [Blue-Mink](https://github.com/Blue-Mink) |
 | 📁 **项目** | [moo](https://github.com/Blue-Mink/moo)（开源，MIT 许可） |
 | 📥 **安装方式** | 在飞牛 FnDepot 直接添加本源，客户端中搜索「Moo」即可安装 |
-| 🏷️ **版本** | v0.6.278（x86） |
+| 🏷️ **版本** | v0.6.282（x86） |
 | 🌐 **入口** | 面板网关 `/app/moo/`（调试端口 38100） |
 | 📖 **详细说明** | [moo/README.md](moo/README.md) |
 
@@ -426,7 +426,7 @@ AMD Ryzen APU 功耗监控与功耗限制控制：读取功耗墙（STAPM / PPT 
 
 ## 🙏 致谢
 
-- [FnDepot 应用源构建规范 V1.1.1](https://github.com/EWEDLCM/FnDepot)
+- [FnDepot 外部应用源 V2 编写说明](https://github.com/EWEDLCM/FnDepot)（本仓库 `fnpack.json` / `fndepot.json` 即按 V2 协议生成）
 - [FnDepot 商店客户端（EWEDL）](https://github.com/EWEDLCM/FnDepot)
 - [conversun/fnos-store 与 fnos-apps 应用目录](https://github.com/conversun/fnos-store)
 - [飞牛 fnOS](https://www.fnnas.com/)
