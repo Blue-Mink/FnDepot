@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/readme-logo.png" width="92" alt="Moo logo" /><br/>
+  <img src="https://raw.githubusercontent.com/Blue-Mink/moo/main/docs/readme-logo.png" width="92" alt="Moo logo" /><br/>
 </p>
 
 <h1 align="center">For fnOS<br/>Moo is more</h1>
@@ -9,14 +9,14 @@
 </p>
 
 <p align="center">
-  <a href="releases/latest"><img alt="FPK" src="https://img.shields.io/badge/FPK-0.6.271-1f6feb?style=flat-square"></a>
+  <a href="https://github.com/Blue-Mink/moo/releases/latest"><img alt="FPK" src="https://img.shields.io/badge/FPK-0.6.278-1f6feb?style=flat-square"></a>
   <img alt="Go" src="https://img.shields.io/badge/Go-%E5%8D%95%E4%BA%8C%E8%BF%9B%E5%88%B6-0a84ff?style=flat-square">
   <img alt="Platform" src="https://img.shields.io/badge/fnOS-x86__64-6f42c1?style=flat-square">
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/License-MIT-111827?style=flat-square"></a>
 </p>
 
 <p align="center">
-  <a href="releases/latest">下载 FPK</a> ·
+  <a href="https://github.com/Blue-Mink/moo/releases/latest">下载 FPK</a> ·
   <a href="releases">更新日志</a> ·
   <a href="https://github.com/conversun/fnos-apps">fnos-apps（上游）</a> ·
   <a href="https://github.com/Blue-Mink/moo/issues">反馈问题</a>
@@ -25,27 +25,27 @@
 本仓库包含 Moo 的全部源码：Go 后端（单二进制，web embed）+ React / TypeScript 前端（Vite 构建后内嵌），发布产物为仅 x86_64 的单 FPK。应用目录数据来自三大平台——飞牛官方应用中心、FnDepot、fnos-apps（conversun），Moo 只负责聚合、归类与推送，不修改上游数据。仓库根部的 `moo.json` 是自索引——**本仓库本身就是一个 Moo 应用源**（见下方「作为 Moo 应用源」）。
 
 <p align="center">
-  <img src="docs/readme-mobile-1.png" width="100%" alt="移动端（暗黑模式）：主页 / 系统设置 / 加速源 / 发现"/><br/>
+  <img src="https://raw.githubusercontent.com/Blue-Mink/moo/main/docs/readme-mobile-1.png" width="100%" alt="移动端（暗黑模式）：主页 / 系统设置 / 加速源 / 发现"/><br/>
   <b>移动端 · 主页 / 收藏 / 发现（暗黑模式）</b><br/>
   App Store 风格列表 · 搜索可直接贴源链接 · 收藏与关注源
 </p>
 
 <p align="center">
-  <img src="docs/readme-mobile-2.png" width="86%" alt="移动端设置：备份 / 通知 / 关于"/><br/>
+  <img src="https://raw.githubusercontent.com/Blue-Mink/moo/main/docs/readme-mobile-2.png" width="86%" alt="移动端设置：备份 / 通知 / 关于"/><br/>
   <b>移动端 · 设置全 tab</b><br/>
   加速源健康自动监测 · 应用源 157 个一键恢复 · 通知内容三档
 </p>
 
 <p align="center">
-  <img src="docs/readme-pc-home.png" width="100%" alt="桌面端主页"/><br/>
+  <img src="https://raw.githubusercontent.com/Blue-Mink/moo/main/docs/readme-pc-home.png" width="100%" alt="桌面端主页"/><br/>
   <b>桌面端 · 主页</b><br/>
   14 个领域分类 chip · 应用网格 · 批量操作与拖拽排序
 </p>
 
 <table>
   <tr>
-    <td width="50%" align="center"><img src="docs/readme-pc-detail.png" width="98%" alt="应用详情" /></td>
-    <td width="50%" align="center"><img src="docs/readme-pc-settings.png" width="98%" alt="设置" /></td>
+    <td width="50%" align="center"><img src="https://raw.githubusercontent.com/Blue-Mink/moo/main/docs/readme-pc-detail.png" width="98%" alt="应用详情" /></td>
+    <td width="50%" align="center"><img src="https://raw.githubusercontent.com/Blue-Mink/moo/main/docs/readme-pc-settings.png" width="98%" alt="设置" /></td>
   </tr>
   <tr>
     <td align="center"><b>应用详情</b></td>
@@ -57,7 +57,7 @@
 
 | # | 做什么 | 说明 |
 | --- | --- | --- |
-| 1 | [下载 FPK](releases/latest) | 当前 `0.6.271` · SHA256 `bdbd28f58ff2295ec09ee78ba5afc4922fe273fb571c28382475b3a387c517b1` |
+| 1 | [下载 FPK](https://github.com/Blue-Mink/moo/releases/latest) | 当前 `0.6.278` · SHA256 `f1f091180f5d01996c274f98dd116678a68a8b483b64dd9afaad439b5c67b1ca` |
 | 2 | 应用中心 → 手动安装 | 向导可选 Web 端口（默认 `38100`） |
 | 3 | 面板打开 `/app/moo/` | 统一网关入口，继承面板登录 + 仅管理员 |
 | 4 | （可选）配置推送渠道 | 设置 → 通知设置：企业微信 / 钉钉 / 飞书等 7 种外部渠道 |
@@ -69,12 +69,12 @@
 
 ## 作为 Moo 应用源
 
-仓库根部的 `moo.json` 是按 [Moo 应用源协议](docs/MOO-PROTOCOL.md) 生成的自索引（当前收录最近 3 个版本，下载链接指向本仓库 releases，含 SHA256）。在 Moo 中添加本仓库作为源：
+仓库根部的 `moo.json` 是按 [Moo 应用源协议](https://github.com/Blue-Mink/moo/blob/main/docs/MOO-PROTOCOL.md) 生成的自索引（当前收录最近 3 个版本，下载链接指向本仓库 releases，含 SHA256）。在 Moo 中添加本仓库作为源：
 
 - 搜索框直接粘贴 `https://github.com/Blue-Mink/moo` → 自动识别为源
 - 或 设置 → 应用源 → 添加源：仓库地址 / raw 直链（`…/raw/main/moo.json`）均可
 
-这也是协议的最小可用示例源；字段规范、多版本与 `packages` 结构、版本比较规则见 [docs/MOO-PROTOCOL.md](docs/MOO-PROTOCOL.md)。
+这也是协议的最小可用示例源；字段规范、多版本与 `packages` 结构、版本比较规则见 [docs/MOO-PROTOCOL.md](https://github.com/Blue-Mink/moo/blob/main/docs/MOO-PROTOCOL.md)。
 
 ## 为什么这样设计
 
@@ -141,19 +141,19 @@ go test ./...     # 单元测试
 
 | 资源 | 说明 |
 |---|---|
-| [API 文档](docs/API.md) | 全部 HTTP 端点、请求/响应字段、SSE 事件、鉴权与错误码 |
-| [应用源协议](docs/MOO-PROTOCOL.md) | `moo.json` 完整规范：字段全表、14 项固定分类、多版本与 `packages`、版本比较规则、7 份带注释示例、FAQ |
-| [使用与诊断技能](skills/moo/) | Agent Skill：四平面核心模型、完整 API 镜像、安装与热替换、安全规则、排障 |
-| [构建并发布到 Moo 技能](skills/fpk-build-to-moo/) | Agent Skill：**从构建 FPK 到发布 Moo 的全流程**——构建与本地验证 → 写 `moo.json` → 放仓库（匿名可达）→ 搜索框自测 → 添加为源与详情页验收 → 版本迭代与发布脱敏 |
+| [API 文档](https://github.com/Blue-Mink/moo/blob/main/docs/API.md) | 全部 HTTP 端点、请求/响应字段、SSE 事件、鉴权与错误码 |
+| [应用源协议](https://github.com/Blue-Mink/moo/blob/main/docs/MOO-PROTOCOL.md) | `moo.json` 完整规范：字段全表、14 项固定分类、多版本与 `packages`、版本比较规则、7 份带注释示例、FAQ |
+| [使用与诊断技能](https://github.com/Blue-Mink/moo/tree/main/skills/moo) | Agent Skill：四平面核心模型、完整 API 镜像、安装与热替换、安全规则、排障 |
+| [构建并发布到 Moo 技能](https://github.com/Blue-Mink/moo/tree/main/skills/fpk-build-to-moo) | Agent Skill：**从构建 FPK 到发布 Moo 的全流程**——构建与本地验证 → 写 `moo.json` → 放仓库（匿名可达）→ 搜索框自测 → 添加为源与详情页验收 → 版本迭代与发布脱敏 |
 | [发布到 FnDepot 技能](https://github.com/Blue-Mink/fpk-build-to-fndepot-skill) | Agent Skill：FnDepot V2 协议与上架流程 |
 | [FPK 构建技能](https://github.com/Blue-Mink/fn-fpk-builder-skill) | Agent Skill：FPK 打包 / 校验 / 发布 / SSH 部署与排障 |
 
 > 后两个为独立仓库的技能，克隆到工作区的 `skills/` 目录即可被 Agent 识别；
-> 前两个已随本仓库分发（见 [`skills/`](skills/)）。
+> 前两个已随本仓库分发（见 [`skills/`](https://github.com/Blue-Mink/moo/tree/main/skills)）。
 
 ## 📄 许可证
 
-[MIT License](LICENSE) · © 2026 Blue-Mink
+[MIT License](https://github.com/Blue-Mink/moo/blob/main/LICENSE) · © 2026 Blue-Mink
 
 ---
 
