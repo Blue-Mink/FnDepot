@@ -817,6 +817,17 @@
       "is_docker": false,
       "service_port": "38100",
       "releases": {
+        "0.6.283": {
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/Blue-Mink/moo/releases/download/v0.6.283/moo_0.6.283_x86.fpk",
+              "sha256": "fccb76bf4c33714766153878a4340569ba8aeb11aeb2a7efdb2cb2a0025c3362",
+              "size": 8918203
+            }
+          },
+          "changelog": "直链源治本：GitHub 系 .json 直链源自动展开镜像与 jsDelivr 兜底候选（不再怕 raw 直连断流）；兜底竞速独立超时；源同步失败通知附具体原因。前端零改动。",
+          "updated_at": "2026-10-05T18:06:48+08:00"
+        },
         "0.6.282": {
           "packages": {
             "x86": {
@@ -838,17 +849,6 @@
           },
           "changelog": "README 面板定版：修复应用详情 README 图片 404（源数据改绝对路径）、去展开/收起改固定上限独立滚动小框（移动端 24rem / 桌面 28rem，阅读友好留白）。",
           "updated_at": "2026-10-05T11:45:00+08:00"
-        },
-        "0.6.278": {
-          "packages": {
-            "x86": {
-              "download_url": "https://github.com/Blue-Mink/moo/releases/download/v0.6.278/moo_0.6.278_x86.fpk",
-              "sha256": "f1f091180f5d01996c274f98dd116678a68a8b483b64dd9afaad439b5c67b1ca",
-              "size": 8908982
-            }
-          },
-          "changelog": "UI 定版（玻璃质感统一）：移动端 dock 全宽胶囊、顶部通知栏 24px 大圆角毛玻璃、开关回退原版小号、sonner toast 改 dock 同款毛玻璃；Go 源码零改动。",
-          "updated_at": "2026-10-05T11:30:00+08:00"
         }
       },
       "preview_urls": [
