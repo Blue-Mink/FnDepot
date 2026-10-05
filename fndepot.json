@@ -817,6 +817,17 @@
       "is_docker": false,
       "service_port": "38100",
       "releases": {
+        "0.6.298": {
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/Blue-Mink/moo/releases/download/v0.6.298/moo_0.6.298_x86.fpk",
+              "sha256": "f7cd87407083f308fb9af97e97db8e1faecfe40effa158a4c1247301eb7a2c0f",
+              "size": 8931225
+            }
+          },
+          "changelog": "网页端极光模式定稿：12 组三段式渐变色板按应用稳定取色，收藏/忽略更新区跟随三模式；详情与设置对话框底板同风格渐变（圆角收边）、大屏极光卡一行 4 个；另含 284-293 批次桌面/移动真分支与安装按钮、毛玻璃等多处 UI 细节修复。",
+          "updated_at": "2026-10-06T04:08:09+08:00"
+        },
         "0.6.283": {
           "packages": {
             "x86": {
@@ -838,17 +849,6 @@
           },
           "changelog": "深链现场恢复：详情/设置页（含所选 tab）写入 URL，外链返回与 F5 刷新同帧恢复、无跳闪（新增恢复门）；设置页深链 #settings=<tab>；Go 后端零改动。",
           "updated_at": "2026-10-05T14:30:00+08:00"
-        },
-        "0.6.279": {
-          "packages": {
-            "x86": {
-              "download_url": "https://github.com/Blue-Mink/moo/releases/download/v0.6.279/moo_0.6.279_x86.fpk",
-              "sha256": "a2a8c170328e6bc5c0de27da6ad43dc174e30ae091cb2a8b5e9b9590b74d002b",
-              "size": 8908563
-            }
-          },
-          "changelog": "README 面板定版：修复应用详情 README 图片 404（源数据改绝对路径）、去展开/收起改固定上限独立滚动小框（移动端 24rem / 桌面 28rem，阅读友好留白）。",
-          "updated_at": "2026-10-05T11:45:00+08:00"
         }
       },
       "preview_urls": [
