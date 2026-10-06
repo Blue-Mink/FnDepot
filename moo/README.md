@@ -5,28 +5,29 @@
 <h1 align="center">For fnOS<br/>Moo is more</h1>
 
 <p align="center">
-  在飞牛 NAS 上装一个第三方应用中心，1800+ 应用浏览 / 安装 / 更新 / 下载，通知推送开箱即用
+  在飞牛 NAS 上装一个第三方应用中心，2100+ 应用浏览 / 安装 / 更新 / 下载，通知推送开箱即用
 </p>
 
 <p align="center">
-  <a href="https://github.com/Blue-Mink/moo/releases/latest"><img alt="FPK" src="https://img.shields.io/badge/FPK-0.6.278-1f6feb?style=flat-square"></a>
+  <a href="https://github.com/Blue-Mink/moo/releases/latest"><img alt="FPK" src="https://img.shields.io/badge/FPK-0.6.308-1f6feb?style=flat-square"></a>
   <img alt="Go" src="https://img.shields.io/badge/Go-%E5%8D%95%E4%BA%8C%E8%BF%9B%E5%88%B6-0a84ff?style=flat-square">
-  <img alt="Platform" src="https://img.shields.io/badge/fnOS-x86__64-6f42c1?style=flat-square">
+  <img alt="Platform" src="https://img.shields.io/badge/fnOS-x86__64%2Farm64-6f42c1?style=flat-square">
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/License-MIT-111827?style=flat-square"></a>
 </p>
 
 <p align="center">
   <a href="https://github.com/Blue-Mink/moo/releases/latest">下载 FPK</a> ·
+  <a href="https://github.com/Blue-Mink/moo/blob/main/应用介绍.md">应用介绍（图文）</a> ·
   <a href="releases">更新日志</a> ·
   <a href="https://github.com/conversun/fnos-apps">fnos-apps（上游）</a> ·
   <a href="https://github.com/Blue-Mink/moo/issues">反馈问题</a>
 </p>
 
-本仓库包含 Moo 的全部源码：Go 后端（单二进制，web embed）+ React / TypeScript 前端（Vite 构建后内嵌），发布产物为仅 x86_64 的单 FPK。应用目录数据来自三大平台——飞牛官方应用中心、FnDepot、fnos-apps（conversun），Moo 只负责聚合、归类与推送，不修改上游数据。仓库根部的 `moo.json` 是自索引——**本仓库本身就是一个 Moo 应用源**（见下方「作为 Moo 应用源」）。
+本仓库包含 Moo 的全部源码：Go 后端（单二进制，web embed）+ React / TypeScript 前端（Vite 构建后内嵌），发布产物为 x86_64 / arm64 双架构 FPK（0.6.303 起）。应用目录数据来自三大平台——飞牛官方应用中心、FnDepot、fnos-apps（conversun），Moo 只负责聚合、归类与推送，不修改上游数据。仓库根部的 `moo.json` 是自索引——**本仓库本身就是一个 Moo 应用源**（见下方「作为 Moo 应用源」）。
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Blue-Mink/moo/main/docs/readme-mobile-1.png" width="100%" alt="移动端（暗黑模式）：主页 / 系统设置 / 加速源 / 发现"/><br/>
-  <b>移动端 · 主页 / 收藏 / 发现（暗黑模式）</b><br/>
+  <b>移动端 · 主页 / 系统设置 / 加速源 / 发现（暗黑模式）</b><br/>
   App Store 风格列表 · 搜索可直接贴源链接 · 收藏与关注源
 </p>
 
@@ -57,12 +58,12 @@
 
 | # | 做什么 | 说明 |
 | --- | --- | --- |
-| 1 | [下载 FPK](https://github.com/Blue-Mink/moo/releases/latest) | 当前 `0.6.278` · SHA256 `f1f091180f5d01996c274f98dd116678a68a8b483b64dd9afaad439b5c67b1ca` |
+| 1 | [下载 FPK](https://github.com/Blue-Mink/moo/releases/latest) | 当前 `0.6.308` · x86 `7c17a97c41219065539b9db8b03ca08d50730965ee3c9bd964c9f096d9f84cc1`（4.4MB） / arm `07b5537ce319b26f91165df2301492d3fb1ce71eae7b7daac4bd63b0676527da`（4.0MB） |
 | 2 | 应用中心 → 手动安装 | 向导可选 Web 端口（默认 `38100`） |
 | 3 | 面板打开 `/app/moo/` | 统一网关入口，继承面板登录 + 仅管理员 |
 | 4 | （可选）配置推送渠道 | 设置 → 通知设置：企业微信 / 钉钉 / 飞书等 7 种外部渠道 |
 
-运行要求：fnOS x86_64。无其他依赖——后端 Go 单二进制（web embed），前端构建后内嵌，整包约 7.8 MB。
+运行要求：fnOS x86_64 / arm64。无其他依赖——后端 Go 单二进制（web embed），前端构建后内嵌，整包约 4.4 MB（x86）/ 4.0 MB（arm）。
 
 > [!TIP]
 > 装完可应用内自更新：版本号红点 + 确认框，走平台升级通道就地更新，`@appdata` 数据保留。
@@ -85,6 +86,8 @@
 | 通知体系 | 30+ 事件 × 7 外部渠道，内容三档 × 形式按渠道可选；应用内通知恒开、永不漏记 |
 | GitHub 加速 | 多镜像测速自动优选，自更新 / FPK 下载 / 源同步全链路走加速；全挂告警 + 恢复通知 |
 | 应用内自更新 | 平台升级通道就地更新，`@appdata` 数据保留；版本号红点 + 确认框 |
+| 双架构 FPK | x86_64 / arm64 双架构发布（0.6.303 起），详情页显示全部架构、安装按本机架构自动选包 |
+| 毛玻璃胶囊风格 | 全页按钮/徽章统一磨砂浅蓝胶囊语言，对话框玻璃化 + 环境光背景；关于页「最新更新日志」卡（0.6.305-308） |
 | 收藏与关注 | 应用收藏、关注源（新增应用推送 + 关注源报表）、忽略更新（列表可找回） |
 | 搜索贴源 | 搜索框直接粘贴 GitHub / FnDepot 源地址，自动识别源并搜索其应用 |
 | 备份与缓存 | 配置快照一键备份 / 周期自动备份；已下载 FPK 缓存自动清理 |
@@ -134,6 +137,8 @@ skills/       Agent Skills：使用与诊断（moo/）、构建并发布到 Moo�
 
 ```bash
 ./build.sh x86    # 产出 moo_<version>_x86.fpk（首次自动下载 fnpack）
+./build.sh arm    # arm 版（交叉编译 + manifest platform=arm）
+./build.sh all    # 双架构一次出
 go test ./...     # 单元测试
 ```
 
@@ -141,6 +146,7 @@ go test ./...     # 单元测试
 
 | 资源 | 说明 |
 |---|---|
+| [应用介绍（图文）](https://github.com/Blue-Mink/moo/blob/main/应用介绍.md) | 面向用户的完整图文手册：逐页功能讲解（Dock 五键 / 七 tab 设置 / 详情 / 向导）+ moo.json 源协议 + FAQ，全部截图为当前版本真实界面 |
 | [API 文档](https://github.com/Blue-Mink/moo/blob/main/docs/API.md) | 全部 HTTP 端点、请求/响应字段、SSE 事件、鉴权与错误码 |
 | [应用源协议](https://github.com/Blue-Mink/moo/blob/main/docs/MOO-PROTOCOL.md) | `moo.json` 完整规范：字段全表、14 项固定分类、多版本与 `packages`、版本比较规则、7 份带注释示例、FAQ |
 | [使用与诊断技能](https://github.com/Blue-Mink/moo/tree/main/skills/moo) | Agent Skill：四平面核心模型、完整 API 镜像、安装与热替换、安全规则、排障 |
