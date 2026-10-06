@@ -817,6 +817,24 @@
       "is_docker": false,
       "service_port": "38100",
       "releases": {
+        "0.6.310": {
+          "changelog": "上报错误日志弹窗修复\nBlue-Mink祝大家国庆快乐，moo得烦恼",
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/Blue-Mink/moo/releases/download/v0.6.310/moo_0.6.310_x86.fpk",
+              "size": 4654566,
+              "size_mb": 4.4,
+              "sha256": "f6c22cf15dedecf8d8288db7f7c324545efb18fb26818ea81d62ea97a6fba5dd"
+            },
+            "arm": {
+              "download_url": "https://github.com/Blue-Mink/moo/releases/download/v0.6.310/moo_0.6.310_arm.fpk",
+              "size": 4237727,
+              "size_mb": 4.0,
+              "sha256": "20f7959e1035308e0f103c2221e358841444373b969aa9781044a9572598b6a8"
+            }
+          },
+          "updated_at": "2026-10-06T22:40:00+08:00"
+        },
         "0.6.309": {
           "changelog": "上报错误日志弹窗修复\nBlue-Mink祝大家国庆快乐，moo得烦恼",
           "packages": {
@@ -852,24 +870,6 @@
             }
           },
           "updated_at": "2026-10-06T17:00:00+08:00"
-        },
-        "0.6.304": {
-          "changelog": "FPK 精简 −48%：app.tgz 去除冗余 web/ 目录 + 二进制剥离符号表（-s -w）；x86 8.95M→4.4M / arm 7.8M→4.0M，界面与 0.6.303 逐字节一致，零功能变化。",
-          "packages": {
-            "x86": {
-              "download_url": "https://github.com/Blue-Mink/moo/releases/download/v0.6.304/moo_0.6.304_x86.fpk",
-              "size": 4654527,
-              "size_mb": 4.4,
-              "sha256": "4c3c151b401602959ceead4367c73e9fa71419a8fb420136f959cf80a60bd95c"
-            },
-            "arm": {
-              "download_url": "https://github.com/Blue-Mink/moo/releases/download/v0.6.304/moo_0.6.304_arm.fpk",
-              "size": 4238356,
-              "size_mb": 4.0,
-              "sha256": "a0492042362db21c091d7748f3e16e8dc9b2cad662f53762fe1b22f4ac7f4f6e"
-            }
-          },
-          "updated_at": "2026-10-06T13:52:33+08:00"
         }
       },
       "preview_urls": [
