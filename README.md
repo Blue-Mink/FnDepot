@@ -393,13 +393,13 @@ AMD Ryzen APU 功耗监控与功耗限制控制：读取功耗墙（STAPM / PPT 
 
 ### 🐮 Moo 应用商店 (moo)
 
-飞牛 NAS 上的第三方应用中心：1800+ 应用浏览 / 安装 / 更新 / 下载；三源同步（官方应用中心 / FnDepot / fnos-apps）与 14 领域智能归类；30+ 事件 × 7 渠道通知推送；GitHub 加速与应用内自更新。本仓库收录自研官方 Release 原包（x86），完整源码见 [moo](https://github.com/Blue-Mink/moo)（MIT）。
+飞牛 NAS 上的第三方应用中心：1800+ 应用浏览 / 安装 / 更新 / 下载；三源同步（官方应用中心 / FnDepot / fnos-apps）与 14 领域智能归类；30+ 事件 × 7 渠道通知推送；GitHub 加速与应用内自更新。本仓库收录自研官方 Release 原包（x86 / arm），完整源码见 [moo](https://github.com/Blue-Mink/moo)（MIT）。
 
 <br/>
 
 <div align="center">
 
-[![Moo](https://img.shields.io/badge/Moo-v0.6.298-blue?style=flat-square)](https://github.com/Blue-Mink/moo/releases/tag/v0.6.298) [![Platform](https://img.shields.io/badge/Platform-x86__64-lightgrey?style=flat-square)](#)
+[![Moo](https://img.shields.io/badge/Moo-v0.6.303-blue?style=flat-square)](https://github.com/Blue-Mink/moo/releases/tag/v0.6.303) [![Platform](https://img.shields.io/badge/Platform-x86__64%2Farm64-lightgrey?style=flat-square)](#)
 
 </div>
 
@@ -410,7 +410,7 @@ AMD Ryzen APU 功耗监控与功耗限制控制：读取功耗墙（STAPM / PPT 
 | 👨‍💻 **开发者** | [Blue-Mink](https://github.com/Blue-Mink) |
 | 📁 **项目** | [moo](https://github.com/Blue-Mink/moo)（开源，MIT 许可） |
 | 📥 **安装方式** | 在飞牛 FnDepot 直接添加本源，客户端中搜索「Moo」即可安装 |
-| 🏷️ **版本** | v0.6.298（x86） |
+| 🏷️ **版本** | v0.6.303（x86 / arm） |
 | 🌐 **入口** | 面板网关 `/app/moo/`（调试端口 38100） |
 | 📖 **详细说明** | [moo/README.md](moo/README.md) |
 
