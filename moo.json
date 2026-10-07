@@ -625,14 +625,14 @@
   },
   "fndepot": {
    "display_name": "FnDepot",
-   "version": "0.5.1",
+   "version": "0.6.6",
    "app_type": "native",
    "platform": "all",
-   "size": 9.83,
-   "sha256": "9d47e92977b957af8dd0ab09477d3cf3abcf7c5d00d36a23eaccfa2b09b43eb0",
-   "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/fndepot-v0.5.1/fndepot-0.5.1-fnos-all.fpk",
+   "size": 10.59,
+   "sha256": "51cc23bc59e23c4be2acc448699b241335f836d82d32cbdbaf5b422ef03931ea",
+   "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/fndepot-v0.6.6/fndepot-0.6.6-fnos-all.fpk",
    "desc": "飞牛 fnOS 第三方应用商店 FnDepot 的官方客户端（作者 EWEDL）：应用浏览、下载、安装与管理，支持官方源与 FnDepot V1/V2 外部源、GitHub 加速代理、安装向导与依赖处理。本包为从已安装设备提取的官方原版二进制，未重打包、字节未改；包内同时内置 amd64 与 arm64 服务端，入口走飞牛统一网关 /app/fndepot（不占 TCP 端口）。",
-   "changelog": "0.5.1: 首次收录本仓库，包体为设备提取的官方原版（未重打包）。作者公开 GitHub Release 目前最新为 v0.4.6，本包为设备上更新的 0.5.1；manifest 平台标记 all，app.tgz 内同时带 fndepot-amd64 与 fndepot-arm64 两个服务端，装机按架构自选。应用以 unix socket 运行、经飞牛统一网关 /app/fndepot 访问，因此 service_port 为空；卸载向导可选保留或清空应用数据（数据库与已下载 FPK 在应用数据目录）。",
+   "changelog": "0.6.6: 设备提取官方原版（未重打包、字节未改，单包双架构）。下载位置为「应用默认」时「打开文件管理器」按钮可用；修复已安装界面发布者显示（回退应用仓库发布者，手动安装应用直连官方详情补全）；修复已安装界面切换视图时列表闪烁。",
    "icon_url": "https://raw.githubusercontent.com/Blue-Mink/FnDepot/main/fndepot/ICON.PNG",
    "readme_url": "https://raw.githubusercontent.com/Blue-Mink/FnDepot/main/fndepot/README.md",
    "homepage": "https://github.com/EWEDLCM/FnDepot",
@@ -646,6 +646,17 @@
     "系统工具"
    ],
    "releases": {
+    "0.6.6": {
+     "updated_at": "2026-10-07T20:25:42Z",
+     "changelog": "0.6.6: 设备提取官方原版（未重打包、字节未改，单包双架构）。下载位置为「应用默认」时「打开文件管理器」按钮可用；修复已安装界面发布者显示（回退应用仓库发布者，手动安装应用直连官方详情补全）；修复已安装界面切换视图时列表闪烁。",
+     "packages": {
+      "all": {
+       "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/fndepot-v0.6.6/fndepot-0.6.6-fnos-all.fpk",
+       "sha256": "51cc23bc59e23c4be2acc448699b241335f836d82d32cbdbaf5b422ef03931ea",
+       "size": 10593266
+      }
+     }
+    },
     "0.5.1": {
      "updated_at": "2026-09-26T17:15:45Z",
      "changelog": "0.5.1: 首次收录本仓库，包体为设备提取的官方原版（未重打包）。作者公开 GitHub Release 目前最新为 v0.4.6，本包为设备上更新的 0.5.1；manifest 平台标记 all，app.tgz 内同时带 fndepot-amd64 与 fndepot-arm64 两个服务端，装机按架构自选。应用以 unix socket 运行、经飞牛统一网关 /app/fndepot 访问…",

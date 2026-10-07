@@ -590,6 +590,17 @@
       "is_docker": false,
       "service_port": "",
       "releases": {
+        "0.6.6": {
+          "packages": {
+            "all": {
+              "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/fndepot-v0.6.6/fndepot-0.6.6-fnos-all.fpk",
+              "sha256": "51cc23bc59e23c4be2acc448699b241335f836d82d32cbdbaf5b422ef03931ea",
+              "size": 10593266
+            }
+          },
+          "changelog": "0.6.6: 设备提取官方原版（未重打包、字节未改，单包双架构）。下载位置为「应用默认」时「打开文件管理器」按钮可用；修复已安装界面发布者显示（回退应用仓库发布者，手动安装应用直连官方详情补全）；修复已安装界面切换视图时列表闪烁。",
+          "updated_at": "2026-10-07T20:25:42Z"
+        },
         "0.5.1": {
           "packages": {
             "all": {

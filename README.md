@@ -324,7 +324,7 @@ Docker 镜像加速管理工具，支持多源镜像缓存、加速规则管理�
 
 <div align="center">
 
-[![FnDepot](https://img.shields.io/badge/FnDepot-v0.5.1-green?style=flat-square)](https://github.com/Blue-Mink/FnDepot/releases/tag/fndepot-v0.5.1) [![Platform](https://img.shields.io/badge/Platform-x86__64%20%C2%B7%20ARM64-lightgrey?style=flat-square)](#)
+[![FnDepot](https://img.shields.io/badge/FnDepot-v0.6.6-green?style=flat-square)](https://github.com/Blue-Mink/FnDepot/releases/tag/fndepot-v0.6.6) [![Platform](https://img.shields.io/badge/Platform-x86__64%20%C2%B7%20ARM64-lightgrey?style=flat-square)](#)
 
 </div>
 
@@ -334,8 +334,8 @@ Docker 镜像加速管理工具，支持多源镜像缓存、加速规则管理�
 | :--- | :--- |
 | 👨‍💻 **原作者** | [EWEDL](https://club.fnnas.com/home.php?mod=space&uid=5411) |
 | 📁 **原项目** | [EWEDLCM/FnDepot](https://github.com/EWEDLCM/FnDepot) |
-| 📥 **安装方式** | 下载 [fndepot-0.5.1-fnos-all.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/fndepot-v0.5.1/fndepot-0.5.1-fnos-all.fpk)（[sha256](https://github.com/Blue-Mink/FnDepot/releases/download/fndepot-v0.5.1/fndepot-0.5.1-fnos-all.fpk.sha256)）在 fnOS 应用中心手动安装 |
-| 🏷️ **版本** | v0.5.1（x86 / ARM64 通用，未重打包的设备提取原版） |
+| 📥 **安装方式** | 下载 [fndepot-0.6.6-fnos-all.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/fndepot-v0.6.6/fndepot-0.6.6-fnos-all.fpk)（[sha256](https://github.com/Blue-Mink/FnDepot/releases/download/fndepot-v0.6.6/fndepot-0.6.6-fnos-all.fpk.sha256)）在 fnOS 应用中心手动安装 |
+| 🏷️ **版本** | v0.6.6（x86 / ARM64 通用，未重打包的设备提取原版） |
 | 🌐 **入口** | 统一网关 `/app/fndepot`（应用以 unix socket 运行，不占 TCP 端口） |
 | 📖 **详细说明** | [fndepot/README.md](fndepot/README.md) |
 
