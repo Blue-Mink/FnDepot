@@ -20,30 +20,6 @@
 
 ## 📦 应用列表
 
-### 🔐 敲门 knock (fn-knock)
-
-面向 NAS、软路由与家庭服务器的多平台高性能安全网关，采用 Rust + Go 双核心架构，集成反向代理、身份认证、WAF、SSL、DDNS 与内网穿透。
-
-<br/>
-
-<div align="center">
-
-[![fn-knock](https://img.shields.io/badge/fn--knock-v2.4.14-orange?style=flat-square)](https://github.com/Blue-Mink/FnDepot) [![Platform](https://img.shields.io/badge/Platform-x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
-
-</div>
-
-<br/>
-
-| 项目 | 信息 |
-| :--- | :--- |
-| 👨‍💻 **原作者** | [kci-lnk](https://github.com/kci-lnk) |
-| 📁 **原项目** | [fn-knock-turborepo](https://github.com/kci-lnk/fn-knock-turborepo) |
-| 🌐 **官网** | https://fnknock.cn |
-| 📥 **安装方式** | 在飞牛 FnDepot 直接添加本源，客户端中搜索「敲门knock」即可安装 |
-| 🏷️ **版本** | v2.4.14（同步原作者最新官方 FPK，含源码快照） |
-
----
-
 ### 📻 全球电台 (global-radio)
 
 基于 Vue 3 + Vite 的在线电台应用，支持全球电台搜索、播放、收藏、历史记录、主题切换与多国语言。内置电台目录/封面图 NAS 缓存加速，支持端口直连与飞牛统一网关双入口。
@@ -420,7 +396,7 @@ AMD Ryzen APU 功耗监控与功耗限制控制：读取功耗墙（STAPM / PPT 
 
 本项目遵循 [MIT License](LICENSE) 许可证。
 
-上述许可覆盖本仓库自研的内容：FPK 打包脚本与构建流程、应用配置与文档。各第三方应用及其源码镜像（如 `fn-knock/source/`、`daidai-panel/source/`）的版权归各自原作者所有，遵循其原始许可，详见对应目录内的 `LICENSE`。
+上述许可覆盖本仓库自研的内容：FPK 打包脚本与构建流程、应用配置与文档。各第三方应用及其源码镜像（如 `daidai-panel/source/`、`new-store/source/`）的版权归各自原作者所有，遵循其原始许可，详见对应目录内的 `LICENSE`。
 
 ---
 

@@ -1,4 +1,0 @@
-services:
-  fn-knock:
-    environment:
-      EXPOSE_RUNTIME_HMAC_SECRET: "1"
