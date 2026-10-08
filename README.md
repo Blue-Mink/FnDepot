@@ -284,7 +284,7 @@ Docker 镜像加速管理工具，支持多源镜像缓存、加速规则管理�
 | 项目 | 信息 |
 | :--- | :--- |
 | 👨‍💻 **打包维护** | [Blue-Mink](https://github.com/Blue-Mink) |
-| 📁 **原项目** | [New-Store](https://github.com/Blue-Mink/New-Store)（基础版本 [conversun/fnos-store](https://github.com/conversun/fnos-store)）　·　原版收录见 [fnos-apps-store/](fnos-apps-store/README.md) |
+| 📁 **原项目** | [New-Store](https://github.com/Blue-Mink/New-Store)（基础版本 [conversun/fnos-store](https://github.com/conversun/fnos-store)） |
 | 📥 **安装方式** | 首次：下载 [new-store_1.21.1_x86.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.21.1/new-store_1.21.1_x86.fpk) / [new-store_1.21.1_arm.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.21.1/new-store_1.21.1_arm.fpk)（按架构选择，[sha256](https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.21.1/new-store_1.21.1_arm.fpk.sha256)）在应用中心手动安装；装好后在 New Store「设置」里添加本源即可在应用内自助更新 |
 | 🏷️ **版本** | v1.21.1（端口 38011；x86/ARM64 双架构） |
 | 🌐 **入口端口** | 38011（应用中心「打开」与桌面图标直达） |
@@ -314,31 +314,6 @@ Docker 镜像加速管理工具，支持多源镜像缓存、加速规则管理�
 | 🏷️ **版本** | v0.6.6（x86 / ARM64 通用，未重打包的设备提取原版） |
 | 🌐 **入口** | 统一网关 `/app/fndepot`（应用以 unix socket 运行，不占 TCP 端口） |
 | 📖 **详细说明** | [fndepot/README.md](fndepot/README.md) |
-
----
-
-### 🏪 fnOS Apps (fnos-apps-store)
-
-[conversun/fnos-store](https://github.com/conversun/fnos-store) 的 fnOS 第三方应用中心原版：一键安装 / 更新 / 卸载 [conversun/fnos-apps](https://github.com/conversun/fnos-apps)（115+ 款自托管应用）目录里的应用。本仓库收录上游官方 Release 原包（x86 与 ARM 各一枚），未重打包、字节未改。
-
-<br/>
-
-<div align="center">
-
-[![fnOS Apps](https://img.shields.io/badge/fnOS--Apps-v1.9.6-green?style=flat-square)](https://github.com/conversun/fnos-apps/releases/tag/fnos-apps-store%2Fv1.9.6) [![Platform](https://img.shields.io/badge/Platform-x86__64%20%C2%B7%20ARM64-lightgrey?style=flat-square)](#)
-
-</div>
-
-<br/>
-
-| 项目 | 信息 |
-| :--- | :--- |
-| 👨‍💻 **原作者** | [conversun](https://github.com/conversun) |
-| 📁 **原项目** | [fnos-store](https://github.com/conversun/fnos-store) · 应用目录 [fnos-apps](https://github.com/conversun/fnos-apps) |
-| 📥 **安装方式** | x86：[fnos-apps-store_1.9.6_x86.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/fnos-apps-store-v1.9.6/fnos-apps-store_1.9.6_x86.fpk)（[sha256](https://github.com/Blue-Mink/FnDepot/releases/download/fnos-apps-store-v1.9.6/fnos-apps-store_1.9.6_x86.fpk.sha256)）· ARM：[fnos-apps-store_1.9.6_arm.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/fnos-apps-store-v1.9.6/fnos-apps-store_1.9.6_arm.fpk)（[sha256](https://github.com/Blue-Mink/FnDepot/releases/download/fnos-apps-store-v1.9.6/fnos-apps-store_1.9.6_arm.fpk.sha256)） |
-| 🏷️ **版本** | v1.9.6（`run-as: root`） |
-| 🌐 **入口端口** | 8011（应用中心「打开」与桌面图标直达） |
-| 📖 **详细说明** | [fnos-apps-store/README.md](fnos-apps-store/README.md)（含与 New Store 同名互斥的说明） |
 
 ---
 
