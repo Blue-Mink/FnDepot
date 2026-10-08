@@ -5,7 +5,7 @@
 <div align="center">
 
 [![New Store](https://img.shields.io/badge/New--Store-v1.21.1-green?style=flat-square)](https://github.com/Blue-Mink/New-Store/releases/tag/v1.21.1)
-[![Platform](https://img.shields.io/badge/Platform-fnOS%20x86__64-lightgrey?style=flat-square)](#)
+[![Platform](https://img.shields.io/badge/Platform-fnOS%20x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
 
 </div>
 
@@ -13,8 +13,8 @@
 | :--- | :--- |
 | 👨‍💻 **打包维护** | [Blue-Mink](https://github.com/Blue-Mink) |
 | 📁 **原项目** | [New-Store](https://github.com/Blue-Mink/New-Store)（基础版本 [conversun/fnos-store](https://github.com/conversun/fnos-store)）　·　原版收录见 [fnos-apps-store/](../fnos-apps-store/README.md) |
-| 📥 **安装方式** | 下载 [new-store_1.21.1_x86.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.21.1/new-store_1.21.1_x86.fpk)（[sha256](fpk.sha256)）在 fnOS 应用中心手动安装；装好后在本应用「设置」里添加本源即可自助更新 |
-| 🏷️ **版本** | v1.21.1（`appname = fnos-apps-store`，端口 38011；本版上游仅发 x86 FPK，arm64 只出二进制） |
+| 📥 **安装方式** | 下载 [new-store_1.21.1_x86.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.21.1/new-store_1.21.1_x86.fpk) / [new-store_1.21.1_arm.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.21.1/new-store_1.21.1_arm.fpk)（按设备架构选择，[sha256](fpk.sha256)）在 fnOS 应用中心手动安装；装好后在本应用「设置」里添加本源即可自助更新 |
+| 🏷️ **版本** | v1.21.1（`appname = fnos-apps-store`，端口 38011；x86/ARM64 双架构，arm FPK 基于上游官方 arm64 二进制构建，载荷仅二进制不同） |
 | 🌐 **入口端口** | 38011（应用中心「打开」与桌面图标直达） |
 | 🔧 **依赖** | 无（纯 Go 单二进制 + 内嵌前端，不需要 Docker / 虚拟机） |
 
@@ -33,7 +33,7 @@
 
 ## 安装
 
-1. 下载上方链接的 FPK（本版仅 x86）
+1. 下载上方链接的 FPK（按设备架构选 x86 / arm）
 2. 应用中心 → 手动安装（无向导，纯二进制）；已装旧版直接覆盖安装，数据保留
 3. 应用中心「打开」或桌面图标进入 `http://<NAS 地址>:38011/`
 4. 点「立即检查」同步全部应用源（约 1~3 分钟），之后每 3 小时自动检查更新
@@ -52,6 +52,7 @@
 
 ```
 4c8fd287be455fe926f38be7ad18dc4940c6328d9bdd0aa312a9ace7d4ecce5f  new-store_1.21.1_x86.fpk
+329464c080eca8d9b0219299f9f73f70641ee3a7c3afac055e14ea06767ed650  new-store_1.21.1_arm.fpk
 ```
 
 ## 预览

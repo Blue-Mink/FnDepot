@@ -618,7 +618,7 @@
       "display_name": "New Store",
       "desc": "飞牛fnOS第三方应用中心：App Store式界面浏览、安装、更新、卸载第三方应用，FPK/Docker双通道，走应用中心官方流程；内置GitHub 12源+Docker 8源智能镜像监测（5分钟自动探测、按健康度排序、连续3败自动切换）与KSpeeder本地镜像源；SSE实时安装进度、FPK 后台下载任务可暂停/继续（断点续传）；多应用源管理（FnDepot V1/V2、GitHub Release）；更新检测日期四级回退；同名应用SHA256内容级去重；自更新跨源取最高版本+版本门槛防降级。PC侧栏+移动端dock双端布局，可嵌入飞牛App，亮暗主题。",
       "platform": [
-        "x86"
+        "all"
       ],
       "categories": [
         "系统工具"
@@ -641,10 +641,15 @@
               "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.21.1/new-store_1.21.1_x86.fpk",
               "sha256": "4c8fd287be455fe926f38be7ad18dc4940c6328d9bdd0aa312a9ace7d4ecce5f",
               "size": 7309412
+            },
+            "arm": {
+              "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.21.1/new-store_1.21.1_arm.fpk",
+              "sha256": "329464c080eca8d9b0219299f9f73f70641ee3a7c3afac055e14ea06767ed650",
+              "size": 6676480
             }
           },
           "changelog": "1.21.1: 「下载 fpk」改为服务端后台任务（关掉应用或详情页也不中断，进度可轮询、重开可见）；设置页下载列表新增后台下载区，下载中可「暂停」、已暂停可「继续」（.part Range 断点续传），详情页下载按钮三态联动；通知栏移到顶部居中、4 秒自动收起；新增 /api/apps/{appname}/task/pause 与 /task/resume；修复任务系统自死锁（持锁再取非重入锁）…",
-          "updated_at": "2026-09-26T18:17:43Z"
+          "updated_at": "2026-10-08T02:59:47Z"
         },
         "1.20.16": {
           "packages": {
