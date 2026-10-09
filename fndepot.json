@@ -740,6 +740,24 @@
       "is_docker": false,
       "service_port": "38100",
       "releases": {
+        "0.6.318": {
+          "changelog": "内存占用优化，剔除同步目录中的伪资产源链moo已加入严格的官源应用审核溯源机制，手动添加的源链不在审核列表内，请注意甄别\n！！！勿添加不受信任的HTTP明文源链（此为开发者测试通道）！！！\n欢迎发现新项目，提交issue\n感谢（大白聊技术、徐大大、 总是瞎折腾、科技姬）的推文",
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/Blue-Mink/moo/releases/download/v0.6.318/moo_0.6.318_x86.fpk",
+              "size": 4936536,
+              "size_mb": 4.7,
+              "sha256": "70408b8fecf5430592f6ae0ed994129f5b045ef855b09afaefc3aa0685a6e33d"
+            },
+            "arm": {
+              "download_url": "https://github.com/Blue-Mink/moo/releases/download/v0.6.318/moo_0.6.318_arm.fpk",
+              "size": 4500105,
+              "size_mb": 4.3,
+              "sha256": "bfa6d81e867b9318f3eef281072df4664aad6b1fe14c0fac133bf8f68a52413a"
+            }
+          },
+          "updated_at": "2026-10-09T14:34:20+08:00"
+        },
         "0.6.314": {
           "changelog": "内存占用优化，后台刷新更省资源\n\n应用源链接复制修复，应用源新增敲门knock",
           "packages": {
@@ -775,24 +793,6 @@
             }
           },
           "updated_at": "2026-10-07T00:27:00+08:00"
-        },
-        "0.6.310": {
-          "changelog": "上报错误日志弹窗修复\nBlue-Mink祝大家国庆快乐，moo得烦恼",
-          "packages": {
-            "x86": {
-              "download_url": "https://github.com/Blue-Mink/moo/releases/download/v0.6.310/moo_0.6.310_x86.fpk",
-              "size": 4654566,
-              "size_mb": 4.4,
-              "sha256": "f6c22cf15dedecf8d8288db7f7c324545efb18fb26818ea81d62ea97a6fba5dd"
-            },
-            "arm": {
-              "download_url": "https://github.com/Blue-Mink/moo/releases/download/v0.6.310/moo_0.6.310_arm.fpk",
-              "size": 4237727,
-              "size_mb": 4.0,
-              "sha256": "20f7959e1035308e0f103c2221e358841444373b969aa9781044a9572598b6a8"
-            }
-          },
-          "updated_at": "2026-10-06T22:40:00+08:00"
         }
       },
       "preview_urls": [

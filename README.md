@@ -350,7 +350,7 @@ AMD Ryzen APU 功耗监控与功耗限制控制：读取功耗墙（STAPM / PPT 
 
 <div align="center">
 
-[![Moo](https://img.shields.io/badge/Moo-v0.6.314-blue?style=flat-square)](https://github.com/Blue-Mink/moo/releases/tag/v0.6.314) [![Platform](https://img.shields.io/badge/Platform-x86__64%2Farm64-lightgrey?style=flat-square)](#)
+[![Moo](https://img.shields.io/badge/Moo-v0.6.318-blue?style=flat-square)](https://github.com/Blue-Mink/moo/releases/tag/v0.6.318) [![Platform](https://img.shields.io/badge/Platform-x86__64%2Farm64-lightgrey?style=flat-square)](#)
 
 </div>
 
@@ -361,7 +361,7 @@ AMD Ryzen APU 功耗监控与功耗限制控制：读取功耗墙（STAPM / PPT 
 | 👨‍💻 **开发者** | [Blue-Mink](https://github.com/Blue-Mink) |
 | 📁 **项目** | [moo](https://github.com/Blue-Mink/moo)（开源，MIT 许可） |
 | 📥 **安装方式** | 在飞牛 FnDepot 直接添加本源，客户端中搜索「Moo」即可安装 |
-| 🏷️ **版本** | v0.6.314（x86 / arm） |
+| 🏷️ **版本** | v0.6.318（x86 / arm） |
 | 🌐 **入口** | 面板网关 `/app/moo/`（调试端口 38100） |
 | 📖 **详细说明** | [moo/README.md](moo/README.md) |
 
