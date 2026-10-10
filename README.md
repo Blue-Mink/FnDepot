@@ -377,7 +377,7 @@ AMD Ryzen APU 功耗监控与功耗限制控制：读取功耗墙（STAPM / PPT 
 
 ## 🙏 致谢
 
-- [FnDepot 外部应用源 V2 编写说明](https://github.com/EWEDLCM/FnDepot)（本仓库 `fnpack.json` / `fndepot.json` 即按 V2 协议生成）
+- [FnDepot 外部应用源 V2 编写说明](https://github.com/EWEDLCM/FnDepot)（本仓库 `fnpack.json` 即按 V2 协议生成）
 - [FnDepot 商店客户端（EWEDL）](https://github.com/EWEDLCM/FnDepot)
 - [conversun/fnos-store 与 fnos-apps 应用目录](https://github.com/conversun/fnos-store)
 - [飞牛 fnOS](https://www.fnnas.com/)

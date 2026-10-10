@@ -1,6 +1,6 @@
 # 🛒 FnDepot
 
-飞牛 fnOS 第三方应用商店 **FnDepot** 的官方客户端：应用浏览、下载、安装与管理，支持官方源与 FnDepot V1/V2 外部源，是本仓库索引规范（`fndepot.json` / `fnpack.json`）的原始定义方。
+飞牛 fnOS 第三方应用商店 **FnDepot** 的官方客户端：应用浏览、下载、安装与管理，支持官方源与 FnDepot V1/V2 外部源，是本仓库索引规范（`fnpack.json`）的原始定义方。
 
 <div align="center">
 

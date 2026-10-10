@@ -1,6 +1,6 @@
 # 曾经下线的条目
 
-这里的 JSON 片段**不在** `fndepot.json` / `fnpack.json` 索引里，源客户端不会加载，仅作为原文暂存以便整改后原样恢复。
+这里的 JSON 片段**不在** `fnpack.json` 索引里，源客户端不会加载，仅作为原文暂存以便整改后原样恢复。
 
 ## kms-activator —— 已于 2026-09-16 恢复上线（v1.1.10）
 
@@ -20,6 +20,6 @@
 
 ## 恢复方法（如需再次下线或恢复）
 
-1. 把对应 JSON 片段插回 `fndepot.json` 与 `fnpack.json` 顶层（两个文件必须保持字节一致，条目顺序按应用卡片顺序）
-2. 校验：`python3 -c "import json;print(len(json.load(open('fndepot.json'))))"` 应为 10
+1. 把对应 JSON 片段插回 `fnpack.json` 的 `apps` 段（条目顺序按应用卡片顺序）
+2. 校验：`python3 -c "import json;print(len(json.load(open('fnpack.json'))['apps']))"` 应为 14（当前应用数）
 3. 或回退对应的索引变更提交
