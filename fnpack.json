@@ -810,8 +810,8 @@
       "categories": [
         "影音娱乐"
       ],
-      "icon_url": "https://raw.githubusercontent.com/javycoder/fnos_music_ext/main/packaging/fpk/ICON.PNG",
-      "readme_url": "https://raw.githubusercontent.com/javycoder/fnos_music_ext/main/README.md",
+      "icon_url": "https://raw.githubusercontent.com/Blue-Mink/FnDepot/main/fnmusic-ext/ICON.PNG",
+      "readme_url": "https://raw.githubusercontent.com/Blue-Mink/FnDepot/main/fnmusic-ext/README.md",
       "bug_report_url": "https://github.com/javycoder/fnos_music_ext/issues",
       "maintainer": "javycoder",
       "maintainer_url": "https://github.com/javycoder/fnos_music_ext",
