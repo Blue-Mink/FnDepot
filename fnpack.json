@@ -800,40 +800,6 @@
         "https://raw.githubusercontent.com/Blue-Mink/moo/main/docs/readme-pc-detail.png",
         "https://raw.githubusercontent.com/Blue-Mink/moo/main/docs/readme-mobile-1.png"
       ]
-    },
-    "fnmusic-ext": {
-      "display_name": "fnMusic 音源扩展",
-      "desc": "飞牛音乐第三方音源扩展：零侵入接管官方音乐入口（不修改官方程序/nginx/数据库，应用中心停止即秒级还原官方直连），提供 musicdl 57 平台聚合、网易云（musicbox，扫码登录 VIP/无损）、洛雪自定义源（lxmusic，多源接力）在线搜索播放，本地优先排序与深分页，边听边存、封面内嵌、歌词自动下载，内置本机管理页（音源切换/扫码登录/平台选择/储存目录/日志导出）。依赖官方飞牛音乐应用，Docker 或原生两种部署形态。",
-      "platform": [
-        "all"
-      ],
-      "categories": [
-        "影音娱乐"
-      ],
-      "icon_url": "https://raw.githubusercontent.com/Blue-Mink/FnDepot/main/fnmusic-ext/ICON.PNG",
-      "readme_url": "https://raw.githubusercontent.com/Blue-Mink/FnDepot/main/fnmusic-ext/README.md",
-      "bug_report_url": "https://github.com/javycoder/fnos_music_ext/issues",
-      "maintainer": "javycoder",
-      "maintainer_url": "https://github.com/javycoder/fnos_music_ext",
-      "distributor": "javycoder",
-      "distributor_url": "https://github.com/javycoder/fnos_music_ext",
-      "run_as": "root",
-      "install_type": "root",
-      "is_docker": true,
-      "service_port": "",
-      "releases": {
-        "2.8.0": {
-          "packages": {
-            "all": {
-              "download_url": "https://github.com/javycoder/fnos_music_ext/releases/download/v2.8.0/fnmusic-ext-2.8.0.fpk",
-              "sha256": "8a30e3e293d7622823071219a57e8cac33ec91669390c36c5ad5804895397338",
-              "size": 27165647
-            }
-          },
-          "changelog": "v2.8.0：新增原生（无 Docker）部署形态、WebUI 储存目录自定义与「关于」页日志导出、洛雪多源同时激活与逐曲来源标记、lxserver 用户源沙箱兼容补丁；修复下载音质档位误判（无损被转 MP3）、标准音质转码跳歌与断流自愈、网易 VIP 无封面、洛雪取链缓存合并与按平台熔断等",
-          "updated_at": "2026-10-10T18:56:11Z"
-        }
-      }
     }
   }
 }
