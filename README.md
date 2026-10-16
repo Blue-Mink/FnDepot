@@ -367,28 +367,6 @@ AMD Ryzen APU 功耗监控与功耗限制控制：读取功耗墙（STAPM / PPT 
 
 ---
 
-### 🎵 fnMusic 音源扩展 (fnmusic-ext)
-
-飞牛音乐第三方音源扩展：零侵入接管官方音乐入口（不修改官方程序/nginx/数据库，应用中心停止即秒级还原官方直连），提供 musicdl 57 平台聚合、网易云（musicbox，扫码登录 VIP/无损）、洛雪自定义源（lxmusic，多源接力）在线搜索播放，本地优先排序与深分页，边听边存、封面内嵌、歌词自动下载，内置本机管理页（音源切换/扫码登录/平台选择/储存目录/日志导出）。依赖官方飞牛音乐应用，Docker 或原生两种部署形态。
-
-<br/>
-
-<div align="center">
-
-[![fnMusic 音源扩展](https://img.shields.io/badge/fnMusic--ext-v2.8.0-brightgreen?style=flat-square)](https://github.com/javycoder/fnos_music_ext/releases/tag/v2.8.0) [![Platform](https://img.shields.io/badge/Platform-all-lightgrey?style=flat-square)](#)
-
-</div>
-
-<br/>
-
-| 项目 | 信息 |
-| :--- | :--- |
-| 👨‍💻 **原作者** | [javycoder](https://github.com/javycoder) |
-| 📁 **原项目** | [fnos_music_ext](https://github.com/javycoder/fnos_music_ext)（开源） |
-| 📥 **安装方式** | 在飞牛 FnDepot 直接添加本源，客户端中搜索「fnMusic」即可安装 |
-| 🏷️ **版本** | v2.8.0（上游官方 Release 原包，需已安装官方飞牛音乐） |
-| 🌐 **运行方式** | Docker 或原生（root 部署形态） |
-| 📖 **详细说明** | [fnmusic-ext/README.md](fnmusic-ext/README.md) |
 
 ---
 
