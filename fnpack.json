@@ -740,6 +740,24 @@
       "is_docker": false,
       "service_port": "38100",
       "releases": {
+        "0.6.329": {
+          "changelog": "安全加固：自更新增加 minisign 签名校验（离线私钥签发、内嵌公钥验签，防 release 投毒）\n安全加固：自更新强制校验 sha256 侧车，缺失即拒绝更新\n安全加固：安装向导提示文本统一经 DOMPurify 消毒\n安全加固：应用诊断接口挂管理员门（仅管理员可读日志尾）\n安全加固：本地密钥与会话文件权限统一为仅属主可读写",
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/Blue-Mink/moo/releases/download/v0.6.329/moo_0.6.329_x86.fpk",
+              "size": 5083007,
+              "size_mb": 4.8,
+              "sha256": "7049ec34c3715a7f59c9c23ad13236fbc0908c9ed4ce74bb1fc50477a8ad1eb6"
+            },
+            "arm": {
+              "download_url": "https://github.com/Blue-Mink/moo/releases/download/v0.6.329/moo_0.6.329_arm.fpk",
+              "size": 4627761,
+              "size_mb": 4.4,
+              "sha256": "f51bcd20458c4b0789e59d4a793077e1e9874ba4778f13f48486bd43bcd4b854"
+            }
+          },
+          "updated_at": "2026-10-18T07:52:45+08:00"
+        },
         "0.6.327": {
           "changelog": "应用溯源补强：修复非 fork 搬运源溯源缺失\n上游没有的 README 图片与预览图不再显示占位",
           "packages": {
@@ -775,24 +793,6 @@
             }
           },
           "updated_at": "2026-10-17T16:01:51+08:00"
-        },
-        "0.6.325": {
-          "changelog": "修复FPK安装/升级不遵循「应用安装位置」设置、多卷机器报错的问题\nDocker加速源「智能」支持应用（自动测速选最快，失败诚实报错）\n应用安装位置下拉标注/volN挂载路径，便于辨别存储卷",
-          "packages": {
-            "x86": {
-              "download_url": "https://github.com/Blue-Mink/moo/releases/download/v0.6.325/moo_0.6.325_x86.fpk",
-              "size": 4978821,
-              "size_mb": 4.7,
-              "sha256": "e09663d8bcbfdb310ec8fa9c48703774235afaa5c4cd395bd618f37035a06319"
-            },
-            "arm": {
-              "download_url": "https://github.com/Blue-Mink/moo/releases/download/v0.6.325/moo_0.6.325_arm.fpk",
-              "size": 4542205,
-              "size_mb": 4.3,
-              "sha256": "c1f196a1b799714c476215c9a84cc638f74c61b14c51ae16e7cc70ee6bee259a"
-            }
-          },
-          "updated_at": "2026-10-15T12:24:57+08:00"
         }
       },
       "preview_urls": [
