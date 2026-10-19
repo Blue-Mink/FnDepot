@@ -1,0 +1,18 @@
+appname               = magpie
+version               = 1.1.6
+display_name          = Magpie
+desc                  = AI 模型统一网关（上游 yetone/magpie，无 GUI 静态二进制）：把多个模型供应商接入一个 OpenAI 兼容端点，支持路由组、故障回退、按密钥限流与用量统计。<br>单进程同时提供网关与浏览器控制台；默认 36140（Web 控制台）/ 36141（网关），NAS 场景下订阅账号桥接与本机 agent 功能不适用，推荐只用作 API 密钥路由。
+source                = thirdparty
+maintainer            = Blue-Mink
+maintainer_url        = https://github.com/Blue-Mink/FnDepot/
+distributor           = Blue-Mink
+distributor_url       = https://github.com/Blue-Mink/FnDepot/
+os_min_version        = 0.9.0
+platform              = x86
+desktop_uidir         = ui
+desktop_applaunchname = magpie.Application
+ctl_stop              = true
+service_port          = 36140
+checkport             = false
+changelog             = 1.1.6：修统一网关（/app/magpie/）转发 POST 永久挂起——magpie 的 POST 响应是 Transfer-Encoding: chunked，边车原先只处理 Content-Length，读不到终止条件就一直等；现按 chunked 解析并支持流式透传，SSE 也能边到边发；1.1.5：同步上游 magpie v0.1.1292（原 v0.1.1285）——智能体名称显示在图标旁、登录框与按钮等高对齐、修 Kimi 工具 schema 缺 type、tier 容量分配错误；含会话总览/路由组/大请求体/流式回复的性能优化。控制台移动端两项适配（safe-area 封顶 12px、Tab 条右侧留白）已在新二进制上重新施加。；1.1.4：桌面两入口标题精简为「Magpie」与「Magpie API」；网关说明页的网关地址改为带 ?key= 直达（原先局域网直连只会返回 401 JSON 原文）；底部「直达 API 根」改为「查看接口清单（美化 JSON）」；Web 控制台移动端适配——顶部 safe-area 叠加留白压到 12px、Tab 条补右侧留白不再把末个标签切一半。；1.1.3：API 网关说明页移动端适配——网关地址/默认密钥/统一网关改为可换行网格，窄屏上下堆叠，修掉原先横向 flex 把长地址与密钥压成一字一行的破版；接口清单改为标签列表（改用网关 JSON 接口返回，不再内嵌整页 HTML）；自动刷新仅在网关未运行时启用。；1.1.2：网关根路径按 Accept 区分——浏览器访问返回移动端友好的 HTML 说明页（API 客户端仍返回 JSON 信息）；web 控制台「网关」视图加 scroll-anchoring 防活动列表刷新跳屏；品牌文案统一为 Magpie / Magpie API。；1.1.1：统一网关改走平台正式注册（ui/config 声明 gatewaySocket/gatewayPrefix，由平台导入时自动落库），修复 run-as=package 下安装回调以包用户写库静默失败、/app/magpie 未接入 sidecar 的问题；移除回调中不可用的 psql 同步。；1.1.0：新增安装前向导（向导配置 Web 控制台与网关 API 双端口，应用信息与安装目录由平台展示）与卸载向导（选择保留数据或删除数据；选删除会清空本应用全部数据目录，不可恢复）；桌面双图标入口——「Magpie Web 控制台」（自动携带访问密钥）与「Magpie API 网关」（说明页展示网关地址、默认密钥与调用示例）；支持飞牛统一网关入口 /app/magpie（unix socket sidecar，路由 Web 控制台与 /v1/*、/v1beta/*、/mcp/*）；设置页可修改双端口，保存后立即生效。
+checksum              = 00000000000000000000000000000000

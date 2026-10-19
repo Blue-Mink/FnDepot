@@ -1,0 +1,76 @@
+#!/bin/bash
+# magpie — 安装/升级回调：向导端口 / 密钥 / 统一网关注册（全部离线、秒级完成）
+APP="magpie"
+ETC="${TRIM_PKGETC:-/var/apps/$APP/etc}"
+VAR="${TRIM_PKGVAR:-/var/apps/$APP/var}"
+# payload 根目录（与 cmd/main 的 resolve_payload 同口径，归一化物理路径）
+if [ -f "/var/apps/$APP/target/bin/magpie" ]; then
+  PAYLOAD="$(readlink -f "/var/apps/$APP/target" 2>/dev/null || echo "/var/apps/$APP/target")"
+else
+  PAYLOAD="${TRIM_APPDEST:-/vol1/@appcenter/$APP}"
+  PAYLOAD="$(readlink -f "$PAYLOAD" 2>/dev/null || echo "$PAYLOAD")"
+fi
+XBASE="$VAR/data"
+
+valid_port() {
+  case "${1:-}" in
+    ''|*[!0-9]*) return 1;;
+  esac
+  [ "$1" -ge 1 ] 2>/dev/null && [ "$1" -le 65535 ] 2>/dev/null
+}
+
+mkdir -p "$XBASE/config" "$XBASE/cache" "$XBASE/share" "$XBASE/state" "$VAR/home" "$VAR/gateway-keys" 2>/dev/null
+
+# ---- 端口：向导值优先；无向导（CLI 升级）时保留现有 ports.conf ----
+W_WEB="${wizard_access_port:-}"
+W_GW="${wizard_gateway_port:-}"
+. "$ETC/ports.conf" 2>/dev/null
+WEB_PORT="${WEB_PORT:-36140}"
+GW_PORT="${GW_PORT:-36141}"
+if valid_port "$W_WEB"; then WEB_PORT="$W_WEB"; fi
+if valid_port "$W_GW";  then GW_PORT="$W_GW";  fi
+printf 'WEB_PORT=%s\nGW_PORT=%s\n' "$WEB_PORT" "$GW_PORT" > "$ETC/ports.conf"
+chmod 644 "$ETC/ports.conf"
+
+# Web 控制台访问密钥（?k= 参数，400 天签入）
+if [ ! -s "$VAR/web-key" ]; then
+  openssl rand -hex 16 > "$VAR/web-key"
+  chmod 600 "$VAR/web-key"
+fi
+
+# 默认网关密钥（离线 CLI 直接写状态；二进制未就位时由 main start 自愈补建）
+KEYFILE="$VAR/gateway-keys/NAS.txt"
+if [ ! -s "$KEYFILE" ]; then
+  resolve_bin() {
+    local c
+    for c in \
+      "/var/apps/$APP/target/bin/magpie" \
+      "${APP_ROOT:-}/bin/magpie" \
+      "${APP_ROOT:-}/target/bin/magpie" \
+      "/vol1/@appcenter/$APP/bin/magpie" \
+      "/usr/local/apps/@appcenter/$APP/bin/magpie"
+    do
+      [ -n "$c" ] && [ -x "$c" ] && { echo "$c"; return 0; }
+    done
+    return 1
+  }
+  if BIN="$(resolve_bin)"; then
+    if K="$(HOME="$VAR/home" \
+      XDG_CONFIG_HOME="$XBASE/config" XDG_CACHE_HOME="$XBASE/cache" \
+      XDG_DATA_HOME="$XBASE/share" XDG_STATE_HOME="$XBASE/state" \
+      "$BIN" gateway-key add NAS 2>/dev/null | head -n 1)" && [ -n "$K" ]; then
+      printf '%s\n' "$K" > "$KEYFILE"
+      chmod 600 "$KEYFILE"
+      echo "[$(date '+%F %T')] default gateway key (NAS) created" >> "$VAR/main.log"
+    fi
+  fi
+fi
+
+# ---- 统一网关 ----
+# 注册走平台正式机制：app/ui/config 的 .url 条目声明 gatewaySocket/gatewayPrefix，
+# 平台导入 app_service 时自动落库（无需本回调写 DB——run-as=package 下回调为包用户，
+# peer 认证进不了 appcenter 库，1.1.0 的 psql 同步已移除）。
+# sidecar 由 main start 拉起，socket 落在 payload 根目录，
+# 与平台 ${TRIM_APPDEST}/target/<filename> 的解析路径一致（target → payload 根）。
+
+exit 0

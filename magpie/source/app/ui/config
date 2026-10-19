@@ -1,0 +1,26 @@
+{
+    ".url": {
+        "magpie.Application": {
+            "title": "Magpie",
+            "desc": "浏览器控制台：供应商、密钥、路由组、用量统计。打开时自动携带访问密钥。",
+            "icon": "images/icon_{0}.png",
+            "type": "url",
+            "protocol": "http",
+            "port": "",
+            "url": "/cgi/ThirdParty/magpie/index.cgi/",
+            "gatewaySocket": "magpie-gateway.sock",
+            "gatewayPrefix": "/app/magpie",
+            "allUsers": true
+        },
+        "magpie.Gateway": {
+            "title": "Magpie API",
+            "desc": "OpenAI 兼容网关（/v1/*）：网关说明页展示地址、默认密钥与调用示例，可直达 API 根。",
+            "icon": "images/icon_{0}.png",
+            "type": "url",
+            "protocol": "http",
+            "port": "",
+            "url": "/cgi/ThirdParty/magpie/index.cgi/gw/",
+            "allUsers": true
+        }
+    }
+}

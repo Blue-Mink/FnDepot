@@ -1,0 +1,29 @@
+[
+  {
+    "stepTitle": "数据处理",
+    "items": [
+      {
+        "type": "radio",
+        "field": "wizard_data_action",
+        "label": "应用数据处理方式",
+        "initValue": "keep",
+        "options": [
+          {
+            "label": "保留数据（推荐）：供应商配置、网关密钥、用量历史保留在数据目录，重新安装时原样继承",
+            "value": "keep"
+          },
+          {
+            "label": "删除数据：彻底清除本应用全部数据（供应商配置、网关密钥、用量历史），不可恢复",
+            "value": "delete"
+          }
+        ],
+        "rules": [
+          {
+            "required": true,
+            "message": "请选择数据处理方式"
+          }
+        ]
+      }
+    ]
+  }
+]

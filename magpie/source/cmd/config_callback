@@ -1,0 +1,28 @@
+#!/bin/bash
+# magpie — 设置页回调：端口变更 → 写 ports.conf → 重启应用（含统一网关 sidecar）
+APP="magpie"
+ETC="${TRIM_PKGETC:-/var/apps/$APP/etc}"
+VAR="${TRIM_PKGVAR:-/var/apps/$APP/var}"
+MAIN="$(dirname "$0")/main"
+
+valid_port() {
+  case "${1:-}" in
+    ''|*[!0-9]*) return 1;;
+  esac
+  [ "$1" -ge 1 ] 2>/dev/null && [ "$1" -le 65535 ] 2>/dev/null
+}
+
+. "$ETC/ports.conf" 2>/dev/null
+WEB_PORT="${wizard_access_port:-${WEB_PORT:-36140}}"
+GW_PORT="${wizard_gateway_port:-${GW_PORT:-36141}}"
+valid_port "$WEB_PORT" || WEB_PORT=36140
+valid_port "$GW_PORT"  || GW_PORT=36141
+
+printf 'WEB_PORT=%s\nGW_PORT=%s\n' "$WEB_PORT" "$GW_PORT" > "$ETC/ports.conf"
+chmod 644 "$ETC/ports.conf"
+echo "[$(date '+%F %T')] config: ports -> web=$WEB_PORT gw=$GW_PORT" >> "$VAR/main.log"
+
+# 重启使新端口生效（main stop/start 会连带重启 sidecar）
+/bin/bash "$MAIN" stop >/dev/null 2>&1
+/bin/bash "$MAIN" start
+exit $?

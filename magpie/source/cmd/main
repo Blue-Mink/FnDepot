@@ -1,0 +1,174 @@
+#!/bin/bash
+# magpie — 生命周期脚本（start / stop / status）
+# 主进程：magpie serve --web=0.0.0.0:<WEB> + MAGPIE_ADDR=0.0.0.0:<GW>
+# sidecar：magpie-gateway-proxy.py（unix socket，飞牛统一网关 /app/magpie）
+APP="magpie"
+ETC="${TRIM_PKGETC:-/var/apps/$APP/etc}"
+VAR="${TRIM_PKGVAR:-/var/apps/$APP/var}"
+[ -f "$ETC/ports.conf" ] && . "$ETC/ports.conf"
+WEB_PORT="${WEB_PORT:-36140}"
+GW_PORT="${GW_PORT:-36141}"
+PIDF="$VAR/magpie.pid"
+SVCLOG="$VAR/magpie.log"
+MLOG="$VAR/main.log"
+GWPIDF="$VAR/gateway-proxy.pid"
+GWLOG="$VAR/gateway-proxy.log"
+
+log() { echo "[$(date '+%F %T')] main: $*" >> "$MLOG" 2>/dev/null; }
+
+resolve_bin() {
+  local c
+  for c in \
+    "/var/apps/$APP/target/bin/magpie" \
+    "${APP_ROOT:-}/bin/magpie" \
+    "${APP_ROOT:-}/target/bin/magpie" \
+    "/vol1/@appcenter/$APP/bin/magpie" \
+    "/usr/local/apps/@appcenter/$APP/bin/magpie"
+  do
+    [ -n "$c" ] && [ -x "$c" ] && { echo "$c"; return 0; }
+  done
+  return 1
+}
+
+# payload 根目录（bin/ 的上一级，归一化为物理路径）
+resolve_payload() {
+  local b
+  b="$(resolve_bin 2>/dev/null)" || return 1
+  readlink -f "$(dirname "$(dirname "$b")")" 2>/dev/null || dirname "$(dirname "$b")"
+}
+
+BIN="$(resolve_bin)" || { echo "magpie 二进制未找到" > "${TRIM_TEMP_LOGFILE:-/dev/null}"; exit 1; }
+PAYLOAD="$(resolve_payload)"
+
+XBASE="$VAR/data"
+export MAGPIE_ADDR="0.0.0.0:$GW_PORT"
+export MAGPIE_NO_ACCOUNTS=1
+export PATH="/usr/local/bin:/usr/bin:/bin:$PATH"
+
+proc_alive() {
+  local pid
+  pid="$(cat "$PIDF" 2>/dev/null)"
+  [ -n "$pid" ] && kill -0 "$pid" 2>/dev/null
+}
+
+gw_up() {
+  HOME="$VAR/home" \
+  XDG_CONFIG_HOME="$XBASE/config" XDG_CACHE_HOME="$XBASE/cache" \
+  XDG_DATA_HOME="$XBASE/share" XDG_STATE_HOME="$XBASE/state" \
+  "$BIN" healthcheck >/dev/null 2>&1
+}
+
+start_sidecar() {
+  local proxy="$PAYLOAD/magpie-gateway-proxy.py"
+  local sock="$PAYLOAD/magpie-gateway.sock"
+  if [ ! -f "$proxy" ]; then
+    log "gateway proxy script missing: $proxy"
+    return 0
+  fi
+  if ! command -v python3 >/dev/null 2>&1; then
+    log "python3 not found, skip unified gateway"
+    return 0
+  fi
+  local oldpid i
+  oldpid="$(cat "$GWPIDF" 2>/dev/null)"
+  if [ -n "$oldpid" ] && kill -0 "$oldpid" 2>/dev/null; then
+    kill -TERM "$oldpid" 2>/dev/null
+    i=0
+    while kill -0 "$oldpid" 2>/dev/null && [ $i -lt 5 ]; do sleep 0.5; i=$((i+1)); done
+  fi
+  rm -f "$sock" 2>/dev/null
+  MAGPIE_GATEWAY_SOCK="$sock" MAGPIE_WEB_PORT="$WEB_PORT" MAGPIE_GW_PORT="$GW_PORT" \
+    MAGPIE_GATEWAY_PREFIX="/app/$APP" MAGPIE_WEB_KEYFILE="$VAR/web-key" \
+    setsid nohup python3 "$proxy" >> "$GWLOG" 2>&1 </dev/null &
+  echo $! > "$GWPIDF"
+  i=0
+  while [ $i -lt 20 ]; do
+    [ -S "$sock" ] && { log "gateway proxy up (pid $(cat "$GWPIDF"), sock $sock)"; return 0; }
+    kill -0 "$(cat "$GWPIDF" 2>/dev/null)" 2>/dev/null || break
+    sleep 0.5; i=$((i+1))
+  done
+  log "gateway proxy socket not ready: $sock"
+  return 0
+}
+
+stop_sidecar() {
+  local sock="$PAYLOAD/magpie-gateway.sock"
+  local pid i
+  pid="$(cat "$GWPIDF" 2>/dev/null)"
+  if [ -n "$pid" ] && kill -0 "$pid" 2>/dev/null; then
+    kill -TERM "$pid" 2>/dev/null
+    i=0
+    while kill -0 "$pid" 2>/dev/null && [ $i -lt 10 ]; do sleep 0.5; i=$((i+1)); done
+    kill -0 "$pid" 2>/dev/null && kill -KILL "$pid" 2>/dev/null
+  fi
+  rm -f "$GWPIDF" "$sock" 2>/dev/null
+}
+
+case "$1" in
+start)
+  if proc_alive && gw_up; then
+    # 自愈：sidecar 掉线则补拉
+    if [ ! -S "$PAYLOAD/magpie-gateway.sock" ]; then
+      log "gateway socket missing, (re)starting sidecar"
+      start_sidecar
+    fi
+    log "already running (pid $(cat "$PIDF"))"
+    exit 0
+  fi
+  mkdir -p "$XBASE/config" "$XBASE/cache" "$XBASE/share" "$XBASE/state" "$VAR/home"
+  [ -s "$VAR/web-key" ] || { openssl rand -hex 16 > "$VAR/web-key"; chmod 600 "$VAR/web-key"; }
+  pkill -f "$BIN serve" 2>/dev/null
+  sleep 0.5
+  setsid nohup env \
+    HOME="$VAR/home" \
+    XDG_CONFIG_HOME="$XBASE/config" XDG_CACHE_HOME="$XBASE/cache" \
+    XDG_DATA_HOME="$XBASE/share" XDG_STATE_HOME="$XBASE/state" \
+    MAGPIE_WEB_KEY="$(cat "$VAR/web-key")" \
+    "$BIN" serve --web="0.0.0.0:$WEB_PORT" >> "$SVCLOG" 2>&1 &
+  echo $! > "$PIDF"
+  i=0
+  while [ $i -lt 30 ]; do
+    proc_alive || break
+    if gw_up; then
+      if [ ! -s "$VAR/gateway-keys/NAS.txt" ]; then
+        mkdir -p "$VAR/gateway-keys"
+        if K="$(HOME="$VAR/home" XDG_CONFIG_HOME="$XBASE/config" XDG_CACHE_HOME="$XBASE/cache" \
+               XDG_DATA_HOME="$XBASE/share" XDG_STATE_HOME="$XBASE/state" \
+               "$BIN" gateway-key add NAS 2>/dev/null | head -n 1)" && [ -n "$K" ]; then
+          printf '%s\n' "$K" > "$VAR/gateway-keys/NAS.txt"
+          chmod 600 "$VAR/gateway-keys/NAS.txt"
+          log "default gateway key (NAS) created on first start"
+        fi
+      fi
+      log "started pid=$(cat "$PIDF") web=$WEB_PORT gw=$GW_PORT"
+      start_sidecar
+      exit 0
+    fi
+    sleep 1; i=$((i+1))
+  done
+  echo "magpie 启动失败，详见 $SVCLOG" > "${TRIM_TEMP_LOGFILE:-/dev/null}"
+  log "start failed after ${i}s"
+  exit 1
+  ;;
+stop)
+  stop_sidecar
+  pid="$(cat "$PIDF" 2>/dev/null)"
+  if [ -n "$pid" ] && kill -0 "$pid" 2>/dev/null; then
+    kill -TERM "$pid" 2>/dev/null
+    i=0
+    while [ $i -lt 15 ] && kill -0 "$pid" 2>/dev/null; do sleep 1; i=$((i+1)); done
+    kill -0 "$pid" 2>/dev/null && kill -KILL "$pid" 2>/dev/null
+  fi
+  pkill -f "$BIN serve" 2>/dev/null
+  rm -f "$PIDF"
+  log "stopped"
+  exit 0
+  ;;
+status)
+  if proc_alive && gw_up; then exit 0; else exit 3; fi
+  ;;
+*)
+  echo "unknown action: $1" > "${TRIM_TEMP_LOGFILE:-/dev/null}"
+  exit 1
+  ;;
+esac

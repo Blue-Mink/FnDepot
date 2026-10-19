@@ -1,0 +1,3 @@
+#!/bin/bash
+# magpie — 升级回调：复用安装逻辑（端口/密钥幂等，二进制未就位时由 main start 自愈补建网关密钥）
+exec /bin/bash "$(dirname "$0")/install_callback"

@@ -1,0 +1,48 @@
+#!/bin/bash
+# magpie — 卸载回调：停 sidecar + 主进程；按卸载向导处理数据
+#   wizard_data_action=keep（默认）→ 数据保留，重装继承
+#   wizard_data_action=delete      → 彻底删除 @appdata 与 @appconf
+APP="magpie"
+VAR="${TRIM_PKGVAR:-/var/apps/$APP/var}"
+ETC="${TRIM_PKGETC:-/var/apps/$APP/etc}"
+PAYLOAD="${TRIM_APPDEST:-/vol1/@appcenter/$APP}"
+PIDF="$VAR/magpie.pid"
+GWPIDF="$VAR/gateway-proxy.pid"
+ACTION="${wizard_data_action:-keep}"
+
+# ---- 停统一网关 sidecar ----
+gwpid="$(cat "$GWPIDF" 2>/dev/null)"
+if [ -n "$gwpid" ] && kill -0 "$gwpid" 2>/dev/null; then
+  kill -TERM "$gwpid" 2>/dev/null
+  i=0
+  while kill -0 "$gwpid" 2>/dev/null && [ $i -lt 10 ]; do sleep 0.5; i=$((i+1)); done
+  kill -0 "$gwpid" 2>/dev/null && kill -KILL "$gwpid" 2>/dev/null
+fi
+rm -f "$GWPIDF" "$PAYLOAD/magpie-gateway.sock" 2>/dev/null
+
+# ---- 停主进程 ----
+pid="$(cat "$PIDF" 2>/dev/null)"
+if [ -n "$pid" ] && kill -0 "$pid" 2>/dev/null; then
+  kill -TERM "$pid" 2>/dev/null
+  i=0
+  while [ $i -lt 15 ] && kill -0 "$pid" 2>/dev/null; do sleep 1; i=$((i+1)); done
+  kill -0 "$pid" 2>/dev/null && kill -KILL "$pid" 2>/dev/null
+fi
+pkill -f "bin/magpie serve" 2>/dev/null
+rm -f "$PIDF" 2>/dev/null
+
+# ---- 数据处理（仅当物理目录确实落在数据卷对应位置才删）----
+if [ "$ACTION" = "delete" ]; then
+  for D in "$VAR" "$ETC"; do
+    [ -d "$D" ] || continue
+    P="$(readlink -f "$D" 2>/dev/null || echo "$D")"
+    case "$P" in
+      /vol*/@appdata/magpie|/vol*/@appconf/magpie)
+        find "$P" -mindepth 1 -maxdepth 1 -exec rm -rf {} + 2>/dev/null
+        echo "[$(date '+%F %T')] uninstall: data deleted under $P" >> /tmp/magpie-uninstall.log 2>/dev/null
+        ;;
+    esac
+  done
+fi
+
+exit 0
