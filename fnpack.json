@@ -831,7 +831,7 @@
               "size": 19365821
             }
           },
-          "changelog": "1.1.6：修统一网关 /app/magpie/ 转发 POST 永久挂起——上游 POST 响应为 Transfer-Encoding: chunked，边车原先只认 Content-Length，读到 EOF 的等待在 keep-alive 下永不结束；现按 chunked 解析，SSE 等流式响应原样边到边转发。1.1.5：同步上游 v0.1.1292（智能体名称显示、登录框等高对齐、Kimi 工具 schema 修复、tier 容量分配修复与流式性能优化），并重新施加控制台移动端样式补丁。1.1.4：桌面入口标题精简为「Magpie」与「Magpie API」，网关地址改为带 ?key= 直达，控制台移动端 safe-area 与 Tab 条留白修正。1.1.3：网关说明页移动端适配，接口清单改标签列表。1.1.2：网关根路径按 Accept 区分 HTML 说明页与 JSON。1.1.1：统一网关改走平台正式注册（gatewaySocket/gatewayPrefix）。1.1.0：安装向导双端口、卸载向导（保留或删除数据）、桌面双图标、/app/magpie 统一网关入口。",
+          "changelog": "1.1.6：修统一网关 /app/magpie/ 转发 POST 永久挂起（上游响应为 chunked，边车原先只认 Content-Length），SSE 等流式响应改为边到边转发。",
           "updated_at": "2026-10-19T12:16:33Z"
         }
       }
