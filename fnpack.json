@@ -773,6 +773,24 @@
       "is_docker": false,
       "service_port": "38100",
       "releases": {
+        "0.6.352": {
+          "changelog": "修复应用详情页架构显示：源同时提供顶层单链接与多架构包时，正确显示全部架构（x86 / arm）",
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/Blue-Mink/moo/releases/download/v0.6.352/moo_0.6.352_x86.fpk",
+              "size": 5155868,
+              "size_mb": 4.9,
+              "sha256": "6195f04156df69317fbdf6ce57470575abff90ba3e86472bc362cc967afb313f"
+            },
+            "arm": {
+              "download_url": "https://github.com/Blue-Mink/moo/releases/download/v0.6.352/moo_0.6.352_arm.fpk",
+              "size": 4693688,
+              "size_mb": 4.5,
+              "sha256": "122af50843172986cffbedf76dc3b7003643d58e0e515d0fd9acf24b20e6ce00"
+            }
+          },
+          "updated_at": "2026-10-21T00:37:54+08:00"
+        },
         "0.6.351": {
           "changelog": "溯源补强：脚本同步（非 fork 搬运）镜像仓增加内容指纹识别，同名同包自动归到上游原作者",
           "packages": {
@@ -808,24 +826,6 @@
             }
           },
           "updated_at": "2026-10-18T07:52:45+08:00"
-        },
-        "0.6.327": {
-          "changelog": "应用溯源补强：修复非 fork 搬运源溯源缺失\n上游没有的 README 图片与预览图不再显示占位",
-          "packages": {
-            "x86": {
-              "download_url": "https://github.com/Blue-Mink/moo/releases/download/v0.6.327/moo_0.6.327_x86.fpk",
-              "size": 5062928,
-              "size_mb": 4.8,
-              "sha256": "2486cfb77542b1db41a33dd08658bd8f6d764a89a34b0c99326e56280195839a"
-            },
-            "arm": {
-              "download_url": "https://github.com/Blue-Mink/moo/releases/download/v0.6.327/moo_0.6.327_arm.fpk",
-              "size": 4616412,
-              "size_mb": 4.4,
-              "sha256": "d941dd2ca29242fe16446c4c20721f986c876ac1f8e0fe896d519793772cb9ee"
-            }
-          },
-          "updated_at": "2026-10-17T21:29:47+08:00"
         }
       },
       "preview_urls": [
