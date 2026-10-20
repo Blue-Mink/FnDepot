@@ -20,7 +20,7 @@
 
 ---
 
-fnOS 加速 FPK：**Git 克隆 / 网页浏览 / Release 与 raw 下载 / Docker 拉取** 四条链路全部经 NAS 中转。出厂内置 **64 个 GitHub 加速源** 与 **14 个 Docker 上游**，运行期持续测速自动择优、故障源自动冷却换源；用「直连 / 反代 / hosts 优选」三条通路的实测成绩决定走哪条，慢链路自动让位、直连恢复自动切回。Docker 加速依赖 **kspeeder 应用**（自动探测其安装与运行状态，接入端口跟随 kspeeder 自身配置）。Go 单二进制 + 内嵌 iOS 风格控制台，**默认不影响 NAS 与局域网其他设备的正常联网**。
+fnOS 加速 FPK：**Git 克隆 / 网页浏览 / Release 与 raw 下载 / Docker 拉取** 四条链路全部经 NAS 中转。出厂内置 **26 个 GitHub 加速源** 与 **8 个 Docker 上游**，运行期持续测速自动择优、故障源自动冷却换源；用「直连 / 反代 / hosts 优选」三条通路的实测成绩决定走哪条，慢链路自动让位、直连恢复自动切回。Docker 加速依赖 **kspeeder 应用**（自动探测其安装与运行状态，接入端口跟随 kspeeder 自身配置）。Go 单二进制 + 内嵌 iOS 风格控制台，**默认不影响 NAS 与局域网其他设备的正常联网**。
 
 ## 快速开始
 
@@ -40,7 +40,7 @@ fnOS 加速 FPK：**Git 克隆 / 网页浏览 / Release 与 raw 下载 / Docker 
 flowchart LR
   C["局域网设备<br/>Git · 浏览器 · Docker"] --> P["NAS<br/>:37710 代理入口<br/>:37717 控制台"]
   P --> D{"决策器<br/>实测三条通路"}
-  D -->|反代更快| M["镜像源池<br/>64 个内置源"]
+  D -->|反代更快| M["镜像源池<br/>26 个内置源"]
   D -->|直连更快| H["DNS 优选<br/>写入 hosts"]
   D -->|兜底| O["GitHub 官方直连"]
   M --> U["GitHub / Docker Hub"]
@@ -57,7 +57,7 @@ flowchart LR
 | 能力 | 说明 |
 |:--|:--|
 | **四链路加速** | Git clone / pull / push、网页浏览（免证书）、Release / raw / codeload 等 **15 个 GitHub 域名**下载、Docker 拉取（认证地址与 302 跳转始终经本机） |
-| **智能择优** | 64 个内置源持续测速：EMA 评分随时间衰减 · 连续失败进冷却 · 前列源加权抖动防扎堆；全部可在控制台增删改权重、添加私有源 |
+| **智能择优** | 26 个内置源持续测速：EMA 评分随时间衰减 · 连续失败进冷却 · 前列源加权抖动防扎堆；全部可在控制台增删改权重、添加私有源 |
 | **通路决策** | 实测「直连 / 反代 / hosts」三条通路，首字节延迟为主、吞吐为辅，不稳定通路罚分；直连快速熔断 + 半开恢复 + 启动预热 |
 | **DNS 优选** | 多公共 DNS 收集候选 IP（绕过本地污染）→ TCP + TLS + 首字节测速 → 写 hosts 命中优质节点；512KB 吞吐探针识别运营商 QoS，慢链路自动切镜像 |
 | **KSpeeder 依赖** | 自动探测本机 kspeeder 应用（安装/版本/运行态），运行时其 registry 列为 Docker 上游第一优先，接入端口完全跟随 kspeeder 自身配置；控制台 Docker 页有节点面板，未安装时给下载链接 |
@@ -148,7 +148,7 @@ scripts/          build-fpk.sh 等构建打包脚本
 
 ## 📄 许可证
 
-本项目遵循 [MIT License](LICENSE) 许可证。上游作者 **MisiteQ**；本仓库在其基础上新增 KSpeeder 依赖探测、64 加速源、pathfetch 源类型、Vue3 控制台等改动，构成 [MisiteQ/github-plus-plus](https://github.com/MisiteQ/github-plus-plus) 的衍生作品。
+本项目遵循 [MIT License](LICENSE) 许可证。上游作者 **MisiteQ**；本仓库在其基础上新增 KSpeeder 依赖探测、26 加速源、pathfetch 源类型、Vue3 控制台等改动，构成 [MisiteQ/github-plus-plus](https://github.com/MisiteQ/github-plus-plus) 的衍生作品。
 
 ---
 
