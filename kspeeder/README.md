@@ -19,7 +19,7 @@ KSpeeder 是一款 Docker 镜像加速管理工具，支持多源镜像缓存、
 | 应用名称 | KSpeeder |
 | fnOS 包名 | `kspeeder` |
 | 当前版本 | `0.8.7` |
-| 平台 | fnOS x86_64 |
+| 平台 | fnOS x86_64 / ARM64 |
 | 默认管理端口 | `5003` |
 | 默认镜像代理端口 | `5443` |
 | 原项目 | [kspeeder/docker_kspeeder](https://github.com/kspeeder/docker_kspeeder) |
@@ -27,7 +27,9 @@ KSpeeder 是一款 Docker 镜像加速管理工具，支持多源镜像缓存、
 
 ## 安装方式
 
-1. 下载 Release 中的 `kspeeder-0.8.7-fnos-amd64.fpk`
+1. 下载 Release 中的 FPK（按架构选择）：
+   - x86_64：`kspeeder-0.8.7-fnos-amd64.fpk`
+   - ARM64：`kspeeder-0.8.7-fnos-arm64.fpk`
 2. 在 fnOS 应用中心选择“手动安装”
 3. 按向导设置端口（默认管理端口 `5003`、代理端口 `5443`）
 4. 安装完成后点击“打开”进入 KSpeeder Web UI

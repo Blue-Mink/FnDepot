@@ -400,7 +400,8 @@
       "display_name": "KSpeeder",
       "desc": "Docker 镜像加速管理工具，支持多源镜像缓存、加速规则管理、流量统计与自动清理。基于 kspeeder/docker_kspeeder 项目打包，适配飞牛 fnOS 应用中心，支持在安装和应用设置中修改管理端口与镜像代理端口，卸载时可选择保留或删除数据。",
       "platform": [
-        "x86"
+        "x86",
+        "arm"
       ],
       "categories": [
         "系统工具"
@@ -423,6 +424,11 @@
               "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v0.8.7/kspeeder-0.8.7-fnos-amd64.fpk",
               "sha256": "5bda38911c38433fbbd04ff240a914b39d175733794a245ac9b2b7130320c2fe",
               "size": 6438123
+            },
+            "arm": {
+              "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v0.8.7/kspeeder-0.8.7-fnos-arm64.fpk",
+              "sha256": "b8ee9e541af77852fa1250e36a5d1c66ab3abee5bd2de77b448e7190e6c78d3c",
+              "size": 6085537
             }
           },
           "changelog": "0.8.7 新增卸载向导——卸载时可选「保留数据」（默认：加速节点配置、证书、日志保留在数据目录，重装原样继承）或「删除数据」（彻底清除本应用全部数据，不可恢复）；0.8.6 管理面板移动端（≤767px）三项体验优化——「Docker 加速配置指南」四个步骤 Tab 纵向逐行排列、「镜像服务器列表」分类 Tab 铺满整行均匀分布、登录页二维码卡片改为上下竖排（移动端不再被裁切溢出）；引擎、端口、桌面端布局与配置目录均不变。",
