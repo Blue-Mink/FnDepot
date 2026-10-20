@@ -748,6 +748,12 @@
               "size": 5155053,
               "size_mb": 4.9,
               "sha256": "a63509744115a40f363687cb87453cc64eff62c95696e01d5f1425ec123735ac"
+            },
+            "arm": {
+              "download_url": "https://github.com/Blue-Mink/moo/releases/download/v0.6.351/moo_0.6.351_arm.fpk",
+              "size": 4693091,
+              "size_mb": 4.5,
+              "sha256": "88c444e49aefa299577b1299430ed1ddcdbeecb4208b53b19adb62b5171f98e1"
             }
           },
           "updated_at": "2026-10-20T15:00:08+08:00"
