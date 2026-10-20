@@ -8,7 +8,7 @@ const emit = defineEmits(['update:tab'])
 /* 软键盘呼出时 Dock 随键盘上移（否则压在输入框上）；无键盘时 kb=0 保持原位。 */
 const kb = useKeyboardInset()
 const dockStyle = () => (kb.value
-  ? { bottom: `calc(10px + env(safe-area-inset-bottom) + ${kb.value}px)` }
+  ? { bottom: `calc(max(2px, env(safe-area-inset-bottom)) + ${kb.value}px)` }
   : {})
 
 const TABS = [
@@ -41,28 +41,28 @@ const TABS = [
 </template>
 
 <style scoped>
+/* 1.3.0 再放大加长并贴底：宽到屏宽 97%（桌面封顶 560px）、8 列均分，
+   图标 26px、标签 10.5px、内边距加高；底部贴 home 线
+   （iOS 下停在安全区上沿，Android/WebView 安全区为 0 时距底 2px）。 */
 .dock {
   position: fixed; left: 50%; transform: translateX(-50%);
-  bottom: calc(10px + env(safe-area-inset-bottom));
+  width: min(97vw, 560px);
+  bottom: max(2px, env(safe-area-inset-bottom));
   z-index: 50;
-  display: grid; grid-auto-flow: column; gap: 1px;
-  padding: 5px;
+  display: grid; grid-template-columns: repeat(8, 1fr); gap: 2px;
+  padding: 8px 6px;
   background: var(--bar-bg);
   backdrop-filter: blur(24px) saturate(1.8); -webkit-backdrop-filter: blur(24px) saturate(1.8);
   border: 0.5px solid var(--hairline);
-  border-radius: 24px;
+  border-radius: 28px;
   box-shadow: var(--shadow-dock);
 }
 .tbtn {
-  width: 41px;
+  width: auto;
   display: flex; flex-direction: column; align-items: center; justify-content: flex-end;
-  gap: 2px; padding: 5px 0 4px; border: 0; background: none;
-  color: var(--fg3); font-size: 9px; cursor: pointer; border-radius: 16px;
+  gap: 3px; padding: 7px 0 6px; border: 0; background: none;
+  color: var(--fg3); font-size: 10.5px; cursor: pointer; border-radius: 16px;
 }
-.tbtn svg { width: 21px; height: 21px; }
+.tbtn svg { width: 26px; height: 26px; }
 .tbtn.on { color: var(--accent); }
-@media (max-width: 374px) {
-  .dock { border-radius: 22px; padding: 4px; }
-  .tbtn { width: 38px; }
-}
 </style>

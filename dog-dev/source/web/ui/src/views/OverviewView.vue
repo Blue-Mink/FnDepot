@@ -29,6 +29,9 @@ onBeforeUnmount(() => clearInterval(timer))
 const s = computed(() => (st.value && st.value.status) || null)
 const m = computed(() => (s.value && s.value.metrics) || null)
 
+// 代理端口取实际监听地址（设置页改过端口后，指标卡与接入方式里的端口都跟着变）。
+const proxyPortText = computed(() => ((s.value && s.value.proxy_addr) || '').split(':').pop() || '37710')
+
 const metrics = computed(() => {
   if (!m.value) return []
   const hit = m.value.total_requests > 0 ? Math.round(m.value.accelerated / m.value.total_requests * 100) : 0
@@ -37,7 +40,7 @@ const metrics = computed(() => {
     { label: '加速命中率', value: hit + '%', sub: m.value.failed > 0 ? '失败 ' + m.value.failed + ' 次' : '无失败' },
     { label: '流量转发', value: fmtBytes(m.value.bytes_out), sub: '节省约 ' + fmtDuration(m.value.saved_ms / 1000) },
     { label: '可用加速源', value: s.value.mirrors.healthy + ' / ' + s.value.mirrors.enabled, sub: '共 ' + s.value.mirrors.total + ' 个' },
-    { label: '运行时长', value: s.value.uptime || '—', sub: '代理 :37710' },
+    { label: '运行时长', value: s.value.uptime || '—', sub: '代理 :' + proxyPortText.value },
     { label: '换源次数', value: String(m.value.failovers), sub: '自动故障转移' },
   ]
 })
@@ -99,7 +102,7 @@ const accessHost = computed(() => {
   if (hostSel.value === '__custom__') return hostInput.value.trim() || curHost.value
   return hostSel.value || curHost.value
 })
-const proxyPort = computed(() => ((s.value && s.value.proxy_addr) || '').split(':').pop() || '37710')
+const proxyPort = proxyPortText
 
 function pickOption(o) {
   hostSel.value = o.v
@@ -113,11 +116,11 @@ function closePick() {
 const connects = computed(() => {
   const host = accessHost.value
   return [
-    { tag: 'HTTP', title: 'HTTP 代理（推荐）', code: host + ':' + proxyPort.value, desc: '系统或浏览器代理设为该地址' },
-    { tag: 'Git', title: 'Git 全局配置', code: 'git config --global http.proxy http://' + host + ':' + proxyPort.value, desc: 'git clone / pull 自动加速' },
-    { tag: 'HOST', title: 'hosts 指向本机', code: host + '  github.com', desc: '域名解析到 NAS，透明加速' },
-    { tag: 'DOCKER', title: 'Docker 镜像加速（本机）', code: 'http://127.0.0.1:' + proxyPort.value, desc: '写入 registry-mirrors' },
-    { tag: 'URL', title: '前缀下载（wget / curl）', code: 'http://' + host + ':' + proxyPort.value + '/https://github.com/用户/仓库/…', desc: 'GitHub 地址前加本机前缀' },
+    { tag: 'PAC', title: '浏览器 PAC（只代理 GitHub）', code: 'http://' + host + ':37717/proxy.pac', desc: '其他网站直连，国内站点不受影响' },
+    { tag: 'HTTP', title: 'HTTP 代理（可全局）', code: host + ':' + proxyPort.value, desc: '非 GitHub 域名透明透传，不再 403' },
+    { tag: 'Git', title: 'Git 只代理 GitHub', code: 'git config --global http.https://github.com.proxy http://' + host + ':' + proxyPort.value, desc: '其他站点不走代理' },
+    { tag: 'URL', title: '前缀下载（无需 CA）', code: 'http://' + host + ':' + proxyPort.value + '/https://github.com/用户/仓库/…', desc: '最快的下载方式' },
+    { tag: 'DOCKER', title: 'Docker 镜像加速', code: 'http://' + host + ':' + proxyPort.value, desc: '写入 registry-mirrors' },
   ]
 })
 

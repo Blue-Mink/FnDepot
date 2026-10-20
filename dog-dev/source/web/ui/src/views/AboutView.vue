@@ -1,43 +1,48 @@
-<script setup>
-/* 关于 v2：信息行 + 安全承诺 + 开源致谢（紧凑） */
+﻿<script setup>
+/* 关于 v2：信息行 + 安全承诺 + 开源致谢（紧凑）。
+ * 1.3.0：作者 → 开发者（可跳转项目主页）；发布者与开源协议互换位置；去掉「仓库」行。 */
 import { computed, onMounted, ref } from 'vue'
 import { api } from '../api'
+import { appURL } from '../base'
+
+// 品牌规范：≤64px 用实色版（48px 下反白版负形糊成白团）。
+const logoURL = appURL('/logo-solid.svg')
 
 const about = ref(null)
 
 async function load() {
-  try { about.value = await api('/api/about') } catch { /* 401 由 App 处理 */ }
+  try { about.value = await api('/api/about') } catch { /* 后端未就绪时静默 */ }
 }
 onMounted(load)
 
-const info = computed(() => about.value ? [
-  ['版本', about.value.version],
-  ['作者', about.value.author],
-  ['开发语言', about.value.language + '（' + about.value.go_version + '）'],
-  ['开源协议', about.value.license],
-] : [])
+/* 信息行（顺序即展示顺序）：
+ * 版本 → 开发者 → 开发语言 → 发布者 → 开源协议
+ * href 存在时值渲染为可点击链接。 */
+const rows = computed(() => {
+  const a = about.value
+  if (!a) return []
+  return [
+    { k: '版本', v: a.version, mono: true },
+    { k: '开发者', v: a.author, href: a.author_url },
+    { k: '开发语言', v: a.language + '（' + a.go_version + '）', mono: true },
+    { k: '发布者', v: a.publisher, href: a.publisher_url },
+    { k: '开源协议', v: a.license, mono: true },
+  ]
+})
 </script>
 
 <template>
   <div v-if="about">
     <section class="card about-hero">
       <!-- 品牌规范：≤64px 用实色版（48px 下反白版负形糊成白团） -->
-      <img src="/logo-solid.svg" alt="" class="about-logo">
+      <img :src="logoURL" alt="" class="about-logo">
       <h2 class="about-name">{{ about.name }}</h2>
       <p class="about-desc">{{ about.description }}</p>
       <div class="kv-list">
-        <div class="kv-row" v-for="row in info" :key="row[0]">
-          <span class="k">{{ row[0] }}</span>
-          <span class="v mono">{{ row[1] }}</span>
-        </div>
-        <div class="kv-row" v-if="about.publisher_url">
-          <span class="k">发布者</span>
-          <span class="v"><a :href="about.publisher_url" target="_blank" rel="noopener">{{ about.publisher }}</a></span>
-        </div>
-        <div class="kv-row">
-          <span class="k">仓库</span>
-          <span class="v"><a :href="about.github" target="_blank" rel="noopener">GitHub</a> ·
-            <a :href="about.repo" target="_blank" rel="noopener">源码</a></span>
+        <div class="kv-row" v-for="row in rows" :key="row.k">
+          <span class="k">{{ row.k }}</span>
+          <a v-if="row.href" class="v link" :href="row.href" target="_blank" rel="noopener">{{ row.v }}</a>
+          <span v-else class="v" :class="{ mono: row.mono }">{{ row.v }}</span>
         </div>
       </div>
     </section>
@@ -76,7 +81,8 @@ const info = computed(() => about.value ? [
 .kv-row .k { color: var(--fg2); flex: none; }
 .kv-row .v { word-break: break-all; text-align: right; }
 .mono { font-family: ui-monospace, Menlo, monospace; font-size: 12px; }
-.kv-row .v a { color: var(--accent); text-decoration: none; }
+.kv-row .v.link { color: var(--accent); text-decoration: none; }
+.kv-row .v.link:active { opacity: 0.6; }
 .safety-item { padding: 8px 0; border-top: 0.5px solid var(--hairline); }
 .safety-item:first-child { border-top: 0; padding-top: 0; }
 .safety-item strong { font-size: 13px; display: block; margin-bottom: 3px; }

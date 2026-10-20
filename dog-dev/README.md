@@ -6,8 +6,8 @@
 
 | | |
 |---|---|
-| 包版本 | **v1.2.6** |
-| FPK | [amd64](https://github.com/Blue-Mink/FnDepot/releases/download/dog-dev-v1.2.6/dog-dev-1.2.6-fnos-amd64.fpk) / [arm64](https://github.com/Blue-Mink/FnDepot/releases/download/dog-dev-v1.2.6/dog-dev-1.2.6-fnos-arm64.fpk) |
+| 包版本 | **v1.3.8** |
+| FPK | [amd64](https://github.com/Blue-Mink/FnDepot/releases/download/dog-dev-v1.3.8/dog-dev-1.3.8-fnos-amd64.fpk) / [arm64](https://github.com/Blue-Mink/FnDepot/releases/download/dog-dev-v1.3.8/dog-dev-1.3.8-fnos-arm64.fpk) |
 | SHA256 | 同目录 `fpk.sha256` |
 | 默认端口 | 代理 37710 / 控制台 37717 |
 | 原项目 | [MisiteQ/github-plus-plus](https://github.com/MisiteQ/github-plus-plus) |
@@ -27,5 +27,5 @@
 
 ## 源码
 
-- [`source/`](source/) — [Blue-Mink/dog-dev](https://github.com/Blue-Mink/dog-dev) 源码快照（与 v1.2.6 tag 树一致）
+- [`source/`](source/) — [Blue-Mink/dog-dev](https://github.com/Blue-Mink/dog-dev) 源码快照（与 v1.3.8 tag 树一致）
 - 应用本体基于 GitHub++ 深度定制，版权归 [MisiteQ](https://github.com/MisiteQ) 所有

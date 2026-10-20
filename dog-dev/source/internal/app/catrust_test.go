@@ -147,3 +147,56 @@ func TestAppCATrustCache(t *testing.T) {
 		t.Fatalf("失效后应重新检测为未信任")
 	}
 }
+
+
+// TestEnsureSystemCA 验证安装/升级回调的补装逻辑：系统代理开启但系统信任
+// 里的 CA 被卸载流程清掉时，EnsureSystemCA 应补装；系统代理未开启则跳过。
+func TestEnsureSystemCA(t *testing.T) {
+	// 设置假系统信任（systemCADir 等指向临时目录 + 假 update-ca-certificates）。
+	setupFakeSysTrust(t)
+
+	dir := t.TempDir()
+
+	// 控制系统代理文件路径，模拟"系统代理是否开启"。
+	proxyFile := filepath.Join(dir, "ghpp-proxy.sh")
+	oldProxyFile := systemProxyFilePath
+	systemProxyFilePath = proxyFile
+	t.Cleanup(func() { systemProxyFilePath = oldProxyFile })
+
+	// 让 ResolveEtcDir 指向临时 CA 目录，避免 LoadOrCreateCA 写宿主目录。
+	caDir := filepath.Join(dir, "ca")
+	t.Setenv("TRIM_PKGETC", caDir)
+
+	// 1. 系统代理未开启 → 跳过，不装 CA。
+	if err := EnsureSystemCA(dir); err != nil {
+		t.Fatalf("系统代理未开启时应返回 nil，实际 %v", err)
+	}
+	if _, err := os.Stat(systemCAFile); !os.IsNotExist(err) {
+		t.Fatalf("系统代理未开启时不应安装 CA，实际 err=%v", err)
+	}
+
+	// 2. 系统代理开启 → 补装 CA。
+	if err := os.WriteFile(proxyFile, []byte("export https_proxy=http://127.0.0.1:37710\n"), 0o644); err != nil {
+		t.Fatal(err)
+	}
+	if err := EnsureSystemCA(dir); err != nil {
+		t.Fatalf("系统代理开启时应补装 CA，实际 %v", err)
+	}
+	if _, err := os.Stat(systemCAFile); err != nil {
+		t.Fatalf("补装后系统证书文件应存在: %v", err)
+	}
+
+	// 补装的 CA 与 data 目录加载的 CA 指纹一致（已进入系统信任 bundle）。
+	loaded, err := proxy.LoadOrCreateCA(caDir)
+	if err != nil || loaded == nil {
+		t.Fatalf("从 CA 目录加载 CA 失败: %v", err)
+	}
+	if !caInSystemTrustFor(loaded) {
+		t.Fatalf("补装后 CA 应进入系统信任 bundle")
+	}
+
+	// 3. 重复调用幂等，不报错。
+	if err := EnsureSystemCA(dir); err != nil {
+		t.Fatalf("重复调用应幂等成功，实际 %v", err)
+	}
+}

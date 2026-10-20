@@ -157,7 +157,6 @@ scripts/          build-fpk.sh 等构建打包脚本
 - [MisiteQ/github-plus-plus](https://github.com/MisiteQ/github-plus-plus) —— 上游项目作者，全部核心实现
 - 社区公益加速通道提供者（ghproxy.net、ghfast.top、gh-proxy.com 等）
 - [KSpeeder](https://kspeeder.com) —— Docker 拉取加速的依赖应用
-- [EWEDLCM/FnDepot](https://github.com/EWEDLCM/FnDepot) —— 飞牛应用源客户端，可添加作者源一键安装与升级
 - [飞牛 fnOS](https://www.fnnas.com/) —— 提供友好的 NAS 操作系统体验
 
 ---

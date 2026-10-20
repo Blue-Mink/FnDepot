@@ -1,6 +1,9 @@
 package config
 
-import "time"
+import (
+	"strings"
+	"time"
+)
 
 // BuiltinRevision 是出厂源清单的修订号。
 //
@@ -13,83 +16,58 @@ import "time"
 //   - 3：修复迁移缺口——修订 2 只合入了 GitHub 镜像，漏补 Docker 上游
 //   - 4：合入用户提供的 25 个社区前缀源
 //   - 5：新增路径抓取型源类型（xget 形态）并合入 xget.xi-xu.me
-const BuiltinRevision = 5
+//   - 6：按两轮真实请求实测剔除长期不可用的出厂源（38 个），只留能用的
+const BuiltinRevision = 6
 
 // BuiltinMirrors 返回出厂内置的 GitHub 加速源列表。
 //
 // 这些源均为社区公开的公益中转服务，可用性随时间波动，
 // 因此程序会在运行期持续测速并按实测结果动态排序，
 // 用户也可以在控制台中增删自己的私有源。
+// BuiltinMirrors 返回出厂内置的 GitHub 加速源列表。
+//
+// 1.3.0 起这份清单只保留「实测可用」的源：
+//   - 2026-10-19 在本机（192.168.1.2）对 64 个出厂源各做两轮真实请求
+//     （raw.githubusercontent.com 的 gitignore 文件 / git 仓库 info/refs），
+//     两轮都失败且非偶发抖动的源全部下线（见 retiredBuiltinMirrorIDs）；
+//   - 保留的源都在两轮中返回 200（g.blfrp.cn / ghproxy.vip 各有一轮抖动，
+//     属可用源的正常波动，保留）；
+//   - GitHub 官方直连始终保留作兜底（探测目标是 api.github.com/meta，
+//     被 GitHub 限流返回 403 是探测口径问题，不代表直连不可用）。
+//
+// 用户仍可在控制台增删自己的私有源。
 func BuiltinMirrors() []Mirror {
 	return []Mirror{
 		// ---- 前缀型中转站：覆盖 releases / archive / raw / git clone ----
-		{ID: "ghproxy-net", Name: "ghproxy.net", URL: "https://ghproxy.net/", Kind: KindPrefix, Enabled: true, Weight: 1, Note: "日本节点，覆盖面广"},
 		{ID: "ghfast-top", Name: "ghfast.top", URL: "https://ghfast.top/", Kind: KindPrefix, Enabled: true, Weight: 1, Note: "韩国首尔节点"},
 		{ID: "gh-proxy-com", Name: "gh-proxy.com", URL: "https://gh-proxy.com/", Kind: KindPrefix, Enabled: true, Weight: 1, Note: "韩国首尔节点，大文件表现好"},
-		{ID: "githubfast", Name: "githubfast.com", URL: "https://githubfast.com/", Kind: KindPrefix, Enabled: true, Weight: 1, Note: "韩国首尔节点"},
 		{ID: "ghproxy-vip", Name: "ghproxy.vip", URL: "https://ghproxy.vip/", Kind: KindPrefix, Enabled: true, Weight: 0.9, Note: "多线路，支持 LFS"},
-		{ID: "moeyy", Name: "github.moeyy.xyz", URL: "https://github.moeyy.xyz/", Kind: KindPrefix, Enabled: true, Weight: 0.9, Note: "美国节点"},
-		{ID: "hub-gitmirror", Name: "hub.gitmirror.com", URL: "https://hub.gitmirror.com/", Kind: KindPrefix, Enabled: true, Weight: 0.9, Note: "适合大体积 Release"},
-		{ID: "gh-llkk", Name: "gh.llkk.cc", URL: "https://gh.llkk.cc/", Kind: KindPrefix, Enabled: true, Weight: 0.8, Note: "国内 CDN"},
-		{ID: "moeyy-xyz", Name: "moeyy.xyz", URL: "https://moeyy.xyz/", Kind: KindPrefix, Enabled: true, Weight: 0.8, Note: "多线路社区中转"},
-		{ID: "ghps-cc", Name: "ghps.cc", URL: "https://ghps.cc/", Kind: KindPrefix, Enabled: true, Weight: 0.8, Note: "社区公益中转"},
-		{ID: "ghp-999", Name: "ghp.99988866.xyz", URL: "https://ghp.99988866.xyz/", Kind: KindPrefix, Enabled: true, Weight: 0.8, Note: "社区公益中转"},
-		{ID: "gh-cdn-zz", Name: "gh.cdn.zz.zz", URL: "https://gh.cdn.zz.zz/", Kind: KindPrefix, Enabled: true, Weight: 0.7, Note: "国内 CDN 线路"},
-		{ID: "gh-ciiiii", Name: "gh.ciiiii.com", URL: "https://gh.ciiiii.com/", Kind: KindPrefix, Enabled: true, Weight: 0.7, Note: "社区公益中转"},
-		{ID: "gh-aas123", Name: "gh.aas123.com", URL: "https://gh.aas123.com/", Kind: KindPrefix, Enabled: true, Weight: 0.7, Note: "社区公益中转"},
-		{ID: "gh-api999", Name: "gh.api.99988866.com", URL: "https://gh.api.99988866.com/", Kind: KindPrefix, Enabled: true, Weight: 0.7, Note: "社区公益中转"},
-		{ID: "gh-dd320", Name: "gh.dd320.org", URL: "https://gh.dd320.org/", Kind: KindPrefix, Enabled: true, Weight: 0.7, Note: "社区公益中转"},
-		{ID: "ghps-hk", Name: "ghps.hk", URL: "https://ghps.hk/", Kind: KindPrefix, Enabled: true, Weight: 0.7, Note: "香港线路"},
-		{ID: "ghps-us", Name: "ghps.us", URL: "https://ghps.us/", Kind: KindPrefix, Enabled: true, Weight: 0.7, Note: "美国线路"},
-		{ID: "ght-999", Name: "ght.99988866.com", URL: "https://ght.99988866.com/", Kind: KindPrefix, Enabled: true, Weight: 0.7, Note: "社区公益中转"},
-		// ---- Moo 应用实测源（2026-10-02 去重合并，前缀形态均已验证）----
 		{ID: "gh-proxy-org", Name: "gh-proxy.org", URL: "https://gh-proxy.org/", Kind: KindPrefix, Enabled: true, Weight: 0.9, Note: "GH-Proxy 主站，多线路"},
 		{ID: "gh-proxy-hk", Name: "hk.gh-proxy.org", URL: "https://hk.gh-proxy.org/", Kind: KindPrefix, Enabled: true, Weight: 0.8, Note: "GH-Proxy 香港节点"},
 		{ID: "cdn-ghproxy", Name: "cdn.gh-proxy.org", URL: "https://cdn.gh-proxy.org/", Kind: KindPrefix, Enabled: true, Weight: 0.8, Note: "GH-Proxy CDN 节点"},
-		{ID: "ghproxy-cxkpro", Name: "ghproxy.cxkpro.top", URL: "https://ghproxy.cxkpro.top/", Kind: KindPrefix, Enabled: true, Weight: 0.7, Note: "社区公益中转"},
-		{ID: "yylx", Name: "git.yylx.win", URL: "https://git.yylx.win/", Kind: KindPrefix, Enabled: true, Weight: 0.7, Note: "社区公益中转"},
-		{ID: "gitproxy-mrhjx", Name: "gitproxy.mrhjx.cn", URL: "https://gitproxy.mrhjx.cn/", Kind: KindPrefix, Enabled: true, Weight: 0.7, Note: "社区公益中转"},
-		{ID: "felicity", Name: "gh.felicity.ac.cn", URL: "https://gh.felicity.ac.cn/", Kind: KindPrefix, Enabled: true, Weight: 0.6, Note: "高校公益镜像"},
-		{ID: "wget-la", Name: "wget.la", URL: "https://wget.la/", Kind: KindPrefix, Enabled: true, Weight: 0.7, Note: "社区公益中转，大文件友好"},
-		{ID: "github-dpik", Name: "github.dpik.top", URL: "https://github.dpik.top/", Kind: KindPrefix, Enabled: true, Weight: 0.6, Note: "社区公益中转"},
-		{ID: "cors-isteed", Name: "cors.isteed.cc", URL: "https://cors.isteed.cc/", Kind: KindPrefix, Enabled: true, Weight: 0.7, Note: "社区公益中转（带 CORS）"},
-		{ID: "gh-dpik", Name: "gh.dpik.top", URL: "https://gh.dpik.top/", Kind: KindPrefix, Enabled: true, Weight: 0.7, Note: "社区公益中转"},
-		{ID: "memory-echoes", Name: "github-proxy.memory-echoes.cn", URL: "https://github-proxy.memory-echoes.cn/", Kind: KindPrefix, Enabled: true, Weight: 0.7, Note: "社区公益中转"},
-		{ID: "hub-conversun", Name: "hub.conversun.com", URL: "https://hub.conversun.com/", Kind: KindPrefix, Enabled: true, Weight: 0.7, Note: "社区公益中转"},
-		{ID: "gh-ddlc", Name: "gh.ddlc.top", URL: "https://gh.ddlc.top/", Kind: KindPrefix, Enabled: true, Weight: 0.6, Note: "社区公益中转"},
-		// ---- 用户提供的社区前缀源（2026-10-03 全量合入，25 条）----
 		{ID: "edgeone-ghproxy", Name: "edgeone.gh-proxy.org", URL: "https://edgeone.gh-proxy.org/", Kind: KindPrefix, Enabled: true, Weight: 0.8, Note: "GH-Proxy EdgeOne 节点"},
-		{ID: "gh-b52m", Name: "gh.b52m.cn", URL: "https://gh.b52m.cn/", Kind: KindPrefix, Enabled: true, Weight: 0.7, Note: "社区公益中转"},
-		{ID: "gh-h233", Name: "gh.h233.eu.org", URL: "https://gh.h233.eu.org/", Kind: KindPrefix, Enabled: true, Weight: 0.6, Note: "社区公益中转"},
-		{ID: "rapidgit-jjda", Name: "rapidgit.jjda.de5.net", URL: "https://rapidgit.jjda.de5.net/", Kind: KindPrefix, Enabled: true, Weight: 0.6, Note: "社区公益中转"},
+		{ID: "ghps-cc", Name: "ghps.cc", URL: "https://ghps.cc/", Kind: KindPrefix, Enabled: true, Weight: 0.8, Note: "社区公益中转"},
+		{ID: "yylx", Name: "git.yylx.win", URL: "https://git.yylx.win/", Kind: KindPrefix, Enabled: true, Weight: 0.7, Note: "社区公益中转"},
+		{ID: "wget-la", Name: "wget.la", URL: "https://wget.la/", Kind: KindPrefix, Enabled: true, Weight: 0.7, Note: "社区公益中转，大文件友好"},
+		{ID: "gh-dpik", Name: "gh.dpik.top", URL: "https://gh.dpik.top/", Kind: KindPrefix, Enabled: true, Weight: 0.7, Note: "社区公益中转"},
+		{ID: "hub-conversun", Name: "hub.conversun.com", URL: "https://hub.conversun.com/", Kind: KindPrefix, Enabled: true, Weight: 0.7, Note: "社区公益中转"},
 		{ID: "ghproxy-it", Name: "ghproxy.it", URL: "https://ghproxy.it/", Kind: KindPrefix, Enabled: true, Weight: 0.7, Note: "意大利节点"},
 		{ID: "github-boki", Name: "github.boki.moe", URL: "https://github.boki.moe/", Kind: KindPrefix, Enabled: true, Weight: 0.7, Note: "社区公益中转"},
-		{ID: "gh-jasonzeng", Name: "gh.jasonzeng.dev", URL: "https://gh.jasonzeng.dev/", Kind: KindPrefix, Enabled: true, Weight: 0.6, Note: "社区公益中转"},
 		{ID: "gh-monlor", Name: "gh.monlor.com", URL: "https://gh.monlor.com/", Kind: KindPrefix, Enabled: true, Weight: 0.7, Note: "社区公益中转"},
-		{ID: "github-tbedu", Name: "github.tbedu.top", URL: "https://github.tbedu.top/", Kind: KindPrefix, Enabled: true, Weight: 0.6, Note: "社区公益中转"},
-		{ID: "github-geekery", Name: "github.geekery.cn", URL: "https://github.geekery.cn/", Kind: KindPrefix, Enabled: true, Weight: 0.7, Note: "社区公益中转"},
 		{ID: "github-ednovas", Name: "github.ednovas.xyz", URL: "https://github.ednovas.xyz/", Kind: KindPrefix, Enabled: true, Weight: 0.7, Note: "社区公益中转"},
-		{ID: "ghfile-geekertao", Name: "ghfile.geekertao.top", URL: "https://ghfile.geekertao.top/", Kind: KindPrefix, Enabled: true, Weight: 0.7, Note: "社区公益中转"},
-		{ID: "ghp-keleyaa", Name: "ghp.keleyaa.com", URL: "https://ghp.keleyaa.com/", Kind: KindPrefix, Enabled: true, Weight: 0.7, Note: "社区公益中转"},
-		{ID: "gh-chjina", Name: "gh.chjina.com", URL: "https://gh.chjina.com/", Kind: KindPrefix, Enabled: true, Weight: 0.7, Note: "社区公益中转"},
 		{ID: "ghpxy-hwinzniej", Name: "ghpxy.hwinzniej.top", URL: "https://ghpxy.hwinzniej.top/", Kind: KindPrefix, Enabled: true, Weight: 0.6, Note: "社区公益中转"},
 		{ID: "cdn-crashmc", Name: "cdn.crashmc.com", URL: "https://cdn.crashmc.com/", Kind: KindPrefix, Enabled: true, Weight: 0.7, Note: "社区 CDN 中转"},
-		{ID: "gh-xxooo", Name: "gh.xxooo.cf", URL: "https://gh.xxooo.cf/", Kind: KindPrefix, Enabled: true, Weight: 0.6, Note: "社区公益中转"},
-		{ID: "gh-idayer", Name: "gh.idayer.com", URL: "https://gh.idayer.com/", Kind: KindPrefix, Enabled: true, Weight: 0.7, Note: "社区公益中转"},
 		{ID: "down-npee", Name: "down.npee.cn", URL: "https://down.npee.cn/", Kind: KindPrefix, Enabled: true, Weight: 0.6, Note: "社区公益中转"},
-		{ID: "raw-ihtw", Name: "raw.ihtw.moe", URL: "https://raw.ihtw.moe/", Kind: KindPrefix, Enabled: true, Weight: 0.6, Note: "社区公益中转"},
-		{ID: "gh-zwy", Name: "gh.zwy.one", URL: "https://gh.zwy.one/", Kind: KindPrefix, Enabled: true, Weight: 0.7, Note: "社区公益中转"},
-		{ID: "ghproxy-monkeyray", Name: "ghproxy.monkeyray.net", URL: "https://ghproxy.monkeyray.net/", Kind: KindPrefix, Enabled: true, Weight: 0.6, Note: "社区公益中转"},
 		{ID: "hub-glowp", Name: "hub.glowp.xyz", URL: "https://hub.glowp.xyz/", Kind: KindPrefix, Enabled: true, Weight: 0.7, Note: "社区公益中转"},
 		{ID: "gh-catmak", Name: "gh.catmak.name", URL: "https://gh.catmak.name/", Kind: KindPrefix, Enabled: true, Weight: 0.7, Note: "社区公益中转"},
 		{ID: "g-blfrp", Name: "g.blfrp.cn", URL: "https://g.blfrp.cn/", Kind: KindPrefix, Enabled: true, Weight: 0.7, Note: "社区公益中转"},
+
 		// ---- 路径抓取型源（xget 形态，仅 raw 文件）----
 		{ID: "xget-xi-xu", Name: "xget.xi-xu.me", URL: "https://xget.xi-xu.me/gh", Kind: KindPathFetch, Enabled: true, Weight: 0.7, Note: "路径抓取型中转，仅处理 raw 文件"},
+		// ---- raw CDN ----
 		{ID: "jsdelivr", Name: "jsDelivr CDN", URL: "https://fastly.jsdelivr.net/", Kind: KindRawCDN, Enabled: true, Weight: 1, Note: "全球 CDN，raw 文件最快"},
-		{ID: "raw-kkgithub", Name: "raw.kkgithub.com", URL: "https://raw.kkgithub.com/", Kind: KindRawCDN, Enabled: true, Weight: 0.8, Note: "香港节点"},
 
 		// ---- Git 仓库镜像 ----
-		{ID: "gitclone", Name: "gitclone.com", URL: "https://gitclone.com/", Kind: KindGitClone, Enabled: true, Weight: 0.9, Note: "国内 clone 镜像，首次较慢后续走缓存"},
 		{ID: "kkgithub", Name: "kkgithub.com", URL: "https://kkgithub.com/", Kind: KindGitClone, Enabled: true, Weight: 0.8, Note: "香港节点，GitHub 全站镜像"},
 
 		// ---- 官方直连：始终保留作为兜底 ----
@@ -97,28 +75,94 @@ func BuiltinMirrors() []Mirror {
 	}
 }
 
+// retiredBuiltinMirrorIDs 是 1.3.0 下线的出厂源（2026-10-19 两轮实测均不可用）。
+//
+// 保留这张表而不是"直接删掉"：老装机配置里仍然存着这些源，
+// normalize 会按 ID 把它们剔除（从未安装过的新配置则根本不会出现）。
+var retiredBuiltinMirrorIDs = map[string]bool{
+	"ghproxy-net":       true, // 两轮 502
+	"githubfast":        true, // 两轮 403
+	"moeyy":             true, // 两轮超时
+	"hub-gitmirror":     true, // 域名解析失败
+	"gh-llkk":           true, // 连接超时
+	"moeyy-xyz":         true, // 404
+	"ghp-999":           true, // 域名解析失败
+	"gh-cdn-zz":         true, // 域名解析失败
+	"gh-ciiiii":         true, // 域名解析失败
+	"gh-aas123":         true, // 连接被重置
+	"gh-api999":         true, // 域名解析失败
+	"gh-dd320":          true, // 域名解析失败
+	"ghps-hk":           true, // 域名解析失败
+	"ghps-us":           true, // TLS 握手失败
+	"ght-999":           true, // 域名解析失败
+	"ghproxy-cxkpro":    true, // 两轮 429
+	"gitproxy-mrhjx":    true, // 两轮 429
+	"felicity":          true, // 两轮 429
+	"github-dpik":       true, // 两轮 429
+	"cors-isteed":       true, // 两轮 403
+	"memory-echoes":     true, // 两轮 429
+	"gh-ddlc":           true, // 两轮 429
+	"gh-b52m":           true, // 读超时
+	"gh-h233":           true, // 两轮 403
+	"rapidgit-jjda":     true, // 503
+	"gh-jasonzeng":      true, // 域名解析失败
+	"github-tbedu":      true, // 域名解析失败
+	"github-geekery":    true, // 404
+	"ghfile-geekertao":  true, // 两轮 429
+	"ghp-keleyaa":       true, // 两轮 429
+	"gh-chjina":         true, // 连接失败
+	"gh-xxooo":          true, // 域名解析失败
+	"gh-idayer":         true, // 两轮 429
+	"raw-ihtw":          true, // 域名解析失败
+	"gh-zwy":            true, // 两轮 403
+	"ghproxy-monkeyray": true, // 两轮 500/404
+	"raw-kkgithub":      true, // 读超时
+	"gitclone":          true, // 404（服务已停）
+}
+
+// RetiredMirror 判断某个出厂源 ID 是否已下线。
+func RetiredMirror(id string) bool { return retiredBuiltinMirrorIDs[id] }
+
 // BuiltinDockerUpstreams 返回出厂内置的 Docker 上游列表。
 //
 // 依次为社区公益镜像站，最后 "official" 表示 Docker Hub 官方源（registry-1.docker.io），
 // 作为兜底。请求按顺序尝试，上游不可用时自动切换。
+// 1.3.0：只用实测能连上的上游。2026-10-19 逐个探测 /v2/ 与
+// /v2/library/alpine/manifests/3.20：
+//   - 200 / 401 都算存活（401 是标准认证质询，daemon 会自行换 token）；
+//   - DNS 失败、TLS 握手失败、连接超时、/v2/ 返回 404 的一律下线；
+//   - ghcr.nju.edu.cn 只镜像 ghcr.io，对 docker.io 拉取无意义，一并下线。
+//
+// official 必须保留在末尾作为兜底（本机直连 Docker Hub 慢/超时是环境问题，
+// 不代表兜底链可以去掉）。
 func BuiltinDockerUpstreams() []string {
 	return []string{
 		"https://docker.1ms.run",
 		"https://docker.m.daocloud.io",
 		"https://docker.xuanyuan.me",
-		"https://dhub.kubespeed.xyz",
 		"https://docker.1panel.live",
-		"https://dockermirror.com",
-		"https://docker.nastool.de",
 		"https://dockerproxy.net",
-		"https://dockerhub.jobtechzy.com",
-		// ---- Moo 应用内置源（2026-10-02 去重合并）----
-		"https://registry.cyou",
 		"https://m.daocloud.io",
 		"https://hub.rat.dev",
-		"https://ghcr.nju.edu.cn",
 		"official",
 	}
+}
+
+// retiredDockerUpstreams 是 1.3.0 下线的出厂 Docker 上游（实测不可用）。
+//
+// 老装机配置里仍存着这些地址，normalize 会按地址把它们剔除。
+var retiredDockerUpstreams = map[string]bool{
+	"https://dhub.kubespeed.xyz":      true, // 域名解析失败
+	"https://dockermirror.com":        true, // TLS 握手失败
+	"https://docker.nastool.de":       true, // 连接超时
+	"https://dockerhub.jobtechzy.com": true, // 域名解析失败
+	"https://registry.cyou":           true, // /v2/ 返回 404
+	"https://ghcr.nju.edu.cn":         true, // 只镜像 ghcr.io，对 docker.io 无用
+}
+
+// RetiredDockerUpstream 判断某个出厂 Docker 上游是否已下线。
+func RetiredDockerUpstream(u string) bool {
+	return retiredDockerUpstreams[strings.TrimRight(strings.TrimSpace(u), "/")]
 }
 
 // GHHost 描述一个需要加速的 GitHub 域名及其属性。

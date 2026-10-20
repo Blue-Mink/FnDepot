@@ -3,7 +3,7 @@
  * 移动端优先，长文案全部精简。 */
 import { computed, onMounted, onUnmounted, ref } from 'vue'
 import { useMessage, useDialog } from 'naive-ui'
-import { api, fmtBytes, fmtLatency, fmtTime } from '../api'
+import { api, fmtBytes, fmtLatency, fmtSpeed, fmtTime } from '../api'
 import Fold from '../components/Fold.vue'
 import { useCopy } from '../useCopy'
 
@@ -21,6 +21,10 @@ const newUpstream = ref('')
 const probing = ref(false)
 const applying = ref(false)
 const saving = ref(false)
+const ksBusy = ref(false)
+const mon = ref({ docker_minutes: 0, docker_effective_minutes: 5, mirror_minutes: 5 })
+const dockerMon = ref(0)
+const savingMon = ref(false)
 
 /* 折叠状态：节点默认收起（长列表），上游默认展开（少而关键），其余收起 */
 const nodesOpen = ref(false)
@@ -41,8 +45,27 @@ async function load() {
     d.value = dd
   } catch { /* 401 由 App 处理 */ }
 }
+async function loadMonitor() {
+  try {
+    mon.value = await api('/api/monitor')
+    dockerMon.value = mon.value.docker_minutes || 0
+  } catch { /* ignore */ }
+}
+async function saveDockerMonitor() {
+  const v = Math.max(0, Math.min(1440, Number(dockerMon.value) || 0))
+  dockerMon.value = v
+  if (savingMon.value) return
+  savingMon.value = true
+  try {
+    mon.value = await api('/api/monitor', { method: 'PUT', body: { docker_minutes: v } })
+    message.success(v > 0 ? 'Docker 测速间隔已设为 ' + v + ' 分钟' : 'Docker 测速已改为跟随加速源间隔')
+    await load()
+  } catch (e) { message.error(e.message) }
+  finally { savingMon.value = false }
+}
 onMounted(() => {
   load()
+  loadMonitor()
   timer = setInterval(load, 10000)
 })
 onUnmounted(() => { if (timer) clearInterval(timer) })
@@ -58,10 +81,10 @@ const ksUrl = computed(() => (ks.value && ks.value.url) || '')
 const proxyPort = computed(() => ((d.value && d.value.proxy_url) || '').split(':').pop() || '37710')
 const base = computed(() => {
   const u = d.value && d.value.proxy_url
-  if (!u) return 'http://NAS-IP:' + proxyPort.value
-  return u.replace(/^https?:\/\//, '').replace(/:\d+$/, '') === ''
-    ? 'http://NAS-IP:' + proxyPort.value
-    : u
+  // 读不到监听地址时用当前访问的主机名兜底，而不是编一个「NAS-IP」假地址让人去复制。
+  const fallback = 'http://' + (location.hostname || 'NAS-IP') + ':' + proxyPort.value
+  if (!u) return fallback
+  return u.replace(/^https?:\/\//, '').replace(/:\d+$/, '') === '' ? fallback : u
 })
 const snippets = computed(() => {
   const b = base.value
@@ -146,7 +169,7 @@ async function probeUpstreams() {
   try {
     await api('/api/docker/test', { method: 'POST' })
     await load()
-    message.success('全部上游探活完成')
+    message.success('全部上游测速完成')
   } catch (e) { message.error(e.message) }
   finally { probing.value = false }
 }
@@ -160,9 +183,28 @@ const nodeProfiles = computed(() => {
   return map
 })
 
+/* 上游速度：优先展示真实 blob 转发的实测吞吐；没有大响应样本时显示 — */
+function upSpeed(u) {
+  const v = Number(u && u.speed_kbps) || 0
+  return v > 0 ? fmtSpeed(v) : '—'
+}
+
 function nodeSpeed(v) {
   if (!v || v <= 0) return '—'
   return fmtBytes(v) + '/s'
+}
+
+/* 启停本机 kspeeder 应用（后端调用 appcenter-cli） */
+async function ksService(action) {
+  if (ksBusy.value) return
+  ksBusy.value = true
+  try {
+    const r = await api('/api/kspeeder/service', { method: 'POST', body: { action } })
+    if (r && r.status) ks.value = r.status
+    message.success(action === 'stop' ? '已停止 kspeeder' : '已启动 kspeeder')
+    await load()
+  } catch (e) { message.error(e.message) }
+  finally { ksBusy.value = false }
 }
 
 function applyDocker() {
@@ -188,8 +230,15 @@ function applyDocker() {
   <div>
     <section class="card">
       <div class="card-head">
-        <h2>KSpeeder 应用（依赖）</h2>
-        <span class="badge" :class="ksBadge.cls">{{ ksBadge.text }}</span>
+        <h2>KSpeeder 应用</h2>
+        <div class="head-actions">
+          <span class="badge" :class="ksBadge.cls">{{ ksBadge.text }}</span>
+          <button
+            v-if="ks && ks.mode !== 'absent'" class="btn sm" :disabled="ksBusy"
+            :title="ks.mode === 'running' ? '停止 kspeeder 应用' : '启动 kspeeder 应用'"
+            @click="ksService(ks.mode === 'running' ? 'stop' : 'start')"
+          >{{ ksBusy ? '处理中…' : (ks.mode === 'running' ? '停止' : '启动') }}</button>
+        </div>
       </div>
       <div class="card-body">
         <div class="ks-grid">
@@ -237,14 +286,14 @@ function applyDocker() {
         <h2>Docker 拉取加速</h2>
         <div class="head-actions">
           <span class="badge" :class="d.applied ? 'ok' : ''">{{ d.applied ? '已应用' : '未应用' }}</span>
-          <button class="btn sm" :disabled="probing" @click="probeUpstreams">{{ probing ? '探活中…' : '探活' }}</button>
+          <button class="btn sm" :disabled="probing" @click="probeUpstreams">{{ probing ? '测速中…' : '测速' }}</button>
         </div>
       </div>
       <div class="card-body">
         <div class="toggle-row">
           <div>
             <strong class="toggle-t">启用 Docker 加速</strong>
-            <small class="toggle-s">docker pull 自动走加速器，无需手动填镜像源</small>
+            <small class="toggle-s">docker pull 走本机加速器；需点下方「一键应用到系统」写入镜像源后生效</small>
           </div>
           <label class="sw">
             <input type="checkbox" :checked="!!d.enabled" @change="d.enabled = $event.target.checked"><i></i>
@@ -253,16 +302,29 @@ function applyDocker() {
         <div class="toggle-row">
           <div>
             <strong class="toggle-t">自动监测</strong>
-            <small class="toggle-s">周期性探活上游，让「最优在前、失效沉底」的排序持续保鲜</small>
+            <small class="toggle-s">周期性测速上游，让「最优在前、失效沉底」的排序持续保鲜</small>
           </div>
           <label class="sw">
             <input type="checkbox" :checked="!!(monitor && monitor.enabled)" :disabled="saving" @change="setMonitor($event.target.checked)"><i></i>
           </label>
         </div>
-        <p v-if="monitor" class="muted small">{{ monitorLast }} · 间隔 {{ monitor.minutes }} 分钟（与加速源监测共用，设置页可调）</p>
+        <div v-if="monitor" class="mon-row">
+          <span class="muted small">{{ monitorLast }}</span>
+          <label class="mon-set">
+            <span>间隔</span>
+            <input
+              v-model.number="dockerMon" type="number" min="0" max="1440"
+              :disabled="savingMon" @change="saveDockerMonitor" @keyup.enter="saveDockerMonitor"
+            >
+            <span>分钟{{ dockerMon > 0 ? '' : '（0=同加速源）' }}</span>
+          </label>
+        </div>
         <button class="btn primary full" :disabled="applying" @click="applyDocker">
           {{ applying ? '应用中…' : '一键应用到系统（重启 Docker）' }}
         </button>
+        <p v-if="d.enabled && !d.applied" class="notice warn">
+          加速已启用，但系统还没写入镜像源：点上面的「一键应用到系统」后，docker pull / compose pull 才会经过本机加速器。
+        </p>
         <div class="copy-row">
           <input :value="d.registry_mirror || ''" readonly placeholder="加速地址">
           <button class="btn sm" @click="copyText(d.registry_mirror || '')">复制</button>
@@ -277,10 +339,12 @@ function applyDocker() {
                   <span v-if="u.builtin_engine" class="badge ac">KSpeeder</span>
                   <span v-else-if="u.official" class="badge">官方兜底</span>
                 </div>
-                <div class="lrow-s" :title="u.error">{{ u.url }}</div>
+                <!-- 副标题一行放下延迟与速度：窄屏下不再单独占列，避免名称被挤成省略号 -->
+                <div class="lrow-s" :title="u.url + (u.error ? '｜' + u.error : '')">
+                  延迟 {{ fmtLatency(u.latency_ms) }} · 速度 {{ upSpeed(u) }}{{ u.probed && u.error ? ' · ' + u.error : '' }}
+                </div>
               </div>
-              <span class="mono lat">{{ fmtLatency(u.latency_ms) }}</span>
-              <span class="badge" :class="!u.probed ? '' : (u.ok ? 'ok' : 'err')" :title="u.error">{{ !u.probed ? '未探活' : (u.ok ? '正常' : '不可用') }}</span>
+              <span class="badge" :class="!u.probed ? '' : (u.ok ? 'ok' : 'err')" :title="u.error">{{ !u.probed ? '未测速' : (u.ok ? '正常' : '不可用') }}</span>
               <button v-if="u.deletable" class="btn sm danger" :disabled="saving" @click="delUpstream(u)">移除</button>
             </div>
           </div>
@@ -339,7 +403,13 @@ function applyDocker() {
 .nlist, .ulist, .rlist { display: flex; flex-direction: column; }
 .lrow-t .name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .lrow.dim .lrow-t .name { color: var(--fg3); }
-.lat { flex: none; width: 48px; text-align: right; color: var(--fg2); font-size: 12px; }
+.lrow-s { white-space: normal; }
+.mon-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+.mon-set { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; color: var(--fg2); }
+.mon-set input {
+  width: 58px; border: 0.5px solid var(--line); background: var(--card2); color: var(--fg);
+  border-radius: 8px; padding: 4px 6px; font-size: 12px; text-align: center; outline: none;
+}
 .rank {
   flex: none; width: 38px; text-align: center;
   font-family: ui-monospace, Menlo, monospace; font-size: 11px; font-weight: 700;

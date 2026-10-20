@@ -10,6 +10,9 @@ const goTab = inject('goTab', () => {})
 
 const st = ref(null)
 const cert = ref(null)
+// Docker 加速是否已真正写入系统（/api/docker 的 applied）：
+// 光有「启用」开关不算生效，daemon.json 里没有本机镜像源时 docker pull 仍走公共源。
+const dockerApplied = ref(null)
 const applying = ref(false)
 const caInstalling = ref(false)
 
@@ -19,11 +22,18 @@ async function load() {
 async function loadCert() {
   try { cert.value = await api('/api/cert') } catch { /* 忽略：证书不可用时不显示信任提示 */ }
 }
-onMounted(() => { load(); loadCert() })
+async function loadDocker() {
+  try { dockerApplied.value = !!(await api('/api/docker')).applied } catch { /* 忽略：读不到时按未知处理 */ }
+}
+onMounted(() => { load(); loadCert(); loadDocker() })
 
 const items = computed(() => st.value ? [
   { label: 'hosts 加速', on: !!st.value.hosts_enabled },
-  { label: 'Docker 加速', on: !!st.value.docker_enabled },
+  {
+    label: 'Docker 加速',
+    on: !!st.value.docker_enabled && !!dockerApplied.value,
+    off: st.value.docker_enabled ? '待应用' : '未开启',
+  },
   { label: '系统代理', on: !!st.value.system_proxy_enabled },
 ] : [])
 
@@ -93,7 +103,7 @@ function applyDocker() {
       try {
         const res = await api('/api/docker/apply', { method: 'POST' })
         message.success((res && res.message) || '已应用并重启 Docker')
-        await load()
+        await load(); await loadDocker()
       } catch (e) { message.error(e.message) }
       finally { applying.value = false }
     },
@@ -109,7 +119,7 @@ function applyDocker() {
         <div class="status-grid">
           <div v-for="x in items" :key="x.label" class="status-item">
             <div class="s-label">{{ x.label }}</div>
-            <div class="s-value" :class="x.on ? 'on' : 'off'">{{ x.on ? '已开启' : '未开启' }}</div>
+            <div class="s-value" :class="x.on ? 'on' : 'off'">{{ x.on ? '已开启' : (x.off || '未开启') }}</div>
           </div>
         </div>
       </div>
@@ -154,7 +164,7 @@ function applyDocker() {
           <div class="m-icon">⬢</div>
           <div class="m-body">
             <strong>Docker 加速</strong>
-            <p>docker pull / compose pull 自动走加速器。</p>
+            <p>{{ dockerApplied ? '已写入系统镜像源，docker pull / compose pull 走本机加速器。' : '还没写入系统：点「一键应用」写 daemon.json 后 docker pull 才走加速器。' }}</p>
           </div>
           <button class="btn sm primary" :disabled="applying" @click="applyDocker">{{ applying ? '应用中…' : '一键应用' }}</button>
         </div>
@@ -172,7 +182,7 @@ function applyDocker() {
             <p>开启系统代理后，在飞牛 Docker 界面重启容器继承 http_proxy。</p>
           </div>
         </div>
-        <p class="notice ok">不确定选哪个？三个开关全开最稳，覆盖全部场景且互不冲突。</p>
+        <p class="notice ok">不确定选哪个？hosts 与系统代理可同时开、互不冲突；Docker 还需点一次「一键应用」写入系统配置。</p>
       </div>
     </section>
   </div>

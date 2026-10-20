@@ -1,4 +1,4 @@
-// Package hostsfile 负责在系统 hosts 文件中安全地维护 GitHub++ 托管区。
+// Package hostsfile 负责在系统 hosts 文件中安全地维护 Dog-dev 托管区。
 //
 // 安全原则：
 //  1. 绝不整体覆盖 hosts 文件，只替换自己标记之间的内容；

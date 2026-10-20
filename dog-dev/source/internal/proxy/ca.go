@@ -272,7 +272,7 @@ func (ca *CA) issue(host string) (*tls.Certificate, error) {
 		SerialNumber: serial,
 		Subject: pkix.Name{
 			CommonName:   host,
-			Organization: []string{"GitHub++"},
+			Organization: []string{"Dog-dev"},
 		},
 		NotBefore:             time.Now().Add(-24 * time.Hour),
 		NotAfter:              time.Now().AddDate(2, 0, 0),

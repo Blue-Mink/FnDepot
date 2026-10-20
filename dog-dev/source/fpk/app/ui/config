@@ -2,11 +2,13 @@
     ".url": {
         "dog-dev.Application": {
             "title": "Dog-dev",
+            "desc": "GitHub / Docker 加速控制台：总览、加速源、DNS 优选、Docker 拉取、证书与设置。",
             "icon": "images/icon-{0}.png",
             "type": "iframe",
             "protocol": "http",
-            "port": "37717",
-            "url": "/",
+            "url": "/app/dog-dev/",
+            "gatewaySocket": "dog-dev-gateway.sock",
+            "gatewayPrefix": "/app/dog-dev",
             "allUsers": false
         }
     }

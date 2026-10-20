@@ -6,4 +6,8 @@
 BIN="${TRIM_APPDEST}/ghpp"
 chmod +x "${BIN}" 2>/dev/null
 
+# ---- 系统代理开启时补装 CA（幂等） --------------------------------------
+# 覆盖"升级前卸载清理过系统 CA"等边界，与 install_callback 同逻辑。
+"${BIN}" -ensure-system-ca -data "${TRIM_PKGVAR}" 2>/dev/null || true
+
 exit 0

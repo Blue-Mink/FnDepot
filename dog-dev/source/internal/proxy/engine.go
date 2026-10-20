@@ -20,6 +20,7 @@ import (
 	"io"
 	"net"
 	"net/http"
+	"net/url"
 	"strconv"
 	"strings"
 	"sync"
@@ -714,9 +715,15 @@ func (e *Engine) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 
 	target := e.resolveTarget(r)
 	if target == nil {
-		// 非 GitHub 域名：如果是显式代理请求则拒绝，否则返回简单提示页。
+		// 非 GitHub 域名：显式代理请求改为直连透传，保证系统代理 /
+		// 局域网代理模式下其他网站不受影响（此前一律 403 会让
+		// pip、apt、浏览器访问国内站点直接失败）；非代理请求返回说明页。
 		if r.URL.Host != "" && r.URL.IsAbs() {
-			http.Error(w, "GitHub++ 仅加速 GitHub 相关域名", http.StatusForbidden)
+			if e.allowTransparentHTTP(r) {
+				e.forwardDirect(w, r, cfg)
+				return
+			}
+			http.Error(w, "Dog-dev 仅加速 GitHub 相关域名", http.StatusForbidden)
 			return
 		}
 		e.serveInfo(w, r)
@@ -730,16 +737,42 @@ func (e *Engine) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 //
 // 例如 /https://github.com/owner/repo 返回 host=github.com、rest=/owner/repo。
 // 兼容部分客户端把 // 折叠成 / 的情况（/https:/github.com）。
+//
+// 同时折叠历史版本造成的嵌套：镜像站返回相对重定向（Location: /https:/host/...）
+// 时，旧版本原样透传，客户端按当前路径解析后会得到
+// /https://host/https:/host/... 这种逐跳增长的地址；这里只保留最内层目标。
 func extractEmbeddedURL(p string) (host, rest string, ok bool) {
+	const maxDepth = 8
+	for depth := 0; depth < maxDepth && hasEmbeddedPrefix(p); depth++ {
+		h, r, okOne := extractOneEmbedded(p)
+		if !okOne {
+			break
+		}
+		host, rest, ok = h, r, true
+		p = rest
+	}
+	return host, rest, ok
+}
+
+// hasEmbeddedPrefix 判断路径是否以嵌入式 URL 的形态开头。
+func hasEmbeddedPrefix(p string) bool {
+	for _, prefix := range []string{"/https://", "/http://", "/https:/", "/http:/"} {
+		if strings.HasPrefix(p, prefix) {
+			return true
+		}
+	}
+	return false
+}
+
+// extractOneEmbedded 解析单层嵌入式 URL，不做嵌套折叠。
+func extractOneEmbedded(p string) (host, rest string, ok bool) {
 	for _, prefix := range []string{"/https://", "/http://", "/https:/", "/http:/"} {
 		if !strings.HasPrefix(p, prefix) {
 			continue
 		}
 		remaining := p[len(prefix):]
-		// 折叠形态补回双斜杠。
-		if strings.HasSuffix(prefix, ":/") && !strings.HasPrefix(remaining, "/") {
-			remaining = "/" + remaining
-		}
+		// 折叠形态（/https:/host/...）已被前缀吃掉一个斜杠，这里回到主机名起点。
+		remaining = strings.TrimPrefix(remaining, "/")
 		i := strings.IndexByte(remaining, '/')
 		if i <= 0 {
 			return "", "", false
@@ -969,6 +1002,14 @@ func (e *Engine) serveAccelerated(w http.ResponseWriter, r *http.Request, cfg *c
 	// 所有源都返回同类 4xx：透传最后一次的业务响应。
 	// 例如私有仓库的真实 403、资产不存在的 400——业务语义必须原样到达客户端。
 	if lastHeld != nil {
+		// 浏览器网页例外：全源失败时直连 GitHub 官方往往还能拿到真页面
+		// （直连可用但慢），透传一个 403/挑战页只会让用户看到白屏或
+		// "Invalid input."。网页请求优先直连兜底。
+		if wantsHTML(r) {
+			e.logf("debug", "%s 全源返回 4xx，网页请求回退直连", t.host)
+			e.forwardDirect(w, r, cfg)
+			return
+		}
 		e.commitHeld(w, t, lastHeld)
 		return
 	}
@@ -984,7 +1025,7 @@ func (e *Engine) serveAccelerated(w http.ResponseWriter, r *http.Request, cfg *c
 	if lastErr == nil {
 		lastErr = errors.New("没有可用的加速源")
 	}
-	http.Error(w, "GitHub++ 加速失败: "+lastErr.Error(), http.StatusBadGateway)
+	http.Error(w, "Dog-dev 加速失败: "+lastErr.Error(), http.StatusBadGateway)
 }
 
 // maxBufferedBody 是换源重试前允许缓冲的最大请求体。
@@ -1061,7 +1102,7 @@ func (e *Engine) tryDirect(w http.ResponseWriter, r *http.Request, cfg *config.C
 	if isRedirect(resp.StatusCode) {
 		loc := resp.Header.Get("Location")
 		if loc != "" {
-			resp.Header.Set("Location", rewriteRedirect(loc, config.Mirror{Kind: config.KindDirect}, t, r))
+			resp.Header.Set("Location", rewriteRedirect(loc, resp, r))
 		}
 	}
 
@@ -1174,7 +1215,15 @@ func (e *Engine) tryMirror(w http.ResponseWriter, r *http.Request, cfg *config.C
 	if isRedirect(resp.StatusCode) {
 		loc := resp.Header.Get("Location")
 		if loc != "" {
-			resp.Header.Set("Location", rewriteRedirect(loc, m, t, r))
+			newLoc := rewriteRedirect(loc, resp, r)
+			// 重定向没有推进（仍是客户端当前请求的同一个目标）时，
+			// 交给客户端只会形成跳转环（镜像把请求推回原站/自身规范形态），
+			// 判定该源不可用，换下一个源。
+			if redirectMakesNoProgress(r, newLoc) {
+				e.pool.Record(m.ID, latency, 0, fmt.Errorf("源 %s 重定向回同一目标", m.Name))
+				return false, nil, fmt.Errorf("源 %s 重定向未推进", m.Name)
+			}
+			resp.Header.Set("Location", newLoc)
 		}
 	}
 
@@ -1184,6 +1233,14 @@ func (e *Engine) tryMirror(w http.ResponseWriter, r *http.Request, cfg *config.C
 	if probeErr != nil {
 		e.pool.Record(m.ID, latency, 0, probeErr)
 		return false, nil, fmt.Errorf("源 %s 链路探针失败，换源重试: %w", m.Name, probeErr)
+	}
+
+	// 镜像被 Cloudflare 拦截时返回的是挑战页而非业务内容（见 challenge.go）。
+	// 此时尚未向客户端写出任何字节，直接判定本源失败、换下一个源。
+	if isMirrorChallenge(resp, probe) {
+		err := fmt.Errorf("源 %s 返回 Cloudflare 挑战页", m.Name)
+		e.pool.Record(m.ID, latency, 0, err)
+		return false, nil, err
 	}
 
 	copyResponseHeaders(w.Header(), resp, t.host)
@@ -1233,15 +1290,21 @@ func retryableMirrorCode(code int, r *http.Request) (int, bool) {
 // forwardDirect 直接回源到 GitHub 官方，不做任何中转。
 func (e *Engine) forwardDirect(w http.ResponseWriter, r *http.Request, cfg *config.Config) {
 	host := ""
+	// dialHost 保留端口：内网设备常常跑在非 80 端口（NAS 控制台 37717、
+	// 路由器管理页等），此前统一 stripPort 会把 :37717 的请求打到 :80，
+	// 落到系统 nginx 后被 302 到登录页，表现为「设了代理打开地址跳到别处」。
+	dialHost := ""
 	path := ""
 	if r.URL.IsAbs() && r.URL.Host != "" {
+		dialHost = r.URL.Host
 		host = stripPort(r.URL.Host)
 		path = pathOf(r)
 	} else {
+		dialHost = r.Host
 		host = stripPort(r.Host)
 		path = pathOf(r)
 	}
-	if host == "" {
+	if host == "" || dialHost == "" {
 		e.serveInfo(w, r)
 		return
 	}
@@ -1250,14 +1313,21 @@ func (e *Engine) forwardDirect(w http.ResponseWriter, r *http.Request, cfg *conf
 	// 这里直接跟随客户端连接生命周期，避免固定读超时在大文件流式传输中途切断连接。
 	ctx := r.Context()
 
-	req, err := http.NewRequestWithContext(ctx, r.Method, "https://"+host+path, r.Body)
+	// 非 GitHub 目标（透明透传）可能是纯 HTTP 站点，按客户端请求的 scheme 回源；
+	// 受管域名始终按 https 处理（与既有行为一致）。
+	scheme := "https"
+	if r.URL.IsAbs() && strings.EqualFold(r.URL.Scheme, "http") {
+		scheme = "http"
+	}
+
+	req, err := http.NewRequestWithContext(ctx, r.Method, scheme+"://"+dialHost+path, r.Body)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
 	copyRequestHeaders(req.Header, r.Header, config.Mirror{Kind: config.KindDirect}, host)
 	req.ContentLength = r.ContentLength
-	req.Host = host
+	req.Host = dialHost
 
 	resp, err := e.client.Do(req)
 	if err != nil {
@@ -1420,45 +1490,102 @@ func hostOf(rawURL string) string {
 
 // rewriteRedirect 处理上游返回的重定向地址。
 //
-// 镜像站有时会把请求 302 到 GitHub 原始域名，这里把它改写为
-// 嵌入式 URL 形态（http://<代理>/https://github.com/...），
-// 让客户端继续走本代理，以免绕过加速通道。
-//
-// 非 GitHub 域名的重定向保持原样，由客户端直接访问
-// （例如镜像站自有的对象存储 CDN）。
-func rewriteRedirect(loc string, m config.Mirror, t *target, r *http.Request) string {
-	// 相对路径直接返回，浏览器会基于当前主机解析。
-	if strings.HasPrefix(loc, "/") {
+// 上游（直连或镜像）可能给出三类地址：
+//  1. 绝对地址且指向受管 GitHub 域名：改写为嵌入式 URL，让客户端继续走加速通道；
+//  2. 相对地址（镜像站常用，如 Location: /https:/raw.githubusercontent.com/...）：
+//     先按上游请求 URL 解析成绝对地址；若其中已内嵌 GitHub 目标，则折叠回单层
+//     嵌入式 URL。旧版本把它原样透传，客户端按当前路径解析后会让路径逐跳嵌套
+//     （/https://a/https:/b/https:/b/...），最终所有源全 404；
+//  3. 其他域名（镜像自有 CDN 等）：返回绝对地址，由客户端直接访问。
+func rewriteRedirect(loc string, resp *http.Response, r *http.Request) string {
+	loc = strings.TrimSpace(loc)
+	if loc == "" {
 		return loc
 	}
-	// 只改写指向受管 GitHub 域名的绝对重定向。
-	var targetHost string
-	for h := range config.HostSet() {
-		if strings.Contains(loc, "://"+h) {
-			targetHost = h
-			break
-		}
-	}
-	if targetHost == "" {
-		// 同时兜底 GitHub 基础设施域名（*.githubusercontent.com 等）。
-		if isGitHubInfra(hostOf(loc)) {
-			targetHost = hostOf(loc)
-		}
-	}
-	if targetHost == "" {
+	ref, err := url.Parse(loc)
+	if err != nil {
 		return loc
+	}
+	abs := ref
+	if !ref.IsAbs() {
+		if resp == nil || resp.Request == nil || resp.Request.URL == nil {
+			return loc
+		}
+		abs = resp.Request.URL.ResolveReference(ref)
 	}
 
-	// 用代理自身的地址构造嵌入式 URL，让客户端继续走加速通道。
+	// 镜像把目标塞进路径（/https:/github.com/...）：折叠成单层嵌入式地址。
+	if h, rest, ok := extractEmbeddedURL(abs.Path); ok && isAccelerableHost(h) {
+		target := "https://" + h + rest
+		if abs.RawQuery != "" {
+			target += "?" + abs.RawQuery
+		}
+		return embedProxyURL(r, target)
+	}
+
+	if isAccelerableHost(abs.Hostname()) {
+		return embedProxyURL(r, abs.String())
+	}
+	return abs.String()
+}
+
+// embedProxyURL 把 GitHub 目标地址包装成"经本代理"的嵌入式 URL，
+// 形如 http://<代理地址>/https://github.com/owner/repo。
+//
+// 若请求本身已按域名直达（CONNECT 隧道或 hosts 透明代理），
+// 客户端本来就在正确的通道上，直接返回目标地址，避免拼出
+// https://github.com/https://github.com/... 这种畸形路径。
+func embedProxyURL(r *http.Request, target string) string {
+	if r == nil || r.Host == "" {
+		return target
+	}
+	if isAccelerableHost(stripPort(r.Host)) {
+		return target
+	}
 	scheme := "http"
 	if r.TLS != nil {
 		scheme = "https"
 	}
-	host := r.Host
+	return scheme + "://" + r.Host + "/" + target
+}
+
+// isAccelerableHost 判断域名是否由本加速器接管。
+func isAccelerableHost(host string) bool {
+	host = strings.ToLower(strings.TrimSpace(host))
 	if host == "" {
-		return loc
+		return false
 	}
-	return scheme + "://" + host + "/" + loc
+	if _, ok := config.HostSet()[host]; ok {
+		return true
+	}
+	return isGitHubInfra(host)
+}
+
+// redirectMakesNoProgress 判断重定向是否只是把客户端打回当前正在请求的目标。
+//
+// 镜像站常见的两种"原地重定向"：
+//   - 嵌入式形态：Location 指回本代理 + 与当前请求完全相同的路径；
+//   - CONNECT/透明形态：Location 指回客户端本来就在访问的 GitHub 目标。
+//
+// 这两种都没有推进，跟随只会形成跳转环，调用方应换源。
+func redirectMakesNoProgress(r *http.Request, loc string) bool {
+	if r == nil || r.URL == nil {
+		return false
+	}
+	u, err := url.Parse(strings.TrimSpace(loc))
+	if err != nil || u.Host == "" {
+		return false
+	}
+	curHost := stripPort(r.Host)
+	locHost := stripPort(u.Host)
+	// 嵌入式入口：Location 指回本代理自身。
+	embeddedEntry := strings.EqualFold(locHost, curHost)
+	// 透明入口：Location 指回客户端原本访问的 GitHub 域名。
+	transparentEntry := isAccelerableHost(curHost) && strings.EqualFold(locHost, curHost)
+	if !embeddedEntry && !transparentEntry {
+		return false
+	}
+	return u.EscapedPath() == r.URL.EscapedPath() && u.RawQuery == r.URL.RawQuery
 }
 
 func isRedirect(code int) bool {
@@ -1527,8 +1654,17 @@ func (c *countingWriter) Flush() {
 func (e *Engine) serveInfo(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "text/html; charset=utf-8")
 	w.WriteHeader(http.StatusOK)
-	const page = `<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
-<title>GitHub++ 加速服务运行中</title>
+	// 控制台端口取自实际配置，改过端口后说明页给出的地址仍然正确。
+	adminPort := "37717"
+	if e.cfg != nil {
+		if c := e.cfg(); c != nil {
+			if _, p, err := net.SplitHostPort(c.Server.Listen); err == nil && p != "" {
+				adminPort = p
+			}
+		}
+	}
+	const head = `<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<title>Dog-dev 加速服务运行中</title>
 <style>
 body{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:#0d1117;color:#e6edf3;
 display:flex;align-items:center;justify-content:center;height:100vh;margin:0}
@@ -1536,10 +1672,11 @@ display:flex;align-items:center;justify-content:center;height:100vh;margin:0}
 h1{margin:0 0 12px;font-size:20px}code{background:#21262d;padding:2px 6px;border-radius:4px}
 p{color:#8b949e;line-height:1.7;margin:8px 0}
 </style></head><body><div class="card">
-<h1>GitHub++ 加速服务运行中</h1>
+<h1>Dog-dev 加速服务运行中</h1>
 <p>当前端口是加速代理入口，不是管理界面。</p>
-<p>请前往控制台进行配置：<code>http://本机IP:37717</code></p>
+<p>请前往控制台进行配置：<code>http://本机IP:`
+	const tail = `</code></p>
 <p>或者直接把本地址配置为 HTTP 代理使用。</p>
 </div></body></html>`
-	_, _ = w.Write([]byte(page))
+	_, _ = w.Write([]byte(head + adminPort + tail))
 }

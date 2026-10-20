@@ -62,3 +62,15 @@ regress_*.sh
 reinstall_*.sh
 verify_400.sh
 xget_e2e.sh
+release_126.py
+release-1.2.6-notes.md
+install_127_a.sh
+app.tgz
+# 会话调试残留（不入库、不进包）
+double_start_race.sh
+/manifest
+
+# 本会话探测脚本与 UI 预览工具（不入库）
+work/
+DOGDEV-135_TODO.md
+DOGDEV-功能核查-20261020.md

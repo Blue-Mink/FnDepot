@@ -1,4 +1,4 @@
-// Package config 定义 GitHub++ 加速器的配置模型与持久化逻辑。
+// Package config 定义 Dog-dev 加速器的配置模型与持久化逻辑。
 //
 // 配置以 YAML 形式保存，路径解析优先级为：
 // 显式命令行参数 > 飞牛 fnOS 环境变量(TRIM_PKGVAR) > 用户目录 > 当前目录。
@@ -145,6 +145,14 @@ type ServerConfig struct {
 	Password string `yaml:"password" json:"password"`
 	// SessionTTLHours 是登录会话有效期小时数。
 	SessionTTLHours int `yaml:"session_ttl_hours" json:"session_ttl_hours"`
+	// AuthEnabled 控制控制台是否要求登录。
+	//
+	// 1.3.0 起默认 false（免登录）：控制台与加速服务同机部署、通常只在家庭
+	// 内网使用，每次打开都要输密码被用户视为多余。置 true 可恢复登录门
+	// （用户名密码仍为 Username/Password，/api/login 保持可用）。
+	AuthEnabled bool `yaml:"auth_enabled" json:"auth_enabled"`
+	// AuthEnabledSet 记录该字段是否在配置文件里显式出现过。
+	AuthEnabledSet bool `yaml:"auth_enabled_set,omitempty" json:"-"`
 }
 
 // DockerConfig 控制 Docker 镜像拉取加速。
@@ -164,6 +172,11 @@ type DockerConfig struct {
 	// AutoMonitorSet 记录用户是否显式设置过 AutoMonitor，
 	// 用于区分"用户主动关闭"与"旧版本配置文件字段缺失"，避免旧配置被零值 false 覆盖。
 	AutoMonitorSet bool `yaml:"auto_monitor_set,omitempty" json:"-"`
+	// MonitorMinutes 是 Docker 上游自动监测的独立间隔（分钟）。
+	//
+	// 0 表示沿用 auto.mirror_monitor_minutes（旧行为）；>0 时 Docker 上游
+	// 按自己的节拍探活，可与加速源监测分开设置（1.3.0）。
+	MonitorMinutes int `yaml:"monitor_minutes,omitempty" json:"monitor_minutes"`
 }
 
 // WatchdogConfig 控制看门狗（fpk/cmd/main 中的 run_with_watchdog）的自动重启行为。
@@ -211,10 +224,24 @@ type SystemProxyConfig struct {
 	EnabledSet bool `yaml:"enabled_set,omitempty" json:"-"`
 }
 
+// kspeederAppDownloadURL 是 kspeeder 应用未安装时控制台给出的下载地址。
+//
+// 指向「已发布」的最新版本，且必须与 km.RecommendedEngineMin 对得上：
+// 下载到的包要是低于推荐引擎版本，装完自带的还是老引擎（分段下载/节点竞速缺失）。
+const kspeederAppDownloadURL = "https://github.com/Blue-Mink/FnDepot/releases/download/v0.8.2/kspeeder-0.8.2-fnos-amd64.fpk"
+
+// legacyKSpeederDownloadURLs 记录历史版本内置的默认下载地址。
+// 配置文件里命中这些值说明用户从未自定义过，升级时直接跟进到最新发布版；
+// 其它（用户自己填的）地址一律不动。
+var legacyKSpeederDownloadURLs = map[string]bool{
+	"https://github.com/Blue-Mink/FnDepot/releases/download/v0.8.0/kspeeder-0.8.0-fnos-amd64.fpk": true,
+	"https://github.com/Blue-Mink/FnDepot/releases/download/v0.7.17/kspeeder-0.7.17-fnos-amd64.fpk": true,
+}
+
 // KSpeederConfig 描述本机 kspeeder 依赖应用的接入点。
 //
-// 1.2.0 起本应用不再捆绑 iStoreEnhance 引擎：Docker 拉取加速依赖独立
-// 安装的 kspeeder 应用（其 registry 端口活着时作为 Docker 上游第一优先）。
+// 1.2.0 起本应用不再捆绑 iStoreEnhance 引擎：Docker 拉取加速依赖独立安装的
+// kspeeder 应用（其 registry 端口活着时作为 Docker 上游第一优先）。
 type KSpeederConfig struct {
 	// RegistryURL 是显式覆盖的 registry 加速地址；留空 = 自动跟随
 	// kspeeder 应用自身配置的端口（读其 ports.conf，默认 5443）。
@@ -318,7 +345,7 @@ func Default() *Config {
 			// 端口留空 = 自动跟随 kspeeder 应用自身配置（默认 5443/5003）。
 			ManifestPath: "/var/apps/kspeeder/manifest",
 			PortConf:     "/vol1/@appconf/kspeeder/ports.conf",
-			DownloadURL:  "https://github.com/Blue-Mink/FnDepot/releases/download/v0.8.0/kspeeder-0.8.0-fnos-amd64.fpk",
+			DownloadURL:  kspeederAppDownloadURL,
 		},
 		Watchdog: WatchdogConfig{
 			// 默认开启：进程异常退出时看门狗自动拉起，保证加速服务常驻。
@@ -483,6 +510,11 @@ func detectExplicitFields(data []byte, cfg *Config) error {
 			cfg.Docker.AutoMonitorSet = true
 		}
 	}
+	if sv, ok := raw["server"].(map[string]any); ok {
+		if _, exists := sv["auth_enabled"]; exists {
+			cfg.Server.AuthEnabledSet = true
+		}
+	}
 	if sp, ok := raw["system_proxy"].(map[string]any); ok {
 		if _, exists := sp["enabled"]; exists {
 			cfg.SystemProxy.EnabledSet = true
@@ -557,8 +589,10 @@ func (c *Config) normalize() {
 	if c.KSpeeder.PortConf == "" {
 		c.KSpeeder.PortConf = "/vol1/@appconf/kspeeder/ports.conf"
 	}
-	if c.KSpeeder.DownloadURL == "" {
-		c.KSpeeder.DownloadURL = "https://github.com/Blue-Mink/FnDepot/releases/download/v0.8.0/kspeeder-0.8.0-fnos-amd64.fpk"
+	// 空值（老配置缺字段）与历史内置默认值都升级到当前发布版；
+	// 用户自定义过的地址（如内网镜像）保持原样。
+	if c.KSpeeder.DownloadURL == "" || legacyKSpeederDownloadURLs[c.KSpeeder.DownloadURL] {
+		c.KSpeeder.DownloadURL = kspeederAppDownloadURL
 	}
 	if c.Server.Username == "" {
 		c.Server.Username = "admin"
@@ -571,9 +605,30 @@ func (c *Config) normalize() {
 		// 场景徒增困扰。统一回退到固定默认密码，登录后可在控制台修改。
 		c.Server.Password = "admin123"
 	}
+	if c.Docker.MonitorMinutes < 0 {
+		c.Docker.MonitorMinutes = 0
+	}
+	if c.Docker.MonitorMinutes > 1440 {
+		c.Docker.MonitorMinutes = 1440
+	}
 	// Docker 上游列表缺省时补上内置值，"official" 必须保留在末尾作为兜底。
 	if len(c.Docker.Upstreams) == 0 {
 		c.Docker.Upstreams = BuiltinDockerUpstreams()
+	}
+	// 下线实测不可用的出厂 Docker 上游（1.3.0）：老配置里存着的地址直接剔除，
+	// 避免界面上留一排永远连不上的条目。
+	if len(c.Docker.Upstreams) > 0 {
+		kept := make([]string, 0, len(c.Docker.Upstreams))
+		for _, u := range c.Docker.Upstreams {
+			if RetiredDockerUpstream(u) {
+				continue
+			}
+			kept = append(kept, u)
+		}
+		if len(kept) == 0 {
+			kept = BuiltinDockerUpstreams()
+		}
+		c.Docker.Upstreams = kept
 	}
 	if len(c.Mirrors) == 0 {
 		c.Mirrors = BuiltinMirrors()
@@ -585,6 +640,11 @@ func (c *Config) normalize() {
 	for i := range c.Mirrors {
 		m := c.Mirrors[i]
 		if m.URL == "" {
+			continue
+		}
+		// 已下线（实测长期不可用）的出厂源：无论新旧配置一律剔除。
+		// 只按出厂 ID 判断，用户自建源用随机 ID，不受影响。
+		if RetiredMirror(m.ID) {
 			continue
 		}
 		if m.ID == "" {

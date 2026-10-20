@@ -6,15 +6,22 @@
 <title>Dog-dev</title>
 <link rel="icon" type="image/png" href="/favicon.png">
 <script>
-/* 主题：auto / light / dark。首帧前落定 data-theme，避免闪烁。 */
+/* 主题：只有 light / dark 两态（1.3.0 去掉「跟随系统」）。
+ * 首次访问按系统偏好定初始值，之后完全由用户选择决定，不再跟随系统变化。
+ * 首帧前落定 data-theme，避免闪烁。 */
 try {
-  var t = localStorage.getItem('theme') || 'auto';
-  if (!['auto', 'light', 'dark'].includes(t)) t = 'auto';
+  var t = localStorage.getItem('theme');
+  if (t !== 'light' && t !== 'dark') {
+    t = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+    localStorage.setItem('theme', t);
+  }
   document.documentElement.setAttribute('data-theme', t);
-} catch (e) { document.documentElement.setAttribute('data-theme', 'auto'); }
+} catch (e) {
+  document.documentElement.setAttribute('data-theme', 'light');
+}
 </script>
-  <script type="module" crossorigin src="/assets/index-Dq3ACsan.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-CvXUwT0L.css">
+  <script type="module" crossorigin src="/assets/index-C12N_aQG.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-pOzdxMot.css">
 </head>
 <body>
 <div id="app"></div>

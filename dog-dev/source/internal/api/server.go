@@ -22,6 +22,8 @@ type Server struct {
 	assets http.Handler
 
 	httpSrv *http.Server
+	// gateway 为飞牛统一网关入口（unix socket），未启用时为 nil。
+	gateway *gatewayServer
 }
 
 // NewServer 创建 API 服务。
@@ -43,6 +45,13 @@ func (s *Server) Handler() http.Handler {
 	mux.HandleFunc("/api/login", s.handleLogin)
 	mux.HandleFunc("/api/logout", s.handleLogout)
 	mux.HandleFunc("/api/health", s.handleHealth)
+	// PAC 与局域网接入片段：供浏览器/局域网设备直接取用，不含凭据，无需登录。
+	mux.HandleFunc("/proxy.pac", s.handlePAC)
+	mux.HandleFunc("/api/lan-access", s.handleLanAccess)
+	// 证书安装向导：局域网设备第一次装证书时还没有登录态，必须免鉴权。
+	// 页面只暴露本机 CA 的公开信息与「本次请求来源设备」自己的状态。
+	mux.HandleFunc("/ca", s.handleCAPage)
+	mux.HandleFunc("/ca/", s.handleCAPage)
 
 	// ---- 需要认证的接口 ----
 	mux.HandleFunc("/api/status", s.guard(s.handleStatus))
@@ -60,11 +69,16 @@ func (s *Server) Handler() http.Handler {
 	mux.HandleFunc("/api/watchdog", s.guard(s.handleWatchdog))
 	mux.HandleFunc("/api/cert", s.guard(s.handleCert))
 	mux.HandleFunc("/api/cert/", s.guard(s.handleCert))
+	// 设备证书信任状态（供控制台展示「哪些设备还没装证书」）。
+	// 精确路径优先于上面的前缀模式。
+	mux.HandleFunc("/api/cert/clients", s.guard(s.handleCertClients))
 	mux.HandleFunc("/api/docker", s.guard(s.handleDocker))
 	// 子路径 /api/docker/apply（一键应用到系统）必须单独注册：
 	// ServeMux 的无尾斜杠模式只精确匹配，漏注册会让请求落进静态兜底返回 HTML。
 	mux.HandleFunc("/api/docker/", s.guard(s.handleDocker))
 	mux.HandleFunc("/api/kspeeder", s.guard(s.handleKSpeeder))
+	mux.HandleFunc("/api/kspeeder/service", s.guard(s.handleKSpeederService))
+	mux.HandleFunc("/api/monitor", s.guard(s.handleMonitor))
 	mux.HandleFunc("/api/network", s.guard(s.handleNetwork))
 	mux.HandleFunc("/api/sysproxy", s.guard(s.handleSysProxy))
 	mux.HandleFunc("/api/about", s.guard(s.handleAbout))
@@ -105,8 +119,15 @@ func (s *Server) withMiddleware(next http.Handler) http.Handler {
 }
 
 // guard 包装需要认证的处理器。
+//
+// 1.3.0：server.auth_enabled 默认 false（免登录），此时直接放行；
+// 置 true 恢复登录门（/api/login 与密码校验逻辑保持可用）。
 func (s *Server) guard(fn http.HandlerFunc) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
+		if !s.app.CurrentConfig().Server.AuthEnabled {
+			fn(w, r)
+			return
+		}
 		token := TokenFromRequest(r)
 		if !s.auth.Verify(token) {
 			writeError(w, http.StatusUnauthorized, "未登录或会话已过期")
@@ -285,8 +306,8 @@ func (s *Server) handleMirrors(w http.ResponseWriter, r *http.Request) {
 			config.Mirror
 			// Rank 是自动优先监测下的当前优先级（1 = 最优，优先被使用）；
 			// 0 表示已停用。排序规则：健康按分降序 → 未测 → 失效沉底 → 停用殿后。
-			Rank int             `json:"rank"`
-			Stat mirror.Result   `json:"stat,omitempty"`
+			Rank int           `json:"rank"`
+			Stat mirror.Result `json:"stat,omitempty"`
 		}
 		items := make([]item, 0, len(cfg.Mirrors))
 		for _, m := range cfg.Mirrors {
@@ -498,10 +519,13 @@ func (s *Server) handleHosts(w http.ResponseWriter, r *http.Request) {
 
 	case http.MethodPost:
 		// 立即执行一次 DNS 优选并写入 hosts。
-		ctx, cancel := context.WithTimeout(r.Context(), 3*time.Minute)
-		defer cancel()
-
+		//
+		// 注意：ctx 必须在 goroutine 内部创建。放在 handler 里 defer cancel()
+		// 会在 handler 返回（= 立刻）时把 ctx 取消，后台任务拿到已取消的 ctx
+		// 直接空转，界面点「立即优选」实际什么都不会发生。
 		go func() {
+			ctx, cancel := context.WithTimeout(context.Background(), 3*time.Minute)
+			defer cancel()
 			s.app.SyncHosts(ctx)
 		}()
 		writeOK(w, map[string]string{"message": "DNS 优选已在后台开始"})
@@ -539,9 +563,12 @@ func (s *Server) handleHosts(w http.ResponseWriter, r *http.Request) {
 				s.logf("warn", "清理 hosts 失败: %v", err)
 			}
 		} else {
-			ctx, cancel := context.WithTimeout(context.Background(), 3*time.Minute)
-			defer cancel()
-			go s.app.SyncHosts(ctx)
+			// 同上：ctx 建在 goroutine 内，否则 handler 返回时就被取消。
+			go func() {
+				ctx, cancel := context.WithTimeout(context.Background(), 3*time.Minute)
+				defer cancel()
+				s.app.SyncHosts(ctx)
+			}()
 		}
 
 		writeOK(w, map[string]bool{"enabled": req.Enabled})
@@ -799,8 +826,9 @@ func (s *Server) Start(addr string) error {
 	return s.httpSrv.ListenAndServe()
 }
 
-// Stop 关闭控制台。
+// Stop 关闭控制台与统一网关入口。
 func (s *Server) Stop(ctx context.Context) error {
+	s.stopGateway(ctx)
 	if s.httpSrv == nil {
 		return nil
 	}

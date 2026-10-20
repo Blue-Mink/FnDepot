@@ -1,10 +1,15 @@
 #!/bin/bash
 
-### 安装应用后执行：校验架构、补齐可执行权限并记录首次使用信息。
+### 安装应用后执行：校验架构、补齐可执行权限、写入安装向导里的端口配置。
 ###
 ### 架构校验放这里是为了"早失败、给原因"：
 ### 装错架构的包平时只表现为服务起不来、页面拒绝连接，用户无从排查；
 ### 在安装阶段直接报错，应用中心会把原因显示出来。
+###
+### 端口来自安装向导（wizard/install），以 wizard_proxy_port / wizard_web_port
+### 环境变量传入；CLI 安装（install-fpk --env）同样走这条路。
+### 没有传值时什么都不做，沿用已有配置或程序默认值，
+### 这样升级与重装不会把用户在控制台里调过的设置冲掉。
 
 BIN="${TRIM_APPDEST}/ghpp"
 LOG_FILE="${TRIM_PKGVAR}/info.log"
@@ -34,11 +39,44 @@ if [ "${bin_arch}" != "${dev_arch}" ] && [ -n "${bin_arch}" ]; then
     exit 1
 fi
 
+# ---- 安装向导端口 ---------------------------------------------------------
+# 只在向导真的传了值时才写：升级回调不会带 wizard_* 变量，
+# 此时保持用户既有配置不动。
+PROXY_PORT="${wizard_proxy_port:-}"
+WEB_PORT="${wizard_web_port:-}"
+PORTS_SPEC=""
+[ -n "${PROXY_PORT}" ] && PORTS_SPEC="proxy=${PROXY_PORT}"
+if [ -n "${WEB_PORT}" ]; then
+    if [ -n "${PORTS_SPEC}" ]; then
+        PORTS_SPEC="${PORTS_SPEC},web=${WEB_PORT}"
+    else
+        PORTS_SPEC="web=${WEB_PORT}"
+    fi
+fi
+
+if [ -n "${PORTS_SPEC}" ]; then
+    out=$("${BIN}" -data "${TRIM_PKGVAR}" -set-ports "${PORTS_SPEC}" 2>&1)
+    rc=$?
+    if [ $rc -ne 0 ]; then
+        # 端口写不进去（例如两项填成同一个）时直接报错，
+        # 让应用中心把原因显示出来，而不是装完才发现服务起不来。
+        echo "Dog-dev 端口配置失败：${out}" > "${TRIM_TEMP_LOGFILE}" 2>/dev/null
+        exit 1
+    fi
+    echo "$(date '+%Y-%m-%d %H:%M:%S') - 安装向导端口已写入：${PORTS_SPEC}（${out}）" >> "${LOG_FILE}" 2>/dev/null
+fi
+
+# ---- 系统代理开启时补装 CA -----------------------------------------------
+# 重装后 config 保留 system_proxy.enabled=true，但卸载流程已把系统信任里的
+# 本地 CA 清掉。这里补装，避免新 shell 的 GitHub HTTPS 降级成纯隧道直连
+# （本机 IPv4 黑洞）超时。失败静默：不阻断安装，用户可在控制台重试。
+"${BIN}" -ensure-system-ca -data "${TRIM_PKGVAR}" 2>/dev/null || true
+
 {
     echo "$(date '+%Y-%m-%d %H:%M:%S') - Dog-dev 安装完成（架构 ${bin_arch}）"
-    echo "加速代理端口: 37710"
-    echo "Web 控制台端口: 37717"
-    echo "KSpeeder 引擎端口: 37443（Docker 加速）/ 37503（管理）"
+    echo "加速代理端口: ${PROXY_PORT:-沿用已有配置/默认 37710}"
+    echo "Web 控制台端口: ${WEB_PORT:-沿用已有配置/默认 37717}"
+    echo "桌面入口: 飞牛统一网关 /app/dog-dev/（不依赖控制台端口）"
 } >> "${LOG_FILE}" 2>/dev/null
 
 exit 0

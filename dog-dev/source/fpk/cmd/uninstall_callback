@@ -1,8 +1,39 @@
 #!/bin/bash
 
-### 卸载应用后执行。
+### 卸载应用后执行：按卸载向导的选择处理应用数据。
 ###
-### 用户数据（TRIM_PKGVAR 下的配置、日志与证书）由飞牛统一回收；
-### 若用户希望保留数据，可在卸载前自行备份该目录。
+### 向导字段 wizard_data_action：
+###   keep   —— 保留配置、证书与日志，重新安装时原样继承（默认）
+###   delete —— 彻底清除配置目录（TRIM_PKGETC）与数据目录（TRIM_PKGVAR）
+###
+### 系统侧副作用（hosts 加速托管区、系统信任里的本地 CA）已在
+### uninstall_init 里清理，与这里的选择无关——卸载后网络行为一定回到安装前。
+
+ACTION="${wizard_data_action:-keep}"
+
+# 目录安全守卫：变量为空或指向根目录时绝不清理（防手滑把系统删了）。
+safe_dir() {
+    local d="$1"
+    [ -n "$d" ] || return 1
+    [ "${#d}" -gt 5 ] || return 1
+    [ "$d" != "/" ] || return 1
+    [ -d "$d" ] || return 1
+    return 0
+}
+
+case "${ACTION}" in
+    delete)
+        # 用 find -delete 而不是 rm -rf：逐项删除、自带 -depth，
+        # 不跟随符号链接，也不会误删目录本身（目录交给平台回收）。
+        for d in "${TRIM_PKGETC}" "${TRIM_PKGVAR}"; do
+            if safe_dir "$d"; then
+                find "$d" -mindepth 1 -delete 2>/dev/null
+            fi
+        done
+        ;;
+    *)
+        # keep：什么都不做，数据留给下次安装继承。
+        ;;
+esac
 
 exit 0

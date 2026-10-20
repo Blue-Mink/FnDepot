@@ -1,18 +1,19 @@
-<script setup>
-/* 日志视图：初始拉 /api/logs?limit=120 + SSE 追加，级别过滤、实时跟随、清屏，最多保留 800 行。
- * v2 修复：旧版 @scroll.passive="maybeScroll" 把 scroll 事件对象当 force 参数传入（恒真），
- * 导致每次滚动都被强制拉回底部 → 无法上下滚动。现拆出 onScroll()（不带 force）+ 独立回底按钮。 */
+﻿<script setup>
+/* 日志视图：初始拉 /api/logs?limit=N + SSE 追加，级别过滤、实时跟随、清屏、复制。
+ * 1.3.0：最新日志显示在最上面；行数可调（父组件 limit）；跟随 = 贴顶部。
+ * 历史坑（保留注释，避免回归）：旧版 @scroll.passive="maybeScroll" 把事件对象当
+ * force 参数传入（恒真），导致滚动被强制拉回；现拆出 onScroll() 与独立回顶按钮。 */
 import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { api, logsStreamUrl } from '../api'
 
-const MAX_LINES = 800
 const props = defineProps({
   level: { type: String, default: '' },
   follow: { type: Boolean, default: true },
+  limit: { type: Number, default: 300 },
 })
 const entries = ref([])
 const viewEl = ref(null)
-const nearBottom = ref(true)
+const nearTop = ref(true)
 let src = null
 
 function pad(n) { return String(n).padStart(2, '0') }
@@ -22,47 +23,62 @@ function ts(iso) {
   return pad(d.getHours()) + ':' + pad(d.getMinutes()) + ':' + pad(d.getSeconds())
 }
 
-function push(entry) {
+function cap() {
+  const max = Math.max(50, Number(props.limit) || 300)
   const list = entries.value
-  list.push(entry)
-  if (list.length > MAX_LINES) list.splice(0, list.length - MAX_LINES)
+  if (list.length > max) list.splice(0, list.length - max)
 }
 
-const lines = computed(() =>
-  entries.value
-    .filter((e) => !props.level || (e.level || 'info').toLowerCase() === props.level)
-    .map((e) => ({
+function push(entry) {
+  entries.value.push(entry)
+  cap()
+}
+
+/* 最新在上的渲染顺序：filter → 映射 → reverse() */
+const lines = computed(() => {
+  const out = []
+  for (const e of entries.value) {
+    const lv = (e.level || 'info').toLowerCase()
+    if (props.level && lv !== props.level) continue
+    out.push({
       key: e.seq + '-' + e.time,
       t: ts(e.time),
-      l: (e.level || 'info').toLowerCase(),
+      l: lv,
       m: e.message,
-    })))
+    })
+  }
+  out.reverse()
+  return out
+})
 
-/* 仅在用户已停在底部附近时才自动贴底，翻历史不被打断 */
+const text = computed(() => lines.value.map((x) => x.t + ' ' + x.l.toUpperCase() + ' ' + x.m).join('\n'))
+
+/* 仅在用户已停在顶部附近时才自动贴顶（最新一条），翻历史不被打断 */
 function maybeScroll(force) {
   const el = viewEl.value
   if (!el) return
-  if (force || (props.follow && nearBottom.value)) el.scrollTop = el.scrollHeight
+  if (force || (props.follow && nearTop.value)) el.scrollTop = 0
 }
-/* 滚动事件处理：只更新"是否在底部"状态，绝不强制回底（v2 修复点） */
 function onScroll() {
   const el = viewEl.value
   if (!el) return
-  nearBottom.value = el.scrollHeight - el.scrollTop - el.clientHeight < 60
+  nearTop.value = el.scrollTop < 60
 }
-function jump() { nearBottom.value = true; maybeScroll(true) }
+function jump() { nearTop.value = true; maybeScroll(true) }
 
 watch(entries, () => nextTick(() => maybeScroll()))
 watch(() => props.follow, (v) => { if (v) nextTick(() => maybeScroll(true)) })
+watch(() => props.limit, () => { cap(); nextTick(() => maybeScroll(true)) })
 
 function clear() { entries.value = [] }
-defineExpose({ clear })
+function asText() { return text.value }
+defineExpose({ clear, asText })
 
 onMounted(async () => {
   try {
-    const data = await api('/api/logs?limit=120')
+    const data = await api('/api/logs?limit=' + Math.max(50, Number(props.limit) || 300))
     ;(data || []).forEach(push)
-  } catch { /* 401 由 App 处理 */ }
+  } catch { /* 后端未就绪时静默 */ }
   src = new EventSource(logsStreamUrl())
   src.onmessage = (ev) => {
     try { push(JSON.parse(ev.data)) } catch { /* 忽略心跳/格式异常 */ }
@@ -83,8 +99,8 @@ onBeforeUnmount(() => { if (src) src.close() })
         <span class="m">{{ x.m }}</span>
       </div>
     </div>
-    <button v-show="!nearBottom" class="log-jump" title="回到底部" @click="jump">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 10l6 6 6-6"/></svg>
+    <button v-show="!nearTop" class="log-jump" title="回到最新" @click="jump">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 14l6-6 6 6"/></svg>
     </button>
   </div>
 </template>
@@ -92,7 +108,7 @@ onBeforeUnmount(() => { if (src) src.close() })
 <style scoped>
 .log-wrap { position: relative; }
 .log-view {
-  height: min(520px, calc(100dvh - 240px)); min-height: 300px;
+  height: min(520px, calc(100dvh - 250px)); min-height: 300px;
   overflow: auto; overscroll-behavior: contain;
   -webkit-overflow-scrolling: touch;
   padding: 10px 12px;
@@ -112,7 +128,7 @@ onBeforeUnmount(() => { if (src) src.close() })
 .log-line.debug .l { color: #8e8e93; }
 .log-line.debug .m { color: #b9b9be; }
 .log-jump {
-  position: absolute; right: 10px; bottom: 10px;
+  position: absolute; right: 10px; top: 10px;
   width: 34px; height: 34px; border-radius: 50%;
   border: 0; background: rgba(60, 60, 67, 0.8); color: #fff;
   display: flex; align-items: center; justify-content: center;

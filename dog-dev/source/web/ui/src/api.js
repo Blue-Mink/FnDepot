@@ -4,6 +4,8 @@
  * - 401 → 触发 onUnauthorized（由 App.vue 接回登录页）
  * - 响应若带 data.data 则自动解包（后端统一包裹格式）
  */
+import { appURL } from './base'
+
 const TOKEN_KEY = 'ghpp_token'
 let onUnauthorized = null
 
@@ -29,14 +31,15 @@ export async function api(path, options) {
 
   let resp
   try {
-    resp = await fetch(path, opt)
+    resp = await fetch(appURL(path), opt)
   } catch {
     throw new Error('无法连接服务，请确认程序正在运行')
   }
 
   if (resp.status === 401) {
+    // 1.3.0 起控制台默认免登录；只有手动开启 server.auth_enabled 才会出现 401。
     if (onUnauthorized) onUnauthorized()
-    throw new Error('登录已过期，请重新登录')
+    throw new Error('未授权：请检查控制台的登录设置')
   }
 
   const text = await resp.text()
@@ -52,7 +55,7 @@ export async function api(path, options) {
 
 /* 日志 SSE 需要 query 传 token（EventSource 不能带 header） */
 export function logsStreamUrl() {
-  return '/api/logs/stream?token=' + encodeURIComponent(getToken())
+  return appURL('/api/logs/stream?token=' + encodeURIComponent(getToken()))
 }
 
 /* 常用格式化（与原实现一致） */

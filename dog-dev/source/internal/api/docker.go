@@ -211,21 +211,27 @@ func (s *Server) dockerStatus() map[string]any {
 	// 检测 daemon.json 是否已含本代理地址，前端显示"已应用/未应用"徽章。
 	applied := daemonJSONContainsMirror(proxyAddr)
 
-	// 自动监测状态：开关、节拍（与加速源共用监测间隔）、最近一次探活完成时间。
+	// 自动监测状态：开关、节拍（1.3.0 起可与加速源分开设置）、最近一次探活完成时间。
+	effMinutes := cfg.Docker.MonitorMinutes
+	if effMinutes <= 0 {
+		effMinutes = cfg.Auto.MirrorMonitorMinutes
+	}
 	lastProbe := s.app.LastDockerProbe()
 	monitor := map[string]any{
-		"enabled":  cfg.Docker.AutoMonitor,
-		"minutes":  cfg.Auto.MirrorMonitorMinutes,
-		"last":     "",
+		"enabled":        cfg.Docker.AutoMonitor,
+		"minutes":        effMinutes,
+		"docker_minutes": cfg.Docker.MonitorMinutes,
+		"mirror_minutes": cfg.Auto.MirrorMonitorMinutes,
+		"last":           "",
 	}
 	if !lastProbe.IsZero() {
 		monitor["last"] = lastProbe.Format(time.RFC3339)
 	}
 
 	return map[string]any{
-		"enabled":         cfg.Docker.Enabled,
-		"upstreams":       cfg.Docker.Upstreams,
-		"monitor":         monitor,
+		"enabled":   cfg.Docker.Enabled,
+		"upstreams": cfg.Docker.Upstreams,
+		"monitor":   monitor,
 		// upstream_list 是按"最优在前、失效沉底"排序的上游健康列表，
 		// 前端源列表表格直接渲染它（含内置引擎行与官方兜底行）。
 		"upstream_list":   s.app.Engine().DockerUpstreamList(cfg),

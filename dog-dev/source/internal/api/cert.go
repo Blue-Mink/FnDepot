@@ -1,6 +1,7 @@
 package api
 
 import (
+	"encoding/pem"
 	"fmt"
 	"net/http"
 	"strings"
@@ -81,8 +82,24 @@ func (s *Server) handleCert(w http.ResponseWriter, r *http.Request) {
 			writeError(w, http.StatusServiceUnavailable, "根证书不可用: %v", s.app.CAError())
 			return
 		}
+		// 部分 Android ROM 的「安装证书」只认 DER 编码的 .cer，
+		// 因此同时提供 PEM(.crt) 与 DER(.cer) 两种格式。
+		if strings.EqualFold(r.URL.Query().Get("format"), "der") {
+			block, _ := pem.Decode(ca.CertPEM())
+			if block == nil {
+				writeError(w, http.StatusInternalServerError, "根证书解析失败")
+				return
+			}
+			w.Header().Set("Content-Type", "application/x-x509-ca-cert")
+			w.Header().Set("Content-Disposition", `attachment; filename="ghpp-ca.cer"`)
+			w.Header().Set("Cache-Control", "no-store")
+			_, _ = w.Write(block.Bytes)
+			return
+		}
 		w.Header().Set("Content-Type", "application/x-x509-ca-cert")
 		w.Header().Set("Content-Disposition", `attachment; filename="ghpp-ca.crt"`)
+		// 证书会随「重新生成」变化，禁止客户端缓存，避免拿到旧证书。
+		w.Header().Set("Cache-Control", "no-store")
 		_, _ = w.Write(ca.CertPEM())
 		return
 
@@ -148,7 +165,7 @@ func installScript(platform, downloadURL string) string {
 	switch platform {
 	case "macos":
 		return `#!/bin/bash
-# GitHub++ 根证书安装脚本（macOS）
+# Dog-dev 根证书安装脚本（macOS）
 # 需要管理员权限，执行后会要求输入密码。
 set -e
 
@@ -170,7 +187,7 @@ echo "  3. 删除该证书"
 `
 	case "linux":
 		return `#!/bin/bash
-# GitHub++ 根证书安装脚本（Linux）
+# Dog-dev 根证书安装脚本（Linux）
 # 支持 Debian/Ubuntu 与 RHEL/CentOS 系发行版。
 set -e
 
@@ -195,7 +212,7 @@ fi
 # Firefox 与 Chrome 使用独立信任库，需要额外处理。
 if [ -d "$HOME/.pki/nssdb" ]; then
   if command -v certutil >/dev/null 2>&1; then
-    certutil -d sql:"$HOME/.pki/nssdb" -A -t "C,," -n "GitHub++" -i "$CERT_FILE" || true
+    certutil -d sql:"$HOME/.pki/nssdb" -A -t "C,," -n "Dog-dev" -i "$CERT_FILE" || true
     echo "已安装到 Chrome/Chromium 信任库。"
   fi
 fi
@@ -208,7 +225,7 @@ echo "  sudo rm /usr/local/share/ca-certificates/ghpp-ca.crt && sudo update-ca-c
 	default: // windows
 		// PowerShell 的转义符是反引号，与 Go 的反引号原始字符串冲突，
 		// 因此这里用普通字符串拼接，避免转义地狱。
-		return "# GitHub++ 根证书安装脚本（Windows PowerShell）\n" +
+		return "# Dog-dev 根证书安装脚本（Windows PowerShell）\n" +
 			"# 请以管理员身份运行 PowerShell 后执行本脚本。\n\n" +
 			"$ErrorActionPreference = \"Stop\"\n" +
 			"$DownloadUrl = \"" + downloadURL + "\"\n" +
@@ -222,6 +239,6 @@ echo "  sudo rm /usr/local/share/ca-certificates/ghpp-ca.crt && sudo update-ca-c
 			"Write-Host \"  $($cert.Thumbprint)\"\n" +
 			"Write-Host \"\"\n" +
 			"Write-Host \"如需卸载，请在管理员 PowerShell 中执行：\"\n" +
-			"Write-Host \"  Get-ChildItem Cert:\\LocalMachine\\Root | Where-Object { $_.Subject -like '*GitHub++*' } | Remove-Item\"\n"
+			"Write-Host \"  Get-ChildItem Cert:\\LocalMachine\\Root | Where-Object { $_.Subject -like '*Dog-dev*' } | Remove-Item\"\n"
 	}
 }

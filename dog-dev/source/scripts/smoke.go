@@ -42,7 +42,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	fmt.Println("========== GitHub++ 冒烟测试 ==========")
+	fmt.Println("========== Dog-dev 冒烟测试 ==========")
 
 	// 1. 健康检查
 	health := doJSON("GET", *webBase+"/api/health", nil, "")

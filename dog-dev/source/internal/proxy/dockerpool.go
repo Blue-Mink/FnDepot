@@ -47,6 +47,10 @@ type dockerStat struct {
 	cooldown   time.Time
 	updated    time.Time
 	lastErr    string
+	// speedKbps 是最近一次"真实转发"测得的吞吐（仅统计 >=64KB 的响应），
+	// 小请求（探活/manifest）不参与，避免得出无意义的瞬时速率。
+	speedKbps float64
+	speedAt   time.Time
 }
 
 // DockerUpstreamProbe 是一次上游探活的结果。
@@ -78,6 +82,10 @@ type DockerUpstreamStat struct {
 	InCooldown bool      `json:"in_cooldown,omitempty"`
 	// BadCount 是累计失败次数（探活与真实转发合并计数）。
 	BadCount int64 `json:"bad_count,omitempty"`
+	// SpeedKBps 是最近一次真实转发实测吞吐（KB/s），0 表示尚无大响应样本。
+	SpeedKBps float64 `json:"speed_kbps,omitempty"`
+	// SpeedAt 是吞吐样本时间。
+	SpeedAt time.Time `json:"speed_at,omitempty"`
 }
 
 // DockerPool 管理 Docker 上游的探测、打分与排序。
@@ -338,6 +346,39 @@ func (p *DockerPool) Record(u string, ok bool, latency time.Duration, err error)
 	st.score = dockerScoreOf(st.latency)
 }
 
+// RecordSpeed 记录一次真实转发的吞吐（KB/s）。
+//
+// 只采纳 >=64KB 的响应：探活与 manifest 是小请求，耗时主要来自握手与
+// 首字节，换算吞吐会得出几十 MB/s 的假值。真实 blob 下载才是用户感知的
+// "拉取速度"，用它给界面展示速度列。
+func (p *DockerPool) RecordSpeed(u string, bytes int64, d time.Duration) {
+	if bytes < 64*1024 || d <= 0 {
+		return
+	}
+	n := normalizeDockerUpstream(u)
+	if n == "" {
+		return
+	}
+	kbps := float64(bytes) / 1024 / d.Seconds()
+	if kbps <= 0 {
+		return
+	}
+	p.mu.Lock()
+	defer p.mu.Unlock()
+	st := p.stats[n]
+	if st == nil {
+		st = &dockerStat{url: n, name: upstreamName(n)}
+		p.stats[n] = st
+	}
+	if st.speedKbps <= 0 {
+		st.speedKbps = kbps
+	} else {
+		// 平滑，避免单个大文件抖动让展示值跳来跳去。
+		st.speedKbps = st.speedKbps*0.6 + kbps*0.4
+	}
+	st.speedAt = time.Now()
+}
+
 // inCooldown 在持锁状态下判断上游是否处于冷却期。
 func (p *DockerPool) inCooldownLocked(u string, now time.Time) bool {
 	st := p.stats[u]
@@ -420,6 +461,8 @@ func (p *DockerPool) Stats() map[string]DockerUpstreamStat {
 			Error:      errMsg,
 			InCooldown: cooling,
 			BadCount:   st.badCount,
+			SpeedKBps:  st.speedKbps,
+			SpeedAt:    st.speedAt,
 		}
 	}
 	return out

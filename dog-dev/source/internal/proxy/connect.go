@@ -13,8 +13,24 @@ import (
 	"sync"
 	"time"
 
+	"github.com/ghpp/ghpp/internal/certtrack"
 	"github.com/ghpp/ghpp/internal/config"
 )
+
+// remoteIP 从连接对端地址取出纯 IP（去掉端口）。
+func remoteIP(c net.Conn) string {
+	if c == nil {
+		return ""
+	}
+	addr := c.RemoteAddr()
+	if addr == nil {
+		return ""
+	}
+	if host, _, err := net.SplitHostPort(addr.String()); err == nil {
+		return host
+	}
+	return addr.String()
+}
 
 // sha256Sum 计算字节切片的 SHA-256 摘要。
 func sha256Sum(data []byte) []byte {
@@ -77,7 +93,10 @@ func (c *replayConn) Read(p []byte) (int, error) { return c.r.Read(p) }
 // net.ErrClosed，否则 srv.Serve 会永远阻塞，导致 goroutine 与信号量槽位泄漏。
 func (e *Engine) serveHTTPConn(conn net.Conn) {
 	client, server := net.Pipe()
-	ln := &singleConnListener{conn: client}
+	// http.Server 从 Listener 拿到的连接是 net.Pipe 的一端，其 RemoteAddr
+	// 是 "pipe"，会让来源判断（透明透传只允许本机/局域网）失效。
+	// 这里把真实对端地址包上去，保证 r.RemoteAddr 仍是客户端 IP。
+	ln := &singleConnListener{conn: &addrConn{Conn: client, addr: conn.RemoteAddr()}}
 
 	go func() {
 		done := make(chan struct{}, 2)
@@ -105,6 +124,14 @@ func (e *Engine) serveHTTPConn(conn net.Conn) {
 	}
 	_ = srv.Serve(ln)
 }
+
+// addrConn 用真实对端地址覆盖 net.Pipe 的假 RemoteAddr。
+type addrConn struct {
+	net.Conn
+	addr net.Addr
+}
+
+func (c *addrConn) RemoteAddr() net.Addr { return c.addr }
 
 // singleConnListener 是只提供一个连接的监听器。
 //
@@ -188,12 +215,15 @@ func (e *Engine) handleConnect(clientConn net.Conn, br *bufio.Reader) {
 		}
 	}
 
+	cfg := e.cfg()
+
 	if !e.isManagedHost(host) {
-		writeConnectError(clientConn, http.StatusForbidden, "GitHub++ 仅加速 GitHub 相关域名")
+		// 非 GitHub 域名：透明透传（不解密、不改写）。
+		// 此前这里一律 403，导致把 http(s)_proxy 指向本机后，
+		// pip / apt / 浏览器访问国内站点全部失败——系统代理因此不可用。
+		e.servePassthrough(cfg, clientConn, target)
 		return
 	}
-
-	cfg := e.cfg()
 	e.bumpCategory(categoryOf(e.hosts, host))
 
 	// 先告知客户端隧道已建立，这是 CONNECT 协议的固定流程。
@@ -206,6 +236,9 @@ func (e *Engine) handleConnect(clientConn net.Conn, br *bufio.Reader) {
 		if err := e.serveMITM(cfg, clientConn, host); err == nil {
 			return
 		} else {
+			// 握手失败几乎只有一种原因：客户端没装（或没信任）本机根证书。
+			// 记录下来供控制台「证书安装向导」提示是哪些设备还没装好。
+			certtrack.MarkUntrusted(remoteIP(clientConn), host)
 			e.logf("debug", "%s 的中间人握手未成功，尝试透传: %v", host, err)
 		}
 	} else {
@@ -264,6 +297,8 @@ func (e *Engine) serveMITM(cfg *config.Config, clientConn net.Conn, host string)
 	if err := tlsConn.Handshake(); err != nil {
 		return fmt.Errorf("TLS 握手失败: %w", err)
 	}
+	// 握手成功 = 客户端已信任本机根证书，登记为已信任设备。
+	certtrack.MarkTrusted(remoteIP(clientConn))
 	// 握手完成后取消超时，交由后续读写自行控制。
 	_ = clientConn.SetDeadline(time.Time{})
 
@@ -335,6 +370,62 @@ func (e *Engine) serveTunnel(cfg *config.Config, clientConn net.Conn, host strin
 		return
 	}
 
+	done := make(chan struct{}, 2)
+	go func() {
+		n, _ := io.Copy(upstream, clientConn)
+		e.metrics.BytesIn.Add(n)
+		done <- struct{}{}
+	}()
+	go func() {
+		n, _ := io.Copy(clientConn, upstream)
+		e.metrics.BytesOut.Add(n)
+		done <- struct{}{}
+	}()
+
+	<-done
+	_ = upstream.Close()
+	_ = clientConn.Close()
+	<-done
+}
+
+// servePassthrough 把非 GitHub 目标的 CONNECT 请求原样透传到上游。
+//
+// 与 serveTunnel 的区别：serveTunnel 只用于受管域名在 CA 不可信时的降级，
+// 目标是 GitHub；servePassthrough 面向任意公网站点，因此必须做来源与目标校验，
+// 避免 37710 暴露到公网时被当作开放代理使用。
+func (e *Engine) servePassthrough(cfg *config.Config, clientConn net.Conn, target string) {
+	if !trustedProxyClient(clientConn.RemoteAddr().String()) {
+		writeConnectError(clientConn, http.StatusForbidden, "Dog-dev 仅加速 GitHub 相关域名（仅本机与局域网可用）")
+		return
+	}
+	dialTarget, err := checkTransparentTargetFor(target, true)
+	if err != nil {
+		e.logf("debug", "拒绝透传 %s: %v", target, err)
+		writeConnectError(clientConn, http.StatusForbidden, "Dog-dev 仅加速 GitHub 相关域名")
+		return
+	}
+
+	dialer := &net.Dialer{
+		Timeout:   time.Duration(cfg.Proxy.ConnectTimeoutMS) * time.Millisecond,
+		KeepAlive: 30 * time.Second,
+	}
+	upstream, err := dialer.Dial("tcp", dialTarget)
+	if err != nil {
+		e.logf("debug", "透传 %s 建连失败: %v", dialTarget, err)
+		writeConnectError(clientConn, http.StatusBadGateway, "上游不可达")
+		return
+	}
+
+	if _, err := clientConn.Write([]byte("HTTP/1.1 200 Connection Established\r\n\r\n")); err != nil {
+		_ = upstream.Close()
+		_ = clientConn.Close()
+		return
+	}
+	e.relayTunnel(clientConn, upstream)
+}
+
+// relayTunnel 双向复制两个连接并统计流量，返回时两端均已关闭。
+func (e *Engine) relayTunnel(clientConn, upstream net.Conn) {
 	done := make(chan struct{}, 2)
 	go func() {
 		n, _ := io.Copy(upstream, clientConn)

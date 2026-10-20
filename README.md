@@ -200,7 +200,7 @@ TREK 是一款自托管旅行规划工具，基于 [liketrek/TREK](https://githu
 
 <div align="center">
 
-[![Dog-dev](https://img.shields.io/badge/Dog--dev-v1.2.6-blue?style=flat-square)](https://github.com/Blue-Mink/FnDepot) [![Platform](https://img.shields.io/badge/Platform-x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
+[![Dog-dev](https://img.shields.io/badge/Dog--dev-v1.3.8-blue?style=flat-square)](https://github.com/Blue-Mink/FnDepot) [![Platform](https://img.shields.io/badge/Platform-x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
 
 </div>
 
@@ -210,8 +210,8 @@ TREK 是一款自托管旅行规划工具，基于 [liketrek/TREK](https://githu
 | :--- | :--- |
 | 👨‍💻 **原作者** | [MisiteQ](https://github.com/MisiteQ) |
 | 📁 **原项目** | [github-plus-plus](https://github.com/MisiteQ/github-plus-plus) |
-| 📥 **安装方式** | 下载 [dog-dev-1.2.6-fnos-amd64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/dog-dev-v1.2.6/dog-dev-1.2.6-fnos-amd64.fpk)（x86）或 [dog-dev-1.2.6-fnos-arm64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/dog-dev-v1.2.6/dog-dev-1.2.6-fnos-arm64.fpk)（arm64）在 fnOS 应用中心手动安装 |
-| 🏷️ **版本** | v1.2.6 |
+| 📥 **安装方式** | 下载 [dog-dev-1.3.8-fnos-amd64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/dog-dev-v1.3.8/dog-dev-1.3.8-fnos-amd64.fpk)（x86）或 [dog-dev-1.3.8-fnos-arm64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/dog-dev-v1.3.8/dog-dev-1.3.8-fnos-arm64.fpk)（arm64）在 fnOS 应用中心手动安装 |
+| 🏷️ **版本** | v1.3.8 |
 | 🌐 **默认端口** | 代理 37710 / 控制台 37717 |
 | 📖 **详细说明** | [dog-dev/README.md](dog-dev/README.md) |
 

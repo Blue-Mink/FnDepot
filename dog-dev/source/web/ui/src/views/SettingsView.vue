@@ -1,27 +1,43 @@
 <script setup>
-/* 设置 v2：代理参数 / 决策参数 / 修改密码 / 后台运行 / 证书 — 文案精简、按钮统一 */
-import { computed, inject, onMounted, reactive, ref } from 'vue'
+/* 设置 v2：代理参数 / 决策参数 / 后台运行 / 证书 — 文案精简、按钮统一。
+ * 1.3.0：控制台默认免登录，移除「修改密码」卡片。 */
+import { computed, onMounted, reactive, ref } from 'vue'
 import { useMessage, useDialog } from 'naive-ui'
 import { api } from '../api'
+import { appURL } from '../base'
 
 const message = useMessage()
 const dialog = useDialog()
-const logout = inject('logout', () => {})
+
+// 证书安装向导与下载地址：经统一网关访问时要带上 /app/dog-dev 前缀。
+const caPageURL = appURL('/ca')
+const certDownloadURL = appURL('/api/cert/download')
 
 const cfg = ref(null)
 const cert = ref(null)
+// 局域网各设备的证书信任状态：用于提示「还有哪些设备没装好证书」。
+const certClients = ref([])
 
 const proxy = reactive({ listen: '', connect_timeout_ms: 8000, read_timeout_ms: 30000, failover_threshold: 3, cooldown_seconds: 300 })
 const auto = reactive({ probe_interval_minutes: 30, mirror_monitor_minutes: 5, direct_better_ratio: 1.5 })
-const pw = reactive({ old: '', next: '' })
 const certForm = reactive({ pem: '', key: '' })
-const busy = reactive({ proxy: false, auto: false, pw: false, regen: false, import: false })
+const busy = reactive({ proxy: false, auto: false, regen: false, import: false })
+
+// 只提示「被拒过且还没成功」的设备；一旦握手成功会自动从提示里消失。
+const untrustedClients = computed(() =>
+  (certClients.value || []).filter((c) => !c.trusted && c.failures > 0)
+)
 
 async function load() {
   try {
-    const [c, k] = await Promise.all([api('/api/config'), api('/api/cert').catch(() => null)])
+    const [c, k, cl] = await Promise.all([
+      api('/api/config'),
+      api('/api/cert').catch(() => null),
+      api('/api/cert/clients').catch(() => null),
+    ])
     cfg.value = c
     cert.value = k
+    certClients.value = (cl && cl.clients) || []
     if (c) {
       proxy.listen = (c.proxy && c.proxy.listen) || ''
       proxy.connect_timeout_ms = (c.proxy && c.proxy.connect_timeout_ms) || 8000
@@ -91,18 +107,6 @@ async function saveAuto() {
   finally { busy.auto = false }
 }
 
-async function changePassword() {
-  if (busy.pw) return
-  if (String(pw.next).length < 6) { message.error('新密码至少 6 位'); return }
-  busy.pw = true
-  try {
-    await api('/api/password', { method: 'POST', body: { old_password: pw.old, new_password: pw.next } })
-    message.success('密码已修改，请重新登录')
-    pw.old = ''; pw.next = ''
-    setTimeout(logout, 1200)
-  } catch (e) { message.error(e.message) }
-  finally { busy.pw = false }
-}
 
 async function setWatchdog(enabled) {
   try {
@@ -191,17 +195,6 @@ async function importCert() {
       </div>
     </section>
 
-    <section class="card">
-      <div class="card-head"><h2>修改密码</h2></div>
-      <div class="card-body">
-        <label class="field"><span>当前密码</span>
-          <input v-model="pw.old" type="password" autocomplete="current-password"></label>
-        <label class="field"><span>新密码（至少 6 位）</span>
-          <input v-model="pw.next" type="password" autocomplete="new-password">
-        </label>
-        <button class="btn primary full" :disabled="busy.pw" @click="changePassword">修改密码</button>
-      </div>
-    </section>
 
     <section class="card">
       <div class="card-head">
@@ -224,9 +217,14 @@ async function importCert() {
       </div>
       <div class="card-body">
         <div class="row">
-          <a class="btn primary" href="/api/cert/download">下载证书</a>
+          <a class="btn primary" :href="caPageURL" target="_blank" rel="noopener">安装向导</a>
+          <a class="btn" :href="certDownloadURL">下载 .crt</a>
           <button class="btn" :disabled="busy.regen" @click="regenCert">{{ busy.regen ? '生成中…' : '重新生成' }}</button>
         </div>
+        <p v-if="untrustedClients.length" class="notice warn">
+          有 {{ untrustedClients.length }} 台设备访问 GitHub 时被证书拦住：{{ untrustedClients.map((c) => c.ip).join('、') }}。
+          用那台设备打开上面的「安装向导」扫码安装根证书即可（装完会自动从此列表消失）。
+        </p>
         <p class="notice">
           默认使用本地自动生成的免费证书（各客户端安装信任一次）。可导入自己的 CA 证书与私钥，立即热生效。
         </p>

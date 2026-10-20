@@ -182,6 +182,28 @@ func (m *Manager) Installed() (bool, string) {
 	return installed, ver
 }
 
+// Invalidate 清空探测缓存。
+//
+// 应用启停（appcenter-cli start/stop kspeeder）后必须调用，否则
+// RegistryUp/Installed 的 10~60 秒缓存会让界面停在旧状态。
+func (m *Manager) Invalidate() {
+	m.mu.Lock()
+	m.regResolved = ""
+	m.adminResolved = ""
+	m.resolvedAt = time.Time{}
+	m.up = false
+	m.upCheckedAt = time.Time{}
+	m.installedCached = false
+	m.appVerChecked = false
+	m.appVerCheckedAt = time.Time{}
+	m.engineVer = ""
+	m.engineVerChecked = false
+	m.engineVerCheckedAt = time.Time{}
+	m.nodesCache = nil
+	m.nodesCachedAt = time.Time{}
+	m.mu.Unlock()
+}
+
 // RegistryUp 探活 registry 端口（TCP 拨号，结果缓存 10 秒）。
 //
 // dockerExtra 每请求都会调用它，必须廉价：本机 TCP 拨号亚毫秒级，
@@ -407,10 +429,10 @@ func mergeSnapshot(profile string, snap snapResp) []NodeInfo {
 	nodes := make([]NodeInfo, 0, len(snap.Plan.Slots))
 	for _, slot := range snap.Plan.Slots {
 		n := NodeInfo{
-			Profile:  profile,
-			Name:     slot.Node.DisplayName,
-			NodeID:   slot.Node.NodeID,
-			Priority: slot.Node.Priority,
+			Profile:    profile,
+			Name:       slot.Node.DisplayName,
+			NodeID:     slot.Node.NodeID,
+			Priority:   slot.Node.Priority,
 			IsInternal: slot.Node.IsInternal,
 		}
 		if n.Name == "" {

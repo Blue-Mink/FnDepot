@@ -36,8 +36,14 @@ func Handler() http.Handler {
 		}
 
 		// 命中真实文件则直接返回。
+		// 首页例外：经统一网关访问时要给资源地址补前缀（见 serveIndex）。
 		if f, err := sub.Open(path); err == nil {
 			_ = f.Close()
+			if path == "index.html" {
+				setCacheHeaders(w, path)
+				serveIndex(w, r, sub)
+				return
+			}
 			setCacheHeaders(w, path)
 			fileServer.ServeHTTP(w, r)
 			return
@@ -50,12 +56,16 @@ func Handler() http.Handler {
 }
 
 // serveIndex 返回首页内容。
+//
+// 经飞牛统一网关访问时（上下文里带前缀），把 /assets/** 与 /favicon.png
+// 补上前缀后再返回，保证页面在 /app/<appname>/ 下也能加载到资源。
 func serveIndex(w http.ResponseWriter, r *http.Request, sub fs.FS) {
 	data, err := fs.ReadFile(sub, "index.html")
 	if err != nil {
 		http.Error(w, "找不到首页文件", http.StatusNotFound)
 		return
 	}
+	data = rewriteIndex(data, PrefixFrom(r.Context()))
 	w.Header().Set("Content-Type", "text/html; charset=utf-8")
 	_, _ = w.Write(data)
 }

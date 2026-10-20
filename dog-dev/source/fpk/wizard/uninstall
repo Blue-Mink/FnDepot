@@ -1,0 +1,33 @@
+[
+  {
+    "stepTitle": "数据处理",
+    "items": [
+      {
+        "type": "tips",
+        "helpText": "卸载时会停止加速服务、还原系统 hosts 的加速托管区，并把本地 CA 从系统信任里移除，NAS 的网络行为回到安装前状态。"
+      },
+      {
+        "type": "radio",
+        "field": "wizard_data_action",
+        "label": "应用数据如何处理",
+        "initValue": "keep",
+        "options": [
+          {
+            "label": "保留数据（推荐）：加速源与端口等配置、证书、日志留在数据目录，重新安装时原样继承",
+            "value": "keep"
+          },
+          {
+            "label": "删除数据：彻底清除全部配置、证书与日志（加速源自定义、导入的 CA 证书、历史日志都会丢），不可恢复",
+            "value": "delete"
+          }
+        ],
+        "rules": [
+          {
+            "required": true,
+            "message": "请选择数据处理方式"
+          }
+        ]
+      }
+    ]
+  }
+]

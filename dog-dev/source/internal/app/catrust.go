@@ -25,6 +25,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/ghpp/ghpp/internal/config"
 	"github.com/ghpp/ghpp/internal/proxy"
 )
 
@@ -110,6 +111,27 @@ func installSystemCAFor(ca *proxy.CA) (string, error) {
 		return "", fmt.Errorf("证书已写入 %s 但未进入系统信任库，请检查 %s 是否可用", systemCAFile, updateCACertsExe)
 	}
 	return "installed", nil
+}
+
+// EnsureSystemCA 在系统代理已开启时确保本地 CA 已装入系统信任（幂等）。
+//
+// 供安装/升级回调经 -ensure-system-ca 调用，修复“重装后系统代理开着但
+// 系统信任里的 CA 被卸载流程清掉”的不一致：此时新 shell 的 GitHub HTTPS
+// 会降级成纯隧道直连（本机 IPv4 黑洞 → 超时），补装后恢复 MITM 全速加速。
+//
+// 系统代理未开启、CA 已信任或 CA 不可用时直接返回，绝不阻断安装流程。
+func EnsureSystemCA(dataDir string) error {
+	// 系统代理未开启（profile.d 无代理文件）则无需处理。
+	if !systemProxyFileExists() {
+		return nil
+	}
+	caDir := config.ResolveEtcDir(dataDir)
+	ca, err := proxy.LoadOrCreateCA(caDir)
+	if err != nil || ca == nil {
+		return nil
+	}
+	_, err = installSystemCAFor(ca)
+	return err
 }
 
 // RemoveSystemCAFile 从系统信任移除本地 CA（幂等，供卸载流程直接调用）。

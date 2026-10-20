@@ -85,6 +85,22 @@ start_process() {
         return 0
     fi
 
+    # 关 TOCTOU 窗口：status 依赖 pidfile，而 pidfile 在 Go 进程监听成功之后
+    # 才写入（要几秒）。该窗口内的并发第二次 start（平台自动 start + 手动 start，
+    # 或平台判定启动超时后的重试）都会通过上面的守卫，拉起第二份看门狗树——
+    # 第二份永远绑不上端口，陷入无限崩溃循环，还反复覆盖 app.pid 污染
+    # stop/status。存活的 ghpp 进程（含刚启动、pidfile 未写的）在此可见。
+    if pgrep -f "${BIN} -data" >/dev/null 2>&1; then
+        log_msg "已存在运行中的 ghpp 实例，跳过重复启动"
+        return 0
+    fi
+    # 看门狗在崩溃重启的等待窗口内（ghpp 尚未拉起）同样算"已有实例"：
+    # 此时再拉新树会重演双树事故，等它自己拉起即可。
+    if pgrep -f "${TRIM_APPDEST}/watchdog.sh" >/dev/null 2>&1; then
+        log_msg "已存在运行中的看门狗，跳过重复启动"
+        return 0
+    fi
+
     if [ ! -x "${BIN}" ] && [ ! -f "${BIN}" ]; then
         log_msg "错误：未找到可执行文件 ${BIN}"
         echo "未找到应用主程序 ${BIN}，请重新安装。" > "${TRIM_TEMP_LOGFILE}" 2>/dev/null
@@ -114,6 +130,12 @@ start_process() {
 
     # 数据目录使用 TRIM_PKGVAR，升级与重装后配置依然保留。
     #
+    # 统一网关 socket：飞牛平台把 gatewaySocket 解析成
+    # ${TRIM_APPDEST}/target/<文件名>，而 /var/apps/<app>/target 指向
+    # 应用载荷目录，所以这里直接用载荷根目录下的绝对路径，两边是同一个文件。
+    GATEWAY_SOCKET="${TRIM_APPDEST}/dog-dev-gateway.sock"
+    GATEWAY_PREFIX="/app/dog-dev"
+
     # setsid 让看门狗进程脱离控制终端、进程组与 cgroup，进入新会话，
     # 即便启动 shell 所在会话/cgroup 被销毁（关闭桌面窗口/登出飞牛账号），
     # 加速服务也不会被牵连终止。
@@ -122,7 +144,9 @@ start_process() {
     # main 只需等待 Go 进程把自身 PID 写入 PID_FILE 即可确认启动成功。
     # 用 env 显式传环境变量，避免子 shell 拿不到 BIN/TRIM_PKGVAR 等非 export 变量。
     setsid env BIN="${BIN}" TRIM_PKGVAR="${TRIM_PKGVAR}" LOG_FILE="${LOG_FILE}" \
-        GHPH_PID_FILE="${PID_FILE}" bash "${WATCHDOG}" >> "${LOG_FILE}" 2>&1 < /dev/null &
+        GHPH_PID_FILE="${PID_FILE}" \
+        GHPH_GATEWAY_SOCKET="${GATEWAY_SOCKET}" GHPH_GATEWAY_PREFIX="${GATEWAY_PREFIX}" \
+        bash "${WATCHDOG}" >> "${LOG_FILE}" 2>&1 < /dev/null &
 
     # 等待 Go 进程把自身 PID 写入 ${PID_FILE} 且进程存活，才算启动成功。
     # 服务启动要测速与写 hosts，需要几秒；只有确认进程还活着才算启动成功，
@@ -137,7 +161,13 @@ start_process() {
             fi
         fi
         # PID 文件还没出现，检查看门狗是否还活着；看门狗都挂了说明二进制起不来。
-        if ! pgrep -f "${BIN} -data" >/dev/null 2>&1 && [ ! -f "${PID_FILE}" ]; then
+        # 关键：setsid 之后的第一跳检查可能早于看门狗 exec Go 二进制（毫秒级窗口），
+        # 此刻 pgrep 看不到 ghpp、pidfile 也还没写——是瞬态而非失败。只要看门狗
+        # （本树的长寿命父进程）活着就继续等；否则误报启动失败会让平台记
+        # APP_START_FAILED→APP_CRASH，而实际即将正常起来的进程树会变成记账背离。
+        if ! pgrep -f "${BIN} -data" >/dev/null 2>&1 \
+           && ! pgrep -f "bash ${TRIM_APPDEST}/watchdog.sh" >/dev/null 2>&1 \
+           && [ ! -f "${PID_FILE}" ]; then
             log_msg "启动失败：进程已退出"
             {
                 echo "Dog-dev 启动失败，最近日志："
@@ -167,37 +197,45 @@ stop_process() {
     # 不影响后续崩溃自动重启逻辑。
     touch "${TRIM_PKGVAR}/stop_signal" 2>/dev/null
 
+    # 解析要停止的 PID：优先 pidfile；pidfile 缺失或已被污染（死 pid，
+    # 例如被重复启动的实例覆盖）时，直接找存活的服务进程，
+    # 防止"报停了、实际还活着"的记账背离。
+    local pid=""
     if [ -r "${PID_FILE}" ]; then
         pid=$(head -n 1 "${PID_FILE}" | tr -d '[:space:]')
-
-        if ! check_process "${pid}"; then
-            rm -f "${PID_FILE}"
-            rm -f "${TRIM_PKGVAR}/stop_signal" 2>/dev/null
-            return 0
-        fi
-
-        # 先发 TERM 让服务优雅退出：停止监听并清理 hosts 托管区。
-        # Go 进程收到 SIGTERM 后会执行 application.Stop 并以 rc=0 退出，
-        # 看门狗识别为"主动退出"不再拉起，stop 才能真正停服。
-        log_msg "send TERM signal to PID:${pid}..."
-        kill -TERM ${pid} >> "${LOG_FILE}" 2>&1
-
-        local count=0
-        while check_process "${pid}" && [ $count -lt 15 ]; do
-            sleep 1
-            count=$((count + 1))
-            log_msg "waiting process terminal... (${count}s/15s)"
-        done
-
-        if check_process "${pid}"; then
-            log_msg "send KILL signal to PID:${pid}..."
-            kill -KILL "${pid}"
-            sleep 1
-            # 被强杀时服务没机会自己清理 hosts，这里兜底清理一次。
-            "${BIN}" -clear-hosts -data "${TRIM_PKGVAR}" >> "${LOG_FILE}" 2>&1
-        fi
-        rm -f "${PID_FILE}"
+        check_process "${pid}" || pid=""
     fi
+    if [ -z "${pid}" ]; then
+        pid=$(pgrep -f "${BIN} -data" 2>/dev/null | head -n 1)
+    fi
+
+    if [ -z "${pid}" ] || ! check_process "${pid}"; then
+        rm -f "${PID_FILE}"
+        rm -f "${TRIM_PKGVAR}/stop_signal" 2>/dev/null
+        return 0
+    fi
+
+    # 先发 TERM 让服务优雅退出：停止监听并清理 hosts 托管区。
+    # Go 进程收到 SIGTERM 后会执行 application.Stop 并以 rc=0 退出，
+    # 看门狗识别为"主动退出"不再拉起，stop 才能真正停服。
+    log_msg "send TERM signal to PID:${pid}..."
+    kill -TERM ${pid} >> "${LOG_FILE}" 2>&1
+
+    local count=0
+    while check_process "${pid}" && [ $count -lt 15 ]; do
+        sleep 1
+        count=$((count + 1))
+        log_msg "waiting process terminal... (${count}s/15s)"
+    done
+
+    if check_process "${pid}"; then
+        log_msg "send KILL signal to PID:${pid}..."
+        kill -KILL "${pid}"
+        sleep 1
+        # 被强杀时服务没机会自己清理 hosts，这里兜底清理一次。
+        "${BIN}" -clear-hosts -data "${TRIM_PKGVAR}" >> "${LOG_FILE}" 2>&1
+    fi
+    rm -f "${PID_FILE}"
 
     # 看门狗在子进程退出后会按 should_restart 判断是否拉起；stop_signal 存在时不会拉起。
     # 这里再等 4 秒（覆盖看门狗 sleep 3 的窗口），确保看门狗自己也退出，

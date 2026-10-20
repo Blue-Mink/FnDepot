@@ -17,6 +17,9 @@ const PREVIEW_N = 8
 
 const mirrors = ref([])
 const status = ref({})
+const mon = ref({ mirror_minutes: 5, docker_minutes: 0, docker_effective_minutes: 5 })
+const monitorMin = ref(5)
+const savingMon = ref(false)
 const testing = ref({})
 const allTesting = ref(false)
 const allOpen = ref(false)
@@ -27,9 +30,27 @@ async function load() {
 async function loadStatus() {
   try { status.value = (await api('/api/status')) || {} } catch { /* ignore */ }
 }
+async function loadMonitor() {
+  try {
+    mon.value = await api('/api/monitor')
+    monitorMin.value = mon.value.mirror_minutes || 5
+  } catch { /* ignore */ }
+}
+async function saveMonitor() {
+  const v = Math.max(1, Math.min(1440, Number(monitorMin.value) || 5))
+  monitorMin.value = v
+  if (savingMon.value) return
+  savingMon.value = true
+  try {
+    mon.value = await api('/api/monitor', { method: 'PUT', body: { mirror_minutes: v } })
+    message.success('加速源监测间隔已设为 ' + v + ' 分钟')
+  } catch (e) { message.error(e.message) }
+  finally { savingMon.value = false }
+}
 onMounted(() => {
   load()
   loadStatus()
+  loadMonitor()
   const t = setInterval(() => { load(); loadStatus() }, 30000)
   onUnmounted(() => clearInterval(t))
 })
@@ -65,10 +86,10 @@ function subline(m) {
 
 const monitorText = computed(() => {
   const s = (status.value && status.value.status) || {}
-  if (!s.mirror_monitor_min) return ''
   const last = s.last_mirror_monitor && new Date(s.last_mirror_monitor).getFullYear() > 2000
     ? fmtTime(s.last_mirror_monitor) : '尚未'
-  return '自动监测 ' + s.mirror_monitor_min + ' 分钟 · 最近 ' + last + ' · 按健康度自动排序'
+  const min = mon.value.mirror_minutes || s.mirror_monitor_min || 5
+  return '最近 ' + last
 })
 
 async function toggle(m, enabled) {
@@ -166,9 +187,18 @@ function del() {
       </div>
     </div>
     <div class="card-body">
-      <p v-if="monitorText" class="monitor-line">
-        <span class="pulse-dot"></span>{{ monitorText }}
-      </p>
+      <div class="monitor-row">
+        <span class="pulse-dot"></span>
+        <span class="monitor-text">{{ monitorText }}</span>
+        <label class="mon-set">
+          <span>自动监测</span>
+          <input
+            v-model.number="monitorMin" type="number" min="1" max="1440"
+            :disabled="savingMon" @change="saveMonitor" @keyup.enter="saveMonitor"
+          >
+          <span>分钟</span>
+        </label>
+      </div>
       <div class="mlist">
         <p v-if="!mirrors.length" class="empty">暂无加速源</p>
         <div
@@ -237,7 +267,13 @@ function del() {
 
 <style scoped>
 .head-actions { display: flex; align-items: center; gap: 6px; }
-.monitor-line { display: flex; align-items: center; gap: 8px; margin: 0; font-size: 12px; color: var(--fg2); }
+.monitor-row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin: 0; font-size: 12px; color: var(--fg2); }
+.monitor-text { flex: 1; min-width: 120px; }
+.mon-set { display: inline-flex; align-items: center; gap: 5px; flex: none; color: var(--fg2); }
+.mon-set input {
+  width: 58px; border: 0.5px solid var(--line); background: var(--card2); color: var(--fg);
+  border-radius: 8px; padding: 4px 6px; font-size: 12px; text-align: center; outline: none;
+}
 .pulse-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--green); display: inline-block; animation: pulse 2s ease-in-out infinite; }
 @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
 .mlist { display: flex; flex-direction: column; }

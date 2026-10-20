@@ -129,7 +129,7 @@ function clearHosts() {
         <p class="explain">
           优选过程：先用多个公共 DNS 渠道解析出每个域名的候选 IP，再逐个实测
           「TCP 连接 + TLS 握手」耗时，把最快的写入 NAS 本机 hosts。
-          之后本机浏览器、git、Docker 访问这些域名都会优先走最快 IP，
+          之后本机浏览器、git 等按域名访问的程序都会优先走最快 IP，
           每 {{ refreshMin }} 分钟自动重新优选。
         </p>
         <p v-if="notice.text" class="notice" :class="notice.cls">{{ notice.text }}</p>

@@ -2,6 +2,7 @@ package proxy
 
 import (
 	"crypto/tls"
+	"fmt"
 	"io"
 	"net"
 	"net/http"
@@ -94,7 +95,9 @@ func TestDockerRegistryFastFail(t *testing.T) {
 
 	start := time.Now()
 	rec := httptest.NewRecorder()
-	e.serveDocker(rec, httptest.NewRequest(http.MethodGet, "/v2/", nil))
+	req := httptest.NewRequest(http.MethodGet, "/v2/", nil)
+	req.Host = "docker.io" // 机制测试显式给 hub 身份
+	e.serveDocker(rec, req)
 	elapsed := time.Since(start)
 
 	body, _ := io.ReadAll(rec.Body)
@@ -128,7 +131,9 @@ func TestDockerBlobNotCapped(t *testing.T) {
 	e := newDockerTestEngine(cfg)
 
 	rec := httptest.NewRecorder()
-	e.serveDocker(rec, httptest.NewRequest(http.MethodGet, "/v2/lib/hello/blobs/sha256:abc", nil))
+	req := httptest.NewRequest(http.MethodGet, "/v2/lib/hello/blobs/sha256:abc", nil)
+	req.Host = "docker.io" // 机制测试显式给 hub 身份
+	e.serveDocker(rec, req)
 	body, _ := io.ReadAll(rec.Body)
 	if rec.Code != http.StatusOK || len(body) != 512 {
 		t.Fatalf("blob 慢传输应完整完成: code=%d len=%d", rec.Code, len(body))
@@ -161,7 +166,9 @@ func TestDocker403ContinuesChain(t *testing.T) {
 	e := newDockerTestEngine(cfg)
 
 	rec := httptest.NewRecorder()
-	e.serveDocker(rec, httptest.NewRequest(http.MethodGet, "/v2/lib/busybox/manifests/1.37", nil))
+	req := httptest.NewRequest(http.MethodGet, "/v2/lib/busybox/manifests/1.37", nil)
+	req.Host = "docker.io" // 机制测试显式给 hub 身份
+	e.serveDocker(rec, req)
 	body, _ := io.ReadAll(rec.Body)
 	if rec.Code != http.StatusOK || !strings.Contains(string(body), `"ok"`) {
 		t.Fatalf("403 应换下一上游成功: code=%d body=%q", rec.Code, body)
@@ -185,7 +192,9 @@ func TestDocker404ContinuesChain(t *testing.T) {
 	e := newDockerTestEngine(cfg)
 
 	rec := httptest.NewRecorder()
-	e.serveDocker(rec, httptest.NewRequest(http.MethodGet, "/v2/lib/nobody/manifests/x", nil))
+	req := httptest.NewRequest(http.MethodGet, "/v2/lib/nobody/manifests/x", nil)
+	req.Host = "docker.io" // 机制测试显式给 hub 身份
+	e.serveDocker(rec, req)
 	if rec.Code != http.StatusOK {
 		t.Fatalf("404 应换下一上游成功: code=%d", rec.Code)
 	}
@@ -196,7 +205,9 @@ func TestDocker404ContinuesChain(t *testing.T) {
 	cfg2.Docker.Upstreams = []string{missing.URL}
 	e2 := newDockerTestEngine(cfg2)
 	rec2 := httptest.NewRecorder()
-	e2.serveDocker(rec2, httptest.NewRequest(http.MethodGet, "/v2/lib/nobody/manifests/x", nil))
+	req2 := httptest.NewRequest(http.MethodGet, "/v2/lib/nobody/manifests/x", nil)
+	req2.Host = "docker.io" // 机制测试显式给 hub 身份
+	e2.serveDocker(rec2, req2)
 	if rec2.Code != http.StatusBadGateway {
 		t.Fatalf("全链 404 应回 502: code=%d", rec2.Code)
 	}
@@ -216,7 +227,9 @@ func TestDocker401ChallengePassthrough(t *testing.T) {
 	e := newDockerTestEngine(cfg)
 
 	rec := httptest.NewRecorder()
-	e.serveDocker(rec, httptest.NewRequest(http.MethodGet, "/v2/", nil))
+	req := httptest.NewRequest(http.MethodGet, "/v2/", nil)
+	req.Host = "docker.io" // 机制测试显式给 hub 身份
+	e.serveDocker(rec, req)
 	if rec.Code != http.StatusUnauthorized {
 		t.Fatalf("/v2/ 401 质询应透传: code=%d", rec.Code)
 	}
@@ -245,7 +258,9 @@ func TestDocker401ManifestChallengeNoAuth(t *testing.T) {
 	e := newDockerTestEngine(cfg)
 
 	rec := httptest.NewRecorder()
-	e.serveDocker(rec, httptest.NewRequest(http.MethodGet, "/v2/lib/x/manifests/y", nil))
+	req := httptest.NewRequest(http.MethodGet, "/v2/lib/x/manifests/y", nil)
+	req.Host = "docker.io" // 机制测试显式给 hub 身份
+	e.serveDocker(rec, req)
 	body, _ := io.ReadAll(rec.Body)
 	if rec.Code != http.StatusOK || !strings.Contains(string(body), `"ok"`) {
 		t.Fatalf("不可信 realm 的 401 应换源成功: code=%d body=%q", rec.Code, body)
@@ -289,7 +304,9 @@ func TestDocker401TokenExchange(t *testing.T) {
 	e := newDockerTestEngine(cfg)
 
 	rec := httptest.NewRecorder()
-	e.serveDocker(rec, httptest.NewRequest(http.MethodGet, "/v2/lib/x/manifests/y", nil))
+	req := httptest.NewRequest(http.MethodGet, "/v2/lib/x/manifests/y", nil)
+	req.Host = "docker.io" // 机制测试显式给 hub 身份
+	e.serveDocker(rec, req)
 	body, _ := io.ReadAll(rec.Body)
 	if rec.Code != http.StatusOK || !strings.Contains(string(body), `"ok"`) {
 		t.Fatalf("代换 token 后应拿到 200: code=%d body=%q", rec.Code, body)
@@ -351,7 +368,9 @@ func TestDocker401TokenExchangeUntrustedRealm(t *testing.T) {
 	e := newDockerTestEngine(cfg)
 
 	rec := httptest.NewRecorder()
-	e.serveDocker(rec, httptest.NewRequest(http.MethodGet, "/v2/lib/x/manifests/y", nil))
+	req := httptest.NewRequest(http.MethodGet, "/v2/lib/x/manifests/y", nil)
+	req.Host = "docker.io" // 机制测试与注册表无关，显式给 hub 身份（httptest 默认 example.com 会触发非 hub 过滤）
+	e.serveDocker(rec, req)
 	body, _ := io.ReadAll(rec.Body)
 	if rec.Code != http.StatusOK || !strings.Contains(string(body), `"ok2"`) {
 		t.Fatalf("不可信 realm 应换源到 good: code=%d body=%q", rec.Code, body)
@@ -404,6 +423,7 @@ func TestDocker401ManifestAuthed(t *testing.T) {
 	e := newDockerTestEngine(cfg)
 
 	req := httptest.NewRequest(http.MethodGet, "/v2/lib/x/manifests/y", nil)
+	req.Host = "docker.io" // 机制测试显式给 hub 身份
 	req.Header.Set("Authorization", "Bearer fake-token")
 	rec := httptest.NewRecorder()
 	e.serveDocker(rec, req)
@@ -439,7 +459,9 @@ func TestDocker302RedirectAllowlist(t *testing.T) {
 
 	// 第一步：manifest 请求收到 302，Location 必须改写为本机中转端点。
 	rec := httptest.NewRecorder()
-	e.serveDocker(rec, httptest.NewRequest(http.MethodGet, "/v2/lib/x/manifests/y", nil))
+	req := httptest.NewRequest(http.MethodGet, "/v2/lib/x/manifests/y", nil)
+	req.Host = "docker.io" // 机制测试显式给 hub 身份
+	e.serveDocker(rec, req)
 	if rec.Code != http.StatusFound {
 		t.Fatalf("302 应透传: code=%d", rec.Code)
 	}
@@ -555,6 +577,7 @@ func TestDockerDaemonHostSelfOrigin(t *testing.T) {
 
 	// 非 daemon 形态（Host 非官方域名）保持旧行为：origin 仍取请求 Host。
 	req3 := httptest.NewRequest(http.MethodGet, "/v2/lib/x/manifests/y", nil)
+	req3.Host = "docker.io" // 非官方域名形态的 origin 改写机制测试
 	rec3 := httptest.NewRecorder()
 	e.serveDocker(rec3, req3)
 	loc3 := rec3.Header().Get("Location")
@@ -681,4 +704,138 @@ func TestDockerRedirectBlobLongTimeout(t *testing.T) {
 	if elapsed > 4*time.Second {
 		t.Fatalf("非 blob 窗口失效，等了太久: %v", elapsed)
 	}
+}
+
+// TestDockerNonHubRegistryUpstreams：非 Docker Hub 注册表（ghcr.io 等）的
+// 转发链只保留内置引擎 + 该注册表官方兜底，dockerhub 社区镜像不得参与
+// （回归：社区镜像对异注册表路径回 401 质询，daemon 跟着 token 流拿到
+// 无上下文的 "denied"，failover 链被 401 透传语义掐断，引擎永远轮不上）。
+func TestDockerNonHubRegistryUpstreams(t *testing.T) {
+	cfg := config.Default()
+	cfg.Docker.Enabled = true
+	cfg.Docker.Upstreams = []string{"https://docker.1ms.run", "https://docker.m.daocloud.io", "official"}
+	e := newDockerTestEngine(cfg)
+	e.dockerExtra = func() string { return "https://127.0.0.1:5443" }
+
+	hub := e.dockerUpstreamsForRegistry(cfg, "docker.io")
+	if hub[0] != "https://127.0.0.1:5443" || hub[len(hub)-1] != "https://registry-1.docker.io" {
+		t.Fatalf("hub 链应引擎开头、官方结尾: %v", hub)
+	}
+	if len(hub) != 4 {
+		t.Fatalf("hub 链应含全部社区镜像 + 官方: %v", hub)
+	}
+
+	ghcr := e.dockerUpstreamsForRegistry(cfg, "ghcr.io")
+	if len(ghcr) != 2 || ghcr[0] != "https://127.0.0.1:5443" || ghcr[1] != "https://ghcr.io" {
+		t.Fatalf("ghcr 链应只有引擎 + ghcr 官方: %v", ghcr)
+	}
+
+	e.dockerExtra = nil
+	none := e.dockerUpstreamsForRegistry(cfg, "quay.io")
+	if len(none) != 1 || none[0] != "https://quay.io" {
+		t.Fatalf("无引擎时非 hub 链应只剩官方兜底: %v", none)
+	}
+
+	// 空 host（异常输入）退回完整链，不能空转发链。
+	full := e.dockerUpstreamsForRegistry(cfg, "")
+	if len(full) != len(hub)-1 { // 无引擎
+		t.Fatalf("空 host 应退回完整链: %v", full)
+	}
+}
+
+// TestDockerNonHubRegistryServedByEngine：ghcr.io 请求端到端由引擎服务，
+// 高分社区镜像（401 质询行为）不得被触碰。
+func TestDockerNonHubRegistryServedByEngine(t *testing.T) {
+	engine := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Content-Type", "application/json")
+		fmt.Fprint(w, `{"schemaVersion":2}`)
+	}))
+	defer engine.Close()
+
+	mirrorTouched := false
+	mirror := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		mirrorTouched = true
+		w.Header().Set("WWW-Authenticate", `Bearer realm="https://auth.docker.io/token"`)
+		w.WriteHeader(http.StatusUnauthorized)
+	}))
+	defer mirror.Close()
+
+	cfg := config.Default()
+	cfg.Docker.Enabled = true
+	// 把"高分"社区镜像放链首：若过滤失效，它的 401 质询会被透传给 daemon。
+	cfg.Docker.Upstreams = []string{mirror.URL, "official"}
+	e := newDockerTestEngine(cfg)
+	e.dockerExtra = func() string { return engine.URL }
+
+	req := httptest.NewRequest(http.MethodGet, "/v2/hashicorp/terraform/manifests/1.9.0", nil)
+	req.Host = "ghcr.io"
+	rec := httptest.NewRecorder()
+	e.serveDockerRegistry(rec, req, cfg)
+
+	if rec.Code != http.StatusOK {
+		t.Fatalf("ghcr 请求应由引擎服务回 200: code=%d body=%s", rec.Code, rec.Body.String())
+	}
+	if !strings.Contains(rec.Body.String(), "schemaVersion") {
+		t.Fatalf("响应体应来自引擎: %s", rec.Body.String())
+	}
+	if mirrorTouched {
+		t.Fatalf("dockerhub 社区镜像被触碰（应整体跳过）")
+	}
+}
+
+// TestDockerRequestRegistryHostMirror：registry-mirror 形态下 Host 是代理
+// 监听地址（IP 字面量），requestRegistryHost 必须回 docker.io 而非 IP——
+// 否则 127.0.0.1 被误判成非 Docker Hub 注册表，上游链退化成
+// [内置引擎, https://127.0.0.1]，命中飞牛本机 nginx 443 → 302 → 5667
+// 证书校验失败，整次拉取回退官方超时（真机回归，见 DOGDEV-FULLTEST-20261020）。
+func TestDockerRequestRegistryHostMirror(t *testing.T) {
+	cfg := config.Default()
+	cfg.Docker.Enabled = true
+	e := newDockerTestEngine(cfg)
+
+	cases := []struct {
+		name     string
+		req      *http.Request
+		wantHost string
+	}{
+		{
+			name:     "mirror 回环地址按 Docker Hub 处理",
+			req:      newReqHost("/v2/library/alpine/manifests/3.19", "127.0.0.1:37710"),
+			wantHost: "docker.io",
+		},
+		{
+			name:     "mirror LAN IP 也按 Docker Hub 处理",
+			req:      newReqHost("/v2/library/alpine/manifests/3.19", "192.168.1.2:37710"),
+			wantHost: "docker.io",
+		},
+		{
+			name:     "透明反代官方域名保留",
+			req:      newReqHost("/v2/library/alpine/manifests/3.19", "registry-1.docker.io"),
+			wantHost: "registry-1.docker.io",
+		},
+		{
+			name:     "非 Hub 注册表域名保留",
+			req:      newReqHost("/v2/hashicorp/terraform/manifests/1.9.0", "ghcr.io"),
+			wantHost: "ghcr.io",
+		},
+		{
+			name:     "绝对 URL 代理形态取 r.URL.Host",
+			req:      httptest.NewRequest(http.MethodGet, "http://ghcr.io/v2/x/manifests/y", nil),
+			wantHost: "ghcr.io",
+		},
+	}
+
+	for _, tc := range cases {
+		got := e.requestRegistryHost(tc.req)
+		if got != tc.wantHost {
+			t.Errorf("%s: requestRegistryHost=%q, want %q", tc.name, got, tc.wantHost)
+		}
+	}
+}
+
+// newReqHost 构造一个路径形式的 /v2/ 请求并指定 Host 头（模拟 daemon 直连）。
+func newReqHost(path, host string) *http.Request {
+	req := httptest.NewRequest(http.MethodGet, path, nil)
+	req.Host = host
+	return req
 }

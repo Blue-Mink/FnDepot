@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# GitHub++ fpk 构建脚本。
+# Dog-dev fpk 构建脚本。
 #
 # 依赖：
 #   - go 1.24+      （交叉编译 linux 二进制）

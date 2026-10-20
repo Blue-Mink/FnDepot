@@ -16,10 +16,19 @@
 #   TRIM_PKGVAR        数据目录
 #   LOG_FILE           日志文件
 #   GHPH_PID_FILE      Go 进程要写入的 PID 文件路径
+#   GHPH_GATEWAY_SOCKET 飞牛统一网关 unix socket 路径（可选，空则不启用）
+#   GHPH_GATEWAY_PREFIX 统一网关访问前缀（可选，默认 /app/dog-dev）
 #
 # 本脚本不依赖任何外部函数定义，自身完整可执行。
 
 set -u
+
+# 统一网关参数：平台把 /app/<appname>/* 经 unix socket 转发进来，
+# 桌面图标走这条路，因此看门狗每次拉起进程都必须带上同样的参数。
+GATEWAY_ARGS=""
+if [ -n "${GHPH_GATEWAY_SOCKET:-}" ]; then
+    GATEWAY_ARGS="-gateway-socket ${GHPH_GATEWAY_SOCKET} -gateway-prefix ${GHPH_GATEWAY_PREFIX:-/app/dog-dev}"
+fi
 
 log_msg() {
     echo "$(date '+%Y-%m-%d %H:%M:%S') - $1" >> "${LOG_FILE}"
@@ -88,7 +97,8 @@ trap cleanup_rotate EXIT
 log_msg "看门狗启动，准备拉起 Go 主进程"
 
 while true; do
-    "${BIN}" -data "${TRIM_PKGVAR}"
+    # shellcheck disable=SC2086  # GATEWAY_ARGS 需要按空格拆成多个参数
+    "${BIN}" -data "${TRIM_PKGVAR}" ${GATEWAY_ARGS}
     rc=$?
     if [ $rc -eq 0 ]; then
         log_msg "进程主动退出（rc=0），看门狗结束"
@@ -96,6 +106,14 @@ while true; do
     fi
     if ! should_restart; then
         echo "$(date '+%Y-%m-%d %H:%M:%S') - 进程异常退出 rc=${rc}，已不重启（stop 或开关关闭），看门狗结束" >> "${LOG_FILE}"
+        break
+    fi
+    # 若还有别的存活 ghpp 实例（另一条进程树）：说明本树是重复启动的产物，
+    # 端口被对方占用，本树永远绑不上——循环重启只会反复覆盖 app.pid、
+    # 刷爆日志，还可能被平台误判。此时本看门狗放弃，由存活实例接管服务。
+    other=$(pgrep -f "${BIN} -data" 2>/dev/null | head -n 1)
+    if [ -n "${other}" ]; then
+        echo "$(date '+%Y-%m-%d %H:%M:%S') - 检测到另一存活 ghpp 实例（pid ${other}），本看门狗放弃重启并退出" >> "${LOG_FILE}"
         break
     fi
     echo "$(date '+%Y-%m-%d %H:%M:%S') - 进程异常退出 rc=${rc}，3 秒后自动重启" >> "${LOG_FILE}"

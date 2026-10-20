@@ -362,6 +362,22 @@
       "is_docker": false,
       "service_port": "37717",
       "releases": {
+        "1.3.8": {
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/dog-dev-v1.3.8/dog-dev-1.3.8-fnos-amd64.fpk",
+              "sha256": "2901913289aa7b3db7a190dad0f3b5fdee3301f35cb299c18c72650689524ca2",
+              "size": 4593188
+            },
+            "arm": {
+              "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/dog-dev-v1.3.8/dog-dev-1.3.8-fnos-arm64.fpk",
+              "sha256": "08b337a72bdf7dbab78bba60200e2f638b71926a8d894984205324cefe43fb4f",
+              "size": 4210971
+            }
+          },
+          "changelog": "1.3.8 修复重装后系统代理开着但本地 CA 未入系统信任、GitHub HTTPS 降级纯隧道直连超时（安装/升级回调自动补装 CA）。较 1.2.6 累积：飞牛统一网关入口与安装/卸载向导、系统级代理修复（非 GitHub 域名透明透传 + Cloudflare 挑战页换源）、/proxy.pac 与 /api/lan-access 局域网接入、证书安装向导 /ca、Docker 拉取链修复、KSpeeder 改为独立应用依赖",
+          "updated_at": "2026-10-20T09:03:32Z"
+        },
         "1.2.6": {
           "packages": {
             "x86": {

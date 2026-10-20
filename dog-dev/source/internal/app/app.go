@@ -270,6 +270,13 @@ func (a *App) KSpeederStatus() km.Status {
 	return st
 }
 
+// KSpeederInvalidate 清空 kspeeder 探测缓存（启停应用后立即刷新状态用）。
+func (a *App) KSpeederInvalidate() {
+	if a.kspeeder != nil {
+		a.kspeeder.Invalidate()
+	}
+}
+
 // KSpeederNodes 返回 kspeeder 引擎加速节点的运行态（供 API 层展示）。
 func (a *App) KSpeederNodes(ctx context.Context) ([]km.NodeInfo, error) {
 	return a.kspeeder.Nodes(ctx)
@@ -509,37 +516,48 @@ func (a *App) loop(ctx context.Context) {
 // 让界面与调度始终保持"最优节点在前、失效节点沉底"的新鲜状态。
 func (a *App) tickMonitor(ctx context.Context) {
 	cfg := a.CurrentConfig()
-	interval := time.Duration(cfg.Auto.MirrorMonitorMinutes) * time.Minute
 	now := time.Now()
 
-	if now.Sub(a.lastMirrorMonitor) < interval {
+	mirrorInterval := time.Duration(cfg.Auto.MirrorMonitorMinutes) * time.Minute
+	dockerInterval := time.Duration(cfg.Docker.MonitorMinutes) * time.Minute
+	if dockerInterval <= 0 {
+		// 0 = 沿用加速源节拍（旧行为）。
+		dockerInterval = mirrorInterval
+	}
+
+	needMirror := now.Sub(a.lastMirrorMonitor) >= mirrorInterval
+	needDocker := cfg.Docker.AutoMonitor && a.engine != nil &&
+		now.Sub(a.LastDockerProbe()) >= dockerInterval
+	if !needMirror && !needDocker {
 		return
 	}
 	if !a.acquireMonitor() {
 		return // 上一轮监测还没跑完，跳过本次
 	}
-	a.mu.Lock()
-	a.lastMirrorMonitor = now
-	a.mu.Unlock()
+	if needMirror {
+		a.mu.Lock()
+		a.lastMirrorMonitor = now
+		a.mu.Unlock()
+	}
 
 	go func() {
 		defer a.releaseMonitor()
 		cctx, cancel := context.WithTimeout(ctx, 3*time.Minute)
 		defer cancel()
 
-		if probes := a.SweepMirrorsLight(cctx); probes != nil {
-			a.mu.Lock()
-			a.lastProbes = probes
-			a.mu.Unlock()
+		if needMirror {
+			if probes := a.SweepMirrorsLight(cctx); probes != nil {
+				a.mu.Lock()
+				a.lastProbes = probes
+				a.mu.Unlock()
+			}
 		}
 
-		// Docker 上游探活（与 GitHub 源同一节拍，失败互不影响）。
-		// 仅当 Docker 页「自动监测」开启时执行；最近一次探活时间
-		// 经 /api/docker 的 monitor 字段回给界面展示。
-		if a.engine != nil {
-			if c := a.CurrentConfig(); c.Docker.AutoMonitor {
-				a.DockerProbeAll(cctx)
-			}
+		// Docker 上游探活：1.3.0 起有独立节拍（docker.monitor_minutes，
+		// 0 = 跟随加速源间隔）。仅当 Docker 页「自动监测」开启时执行；
+		// 最近一次探活时间经 /api/docker 的 monitor 字段回给界面展示。
+		if needDocker {
+			a.DockerProbeAll(cctx)
 		}
 	}()
 }
@@ -792,23 +810,23 @@ func (a *App) SetWatchdogAutoRestart(enabled bool) error {
 
 // Status 汇总当前运行状态，供 API 返回给前端。
 type Status struct {
-	Running       bool          `json:"running"`
-	EffectiveMode config.Mode   `json:"effective_mode"`
-	ConfigMode    config.Mode   `json:"config_mode"`
-	Reason        string        `json:"reason"`
-	ProxyAddr     string        `json:"proxy_addr"`
-	Uptime        string        `json:"uptime"`
-	LastSweep     time.Time     `json:"last_sweep"`
-	LastHostsSync time.Time     `json:"last_hosts_sync"`
-	LastDecide    time.Time     `json:"last_decide"`
+	Running       bool        `json:"running"`
+	EffectiveMode config.Mode `json:"effective_mode"`
+	ConfigMode    config.Mode `json:"config_mode"`
+	Reason        string      `json:"reason"`
+	ProxyAddr     string      `json:"proxy_addr"`
+	Uptime        string      `json:"uptime"`
+	LastSweep     time.Time   `json:"last_sweep"`
+	LastHostsSync time.Time   `json:"last_hosts_sync"`
+	LastDecide    time.Time   `json:"last_decide"`
 	// MirrorMonitorMin 是加速源自动优先监测的间隔（分钟）。
 	MirrorMonitorMin int `json:"mirror_monitor_min"`
 	// LastMirrorMonitor 是最近一次自动监测完成的时间。
-	LastMirrorMonitor time.Time `json:"last_mirror_monitor"`
-	HostsFile     string        `json:"hosts_file"`
-	HostsWritable bool          `json:"hosts_writable"`
-	Metrics       MetricsStatus `json:"metrics"`
-	Mirrors       MirrorBrief   `json:"mirrors"`
+	LastMirrorMonitor time.Time     `json:"last_mirror_monitor"`
+	HostsFile         string        `json:"hosts_file"`
+	HostsWritable     bool          `json:"hosts_writable"`
+	Metrics           MetricsStatus `json:"metrics"`
+	Mirrors           MirrorBrief   `json:"mirrors"`
 	// LocalIPs 是本机所有可用于局域网通信的 IPv4，供前端「接入方式」切换 LAN 地址。
 	LocalIPs []string `json:"local_ips"`
 	// ExternalHost 是用户保存的外网接入地址（域名或 IP，可带端口），空表示未配置。
@@ -903,19 +921,19 @@ func (a *App) Status() Status {
 	total := m.TotalRequests.Load()
 
 	return Status{
-		Running:       a.Running(),
-		EffectiveMode: effMode,
-		ConfigMode:    cfg.Mode,
-		Reason:        reason,
-		ProxyAddr:     a.engine.Addr(),
-		Uptime:        time.Since(startedAt).Round(time.Second).String(),
-		LastSweep:     lastSweep,
-		LastHostsSync: lastHosts,
-		LastDecide:    lastDecide,
+		Running:           a.Running(),
+		EffectiveMode:     effMode,
+		ConfigMode:        cfg.Mode,
+		Reason:            reason,
+		ProxyAddr:         a.engine.Addr(),
+		Uptime:            time.Since(startedAt).Round(time.Second).String(),
+		LastSweep:         lastSweep,
+		LastHostsSync:     lastHosts,
+		LastDecide:        lastDecide,
 		MirrorMonitorMin:  monitorMin,
 		LastMirrorMonitor: lastMirrorMon,
-		HostsFile:     a.hostsMgr.Path(),
-		HostsWritable: a.hostsMgr.Writable(),
+		HostsFile:         a.hostsMgr.Path(),
+		HostsWritable:     a.hostsMgr.Writable(),
 		Metrics: MetricsStatus{
 			TotalRequests: total,
 			Accelerated:   acc,
@@ -1028,7 +1046,8 @@ func (a *App) SetSystemProxy(enabled, installCA bool) (*SysProxyResult, error) {
 // 选 /etc/profile.d/ 是因为飞牛基于 Debian，所有 login shell（含 SSH 登录、
 // systemd 服务里 source 了 profile 的）都会自动 source 该目录下 .sh 文件，
 // 不需要改 ~/.bashrc 或单个软件配置。
-const systemProxyFilePath = "/etc/profile.d/ghpp-proxy.sh"
+// 用 var 而非 const，便于测试指向临时文件。
+var systemProxyFilePath = "/etc/profile.d/ghpp-proxy.sh"
 
 // syncSystemProxyFile 按开关状态创建或删除 /etc/profile.d/ghpp-proxy.sh。
 //
@@ -1056,9 +1075,9 @@ func syncSystemProxyFile(enabled bool, proxyListen string) error {
 	// no_proxy 排除本机与私网段，避免 NAS 内部通信（emby/jellyfin 等本地服务）也走代理。
 	noProxy := "localhost,127.0.0.1,::1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,*.local"
 
-	content := "# GitHub++ 加速器系统代理（自动生成，请勿手动编辑）\n" +
+	content := "# Dog-dev 加速器系统代理（自动生成，请勿手动编辑）\n" +
 		"# 开启后所有新 login shell 默认走加速器；仅对 GitHub 相关域名加速，\n" +
-		"# 其他流量透明转发不影响正常联网。关闭请到 GitHub++ 控制台「应用加速」页。\n" +
+		"# 其他流量透明转发不影响正常联网。关闭请到 Dog-dev 控制台「应用加速」页。\n" +
 		"export http_proxy=" + proxyURL + "\n" +
 		"export https_proxy=" + proxyURL + "\n" +
 		"export HTTP_PROXY=" + proxyURL + "\n" +
