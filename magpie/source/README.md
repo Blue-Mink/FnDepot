@@ -44,6 +44,8 @@ patch_magpie_css2.py       控制台移动端 CSS 等长补丁（换上游版本
    产物输出到 `dist/magpie-1.1.8-fnos-amd64.fpk`，脚本会自检：
    `manifest.checksum == md5(app.tgz)`、包内没有 `__pycache__`、入口图标槽位齐全。
 
+4. **ARM64**：与 x86 同源树，只换两处 —— 二进制换成 `magpie-cli-linux-arm64`，`manifest` 里 `platform = x86` 改为 `platform = arm`，其余步骤（CSS 补丁、打包、自检）完全相同，产物名为 `dist/magpie-1.1.8-fnos-arm64.fpk`。
+
 ## 注意
 
 - `manifest` 里的 `checksum` 在源码树中留空，`fnpack` 打包时会写成 `app.tgz` 的真实 MD5。

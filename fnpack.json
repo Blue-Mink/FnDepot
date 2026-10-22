@@ -836,9 +836,10 @@
     },
     "magpie": {
       "display_name": "Magpie",
-      "desc": "AI 模型统一网关（基于上游 yetone/magpie 打包）：把多家模型供应商接入一个 OpenAI 兼容端点，支持路由组与故障回退、按调用密钥限定可用模型、用量统计；单进程同时提供网关与浏览器控制台，桌面双入口（Magpie 控制台 / Magpie API），并接入飞牛统一网关 /app/magpie/。仅支持 x86_64。",
+      "desc": "AI 模型统一网关（基于上游 yetone/magpie 打包）：把多家模型供应商接入一个 OpenAI 兼容端点，支持路由组与故障回退、按调用密钥限定可用模型、用量统计；单进程同时提供网关与浏览器控制台，桌面双入口（Magpie 控制台 / Magpie API），并接入飞牛统一网关 /app/magpie/。支持 amd64 与 arm64。",
       "platform": [
-        "x86"
+        "x86",
+        "arm"
       ],
       "categories": [
         "AI赋能",
@@ -862,6 +863,11 @@
               "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/magpie-v1.1.8/magpie-1.1.8-fnos-amd64.fpk",
               "sha256": "d99093558aa031d215a7f895dc18d40ea714194cfc5eb3d7dd705882139f4205",
               "size": 19780499
+            },
+            "arm": {
+              "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/magpie-v1.1.8/magpie-1.1.8-fnos-arm64.fpk",
+              "sha256": "7c835a8372aa4f64e3877886a80cd455974262d0d48227a6f29183dd0c6afb2c",
+              "size": 18279005
             }
           },
           "changelog": "同步上游版本",

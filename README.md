@@ -375,7 +375,7 @@ AI 模型统一网关：把多家模型供应商收进一个 OpenAI 兼容端点
 
 <div align="center">
 
-[![Magpie](https://img.shields.io/badge/Magpie-v1.1.8-blue?style=flat-square)](https://github.com/Blue-Mink/FnDepot/releases/tag/magpie-v1.1.8) [![Platform](https://img.shields.io/badge/Platform-x86__64-lightgrey?style=flat-square)](#)
+[![Magpie](https://img.shields.io/badge/Magpie-v1.1.8-blue?style=flat-square)](https://github.com/Blue-Mink/FnDepot/releases/tag/magpie-v1.1.8) [![Platform](https://img.shields.io/badge/Platform-x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
 
 </div>
 
@@ -385,7 +385,7 @@ AI 模型统一网关：把多家模型供应商收进一个 OpenAI 兼容端点
 | :--- | :--- |
 | 👨‍💻 **打包维护** | [Blue-Mink](https://github.com/Blue-Mink) |
 | 📁 **原项目** | [yetone/magpie](https://github.com/yetone/magpie)（二进制发布在 [magpie-releases](https://github.com/yetone/magpie-releases)） |
-| 📥 **安装方式** | 下载 [magpie-1.1.8-fnos-amd64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/magpie-v1.1.8/magpie-1.1.8-fnos-amd64.fpk) ([sha256](https://github.com/Blue-Mink/FnDepot/releases/download/magpie-v1.1.8/magpie-1.1.8-fnos-amd64.fpk.sha256)) 在 fnOS 应用中心手动安装 |
+| 📥 **安装方式** | 下载 [magpie-1.1.8-fnos-amd64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/magpie-v1.1.8/magpie-1.1.8-fnos-amd64.fpk)（x86）或 [magpie-1.1.8-fnos-arm64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/magpie-v1.1.8/magpie-1.1.8-fnos-arm64.fpk)（arm64）在 fnOS 应用中心手动安装 |
 | 🏷️ **版本** | v1.1.8（同步上游 v0.1.1324） |
 | 🌐 **服务端口** | 36140（控制台） / 36141（网关 API），另有统一网关 `/app/magpie/` |
 | 📖 **详细说明** | [magpie/README.md](magpie/README.md) |
