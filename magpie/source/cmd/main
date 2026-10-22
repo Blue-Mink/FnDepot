@@ -42,7 +42,10 @@ PAYLOAD="$(resolve_payload)"
 
 XBASE="$VAR/data"
 export MAGPIE_ADDR="0.0.0.0:$GW_PORT"
-export MAGPIE_NO_ACCOUNTS=1
+# 订阅账号（Copilot / WorkBuddy / Qoder / Gemini CLI 等）默认开启：
+# magpie 会读取本机 agent 的登录态并作为订阅提供商提供；如不需要，
+# 可在控制台 设置→隐私 或 `magpie accounts discovery off` 关闭（保存后长期生效）。
+# 注意 MAGPIE_NO_ACCOUNTS=1 是运行期强关，设了它保存值也不起作用，故此处不再设置。
 export PATH="/usr/local/bin:/usr/bin:/bin:$PATH"
 
 proc_alive() {

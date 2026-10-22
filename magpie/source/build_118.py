@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
-"""Build the magpie FPK: staging copy (exclude pycache/dist) + fnpack + verify.
-
-需要：
-  - fnpack（可用环境变量 FNPACK_BIN 指定路径，默认取 PATH 里的 fnpack）
-  - 上游静态二进制放到 app/bin/magpie（本仓库不含二进制，见 README）
-"""
+"""Build magpie 1.1.8 FPK: staging copy (exclude pycache/dist) + fnpack + verify."""
 import hashlib
 import os
 import re
@@ -16,7 +11,7 @@ import tempfile
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 FNPACK = os.environ.get("FNPACK_BIN", "fnpack")
-VER = "1.1.6"
+VER = "1.1.8"
 OUT = os.path.join(HERE, "dist", f"magpie-{VER}-fnos-amd64.fpk")
 
 
@@ -43,8 +38,8 @@ def sha256(p):
 
 # ---- 1. source sanity ----
 man = open(os.path.join(HERE, "manifest"), encoding="utf-8").read()
-assert re.search(r"^version\s+= 1\.1\.6$", man, re.M), "manifest version != 1.1.4"
-assert "1.1.6：" in man, "changelog not updated for 1.1.3"
+assert re.search(r"^version\s+= 1\.1\.8$", man, re.M), "manifest version != 1.1.8"
+assert "1.1.8：" in man, "changelog not updated for 1.1.8"
 for f in ("wizard/install", "wizard/uninstall", "wizard/config",
           "app/ui/config", "app/ui/index.cgi", "app/magpie-gateway-proxy.py"):
     p = os.path.join(HERE, f)
@@ -55,10 +50,12 @@ for f in ("wizard/install", "wizard/uninstall", "wizard/config", "app/ui/config"
 ui_cfg = json.load(open(os.path.join(HERE, "app/ui/config"), encoding="utf-8"))
 assert set(ui_cfg[".url"]) == {"magpie.Application", "magpie.Gateway"}, ui_cfg[".url"].keys()
 assert "magpie.Application" in man, "desktop_applaunchname must exist in .url"
+main_sh = open(os.path.join(HERE, "cmd/main"), encoding="utf-8").read()
+assert "export MAGPIE_NO_ACCOUNTS" not in main_sh, "launcher still forces accounts off"
 print("source tree OK")
 
 # ---- 2. staging copy ----
-staging = tempfile.mkdtemp(prefix="magpie116-")
+staging = tempfile.mkdtemp(prefix="magpie118-")
 ignore = shutil.ignore_patterns(".git", "dist", "build-records", "__pycache__",
                                 "*.pyc", "magpie.fpk", "*.fpk")
 shutil.copytree(HERE, os.path.join(staging, "tree"), ignore=ignore)
@@ -102,7 +99,7 @@ for need in ("cmd/main", "cmd/install_callback", "cmd/uninstall_callback",
              "wizard/install", "wizard/uninstall", "wizard/config"):
     assert need in names, f"missing member {need}"
 pkg_man = t.extractfile("manifest").read().decode()
-assert "version               = 1.1.6" in pkg_man
+assert "version               = 1.1.8" in pkg_man
 mchk = re.search(r"^checksum\s+= (\w+)$", pkg_man, re.M)
 assert mchk, "no checksum in manifest"
 app_tgz = t.extractfile("app.tgz")

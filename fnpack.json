@@ -856,6 +856,17 @@
       "is_docker": false,
       "service_port": "36140",
       "releases": {
+        "1.1.8": {
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/magpie-v1.1.8/magpie-1.1.8-fnos-amd64.fpk",
+              "sha256": "d99093558aa031d215a7f895dc18d40ea714194cfc5eb3d7dd705882139f4205",
+              "size": 19780499
+            }
+          },
+          "changelog": "同步上游版本",
+          "updated_at": "2026-10-22T18:43:13Z"
+        },
         "1.1.6": {
           "packages": {
             "x86": {
