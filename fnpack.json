@@ -857,6 +857,22 @@
       "is_docker": false,
       "service_port": "36140",
       "releases": {
+        "1.1.14": {
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/magpie-v1.1.14/magpie-1.1.14-fnos-amd64.fpk",
+              "sha256": "4f341601d255aebbf4c84b30a510fddb8b7fb9016c731986f2fbf3b86ead10f3",
+              "size": 21233810
+            },
+            "arm": {
+              "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/magpie-v1.1.14/magpie-1.1.14-fnos-arm64.fpk",
+              "sha256": "67c6e7ae01e7128d8350ffe487d7635f503a5d278de5622dddb24b1e2a2a9f71",
+              "size": 19655190
+            }
+          },
+          "changelog": "1.1.14：网关说明页「网关地址」与「默认密钥」加复制按钮；1.1.13：桌面入口改走统一网关 /app/magpie/（修 fn connect 远程跳登录页）；1.1.9：同步上游 v0.1.1635、修正署名为上游开发者 yetone",
+          "updated_at": "2026-10-28T00:31:16Z"
+        },
         "1.1.8": {
           "packages": {
             "x86": {

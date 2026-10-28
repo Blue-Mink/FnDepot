@@ -13,7 +13,7 @@ cmd/                       fnOS 生命周期脚本（install/upgrade/uninstall +
 config/                    privilege / resource
 wizard/                    安装向导（双端口）、配置向导、卸载向导（保留或删除数据）
 manifest                   fnOS 应用清单（checksum 由 fnpack 打包时写回）
-build_118.py               打包脚本（staging + fnpack + 校验）
+build_1114.py               打包脚本（staging + fnpack + 校验）
 patch_magpie_css2.py       控制台移动端 CSS 等长补丁（换上游版本后需重新施加）
 ```
 
@@ -23,7 +23,7 @@ patch_magpie_css2.py       控制台移动端 CSS 等长补丁（换上游版本
 
    ```bash
    curl -L -o magpie-cli-linux-amd64 \
-     https://github.com/yetone/magpie-releases/releases/download/v0.1.1324/magpie-cli-linux-amd64
+     https://github.com/yetone/magpie-releases/releases/download/v0.1.1635/magpie-cli-linux-amd64
    mkdir -p app/bin && cp magpie-cli-linux-amd64 app/bin/magpie && chmod 755 app/bin/magpie
    ```
 
@@ -38,13 +38,13 @@ patch_magpie_css2.py       控制台移动端 CSS 等长补丁（换上游版本
 3. 打包（需要 `fnpack`，可用 `FNPACK_BIN` 指定路径）：
 
    ```bash
-   FNPACK_BIN=/path/to/fnpack python3 build_118.py
+   FNPACK_BIN=/path/to/fnpack python3 build_1114.py
    ```
 
-   产物输出到 `dist/magpie-1.1.8-fnos-amd64.fpk`，脚本会自检：
+   产物输出到 `dist/magpie-1.1.14-fnos-amd64.fpk`，脚本会自检：
    `manifest.checksum == md5(app.tgz)`、包内没有 `__pycache__`、入口图标槽位齐全。
 
-4. **ARM64**：与 x86 同源树，只换两处 —— 二进制换成 `magpie-cli-linux-arm64`，`manifest` 里 `platform = x86` 改为 `platform = arm`，其余步骤（CSS 补丁、打包、自检）完全相同，产物名为 `dist/magpie-1.1.8-fnos-arm64.fpk`。
+4. **ARM64**：与 x86 同源树，只换两处 —— 二进制换成 `magpie-cli-linux-arm64`，`manifest` 里 `platform = x86` 改为 `platform = arm`，其余步骤（CSS 补丁、打包、自检）完全相同，产物名为 `dist/magpie-1.1.14-fnos-arm64.fpk`。
 
 ## 注意
 

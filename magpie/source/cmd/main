@@ -13,8 +13,10 @@ SVCLOG="$VAR/magpie.log"
 MLOG="$VAR/main.log"
 GWPIDF="$VAR/gateway-proxy.pid"
 GWLOG="$VAR/gateway-proxy.log"
+WDOGPIDF="$VAR/gateway-watchdog.pid"
 
 log() { echo "[$(date '+%F %T')] main: $*" >> "$MLOG" 2>/dev/null; }
+MAIN_SCRIPT="$(readlink -f "$0" 2>/dev/null || echo "$0")"
 
 resolve_bin() {
   local c
@@ -79,6 +81,9 @@ start_sidecar() {
     i=0
     while kill -0 "$oldpid" 2>/dev/null && [ $i -lt 5 ]; do sleep 0.5; i=$((i+1)); done
   fi
+  # 兜底：按命令行清掉所有残留的 gateway-proxy（防 pid 文件记录错导致孤儿/重复）
+  pkill -f "magpie[-]gateway-proxy.py" 2>/dev/null
+  sleep 0.5
   rm -f "$sock" 2>/dev/null
   MAGPIE_GATEWAY_SOCK="$sock" MAGPIE_WEB_PORT="$WEB_PORT" MAGPIE_GW_PORT="$GW_PORT" \
     MAGPIE_GATEWAY_PREFIX="/app/$APP" MAGPIE_WEB_KEYFILE="$VAR/web-key" \
@@ -104,7 +109,32 @@ stop_sidecar() {
     while kill -0 "$pid" 2>/dev/null && [ $i -lt 10 ]; do sleep 0.5; i=$((i+1)); done
     kill -0 "$pid" 2>/dev/null && kill -KILL "$pid" 2>/dev/null
   fi
+  # 兜底：按命令行清掉所有残留的 gateway-proxy（防 pid 文件记录错导致漏杀孤儿）
+  pkill -f "magpie[-]gateway-proxy.py" 2>/dev/null
+  sleep 0.5
   rm -f "$GWPIDF" "$sock" 2>/dev/null
+}
+
+# watchdog：后台守护 sidecar。sidecar 崩溃后主进程仍活着、status 会报健康，
+# 平台不会重拉，故这里每 10s 自检一次，socket 缺失就补拉。
+start_watchdog() {
+  local wpid
+  wpid="$(cat "$WDOGPIDF" 2>/dev/null)"
+  [ -n "$wpid" ] && kill -0 "$wpid" 2>/dev/null && return 0
+  setsid nohup "$MAIN_SCRIPT" watchdog </dev/null >/dev/null 2>&1 &
+  echo $! > "$WDOGPIDF"
+}
+
+stop_watchdog() {
+  local wpid i
+  wpid="$(cat "$WDOGPIDF" 2>/dev/null)"
+  if [ -n "$wpid" ] && kill -0 "$wpid" 2>/dev/null; then
+    kill -TERM "$wpid" 2>/dev/null
+    i=0
+    while kill -0 "$wpid" 2>/dev/null && [ $i -lt 20 ]; do sleep 0.5; i=$((i+1)); done
+    kill -0 "$wpid" 2>/dev/null && kill -KILL "$wpid" 2>/dev/null
+  fi
+  rm -f "$WDOGPIDF"
 }
 
 case "$1" in
@@ -115,6 +145,7 @@ start)
       log "gateway socket missing, (re)starting sidecar"
       start_sidecar
     fi
+    start_watchdog
     log "already running (pid $(cat "$PIDF"))"
     exit 0
   fi
@@ -145,6 +176,7 @@ start)
       fi
       log "started pid=$(cat "$PIDF") web=$WEB_PORT gw=$GW_PORT"
       start_sidecar
+      start_watchdog
       exit 0
     fi
     sleep 1; i=$((i+1))
@@ -154,6 +186,7 @@ start)
   exit 1
   ;;
 stop)
+  stop_watchdog
   stop_sidecar
   pid="$(cat "$PIDF" 2>/dev/null)"
   if [ -n "$pid" ] && kill -0 "$pid" 2>/dev/null; then
@@ -168,7 +201,20 @@ stop)
   exit 0
   ;;
 status)
-  if proc_alive && gw_up; then exit 0; else exit 3; fi
+  proc_alive && exit 0 || exit 3
+  ;;
+watchdog)
+  # 后台守护循环：主进程活着才继续；sidecar 进程不 alive 则补拉。
+  # 不能只看 socket 文件——sidecar 崩溃后 unix socket 文件仍在，但已无进程监听。
+  while true; do
+    sleep 10
+    proc_alive || exit 0
+    gpid="$(cat "$GWPIDF" 2>/dev/null)"
+    if [ -z "$gpid" ] || ! kill -0 "$gpid" 2>/dev/null; then
+      log "watchdog: sidecar not alive (pid=$gpid), (re)starting"
+      start_sidecar
+    fi
+  done
   ;;
 *)
   echo "unknown action: $1" > "${TRIM_TEMP_LOGFILE:-/dev/null}"

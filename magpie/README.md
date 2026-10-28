@@ -4,7 +4,7 @@ AI 模型统一网关，基于上游 [yetone/magpie](https://github.com/yetone/m
 
 <div align="center">
 
-[![FPK](https://img.shields.io/badge/FPK-v1.1.8-green?style=flat-square)](https://github.com/Blue-Mink/FnDepot/releases/tag/magpie-v1.1.8)
+[![FPK](https://img.shields.io/badge/FPK-v1.1.14-green?style=flat-square)](https://github.com/Blue-Mink/FnDepot/releases/tag/magpie-v1.1.14)
 ![Platform](https://img.shields.io/badge/Platform-x86__64%20%7C%20ARM64-lightgrey?style=flat-square)
 ![Port](https://img.shields.io/badge/Port-36140%20%2F%2036141-blue?style=flat-square)
 
@@ -12,7 +12,7 @@ AI 模型统一网关，基于上游 [yetone/magpie](https://github.com/yetone/m
 
 ## 安装
 
-1. 应用中心 → 手动安装 → 按架构选择 `magpie-1.1.8-fnos-amd64.fpk`（x86_64）或 `magpie-1.1.8-fnos-arm64.fpk`（ARM64）（校验值见 [fpk.sha256](fpk.sha256)）
+1. 应用中心 → 手动安装 → 按架构选择 `magpie-1.1.14-fnos-amd64.fpk`（x86_64）或 `magpie-1.1.14-fnos-arm64.fpk`（ARM64）（校验值见 [fpk.sha256](fpk.sha256)）
 2. 安装向导里填写两个端口（默认 Web 控制台 **36140**、网关 API **36141**）
 3. 安装完成后从桌面「Magpie」打开控制台，或直接访问 `http://<NAS IP>:36140/`
 
@@ -48,7 +48,7 @@ AI 模型统一网关，基于上游 [yetone/magpie](https://github.com/yetone/m
 
 ## 构建
 
-源码树见 [source/](source/)，其中不含上游二进制（约 50MB）。构建前把上游 `magpie-cli-linux-amd64` 放到 `app/bin/magpie`，再执行 `build_118.py`。控制台的移动端样式是在二进制内嵌 CSS 上做等长补丁（`patch_magpie_css2.py`），换上游版本后需重新施加。
+源码树见 [source/](source/)，其中不含上游二进制（约 50MB）。构建前把上游 `magpie-cli-linux-amd64` 放到 `app/bin/magpie`，再执行 `build_1114.py`。控制台的移动端样式是在二进制内嵌 CSS 上做等长补丁（`patch_magpie_css2.py`），换上游版本后需重新施加。
 
 ## 许可与致谢
 

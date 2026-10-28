@@ -8,7 +8,19 @@ ETC="${TRIM_PKGETC:-/var/apps/$APP/etc}"
 PAYLOAD="${TRIM_APPDEST:-/vol1/@appcenter/$APP}"
 PIDF="$VAR/magpie.pid"
 GWPIDF="$VAR/gateway-proxy.pid"
+WDOGPIDF="$VAR/gateway-watchdog.pid"
 ACTION="${wizard_data_action:-keep}"
+
+# ---- 停 watchdog（先停守护，避免它补拉 sidecar）----
+wdpid="$(cat "$WDOGPIDF" 2>/dev/null)"
+if [ -n "$wdpid" ] && kill -0 "$wdpid" 2>/dev/null; then
+  kill -TERM "$wdpid" 2>/dev/null
+  i=0
+  while kill -0 "$wdpid" 2>/dev/null && [ $i -lt 10 ]; do sleep 0.5; i=$((i+1)); done
+  kill -0 "$wdpid" 2>/dev/null && kill -KILL "$wdpid" 2>/dev/null
+fi
+pkill -f "cmd/main watchdog" 2>/dev/null
+rm -f "$WDOGPIDF" 2>/dev/null
 
 # ---- 停统一网关 sidecar ----
 gwpid="$(cat "$GWPIDF" 2>/dev/null)"
@@ -18,6 +30,8 @@ if [ -n "$gwpid" ] && kill -0 "$gwpid" 2>/dev/null; then
   while kill -0 "$gwpid" 2>/dev/null && [ $i -lt 10 ]; do sleep 0.5; i=$((i+1)); done
   kill -0 "$gwpid" 2>/dev/null && kill -KILL "$gwpid" 2>/dev/null
 fi
+# 兜底：按命令行清掉所有残留的 gateway-proxy（防 pid 文件记录错导致漏杀孤儿）
+pkill -f "magpie[-]gateway-proxy.py" 2>/dev/null
 rm -f "$GWPIDF" "$PAYLOAD/magpie-gateway.sock" 2>/dev/null
 
 # ---- 停主进程 ----

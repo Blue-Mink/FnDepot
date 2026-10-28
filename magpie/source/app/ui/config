@@ -4,10 +4,9 @@
             "title": "Magpie",
             "desc": "浏览器控制台：供应商、密钥、路由组、用量统计。打开时自动携带访问密钥。",
             "icon": "images/icon_{0}.png",
-            "type": "url",
+            "type": "iframe",
             "protocol": "http",
-            "port": "",
-            "url": "/cgi/ThirdParty/magpie/index.cgi/",
+            "url": "/app/magpie/",
             "gatewaySocket": "magpie-gateway.sock",
             "gatewayPrefix": "/app/magpie",
             "allUsers": true

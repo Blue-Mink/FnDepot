@@ -106,6 +106,13 @@ h1{font-size:1.35rem;margin:0 0 .3rem;line-height:1.35}
 .kv dt{color:#9aa6b8;white-space:nowrap}
 .kv dd{margin:0;min-width:0;overflow-wrap:anywhere;word-break:break-word}
 .kv dd.cmd{padding:.35rem .6rem}
+.copy-row{display:flex;align-items:center;gap:.5rem;min-width:0}
+.copy-row .copy-val{flex:1 1 auto;min-width:0;overflow-wrap:anywhere;word-break:break-word}
+.copybtn{flex:0 0 auto;background:#1c2635;border:1px solid #2c3a4e;border-radius:6px;color:#cfe3ff;
+  font:12px/1.5 system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
+  padding:.2rem .65rem;cursor:pointer;min-width:4.2em;white-space:nowrap}
+.copybtn:hover{background:#253144;border-color:#3a4c66}
+.copybtn.ok{color:#3ddc84;border-color:#2c5a3e}
 a{color:#4f8bff;text-decoration:none;word-break:break-all}
 .tag{display:inline-block;background:#1c2635;border:1px solid #2c3a4e;border-radius:6px;
   padding:.15rem .55rem;margin:.15rem .3rem .15rem 0;font:12px ui-monospace,Consolas,monospace;color:#9fd3ff;word-break:break-all}
@@ -125,8 +132,8 @@ a{color:#4f8bff;text-decoration:none;word-break:break-all}
 <p class="sub">OpenAI 兼容端点（上游 yetone/magpie）· 状态：<span class="${GW_STATE_CLS}">${GW_STATE}</span></p>
 <div class="card"><h2>网关地址与默认密钥</h2>
 <dl class="kv">
-<dt>网关地址</dt><dd><a href="http://${HOST}:${GW_PORT}/?key=${GWKEY}" target="_blank" rel="noreferrer">http://${HOST}:${GW_PORT}/</a></dd>
-<dt>默认密钥</dt><dd class="cmd">${GWKEY:-（尚未生成，服务首启后自动创建）}</dd>
+<dt>网关地址</dt><dd class="copy-row"><span class="copy-val">http://${HOST}:${GW_PORT}/</span><button type="button" class="copybtn" onclick="copyVal(this)">复制</button></dd>
+<dt>默认密钥</dt><dd class="cmd copy-row"><span class="copy-val">${GWKEY:-（尚未生成，服务首启后自动创建）}</span><button type="button" class="copybtn" onclick="copyVal(this)">复制</button></dd>
 <dt>统一网关</dt><dd>http://${HOST}:5666/app/magpie/v1/…（需飞牛登录态，与上方同一后端）</dd>
 </dl></div>
 <div class="card"><h2>调用示例</h2>
@@ -137,7 +144,39 @@ a{color:#4f8bff;text-decoration:none;word-break:break-all}
 <div class="card"><h2>支持的接口（来自网关实时返回）</h2>
 ${API_TAGS}</div>
 <p class="sub"><a href="/cgi/ThirdParty/magpie/index.cgi/api">查看接口清单（美化 JSON）</a></p>
-</div></body></html>
+</div>
+<script>
+function copyVal(btn){
+  var span = btn.previousElementSibling;
+  var txt = span ? span.textContent : '';
+  if (navigator.clipboard && navigator.clipboard.writeText && window.isSecureContext) {
+    navigator.clipboard.writeText(txt).then(function(){ mark(btn); }, function(){ fallback(txt, btn); });
+  } else {
+    fallback(txt, btn);
+  }
+}
+function fallback(txt, btn){
+  var ta = document.createElement('textarea');
+  ta.value = txt;
+  ta.setAttribute('readonly','');
+  ta.style.position = 'fixed';
+  ta.style.top = '0';
+  ta.style.left = '0';
+  ta.style.opacity = '0';
+  document.body.appendChild(ta);
+  ta.select();
+  try { document.execCommand('copy'); } catch(e) {}
+  document.body.removeChild(ta);
+  mark(btn);
+}
+function mark(btn){
+  var old = btn.textContent;
+  btn.textContent = '已复制';
+  btn.classList.add('ok');
+  setTimeout(function(){ btn.textContent = old; btn.classList.remove('ok'); }, 1200);
+}
+</script>
+</body></html>
 HTML
     exit 0
 fi
