@@ -350,7 +350,7 @@ AMD Ryzen APU 功耗监控与功耗限制控制：读取功耗墙（STAPM / PPT 
 
 <div align="center">
 
-[![Moo](https://img.shields.io/badge/Moo-v0.6.352-blue?style=flat-square)](https://github.com/Blue-Mink/moo/releases/tag/v0.6.352) [![Platform](https://img.shields.io/badge/Platform-x86__64%2Farm64-lightgrey?style=flat-square)](#)
+[![Moo](https://img.shields.io/badge/Moo-v0.6.355-blue?style=flat-square)](https://github.com/Blue-Mink/moo/releases/tag/v0.6.355) [![Platform](https://img.shields.io/badge/Platform-x86__64%2Farm64-lightgrey?style=flat-square)](#)
 
 </div>
 
@@ -361,7 +361,7 @@ AMD Ryzen APU 功耗监控与功耗限制控制：读取功耗墙（STAPM / PPT 
 | 👨‍💻 **开发者** | [Blue-Mink](https://github.com/Blue-Mink) |
 | 📁 **项目** | [moo](https://github.com/Blue-Mink/moo)（开源，MIT 许可） |
 | 📥 **安装方式** | 在飞牛 FnDepot 直接添加本源，客户端中搜索「Moo」即可安装 |
-| 🏷️ **版本** | v0.6.352（x86 / arm） |
+| 🏷️ **版本** | v0.6.355（x86 / arm） |
 | 🌐 **入口** | 面板网关 `/app/moo/`（调试端口 38100） |
 | 📖 **详细说明** | [moo/README.md](moo/README.md) |
 
@@ -392,6 +392,31 @@ AI 模型统一网关：把多家模型供应商收进一个 OpenAI 兼容端点
 
 ---
 
+
+---
+
+### 🛠️ Moo Mate (moo-mate)
+
+Moo 的伴侣应用：把任意第三方 GitHub 仓库变成你自己的飞牛应用源——贴上链接即自动发现应用、生成 `moo.json` 索引并本机托管，一键加源到本机 Moo，全程不必上传 GitHub。数据目录与备份目录可选并支持热切换，内置「恢复备份」「下载数据备份」，GitHub Token 自动复用本机 Moo 配置。
+
+<br/>
+
+<div align="center">
+
+[![Moo Mate](https://img.shields.io/badge/Moo%20Mate-v0.2.31-blue?style=flat-square)](https://github.com/Blue-Mink/moo/releases/tag/mate-v0.2.31) [![Platform](https://img.shields.io/badge/Platform-x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
+
+</div>
+
+<br/>
+
+| 项目 | 信息 |
+| :--- | :--- |
+| 👨‍💻 **开发者** | [Blue-Mink](https://github.com/Blue-Mink) |
+| 📁 **项目** | [moo](https://github.com/Blue-Mink/moo)（`cmd/moo-mate`，MIT 许可） |
+| 📥 **安装方式** | 在 FnDepot 添加本源后搜索「Moo Mate」；或直接下载 [x86](https://github.com/Blue-Mink/moo/releases/download/mate-v0.2.31/moo-mate_0.2.31_x86.fpk) / [arm64](https://github.com/Blue-Mink/moo/releases/download/mate-v0.2.31/moo-mate_0.2.31_arm.fpk)（附 `.sha256` 校验）手动安装 |
+| 🏷️ **版本** | v0.2.31（x86 / arm） |
+| 🌐 **入口** | 面板网关 `/app/moo-mate/`（本机回环端口 38108） |
+| 📖 **详细说明** | [moo-mate/README.md](moo-mate/README.md) |
 
 ---
 

@@ -4,7 +4,7 @@
     "name": "Blue-Mink 应用源",
     "author": "Blue-Mink",
     "homepage": "https://github.com/Blue-Mink/FnDepot",
-    "description": "Blue-Mink 维护的 fnOS 应用源：15 个应用多版本索引（V2 协议）。"
+    "description": "Blue-Mink 维护的 fnOS 应用源：16 个应用多版本索引（V2 协议）。"
   },
   "apps": {
     "global-radio": {
@@ -756,7 +756,8 @@
       "display_name": "Moo 应用商店",
       "desc": "飞牛 NAS 上的第三方应用中心：1800+ 应用浏览 / 安装 / 更新 / 下载；三源同步（官方应用中心 / FnDepot / fnos-apps）、14 领域智能归类；30+ 事件 × 7 渠道通知推送；GitHub 加速与应用内自更新。",
       "platform": [
-        "x86"
+        "x86",
+        "arm"
       ],
       "categories": [
         "系统工具"
@@ -773,6 +774,24 @@
       "is_docker": false,
       "service_port": "38100",
       "releases": {
+        "0.6.355": {
+          "changelog": "arm 设备支持应用内自更新（按 CPU 架构自动选 x86 / arm 安装包）；应用卡片与详情页去掉「发布：」文字前缀，分发者徽章只显示名字；Moo Mate 自动复用本机 Moo 的 GitHub Token，伴侣侧不再单独配置；修复应用溯源误判：聚合索引源（如 moo-mate）不再被当作上游打包者。",
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/Blue-Mink/moo/releases/download/v0.6.355/moo_0.6.355_x86.fpk",
+              "size": 5164516,
+              "size_mb": 4.9,
+              "sha256": "2e304765f190af2fce5b105ff051da91cd6c416ae1c415471b427b505492cd17"
+            },
+            "arm": {
+              "download_url": "https://github.com/Blue-Mink/moo/releases/download/v0.6.355/moo_0.6.355_arm.fpk",
+              "size": 4702611,
+              "size_mb": 4.5,
+              "sha256": "427d83be201464f133976eeb4d3cecd5d69899910cafd1610eaa399d20ce1378"
+            }
+          },
+          "updated_at": "2026-10-28T10:20:00+08:00"
+        },
         "0.6.352": {
           "changelog": "修复应用详情页架构显示：源同时提供顶层单链接与多架构包时，正确显示全部架构（x86 / arm）",
           "packages": {
@@ -899,6 +918,48 @@
           },
           "changelog": "1.1.6：修统一网关 /app/magpie/ 转发 POST 永久挂起（上游响应为 chunked，边车原先只认 Content-Length），SSE 等流式响应改为边到边转发。",
           "updated_at": "2026-10-19T12:16:33Z"
+        }
+      }
+    },
+    "moo-mate": {
+      "display_name": "Moo Mate",
+      "desc": "Moo 的伴侣应用：把任意第三方 GitHub 仓库变成你自己的飞牛应用源——贴上链接即自动发现应用、生成 moo.json 索引并本机托管，一键加源到本机 Moo，全程不必上传 GitHub；数据目录与备份目录可选并支持热切换，内置备份与恢复，GitHub Token 自动复用 Moo 侧配置。",
+      "platform": [
+        "x86",
+        "arm"
+      ],
+      "categories": [
+        "系统工具"
+      ],
+      "icon_url": "https://raw.githubusercontent.com/Blue-Mink/FnDepot/main/moo-mate/ICON.PNG",
+      "readme_url": "https://raw.githubusercontent.com/Blue-Mink/FnDepot/main/moo-mate/README.md",
+      "bug_report_url": "https://github.com/Blue-Mink/moo/issues",
+      "maintainer": "Blue-Mink",
+      "maintainer_url": "https://github.com/Blue-Mink",
+      "distributor": "Blue-Mink",
+      "distributor_url": "https://github.com/Blue-Mink",
+      "run_as": "root",
+      "install_type": "root",
+      "is_docker": false,
+      "service_port": "38108",
+      "releases": {
+        "0.2.31": {
+          "changelog": "Moo Mate 首个公开发布：把第三方 GitHub 仓库变成你自己的 Moo 应用源——贴链接即可发现应用、生成索引并就地托管，一键加源到本机 Moo，不必上传 GitHub；数据目录与备份目录可选并支持热切换，内置「恢复备份」与「下载数据备份」弹窗（可选本 NAS 历史备份或本机设备）；GitHub Token 自动复用本机 Moo 配置。",
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/Blue-Mink/moo/releases/download/mate-v0.2.31/moo-mate_0.2.31_x86.fpk",
+              "size": 3596896,
+              "size_mb": 3.4,
+              "sha256": "a2bd17e84e45b4d35251e4017149b73adc36c2efed8b474048d7ccc840366f16"
+            },
+            "arm": {
+              "download_url": "https://github.com/Blue-Mink/moo/releases/download/mate-v0.2.31/moo-mate_0.2.31_arm.fpk",
+              "size": 3245787,
+              "size_mb": 3.1,
+              "sha256": "fbf8466f05617111b536dcb9581782452d5f61a4aa690a26903ed0f62f4ed0e9"
+            }
+          },
+          "updated_at": "2026-10-28T10:20:00+08:00"
         }
       }
     }
