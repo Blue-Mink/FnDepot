@@ -925,7 +925,12 @@
           },
           "updated_at": "2026-10-28T10:20:00+08:00"
         }
-      }
+      },
+      "preview_urls": [
+        "https://raw.githubusercontent.com/Blue-Mink/moo/main/docs/mate-pc-list.png",
+        "https://raw.githubusercontent.com/Blue-Mink/moo/main/docs/mate-pc-apps.png",
+        "https://raw.githubusercontent.com/Blue-Mink/moo/main/docs/mate-mobile-list.png"
+      ]
     }
   }
 }
