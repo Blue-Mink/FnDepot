@@ -907,6 +907,23 @@
       "is_docker": false,
       "service_port": "38108",
       "releases": {
+        "0.2.33": {
+          "changelog": "新增版本检测：设置页顶栏显示当前版本，有新版本时提示并可一键跳转下载。新增自动备份：按周期（默认 7 天，可调 1–30 天）自动生成备份，同一目录保留最近 20 份，备份列表支持逐份下载、恢复与删除。批量推送改为一次写盘，几百个应用不再卡顿。",
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/Blue-Mink/moo/releases/download/mate-v0.2.33/moo-mate_0.2.33_x86.fpk",
+              "size": 3656518,
+              "size_mb": 3.5,
+              "sha256": "123885e5baf6068be3ab1b796afacd8a7f1f519c867ae4db597023f629cd6cc4"
+            },
+            "arm": {
+              "download_url": "https://github.com/Blue-Mink/moo/releases/download/mate-v0.2.33/moo-mate_0.2.33_arm.fpk",
+              "size": 3298082,
+              "size_mb": 3.1,
+              "sha256": "d06e74f612a6fd11a8af81b9e8abb2a52b99163aee77729550fd781dcf06aa62"
+            }
+          }
+        },
         "0.2.31": {
           "changelog": "Moo Mate 首个公开发布：把第三方 GitHub 仓库变成你自己的 Moo 应用源——贴链接即可发现应用、生成索引并就地托管，一键加源到本机 Moo，不必上传 GitHub；数据目录与备份目录可选并支持热切换，内置「恢复备份」与「下载数据备份」弹窗（可选本 NAS 历史备份或本机设备）；GitHub Token 自动复用本机 Moo 配置。",
           "packages": {

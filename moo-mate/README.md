@@ -17,6 +17,8 @@ TCP `127.0.0.1:38108` 仅在回环监听，用于本机调试与本机 Moo 拉�
 - **批量同步 / 批量推送 / 批量删除**：对已纳管应用做批量操作
 - **数据目录可切换**：索引与配置可迁移到新路径，热切换无需重启
 - **备份与恢复**：支持在备份列表中选择历史备份恢复，也可生成最新备份并在弹窗中下载
+- **自动备份**：按周期（默认 7 天，可调 1–30 天）自动备份，同一目录保留最近 20 份，可逐份下载 / 恢复 / 删除
+- **版本检测**：设置页顶栏显示当前版本，有新版本时提示并可跳转下载（只提示，不自动安装）
 - **移动端适配**：手机上操作按钮均分排布，触控友好
 - **复用 Moo 的 GitHub Token**：无需在 Moo Mate 里再填一份 Token
 
@@ -24,15 +26,15 @@ TCP `127.0.0.1:38108` 仅在回环监听，用于本机调试与本机 Moo 拉�
 
 | 项目 | 内容 |
 | --- | --- |
-| 版本 | 0.2.31 |
+| 版本 | 0.2.33 |
 | 架构 | x86_64 / arm64 |
-| 包来源 | GitHub Release `mate-v0.2.31` |
-| 更新说明 | 移动端操作按钮排布优化；数据目录与备份目录支持切换；新增恢复备份与下载备份弹窗；GitHub Token 复用本机 Moo 的配置 |
+| 包来源 | GitHub Release `mate-v0.2.33` |
+| 更新说明 | 新增版本检测（顶栏显示版本、有新版本可跳转下载）；新增自动备份（周期可调、保留最近 20 份、可逐份下载 / 恢复 / 删除）；批量推送改为一次写盘 |
 
 ## 下载
 
-- x86_64：[moo-mate_0.2.31_x86.fpk](https://github.com/Blue-Mink/moo/releases/download/mate-v0.2.31/moo-mate_0.2.31_x86.fpk) · [sha256](./moo-mate_0.2.31_x86.fpk.sha256)
-- arm64：[moo-mate_0.2.31_arm.fpk](https://github.com/Blue-Mink/moo/releases/download/mate-v0.2.31/moo-mate_0.2.31_arm.fpk) · [sha256](./moo-mate_0.2.31_arm.fpk.sha256)
+- x86_64：[moo-mate_0.2.33_x86.fpk](https://github.com/Blue-Mink/moo/releases/download/mate-v0.2.33/moo-mate_0.2.33_x86.fpk) · [sha256](./moo-mate_0.2.33_x86.fpk.sha256)
+- arm64：[moo-mate_0.2.33_arm.fpk](https://github.com/Blue-Mink/moo/releases/download/mate-v0.2.33/moo-mate_0.2.33_arm.fpk) · [sha256](./moo-mate_0.2.33_arm.fpk.sha256)
 
 ## 安装
 
@@ -52,7 +54,7 @@ TCP `127.0.0.1:38108` 仅在回环监听，用于本机调试与本机 Moo 拉�
 安装前可用 `.sha256` 校验完整性：
 
 ```bash
-sha256sum -c moo-mate_0.2.31_x86.fpk.sha256
+sha256sum -c moo-mate_0.2.33_x86.fpk.sha256
 ```
 
 ## 使用步骤
@@ -65,7 +67,7 @@ sha256sum -c moo-mate_0.2.31_x86.fpk.sha256
 
 ## 说明
 
-- **无自更新**：Moo Mate 不内置自动更新，新版本需下载 FPK 重新安装
+- **版本检测**：顶栏显示当前版本，有新版本时提示并可跳转到 Release 下载；**不自动安装**，升级需下载 FPK 重新安装（数据保留）
 - **Token 复用**：GitHub Token 直接读取本机 Moo 的配置，Moo Mate 侧无需单独填写
 - **端口**：默认 `38108`，仅监听 `127.0.0.1`，通过平台网关 `/app/moo-mate` 访问
 - **数据**：索引与配置存放在应用数据目录，升级安装会保留；卸载并删除数据将一并清除
