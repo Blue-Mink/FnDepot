@@ -418,6 +418,22 @@
       "is_docker": false,
       "service_port": "5003",
       "releases": {
+        "0.8.9": {
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v0.8.9/kspeeder-0.8.9-fnos-amd64.fpk",
+              "sha256": "665e76bca64f8b547b60660f2a5de59dc74adf8211a68bc5f2b6e74836085e06",
+              "size": 6459687
+            },
+            "arm": {
+              "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v0.8.9/kspeeder-0.8.9-fnos-arm64.fpk",
+              "sha256": "3224f796115eb1c691b68d297a4b16206773fa274c5aaaf2b0207bf66fefce34",
+              "size": 6111640
+            }
+          },
+          "changelog": "0.8.9 引擎升级至上游 iStoreEnhance v0.8.5（split 分段响应只切一次、split 资源范围与 body 长度校验、缓存失效前先 join cache owner、旧缓存自动恢复）；管理面板移动端补丁重新适配 tailwind v4 新前端——页面左右边距收窄（卡片恢复全宽）、配置指南四步骤 Tab 纵向排列、镜像服务器列表分类 Tab 铺满整行、登录页二维码卡片上下竖排（品牌区与二维码不再截断）；安装/设置/卸载向导与端口、配置目录均不变。",
+          "updated_at": "2026-10-31T01:30:00Z"
+        },
         "0.8.7": {
           "packages": {
             "x86": {
