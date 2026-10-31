@@ -26,15 +26,15 @@ TCP `127.0.0.1:38108` 仅在回环监听，用于本机调试与本机 Moo 拉�
 
 | 项目 | 内容 |
 | --- | --- |
-| 版本 | 0.2.34 |
+| 版本 | 0.2.36 |
 | 架构 | x86_64 / arm64 |
-| 包来源 | GitHub Release `mate-v0.2.34` |
+| 包来源 | GitHub Release `mate-v0.2.36` |
 | 更新说明 | 安装与配置向导新增端口设置（可改本机调试端口，改后自动同步应用中心登记与 Moo 里已加的源地址）；卸载「删除应用数据」覆盖自定义数据目录（只删索引/配置/备份） |
 
 ## 下载
 
-- x86_64：[moo-mate_0.2.34_x86.fpk](https://github.com/Blue-Mink/moo/releases/download/mate-v0.2.34/moo-mate_0.2.34_x86.fpk) · [sha256](./moo-mate_0.2.34_x86.fpk.sha256)
-- arm64：[moo-mate_0.2.34_arm.fpk](https://github.com/Blue-Mink/moo/releases/download/mate-v0.2.34/moo-mate_0.2.34_arm.fpk) · [sha256](./moo-mate_0.2.34_arm.fpk.sha256)
+- x86_64：[moo-mate_0.2.36_x86.fpk](https://github.com/Blue-Mink/moo/releases/download/mate-v0.2.36/moo-mate_0.2.36_x86.fpk) · [sha256](./moo-mate_0.2.36_x86.fpk.sha256)
+- arm64：[moo-mate_0.2.36_arm.fpk](https://github.com/Blue-Mink/moo/releases/download/mate-v0.2.36/moo-mate_0.2.36_arm.fpk) · [sha256](./moo-mate_0.2.36_arm.fpk.sha256)
 
 ## 安装
 
@@ -54,7 +54,7 @@ TCP `127.0.0.1:38108` 仅在回环监听，用于本机调试与本机 Moo 拉�
 安装前可用 `.sha256` 校验完整性：
 
 ```bash
-sha256sum -c moo-mate_0.2.34_x86.fpk.sha256
+sha256sum -c moo-mate_0.2.36_x86.fpk.sha256
 ```
 
 ## 使用步骤
