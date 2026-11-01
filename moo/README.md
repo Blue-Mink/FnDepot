@@ -164,7 +164,7 @@ fnos-mate/    Moo Mate 的 FPK manifest 与生命周期脚本
 build-mate.sh Moo Mate 打包脚本（x86 / arm）
 docs/         文档（API / 应用源协议 / 设计记录）与 README 配图
 tools/        辅助工具：索引生成（Go/Python）、索引一键维护、邀请新源
-templates/    给第三方源作者的模板：维护指南 / GitHub Actions 工作流 / 邀请 issue 模板
+templates/    给第三方源作者的模板：维护指南 / GitHub Actions 工作流
 skills/       Agent Skills：使用与诊断（moo/）、构建并发布到 Moo（fpk-build-to-moo/）、应用内 AI 资料包（ai/）、第三方应用安全审核（moo-app-security-audit/）
 ```
 
@@ -185,7 +185,7 @@ go test ./...     # 单元测试
 | [API 文档](https://github.com/Blue-Mink/moo/blob/main/docs/API.md) | 全部 HTTP 端点、请求/响应字段、SSE 事件、鉴权与错误码 | [zip](https://github.com/Blue-Mink/moo/raw/main/downloads/moo-doc-api.zip) |
 | [应用源协议](https://github.com/Blue-Mink/moo/blob/main/docs/Moo%E5%BA%94%E7%94%A8%E6%BA%90%E5%8D%8F%E8%AE%AE.md) | `moo.json` 完整规范：字段全表、14 项固定分类、多版本与 `packages`、版本比较规则、7 份带注释示例、FAQ | [zip](https://github.com/Blue-Mink/moo/raw/main/downloads/moo-doc-protocol.zip) |
 | [索引维护脚本](https://github.com/Blue-Mink/moo/blob/main/tools/update_moo_json.py) | 已有 `moo.json` 的仓库只更新一个应用：读包内 manifest 自动算 sha256 与字节、按 Release 约定拼直链、加/更新 `releases` 节点（默认只留最近 2 版），**其余应用逐字节不变**；`--check` 供 CI 复算。附 [维护指南](https://github.com/Blue-Mink/moo/blob/main/templates/MOO_JSON_MAINTENANCE.md) 与 [发版自动更新工作流](https://github.com/Blue-Mink/moo/blob/main/templates/moo-autoupdate.yml) | — |
-| [邀请新源工具](https://github.com/Blue-Mink/moo/blob/main/tools/moo_invite.py) | 一条命令生成 `moo.json` 草稿、一键新建预填链接与邀请 issue 正文（模板见 [INVITE_SOURCE_ISSUE.md](https://github.com/Blue-Mink/moo/blob/main/templates/INVITE_SOURCE_ISSUE.md)），用于邀请上游作者把项目做成 Moo 应用源 | — |
+| [邀请新源工具](https://github.com/Blue-Mink/moo/blob/main/tools/moo_invite.py) | 一条命令生成 `moo.json` 草稿、一键新建预填链接与邀请 issue 正文，用于邀请上游作者把项目做成 Moo 应用源 | — |
 | [仓库手册 AGENTS.md](https://github.com/Blue-Mink/moo/blob/main/docs/AGENTS.md) | 面向在仓库内工作的 Agent 与维护者：项目速览与目录地图、构建与提交前本地门、部署到 fnOS 的四铁律与回滚、发布顺序、脱敏硬规则、反复踩过的坑 | [zip](https://github.com/Blue-Mink/moo/raw/main/downloads/moo-doc-agents.zip) |
 | [使用与诊断技能](https://github.com/Blue-Mink/moo/tree/main/skills/moo) | Agent Skill：四平面核心模型、完整 API 镜像、安装与热替换、安全规则、排障 | [zip](https://github.com/Blue-Mink/moo/raw/main/downloads/moo-skill-usage.zip) |
 | [构建并发布到 Moo 技能](https://github.com/Blue-Mink/moo/tree/main/skills/fpk-build-to-moo) | Agent Skill：**从构建 FPK 到发布 Moo 的全流程**——构建与本地验证 → 写 `moo.json` → 放仓库（匿名可达）→ 搜索框自测 → 添加为源与详情页验收 → 版本迭代与发布脱敏 | [zip](https://github.com/Blue-Mink/moo/raw/main/downloads/moo-skill-build-export.zip) |
