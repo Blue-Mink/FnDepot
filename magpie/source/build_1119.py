@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build magpie 1.1.14 FPK: staging copy (exclude pycache/dist) + fnpack + verify."""
+"""Build magpie 1.1.19 FPK: staging copy (exclude pycache/dist) + fnpack + verify."""
 import hashlib
 import os
 import re
@@ -11,7 +11,7 @@ import tempfile
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 FNPACK = os.environ.get("FNPACK_BIN", "fnpack")
-VER = "1.1.14"
+VER = "1.1.19"
 OUT = os.path.join(HERE, "dist", f"magpie-{VER}-fnos-amd64.fpk")
 
 
@@ -38,8 +38,8 @@ def sha256(p):
 
 # ---- 1. source sanity ----
 man = open(os.path.join(HERE, "manifest"), encoding="utf-8").read()
-assert re.search(r"^version\s+= 1\.1\.14$", man, re.M), "manifest version != 1.1.14"
-assert "1.1.14：" in man, "changelog not updated for 1.1.14"
+assert re.search(r"^version\s+= 1\.1\.19$", man, re.M), "manifest version != 1.1.19"
+assert "1.1.19：" in man, "changelog not updated for 1.1.19"
 for f in ("wizard/install", "wizard/uninstall", "wizard/config",
           "app/ui/config", "app/ui/index.cgi", "app/magpie-gateway-proxy.py"):
     p = os.path.join(HERE, f)
@@ -99,7 +99,7 @@ for need in ("cmd/main", "cmd/install_callback", "cmd/uninstall_callback",
              "wizard/install", "wizard/uninstall", "wizard/config"):
     assert need in names, f"missing member {need}"
 pkg_man = t.extractfile("manifest").read().decode()
-assert "version               = 1.1.14" in pkg_man
+assert "version               = 1.1.19" in pkg_man
 mchk = re.search(r"^checksum\s+= (\w+)$", pkg_man, re.M)
 assert mchk, "no checksum in manifest"
 app_tgz = t.extractfile("app.tgz")

@@ -755,7 +755,7 @@
     },
     "magpie": {
       "display_name": "Magpie",
-      "desc": "AI 模型统一网关（基于上游 yetone/magpie 打包）：把多家模型供应商接入一个 OpenAI 兼容端点，支持路由组与故障回退、按调用密钥限定可用模型、用量统计；单进程同时提供网关与浏览器控制台，桌面双入口（Magpie 控制台 / Magpie API），并接入飞牛统一网关 /app/magpie/。支持 amd64 与 arm64。",
+      "desc": "AI 模型统一网关（基于上游 yetone/magpie 打包）：把多家模型供应商接入一个 OpenAI 兼容端点，支持路由组与故障回退、按调用密钥限定可用模型、用量统计；单进程同时提供网关与浏览器控制台，桌面双入口（Magpie 控制台 / Magpie API，说明页列出全部网关密钥），并接入飞牛统一网关 /app/magpie/。支持 amd64 与 arm64。",
       "platform": [
         "x86",
         "arm"
@@ -776,6 +776,22 @@
       "is_docker": false,
       "service_port": "36140",
       "releases": {
+        "1.1.19": {
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/magpie-v1.1.19/magpie-1.1.19-fnos-amd64.fpk",
+              "sha256": "9fa59bc6c9ebc6e3cd502ba0296388594273cf9cdba25ec72b2548e7c09df009",
+              "size": 28762425
+            },
+            "arm": {
+              "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/magpie-v1.1.19/magpie-1.1.19-fnos-arm64.fpk",
+              "sha256": "76fc753192351493541737df96c470451110549c22e0322178d50c6dd6edbc35",
+              "size": 26889893
+            }
+          },
+          "changelog": "1.1.19：入口说明页「默认密钥」改为列出全部网关密钥（改读 caller-keys.json 真源，与 Gateway 页实时同步）；同步上游二进制至 v0.1.2638；1.1.14：网关说明页「网关地址」与「默认密钥」加复制按钮；1.1.13：桌面入口改走统一网关 /app/magpie/（修 fn connect 远程跳登录页）；1.1.9：同步上游 v0.1.1635、修正署名为上游开发者 yetone",
+          "updated_at": "2026-11-02T00:12:39Z"
+        },
         "1.1.14": {
           "packages": {
             "x86": {

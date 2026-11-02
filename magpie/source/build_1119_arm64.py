@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build magpie 1.1.14 arm64 FPK: swap app/bin/magpie to arm64 binary + platform=arm + fnpack + verify."""
+"""Build magpie 1.1.19 arm64 FPK: swap app/bin/magpie to arm64 binary + platform=arm + fnpack + verify."""
 import hashlib
 import json
 import os
@@ -12,10 +12,10 @@ import tempfile
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 FNPACK = os.environ.get("FNPACK_BIN", "fnpack")
-VER = "1.1.14"
+VER = "1.1.19"
 ARCH = "arm64"
-ARM64_BIN = "/tmp/magpie-arm64-1635"
-ARM64_SHA = "a1553bfc2bdc6bda3c68437ccb37fe4be525507a2db2095d570abfe31449348c"
+ARM64_BIN = "/tmp/magpie-cli-linux-arm64-2638"
+ARM64_SHA = "e17d10a4060ac8821ef4d1d07ac197353684641f2267d1a4c93d7b80ceb3eaf0"
 OUT = os.path.join(HERE, "dist", f"magpie-{VER}-fnos-{ARCH}.fpk")
 
 
@@ -43,8 +43,8 @@ print(f"arm64 binary OK: {len(arm64_bin)}B sha256={ARM64_SHA[:12]}…")
 
 # ---- 1. source sanity ----
 man = open(os.path.join(HERE, "manifest"), encoding="utf-8").read()
-assert re.search(r"^version\s+= 1\.1\.14$", man, re.M), "manifest version != 1.1.14"
-assert "1.1.14：" in man, "changelog not updated for 1.1.14"
+assert re.search(r"^version\s+= 1\.1\.19$", man, re.M), "manifest version != 1.1.19"
+assert "1.1.19：" in man, "changelog not updated for 1.1.19"
 for f in ("wizard/install", "wizard/uninstall", "wizard/config",
           "app/ui/config", "app/ui/index.cgi", "app/magpie-gateway-proxy.py"):
     p = os.path.join(HERE, f)
@@ -102,7 +102,7 @@ print(f"built: {os.path.basename(built)} {os.path.getsize(built)}B")
 t = tarfile.open(built)
 names = [m.name for m in t.getmembers()]
 pkg_man = t.extractfile("manifest").read().decode()
-assert "version               = 1.1.14" in pkg_man
+assert "version               = 1.1.19" in pkg_man
 assert "platform              = arm" in pkg_man, "packaged manifest platform != arm"
 mchk = re.search(r"^checksum\s+= (\w+)$", pkg_man, re.M)
 assert mchk, "no checksum"

@@ -4,7 +4,7 @@ AI 模型统一网关，基于上游 [yetone/magpie](https://github.com/yetone/m
 
 <div align="center">
 
-[![FPK](https://img.shields.io/badge/FPK-v1.1.14-green?style=flat-square)](https://github.com/Blue-Mink/FnDepot/releases/tag/magpie-v1.1.14)
+[![FPK](https://img.shields.io/badge/FPK-v1.1.19-green?style=flat-square)](https://github.com/Blue-Mink/FnDepot/releases/tag/magpie-v1.1.19)
 ![Platform](https://img.shields.io/badge/Platform-x86__64%20%7C%20ARM64-lightgrey?style=flat-square)
 ![Port](https://img.shields.io/badge/Port-36140%20%2F%2036141-blue?style=flat-square)
 
@@ -12,7 +12,7 @@ AI 模型统一网关，基于上游 [yetone/magpie](https://github.com/yetone/m
 
 ## 安装
 
-1. 应用中心 → 手动安装 → 按架构选择 `magpie-1.1.14-fnos-amd64.fpk`（x86_64）或 `magpie-1.1.14-fnos-arm64.fpk`（ARM64）（校验值见 [fpk.sha256](fpk.sha256)）
+1. 应用中心 → 手动安装 → 按架构选择 `magpie-1.1.19-fnos-amd64.fpk`（x86_64）或 `magpie-1.1.19-fnos-arm64.fpk`（ARM64）（校验值见 [fpk.sha256](fpk.sha256)）
 2. 安装向导里填写两个端口（默认 Web 控制台 **36140**、网关 API **36141**）
 3. 安装完成后从桌面「Magpie」打开控制台，或直接访问 `http://<NAS IP>:36140/`
 
@@ -30,7 +30,7 @@ AI 模型统一网关，基于上游 [yetone/magpie](https://github.com/yetone/m
 ## 配置流程
 
 1. **供应商**：填 base_url 与 key，点「拉取模型」勾选要开放的模型
-2. **调用密钥**：在 Gateway 页新建密钥，可限定该密钥只能使用某些模型（形如 `provider/*`）
+2. **调用密钥**：在 Gateway 页新建密钥，可限定该密钥只能使用某些模型（形如 `provider/*`）；入口说明页（Magpie API 的 `/gw/`）会自动列出全部网关密钥，与 Gateway 页实时同步
 3. **路由组**（可选）：同一个对外模型名背后挂多个供应商，按权重/优先级自动回退
 4. 客户端：`base_url = http://<NAS IP>:36141/v1`，`Authorization: Bearer <你的调用密钥>`
 
@@ -48,7 +48,7 @@ AI 模型统一网关，基于上游 [yetone/magpie](https://github.com/yetone/m
 
 ## 构建
 
-源码树见 [source/](source/)，其中不含上游二进制（约 50MB）。构建前把上游 `magpie-cli-linux-amd64` 放到 `app/bin/magpie`，再执行 `build_1114.py`。控制台的移动端样式是在二进制内嵌 CSS 上做等长补丁（`patch_magpie_css2.py`），换上游版本后需重新施加。
+源码树见 [source/](source/)，其中不含上游二进制（约 50MB）。构建前把上游 `magpie-cli-linux-amd64` 放到 `app/bin/magpie`，再执行 `build_1119.py`（可用 `FNPACK_BIN` 指定 fnpack 路径）。二进制保持纯官方原版，控制台的移动端适配下沉到统一网关边车（`magpie-gateway-proxy.py` 响应层注入），换上游版本后直接换二进制即可，无需重打 FPK。
 
 ## 许可与致谢
 

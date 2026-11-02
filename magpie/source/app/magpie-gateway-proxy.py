@@ -35,6 +35,63 @@ DROP_RESP = {b"x-frame-options"}
 REWRITE_CT = (b"text/html", b"application/javascript", b"text/javascript", b"text/css")
 P = PREFIX.encode("latin1")
 
+# CSS 移动端适配：原 patch_magpie_css2.py 是「等长二进制补丁」，现下沉到响应层
+# （sidecar 对 text/css 响应做同样的字符串替换）。上游 app.css 这两处写法会随
+# 版本漂移，故用「命中才替换」的宽松方式——未命中（上游已自行修复/改写）时静默
+# 跳过，不破坏其它 CSS。不依赖二进制，magpie 原生自更新后适配依然生效。
+CSS_PATCHES = (
+    (b"calc(6px + env(safe-area-inset-top))",
+     b"calc(6px + min(env(safe-area-inset-top), 12px))"),
+    (b"overflow-x: auto; overflow-y: hidden; overscroll-behavior-x: contain; scrollbar-width: none;",
+     b"overflow-x: auto; overflow-y: hidden; overscroll-behavior-x: contain; scrollbar-width: none; padding-right: 12px;"),
+)
+
+# 追加式移动端适配：设置/关于页多控件行在窄屏下溢出。
+# 根因：上游 .prefs .val 有 max-width:60% 且 flex-wrap 默认 nowrap，flex 子项（按钮/下拉/
+# 开关）又不收缩；窄屏（≤600px）时上游已让 .row.pref 换行堆叠（.who flex-basis:100%），
+# 但 .val 仍卡在 60% 宽、不换行 → 隐私页「Find with a local model」开关、Masking rules
+# 的 Add、关于页 Community 的 GitHub 按钮与 Version 的「Open the release page」按钮均被
+# 裁出屏。这里统一放宽 .row.pref .val 满宽 + 换行（覆盖隐私页与关于页全部受影响行）。
+# 幂等：带唯一标记，检测到已追加则跳过。
+CSS_APPEND_MARK = b"/* magpie-mobile-pref-fixes */"
+CSS_APPEND = (
+    b"/* magpie-mobile-pref-fixes */"
+    b"@media (max-width:600px){"
+    b".row.pref .val{max-width:100%;flex-wrap:wrap;row-gap:8px}"
+    b"}"
+)
+
+# 追加式移动端适配 2：设置页子导航（GENERAL/.../ABOUT）在窄屏换行成多行，上游
+# .set-tabs 只有 row-gap:2px、按钮高 22px —— 行挨得太紧、点按区小易误触（与顶部
+# 主导航 .seg 的 14px 间距观感不一致）。这里放宽行距/列距并加大点按高度。
+# 仅 ≤600px 生效（桌面不换行，row-gap 无效，零影响）。幂等：唯一标记。
+CSS_APPEND2_MARK = b"/* magpie-mobile-settabs-fixes */"
+CSS_APPEND2 = (
+    b"/* magpie-mobile-settabs-fixes */"
+    b"@media (max-width:600px){"
+    b".set-tabs{row-gap:10px;column-gap:6px}"
+    b".set-tabs button{height:28px;padding:0 9px}"
+    b"}"
+)
+
+# 追加式移动端适配 3：设置页顶部三行（brand 图标行 / Agents..Gateway 主导航 /
+# General..About 子导航）在窄屏占用过高（合计 ~273px 才见到内容卡片）。
+# 整体上移：压缩 header 上下留白、brand 最小高、seg 按钮高、set-tabs 行距与
+# 按钮高、设置搜索框最小高。仅 ≤600px 生效；幂等：唯一标记。
+CSS_APPEND3_MARK = b"/* magpie-mobile-topfix */"
+CSS_APPEND3 = (
+    b"/* magpie-mobile-topfix */"
+    b"@media (max-width:600px){"
+    b"body.web header.top{padding-top:2px;padding-bottom:4px}"
+    b"body.web .top .brand{min-height:30px}"
+    b"body.web .top #nav button{height:32px;min-height:32px;padding:0 10px}"
+    b"#view-settings .set-head{margin-top:2px;margin-bottom:4px}"
+    b".set-tabs{row-gap:6px}"
+    b".set-tabs button{height:24px;padding:0 9px}"
+    b"#view-settings .set-head input.sess-filter,#view-settings .set-head input.set-q{min-height:36px}"
+    b"}"
+)
+
 
 def strip_prefix(path: str) -> str:
     if path == PREFIX:
@@ -58,9 +115,30 @@ def read_key() -> str:
         return ""
 
 
+def rewrite_css(body: bytes) -> bytes:
+    """CSS 移动端适配：对 text/css 响应做与二进制补丁同源的字符串替换。
+
+    幂等：B 项的 new 以 old 为前缀（在 overflow 声明后追加 padding-right），
+    若直接 replace，new 里的 old 前缀会被再次命中导致重复追加。故先还原
+    new->old，再统一 old->new，保证多次执行结果不变。
+    """
+    for old, new in CSS_PATCHES:
+        body = body.replace(new, old)
+        body = body.replace(old, new)
+    if CSS_APPEND_MARK not in body:
+        body = body.rstrip() + b"\n" + CSS_APPEND
+    if CSS_APPEND2_MARK not in body:
+        body = body.rstrip() + b"\n" + CSS_APPEND2
+    if CSS_APPEND3_MARK not in body:
+        body = body.rstrip() + b"\n" + CSS_APPEND3
+    return body
+
+
 def rewrite_body(body: bytes, ctype: bytes) -> bytes:
     if not any(x in ctype.lower() for x in REWRITE_CT):
         return body
+    if b"text/css" in ctype.lower():
+        body = rewrite_css(body)
     for q in (b'"', b"'", b"`"):
         body = body.replace(q + b"/api/", q + P + b"/api/")
     body = body.replace(b'href="/', b'href="' + P + b'/')
@@ -245,8 +323,6 @@ async def handle(client_r, client_w):
                 continue
             if k == b"location" and port == WEB_PORT and is_redirect:
                 v = prefix_location(v)
-            if k in {b"etag", b"last-modified", b"cache-control"}:
-                continue
             if k == b"content-length":
                 try:
                     clen = int(v)
@@ -256,6 +332,13 @@ async def handle(client_r, client_w):
             if k == b"content-type":
                 ctype = v
             headers.append(k + b": " + v)
+        # 无 body 响应（204/304/HEAD）：上游 keep-alive 不关连接，读 body 会永久卡住。
+        # 直接转发响应头（保留上游 ETag / Cache-Control），不读 body。
+        if code[:3] in (b"204", b"304") or method.upper() == b"HEAD":
+            headers.append(b"Connection: close")
+            client_w.write(b"\r\n".join([status] + headers + [b"", b""]))
+            await client_w.drain()
+            return
         rewritable = port == WEB_PORT and any(x in ctype.lower() for x in REWRITE_CT)
         if te_chunked and not rewritable:
             # 流式透传（SSE / 无长度响应）：逐块转发，客户端不必等整包结束
@@ -282,7 +365,15 @@ async def handle(client_r, client_w):
             body = rewrite_body(body, ctype)
             rewritten = True
         if rewritten:
-            headers.append(b"Cache-Control: no-store, no-cache, must-revalidate, max-age=0")
+            # 静态资源（CSS/JS）带 ?v=hash 内容寻址版本号，保留上游 ETag 并允许条件请求
+            # 复用缓存（避免每次打开页面都重新下载 1MB+ 的 app.js）；HTML 含签入/动态
+            # 内容，保持 no-store。重写是确定性的，故条件请求 304 时缓存的「重写后」内容
+            # 依然正确。
+            headers = [h for h in headers if not h.lower().startswith(b"cache-control:")]
+            if b"text/css" in ctype.lower() or b"javascript" in ctype.lower():
+                headers.append(b"Cache-Control: no-cache")
+            else:
+                headers.append(b"Cache-Control: no-store")
         headers.append(b"Content-Length: " + str(len(body)).encode())
         headers.append(b"Connection: close")
         client_w.write(b"\r\n".join([status] + headers + [b"", b""]) + body)

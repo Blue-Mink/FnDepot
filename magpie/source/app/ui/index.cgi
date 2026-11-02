@@ -65,7 +65,45 @@ fi
 if case "/${PATH_INFO:-}" in *gw*) true;; *) false;; esac; then
     HOST="$(lan_host)"
     ensure_running "$GW_PORT"
-    GWKEY="$(head -n 1 "${VAR}/gateway-keys/NAS.txt" 2>/dev/null)"
+    # 解析真源 caller-keys.json（与 Web 控制台「Gateway」页同一数据源），列出全部网关密钥
+    CALLER_KEYS="${VAR}/data/config/magpie/caller-keys.json"
+    GWKEY=""
+    KEYS_HTML=""
+    if [ -f "$CALLER_KEYS" ]; then
+        # python3 输出：第 1 行 = 首个密钥 secret（调用示例用）；后续行 = 密钥列表 HTML
+        PARSED="$(python3 - "$CALLER_KEYS" <<'PYEOF'
+import json, sys, html
+keys = []
+try:
+    keys = json.load(open(sys.argv[1]))
+except Exception:
+    keys = []
+first = ""
+rows = []
+for k in keys:
+    if not isinstance(k, dict):
+        continue
+    name = str(k.get("name", "?"))
+    secret = str(k.get("secret", ""))
+    if not first and secret:
+        first = secret
+    badge = ""
+    if k.get("lan"):
+        badge = ' <span class="tag">局域网</span>'
+    if k.get("read_only"):
+        badge += ' <span class="tag">只读</span>'
+    rows.append(
+        '<dt>' + html.escape(name) + badge + '</dt>'
+        '<dd class="cmd copy-row"><span class="copy-val">' + html.escape(secret) + '</span>'
+        '<button type="button" class="copybtn" onclick="copyVal(this)">复制</button></dd>'
+    )
+sys.stdout.write(first + "\n")
+sys.stdout.write("\n".join(rows))
+PYEOF
+)"
+        GWKEY="$(printf '%s\n' "$PARSED" | sed -n '1p')"
+        KEYS_HTML="$(printf '%s\n' "$PARSED" | sed -n '2,$p')"
+    fi
     # 取 JSON 形态的接口清单（Accept: application/json），避免把整页 HTML 嵌进来
     API_JSON="$(curl -s --max-time 3 -H 'Accept: application/json' "http://127.0.0.1:${GW_PORT}/" 2>/dev/null)"
     API_TAGS="$(printf '%s' "$API_JSON" \
@@ -130,11 +168,11 @@ a{color:#4f8bff;text-decoration:none;word-break:break-all}
 </style></head><body><div class="wrap">
 <h1>Magpie API 网关</h1>
 <p class="sub">OpenAI 兼容端点（上游 yetone/magpie）· 状态：<span class="${GW_STATE_CLS}">${GW_STATE}</span></p>
-<div class="card"><h2>网关地址与默认密钥</h2>
+<div class="card"><h2>网关地址与密钥</h2>
 <dl class="kv">
 <dt>网关地址</dt><dd class="copy-row"><span class="copy-val">http://${HOST}:${GW_PORT}/</span><button type="button" class="copybtn" onclick="copyVal(this)">复制</button></dd>
-<dt>默认密钥</dt><dd class="cmd copy-row"><span class="copy-val">${GWKEY:-（尚未生成，服务首启后自动创建）}</span><button type="button" class="copybtn" onclick="copyVal(this)">复制</button></dd>
 <dt>统一网关</dt><dd>http://${HOST}:5666/app/magpie/v1/…（需飞牛登录态，与上方同一后端）</dd>
+${KEYS_HTML:-<dt>网关密钥</dt><dd class="cmd">（尚未生成，服务首启后自动创建）</dd>}
 </dl></div>
 <div class="card"><h2>调用示例</h2>
 <div class="cmd">curl http://${HOST}:${GW_PORT}/v1/chat/completions \
@@ -184,7 +222,7 @@ fi
 # ---------- Web 控制台 302 ----------
 KEY="$(cat "${VAR}/web-key" 2>/dev/null)"
 HOST="$(lan_host)"
-TARGET="http://${HOST}:${WEB_PORT}/?k=${KEY}"
+TARGET="/app/magpie/"
 if ! ensure_running "$WEB_PORT"; then
     echo "Content-Type: text/html; charset=utf-8"
     echo
