@@ -225,7 +225,7 @@ Docker 镜像加速管理工具，支持多源镜像缓存、加速规则管理�
 
 <div align="center">
 
-[![KSpeeder](https://img.shields.io/badge/KSpeeder-v0.8.9-blue?style=flat-square)](https://github.com/Blue-Mink/FnDepot) [![Platform](https://img.shields.io/badge/Platform-x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
+[![KSpeeder](https://img.shields.io/badge/KSpeeder-v0.8.7-blue?style=flat-square)](https://github.com/Blue-Mink/FnDepot) [![Platform](https://img.shields.io/badge/Platform-x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
 
 </div>
 
@@ -235,8 +235,8 @@ Docker 镜像加速管理工具，支持多源镜像缓存、加速规则管理�
 | :--- | :--- |
 | 👨‍💻 **原作者** | [kspeeder](https://github.com/kspeeder) |
 | 📁 **原项目** | [docker_kspeeder](https://github.com/kspeeder/docker_kspeeder) |
-| 📥 **安装方式** | 下载 [kspeeder-0.8.9-fnos-amd64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/v0.8.9/kspeeder-0.8.9-fnos-amd64.fpk)（x86_64）或 [kspeeder-0.8.9-fnos-arm64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/v0.8.9/kspeeder-0.8.9-fnos-arm64.fpk)（ARM64）在 fnOS 应用中心手动安装，安装/应用设置中可修改管理端口与镜像代理端口 |
-| 🏷️ **版本** | v0.8.9（x86_64 / ARM64 双架构） |
+| 📥 **安装方式** | 下载 [kspeeder-0.8.7-fnos-amd64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/v0.8.7/kspeeder-0.8.7-fnos-amd64.fpk)（x86_64）或 [kspeeder-0.8.7-fnos-arm64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/v0.8.7/kspeeder-0.8.7-fnos-arm64.fpk)（ARM64）在 fnOS 应用中心手动安装，安装/应用设置中可修改管理端口与镜像代理端口 |
+| 🏷️ **版本** | v0.8.7（x86_64 / ARM64 双架构） |
 | 🌐 **默认端口** | 管理界面 5003 / 镜像代理 5443 |
 | 📖 **详细说明** | [kspeeder/README.md](kspeeder/README.md) |
 
@@ -264,6 +264,31 @@ Docker 镜像加速管理工具，支持多源镜像缓存、加速规则管理�
 | 🏷️ **版本** | v1.1.10（可选 iStoreOS 25.12.5 / 24.10.8 / 22.03.7） |
 | 🌐 **入口端口** | 36125（IP 寻踪入口，自动跳转虚拟机管理后台） |
 | 📖 **详细说明** | [istoreos/README.md](istoreos/README.md) |
+
+---
+
+### 🏬 New Store
+
+飞牛 fnOS 的第三方应用中心本体：App Store 式界面浏览/安装/更新 455+ 第三方应用（FPK 与 Docker 双通道），内置 GitHub / Docker 智能镜像监测（12+8 源自动探测、按健康度排序、3 连败自动切换）与 KSpeeder 本地镜像源；一键安装走应用中心官方流程、SSE 实时进度，FPK 下载为服务端后台任务且支持暂停/继续（断点续传）；PC 侧栏 + 移动端 dock 双端布局，可嵌入飞牛 App。
+
+<br/>
+
+<div align="center">
+
+[![New Store](https://img.shields.io/badge/New--Store-v1.21.1-green?style=flat-square)](https://github.com/Blue-Mink/New-Store/releases/tag/v1.21.1) [![Platform](https://img.shields.io/badge/Platform-fnOS%20x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
+
+</div>
+
+<br/>
+
+| 项目 | 信息 |
+| :--- | :--- |
+| 👨‍💻 **打包维护** | [Blue-Mink](https://github.com/Blue-Mink) |
+| 📁 **原项目** | [New-Store](https://github.com/Blue-Mink/New-Store)（基础版本 [conversun/fnos-store](https://github.com/conversun/fnos-store)） |
+| 📥 **安装方式** | 首次：下载 [new-store_1.21.1_x86.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.21.1/new-store_1.21.1_x86.fpk) / [new-store_1.21.1_arm.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.21.1/new-store_1.21.1_arm.fpk)（按架构选择，[sha256](https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.21.1/new-store_1.21.1_arm.fpk.sha256)）在应用中心手动安装；装好后在 New Store「设置」里添加本源即可在应用内自助更新 |
+| 🏷️ **版本** | v1.21.1（端口 38011；x86/ARM64 双架构） |
+| 🌐 **入口端口** | 38011（应用中心「打开」与桌面图标直达） |
+| 📖 **详细说明** | [new-store/README.md](new-store/README.md) |
 
 ---
 
@@ -350,7 +375,7 @@ AI 模型统一网关：把多家模型供应商收进一个 OpenAI 兼容端点
 
 <div align="center">
 
-[![Magpie](https://img.shields.io/badge/Magpie-v1.1.19-blue?style=flat-square)](https://github.com/Blue-Mink/FnDepot/releases/tag/magpie-v1.1.19) [![Platform](https://img.shields.io/badge/Platform-x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
+[![Magpie](https://img.shields.io/badge/Magpie-v1.1.14-blue?style=flat-square)](https://github.com/Blue-Mink/FnDepot/releases/tag/magpie-v1.1.14) [![Platform](https://img.shields.io/badge/Platform-x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
 
 </div>
 
@@ -360,8 +385,8 @@ AI 模型统一网关：把多家模型供应商收进一个 OpenAI 兼容端点
 | :--- | :--- |
 | 👨‍💻 **打包维护** | [Blue-Mink](https://github.com/Blue-Mink) |
 | 📁 **原项目** | [yetone/magpie](https://github.com/yetone/magpie)（二进制发布在 [magpie-releases](https://github.com/yetone/magpie-releases)） |
-| 📥 **安装方式** | 下载 [magpie-1.1.19-fnos-amd64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/magpie-v1.1.19/magpie-1.1.19-fnos-amd64.fpk)（x86）或 [magpie-1.1.19-fnos-arm64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/magpie-v1.1.19/magpie-1.1.19-fnos-arm64.fpk)（arm64）在 fnOS 应用中心手动安装 |
-| 🏷️ **版本** | v1.1.19（同步上游 v0.1.2638） |
+| 📥 **安装方式** | 下载 [magpie-1.1.14-fnos-amd64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/magpie-v1.1.14/magpie-1.1.14-fnos-amd64.fpk)（x86）或 [magpie-1.1.14-fnos-arm64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/magpie-v1.1.14/magpie-1.1.14-fnos-arm64.fpk)（arm64）在 fnOS 应用中心手动安装 |
+| 🏷️ **版本** | v1.1.14（同步上游 v0.1.1635） |
 | 🌐 **服务端口** | 36140（控制台） / 36141（网关 API），另有统一网关 `/app/magpie/` |
 | 📖 **详细说明** | [magpie/README.md](magpie/README.md) |
 
@@ -372,13 +397,13 @@ AI 模型统一网关：把多家模型供应商收进一个 OpenAI 兼容端点
 
 ### 🛠️ Moo Mate (moo-mate)
 
-Moo 的伴侣应用：把任意第三方 GitHub 仓库变成你自己的飞牛应用源——贴上链接即自动发现应用、生成 `moo.json` 索引并本机托管，一键加源到本机 Moo，全程不必上传 GitHub。数据目录与备份目录可选并支持热切换，内置「恢复备份」「下载数据备份」，GitHub Token 自动复用本机 Moo 配置。
+Moo 的伴侣应用：把任意第三方 GitHub / Gitee 仓库变成你自己的飞牛应用源——贴上链接即自动发现应用（含 release 与仓库内 `server-data/apps` 目录）、生成 `moo.json` 索引并本机托管，一键加源到本机 Moo，全程不必上传 GitHub。数据目录与备份目录可选并支持热切换，内置「恢复备份」「下载数据备份」、应用日志与图标自动补齐，GitHub Token 自动复用本机 Moo 配置。
 
 <br/>
 
 <div align="center">
 
-[![Moo Mate](https://img.shields.io/badge/Moo%20Mate-v0.2.34-blue?style=flat-square)](https://github.com/Blue-Mink/moo/releases/tag/mate-v0.2.34) [![Platform](https://img.shields.io/badge/Platform-x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
+[![Moo Mate](https://img.shields.io/badge/Moo%20Mate-v0.2.50-blue?style=flat-square)](https://github.com/Blue-Mink/moo/releases/tag/mate-v0.2.50) [![Platform](https://img.shields.io/badge/Platform-x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
 
 </div>
 
@@ -388,8 +413,8 @@ Moo 的伴侣应用：把任意第三方 GitHub 仓库变成你自己的飞牛�
 | :--- | :--- |
 | 👨‍💻 **开发者** | [Blue-Mink](https://github.com/Blue-Mink) |
 | 📁 **项目** | [moo](https://github.com/Blue-Mink/moo)（`cmd/moo-mate`，MIT 许可） |
-| 📥 **安装方式** | 在 FnDepot 添加本源后搜索「Moo Mate」；或直接下载 [x86](https://github.com/Blue-Mink/moo/releases/download/mate-v0.2.34/moo-mate_0.2.34_x86.fpk) / [arm64](https://github.com/Blue-Mink/moo/releases/download/mate-v0.2.34/moo-mate_0.2.34_arm.fpk)（附 `.sha256` 校验）手动安装 |
-| 🏷️ **版本** | v0.2.34（x86 / arm） |
+| 📥 **安装方式** | 在 FnDepot 添加本源后搜索「Moo Mate」；或直接下载 [x86](https://github.com/Blue-Mink/moo/releases/download/mate-v0.2.50/moo-mate_0.2.50_x86.fpk) / [arm64](https://github.com/Blue-Mink/moo/releases/download/mate-v0.2.50/moo-mate_0.2.50_arm.fpk)（附 `.sha256` 校验）手动安装 |
+| 🏷️ **版本** | v0.2.50（x86 / arm） |
 | 🌐 **入口** | 面板网关 `/app/moo-mate/`（本机回环端口 38108） |
 | 📖 **详细说明** | [moo-mate/README.md](moo-mate/README.md) |
 
@@ -399,7 +424,7 @@ Moo 的伴侣应用：把任意第三方 GitHub 仓库变成你自己的飞牛�
 
 本项目遵循 [MIT License](LICENSE) 许可证。
 
-上述许可覆盖本仓库自研的内容：FPK 打包脚本与构建流程、应用配置与文档。各第三方应用及其源码镜像（如 `daidai-panel/source/`）的版权归各自原作者所有，遵循其原始许可，详见对应目录内的 `LICENSE`。
+上述许可覆盖本仓库自研的内容：FPK 打包脚本与构建流程、应用配置与文档。各第三方应用及其源码镜像（如 `daidai-panel/source/`、`new-store/source/`）的版权归各自原作者所有，遵循其原始许可，详见对应目录内的 `LICENSE`。
 
 ---
 
