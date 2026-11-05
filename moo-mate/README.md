@@ -31,15 +31,15 @@ TCP `127.0.0.1:38108` 仅在回环监听，用于本机调试与本机 Moo 拉�
 
 | 项目 | 内容 |
 | --- | --- |
-| 版本 | 0.2.50 |
+| 版本 | 0.2.55 |
 | 架构 | x86_64 / arm64 |
-| 包来源 | GitHub Release `mate-v0.2.50` |
-| 更新说明 | 软仓 Gitee 源支持仓库目录形态（release 停更后仍能发现 `server-data/apps/`，可发现应用数量大幅提升）；设置页新增应用日志卡片；图标改为优先从包内提取并升级 512 高清；数据与备份合并为一张卡片、日志卡置末；安装向导对齐 Moo |
+| 包来源 | GitHub Release `mate-v0.2.55` |
+| 更新说明 | 修复 index 顺序、并发备份覆盖、损坏索引静默重建 |
 
 ## 下载
 
-- x86_64：[moo-mate_0.2.50_x86.fpk](https://github.com/Blue-Mink/moo/releases/download/mate-v0.2.50/moo-mate_0.2.50_x86.fpk) · [sha256](./moo-mate_0.2.50_x86.fpk.sha256)
-- arm64：[moo-mate_0.2.50_arm.fpk](https://github.com/Blue-Mink/moo/releases/download/mate-v0.2.50/moo-mate_0.2.50_arm.fpk) · [sha256](./moo-mate_0.2.50_arm.fpk.sha256)
+- x86_64：[moo-mate_0.2.55_x86.fpk](https://github.com/Blue-Mink/moo/releases/download/mate-v0.2.55/moo-mate_0.2.55_x86.fpk) · [sha256](./moo-mate_0.2.55_x86.fpk.sha256)
+- arm64：[moo-mate_0.2.55_arm.fpk](https://github.com/Blue-Mink/moo/releases/download/mate-v0.2.55/moo-mate_0.2.55_arm.fpk) · [sha256](./moo-mate_0.2.55_arm.fpk.sha256)
 
 ## 安装
 
@@ -59,7 +59,7 @@ TCP `127.0.0.1:38108` 仅在回环监听，用于本机调试与本机 Moo 拉�
 安装前可用 `.sha256` 校验完整性：
 
 ```bash
-sha256sum -c moo-mate_0.2.50_x86.fpk.sha256
+sha256sum -c moo-mate_0.2.55_x86.fpk.sha256
 ```
 
 ## 使用步骤

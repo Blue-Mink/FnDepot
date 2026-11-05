@@ -58,7 +58,7 @@
 
 | # | 做什么 | 说明 |
 | --- | --- | --- |
-| 1 | [下载 FPK](https://github.com/Blue-Mink/moo/releases/latest) | 当前 `0.6.500` · x86 `6fc7dbe50a7d2a9d19ed685be92a8a9a12a9ab14113c109e930c04cb894a290b`（5.03MB） / arm `a1e870d342bf68c139da2873229452694f14d796e292fdd4eebf2f2ca2476a87`（4.55MB） |
+| 1 | [下载 FPK](https://github.com/Blue-Mink/moo/releases/latest) | 当前 `0.6.506` · x86 `4de1c412d100237854269e6ba7d23a49c780e6400df18efa6a51d3f3e65cbc1c`（5.08MB） / arm `204dc13c40e063b58f0a0f2298ee3eb58d3ce7a665b6f9c64bf4eb1334e8bbd3`（4.61MB） |
 | 2 | 应用中心 → 手动安装 | 向导可选 Web 端口（默认 `38100`） |
 | 3 | 面板打开 `/app/moo/` | 统一网关入口，继承面板登录 + 仅管理员 |
 | 4 | （可选）配置推送渠道 | 设置 → 通知设置：企业微信 / 钉钉 / 飞书等 7 种外部渠道 |
@@ -195,7 +195,7 @@ go test ./...     # 单元测试
 
 > 其余三项随本仓库分发（见 [`skills/`](https://github.com/Blue-Mink/moo/tree/main/skills)），「下载」列为对应资源的单独压缩包（保持原目录结构）。
 
-📦 **[下载「文档与技能」压缩包](https://github.com/Blue-Mink/moo/raw/main/downloads/moo-docs-skills.zip)**（约 200 KB）——打包 `应用介绍.md`、`docs/` 下全部 Markdown（API / 应用源协议 / AGENTS / 设计记录）与四个随仓库分发的 Agent Skill（`skills/moo`、`skills/fpk-build-to-moo`、`skills/ai`、`skills/moo-app-security-audit`），解压后把 `skills/` 下的目录放进工作区即可被 Agent 识别；配图不打包，见仓库 [`docs/`](https://github.com/Blue-Mink/moo/tree/main/docs)。
+📦 **[下载「文档与技能」压缩包](https://github.com/Blue-Mink/moo/raw/main/downloads/moo-docs-skills.zip)**（约 140 KB）——内容严格对应 Moo 关于页「文档和技能」卡片：`README.md`、`应用介绍.md`、`docs/API.md` 与两个 Agent Skill（`skills/moo`、`skills/moo-app-security-audit`），解压后把 `skills/` 下的目录放进工作区即可被 Agent 识别；配图不打包，见仓库 [`docs/`](https://github.com/Blue-Mink/moo/tree/main/docs)。开发者向的构建 / 发布 / 索引维护材料另见 **[开发者文档压缩包](https://github.com/Blue-Mink/moo/raw/main/downloads/moo-devdocs.zip)**。
 
 ## 开发者须知
 
@@ -207,6 +207,7 @@ go test ./...     # 单元测试
 | [构建并发布到 Moo 技能](https://github.com/Blue-Mink/moo/tree/main/skills/fpk-build-to-moo) | Agent Skill：**从构建 FPK 到发布 Moo 的全流程**——构建与本地验证 → 写 `moo.json` → 放仓库（匿名可达）→ 搜索框自测 → 添加为源与详情页验收 → 版本迭代与发布脱敏 | [zip](https://github.com/Blue-Mink/moo/raw/main/downloads/moo-skill-build-export.zip) |
 | [发布到 FnDepot 技能](https://github.com/Blue-Mink/fpk-build-to-fndepot-skill) | Agent Skill：FnDepot V2 协议与上架流程 | [main.zip](https://github.com/Blue-Mink/fpk-build-to-fndepot-skill/archive/refs/heads/main.zip) |
 | [索引维护脚本](https://github.com/Blue-Mink/moo/blob/main/tools/update_moo_json.py) | 已有 `moo.json` 的仓库只更新一个应用：读包内 manifest 自动算 sha256 与字节、按 Release 约定拼直链、加/更新 `releases` 节点（默认只留最近 2 版，`--keep 0` 全留），**其余应用逐字节不变**；`--check` 供 CI 复算；默认拒绝把索引写回更旧版本（要补录旧版才加 `--allow-downgrade`）；`--sync-meta` 可选按 manifest 同步显示名 / 简介 / 许可证等字段。附 [维护指南](https://github.com/Blue-Mink/moo/blob/main/templates/MOO_JSON_MAINTENANCE.md) 与 [发版自动更新工作流](https://github.com/Blue-Mink/moo/blob/main/templates/moo-autoupdate.yml)（预发布不进索引、下载后与 `asset.digest` 逐包对账） | — |
+| [开发者文档下载包](https://github.com/Blue-Mink/moo/raw/main/downloads/moo-devdocs.zip) | 本节的离线合集：FPK 构建技能、发布到 Moo 技能、索引维护说明与脚本、自动跟版工作流模板（约 330 KB） | [zip](https://github.com/Blue-Mink/moo/raw/main/downloads/moo-devdocs.zip) |
 
 > `fn-fpk-builder` / `fpk-build-to-fndepot` 为独立仓库的技能，克隆到工作区的 `skills/` 目录即可被 Agent 识别（「下载」列为 GitHub 自动归档）；`skills/fpk-build-to-moo` 随本仓库分发。
 
@@ -218,7 +219,7 @@ go test ./...     # 单元测试
 
 - **Moo 商店**：Moo 里添加源 `https://raw.githubusercontent.com/Blue-Mink/moo/main/moo.json`，搜「Moo Mate」安装
 - **FnDepot 源**：添加源 `https://raw.githubusercontent.com/Blue-Mink/FnDepot/main/fnpack.json`，在列表中找到 Moo Mate
-- **手动**：下载 `moo-mate_0.2.36_x86.fpk`（或 `_arm.fpk`），校验同名 `.sha256` 后在应用中心手动安装
+- **手动**：下载 `moo-mate_0.2.55_x86.fpk`（或 `_arm.fpk`），校验同名 `.sha256` 后在应用中心手动安装
 
 用法三步：粘贴仓库链接 → 确认发现的应用并生成索引 → 一键加源到本机 Moo。
 
@@ -226,7 +227,7 @@ go test ./...     # 单元测试
 | --- | --- |
 | 端口 | `38108`（仅本机回环，经面板网关访问） |
 | 平台 | x86 / arm |
-| 自更新 | 应用内自更新：从 GitHub 拉取新包，sha256 校验通过后交系统应用中心就地升级，校验不过即拒绝；升级不丢数据 |
+| 自更新 | 应用内自更新：从 GitHub 拉取新包，sha256 与 minisign 双校验通过后交系统应用中心就地升级，缺侧车或验签不过即拒绝；升级不丢数据 |
 | GitHub Token | 自动复用本机 Moo 的设置，伴侣侧无需填写 |
 
 功能与使用细节见 [cmd/moo-mate/README.md](https://github.com/Blue-Mink/moo/blob/main/cmd/moo-mate/README.md)。
