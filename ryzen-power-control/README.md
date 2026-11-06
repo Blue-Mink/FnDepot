@@ -12,9 +12,9 @@
 
 | | |
 |---|---|
-| 包版本 | **v1.0.7** |
-| FPK | [ryzen-power-control-1.0.7.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/ryzen-power-control-v1.0.7/ryzen-power-control-1.0.7.fpk) |
-| SHA256 | `b7638f503333fd6c068cd8bb1b24cd9ce1020f0aee2b85c4d20eb4664fb45281` |
+| 包版本 | **v1.0.9** |
+| FPK | [ryzen-power-control-1.0.9.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/ryzen-power-control-v1.0.9/ryzen-power-control-1.0.9.fpk) |
+| SHA256 | `389b9edf67096cb5344e870ff3d37e8a54d85fb3444ddc16a321fe92d8f053c3` |
 | 运行方式 | 原生（root，`/dev/mem` + ryzen_smu 驱动自动修复） |
 | 平台 | fnOS x86_64（要求 fnOS ≥ 1.1.3100） |
 
@@ -29,6 +29,6 @@
 
 ## 源码
 
-`source/` 目录为上游仓库 v1.0.7 的完整镜像（55 个文件，含 `app/`、`cmd/`、`config/`、`manifest`、`tests/` 与 ryzen_smu 驱动源码）。
+`source/` 目录为上游仓库 v1.0.9 的完整镜像（45 个文件，含 `app/`、`cmd/`、`config/`、`manifest`、`tests/` 与 ryzen_smu 驱动源码）。
 
 详见 [source/README.md](source/README.md)。

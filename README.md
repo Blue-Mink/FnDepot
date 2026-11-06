@@ -200,7 +200,7 @@ TREK 是一款自托管旅行规划工具，基于 [liketrek/TREK](https://githu
 
 <div align="center">
 
-[![Dog-dev](https://img.shields.io/badge/Dog--dev-v1.3.8-blue?style=flat-square)](https://github.com/Blue-Mink/FnDepot) [![Platform](https://img.shields.io/badge/Platform-x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
+[![Dog-dev](https://img.shields.io/badge/Dog--dev-v1.3.12-blue?style=flat-square)](https://github.com/Blue-Mink/FnDepot) [![Platform](https://img.shields.io/badge/Platform-x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
 
 </div>
 
@@ -210,8 +210,8 @@ TREK 是一款自托管旅行规划工具，基于 [liketrek/TREK](https://githu
 | :--- | :--- |
 | 👨‍💻 **原作者** | [MisiteQ](https://github.com/MisiteQ) |
 | 📁 **原项目** | [github-plus-plus](https://github.com/MisiteQ/github-plus-plus) |
-| 📥 **安装方式** | 下载 [dog-dev-1.3.8-fnos-amd64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/dog-dev-v1.3.8/dog-dev-1.3.8-fnos-amd64.fpk)（x86）或 [dog-dev-1.3.8-fnos-arm64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/dog-dev-v1.3.8/dog-dev-1.3.8-fnos-arm64.fpk)（arm64）在 fnOS 应用中心手动安装 |
-| 🏷️ **版本** | v1.3.8 |
+| 📥 **安装方式** | 下载 [dog-dev-1.3.12-fnos-amd64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/dog-dev-v1.3.12/dog-dev-1.3.12-fnos-amd64.fpk)（x86）或 [dog-dev-1.3.12-fnos-arm64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/dog-dev-v1.3.12/dog-dev-1.3.12-fnos-arm64.fpk)（arm64）在 fnOS 应用中心手动安装 |
+| 🏷️ **版本** | v1.3.12 |
 | 🌐 **默认端口** | 代理 37710 / 控制台 37717 |
 | 📖 **详细说明** | [dog-dev/README.md](dog-dev/README.md) |
 
@@ -300,7 +300,7 @@ AMD Ryzen APU 功耗监控与功耗限制控制：读取功耗墙（STAPM / PPT 
 
 <div align="center">
 
-[![Ryzen 功耗控制](https://img.shields.io/badge/Ryzen--Power--Control-v1.0.7-brightgreen?style=flat-square)](https://github.com/Blue-Mink/FnDepot/releases/tag/ryzen-power-control-v1.0.7) [![Platform](https://img.shields.io/badge/Platform-x86__64-lightgrey?style=flat-square)](#)
+[![Ryzen 功耗控制](https://img.shields.io/badge/Ryzen--Power--Control-v1.0.9-brightgreen?style=flat-square)](https://github.com/Blue-Mink/FnDepot/releases/tag/ryzen-power-control-v1.0.9) [![Platform](https://img.shields.io/badge/Platform-x86__64-lightgrey?style=flat-square)](#)
 
 </div>
 
@@ -311,7 +311,7 @@ AMD Ryzen APU 功耗监控与功耗限制控制：读取功耗墙（STAPM / PPT 
 | 👨‍💻 **原作者** | [LANMIN-X](https://github.com/LANMIN-X) |
 | 📁 **原项目** | [RyzenAdj-for-fnOS](https://github.com/LANMIN-X/RyzenAdj-for-fnOS) |
 | 📥 **安装方式** | 在飞牛 FnDepot 直接添加本源，客户端中搜索「Ryzen 功耗控制」即可安装 |
-| 🏷️ **版本** | v1.0.7（上游官方 FPK + 源码快照，要求 fnOS ≥ 1.1.3100） |
+| 🏷️ **版本** | v1.0.9（上游官方 FPK + 源码快照，要求 fnOS ≥ 1.1.3100） |
 | 🌐 **运行方式** | 桌面应用（root，`/dev/mem` + ryzen_smu），不占端口 |
 | 📖 **详细说明** | [ryzen-power-control/README.md](ryzen-power-control/README.md) |
 

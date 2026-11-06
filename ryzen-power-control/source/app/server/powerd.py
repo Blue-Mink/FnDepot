@@ -3,6 +3,8 @@ import argparse
 import gzip
 import http.server
 import json
+import logging
+from logging.handlers import RotatingFileHandler
 import math
 import mimetypes
 import os
@@ -13,6 +15,7 @@ import socketserver
 import subprocess
 import sys
 import threading
+import tempfile
 import time
 import urllib.parse
 from datetime import datetime
@@ -20,7 +23,8 @@ from pathlib import Path
 
 
 APP = "ryzen-power-control"
-VERSION = "1.0.7"
+VERSION = "1.0.9"
+BOOST_PATH = Path("/sys/devices/system/cpu/cpufreq/boost")
 MIN_WATTS = 2
 MAX_WATTS = 200
 MAX_TEST_SECONDS = 120
@@ -94,6 +98,7 @@ def parse_info(text):
             "apu": optional_watts(values.get("PPT VALUE APU")),
         },
         "temperature": values["THM VALUE CORE"],
+        "temperature_limit": optional_watts(values.get("THM LIMIT CORE")),
     }
 
 
@@ -104,7 +109,11 @@ class PowerApp:
         self.state_dir.mkdir(parents=True, exist_ok=True)
         self.ryzenadj_log_path = self.state_dir / "ryzenadj.log"
         self.ryzenadj_log_lock = threading.Lock()
-        self.ryzenadj_log_path.write_text("", encoding="utf-8")
+        for path in (self.ryzenadj_log_path, *self.state_dir.glob("ryzenadj.log.[12]")):
+            if path.exists():
+                path.unlink()
+        self.log_handler = RotatingFileHandler(self.ryzenadj_log_path, maxBytes=5 * 1024 * 1024, backupCount=2, encoding="utf-8")
+        self.last_poll_log = 0.0
         self.log_clear_deadline = time.monotonic() + 24 * 60 * 60
         self._log_system_diagnostics()
         self.baseline_path = self.state_dir / "baseline.json"
@@ -117,8 +126,13 @@ class PowerApp:
         self.test_lock = threading.Lock()
         self.baseline = None
         self.baseline_error = None
+        self.baseline_temperature = None
         self.control_enabled = False
+        self.startup_enabled = False
         self.target_watts = None
+        self.target_temperature = None
+        self.target_boost = None
+        self.startup_error = None
         self.target_limits = None
         self.separate_limits = False
         self.test_active = False
@@ -131,22 +145,43 @@ class PowerApp:
         self.smu_repair_error = None
         self.ryzenadj_backend = "smu"
         self._load_or_capture_baseline()
+        try:
+            payload = json.loads(self.baseline_path.read_text()) if self.baseline_path.exists() else {}
+            self.baseline_temperature = payload.get("temperature_limit")
+            if self.baseline_temperature is not None and (
+                isinstance(self.baseline_temperature, bool)
+                or not isinstance(self.baseline_temperature, (int, float))
+                or not math.isfinite(self.baseline_temperature)
+            ):
+                raise ValueError("保存的温度恢复基准无效")
+            if self.baseline_temperature is None:
+                self.baseline_temperature = self._read_info()["temperature_limit"]
+                if self.baseline is not None:
+                    self._save_baseline(self.baseline)
+        except (OSError, ValueError, PowerError) as exc:
+            self.baseline_temperature = None
+            self._log_command(None, error=str(exc), event="temperature baseline capture")
         self._load_control_state()
         if self.control_enabled:
             try:
-                info = self._read_info()
-            except PowerError:
+                self._apply_saved_settings(self._read_info())
+            except (PowerError, OSError) as exc:
                 self.control_enabled = False
-                self._save_control_state()
-                return
-            if not self._supported_limit_keys(info):
-                self.control_enabled = False
-                self._save_control_state()
-                return
-            supported_keys = self._supported_limit_keys(info)
-            if max(self.target_limits[key] for key in supported_keys) > self._limit_range(info)["max"]:
-                raise PowerError("保存的功耗目标超过固件报告范围")
-            self._apply_limits({key: self.target_limits[key] for key in supported_keys})
+                self.startup_error = "启动时应用保存的设置失败：%s；保存的目标已保留，可重新开启接管重试。" % exc
+                self._log_command(None, error=self.startup_error, event="startup settings")
+
+    def _apply_saved_settings(self, info):
+        self._require_supported_cpu(info)
+        supported_keys = self._supported_limit_keys(info)
+        maximum = self._limit_range(info)["max"]
+        if any(not MIN_WATTS <= self.target_limits[key] <= maximum for key in supported_keys):
+            raise PowerError("保存的功耗目标超过当前设备范围")
+        self._apply_limits({key: self.target_limits[key] for key in supported_keys})
+        if self.target_temperature is not None:
+            self.set_temperature(self.target_temperature, persist=False)
+        if self.target_boost is not None:
+            self.set_boost(self.target_boost, persist=False)
+        self.startup_error = None
 
     @staticmethod
     def _power_limit_support(cpu_family):
@@ -185,7 +220,11 @@ class PowerApp:
         except OSError as exc:
             self._log_command(command, error=str(exc))
             raise PowerError("无法运行 %s：%s" % (command[0], exc)) from exc
-        self._log_command(command, result=result)
+        poll = "--dump-table" in command and result.returncode == 0
+        if not poll or time.monotonic() - self.last_poll_log >= 60:
+            self._log_command(command, result=result)
+            if poll:
+                self.last_poll_log = time.monotonic()
         if result.returncode != 0:
             detail = "\n".join(part.strip() for part in (result.stdout, result.stderr) if part.strip())
             raise PowerError("%s 失败（退出码 %s）：%s" % (Path(command[0]).name, result.returncode, detail[-1200:]))
@@ -307,8 +346,7 @@ class PowerApp:
 
         capture("ls -la /sys/kernel/ryzen_smu_drv 2>&1", ["ls", "-la", "/sys/kernel/ryzen_smu_drv"])
         try:
-            with self.ryzenadj_log_lock, self.ryzenadj_log_path.open("a", encoding="utf-8") as log:
-                log.write("\n".join(lines) + "\n")
+            self._append_log("\n".join(lines))
         except OSError as exc:
             print("无法写入系统诊断日志：%s" % exc, flush=True)
 
@@ -330,78 +368,71 @@ class PowerApp:
             if content:
                 lines.extend((label + ":", content.rstrip("\n")))
         try:
-            with self.ryzenadj_log_lock, self.ryzenadj_log_path.open("a", encoding="utf-8") as log:
-                log.write("\n".join(lines) + "\n\n")
+            self._append_log("\n".join(lines) + "\n")
         except OSError as exc:
             print("无法写入 RyzenAdj 日志：%s" % exc, flush=True)
 
-    def _kernel_logs(self):
-        def capture(label, command):
-            lines = ["command: " + label]
-            try:
-                result = subprocess.run(
-                    command,
-                    check=False,
-                    capture_output=True,
-                    text=True,
-                    encoding="utf-8",
-                    errors="replace",
-                    timeout=30,
-                )
-            except subprocess.TimeoutExpired as exc:
-                lines.append("error: command timed out after 30 seconds")
-                stdout = self._log_text(exc.stdout)
-                stderr = self._log_text(exc.stderr)
-                returncode = None
-                ok = False
-            except OSError as exc:
-                lines.append("error: " + str(exc))
-                stdout = stderr = ""
-                returncode = None
-                ok = False
-            else:
-                stdout, stderr = result.stdout, result.stderr
-                returncode = result.returncode
-                ok = result.returncode == 0
-            if returncode is not None:
-                lines.append("exit code: %s" % returncode)
-            if stdout:
-                lines.extend(("stdout:", stdout.rstrip("\n")))
-            if stderr:
-                lines.extend(("stderr:", stderr.rstrip("\n")))
-            return "\n".join(lines), ok, stdout
-
-        journal, ok, output = capture(
-            "journalctl -k -b --no-pager -o short-iso",
-            ["journalctl", "-k", "-b", "--no-pager", "-o", "short-iso"],
-        )
-        header = "[%s] current-boot kernel logs" % datetime.now().astimezone().isoformat(timespec="seconds")
-        if ok and output.strip() and output.strip() != "-- No entries --":
-            return "\n".join((header, "source: systemd journal", journal))
-        dmesg, _, _ = capture("dmesg", ["dmesg"])
-        return "\n\n".join((header, "source: journalctl (empty or unavailable)", journal, "source: dmesg ring buffer", dmesg))
+    def _append_log(self, text):
+        record = logging.LogRecord(APP, logging.INFO, "", 0, text, (), None)
+        with self.ryzenadj_log_lock:
+            if self.log_handler.shouldRollover(record):
+                self.log_handler.doRollover()
+            if self.log_handler.stream is None:
+                self.log_handler.stream = self.ryzenadj_log_path.open("a", encoding="utf-8")
+            self.log_handler.stream.write(text + "\n")
+            self.log_handler.stream.flush()
 
     def logs(self):
-        def read(path):
-            try:
-                return path.read_text(encoding="utf-8", errors="replace")
-            except FileNotFoundError:
-                return ""
-            except OSError as exc:
-                return "读取日志失败：%s" % exc
+        try:
+            with self.ryzenadj_log_lock, self.ryzenadj_log_path.open("rb") as log:
+                size = log.seek(0, 2)
+                log.seek(max(0, size - 200 * 1024))
+                data = log.read(200 * 1024)
+            if size > len(data):
+                data = data.partition(b"\n")[2]
+            text = data.decode("utf-8", errors="replace")
+            lines = text.splitlines()
+            return {"ok": True, "ryzenadj": "\n".join(lines[-500:]),
+                    "truncated": size > len(data) or len(lines) > 500}
+        except OSError as exc:
+            raise PowerError("读取日志失败：%s" % exc) from exc
 
-        return {
-            "ok": True,
-            "ryzenadj": read(self.ryzenadj_log_path),
-            "kernel": self._kernel_logs(),
-        }
+    def export_logs(self, output):
+        # Copy a bounded snapshot before collecting kernel logs; writers can continue.
+        with self.ryzenadj_log_lock:
+            for path in (self.state_dir / "ryzenadj.log.2", self.state_dir / "ryzenadj.log.1", self.ryzenadj_log_path):
+                if path.exists():
+                    with path.open("rb") as source:
+                        shutil.copyfileobj(source, output, 64 * 1024)
+        output.write(("\n\n[%s] current-boot kernel logs\n" % datetime.now().astimezone().isoformat(timespec="seconds")).encode())
+        for command in (["journalctl", "-k", "-b", "--no-pager", "-o", "short-iso"], ["dmesg"]):
+            output.write(("command: " + " ".join(command) + "\n").encode())
+            output.flush()
+            start = output.tell()
+            try:
+                result = subprocess.run(command, stdout=output, stderr=output, timeout=30, check=False)
+                end = output.tell()
+                output.seek(start)
+                sample = output.read(min(end - start, 512)).strip()
+                output.seek(end)
+                output.write(("\nexit code: %s\n" % result.returncode).encode())
+                if result.returncode == 0 and sample and sample != b"-- No entries --":
+                    break
+            except (OSError, subprocess.TimeoutExpired) as exc:
+                output.write(("\nerror: %s\n" % exc).encode())
+        output.flush()
 
     def clear_logs(self, only_if_due=False):
         with self.ryzenadj_log_lock:
             if only_if_due and time.monotonic() < self.log_clear_deadline:
                 return {"ok": True, "cleared": False}
             try:
+                self.log_handler.close()
+                for path in (self.ryzenadj_log_path, *self.state_dir.glob("ryzenadj.log.[12]")):
+                    if path.exists():
+                        path.unlink()
                 self.ryzenadj_log_path.write_text("", encoding="utf-8")
+                self.last_poll_log = 0.0
                 service_log = self.state_dir / "info.log"
                 if service_log.exists():
                     service_log.write_text("", encoding="utf-8")
@@ -499,7 +530,7 @@ class PowerApp:
         return checked
 
     def _save_baseline(self, limits):
-        payload = json.dumps({"limits": limits, "boot_id": self.boot_id}, ensure_ascii=False).encode("utf-8")
+        payload = json.dumps({"limits": limits, "boot_id": self.boot_id, "temperature_limit": self.baseline_temperature}, ensure_ascii=False).encode("utf-8")
         temporary = self.baseline_path.with_suffix(".tmp")
         temporary.write_bytes(payload)
         os.replace(temporary, self.baseline_path)
@@ -507,9 +538,13 @@ class PowerApp:
     def _save_control_state(self):
         payload = json.dumps({
             "enabled": self.control_enabled,
+            "startup_enabled": self.startup_enabled,
+            "boot_id": self.boot_id,
             "watts": self.target_watts,
             "limits": self.target_limits,
             "separate_limits": self.separate_limits,
+            "temperature": self.target_temperature,
+            "boost": self.target_boost,
         }, ensure_ascii=False).encode("utf-8")
         temporary = self.control_path.with_suffix(".tmp")
         temporary.write_bytes(payload)
@@ -524,9 +559,19 @@ class PowerApp:
         try:
             payload = json.loads(self.control_path.read_text(encoding="utf-8"))
             enabled = payload.get("enabled")
+            startup_enabled = payload.get("startup_enabled", enabled)
+            if not isinstance(startup_enabled, bool):
+                raise ValueError("开机启动状态无效")
             watts = payload.get("watts")
             limits = payload.get("limits")
             separate = payload.get("separate_limits", False)
+            temperature = payload.get("temperature")
+            boost = payload.get("boost")
+            if temperature is not None and (isinstance(temperature, bool) or not isinstance(temperature, (int, float))
+                    or not math.isfinite(temperature) or not 20 <= temperature <= 95):
+                raise ValueError("温度目标无效")
+            if boost is not None and not isinstance(boost, bool):
+                raise ValueError("睿频目标无效")
             if not isinstance(enabled, bool):
                 raise ValueError("enabled 无效")
             if limits is None and watts is not None:
@@ -540,9 +585,13 @@ class PowerApp:
                     raise ValueError("功耗上限无效")
             if not isinstance(separate, bool):
                 raise ValueError("separate_limits 无效")
-            if enabled and limits is None:
+            if (enabled or startup_enabled) and limits is None:
                 raise ValueError("启用状态缺少功耗目标")
-            self.control_enabled = enabled
+            self.target_temperature = temperature
+            self.target_boost = boost
+            self.startup_enabled = startup_enabled
+            same_boot = self.boot_id is not None and payload.get("boot_id") == self.boot_id
+            self.control_enabled = enabled if same_boot else startup_enabled
             self.target_limits = limits
             self.target_watts = self._common_watts(limits)
             self.separate_limits = separate or (limits is not None and self.target_watts is None)
@@ -598,10 +647,17 @@ class PowerApp:
             ))
         with self.io_lock:
             self._run(args + ["--info"])
-            actual = parse_info(self._run(["--info"]))["limits"]
+            deadline = time.monotonic() + 3
+            while True:
+                actual = parse_info(self._run(["--info"]))["limits"]
+                if all(abs(actual[key] - expected) <= 0.01 for key, expected in limits.items()):
+                    return actual
+                if time.monotonic() >= deadline:
+                    break
+                time.sleep(0.25)
         for key, expected in limits.items():
             if abs(actual[key] - expected) > 0.01:
-                detail = "%s 设置未生效：期望 %.3fW，实际读回 %.3fW；固件可能拒绝、截断或覆盖设置。" % (
+                detail = "%s 设置未生效：等待 3 秒后期望 %.3fW，实际读回 %.3fW；固件可能拒绝、截断或覆盖设置。" % (
                     LIMIT_FIELDS[key], expected, actual[key]
                 )
                 self._log_command(None, error=detail, event="power limit readback verification")
@@ -659,6 +715,89 @@ class PowerApp:
         self._save_control_state()
         return actual
 
+    def set_temperature(self, value, persist=True):
+        if isinstance(value, bool) or not isinstance(value, (int, float)) or not math.isfinite(value) or not 20 <= value <= 95:
+            raise PowerError("温度上限需为 20–95°C")
+        if not self.control_enabled:
+            raise PowerError("请先开启功耗接管")
+        info = self._read_info()
+        self._require_supported_cpu(info)
+        if info["temperature_limit"] is None:
+            raise PowerError("当前处理器未提供温度上限读数，无法校验设置")
+        with self.io_lock:
+            self._run(["--tctl-temp=%d" % round(value)])
+            deadline = time.monotonic() + 3
+            while True:
+                actual = parse_info(self._run(["--info"]))["temperature_limit"]
+                if actual is not None and abs(actual - round(value)) < 0.1:
+                    break
+                if time.monotonic() >= deadline:
+                    detail = "温度上限设置未生效：期望 %s°C，实际读回 %s°C" % (round(value), actual)
+                    self._log_command(None, error=detail, event="temperature readback verification")
+                    raise PowerError(detail)
+                time.sleep(0.25)
+        if persist:
+            self.target_temperature = round(value)
+            self._save_control_state()
+        return actual
+
+    def restore_temperature(self):
+        if self.baseline_temperature is None:
+            raise PowerError("尚未记录温度恢复基准")
+        return self.set_temperature(self.baseline_temperature)
+
+    @staticmethod
+    def boost_status():
+        try:
+            value = BOOST_PATH.read_text().strip()
+        except FileNotFoundError:
+            return {"enabled": None, "error": "当前系统未提供睿频控制接口"}
+        except OSError as exc:
+            return {"enabled": None, "error": "读取睿频状态失败：%s" % exc}
+        if value not in ("0", "1"):
+            return {"enabled": None, "error": "系统返回了无效的睿频状态"}
+        return {"enabled": value == "1", "error": None}
+
+    def set_boost(self, enabled, persist=True):
+        if not isinstance(enabled, bool):
+            raise PowerError("睿频状态无效")
+        with self.io_lock:
+            before = self.boost_status()
+            if before["error"]:
+                raise PowerError(before["error"])
+            try:
+                BOOST_PATH.write_text("1" if enabled else "0")
+            except OSError as exc:
+                self._log_command(None, error=str(exc), event="CPU boost update")
+                raise PowerError("修改睿频状态失败：%s" % exc) from exc
+            actual = self.boost_status()
+            if actual["error"] or actual["enabled"] != enabled:
+                detail = actual["error"] or "睿频状态写入后未生效"
+                self._log_command(None, error=detail, event="CPU boost update")
+                raise PowerError(detail)
+            self._log_command(None, stdout="enabled: %s" % enabled, event="CPU boost update")
+        if persist:
+            self.target_boost = enabled
+            self._save_control_state()
+        return actual["enabled"]
+
+    def set_startup(self, enabled):
+        if not isinstance(enabled, bool):
+            raise PowerError("开机启动状态无效")
+        if enabled and self.target_limits is None:
+            info = self._read_info()
+            self._require_supported_cpu(info)
+            self.target_limits = info["limits"]
+            self.target_watts = self._common_watts(self.target_limits)
+        previous = self.startup_enabled
+        self.startup_enabled = enabled
+        try:
+            self._save_control_state()
+        except OSError as exc:
+            self.startup_enabled = previous
+            raise PowerError("保存开机启动设置失败：%s" % exc) from exc
+        return self.startup_enabled
+
     def set_control(self, enabled):
         if not isinstance(enabled, bool):
             raise PowerError("功耗接管状态无效")
@@ -683,12 +822,16 @@ class PowerApp:
                 raise PowerError("已保存的功耗值超出当前设备范围")
             self.control_enabled = True
             try:
-                self._apply_limits({key: self.target_limits[key] for key in supported_keys})
+                self._apply_saved_settings(info)
             except Exception:
                 self.control_enabled = False
                 raise
             return self.control_enabled
+        if self.target_temperature is not None and self.baseline_temperature is None:
+            raise PowerError("尚未记录温度恢复基准，无法关闭接管并恢复温度")
         self.restore(persist=False)
+        if self.target_temperature is not None:
+            self.set_temperature(self.baseline_temperature, persist=False)
         self.control_enabled = False
         self._save_control_state()
         return self.control_enabled
@@ -700,10 +843,10 @@ class PowerApp:
         self._require_supported_cpu(info)
         supported_keys = self._supported_limit_keys(info)
         actual = self._set_limits({key: self.baseline[key] for key in supported_keys})
-        self.target_limits = actual
-        self.target_watts = self._common_watts({key: actual[key] for key in supported_keys})
-        self.separate_limits = self.target_watts is None
         if persist:
+            self.target_limits = actual
+            self.target_watts = self._common_watts({key: actual[key] for key in supported_keys})
+            self.separate_limits = self.target_watts is None
             self._save_control_state()
         return actual
 
@@ -855,6 +998,7 @@ class PowerApp:
                 "cpu_series": None,
                 "power_limit_support": self._power_limit_support("Unknown"),
                 "cpu_error": str(exc),
+                "boost": self.boost_status(),
             }
         cpu_family = current["cpu_family"]
         power_limit_support = self._power_limit_support(cpu_family)
@@ -869,13 +1013,18 @@ class PowerApp:
             "limits": current["limits"],
             "baseline": self.baseline,
             "baseline_error": self.baseline_error,
+            "startup_error": self.startup_error,
             "control_enabled": self.control_enabled,
+            "startup_enabled": self.startup_enabled,
             "target_watts": self.target_watts,
             "target_limits": self.target_limits,
             "separate_limits": self.separate_limits,
             "power": current["power"],
             "temperature": current["temperature"],
+            "temperature_limit": current["temperature_limit"],
+            "baseline_temperature": self.baseline_temperature,
             "cpu_frequency": self._cpu_frequency(),
+            "boost": self.boost_status(),
             "test": self.test_status(),
             "limit_range": self._limit_range(current),
         }
@@ -965,7 +1114,30 @@ class Handler(http.server.BaseHTTPRequestHandler):
                 self._json({"ok": False, "error": str(exc)}, 503)
             return
         if path == "/api/logs":
-            self._json(self.server.app.logs())
+            try:
+                self._json(self.server.app.logs())
+            except PowerError as exc:
+                self._json({"ok": False, "error": str(exc)}, 503)
+            return
+        if path == "/api/logs/download":
+            try:
+                with tempfile.TemporaryFile() as output:
+                    self.server.app.export_logs(output)
+                    size = output.tell()
+                    output.seek(0)
+                    self.send_response(200)
+                    self.send_header("Content-Type", "text/plain; charset=utf-8")
+                    self.send_header("Content-Disposition", 'attachment; filename="ryzenadj-logs.txt"')
+                    self.send_header("Content-Length", str(size))
+                    self.send_header("Cache-Control", "no-store")
+                    self.send_header("X-Content-Type-Options", "nosniff")
+                    self.end_headers()
+                    if self.command != "HEAD":
+                        shutil.copyfileobj(output, self.wfile, 64 * 1024)
+            except (BrokenPipeError, ConnectionResetError):
+                return
+            except OSError as exc:
+                self._json({"ok": False, "error": "导出日志失败：%s" % exc}, 503)
             return
         if path.startswith("/api/"):
             self._json({"ok": False, "error": "unknown endpoint"}, 404)
@@ -991,6 +1163,18 @@ class Handler(http.server.BaseHTTPRequestHandler):
                           if "limits" in payload
                           else self.server.app.set_watts(payload.get("watts")))
                 self._json({"ok": True, "limits": limits})
+            elif path == "/api/temperature/set":
+                limit = self.server.app.set_temperature(payload.get("temperature"))
+                self._json({"ok": True, "temperature_limit": limit})
+            elif path == "/api/temperature/restore":
+                limit = self.server.app.restore_temperature()
+                self._json({"ok": True, "temperature_limit": limit})
+            elif path == "/api/cpu/boost":
+                enabled = self.server.app.set_boost(payload.get("enabled"))
+                self._json({"ok": True, "enabled": enabled})
+            elif path == "/api/power/startup":
+                enabled = self.server.app.set_startup(payload.get("enabled"))
+                self._json({"ok": True, "enabled": enabled})
             elif path == "/api/power/control":
                 enabled = self.server.app.set_control(payload.get("enabled"))
                 self._json({"ok": True, "enabled": enabled})

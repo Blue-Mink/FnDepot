@@ -20,12 +20,17 @@
         </div>
       </div>
       <div class="header-meta">
+        <label class="takeover-control" for="startup-enabled">
+          <span class="switch-label-desktop">开机启动</span><span class="switch-label-mobile">自启</span>
+          <input id="startup-enabled" type="checkbox" role="switch" aria-label="开机启动功耗接管">
+          <span class="switch-track" aria-hidden="true"></span>
+        </label>
+        <span class="header-separator" aria-hidden="true">|</span>
         <label class="takeover-control" for="power-enabled">
-          <span>功耗接管</span>
+          <span class="switch-label-desktop">功耗接管</span><span class="switch-label-mobile">接管</span>
           <input id="power-enabled" type="checkbox" role="switch" aria-label="功耗接管">
           <span class="switch-track" aria-hidden="true"></span>
         </label>
-        <span class="sync-note">每 2 秒更新</span>
       </div>
     </header>
 
@@ -108,6 +113,10 @@
             <div class="limit-label-line"><span class="limit-marker marker-violet"></span><span>PPT 慢速限制</span><strong><span id="limit-slow">—</span><small>W</small></strong><span id="limit-slow-unavailable" class="limit-unavailable" hidden>不可调</span></div>
             <div class="limit-track" role="progressbar" aria-label="PPT 慢速功耗上限" aria-valuemin="2"><span id="bar-slow"></span></div>
           </div>
+          <div class="limit-row">
+            <div class="limit-label-line"><span class="limit-marker marker-blue"></span><span>温度上限</span><strong><span id="limit-temperature">—</span><small>°C</small></strong></div>
+            <div class="limit-track" role="progressbar" aria-label="CPU 温度上限" aria-valuemin="20" aria-valuemax="95"><span id="bar-temperature"></span></div>
+          </div>
         </div>
       </article>
     </section>
@@ -117,10 +126,16 @@
         <div class="card-heading action-heading">
           <div class="adjust-heading-copy">
             <div class="adjust-heading-line">
-              <h2>调整功耗限制</h2>
-              <label class="separate-toggle"><input id="separate-limits" type="checkbox"><span>单独调整</span></label>
+              <div class="limit-tabs" role="tablist" aria-label="限制类型">
+                <button id="power-tab" type="button" role="tab" aria-selected="true" aria-controls="set-form">功耗上限</button>
+                <button id="temperature-tab" type="button" role="tab" aria-selected="false" aria-controls="temperature-form">温度上限</button>
+              </div>
+              <div class="adjust-heading-options">
+                <label class="separate-toggle" id="boost-label"><input id="cpu-boost" type="checkbox" disabled><span>睿频</span></label>
+                <label class="separate-toggle" id="separate-toggle-label"><input id="separate-limits" type="checkbox"><span>单独调整</span></label>
+              </div>
             </div>
-            <p id="adjust-description" class="card-description">同时应用到 STAPM、PPT 瞬时和 PPT 慢速。</p>
+
           </div>
         </div>
         <form id="set-form" class="set-form">
@@ -155,7 +170,23 @@
             </div>
           </div>
         </form>
-        <div class="restore-row">
+        <form id="temperature-form" class="set-form" hidden>
+          <label for="temperature-limit">温度上限</label>
+          <input id="temperature-slider" class="watt-slider" type="range" min="20" max="95" step="1" value="85" aria-label="CPU 温度上限滑块" disabled>
+          <div class="set-controls">
+            <div class="watt-input">
+              <input id="temperature-limit" class="input" type="number" min="20" max="95" step="1" value="85" aria-label="CPU 温度上限" required disabled>
+              <span>°C</span>
+            </div>
+            <button id="restore-temperature" class="btn restore-bios-button" type="button" disabled>恢复设置</button>
+            <button id="apply-temperature" class="btn btn-primary apply-button" type="submit" disabled>确认应用</button>
+          </div>
+        </form>
+        <div id="temperature-footer" class="restore-row" hidden>
+          <div class="restore-copy"><span class="restore-label">已记录的温度恢复基准</span><strong id="temperature-baseline">读取中…</strong></div>
+          <span class="control-status">当前上限 <span id="temperature-current">—</span>°C</span>
+        </div>
+        <div id="power-footer" class="restore-row">
           <div class="restore-copy">
             <span class="restore-label">已记录的恢复基准</span>
             <strong id="baseline">读取中…</strong>
@@ -306,10 +337,14 @@
                 </button>
               </div>
               <div class="semi-modal-body logs-body">
-                <p class="logs-note">应用日志每 24 小时自动清理，也可手动清理；系统内核日志仅供查看。分享前请检查其中的设备信息。</p>
+                <p class="logs-note">仅预览最近 500 行、最多 200KB。下载包含现存应用日志和本次启动的完整内核日志。应用日志按大小轮转，并每 24 小时清理；分享前请检查设备信息。</p>
                 <section class="log-section">
                   <h3>本次运行日志</h3>
                   <pre id="ryzenadj-log" class="log-output"></pre>
+                  <div id="log-download-status" hidden>
+                    <progress id="log-download-progress" max="100" aria-label="日志下载进度"></progress>
+                    <span id="log-download-text" role="status"></span>
+                  </div>
                 </section>
               </div>
               <div class="semi-modal-footer logs-footer">

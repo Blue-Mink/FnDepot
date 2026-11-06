@@ -1,14 +1,17 @@
 const BASE = "/app/ryzen-power-control";
 const $ = (id) => document.getElementById(id);
 let refreshing = false;
+let actionRunning = false;
+let boostUpdating = false;
 let powerDraftDirty = false;
+let temperatureDraftDirty = false;
 let targetLimits = null;
 let noticeHoldUntil = 0;
 let appReady = false;
 let cpuGateBlocked = false;
 let versionCheckStarted = false;
 let detectedCpuFamily = "Unknown";
-let currentLog = "";
+let logDownload = null;
 const LIMIT_KEYS = ["stapm", "fast", "slow"];
 const LIMIT_LABELS = { stapm: "STAPM", fast: "PPT 瞬时", slow: "PPT 慢速" };
 let supportedLimitKeys = [];
@@ -97,6 +100,8 @@ async function request(path, body) {
 }
 
 function showCpuChecking() {
+  $("cpu-gate-series").classList.remove("cpu-unrecognized");
+  $("cpu-gate-message").classList.remove("cpu-supported");
   $("cpu-gate-title").textContent = "正在检查处理器";
   $("cpu-gate-message").textContent = "正在读取 CPU 支持信息…";
   $("cpu-gate-series").hidden = true;
@@ -115,7 +120,9 @@ function openCpuGate() {
 }
 
 function prepareCpuGate(data) {
+  $("cpu-gate-message").classList.toggle("cpu-supported", Boolean(data.cpu_supported));
   detectedCpuFamily = data.cpu_family || "Unknown";
+  $("cpu-gate-series").classList.toggle("cpu-unrecognized", !data.cpu_supported && detectedCpuFamily === "Unknown");
   const support = data.power_limit_support || {};
   supportedLimitKeys = LIMIT_KEYS.filter((key) => support[key]);
   if (data.cpu_supported) {
@@ -164,6 +171,8 @@ function prepareCpuGate(data) {
 }
 
 function showCpuCheckError(error) {
+  $("cpu-gate-series").classList.remove("cpu-unrecognized");
+  $("cpu-gate-message").classList.remove("cpu-supported");
   cpuGateBlocked = true;
   $("cpu-gate-title").textContent = "无法检测处理器支持情况";
   $("cpu-gate-message").textContent = error.message;
@@ -231,7 +240,7 @@ async function refresh() {
     const support = data.power_limit_support || {};
     supportedLimitKeys = LIMIT_KEYS.filter((key) => support[key]);
     const baseline = data.baseline;
-    for (const button of document.querySelectorAll(".restore-bios-button")) {
+    for (const button of document.querySelectorAll("#set-form .restore-bios-button")) {
       button.disabled = !baseline || supportedLimitKeys.length === 0;
     }
     if (baseline) {
@@ -254,7 +263,32 @@ async function refresh() {
     for (const id of ["bar-stapm", "bar-fast", "bar-slow"]) {
       $(id).parentElement.setAttribute("aria-valuemax", String(data.limit_range.max));
     }
+    const boost = data.boost;
+    if (!boostUpdating) {
+      $("cpu-boost").checked = boost?.enabled === true;
+      $("cpu-boost").disabled = boost?.enabled == null;
+      $("boost-label").title = boost?.error || "允许 CPU 按负载和功耗限制自动睿频";
+    }
+    const temperatureSupported = data.temperature_limit != null;
+    $("limit-temperature").textContent = temperatureSupported ? Number(data.temperature_limit).toFixed(1) : "—";
+    if (temperatureSupported) {
+      setMeter("bar-temperature", data.temperature_limit, 20, 95);
+    } else {
+      $("bar-temperature").style.width = "0%";
+      $("bar-temperature").parentElement.removeAttribute("aria-valuenow");
+    }
+    for (const id of ["temperature-limit", "temperature-slider", "apply-temperature"]) {
+      $(id).disabled = !data.control_enabled || !temperatureSupported;
+    }
+    $("restore-temperature").disabled = !data.control_enabled || data.baseline_temperature == null;
+    $("temperature-current").textContent = temperatureSupported ? Number(data.temperature_limit).toFixed(1) : "—";
+    $("temperature-baseline").textContent = data.baseline_temperature == null ? "未记录" : `${Number(data.baseline_temperature).toFixed(1)}°C`;
+    if (!temperatureDraftDirty && temperatureSupported) {
+      $("temperature-limit").value = Math.round(data.temperature_limit);
+      $("temperature-slider").value = Math.round(data.temperature_limit);
+    }
     $("power-enabled").checked = data.control_enabled;
+    $("startup-enabled").checked = data.startup_enabled;
     for (const control of $("set-form").querySelectorAll("input, button[type=submit]")) {
       control.disabled = !data.control_enabled;
     }
@@ -281,9 +315,7 @@ async function refresh() {
       $("separate-limits").checked = Boolean(data.separate_limits);
       $("shared-limit-controls").hidden = data.separate_limits;
       $("separate-limit-controls").hidden = !data.separate_limits;
-      $("adjust-description").textContent = data.separate_limits
-        ? `分别设置 ${supportedLimitKeys.map((key) => LIMIT_LABELS[key]).join("、")}。`
-        : `同时应用到 ${supportedLimitKeys.map((key) => LIMIT_LABELS[key]).join("、")}。`;
+
       const sharedWatts = data.target_watts ?? Math.round(targetLimits[supportedLimitKeys[0]] ?? data.limits.fast);
       $("watts").value = String(sharedWatts);
       $("watts-slider").value = String(sharedWatts);
@@ -294,8 +326,8 @@ async function refresh() {
       }
     }
     setTestStatus(data.test);
-    if (data.baseline_error) {
-      showPolledNotice(data.baseline_error, true);
+    if (data.startup_error || data.baseline_error) {
+      showPolledNotice(data.startup_error || data.baseline_error, true);
     } else {
       const controlStatus = data.control_enabled
         ? (data.separate_limits ? "独立功耗墙接管中" : `功耗接管中 · ${data.target_watts} W`)
@@ -311,13 +343,20 @@ async function refresh() {
 }
 
 async function runAction(action, success) {
+  if (actionRunning) return;
+  actionRunning = true;
   showNotice("正在更新…");
   try {
-    await action();
+    if (await action() === false) {
+      showNotice("已取消本次应用。");
+      return;
+    }
     showNotice(success, false, true);
     await refresh();
   } catch (error) {
     showNotice(error.message, true);
+  } finally {
+    actionRunning = false;
   }
 }
 
@@ -356,32 +395,67 @@ $("cpu-gate").addEventListener("cancel", (event) => event.preventDefault());
 async function showLogs() {
   const dialog = $("logs-dialog");
   dialog.showModal();
-  currentLog = "";
   $("download-logs").disabled = true;
   $("clear-logs").disabled = true;
   $("ryzenadj-log").textContent = "正在读取日志…";
   try {
     const logs = await request("/api/logs");
-    currentLog = [logs.ryzenadj, logs.kernel].filter(Boolean).join("\n\n");
-    $("ryzenadj-log").textContent = currentLog || "本次运行暂无日志。";
-    $("download-logs").disabled = !currentLog;
+    $("ryzenadj-log").textContent = logs.ryzenadj || "本次运行暂无日志。";
   } catch (error) {
     $("ryzenadj-log").textContent = `读取日志失败：${error.message}`;
   } finally {
-    $("clear-logs").disabled = false;
+    $("clear-logs").disabled = Boolean(logDownload);
+    $("download-logs").disabled = Boolean(logDownload);
   }
 }
 
 $("download-logs").addEventListener("click", () => {
-  if (!currentLog) return;
-  const url = URL.createObjectURL(new Blob([currentLog], { type: "text/plain;charset=utf-8" }));
-  const link = document.createElement("a");
-  link.href = url;
-  link.download = "ryzenadj-logs.txt";
-  document.body.append(link);
-  link.click();
-  link.remove();
-  setTimeout(() => URL.revokeObjectURL(url), 1000);
+  if (logDownload) return;
+  const xhr = new XMLHttpRequest();
+  logDownload = xhr;
+  $("download-logs").disabled = true;
+  $("clear-logs").disabled = true;
+  $("log-download-status").hidden = false;
+  $("log-download-progress").removeAttribute("value");
+  $("log-download-text").textContent = "正在准备完整日志…";
+  xhr.open("GET", `${BASE}/api/logs/download`);
+  xhr.responseType = "blob";
+  xhr.timeout = 120000;
+  xhr.onprogress = (event) => {
+    if (event.lengthComputable) {
+      const percent = Math.floor(event.loaded / event.total * 100);
+      $("log-download-progress").value = percent;
+      $("log-download-text").textContent = `下载中 ${percent}%`;
+    } else {
+      $("log-download-text").textContent = `已接收 ${(event.loaded / 1024).toFixed(0)} KB`;
+    }
+  };
+  xhr.onload = async () => {
+    if (xhr.status !== 200) {
+      let message = `下载失败 (${xhr.status})`;
+      try { message = JSON.parse(await xhr.response.text()).error || message; } catch (_) { /* Non-JSON gateway response. */ }
+      $("log-download-text").textContent = message;
+      return;
+    }
+    const url = URL.createObjectURL(xhr.response);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = "ryzenadj-logs.txt";
+    document.body.append(link);
+    link.click();
+    link.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 60000);
+    $("log-download-progress").value = 100;
+    $("log-download-text").textContent = "日志接收完成，已交给浏览器保存。";
+  };
+  xhr.onerror = () => { $("log-download-text").textContent = "下载失败：网络连接异常，请重试。"; };
+  xhr.ontimeout = () => { $("log-download-text").textContent = "下载超时，请重试。"; };
+  xhr.onloadend = () => {
+    logDownload = null;
+    $("download-logs").disabled = false;
+    $("clear-logs").disabled = false;
+  };
+  xhr.send();
 });
 
 $("view-logs").addEventListener("click", showLogs);
@@ -389,9 +463,8 @@ $("clear-logs").addEventListener("click", async () => {
   $("clear-logs").disabled = true;
   try {
     await request("/api/logs/clear", {});
-    currentLog = "";
-    $("download-logs").disabled = true;
-    $("ryzenadj-log").textContent = "应用日志已清理，后续操作会重新记录。系统内核日志仍可在重新打开弹窗后查看。";
+    $("log-download-status").hidden = true;
+    $("ryzenadj-log").textContent = "应用日志已清理，后续操作会重新记录；系统内核日志不会清理。";
   } catch (error) {
     $("ryzenadj-log").textContent = `清理日志失败：${error.message}`;
   } finally {
@@ -401,32 +474,72 @@ $("clear-logs").addEventListener("click", async () => {
 $("close-logs").addEventListener("click", () => $("logs-dialog").close());
 $("close-logs-footer").addEventListener("click", () => $("logs-dialog").close());
 
-function confirmLowPower() {
+function confirmSetting(title, message, applyText, cancelText, waitSeconds = 0) {
   const dialog = $("low-power-dialog");
-  if (dialog.open) return Promise.resolve(false);
+  if (dialog.open) return Promise.resolve("");
+  $("low-power-title").querySelector(".semi-modal-confirm-title-text").textContent = title;
+  $("low-power-body").querySelector(".semi-modal-confirm-content").textContent = message;
+  $("low-power-cancel").querySelector(".semi-button-content").textContent = cancelText;
   const button = $("low-power-apply");
   const label = button.querySelector(".semi-button-content");
-  const deadline = performance.now() + 5000;
+  const deadline = performance.now() + waitSeconds * 1000;
   dialog.returnValue = "";
   const update = () => {
     const remaining = Math.max(0, Math.ceil((deadline - performance.now()) / 1000));
     button.disabled = remaining > 0;
     button.classList.toggle("semi-button-disabled", button.disabled);
     button.setAttribute("aria-disabled", String(button.disabled));
-    label.textContent = remaining ? `同意应用(${remaining}s)` : "同意应用";
+    label.textContent = remaining ? `${applyText}(${remaining}s)` : applyText;
   };
   update();
   return new Promise((resolve) => {
     const timer = setInterval(update, 250);
     dialog.addEventListener("close", () => {
       clearInterval(timer);
-      resolve(dialog.returnValue === "apply");
+      resolve(dialog.returnValue);
     }, { once: true });
     dialog.showModal();
   });
 }
 
-$("low-power-cancel").addEventListener("click", () => $("low-power-dialog").close());
+async function confirmLowLimit(temperature = false) {
+  const choice = await confirmSetting(
+    temperature ? "确认应用低温度上限？" : "确认应用低功耗限制？",
+    temperature
+      ? "当前温度上限低于 40°C，可能导致 CPU 持续降频、系统响应变慢，影响文件传输和后台任务。实际温度也可能超过设置值。是否继续应用？"
+      : "当前设置低于 5W，可能导致 CPU 大幅降频、系统响应变慢，影响文件传输和后台任务。实际功耗也可能超过设置值。是否继续应用？",
+    "同意应用", "取消", 5,
+  );
+  return choice === "apply";
+}
+
+async function checkOtherBaseline(settingTemperature) {
+  const data = await request("/api/status");
+  const keys = LIMIT_KEYS.filter((key) => data.power_limit_support?.[key]);
+  const pairs = settingTemperature
+    ? keys.map((key) => [data.limits?.[key], data.baseline?.[key]])
+    : [[data.temperature_limit, data.baseline_temperature]];
+  if (!pairs.length || pairs.some((pair) => pair.some((value) => typeof value !== "number" || !Number.isFinite(value)))) {
+    throw new Error(`无法读取${settingTemperature ? "功耗" : "温度"}上限或恢复基准，未应用本次设置。`);
+  }
+  if (pairs.every(([current, baseline]) => Math.abs(current - baseline) < 0.1)) return true;
+  const baseline = settingTemperature
+    ? keys.map((key) => `${LIMIT_LABELS[key]} ${watts(data.baseline[key])} W`).join("、")
+    : `${Number(data.baseline_temperature).toFixed(1)}°C`;
+  const choice = await confirmSetting(
+    settingTemperature ? "是否恢复基准功耗？" : "是否恢复基准温度？",
+    `当前${settingTemperature ? "功耗墙" : "温度上限"}与恢复基准不一致。是否先恢复到 ${baseline}，再应用本次${settingTemperature ? "温度" : "功耗"}设置？选择“不恢复”将保留当前值并继续应用。`,
+    "恢复基准", "不恢复",
+  );
+  if (!choice) return false;
+  if (choice === "apply") {
+    await request(settingTemperature ? "/api/power/restore" : "/api/temperature/restore", {});
+    await refresh();
+  }
+  return true;
+}
+
+$("low-power-cancel").addEventListener("click", () => $("low-power-dialog").close("skip"));
 $("low-power-close").addEventListener("click", () => $("low-power-dialog").close());
 $("low-power-apply").addEventListener("click", () => {
   if (!$("low-power-apply").disabled) $("low-power-dialog").close("apply");
@@ -464,11 +577,77 @@ $("set-form").addEventListener("submit", async (event) => {
     success = `${supportedLimitKeys.map((key) => LIMIT_LABELS[key]).join("、")}功耗墙已设置为 ${value} W。`;
   }
   const limits = body.limits ? Object.values(body.limits) : [body.watts];
-  if (limits.some((value) => value < 5) && !await confirmLowPower()) return;
+  if (limits.some((value) => value < 5) && !await confirmLowLimit()) return;
   runAction(async () => {
+    if (!await checkOtherBaseline(false)) return false;
     await request("/api/power/set", body);
     powerDraftDirty = false;
   }, success);
+});
+
+function selectLimitTab(temperature) {
+  $("set-form").hidden = temperature;
+  $("power-footer").hidden = temperature;
+  $("temperature-form").hidden = !temperature;
+  $("temperature-footer").hidden = !temperature;
+  $("separate-toggle-label").hidden = temperature;
+  $("power-tab").setAttribute("aria-selected", String(!temperature));
+  $("temperature-tab").setAttribute("aria-selected", String(temperature));
+}
+$("power-tab").addEventListener("click", () => selectLimitTab(false));
+$("temperature-tab").addEventListener("click", () => selectLimitTab(true));
+for (const id of ["temperature-slider", "temperature-limit"]) {
+  $(id).addEventListener("input", (event) => {
+    temperatureDraftDirty = true;
+    $(id === "temperature-slider" ? "temperature-limit" : "temperature-slider").value = event.currentTarget.value;
+  });
+}
+$("temperature-form").addEventListener("submit", async (event) => {
+  event.preventDefault();
+  const temperature = Number($("temperature-limit").value);
+  if (!Number.isInteger(temperature) || temperature < 20 || temperature > 95) {
+    showNotice("请输入 20–95°C 之间的整数温度。", true);
+    return;
+  }
+  if (temperature < 40 && !await confirmLowLimit(true)) return;
+  runAction(async () => {
+    if (!await checkOtherBaseline(true)) return false;
+    await request("/api/temperature/set", { temperature });
+    temperatureDraftDirty = false;
+  }, `CPU 温度上限已设置为 ${temperature}°C。`);
+});
+$("restore-temperature").addEventListener("click", async () => {
+  if (parseFloat($("temperature-baseline").textContent) < 40 && !await confirmLowLimit(true)) return;
+  runAction(async () => {
+    await request("/api/temperature/restore", {});
+    temperatureDraftDirty = false;
+  }, "已恢复记录的 CPU 温度上限。");
+});
+
+$("cpu-boost").addEventListener("change", async (event) => {
+  const input = event.currentTarget;
+  const enabled = input.checked;
+  boostUpdating = true;
+  input.disabled = true;
+  try {
+    await request("/api/cpu/boost", { enabled });
+    showNotice(enabled ? "睿频已开启。" : "睿频已关闭。", false, true);
+  } catch (error) {
+    input.checked = !enabled;
+    showNotice(error.message, true);
+  } finally {
+    boostUpdating = false;
+    input.disabled = false;
+    await refresh();
+  }
+});
+
+$("startup-enabled").addEventListener("change", (event) => {
+  const enabled = event.currentTarget.checked;
+  runAction(
+    () => request("/api/power/startup", { enabled }),
+    enabled ? "开机启动已开启，下次开机将自动接管功耗。" : "开机启动已关闭，下次开机不自动接管功耗。",
+  );
 });
 
 $("power-enabled").addEventListener("change", (event) => {
@@ -480,7 +659,7 @@ $("power-enabled").addEventListener("change", (event) => {
   );
 });
 
-for (const button of document.querySelectorAll(".restore-bios-button")) {
+for (const button of document.querySelectorAll("#set-form .restore-bios-button")) {
   button.addEventListener("click", () => runAction(async () => {
     await request("/api/power/restore", {});
     powerDraftDirty = false;
@@ -516,9 +695,7 @@ $("separate-limits").addEventListener("change", (event) => {
   const separate = event.currentTarget.checked;
   $("shared-limit-controls").hidden = separate;
   $("separate-limit-controls").hidden = !separate;
-  $("adjust-description").textContent = separate
-    ? `分别设置 ${supportedLimitKeys.map((key) => LIMIT_LABELS[key]).join("、")}。`
-    : `同时应用到 ${supportedLimitKeys.map((key) => LIMIT_LABELS[key]).join("、")}。`;
+
   const watts = separate
     ? Number($("watts").value)
     : Number($(`limit-${supportedLimitKeys[0]}-slider`).value);

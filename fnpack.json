@@ -598,6 +598,17 @@
       "is_docker": false,
       "service_port": "",
       "releases": {
+        "1.0.9": {
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/ryzen-power-control-v1.0.9/ryzen-power-control-1.0.9.fpk",
+              "sha256": "389b9edf67096cb5344e870ff3d37e8a54d85fb3444ddc16a321fe92d8f053c3",
+              "size": 241689
+            }
+          },
+          "changelog": "修复：校验 PID 对应的实际进程，避免误判已启动\r\n修复：保存温度、睿频设置，自启时恢复\r\n修复：关闭接管不再覆盖目标功耗\r\n修复：启动应用设置失败时保留页面服务并提示错误",
+          "updated_at": "2026-10-12T09:30:34Z"
+        },
         "1.0.7": {
           "packages": {
             "x86": {
