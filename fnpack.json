@@ -4,7 +4,7 @@
     "name": "Blue-Mink 应用源",
     "author": "Blue-Mink",
     "homepage": "https://github.com/Blue-Mink/FnDepot",
-    "description": "Blue-Mink 维护的 fnOS 应用源：16 个应用多版本索引（V2 协议）。"
+    "description": "Blue-Mink 维护的 fnOS 应用源：15 个应用多版本索引（V2 协议）。"
   },
   "apps": {
     "global-radio": {
