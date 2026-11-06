@@ -22,13 +22,13 @@
 
 ### 📻 全球电台 (global-radio)
 
-基于 Vue 3 + Vite 的在线电台应用，支持全球电台搜索、播放、收藏、历史记录、主题切换与多国语言。内置电台目录/封面图 NAS 缓存加速，支持端口直连与飞牛统一网关双入口。
+基于 Vue 3 + Vite 的在线电台应用，支持全球电台搜索、播放、收藏、历史记录、主题切换与多国语言。已打通飞牛音乐（热门/流派/标签/国家歌单同步进音乐，47 个分类语义图标），与「飞牛音源扩展」链式共存，支持端口直连与飞牛统一网关双入口。
 
 <br/>
 
 <div align="center">
 
-[![global-radio](https://img.shields.io/badge/global--radio-v1.3.0-purple?style=flat-square)](https://github.com/Blue-Mink/FnDepot) [![Platform](https://img.shields.io/badge/Platform-fnOS%20x86__64-lightgrey?style=flat-square)](#)
+[![global-radio](https://img.shields.io/badge/global--radio-v1.5.4-purple?style=flat-square)](https://github.com/Blue-Mink/FnDepot) [![Platform](https://img.shields.io/badge/Platform-fnOS%20x86__64-lightgrey?style=flat-square)](#)
 
 </div>
 
@@ -39,7 +39,7 @@
 | 👨‍💻 **原作者** | [moli-xia](https://github.com/moli-xia) |
 | 📁 **原项目** | [global-radio](https://github.com/moli-xia/global-radio) |
 | 📥 **安装方式** | 在飞牛 FnDepot 直接添加本源，客户端中搜索「全球电台」即可安装 |
-| 🏷️ **版本** | v1.3.0（统一网关入口 + 目录/封面 NAS 缓存加速 + 高清图标；端口直连与网关双入口） |
+| 🏷️ **版本** | v1.5.4（打通飞牛音乐 + 47 分类语义图标 + 音源扩展链式共存 + 安装/卸载向导 + 稳定性修复） |
 
 ---
 
@@ -267,31 +267,6 @@ Docker 镜像加速管理工具，支持多源镜像缓存、加速规则管理�
 
 ---
 
-### 🏬 New Store
-
-飞牛 fnOS 的第三方应用中心本体：App Store 式界面浏览/安装/更新 455+ 第三方应用（FPK 与 Docker 双通道），内置 GitHub / Docker 智能镜像监测（12+8 源自动探测、按健康度排序、3 连败自动切换）与 KSpeeder 本地镜像源；一键安装走应用中心官方流程、SSE 实时进度，FPK 下载为服务端后台任务且支持暂停/继续（断点续传）；PC 侧栏 + 移动端 dock 双端布局，可嵌入飞牛 App。
-
-<br/>
-
-<div align="center">
-
-[![New Store](https://img.shields.io/badge/New--Store-v1.21.1-green?style=flat-square)](https://github.com/Blue-Mink/New-Store/releases/tag/v1.21.1) [![Platform](https://img.shields.io/badge/Platform-fnOS%20x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
-
-</div>
-
-<br/>
-
-| 项目 | 信息 |
-| :--- | :--- |
-| 👨‍💻 **打包维护** | [Blue-Mink](https://github.com/Blue-Mink) |
-| 📁 **原项目** | [New-Store](https://github.com/Blue-Mink/New-Store)（基础版本 [conversun/fnos-store](https://github.com/conversun/fnos-store)） |
-| 📥 **安装方式** | 首次：下载 [new-store_1.21.1_x86.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.21.1/new-store_1.21.1_x86.fpk) / [new-store_1.21.1_arm.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.21.1/new-store_1.21.1_arm.fpk)（按架构选择，[sha256](https://github.com/Blue-Mink/FnDepot/releases/download/new-store-v1.21.1/new-store_1.21.1_arm.fpk.sha256)）在应用中心手动安装；装好后在 New Store「设置」里添加本源即可在应用内自助更新 |
-| 🏷️ **版本** | v1.21.1（端口 38011；x86/ARM64 双架构） |
-| 🌐 **入口端口** | 38011（应用中心「打开」与桌面图标直达） |
-| 📖 **详细说明** | [new-store/README.md](new-store/README.md) |
-
----
-
 ### 🛒 FnDepot
 
 飞牛 fnOS 第三方应用商店 FnDepot 的官方客户端（作者 EWEDL，也是本仓库索引规范的定义方）：应用浏览、下载、安装与管理，支持官方源与 FnDepot V1/V2 外部源、GitHub 加速代理。本包为设备提取的官方原版二进制，未重打包；包内内置 amd64 与 arm64 双服务端，入口走飞牛统一网关 `/app/fndepot`。
@@ -424,7 +399,7 @@ Moo 的伴侣应用：把任意第三方 GitHub / Gitee 仓库变成你自己的
 
 本项目遵循 [MIT License](LICENSE) 许可证。
 
-上述许可覆盖本仓库自研的内容：FPK 打包脚本与构建流程、应用配置与文档。各第三方应用及其源码镜像（如 `daidai-panel/source/`、`new-store/source/`）的版权归各自原作者所有，遵循其原始许可，详见对应目录内的 `LICENSE`。
+上述许可覆盖本仓库自研的内容：FPK 打包脚本与构建流程、应用配置与文档。各第三方应用及其源码镜像（如 `daidai-panel/source/`）的版权归各自原作者所有，遵循其原始许可，详见对应目录内的 `LICENSE`。
 
 ---
 
