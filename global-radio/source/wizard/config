@@ -18,6 +18,23 @@
           }
         ],
         "helpText": "设置外部访问端口（默认 32678）。保存后立即生效，桌面图标与「打开」入口会自动同步到新端口。"
+      },
+      {
+        "type": "text",
+        "field": "wizard_data_dir",
+        "label": "数据目录",
+        "initValue": "/vol1/@appdata/global-radio/data",
+        "rules": [
+          {
+            "required": true,
+            "message": "请填写数据目录"
+          },
+          {
+            "pattern": "^/",
+            "message": "请填写绝对路径，如 /vol1/@appdata/global-radio/data"
+          }
+        ],
+        "helpText": "电台收藏、播放历史等数据存放目录。修改后保存会立即迁移容器数据卷到新目录（原目录数据不自动拷贝，请先手动迁移）。"
       }
     ]
   }

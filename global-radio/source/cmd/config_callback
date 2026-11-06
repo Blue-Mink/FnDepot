@@ -24,8 +24,25 @@ PORT="${wizard_access_port:-}"
 OLD_PORT="$(gradio_read_port)"
 gradio_valid_port "$PORT" || PORT="$OLD_PORT"
 
-if [ "$PORT" = "$OLD_PORT" ] && gradio_is_running; then
-    # 端口未变且服务在跑：仅补一次入口同步
+# 数据目录变更检测（仅向导显式传入时判断，未传则沿用持久值）
+DATA_DIR_CHANGED=0
+DATA_DIR="${wizard_data_dir:-}"
+if [ -n "$DATA_DIR" ]; then
+    case "$DATA_DIR" in
+        /*)
+            OLD_DATA_DIR="$(gradio_read_data_dir)"
+            if [ "$DATA_DIR" != "$OLD_DATA_DIR" ]; then
+                gradio_write_data_dir "$DATA_DIR"
+                DATA_DIR_CHANGED=1
+                gradio_log "数据目录变更: ${OLD_DATA_DIR} -> ${DATA_DIR}"
+            fi
+            ;;
+        *) fail "数据目录必须为绝对路径：$DATA_DIR" ;;
+    esac
+fi
+
+if [ "$PORT" = "$OLD_PORT" ] && [ "$DATA_DIR_CHANGED" = "0" ] && gradio_is_running; then
+    # 端口与数据目录均未变且服务在跑：仅补一次入口同步
     gradio_write_port "$PORT"
     gradio_fix_ui_config "$PORT"
     gradio_sync_db "$PORT"
@@ -34,7 +51,7 @@ if [ "$PORT" = "$OLD_PORT" ] && gradio_is_running; then
     exit 0
 fi
 
-gradio_log "端口变更: ${OLD_PORT} -> ${PORT}"
+gradio_log "配置变更: 端口 ${OLD_PORT} -> ${PORT}${DATA_DIR_CHANGED:+，数据目录已迁移}"
 gradio_write_port "$PORT"
 gradio_fix_ui_config "$PORT"
 gradio_clean_container

@@ -11,4 +11,5 @@ done
 . "$LIB"
 gradio_norm_appdir || exit 0
 echo "wizard_access_port=$(gradio_read_port)"
+echo "wizard_data_dir=$(gradio_read_data_dir)"
 exit 0

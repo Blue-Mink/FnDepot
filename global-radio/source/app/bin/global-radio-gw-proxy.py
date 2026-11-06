@@ -54,6 +54,36 @@ def recv_until(hdr_end, sock, buf):
         buf += d
     return buf
 
+def read_chunked(sock, initial=b""):
+    """解码 chunked 响应体（initial 为已读到的一小段 body 起始字节）。"""
+    out = bytearray()
+    buf = initial
+    while True:
+        # 找 chunk size 行（以 \r\n 结尾）
+        while b"\r\n" not in buf:
+            d = sock.recv(65536)
+            if not d:
+                return bytes(out)
+            buf += d
+        line, _, buf = buf.partition(b"\r\n")
+        size = int(line.strip().split(b";")[0] or b"0", 16)
+        if size == 0:
+            # 读 trailer 直到空行（\r\n），即 chunked 结束
+            while b"\r\n" not in buf:
+                d = sock.recv(65536)
+                if not d:
+                    return bytes(out)
+                buf += d
+            return bytes(out)
+        # 读 size 字节数据 + 尾部 \r\n
+        while len(buf) < size + 2:
+            d = sock.recv(65536)
+            if not d:
+                break
+            buf += d
+        out += buf[:size]
+        buf = buf[size + 2:]
+
 def handle(conn):
     try:
         buf = b""
@@ -100,22 +130,21 @@ def handle(conn):
         hlines = hraw.split(b"\r\n")
         status = hlines[0]
         ctype = b""
+        te_chunked = False
         out_h = []
         for ln in hlines[1:]:
             k, _, v = ln.partition(b":")
             kl = k.lower()
             if kl == b"content-type":
                 ctype = v.strip().lower()
+            if kl == b"transfer-encoding" and b"chunked" in v.lower():
+                te_chunked = True
             if kl in (b"content-length", b"transfer-encoding", b"content-encoding"):
                 continue
             out_h.append(ln)
-        # 读满 body
-        if b"chunked" in b"".join(hlines[1:]).lower():
-            while True:
-                d = up.recv(65536)
-                if not d:
-                    break
-                body += d
+        # 读 body：chunked 要解码，否则读到 EOF（上游因 Connection: close 会关闭）
+        if te_chunked:
+            body = read_chunked(up, body)
         else:
             while True:
                 d = up.recv(65536)

@@ -1,18 +1,59 @@
 #!/bin/bash
-# 卸载回调：停止并清理容器与 compose 项目（用户数据目录保留）
-CONTAINER_NAME="global-radio"
-for d in /var/apps/global-radio/target/docker /vol1/@appcenter/global-radio/docker; do
+# 卸载回调：停 sidecar + 容器与 compose 项目；按卸载向导处理数据
+#   wizard_data_action=keep（默认）→ 数据保留，重装继承
+#   wizard_data_action=delete      → 清空数据目录内容（带路径深度护栏）
+APP="global-radio"
+ACTION="${wizard_data_action:-keep}"
+ETC="${TRIM_PKGETC:-/vol1/@appconf/$APP}"
+PAYLOAD="${TRIM_APPDEST:-/vol1/@appcenter/$APP}"
+
+# ---- 停统一网关 sidecar（socket 在 payload 根，与 gatewaySocket 声明对齐）----
+pkill -f "global-radio-gw[-]proxy.py" 2>/dev/null
+rm -f "$PAYLOAD/gr-gw.sock" "$PAYLOAD/gr-gw.pid" 2>/dev/null
+
+# ---- 停飞牛音乐电台中继 + 恢复官方音乐 socket（身份感知 fail-closed）----
+pkill -f "uvicorn radio_relay[:]" 2>/dev/null
+pkill -f "fnradio_setup[.]sh" 2>/dev/null
+VAR_DIR="${TRIM_PKGVAR:-/vol1/@appdata/$APP}"
+rm -f "$VAR_DIR/fnradio.pid" 2>/dev/null
+sleep 1   # 等 uvicorn 优雅 unlink 自己的 socket
+# 只在确认安全时把官方改回原路径；外来接管（如飞牛音源扩展）绝不破坏，fail-closed 让位
+PYBIN="/vol1/@appcenter/python312/bin/python3"
+[ -x "$PYBIN" ] || PYBIN="$(command -v python3 2>/dev/null)"
+CODE="$PAYLOAD/bin/fnradio"
+if [ -n "$PYBIN" ] && [ -f "$CODE/takeover_cli.py" ]; then
+    "$PYBIN" "$CODE/takeover_cli.py" restore >/dev/null 2>&1 || true
+fi
+
+# ---- 停容器与 compose 项目 ----
+for d in "/var/apps/$APP/target/docker" "$PAYLOAD/docker"; do
     if [ -f "$d/docker-compose.yaml" ]; then
         ( cd "$d" && docker compose down >/dev/null 2>&1 ) || true
         break
     fi
 done
-if docker ps -a --format '{{.Names}}' 2>/dev/null | grep -q "^${CONTAINER_NAME}$"; then
-    docker stop "$CONTAINER_NAME" >/dev/null 2>&1 || true
-    docker rm "$CONTAINER_NAME" >/dev/null 2>&1 || true
+if docker ps -a --format '{{.Names}}' 2>/dev/null | grep -q "^${APP}$"; then
+    docker stop "$APP" >/dev/null 2>&1 || true
+    docker rm "$APP" >/dev/null 2>&1 || true
 fi
 # 清理本应用镜像（浮动 tag，下次安装重新拉取）
 if docker images --format '{{.Repository}}:{{.Tag}}' 2>/dev/null | grep -q "^superneed/global-radio:latest$"; then
     docker rmi superneed/global-radio:latest >/dev/null 2>&1 || true
 fi
+
+# ---- 数据处理（仅 delete 时清空数据目录内容）----
+if [ "$ACTION" = "delete" ]; then
+    DATA_DIR="$(tr -d '\n' < "$ETC/data_dir.conf" 2>/dev/null)"
+    [ -n "$DATA_DIR" ] || DATA_DIR="/vol1/@appdata/$APP/data"
+    P="$(readlink -f "$DATA_DIR" 2>/dev/null || echo "$DATA_DIR")"
+    depth="$(echo "$P" | awk -F/ '{print NF-1}')"
+    # 护栏：只清空「深度 ≥3」的目录内容，拒绝根/卷根/一级目录，防止误删
+    if [ "$depth" -ge 3 ] && [ -d "$P" ]; then
+        find "$P" -mindepth 1 -maxdepth 1 -exec rm -rf {} + 2>/dev/null
+        echo "[$(date '+%F %T')] uninstall: data deleted under $P" >> /tmp/global-radio-uninstall.log 2>/dev/null
+    else
+        echo "跳过删除（路径过浅或不存在，请手动清理）：$P (depth=$depth)" >&2
+    fi
+fi
+
 exit 0

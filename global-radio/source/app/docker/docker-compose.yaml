@@ -1,3 +1,5 @@
+name: global-radio
+
 services:
   global-radio:
     image: superneed/global-radio:latest
@@ -6,4 +8,4 @@ services:
     ports:
       - "${wizard_access_port:-32678}:80"
     volumes:
-      - "${TRIM_PKGVAR:-/vol1/@appdata/global-radio}/data:/app/data"
+      - "${DATA_DIR:-/vol1/@appdata/global-radio/data}:/app/data"

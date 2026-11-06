@@ -26,10 +26,12 @@ start)
     gradio_patch_accel
     gradio_sync_db "$PORT"
     gradio_gw_start "$PORT"
+    gradio_radio_start
     echo "global-radio 已启动，端口 ${PORT}"
     exit 0
     ;;
 stop)
+    gradio_radio_stop
     gradio_gw_stop
     gradio_compose down >/dev/null 2>&1
     docker stop "$GRADIO_CONTAINER" >/dev/null 2>&1

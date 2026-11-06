@@ -9,7 +9,7 @@
   "apps": {
     "global-radio": {
       "display_name": "全球电台",
-      "desc": "基于 Vue 3 + Vite 的在线电台应用，支持全球电台搜索、播放、收藏、历史记录、主题切换与多国语言。端口直连与飞牛统一网关（/app/global-radio/）双入口。",
+      "desc": "基于 Vue 3 + Vite 的在线电台应用，支持全球电台搜索、播放、收藏、历史记录、主题切换与多国语言，桌面入口走飞牛统一网关（/app/global-radio/）。已打通飞牛音乐：电台同步进飞牛音乐「歌单」，含热门电台「全球电台」歌单、按流派/标签分类的歌单（爵士、古典、摇滚、流行、新闻、电子等 28 个流派 + 年代）与按国家/地区分类的歌单，登录飞牛即可在音乐里收听直播流（受网络可达性影响，境外被墙电台可能无法在音乐里播放，可改用全球电台 App 直连收听）。安装向导可设访问端口与数据目录，卸载向导可选保留或删除数据。本应用与「飞牛音源扩展」可共存安装，各自配置独立、互不删除；二者都通过接管飞牛音乐 socket 工作，同时启用时自动链式接入（电台中继接在音源扩展之后、再透传官方），两个应用功能同时生效。",
       "platform": [
         "x86"
       ],
@@ -28,6 +28,17 @@
       "is_docker": true,
       "service_port": "32678",
       "releases": {
+        "1.5.4": {
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/global-radio-v1.5.4/global-radio-1.5.4-fnos-amd64.fpk",
+              "sha256": "6ce351d7dfa964d7e76d7c53faa217502794ed9859955e97e028935dd2dd7666",
+              "size": 1031039
+            }
+          },
+          "changelog": "1.5.4: 打通飞牛音乐——热门/流派/标签/国家歌单同步进音乐「歌单」，按标签分派语义图标（47 个），歌单排序热门→标签→国家（中国置顶）；与「飞牛音源扩展」链式共存（身份感知接管 fail-closed + 链式代理）；新增安装/卸载向导（端口/数据目录/卸载保留或删除数据）；稳定性修复（favicon/flag 负缓存、ClientDisconnect、watchdog 自愈、IPv4 强制直连、连通性预检过滤被墙电台）",
+          "updated_at": "2026-11-06T03:06:00Z"
+        },
         "1.3.0": {
           "packages": {
             "x86": {
@@ -38,28 +49,6 @@
           },
           "changelog": "1.3.0: 接入飞牛统一网关——安装后可经 http://NAS_IP:5666/app/global-radio/ 访问(与端口直连双入口并存,登录飞牛即用,网关与直连功能/加速完全等价,应用端口变更网关自动跟随)；1.2.9: 缓存加速强制收编源头 no-cache 响应头,封面二访约0.5ms；1.2.8: 控制台端口编辑与桌面入口/数据库四处同步；1.2.7: 新增电台目录与封面图 NA…",
           "updated_at": "2026-09-13T10:54:24Z"
-        },
-        "1.2.3": {
-          "packages": {
-            "x86": {
-              "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/global-radio-v1.2.3/global-radio-1.2.3-fnos-amd64.fpk",
-              "sha256": "1c96679ed74a4959907b7379558cd6c62af1d8ba1456b69fef5973f3c484286e",
-              "size": 29789
-            }
-          },
-          "changelog": "### 全球电台 v1.2.3（fnOS FPK，x86_64） 同步上游 [moli-xia/global-radio](https://github.com/moli-xia/global-radio)（上游 2026-01 后无代码变更，Docker 运行方式跟随 `superneed/global-radio:latest`）。 **本版核心：端口设置闭环修复（fnOS Docker 应用…",
-          "updated_at": "2026-09-13T05:37:21Z"
-        },
-        "1.2.2": {
-          "packages": {
-            "x86": {
-              "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v1.2.2/global-radio.fpk",
-              "sha256": "9afaad6d930c9d84ec0bd5fd4a9f8c1906ee861c54f1ccf14a07a258d9fbe6c6",
-              "size": 27167
-            }
-          },
-          "changelog": "## 更新内容 1. 默认访问端口改为 32678 2. 应用设置修改端口后同步更新桌面快捷方式端口 3. 修复 fpk 打包格式问题",
-          "updated_at": "2026-07-21T19:35:14Z"
         }
       }
     },

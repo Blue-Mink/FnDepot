@@ -2,3 +2,8 @@
 __pycache__/
 *.pyc
 node_modules/
+
+# FPK 产物只进 Release，不入 git 树
+*.fpk
+dist/
+dist-*/

@@ -3,10 +3,11 @@
         "global-radio.Application": {
             "title": "全球电台",
             "icon": "images/icon_{0}.png",
-            "type": "url",
+            "type": "iframe",
             "protocol": "http",
-            "port": "32678",
-            "url": "/",
+            "url": "/app/global-radio/",
+            "gatewaySocket": "gr-gw.sock",
+            "gatewayPrefix": "/app/global-radio",
             "allUsers": false
         }
     }
