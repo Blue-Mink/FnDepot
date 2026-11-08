@@ -225,7 +225,7 @@ Docker 镜像加速管理工具，支持多源镜像缓存、加速规则管理�
 
 <div align="center">
 
-[![KSpeeder](https://img.shields.io/badge/KSpeeder-v0.8.7-blue?style=flat-square)](https://github.com/Blue-Mink/FnDepot) [![Platform](https://img.shields.io/badge/Platform-x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
+[![KSpeeder](https://img.shields.io/badge/KSpeeder-v0.8.9-blue?style=flat-square)](https://github.com/Blue-Mink/FnDepot) [![Platform](https://img.shields.io/badge/Platform-x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
 
 </div>
 
@@ -235,8 +235,8 @@ Docker 镜像加速管理工具，支持多源镜像缓存、加速规则管理�
 | :--- | :--- |
 | 👨‍💻 **原作者** | [kspeeder](https://github.com/kspeeder) |
 | 📁 **原项目** | [docker_kspeeder](https://github.com/kspeeder/docker_kspeeder) |
-| 📥 **安装方式** | 下载 [kspeeder-0.8.7-fnos-amd64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/v0.8.7/kspeeder-0.8.7-fnos-amd64.fpk)（x86_64）或 [kspeeder-0.8.7-fnos-arm64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/v0.8.7/kspeeder-0.8.7-fnos-arm64.fpk)（ARM64）在 fnOS 应用中心手动安装，安装/应用设置中可修改管理端口与镜像代理端口 |
-| 🏷️ **版本** | v0.8.7（x86_64 / ARM64 双架构） |
+| 📥 **安装方式** | 下载 [kspeeder-0.8.9-fnos-amd64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/v0.8.9/kspeeder-0.8.9-fnos-amd64.fpk)（x86_64）或 [kspeeder-0.8.9-fnos-arm64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/v0.8.9/kspeeder-0.8.9-fnos-arm64.fpk)（ARM64）在 fnOS 应用中心手动安装，安装/应用设置中可修改管理端口与镜像代理端口 |
+| 🏷️ **版本** | v0.8.9（x86_64 / ARM64 双架构） |
 | 🌐 **默认端口** | 管理界面 5003 / 镜像代理 5443 |
 | 📖 **详细说明** | [kspeeder/README.md](kspeeder/README.md) |
 
@@ -319,13 +319,13 @@ AMD Ryzen APU 功耗监控与功耗限制控制：读取功耗墙（STAPM / PPT 
 
 ### 🐮 Moo 应用商店 (moo)
 
-飞牛 NAS 上的第三方应用中心：1800+ 应用浏览 / 安装 / 更新 / 下载；三源同步（官方应用中心 / FnDepot / fnos-apps）与 14 领域智能归类；30+ 事件 × 7 渠道通知推送；GitHub 加速与应用内自更新。本仓库收录自研官方 Release 原包（x86 / arm），完整源码见 [moo](https://github.com/Blue-Mink/moo)（MIT）。
+飞牛 NAS 上的第三方应用中心：聚合应用浏览 / 安装 / 更新 / 下载；三源同步（官方应用中心 / FnDepot / fnos-apps）与 14 领域智能归类；30+ 事件 × 7 渠道通知推送；GitHub 加速与应用内自更新。本仓库收录自研官方 Release 原包（x86 / arm），完整源码见 [moo](https://github.com/Blue-Mink/moo)（MIT）。
 
 <br/>
 
 <div align="center">
 
-[![Moo](https://img.shields.io/badge/Moo-v0.6.369-blue?style=flat-square)](https://github.com/Blue-Mink/moo/releases/tag/v0.6.369) [![Platform](https://img.shields.io/badge/Platform-x86__64%2Farm64-lightgrey?style=flat-square)](#)
+[![Moo](https://img.shields.io/badge/Moo-v0.6.539-blue?style=flat-square)](https://github.com/Blue-Mink/moo/releases/tag/v0.6.539) [![Platform](https://img.shields.io/badge/Platform-x86__64%2Farm64-lightgrey?style=flat-square)](#)
 
 </div>
 
@@ -336,7 +336,7 @@ AMD Ryzen APU 功耗监控与功耗限制控制：读取功耗墙（STAPM / PPT 
 | 👨‍💻 **开发者** | [Blue-Mink](https://github.com/Blue-Mink) |
 | 📁 **项目** | [moo](https://github.com/Blue-Mink/moo)（开源，MIT 许可） |
 | 📥 **安装方式** | 在飞牛 FnDepot 直接添加本源，客户端中搜索「Moo」即可安装 |
-| 🏷️ **版本** | v0.6.369（x86 / arm） |
+| 🏷️ **版本** | v0.6.539（x86 / arm） |
 | 🌐 **入口** | 面板网关 `/app/moo/`（调试端口 38100） |
 | 📖 **详细说明** | [moo/README.md](moo/README.md) |
 
@@ -350,7 +350,7 @@ AI 模型统一网关：把多家模型供应商收进一个 OpenAI 兼容端点
 
 <div align="center">
 
-[![Magpie](https://img.shields.io/badge/Magpie-v1.1.14-blue?style=flat-square)](https://github.com/Blue-Mink/FnDepot/releases/tag/magpie-v1.1.14) [![Platform](https://img.shields.io/badge/Platform-x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
+[![Magpie](https://img.shields.io/badge/Magpie-v1.1.19-blue?style=flat-square)](https://github.com/Blue-Mink/FnDepot/releases/tag/magpie-v1.1.19) [![Platform](https://img.shields.io/badge/Platform-x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
 
 </div>
 
@@ -360,8 +360,8 @@ AI 模型统一网关：把多家模型供应商收进一个 OpenAI 兼容端点
 | :--- | :--- |
 | 👨‍💻 **打包维护** | [Blue-Mink](https://github.com/Blue-Mink) |
 | 📁 **原项目** | [yetone/magpie](https://github.com/yetone/magpie)（二进制发布在 [magpie-releases](https://github.com/yetone/magpie-releases)） |
-| 📥 **安装方式** | 下载 [magpie-1.1.14-fnos-amd64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/magpie-v1.1.14/magpie-1.1.14-fnos-amd64.fpk)（x86）或 [magpie-1.1.14-fnos-arm64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/magpie-v1.1.14/magpie-1.1.14-fnos-arm64.fpk)（arm64）在 fnOS 应用中心手动安装 |
-| 🏷️ **版本** | v1.1.14（同步上游 v0.1.1635） |
+| 📥 **安装方式** | 下载 [magpie-1.1.19-fnos-amd64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/magpie-v1.1.19/magpie-1.1.19-fnos-amd64.fpk)（x86）或 [magpie-1.1.19-fnos-arm64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/magpie-v1.1.19/magpie-1.1.19-fnos-arm64.fpk)（arm64）在 fnOS 应用中心手动安装 |
+| 🏷️ **版本** | v1.1.19（同步上游 v0.1.2638） |
 | 🌐 **服务端口** | 36140（控制台） / 36141（网关 API），另有统一网关 `/app/magpie/` |
 | 📖 **详细说明** | [magpie/README.md](magpie/README.md) |
 
