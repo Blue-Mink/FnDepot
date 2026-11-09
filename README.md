@@ -372,7 +372,7 @@ AI 模型统一网关：把多家模型供应商收进一个 OpenAI 兼容端点
 
 ### 🛠️ Moo Mate (moo-mate)
 
-Moo 的伴侣应用：把任意第三方 GitHub / Gitee 仓库变成你自己的飞牛应用源——贴上链接即自动发现应用（含 release 与仓库内 `server-data/apps` 目录）、生成 `moo.json` 索引并本机托管，一键加源到本机 Moo，全程不必上传 GitHub。数据目录与备份目录可选并支持热切换，内置「恢复备份」「下载数据备份」、应用日志与图标自动补齐，GitHub Token 自动复用本机 Moo 配置。
+Moo 的伴侣应用：把任意第三方 GitHub 仓库变成你自己的飞牛应用源——贴上链接即自动发现应用（含 release 与仓库内 `server-data/apps` 目录）、生成 `moo.json` 索引并本机托管，一键加源到本机 Moo，全程不必上传 GitHub。数据目录与备份目录可选并支持热切换，内置「恢复备份」「下载数据备份」、应用日志与图标自动补齐，GitHub Token 自动复用本机 Moo 配置。
 
 <br/>
 
