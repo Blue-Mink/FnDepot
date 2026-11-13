@@ -553,6 +553,17 @@
       "is_docker": false,
       "service_port": "",
       "releases": {
+        "0.8.2": {
+          "packages": {
+            "all": {
+              "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/fndepot-v0.8.2/fndepot_v0.8.2.fpk",
+              "sha256": "b8040b14efc86bbe9261e3404ca5ae48826eaf9e9280a873e7233c70b12085ee",
+              "size": 10635754
+            }
+          },
+          "changelog": "0.8.2: 官方原版升级（设备提取、未重打包、字节未改，单包双架构）。",
+          "updated_at": "2026-11-13T05:16:36Z"
+        },
         "0.6.6": {
           "packages": {
             "all": {

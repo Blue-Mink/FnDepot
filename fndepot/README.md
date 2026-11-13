@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[![FnDepot](https://img.shields.io/badge/FnDepot-v0.6.6-green?style=flat-square)](https://github.com/Blue-Mink/FnDepot/releases/tag/fndepot-v0.6.6)
+[![FnDepot](https://img.shields.io/badge/FnDepot-v0.8.2-green?style=flat-square)](https://github.com/Blue-Mink/FnDepot/releases/tag/fndepot-v0.8.2)
 [![Platform](https://img.shields.io/badge/Platform-fnOS%20x86__64%20%C2%B7%20ARM64-lightgrey?style=flat-square)](#)
 
 </div>
@@ -13,15 +13,15 @@
 | :--- | :--- |
 | 👨‍💻 **原作者** | [EWEDL](https://club.fnnas.com/home.php?mod=space&uid=5411) |
 | 📁 **原项目** | [EWEDLCM/FnDepot](https://github.com/EWEDLCM/FnDepot) |
-| 📥 **安装方式** | 下载 [fndepot-0.6.6-fnos-all.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/fndepot-v0.6.6/fndepot-0.6.6-fnos-all.fpk)（[sha256](fpk.sha256)）在 fnOS 应用中心手动安装 |
-| 🏷️ **版本** | v0.6.6（`platform = all`，包内内置 amd64 / arm64 双服务端） |
+| 📥 **安装方式** | 下载 [fndepot_v0.8.2.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/fndepot-v0.8.2/fndepot_v0.8.2.fpk)（[sha256](fpk.sha256)）在 fnOS 应用中心手动安装 |
+| 🏷️ **版本** | v0.8.2（`platform = all`，包内内置 amd64 / arm64 双服务端） |
 | 🌐 **入口** | 飞牛统一网关 `/app/fndepot`（应用 unix socket 运行，不占 TCP 端口，桌面图标与应用中心「打开」直达） |
 | 🔧 **依赖** | 无（不需要 Docker / 虚拟机），最低系统版本 fnOS 1.2.0401 |
 
 ## 关于这个包
 
-- **来源**：从一台已安装该应用的飞牛设备上提取的官方安装包，**未重新打包、未修改任何字节**，SHA256 = `51cc23bc59e23c4be2acc448699b241335f836d82d32cbdbaf5b422ef03931ea`。
-- **版本口径**：作者公开的 GitHub Release 目前最新为 [v0.4.6](https://github.com/Blue-Mink/FnDepot/releases)（更早 v0.3.2），本包是设备自更新到的 0.6.6（2026-09-28 提取），公开渠道仍取不到，故代为分发以便直接安装。
+- **来源**：从一台已安装该应用的飞牛设备上提取的官方安装包，**未重新打包、未修改任何字节**，SHA256 = `b8040b14efc86bbe9261e3404ca5ae48826eaf9e9280a873e7233c70b12085ee`。
+- **版本口径**：作者公开的 GitHub Release 目前最新为 [v0.4.6](https://github.com/Blue-Mink/FnDepot/releases)（更早 v0.3.2），本包是设备自更新到的 0.8.2（2026-11 提取），公开渠道仍取不到，故代为分发以便直接安装。
 - **归属**：程序版权归原作者 EWEDL 所有，本仓库仅作分发镜像并标注出处；应用自身的更新检查、条款与反馈以上游为准（[反馈入口](https://github.com/EWEDLCM/FnDepot/issues)）。
 
 ## 安装
