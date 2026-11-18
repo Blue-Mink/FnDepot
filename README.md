@@ -378,7 +378,7 @@ Moo 的伴侣应用：把任意第三方 GitHub 仓库变成你自己的飞牛�
 
 <div align="center">
 
-[![Moo Mate](https://img.shields.io/badge/Moo%20Mate-v0.2.71-blue?style=flat-square)](https://github.com/Blue-Mink/moo/releases/tag/mate-v0.2.71) [![Platform](https://img.shields.io/badge/Platform-x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
+[![Moo Mate](https://img.shields.io/badge/Moo%20Mate-v0.2.73-blue?style=flat-square)](https://github.com/Blue-Mink/moo/releases/tag/mate-v0.2.73) [![Platform](https://img.shields.io/badge/Platform-x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
 
 </div>
 
@@ -388,8 +388,8 @@ Moo 的伴侣应用：把任意第三方 GitHub 仓库变成你自己的飞牛�
 | :--- | :--- |
 | 👨‍💻 **开发者** | [Blue-Mink](https://github.com/Blue-Mink) |
 | 📁 **项目** | [moo](https://github.com/Blue-Mink/moo)（`cmd/moo-mate`，MIT 许可） |
-| 📥 **安装方式** | 在 FnDepot 添加本源后搜索「Moo Mate」；或直接下载 [x86](https://github.com/Blue-Mink/moo/releases/download/mate-v0.2.71/moo-mate_0.2.71_x86.fpk) / [arm64](https://github.com/Blue-Mink/moo/releases/download/mate-v0.2.71/moo-mate_0.2.71_arm.fpk)（附 `.sha256` 校验）手动安装 |
-| 🏷️ **版本** | v0.2.71（x86 / arm） |
+| 📥 **安装方式** | 在 FnDepot 添加本源后搜索「Moo Mate」；或直接下载 [x86](https://github.com/Blue-Mink/moo/releases/download/mate-v0.2.73/moo-mate_0.2.73_x86.fpk) / [arm64](https://github.com/Blue-Mink/moo/releases/download/mate-v0.2.73/moo-mate_0.2.73_arm.fpk)（附 `.sha256` 校验）手动安装 |
+| 🏷️ **版本** | v0.2.73（x86 / arm） |
 | 🌐 **入口** | 面板网关 `/app/moo-mate/`（本机回环端口 38108） |
 | 📖 **详细说明** | [moo-mate/README.md](moo-mate/README.md) |
 
