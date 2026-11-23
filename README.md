@@ -319,13 +319,13 @@ AMD Ryzen APU 功耗监控与功耗限制控制：读取功耗墙（STAPM / PPT 
 
 ### 🐮 Moo 应用商店 (moo)
 
-飞牛 NAS 上的第三方应用中心：聚合应用浏览 / 安装 / 更新 / 下载；三源同步（官方应用中心 / FnDepot / fnos-apps）与 14 领域智能归类；30+ 事件 × 7 渠道通知推送；GitHub 加速与应用内自更新。本仓库收录自研官方 Release 原包（x86 / arm），完整源码见 [moo](https://github.com/Blue-Mink/moo)（MIT）。
+飞牛 NAS 上的第三方应用中心：聚合应用浏览 / 安装 / 更新 / 下载；三源同步（官方应用中心 / FnDepot / fnos-apps）与 13 领域智能归类；30+ 事件 × 7 渠道通知推送；GitHub 加速与应用内自更新。本仓库收录自研官方 Release 原包（x86 / arm），完整源码见 [moo](https://github.com/Blue-Mink/moo)（MIT）。
 
 <br/>
 
 <div align="center">
 
-[![Moo](https://img.shields.io/badge/Moo-v0.6.552-blue?style=flat-square)](https://github.com/Blue-Mink/moo/releases/tag/v0.6.552) [![Platform](https://img.shields.io/badge/Platform-x86__64%2Farm64-lightgrey?style=flat-square)](#)
+[![Moo](https://img.shields.io/badge/Moo-v0.6.566-blue?style=flat-square)](https://github.com/Blue-Mink/moo/releases/tag/v0.6.566) [![Platform](https://img.shields.io/badge/Platform-x86__64%2Farm64-lightgrey?style=flat-square)](#)
 
 </div>
 
@@ -336,7 +336,7 @@ AMD Ryzen APU 功耗监控与功耗限制控制：读取功耗墙（STAPM / PPT 
 | 👨‍💻 **开发者** | [Blue-Mink](https://github.com/Blue-Mink) |
 | 📁 **项目** | [moo](https://github.com/Blue-Mink/moo)（开源，MIT 许可） |
 | 📥 **安装方式** | 在飞牛 FnDepot 直接添加本源，客户端中搜索「Moo」即可安装 |
-| 🏷️ **版本** | v0.6.552（x86 / arm） |
+| 🏷️ **版本** | v0.6.566（x86 / arm） |
 | 🌐 **入口** | 面板网关 `/app/moo/`（调试端口 38100） |
 | 📖 **详细说明** | [moo/README.md](moo/README.md) |
 
@@ -378,7 +378,7 @@ Moo 的伴侣应用：把任意第三方 GitHub 仓库变成你自己的飞牛�
 
 <div align="center">
 
-[![Moo Mate](https://img.shields.io/badge/Moo%20Mate-v0.2.73-blue?style=flat-square)](https://github.com/Blue-Mink/moo/releases/tag/mate-v0.2.73) [![Platform](https://img.shields.io/badge/Platform-x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
+[![Moo Mate](https://img.shields.io/badge/Moo%20Mate-v0.2.76-blue?style=flat-square)](https://github.com/Blue-Mink/moo/releases/tag/mate-v0.2.76) [![Platform](https://img.shields.io/badge/Platform-x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
 
 </div>
 
@@ -388,8 +388,8 @@ Moo 的伴侣应用：把任意第三方 GitHub 仓库变成你自己的飞牛�
 | :--- | :--- |
 | 👨‍💻 **开发者** | [Blue-Mink](https://github.com/Blue-Mink) |
 | 📁 **项目** | [moo](https://github.com/Blue-Mink/moo)（`cmd/moo-mate`，MIT 许可） |
-| 📥 **安装方式** | 在 FnDepot 添加本源后搜索「Moo Mate」；或直接下载 [x86](https://github.com/Blue-Mink/moo/releases/download/mate-v0.2.73/moo-mate_0.2.73_x86.fpk) / [arm64](https://github.com/Blue-Mink/moo/releases/download/mate-v0.2.73/moo-mate_0.2.73_arm.fpk)（附 `.sha256` 校验）手动安装 |
-| 🏷️ **版本** | v0.2.73（x86 / arm） |
+| 📥 **安装方式** | 在 FnDepot 添加本源后搜索「Moo Mate」；或直接下载 [x86](https://github.com/Blue-Mink/moo/releases/download/mate-v0.2.76/moo-mate_0.2.76_x86.fpk) / [arm64](https://github.com/Blue-Mink/moo/releases/download/mate-v0.2.76/moo-mate_0.2.76_arm.fpk)（附 `.sha256` 校验）手动安装 |
+| 🏷️ **版本** | v0.2.76（x86 / arm） |
 | 🌐 **入口** | 面板网关 `/app/moo-mate/`（本机回环端口 38108） |
 | 📖 **详细说明** | [moo-mate/README.md](moo-mate/README.md) |
 

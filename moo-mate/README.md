@@ -6,10 +6,10 @@ Moo 的伴侣工具 —— **免上传的飞牛（fnOS）应用源生成器**。
 
 | 项 | 值 |
 |---|---|
-| 版本 | 0.2.73 |
+| 版本 | 0.2.76 |
 | 平台 | x86 / arm |
 | 端口 | 38108（仅本机回环，经飞牛面板网关访问） |
-| 包来源 | GitHub Release `mate-v0.2.73` |
+| 包来源 | GitHub Release `mate-v0.2.76` |
 | 维护者 | [Blue-Mink](https://github.com/Blue-Mink) |
 | 许可 | MIT |
 
@@ -47,7 +47,7 @@ Moo 的伴侣工具 —— **免上传的飞牛（fnOS）应用源生成器**。
 
 1. **Moo 商店**：在 Moo 里添加源 `https://raw.githubusercontent.com/Blue-Mink/moo/main/moo.json`，搜索「Moo Mate」安装。
 2. **FnDepot 源**：添加源 `https://raw.githubusercontent.com/Blue-Mink/FnDepot/main/fnpack.json`，在列表中找到 Moo Mate。
-3. **手动**：下载 `moo-mate_0.2.73_x86.fpk`（或 `moo-mate_0.2.73_arm.fpk`）与同名 `.sha256` 校验后在飞牛应用中心手动安装。
+3. **手动**：下载 `moo-mate_0.2.76_x86.fpk`（或 `moo-mate_0.2.76_arm.fpk`）与同名 `.sha256` 校验后在飞牛应用中心手动安装。
 
 ## 首次使用
 
