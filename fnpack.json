@@ -833,22 +833,6 @@
       "is_docker": false,
       "service_port": "36140",
       "releases": {
-        "1.1.23": {
-          "packages": {
-            "x86": {
-              "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/magpie-v1.1.23/magpie-1.1.23-fnos-amd64.fpk",
-              "sha256": "594a3f4cc36b9f5087c3656f5e313f0ce9701c9e190e4e80cb322b9fe2a780b3",
-              "size": 31415926
-            },
-            "arm": {
-              "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/magpie-v1.1.23/magpie-1.1.23-fnos-arm64.fpk",
-              "sha256": "032303a84385ec692b4054d4661591ba716cbe0cbcf7b14d4d76559d28eb37fa",
-              "size": 29331160
-            }
-          },
-          "changelog": "1.1.23：向导简化（只留 Magpie 端口，网关端口自动 +1）；静态资源 immutable 缓存修打开卡慢；1.1.22：移除桌面 Magpie API 入口；1.1.21：Magpie API 入口改统一网关 iframe；1.1.20：修复统一网关写操作 403",
-          "updated_at": "2026-11-11T01:30:00Z"
-        },
         "1.1.19": {
           "packages": {
             "x86": {
