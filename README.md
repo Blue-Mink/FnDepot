@@ -65,7 +65,7 @@ Go 单二进制原生在线电台应用（无 Docker、无 Python 依赖，前�
 | 📥 **安装方式** | 在飞牛 FnDepot 直接添加本源，客户端中搜索「世界之声」即可安装 |
 | 🏷️ **版本** | v0.0.63（全高清翠绿青柠图标 + 设置页留白修复 + 港澳台归属中国电台 + 32 极简台标） |
 | 🌐 **服务端口** | 32610（可与「全球电台」32678 同机共存） |
-| 📖 **详细说明** | [fnradio/README.md](fnradio/README.md) |
+| 📖 **详细说明** | [世界之声 README](https://github.com/Blue-Mink/fnradio#readme) |
 
 ---
 
