@@ -4,7 +4,7 @@
     "name": "Blue-Mink 应用源",
     "author": "Blue-Mink",
     "homepage": "https://github.com/Blue-Mink/FnDepot",
-    "description": "Blue-Mink 维护的 fnOS 应用源：15 个应用多版本索引（V2 协议）。"
+    "description": "Blue-Mink 维护的 fnOS 应用源：16 个应用多版本索引（V2 协议）。"
   },
   "apps": {
     "global-radio": {
@@ -51,6 +51,51 @@
           "updated_at": "2026-09-13T10:54:24Z"
         }
       }
+    },
+    "fnradio": {
+      "display_name": "世界之声",
+      "desc": "Go 单二进制原生在线电台应用（无 Docker、无 Python 依赖，前端内嵌），支持搜索、播放、收藏、历史、主题与多语言，桌面入口走飞牛统一网关（/app/fnradio/）。已打通飞牛音乐：电台同步进「歌单」，按流派/标签/国家分类，登录飞牛即可收听直播流（境外电台受网络影响，可用本应用直连）。安装/卸载向导可设端口与数据目录。与「飞牛音源扩展」可共存，socket 自动链式接入、配置互不删除。",
+      "platform": [
+        "x86",
+        "arm"
+      ],
+      "categories": [
+        "影音娱乐"
+      ],
+      "icon_url": "https://raw.githubusercontent.com/Blue-Mink/FnDepot/main/fnradio/ICON.PNG",
+      "readme_url": "https://raw.githubusercontent.com/Blue-Mink/FnDepot/main/fnradio/README.md",
+      "bug_report_url": "https://github.com/Blue-Mink/fnradio/issues",
+      "maintainer": "Blue-Mink",
+      "maintainer_url": "https://github.com/Blue-Mink",
+      "distributor": "Blue-Mink",
+      "distributor_url": "https://github.com/Blue-Mink/FnDepot",
+      "run_as": "root",
+      "install_type": "root",
+      "is_docker": false,
+      "service_port": "32610",
+      "releases": {
+        "0.0.63": {
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/Blue-Mink/fnradio/releases/download/v0.0.63/fnradio-0.0.63-fnos-amd64.fpk",
+              "sha256": "a453acf7c1d97e8f8f842802c81e7c28e0fe695d07c875ed8be45b46de6c55d0",
+              "size": 4448606
+            },
+            "arm": {
+              "download_url": "https://github.com/Blue-Mink/fnradio/releases/download/v0.0.63/fnradio-0.0.63-fnos-arm64.fpk",
+              "sha256": "18ea09c4583ec9dc552439b390a4f4b51e0b254d7b46999c0338efeaabf0c984",
+              "size": 4073195
+            }
+          },
+          "changelog": "0.0.63：网页端设置页去掉下拉到底的长空白；图标全部换为翠绿青柠 640 全高清版（全槽位同一张母版，SVG 真源入库）。0.0.62：台湾分组图标重绘为阿里山极简风景并裁剪不溢出；香港/澳门从「国家」标签移除并入中国电台源；「检查更新」改为关于页就地显示。0.0.59：飞牛安卓 App 边缘滑动返回改为应用内逐级返回。0.0.58：手机端音量条支持触摸拖动。0.0.55：飞牛音乐侧补齐中国电台分组（两侧标签列表完整一致）。0.0.54：中国电台分组图标改为 32 个极简重绘台标。0.0.46：端口改 32610；修复浪漫图标畸形、补齐缺失标签图标、语种专属徽章、年代数字放大。",
+          "updated_at": "2026-11-22T20:16:21Z"
+        }
+      },
+      "preview_urls": [
+        "https://raw.githubusercontent.com/Blue-Mink/FnDepot/main/fnradio/docs/readme-pc-home.png",
+        "https://raw.githubusercontent.com/Blue-Mink/FnDepot/main/fnradio/docs/readme-mobile-cn.png",
+        "https://raw.githubusercontent.com/Blue-Mink/FnDepot/main/fnradio/docs/readme-music-tags.png"
+      ]
     },
     "KmsActivator": {
       "display_name": "KMS Activator",
@@ -767,7 +812,7 @@
     },
     "magpie": {
       "display_name": "Magpie",
-      "desc": "AI 模型统一网关（基于上游 yetone/magpie 打包）：把多家模型供应商接入一个 OpenAI 兼容端点，支持路由组与故障回退、按调用密钥限定可用模型、用量统计；单进程同时提供网关与浏览器控制台，桌面双入口（Magpie 控制台 / Magpie API，说明页列出全部网关密钥），并接入飞牛统一网关 /app/magpie/。支持 amd64 与 arm64。",
+      "desc": "AI 模型统一网关（基于上游 yetone/magpie 打包）：把多家模型供应商接入一个 OpenAI 兼容端点，支持路由组与故障回退、按调用密钥限定可用模型、用量统计；单进程同时提供网关与浏览器控制台，接入飞牛统一网关 /app/magpie/，网关地址/调用密钥/模型列表/调用记录见控制台 Gateway 视图。支持 amd64 与 arm64。",
       "platform": [
         "x86",
         "arm"
@@ -788,6 +833,22 @@
       "is_docker": false,
       "service_port": "36140",
       "releases": {
+        "1.1.23": {
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/magpie-v1.1.23/magpie-1.1.23-fnos-amd64.fpk",
+              "sha256": "594a3f4cc36b9f5087c3656f5e313f0ce9701c9e190e4e80cb322b9fe2a780b3",
+              "size": 31415926
+            },
+            "arm": {
+              "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/magpie-v1.1.23/magpie-1.1.23-fnos-arm64.fpk",
+              "sha256": "032303a84385ec692b4054d4661591ba716cbe0cbcf7b14d4d76559d28eb37fa",
+              "size": 29331160
+            }
+          },
+          "changelog": "1.1.23：向导简化（只留 Magpie 端口，网关端口自动 +1）；静态资源 immutable 缓存修打开卡慢；1.1.22：移除桌面 Magpie API 入口；1.1.21：Magpie API 入口改统一网关 iframe；1.1.20：修复统一网关写操作 403",
+          "updated_at": "2026-11-11T01:30:00Z"
+        },
         "1.1.19": {
           "packages": {
             "x86": {
