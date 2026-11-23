@@ -851,7 +851,7 @@
     },
     "moo-mate": {
       "display_name": "Moo Mate",
-      "desc": "Moo 的伴侣应用：把任意第三方 GitHub 仓库变成你自己的飞牛应用源——贴链接即自动发现应用（含 release 与仓库内 server-data/apps 目录）、生成 moo.json 索引并本机托管，一键加源到本机 Moo，全程不必上传 GitHub；数据目录与备份目录可选并支持热切换，内置备份与恢复、应用日志与图标自动补齐，GitHub Token 自动复用 Moo 侧配置。",
+      "desc": "Moo 的伴侣工具：粘贴第三方 GitHub 仓库链接，自动发现其中的飞牛应用并生成 moo.json 索引，本机托管、一键加源到 Moo（无需上传 GitHub）；支持仓库目录形态、图标自动补齐、应用日志与数据备份 / 恢复，GitHub Token 自动复用 Moo 的设置。",
       "platform": [
         "x86",
         "arm"
