@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Blue-Mink/moo/releases/latest"><img alt="FPK" src="https://img.shields.io/badge/FPK-0.6.566-2563eb?style=flat-square"></a>
+  <a href="https://github.com/Blue-Mink/moo/releases/latest"><img alt="FPK" src="https://img.shields.io/badge/FPK-0.6.579-2563eb?style=flat-square"></a>
   <img alt="Go" src="https://img.shields.io/badge/Go-single_binary-00add8?style=flat-square&logo=go&logoColor=white">
   <img alt="Platform" src="https://img.shields.io/badge/fnOS-x86__64_%7C_arm64-7c3aed?style=flat-square">
   <a href="https://github.com/Blue-Mink/moo/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/License-MIT-111827?style=flat-square"></a>
@@ -58,12 +58,12 @@
 
 | # | 做什么 | 说明 |
 | --- | --- | --- |
-| 1 | [下载 FPK](https://github.com/Blue-Mink/moo/releases/latest) | 当前 `0.6.566` · x86 `63bba70b196b581f231f743c8128ac7aef32ef46ced5ccc2fe366f50973f68ac`（5.22MB） / arm `8a00c22e1e72072869799e766816f6ff33869b9588d4e5e1168cf65bd818865a`（4.73MB） |
+| 1 | [下载 FPK](https://github.com/Blue-Mink/moo/releases/latest) | 当前 `0.6.579` · x86 `51fc4c57a2e144827cc1f7a29da7543acdfb381f2cea4c823ac002d336eec578`（5.29MB） / arm `de56021226b05cb03ee14562146eea4ec217f8f7714cb6d50840b1948c0f38c1`（4.80MB） |
 | 2 | 应用中心 → 手动安装 | 向导可选 Web 端口（默认 `38100`） |
 | 3 | 面板打开 `/app/moo/` | 统一网关入口，继承面板登录 + 仅管理员 |
 | 4 | （可选）配置推送渠道 | 设置 → 通知设置：企业微信 / 钉钉 / 飞书等 7 种外部渠道 |
 
-运行要求：fnOS x86_64 / arm64。无其他依赖——后端 Go 单二进制（web embed），前端构建后内嵌，整包约 5.1 MB（x86）/ 4.6 MB（arm）。
+运行要求：fnOS x86_64 / arm64。无其他依赖——后端 Go 单二进制（web embed），前端构建后内嵌，整包约 5.3 MB（x86）/ 4.8 MB（arm）。
 
 > [!TIP]
 > 装完可应用内自更新：版本号红点 + 确认框，走平台升级通道就地更新，`@appdata` 数据保留。
