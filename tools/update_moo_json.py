@@ -111,7 +111,12 @@ def read_fpk(path):
             for line in (m.read().decode("utf-8", "replace").splitlines() if m else []):
                 if "=" in line and not line.strip().startswith("#"):
                     k, v = line.split("=", 1)
-                    info[k.strip()] = v.strip()
+                    v = v.strip()
+                    # 官方 FPK 的 manifest 用 key="value" 带引号（自建包不带）；
+                    # 统一去引号，否则 appname/platform 会带 " 导致匹配失败。
+                    if len(v) >= 2 and v[0] == v[-1] and v[0] in "\"'":
+                        v = v[1:-1]
+                    info[k.strip()] = v
     except SystemExit:
         raise
     except Exception as e:  # noqa: BLE001
