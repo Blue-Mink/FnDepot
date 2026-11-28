@@ -352,6 +352,24 @@
       "is_docker": false,
       "service_port": "37717",
       "releases": {
+        "1.3.16": {
+          "updated_at": "2026-11-28T06:10:00+08:00",
+          "changelog": "KSpeeder 引擎版本改为清单驱动、运行时自动获取最新版：以后只需更新清单即可切换推荐引擎版本，无需重装 Dog-dev。\n下载带 sha256 与大小双重校验、30 分钟缓存；清单暂不可用时自动回退本地缓存与内置地址，不影响正常使用。",
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/Blue-Mink/dog-dev/releases/download/v1.3.16/dog-dev_1.3.16_x86.fpk",
+              "sha256": "831545a9519f5020a26e5a2d688e96f74c487285f70a5d066173118bead7bdda",
+              "size": 4806532,
+              "size_mb": 4.81
+            },
+            "arm": {
+              "download_url": "https://github.com/Blue-Mink/dog-dev/releases/download/v1.3.16/dog-dev_1.3.16_arm.fpk",
+              "sha256": "5d19d43bf539be3dcef610ba49a1b5fd484d436b5dbff68a5ed9a1429c7840c5",
+              "size": 4423472,
+              "size_mb": 4.42
+            }
+          }
+        },
         "1.3.12": {
           "updated_at": "2026-11-01T07:40:00+08:00",
           "changelog": "DNS 优选候选池扩充：新增 Cloudflare / Google / Quad9 海外 DoH，并内置 GitHub 官方 IP 兜底（不再只信国内 DoH 回的那一个 IP）\n优选全失败时清空 hosts 托管区并回落系统 DNS（原来会把死 IP 留在 hosts 里直到进程重启）\n托管 IP 每 5 分钟健康复检，连续两轮失败立即重选；未达阈值时下一轮提前到 1 分钟\n修复「判死的域名整条消失」：重选改用独立预算，不再被复检自身的超时截断\n同步修正 CA 证书信任、内置加速源清单与镜像池配置",
