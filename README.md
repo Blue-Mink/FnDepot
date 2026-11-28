@@ -43,6 +43,31 @@
 
 ---
 
+### 📻 世界之声 (fnradio)
+
+Go 单二进制原生在线电台应用（无 Docker、无 Python 依赖，前端内嵌），支持搜索、播放、收藏、历史、主题与多语言。已打通飞牛音乐：电台同步进「歌单」，流派/标签/国家/年代/语言/中国电台分组一应俱全，登录飞牛即可收听直播流；与「飞牛音源扩展」链式共存，端口 32610 可与「全球电台」同机安装。
+
+<br/>
+
+<div align="center">
+
+[![fnradio](https://img.shields.io/badge/fnradio-v0.0.63-green?style=flat-square)](https://github.com/Blue-Mink/fnradio) [![Platform](https://img.shields.io/badge/Platform-x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
+
+</div>
+
+<br/>
+
+| 项目 | 信息 |
+| :--- | :--- |
+| 👨‍💻 **打包维护** | [Blue-Mink](https://github.com/Blue-Mink) |
+| 📁 **原项目** | [fnradio](https://github.com/Blue-Mink/fnradio) |
+| 📥 **安装方式** | 在飞牛 FnDepot 直接添加本源，客户端中搜索「世界之声」即可安装 |
+| 🏷️ **版本** | v0.0.63（全高清翠绿青柠图标 + 设置页留白修复 + 港澳台归属中国电台 + 32 极简台标） |
+| 🌐 **服务端口** | 32610（可与「全球电台」32678 同机共存） |
+| 📖 **详细说明** | [世界之声 README](https://github.com/Blue-Mink/fnradio#readme) |
+
+---
+
 ### 🔑 KMS Activator
 
 基于 vlmcsd 的局域网 KMS 激活服务，为 Windows / Windows Server / Office 提供批量激活：直接监听标准端口 1688，客户端 `slmgr /skms <NAS IP>` 无需带端口；网页启停与应用中心状态同步，内置 GVLK 密钥表与分步激活指引，支持浅色 / 深色 / 跟随系统主题。
