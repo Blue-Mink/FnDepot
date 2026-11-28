@@ -230,17 +230,6 @@
           },
           "changelog": "冬瓜HAOS v18.2 fnOS FPK：六级IP寻踪(VNC横幅OCR直读)、桌面双图标、管理后台去横幅反代、向导版本下拉。FPK SHA256: ec0fffe3affa790cd1ddbad7ae67b1aca6253612544c078aab62e57d3a80d166 手机端 APK 见 [fnos-vm-dongguaha v18.2](https://github.com/Blue…",
           "updated_at": "2026-09-12T14:32:29Z"
-        },
-        "18.0": {
-          "packages": {
-            "x86": {
-              "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v18.0/com.dongguaha.vm-18.0-fnos-amd64.fpk",
-              "sha256": "09dda4a5cea3b1821fb86d3e8f2ea1ba88ebbf2fe25b1dc3e94b363b854338ce",
-              "size": 83368
-            }
-          },
-          "changelog": "## 冬瓜HAOS FPK v18.0 在 x86 fnOS 系统中创建同架构的冬瓜HAOS虚拟机，享受KVM硬件加速性能。 ### 安装 1. 下载 `com.dongguaha.vm-18.0-fnos-amd64.fpk` 2. 在飞牛NAS应用中心选择「从文件安装」 3. 安装完成后，在「虚拟机」应用中启动/停止虚拟机 4. VNC中查看虚拟机IP，通过 http://虚拟机IP:8123…",
-          "updated_at": "2026-07-26T21:32:58Z"
         }
       }
     },
@@ -327,17 +316,6 @@
           },
           "changelog": "new-api fnOS amd64 root 测试验证版。 SHA256: 65c6842986fdd18d1898e8dc883f42fb3773407244891ce83a8d88a180b27bb1 本版补齐 icon_64.png / icon_256.png 图标兼容文件。 保留旧版本 Release，本次仅替换同 tag 下 rc.27 root 包资产。",
           "updated_at": "2026-08-30T16:49:26Z"
-        },
-        "1.0.0-rc.22": {
-          "packages": {
-            "x86": {
-              "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v1.0.0-rc.22/new-api-v1.0.0-rc.22.fpk",
-              "sha256": "39ca600f61a94a308b25c1eb28c1b94e82770ed1f7a6fde8e629620cc2606580",
-              "size": 59231
-            }
-          },
-          "changelog": "## New API v1.0.0-rc.22 新一代大模型网关与AI资产管理系统，已打包为 fnOS FPK 应用。 ### 安装方式 ```bash appcenter-cli install-fpk new-api-v1.0.0-rc.22.fpk --volume 1 --env <(echo 'wizard_access_port=33000') ``` ### 更新说明 - 首发 fn…",
-          "updated_at": "2026-07-27T10:49:24Z"
         }
       }
     },
@@ -432,22 +410,6 @@
               "size_mb": 4.03
             }
           }
-        },
-        "1.3.8": {
-          "packages": {
-            "x86": {
-              "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/dog-dev-v1.3.8/dog-dev-1.3.8-fnos-amd64.fpk",
-              "sha256": "2901913289aa7b3db7a190dad0f3b5fdee3301f35cb299c18c72650689524ca2",
-              "size": 4593188
-            },
-            "arm": {
-              "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/dog-dev-v1.3.8/dog-dev-1.3.8-fnos-arm64.fpk",
-              "sha256": "08b337a72bdf7dbab78bba60200e2f638b71926a8d894984205324cefe43fb4f",
-              "size": 4210971
-            }
-          },
-          "changelog": "1.3.8 修复重装后系统代理开着但本地 CA 未入系统信任、GitHub HTTPS 降级纯隧道直连超时（安装/升级回调自动补装 CA）。较 1.2.6 累积：飞牛统一网关入口与安装/卸载向导、系统级代理修复（非 GitHub 域名透明透传 + Cloudflare 挑战页换源）、/proxy.pac 与 /api/lan-access 局域网接入、证书安装向导 /ca、Docker 拉取链修复、KSpeeder 改为独立应用依赖",
-          "updated_at": "2026-10-20T09:03:32Z"
         }
       }
     },
@@ -504,50 +466,6 @@
           },
           "changelog": "0.8.7 新增卸载向导——卸载时可选「保留数据」（默认：加速节点配置、证书、日志保留在数据目录，重装原样继承）或「删除数据」（彻底清除本应用全部数据，不可恢复）；0.8.6 管理面板移动端（≤767px）三项体验优化——「Docker 加速配置指南」四个步骤 Tab 纵向逐行排列、「镜像服务器列表」分类 Tab 铺满整行均匀分布、登录页二维码卡片改为上下竖排（移动端不再被裁切溢出）；引擎、端口、桌面端布局与配置目录均不变。",
           "updated_at": "2026-10-20T14:42:00Z"
-        },
-        "0.8.2": {
-          "packages": {
-            "x86": {
-              "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v0.8.2/kspeeder-0.8.2-fnos-amd64.fpk",
-              "sha256": "ec119de65dfe73cd0e4498ba4cba22d10a41ddfad0152995c2c21b65a57d5836",
-              "size": 6536779
-            }
-          },
-          "changelog": "同步引擎至 iStoreEnhance 0.8.2：blob 下载按 100MB 分段、多候选节点并行竞速，某节点传输中断（RST/520）时剩余分段自动换其他节点继续，修复内置节点偶发传输中断导致整层拉取失败的问题；端口、配置与数据目录均不变",
-          "updated_at": "2026-10-04T05:50:43Z"
-        },
-        "0.8.0": {
-          "packages": {
-            "x86": {
-              "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v0.8.0/kspeeder-0.8.0-fnos-amd64.fpk",
-              "sha256": "e636bdb4c20e5c670c592f6e9ff7a4d311728c39710600dcfd497a4a66bc7201",
-              "size": 6527433
-            }
-          },
-          "changelog": "KSpeeder v0.8.0 for fnOS (fnos-amd64) - 引擎同步 iStoreEnhance / KSpeeder v0.8.0 (build 8664) - 新增 kspeeder download 命令与智能下载网关加速（含 Python/pip、Homebrew 加速） - 修复 docker manifest 镜像回源重试与 ghcr bottles 域名问题 - …",
-          "updated_at": "2026-09-11T15:40:07Z"
-        },
-        "0.7.17": {
-          "packages": {
-            "x86": {
-              "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v0.7.17/kspeeder-0.7.17-fnos-amd64.fpk",
-              "sha256": "a1319b742076fd1fee95d31410abb3b2fb294293bea71ba8e9d9a2ba233498a1",
-              "size": 6430379
-            }
-          },
-          "changelog": "KSpeeder v0.7.17 for fnOS - Sync iStoreEnhance / KSpeeder v0.7.17 - Support configurable admin and Docker proxy ports in fnOS App Center - Fix App Center open entry after port changes - Fix service re…",
-          "updated_at": "2026-09-02T09:35:31Z"
-        },
-        "0.7.16": {
-          "packages": {
-            "x86": {
-              "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/v0.7.16/kspeeder-0.7.16-fnos-amd64.fpk",
-              "sha256": "2b61e2f905725886fc296c8aab954985d94fe428884dc4e19d350955f65d05a8",
-              "size": 7890904
-            }
-          },
-          "changelog": "KSpeeder v0.7.16 release - 首发 fnOS 版本 - 修复图标圆角显示问题 - 优化飞牛 fnOS 应用中心适配",
-          "updated_at": "2026-08-29T09:19:32Z"
         }
       }
     },
@@ -683,72 +601,6 @@
           },
           "changelog": "新增：显示CPU核心当前最高运行频率\r\n修改：调整页面UI布局",
           "updated_at": "2026-10-02T02:52:06Z"
-        },
-        "1.0.6": {
-          "packages": {
-            "x86": {
-              "download_url": "https://github.com/LANMIN-X/RyzenAdj-for-fnOS/releases/download/v1.0.6/ryzen-power-control-1.0.6.fpk",
-              "sha256": "d3eb96a8c27b065c09c80e1d05f09c9c320423a4125ae2566eb676807fbf8bc9",
-              "size": 236652
-            }
-          },
-          "changelog": "- 修改：最低可设置功耗由 **10W 降至 2W**（功耗太低可能硬件不接受）\r\n- 修改：全核负载测试停止温度自定义",
-          "updated_at": "2026-10-01T11:16:28Z"
-        },
-        "1.0.5": {
-          "packages": {
-            "x86": {
-              "download_url": "https://github.com/LANMIN-X/RyzenAdj-for-fnOS/releases/download/v1.0.5/ryzen-power-control-1.0.5.fpk",
-              "sha256": "d7c581e957e00536865078ba7fcdb730f22f0d79dd2a3ee245b821a179d374e4",
-              "size": 235417
-            }
-          },
-          "changelog": "- 新增：`ryzen_smu.ko` 模块，并优先加载 `ryzen_smu.ko` 模块，失败则退回 `/dev/mem`。\r\n- 修改：完善错误日志，记录实际读取路径、驱动修复过程及失败原因。\r\n- 修改：完善日志逻辑，每 24 小时自动清理应用日志。",
-          "updated_at": "2026-10-01T08:49:58Z"
-        },
-        "1.0.4": {
-          "packages": {
-            "x86": {
-              "download_url": "https://github.com/LANMIN-X/RyzenAdj-for-fnOS/releases/download/v1.0.4/ryzen-power-control-1.0.4.fpk",
-              "sha256": "1db62b3969db8a33ffc00841a135a48a5c65e5524df3ff4d66475712642222e5",
-              "size": 177564
-            }
-          },
-          "changelog": "更完整的日志判断 `/dev/mem` 回退路径读取异常。",
-          "updated_at": "2026-10-01T03:25:54Z"
-        },
-        "1.0.3": {
-          "packages": {
-            "x86": {
-              "download_url": "https://github.com/LANMIN-X/RyzenAdj-for-fnOS/releases/download/v1.0.3/ryzen-power-control-1.0.3.fpk",
-              "sha256": "8ff71325b2242316381bb53903062363515806f3a659e72b970aea6aadb5c797",
-              "size": 175149
-            }
-          },
-          "changelog": "新增日志下载和新版本提醒。",
-          "updated_at": "2026-09-30T01:56:52Z"
-        },
-        "1.0.2": {
-          "packages": {
-            "x86": {
-              "download_url": "https://github.com/LANMIN-X/RyzenAdj-for-fnOS/releases/download/v1.0.2/ryzen-power-control-1.0.2.fpk",
-              "sha256": "6ff6e73148eeaad2c9cb2666868f6ba135cba676382bb29cbe954fe2ff12f564",
-              "size": 167064
-            }
-          },
-          "changelog": "## 更新内容\n\n- CPU 支持弹窗改为贴近 fnOS 原生 Semi 弹窗样式，显示系统遮罩和应用背景。\n- 未支持处理器弹窗提供“取消”（强制进入）和“反馈问题”操作。\n- 修正功耗限制编辑值的回退逻辑。\n- 应用版本更新至 1.0.2。\n\n安装包：`ryzen-power-control-1.0.2.fpk`",
-          "updated_at": "2026-09-27T14:52:43Z"
-        },
-        "1.0.0": {
-          "packages": {
-            "x86": {
-              "download_url": "https://github.com/LANMIN-X/RyzenAdj-for-fnOS/releases/download/v1.0.0/ryzen-power-control-1.0.0.fpk",
-              "sha256": "6eec3e5e02a0dff18b3f4e3c1308a3ce27cc59eceb0a4c2a5784434935361a6e",
-              "size": 165153
-            }
-          },
-          "changelog": "飞牛 fnOS 安装包。应用版本 1.0.0。",
-          "updated_at": "2026-09-27T13:35:47Z"
         }
       }
     },
@@ -871,33 +723,6 @@
           },
           "changelog": "1.1.14：网关说明页「网关地址」与「默认密钥」加复制按钮；1.1.13：桌面入口改走统一网关 /app/magpie/（修 fn connect 远程跳登录页）；1.1.9：同步上游 v0.1.1635、修正署名为上游开发者 yetone",
           "updated_at": "2026-10-28T00:31:16Z"
-        },
-        "1.1.8": {
-          "packages": {
-            "x86": {
-              "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/magpie-v1.1.8/magpie-1.1.8-fnos-amd64.fpk",
-              "sha256": "d99093558aa031d215a7f895dc18d40ea714194cfc5eb3d7dd705882139f4205",
-              "size": 19780499
-            },
-            "arm": {
-              "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/magpie-v1.1.8/magpie-1.1.8-fnos-arm64.fpk",
-              "sha256": "7c835a8372aa4f64e3877886a80cd455974262d0d48227a6f29183dd0c6afb2c",
-              "size": 18279005
-            }
-          },
-          "changelog": "同步上游版本",
-          "updated_at": "2026-10-22T18:43:13Z"
-        },
-        "1.1.6": {
-          "packages": {
-            "x86": {
-              "download_url": "https://github.com/Blue-Mink/FnDepot/releases/download/magpie-v1.1.6/magpie-1.1.6-fnos-amd64.fpk",
-              "sha256": "8b239dbd2f8f7d40910d5abe0e4222bc0a21aa46e1134d9846871f8ad5f1894c",
-              "size": 19365821
-            }
-          },
-          "changelog": "1.1.6：修统一网关 /app/magpie/ 转发 POST 永久挂起（上游响应为 chunked，边车原先只认 Content-Length），SSE 等流式响应改为边到边转发。",
-          "updated_at": "2026-10-19T12:16:33Z"
         }
       }
     },
