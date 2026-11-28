@@ -1,0 +1,108 @@
+name: Update fnpack.json
+
+# 发 Release 后自动把该应用的新版本写进 FnDepot 的 fnpack.json（V2），
+# 每个应用只保留最近 KEEP 个版本。仓库内自带 tools/update_fnpack.py 与
+# tools/update_moo_json.py 时直接用；否则从 moo 仓 raw 兜底拉取。
+on:
+  release:
+    types: [published, released]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "要同步的 release tag（留空=用触发本次运行的 tag）"
+        required: false
+  repository_dispatch:
+    types: [fnpack-update]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fnpack
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: ${{ github.event_name != 'release' || github.event.release.prerelease == false }}
+    runs-on: ubuntu-latest
+    env:
+      FPK_GLOB: "*.fpk"
+      IDX: "fnpack.json"
+      KEEP: "2"
+      BRANCH: "main"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.BRANCH }}
+
+      - name: Resolve tag / repo
+        id: t
+        run: |
+          TAG="${{ github.event.release.tag_name || inputs.tag || github.event.client_payload.tag }}"
+          REPO="${{ github.event.client_payload.repo || github.repository }}"
+          [ -n "$TAG" ] || { echo "::error::拿不到 tag"; exit 1; }
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+          echo "repo=$REPO" >> "$GITHUB_OUTPUT"
+
+      - name: Wait for FPK assets
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          for i in $(seq 1 18); do
+            n=$(gh release view "${{ steps.t.outputs.tag }}" --repo "${{ steps.t.outputs.repo }}" \
+                  --json assets --jq '[.assets[] | select(.name | endswith(".fpk"))] | length' 2>/dev/null || echo 0)
+            if [ "${n:-0}" -gt 0 ]; then echo "FPK 资产已就绪：$n 个"; exit 0; fi
+            echo "等待 FPK 资产…（$i/18）"; sleep 5
+          done
+          echo "::error::90 秒内没有出现 .fpk 资产"; exit 1
+
+      - name: Download FPK + release body
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p /tmp/fpk
+          gh release download "${{ steps.t.outputs.tag }}" --repo "${{ steps.t.outputs.repo }}" \
+             --pattern "$FPK_GLOB" --dir /tmp/fpk
+          ls -l /tmp/fpk
+          gh release view "${{ steps.t.outputs.tag }}" --repo "${{ steps.t.outputs.repo }}" \
+             --json body --jq '.body // ""' > /tmp/body.md
+          python3 - <<'PY' > /tmp/changelog.txt
+          import re
+          text = open('/tmp/body.md', encoding='utf-8').read().strip()
+          # 优先取「## 更新 / ## 更新内容 / ## Changelog」小节；没有就用正文前 40 行
+          m = re.search(r'(?ms)^##\s*(?:更新内容|更新|changelog)\s*$(.*?)(?=^##\s|\Z)', text)
+          body = m.group(1).strip() if m else '\n'.join(text.splitlines()[:40])
+          print(body[:4000])
+          PY
+
+      - name: Fetch updater
+        run: |
+          for f in update_fnpack.py update_moo_json.py; do
+            if [ -f "tools/$f" ]; then cp "tools/$f" "/tmp/$f"; continue; fi
+            curl -fsSL --connect-timeout 10 --max-time 60 \
+              "https://raw.githubusercontent.com/Blue-Mink/moo/main/tools/$f" -o "/tmp/$f" \
+            || curl -fsSL --connect-timeout 10 --max-time 60 \
+              "https://cdn.jsdelivr.net/gh/Blue-Mink/moo@main/tools/$f" -o "/tmp/$f" \
+            || { echo "::error::取不到 $f（仓库内也没 vendor）"; exit 1; }
+          done
+          python3 /tmp/update_fnpack.py --help >/dev/null
+
+      - name: Update fnpack.json
+        run: |
+          python3 /tmp/update_fnpack.py --index "$IDX" --tag "${{ steps.t.outputs.tag }}" \
+            --fpk /tmp/fpk/*.fpk --keep "$KEEP" --changelog-file /tmp/changelog.txt
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- "$IDX"; then
+            echo "fnpack.json 无变化，跳过提交"; exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$IDX"
+          git commit -m "chore(fnpack): 同步 ${{ steps.t.outputs.tag }} 版本节点"
+          git push origin "HEAD:${BRANCH}" || {
+            echo "::warning::push 失败，rebase 后重试一次"
+            git pull --rebase --autostash origin "${BRANCH}" && git push origin "HEAD:${BRANCH}" \
+              || { echo "::error::仍无法推送（分支保护？）"; exit 1; }
+          }
