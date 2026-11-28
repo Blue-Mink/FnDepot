@@ -4,7 +4,7 @@
     "name": "Blue-Mink 应用源",
     "author": "Blue-Mink",
     "homepage": "https://github.com/Blue-Mink/FnDepot",
-    "description": "Blue-Mink 维护的 fnOS 应用源：15 个应用多版本索引（V2 协议）。"
+    "description": "Blue-Mink 维护的 fnOS 应用源：16 个应用多版本索引（V2 协议）。"
   },
   "apps": {
     "global-radio": {
@@ -931,6 +931,46 @@
         "https://raw.githubusercontent.com/Blue-Mink/moo/main/docs/mate-pc-apps-0260.png",
         "https://raw.githubusercontent.com/Blue-Mink/moo/main/docs/mate-pc-settings-0260.png"
       ]
+    },
+    "gosvg": {
+      "display_name": "GoSvg",
+      "desc": "纯 Go 实现的轻量级 SVG 子集渲染命令行工具集（零 cgo）：把 SVG 渲染为 PNG/JPEG，支持圆形国旗、Lucide 线条图标与带文字图标，像素级对齐 cairosvg。打包为 fnOS 应用，含 gosvg-render / gosvg-verify / gosvg-corpus / gosvg-iou 四个 CLI，无 Web 界面，通过 SSH 调用。",
+      "platform": [
+        "x86",
+        "arm"
+      ],
+      "categories": [
+        "编程开发"
+      ],
+      "icon_url": "https://raw.githubusercontent.com/Blue-Mink/FnDepot/main/gosvg/ICON.PNG",
+      "readme_url": "https://raw.githubusercontent.com/Blue-Mink/FnDepot/main/gosvg/README.md",
+      "bug_report_url": "https://github.com/Blue-Mink/gosvg/issues",
+      "maintainer": "Blue-Mink",
+      "maintainer_url": "https://github.com/Blue-Mink/gosvg",
+      "distributor": "Blue-Mink",
+      "distributor_url": "https://github.com/Blue-Mink/FnDepot",
+      "run_as": "package",
+      "install_type": "",
+      "is_docker": false,
+      "service_port": "",
+      "releases": {
+        "0.5.0": {
+          "updated_at": "2026-11-28T02:29:10Z",
+          "changelog": "0.5.0: 首发收录。纯 Go SVG 渲染 CLI 工具集（含 4 个命令）；同步 v0.5.0 收口文档与 fnOS FPK 打包源，双架构（x86_64 / ARM64）。verify.sh 全量门禁通过，golden 基线逐字节一致。",
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/Blue-Mink/gosvg/releases/download/v0.5.0/gosvg-0.5.0-fnos-amd64.fpk",
+              "sha256": "24f2d5cb85332967bd974c16979eb31358d70c309b7918f8c53e7e15e3b93567",
+              "size": 6404338
+            },
+            "arm": {
+              "download_url": "https://github.com/Blue-Mink/gosvg/releases/download/v0.5.0/gosvg-0.5.0-fnos-arm64.fpk",
+              "sha256": "5830da82dd5a636518b811c7ac88d12197bcfb4b441c379bbf171148b956fd16",
+              "size": 5803994
+            }
+          }
+        }
+      }
     }
   }
 }

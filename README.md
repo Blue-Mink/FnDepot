@@ -395,6 +395,31 @@ Moo 的伴侣工具：粘贴第三方 GitHub 仓库链接，自动发现其中�
 
 ---
 
+### 🛠️ GoSvg (gosvg)
+
+纯 Go 实现的轻量级 SVG 子集渲染命令行工具集，零 cgo、像素级对齐 cairosvg；把 SVG 渲染为 PNG/JPEG，覆盖圆形国旗、Lucide 线条图标与带文字图标，打包为 fnOS 应用（纯 CLI，通过 SSH 调用）。
+
+<br/>
+
+<div align="center">
+
+[![GoSvg](https://img.shields.io/badge/GoSvg-v0.5.0-blue?style=flat-square)](https://github.com/Blue-Mink/gosvg) [![Platform](https://img.shields.io/badge/Platform-x86__64%20%7C%20ARM64-lightgrey?style=flat-square)](#)
+
+</div>
+
+<br/>
+
+| 项目 | 信息 |
+| :--- | :--- |
+| 👨‍💻 **原作者** | [Blue-Mink](https://github.com/Blue-Mink) |
+| 📁 **原项目** | [Blue-Mink/gosvg](https://github.com/Blue-Mink/gosvg) |
+| 📥 **安装方式** | 下载 [gosvg-0.5.0-fnos-amd64.fpk](https://github.com/Blue-Mink/gosvg/releases/download/v0.5.0/gosvg-0.5.0-fnos-amd64.fpk)（x86_64）或 [gosvg-0.5.0-fnos-arm64.fpk](https://github.com/Blue-Mink/gosvg/releases/download/v0.5.0/gosvg-0.5.0-fnos-arm64.fpk)（ARM64）在 fnOS 应用中心手动安装 |
+| 🏷️ **版本** | v0.5.0（x86_64 / ARM64 双架构） |
+| 🌐 **访问方式** | 纯 CLI，SSH 调用（无 Web 端口） |
+| 📖 **详细说明** | [gosvg/README.md](gosvg/README.md) |
+
+---
+
 ## 📄 许可证
 
 本项目遵循 [MIT License](LICENSE) 许可证。
