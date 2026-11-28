@@ -235,7 +235,7 @@ TREK 是一款自托管旅行规划工具，基于 [liketrek/TREK](https://githu
 | :--- | :--- |
 | 👨‍💻 **原作者** | [MisiteQ](https://github.com/MisiteQ) |
 | 📁 **原项目** | [github-plus-plus](https://github.com/MisiteQ/github-plus-plus) |
-| 📥 **安装方式** | 下载 [dog-dev-1.3.16-fnos-amd64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/dog-dev-v1.3.16/dog-dev-1.3.16-fnos-amd64.fpk)（x86）或 [dog-dev-1.3.16-fnos-arm64.fpk](https://github.com/Blue-Mink/FnDepot/releases/download/dog-dev-v1.3.16/dog-dev-1.3.16-fnos-arm64.fpk)（arm64）在 fnOS 应用中心手动安装 |
+| 📥 **安装方式** | 下载 [dog-dev_1.3.16_x86.fpk](https://github.com/Blue-Mink/dog-dev/releases/download/v1.3.16/dog-dev_1.3.16_x86.fpk)（x86）或 [dog-dev_1.3.16_arm.fpk](https://github.com/Blue-Mink/dog-dev/releases/download/v1.3.16/dog-dev_1.3.16_arm.fpk)（arm64）在 fnOS 应用中心手动安装 |
 | 🏷️ **版本** | v1.3.16 |
 | 🌐 **默认端口** | 代理 37710 / 控制台 37717 |
 | 📖 **详细说明** | [dog-dev/README.md](dog-dev/README.md) |

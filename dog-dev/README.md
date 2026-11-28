@@ -7,7 +7,7 @@
 | | |
 |---|---|
 | 包版本 | **v1.3.16** |
-| FPK | [amd64](https://github.com/Blue-Mink/FnDepot/releases/download/dog-dev-v1.3.16/dog-dev-1.3.12-fnos-amd64.fpk) / [arm64](https://github.com/Blue-Mink/FnDepot/releases/download/dog-dev-v1.3.16/dog-dev-1.3.12-fnos-arm64.fpk) |
+| FPK | [amd64](https://github.com/Blue-Mink/dog-dev/releases/download/v1.3.16/dog-dev_1.3.16_x86.fpk) / [arm64](https://github.com/Blue-Mink/dog-dev/releases/download/v1.3.16/dog-dev_1.3.16_arm.fpk) |
 | SHA256 | 同目录 `fpk.sha256` |
 | 默认端口 | 代理 37710 / 控制台 37717 |
 | 原项目 | [MisiteQ/github-plus-plus](https://github.com/MisiteQ/github-plus-plus) |
